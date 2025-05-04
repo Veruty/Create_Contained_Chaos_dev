@@ -1,3 +1,4 @@
+// test
 ServerEvents.recipes(e => {
 	e.remove({ id: 'ad_astra:recipes/nasa_workbench' })
 	e.recipes.create.mechanical_crafting('ad_astra:nasa_workbench', [
