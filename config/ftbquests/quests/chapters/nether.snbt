@@ -1,0 +1,60 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "4BCA08601609B5F5"
+	icon: "minecraft:netherrack"
+	id: "21C97588FE9F5FD5"
+	order_index: 1
+	quest_links: [
+		{
+			id: "510FB404DB3DB51D"
+			linked_quest: "015431AF0A5996BD"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "613FFA815B7D2D78"
+			linked_quest: "69AFBCB81781D8C4"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "2C817C0EAB966788"
+			linked_quest: "0411ED0767B20251"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "1776511BAD3D40FD"
+			linked_quest: "2836704E36180258"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "1AADAA5835C4075E"
+			linked_quest: "061CA8B8F6F9B574"
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	quests: [{
+		dependencies: ["015431AF0A5996BD"]
+		description: [
+			"Getting to the brass age means you need to make brass. But to make brass, you need a way to supply heat to a mixer. To do that, you need a Blaze Burner."
+			""
+			"Find a Nether Fortress and bring an empty blaze burner with you so you can capture a blaze inside it and bring it back to the Overworld."
+		]
+		icon: "minecraft:nether_bricks"
+		id: "62675A010097C976"
+		tasks: [{
+			id: "605C83102E4C6D3E"
+			structure: "betterfortresses:fortress"
+			type: "structure"
+		}]
+		title: "Finding a Fortress"
+		x: 0.0d
+		y: -1.5d
+	}]
+	title: "Nether"
+}

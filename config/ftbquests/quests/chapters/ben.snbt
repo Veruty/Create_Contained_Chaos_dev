@@ -1,0 +1,144 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ben"
+	group: "37BAA532886F195A"
+	icon: "mekanism:digital_miner"
+	id: "6403869D88783A24"
+	order_index: 2
+	quest_links: [
+		{
+			id: "2EBDB85CE6CF40A6"
+			linked_quest: "26D579BACDB8DD90"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "1D3932C2FE55DE86"
+			linked_quest: "13FBC17283BA0E53"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "15889E2E0A37B954"
+			linked_quest: "05D2DA6C4AACB4A2"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "780D93C783EDDAA2"
+			linked_quest: "03524C8291BA941F"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "02D55ABE7B3D7DDB"
+			linked_quest: "4882C29ACF76E6CD"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "6B0C0C96471DD528"
+			linked_quest: "6BD8ADA2F4C73784"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "121D49CAFCD2AEF7"
+			linked_quest: "08E13E7BE1D8864D"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "16B1AF1262DC9FD6"
+			linked_quest: "37B06FC941C75A60"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "781344F2EB2D489C"
+			linked_quest: "080565A0F0AB7CC7"
+			x: -4.0d
+			y: 2.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"26D579BACDB8DD90"
+				"4882C29ACF76E6CD"
+				"05D2DA6C4AACB4A2"
+				"03524C8291BA941F"
+				"6A2DDF83428FB8B7"
+				"339D55A5E9DA09A0"
+			]
+			description: ["{quest.ben.3.desc}"]
+			hide_until_deps_visible: true
+			id: "1C9F4A10CEFB57EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EA5631A60CFAB40"
+				table_id: 4603381174215464974L
+				type: "random"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "3DC00345A9697F84"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "{quest.ben.3.title}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"13FBC17283BA0E53"
+				"03524C8291BA941F"
+				"6BD8ADA2F4C73784"
+				"080565A0F0AB7CC7"
+				"08E13E7BE1D8864D"
+			]
+			description: ["{quest.ben.2.desc}"]
+			hide_until_deps_visible: true
+			id: "6A2DDF83428FB8B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DB028E156BA6180"
+				table_id: 4603381174215464974L
+				type: "random"
+			}]
+			tasks: [{
+				id: "53C1B4BC11B37F75"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			title: "{quest.ben.2.title}"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05D2DA6C4AACB4A2"]
+			description: ["{quest.ben.1.desc}"]
+			hide_dependency_lines: true
+			id: "339D55A5E9DA09A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "562DD2359D72E2C0"
+				table_id: 3755101900932477118L
+				type: "random"
+			}]
+			subtitle: "{quest.ben.1.subtitle}"
+			tasks: [{
+				id: "73048F0677091A80"
+				title: "ben?"
+				type: "checkmark"
+			}]
+			title: "{quest.ben.1.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "Ben"
+}

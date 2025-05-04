@@ -1,0 +1,667 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_brass_age"
+	group: "3C9C2CEF96DB5B0C"
+	icon: "create:brass_ingot"
+	id: "5DC2A461D38C628B"
+	order_index: 2
+	quest_links: [
+		{
+			id: "2441366EA4EA2F56"
+			linked_quest: "2A6F014969A34A39"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "57D0D2EFD4D96AC9"
+			linked_quest: "3C000001D46F4ADA"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "49963C388365B774"
+			linked_quest: "092216D2A1FCF195"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "3E26D8F86B1BC4A7"
+			linked_quest: "029B00D43DBDAC31"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "497461186F64E53F"
+			linked_quest: "0EA100C9B7F40DA8"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "06B716E0E4779A3C"
+			linked_quest: "012E5C57E8EAA019"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "67CFBE445EE3E1FD"
+			linked_quest: "4557E86F1F23C768"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "79B9A10620A37417"
+			linked_quest: "67B70624E29E7DC5"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "14D0E97B41850026"
+			linked_quest: "4C9C07C9E763E09F"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "6741C31EB7FF5662"
+			linked_quest: "3B3B85000FE90F48"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "565BAA26D4627F0A"
+			linked_quest: "074E60C5E08AC196"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			id: "2906507B1B3F90DC"
+			linked_quest: "0119FD05D079A9C6"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			id: "57922FA7C9501E10"
+			linked_quest: "33CD74E3EBB1CDA2"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "4DC5A85C179EC3D4"
+			linked_quest: "7A4BC7F04F299C6F"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "6520356DD83EBDF3"
+			linked_quest: "339F9F69D4B55CAE"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "6D52F579FF0ED982"
+			linked_quest: "47336215995690E2"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "2DB0FE356E4D8BEE"
+			linked_quest: "7A1F34937EA901B5"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "6138B38F9F6942A8"
+			linked_quest: "51C89123D2B87194"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "07BA15A437C5629B"
+			linked_quest: "0649B9130B8D68CF"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "2466607109898503"
+			linked_quest: "74E7CE1E07DB4CD1"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "3AA83F3856B455FB"
+			linked_quest: "4950388DA29EB945"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "2FA4729095E2EAC1"
+			linked_quest: "2532C79C4742628A"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "09076BFDCC4ACD4A"
+			linked_quest: "5C63BB5B11F05053"
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			id: "6883D933CC7BBCA3"
+			linked_quest: "5F412B939501E126"
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			id: "43F72581CA44A516"
+			linked_quest: "015431AF0A5996BD"
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			id: "76FDC89E5E1D22CE"
+			linked_quest: "40111A64FF3CE372"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "29F4E4DFAC015CB7"
+			linked_quest: "65DE15594598930C"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			id: "6AA48B6ED2F77711"
+			linked_quest: "2125E96C8BF3DC0C"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			id: "4F01669ED09CB9EA"
+			linked_quest: "69AFBCB81781D8C4"
+			x: 9.5d
+			y: -5.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"1D1FE294A7E4C824"
+				"3DD8F79E6FCD8697"
+			]
+			description: ["Deployers are a useful piece of Brass Age technology that allow you to automate actions that can normally only be performed by a player, such as attacking mobs and shearing sheep. They are also used for automating certain items."]
+			disable_toast: true
+			icon: "create:deployer"
+			id: "076FD8FF5C884BEF"
+			tasks: [{
+				id: "75B5375C13FD9266"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Deployers"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["076FD8FF5C884BEF"]
+			description: ["Precision Mechanisms are made in a Sequenced Assembly with Deployers, and are used for crafting various machines."]
+			disable_toast: true
+			icon: "create:precision_mechanism"
+			id: "558178D79A181CAD"
+			tasks: [{
+				id: "18E4970DC5D618B4"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Precision Mechanisms"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A1FAA8AFF2B1DC1"]
+			description: ["Mechanical Crafters are Brass Age blocks that can be placed next to each other to form a crafting grid. Some items require a larger crafting grid and can only be made with Mechanical Crafters, like a Crushing Wheel for example."]
+			disable_toast: true
+			icon: "create:mechanical_crafter"
+			id: "5B073DB6C4609529"
+			tasks: [{
+				count: 3L
+				id: "54A96CCAE5CD9E5D"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Mechanical Crafters"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"558178D79A181CAD"
+				"259D1602E7F5F3FF"
+			]
+			description: ["Mechanical Arms are made with a Precision Mechanism and a few other things, and are very useful for automation. They can be set to pick up items from sources and put them somewhere else."]
+			disable_toast: true
+			icon: "create:mechanical_arm"
+			id: "68156D92EAC1E80C"
+			tasks: [{
+				id: "532D083D0573D006"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "Mechanical Arms"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B073DB6C4609529"]
+			hide_until_deps_visible: true
+			id: "4BCDA1E23D59D3DA"
+			tasks: [{
+				count: 2L
+				id: "5087769155252209"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "The Rolling Stones"
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["69AFBCB81781D8C4"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "050761B2656D533D"
+			tasks: [{
+				id: "62907323868115BC"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"050761B2656D533D"
+				"3C000001D46F4ADA"
+			]
+			id: "62E36E0488B38500"
+			tasks: [{
+				id: "7EEC342BC4FE97AA"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"62E36E0488B38500"
+				"74837414C3A22899"
+			]
+			id: "1D1FE294A7E4C824"
+			tasks: [{
+				id: "2EDDF6C73F90752B"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2A6F014969A34A39"
+				"1D1FE294A7E4C824"
+				"092216D2A1FCF195"
+			]
+			id: "321E0F44F377A44A"
+			tasks: [{
+				count: 2L
+				id: "3FA45DAB847992CC"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2A6F014969A34A39"
+				"1D1FE294A7E4C824"
+				"092216D2A1FCF195"
+			]
+			id: "3D9191B0FBD9A981"
+			tasks: [{
+				count: 2L
+				id: "5010592B7A76D2FC"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7F1FC387AB804DD8"
+				"2A6F014969A34A39"
+			]
+			hide_until_deps_visible: true
+			id: "259D1602E7F5F3FF"
+			tasks: [{
+				id: "19257681680F2816"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["259D1602E7F5F3FF"]
+			id: "3DD8F79E6FCD8697"
+			tasks: [{
+				id: "283895A3A5546C58"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A1FAA8AFF2B1DC1"]
+			id: "1A8759CE1369E547"
+			tasks: [{
+				id: "62CB7152514A805A"
+				item: "create:clockwork_bearing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A1FAA8AFF2B1DC1"]
+			id: "23032D6CB88B7962"
+			tasks: [{
+				id: "06A0453E96063A4D"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A1FAA8AFF2B1DC1"]
+			id: "4773C75AC3284D11"
+			tasks: [{
+				id: "787D5E9197768A72"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A1FAA8AFF2B1DC1"]
+			id: "2A1E6E90792253B6"
+			tasks: [{
+				id: "61CC3CF58E689E5F"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4A1FAA8AFF2B1DC1"
+				"4557E86F1F23C768"
+			]
+			hide_until_deps_visible: true
+			id: "42402A4EA11ECC56"
+			tasks: [{
+				id: "4EB8345C9465F0C5"
+				item: "create:display_link"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2A6F014969A34A39"]
+			id: "4A1FAA8AFF2B1DC1"
+			tasks: [{
+				id: "35E6DB5EDCD13324"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"259D1602E7F5F3FF"
+				"1D1FE294A7E4C824"
+				"09E1A509BAB3545C"
+			]
+			id: "55283B0FA3ADACD7"
+			tasks: [{
+				id: "40C9EA9769652784"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["259D1602E7F5F3FF"]
+			id: "77E59C3D6FB9EF08"
+			tasks: [{
+				id: "123D1422DC8F850B"
+				item: "create:pulse_timer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["259D1602E7F5F3FF"]
+			id: "32C0C49550EC7745"
+			tasks: [{
+				id: "6C6C5C8913703033"
+				item: "create:pulse_extender"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["259D1602E7F5F3FF"]
+			id: "04FA4D2FAC4A079B"
+			tasks: [{
+				id: "7BAECCB93AD9F93E"
+				item: "create:pulse_repeater"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["012E5C57E8EAA019"]
+			id: "2363A8A58DA20C6B"
+			tasks: [{
+				id: "601909B818299AF0"
+				item: "create:haunted_bell"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["558178D79A181CAD"]
+			id: "026F2F0FB273125A"
+			tasks: [{
+				id: "4C65E682F3BDE087"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["558178D79A181CAD"]
+			id: "333DD3BADCBA64AC"
+			tasks: [{
+				count: 2L
+				id: "33380B7B27017943"
+				item: "create:factory_gauge"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1D1FE294A7E4C824"
+				"074E60C5E08AC196"
+			]
+			id: "105461943A1C44CE"
+			tasks: [{
+				id: "0EE7FA35F735FB11"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5F412B939501E126"
+				"4BCDA1E23D59D3DA"
+			]
+			id: "6448C053B24ED1A3"
+			tasks: [{
+				id: "349C372226471504"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"6448C053B24ED1A3"
+				"5C63BB5B11F05053"
+			]
+			id: "3B464C781BE9B0AD"
+			tasks: [{
+				id: "6DD85200FFD56B6A"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3B464C781BE9B0AD"
+				"4A1FAA8AFF2B1DC1"
+			]
+			id: "570790B174B0A5F7"
+			tasks: [{
+				id: "404799E3CFBBF186"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4BCDA1E23D59D3DA"]
+			id: "0E1AD70420CEC1FB"
+			tasks: [{
+				id: "49E3CD82F0ACDA40"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0E1AD70420CEC1FB"]
+			id: "2D41F57B448C6B11"
+			tasks: [{
+				id: "76A62AFA4F9DB3D8"
+				item: "create:blaze_cake_base"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5C63BB5B11F05053"
+				"2D41F57B448C6B11"
+			]
+			id: "0F6604EA16142E25"
+			tasks: [{
+				id: "0A238AB1EA2D5411"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["570790B174B0A5F7"]
+			id: "575ED4F1ADECDCE9"
+			tasks: [{
+				id: "2BBC108C8009F44D"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["570790B174B0A5F7"]
+			id: "76776B023408ACE8"
+			tasks: [{
+				id: "4C2808C0302F1A79"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["570790B174B0A5F7"]
+			id: "7F5DD7A425431779"
+			tasks: [{
+				id: "00F1393C57DEE585"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["570790B174B0A5F7"]
+			id: "1CC3249C83841720"
+			tasks: [{
+				id: "35109EF7658107CD"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["570790B174B0A5F7"]
+			id: "6546C4AB90E828E5"
+			tasks: [{
+				id: "5795BC0EB4C25808"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+	]
+	title: "Tech 2: Brass Age"
+}

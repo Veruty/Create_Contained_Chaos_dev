@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "copper_age"
+	group: "3C9C2CEF96DB5B0C"
+	icon: "minecraft:copper_ingot"
+	id: "1984A0794914C72B"
+	order_index: 1
+	quest_links: [
+		{
+			id: "50CF4B8FDBC95B88"
+			linked_quest: "7083FA0AF9A0304C"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			id: "70272DF22A1D83F6"
+			linked_quest: "1B37E08BF781B7C8"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "7C21D928FF1722BE"
+			linked_quest: "74837414C3A22899"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "66B68A56F9AE081A"
+			linked_quest: "6ED2850F351B1E86"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			id: "2A4D845FF4849D98"
+			linked_quest: "259D1602E7F5F3FF"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			id: "5E0AF5AAD53C2255"
+			linked_quest: "1D1FE294A7E4C824"
+			x: -1.5d
+			y: 4.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["1B37E08BF781B7C8"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "62FEF68951189C4E"
+			tasks: [{
+				id: "0892EDB90C3A308E"
+				title: "Copper Age"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62FEF68951189C4E"]
+			id: "7A0BDC9A8F3E23A6"
+			tasks: [{
+				id: "42ED0EDB1148E68E"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"62FEF68951189C4E"
+				"7083FA0AF9A0304C"
+			]
+			id: "0CB9D235A331FB22"
+			tasks: [{
+				id: "470B9F1C1592C36D"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0CB9D235A331FB22"
+				"74837414C3A22899"
+			]
+			hide_dependency_lines: false
+			id: "13307FA272F93C54"
+			tasks: [{
+				id: "0798F20F5DA55097"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A0BDC9A8F3E23A6"]
+			id: "0D67E6C3B4FEA54D"
+			tasks: [{
+				id: "12051945A81B81DE"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7083FA0AF9A0304C"]
+			id: "2E4D5AC63C6522CA"
+			tasks: [{
+				id: "501DF3FB1AFE360A"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0CB9D235A331FB22"]
+			id: "665CAC503010760C"
+			tasks: [{
+				id: "73A58C4C390B943E"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7083FA0AF9A0304C"]
+			id: "1EAAF7D889C0B415"
+			tasks: [{
+				id: "577ED618D90BC03C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:fluid_tank"
+							}
+							{
+								Count: 1b
+								id: "create_connected:fluid_vessel"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Fluid Tank"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A0BDC9A8F3E23A6"]
+			id: "1445FF1367C070D8"
+			tasks: [{
+				id: "640DAEBC86E6612E"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A0BDC9A8F3E23A6"]
+			id: "1055155BC62D72BD"
+			tasks: [{
+				id: "08870E799F94C22F"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A0BDC9A8F3E23A6"]
+			id: "5C63BB5B11F05053"
+			tasks: [{
+				id: "354D6FCACA1D5C3C"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"62FEF68951189C4E"
+				"6ED2850F351B1E86"
+			]
+			id: "0DB71B8F5E9A680A"
+			tasks: [{
+				id: "59FD043B14A47784"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"62FEF68951189C4E"
+				"6ED2850F351B1E86"
+			]
+			id: "7353FEEB491EFD28"
+			tasks: [{
+				id: "799543862581BFD7"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0CB9D235A331FB22"
+				"259D1602E7F5F3FF"
+				"1D1FE294A7E4C824"
+			]
+			id: "029B00D43DBDAC31"
+			tasks: [{
+				id: "57041432CB127E63"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0CB9D235A331FB22"]
+			id: "6B577B435D9C94EB"
+			tasks: [{
+				id: "2EDB34CC4ACE4B76"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+	]
+	title: "Tech 1.5: Copper Age"
+}

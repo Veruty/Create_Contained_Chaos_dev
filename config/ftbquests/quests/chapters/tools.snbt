@@ -1,0 +1,536 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools"
+	group: "53B219EDA5E606F4"
+	id: "3ACDE05DA650E838"
+	order_index: 0
+	quest_links: [
+		{
+			id: "547BF02A61F82CB2"
+			linked_quest: "16DC5CDD7C89F395"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "029F1964B1610B11"
+			linked_quest: "415B26D22F5A6DB7"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "2C1FBDE6BECB334C"
+			linked_quest: "5FB7F9FD671703FF"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "441B35DB9E3B1E06"
+			linked_quest: "6ED2850F351B1E86"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "5FDF9A16D3AE7C25"
+			linked_quest: "7B196B74898CA9AD"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "621C6162928A67F9"
+			linked_quest: "7DBC7E2955637282"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "62664FB538267916"
+			linked_quest: "6D59BFAA88A72943"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "5475D687B29AEF06"
+			linked_quest: "74837414C3A22899"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "2187AA9A5BCC92CA"
+			linked_quest: "2A6F014969A34A39"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			id: "3BABDBDEAB319548"
+			linked_quest: "5E791AEF5A169DBF"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "28CC9968E4275C72"
+			linked_quest: "4A38E8A0FF183640"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "25FE6B1247F1B3DC"
+			linked_quest: "558178D79A181CAD"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "59301553ECC09F29"
+			linked_quest: "259D1602E7F5F3FF"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "022F781C3490CE27"
+			linked_quest: "5B073DB6C4609529"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "34BA34AAB977247D"
+			linked_quest: "3DD8F79E6FCD8697"
+			x: 9.0d
+			y: 0.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["74837414C3A22899"]
+			id: "4FE64F60B79CB4E8"
+			tasks: [{
+				id: "62C6F5DBAA049C54"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:wire_cutters"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B196B74898CA9AD"]
+			id: "48AC1B81E5CA307C"
+			tasks: [{
+				id: "3D83856AB7615734"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D59BFAA88A72943"]
+			id: "305801BD6DAB70B3"
+			tasks: [
+				{
+					id: "7901F71A3515DCEE"
+					item: {
+						Count: 1
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "121D2CE2DD29C22E"
+					item: {
+						Count: 1
+						id: "create:copper_backtank"
+						tag: {
+							Air: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "219BEA68D6C9EAE5"
+					item: {
+						Count: 1
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B196B74898CA9AD"]
+			id: "0BFE091437790EAA"
+			tasks: [{
+				id: "25143B8B46BB5DCA"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B196B74898CA9AD"]
+			id: "3C423EB0D5C3CE3E"
+			tasks: [
+				{
+					id: "544D3BFC9A98ADAA"
+					item: {
+						Count: 1
+						id: "create_sa:slime_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C0C3114F3BE211D"
+					item: {
+						Count: 1
+						id: "create_sa:slime_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6ED2850F351B1E86"]
+			id: "0C65E2BEAABDA84F"
+			tasks: [{
+				id: "2B387B8DC999C724"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6ED2850F351B1E86"]
+			id: "05033E45C56608CD"
+			tasks: [{
+				id: "127FEC7B608BE1F4"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6ED2850F351B1E86"]
+			id: "4DBBA1C94133DF9D"
+			tasks: [{
+				id: "71D77FF1FBD2B769"
+				item: "create:brown_toolbox"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5FB7F9FD671703FF"]
+			id: "619EB510BF553A9A"
+			tasks: [
+				{
+					id: "3BE86E4C9CC63E9F"
+					item: {
+						Count: 1
+						id: "create:cardboard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65FB56C9B19EA5F4"
+					item: {
+						Count: 1
+						id: "create:cardboard_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B7FD911E415673C"
+					item: {
+						Count: 1
+						id: "create:cardboard_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "303906960FFF33CE"
+					item: {
+						Count: 1
+						id: "create:cardboard_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5FB7F9FD671703FF"]
+			id: "43F359A93887B137"
+			tasks: [{
+				id: "0221C1DEBF484CA3"
+				item: "create:cardboard_sword"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42AA25C1E9AF0537"]
+			id: "3C000001D46F4ADA"
+			tasks: [{
+				id: "7667FFD3ECA85DBE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:sandpaper"
+					}
+				}
+				type: "item"
+			}]
+			title: "Sandpaper"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2A6F014969A34A39"
+				"5E791AEF5A169DBF"
+			]
+			id: "70E45C80F13D1DF9"
+			tasks: [{
+				id: "750872629068BABD"
+				item: {
+					Count: 1
+					id: "create_sa:drone_controller"
+					tag: {
+						tagAction: 0b
+						tagReach: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4A38E8A0FF183640"
+				"558178D79A181CAD"
+				"5B073DB6C4609529"
+			]
+			id: "40111A64FF3CE372"
+			tasks: [{
+				id: "2142CB9F6B31D38E"
+				item: "create_sa:brass_drone_item"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["259D1602E7F5F3FF"]
+			id: "0EA100C9B7F40DA8"
+			tasks: [{
+				id: "7451DF0E06B41DCB"
+				item: "create:placard"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"259D1602E7F5F3FF"
+				"2A6F014969A34A39"
+			]
+			id: "012E5C57E8EAA019"
+			tasks: [{
+				id: "6C1CE56B70AE9E90"
+				item: "create:peculiar_bell"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["012E5C57E8EAA019"]
+			id: "2CA44854087F7604"
+			tasks: [{
+				id: "67D523F67DA36762"
+				item: "create:haunted_bell"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"558178D79A181CAD"
+				"5B073DB6C4609529"
+			]
+			id: "3B3B85000FE90F48"
+			tasks: [{
+				id: "5B7A345D49F4D4E8"
+				item: {
+					Count: 1
+					id: "create:wand_of_symmetry"
+					tag: {
+						enable: 0b
+						symmetry: {
+							direction: 0
+							enable: 1b
+							pos: [
+								0.0f
+								0.0f
+								0.0f
+							]
+							type: "empty"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"558178D79A181CAD"
+				"5B073DB6C4609529"
+				"3DD8F79E6FCD8697"
+			]
+			id: "4C9C07C9E763E09F"
+			tasks: [{
+				id: "78BCC66CABFC7081"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"558178D79A181CAD"
+				"5B073DB6C4609529"
+			]
+			id: "67B70624E29E7DC5"
+			tasks: [{
+				id: "539809EEF0C0D248"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"558178D79A181CAD"
+				"5B073DB6C4609529"
+			]
+			id: "65DE15594598930C"
+			tasks: [{
+				id: "1B740C9047138991"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:chemical_sprayer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F2000A3828DD2A0"]
+			id: "0D54515C2F1422BC"
+			tasks: [{
+				id: "00C2202E62C93CDB"
+				item: {
+					Count: 1
+					id: "thermal:wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1582AF37FFA4377D"]
+			hide_dependency_lines: true
+			id: "369BF0F6F9E74C57"
+			tasks: [{
+				id: "652B5A5BA8A5F539"
+				item: "thermal:redprint"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4BCAA163DD491CA4"]
+			id: "569E99CF30853B2E"
+			tasks: [{
+				id: "0C72B2CFF1F71E6B"
+				item: {
+					Count: 1
+					id: "thermal:florb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+	]
+	title: "Utilities"
+}

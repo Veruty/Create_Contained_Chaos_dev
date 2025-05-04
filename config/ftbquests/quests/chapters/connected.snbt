@@ -1,0 +1,478 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "connected"
+	group: "53B219EDA5E606F4"
+	id: "668455FB4C5B8910"
+	order_index: 2
+	quest_links: [
+		{
+			id: "614A529F17D2592E"
+			linked_quest: "2CE4BA59C410B6D0"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "519B71DD14ADE441"
+			linked_quest: "296FA8F8EC272B9D"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "7ED86B07E9031CD8"
+			linked_quest: "074E60C5E08AC196"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "38057E79FC249F43"
+			linked_quest: "23CBB16C9A8710E8"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "5B87C4FB8EE1161E"
+			linked_quest: "13CB61FC5BFC4E2D"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "175147EF7527B6CF"
+			linked_quest: "2BFC92DFA01B92FD"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "56FB71B554711A75"
+			linked_quest: "708B40933E0040FD"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "2322A225D538AC0E"
+			linked_quest: "026F2F0FB273125A"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "0531A6AF7555E1A4"
+			linked_quest: "1D1FE294A7E4C824"
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			id: "6B706FB94D782181"
+			linked_quest: "16DC5CDD7C89F395"
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			id: "7069F34759F9E03C"
+			linked_quest: "74837414C3A22899"
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			id: "65B969CC180FEDC3"
+			linked_quest: "5F412B939501E126"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "5E8CAD710D6A1E2F"
+			linked_quest: "6D59BFAA88A72943"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			id: "49F9B9C11FB0F93F"
+			linked_quest: "4F430B8696F246F5"
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			id: "3BBE627D93614F13"
+			linked_quest: "7083FA0AF9A0304C"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "60F9217EB61A0A35"
+			linked_quest: "4A1FAA8AFF2B1DC1"
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			id: "7B65942CC29068EE"
+			linked_quest: "50D71D45609DA8CF"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "082FFA8E454BA806"
+			linked_quest: "076FD8FF5C884BEF"
+			x: -13.5d
+			y: -5.0d
+		}
+		{
+			id: "43BCE97021EBFA4F"
+			linked_quest: "6ED2850F351B1E86"
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			id: "0200DED5A38F86AB"
+			linked_quest: "259D1602E7F5F3FF"
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			id: "684284622CBADAD7"
+			linked_quest: "2A6F014969A34A39"
+			x: -14.5d
+			y: -1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["13CB61FC5BFC4E2D"]
+			id: "7AE75BB65C7D9E4E"
+			tasks: [{
+				id: "1FB57F9BD24E27A3"
+				item: "create_connected:crank_wheel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23CBB16C9A8710E8"]
+			id: "7F05A6D3CBCFAB40"
+			tasks: [{
+				id: "4C070E3B17849A19"
+				item: "create_connected:large_crank_wheel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["296FA8F8EC272B9D"]
+			id: "14F95F7CA15CC8BD"
+			tasks: [{
+				id: "306A9FB303400CA1"
+				item: "create_connected:inverted_clutch"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["074E60C5E08AC196"]
+			id: "218946BA8043050F"
+			tasks: [{
+				id: "3C0F8D9B7FB4217E"
+				item: "create_connected:encased_chain_cogwheel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BFC92DFA01B92FD"]
+			id: "79F99569B889B655"
+			tasks: [{
+				id: "1AC90F141AB86775"
+				item: "create_connected:inverted_gearshift"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["708B40933E0040FD"]
+			id: "48C7D49C3B60309E"
+			tasks: [{
+				id: "03C802F2C614B0F6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create_connected:parallel_gearbox"
+							}
+							{
+								Count: 1b
+								id: "create_connected:vertical_parallel_gearbox"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Parallel Gearbox"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["708B40933E0040FD"]
+			id: "2ACCB28EB580511F"
+			tasks: [{
+				id: "471DDC67BB9E64A1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create_connected:six_way_gearbox"
+							}
+							{
+								Count: 1b
+								id: "create_connected:vertical_six_way_gearbox"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "6-way Gearbox"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["026F2F0FB273125A"]
+			id: "2532C79C4742628A"
+			tasks: [{
+				id: "2051FEA8662F3123"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create_connected:brass_gearbox"
+							}
+							{
+								Count: 1b
+								id: "create_connected:vertical_brass_gearbox"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Brass Gearbox"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1D1FE294A7E4C824"
+				"74837414C3A22899"
+			]
+			id: "4950388DA29EB945"
+			tasks: [{
+				id: "32E40C629DF1A981"
+				item: "create_connected:overstress_clutch"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"16DC5CDD7C89F395"
+				"74837414C3A22899"
+			]
+			id: "44DBA17671567AC5"
+			tasks: [{
+				id: "6DE85D516FB4C5D4"
+				item: "create_connected:centrifugal_clutch"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["74837414C3A22899"]
+			id: "1B61F1B09A92F458"
+			tasks: [{
+				id: "61512000A509E52E"
+				item: "create_connected:freewheel_clutch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F412B939501E126"]
+			id: "78D55DA21BAF5761"
+			tasks: [{
+				id: "6B5C9B96C4244846"
+				item: "create_connected:brake"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6D59BFAA88A72943"
+				"4F430B8696F246F5"
+			]
+			id: "78C9CD04EF91AD34"
+			tasks: [{
+				id: "378E719A70046A28"
+				item: "create_connected:shear_pin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["74837414C3A22899"]
+			id: "39C5167782B7F13A"
+			tasks: [{
+				id: "38ED9D14BFB21500"
+				item: "create_connected:item_silo"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7083FA0AF9A0304C"]
+			id: "539640ABA50087B3"
+			tasks: [{
+				id: "7F50D93F4F02B3F7"
+				item: "create_connected:fluid_vessel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A1FAA8AFF2B1DC1"]
+			id: "0649B9130B8D68CF"
+			tasks: [{
+				id: "71B02C97F7A8C6E6"
+				item: "create_connected:inventory_access_port"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0649B9130B8D68CF"]
+			id: "74E7CE1E07DB4CD1"
+			tasks: [{
+				id: "191D53C26CAD7A02"
+				item: "create_connected:inventory_bridge"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50D71D45609DA8CF"]
+			id: "2589419699BBE797"
+			tasks: [{
+				id: "750ED67C4C465ABB"
+				item: "create_connected:linked_transmitter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6ED2850F351B1E86"
+				"076FD8FF5C884BEF"
+				"1D1FE294A7E4C824"
+			]
+			id: "51C89123D2B87194"
+			tasks: [{
+				id: "4FE6EBDCAFDD2088"
+				item: "create_connected:control_chip"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"259D1602E7F5F3FF"
+				"51C89123D2B87194"
+			]
+			id: "7A1F34937EA901B5"
+			tasks: [{
+				id: "303857F72C0B0434"
+				item: "create_connected:sequenced_pulse_generator"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A6F014969A34A39"]
+			id: "0119FD05D079A9C6"
+			tasks: [{
+				id: "5399E1B144D2D21E"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0119FD05D079A9C6"]
+			id: "47336215995690E2"
+			tasks: [{
+				id: "4BD3235A89D44DF7"
+				item: "create_connected:fan_smoking_catalyst"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0119FD05D079A9C6"]
+			id: "339F9F69D4B55CAE"
+			tasks: [{
+				id: "404FEEAADC2EC3BE"
+				item: "create_connected:fan_splashing_catalyst"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0119FD05D079A9C6"]
+			id: "7A4BC7F04F299C6F"
+			tasks: [{
+				id: "1496AD0E0520B677"
+				item: "create_connected:fan_blasting_catalyst"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0119FD05D079A9C6"]
+			id: "33CD74E3EBB1CDA2"
+			tasks: [{
+				id: "4DBAD918A68DB72C"
+				item: "create_connected:fan_haunting_catalyst"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.5d
+		}
+	]
+	title: "Connected"
+}

@@ -1,0 +1,20 @@
+ServerEvents.tags('item', e => {
+	e.removeAll('create_new_age:nuclear/hazmat_suit')
+	e.add('create_new_age:nuclear/hazmat_suit', 'mekanism:hazmat_mask')
+	e.add('create_new_age:nuclear/hazmat_suit', 'mekanism:hazmat_gown')
+	e.add('create_new_age:nuclear/hazmat_suit', 'mekanism:hazmat_pants')
+	e.add('create_new_age:nuclear/hazmat_suit', 'mekanism:hazmat_boots')
+	e.add('create_new_age:nuclear/hazmat_suit', 'mekanism:mekasuit_helmet')
+	e.add('create_new_age:nuclear/hazmat_suit', 'mekanism:mekasuit_bodyarmor')
+	e.add('create_new_age:nuclear/hazmat_suit', 'mekanism:mekasuit_pants')
+	e.add('create_new_age:nuclear/hazmat_suit', 'mekanism:mekasuit_boots')
+	e.add('create_new_age:nuclear/hazmat_suit', 'destroy:gas_mask')
+	e.add('create_new_age:nuclear/hazmat_suit', 'destroy:hazmat_suit')
+	e.add('create_new_age:nuclear/hazmat_suit', 'destroy:hazmat_leggings')
+	e.add('create_new_age:nuclear/hazmat_suit', 'destroy:wellington_boots')
+})
+
+ServerEvents.tags('block', e => {
+  e.add('create_new_age:stops_radiation', 'mekanismgenerators:fission_reactor_casing')
+  e.add('create_new_age:stops_radiation', 'mekanismgenerators:reactor_glass')
+})

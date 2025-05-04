@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "osmium_age"
+	group: "3C9C2CEF96DB5B0C"
+	id: "4D3C59877D65F146"
+	order_index: 5
+	quest_links: [
+		{
+			id: "77A4BA3DA90A399B"
+			linked_quest: "21414A676679B65C"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "157E293BD0B952D2"
+			linked_quest: "44F862C7C90CA924"
+			x: -4.5d
+			y: -0.5d
+		}
+	]
+	quests: [{
+		dependencies: ["21414A676679B65C"]
+		id: "5283F2BB4BFFEA53"
+		tasks: [{
+			id: "46537A66BABDFDD5"
+			item: "mekanism:ingot_osmium"
+			type: "item"
+		}]
+		x: -4.5d
+		y: -2.5d
+	}]
+	title: "Tech 4: Osmium Age"
+}

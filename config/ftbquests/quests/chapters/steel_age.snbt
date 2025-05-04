@@ -1,0 +1,244 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steel_age"
+	group: "3C9C2CEF96DB5B0C"
+	icon: "kubejs:steel_ingot"
+	id: "2FF0D01FEEF8B83E"
+	order_index: 3
+	quest_links: [
+		{
+			id: "63DBE6E30AD35420"
+			linked_quest: "4BCDA1E23D59D3DA"
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			id: "71272BAC194F8ED3"
+			linked_quest: "799038DEE9B54AF9"
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			id: "36C4FC326C149313"
+			linked_quest: "48AC1B81E5CA307C"
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			id: "744DA79F54703CB0"
+			linked_quest: "076FD8FF5C884BEF"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "36E65CF5DA21E9E0"
+			linked_quest: "2A6F014969A34A39"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			id: "362A353C2FCA7DB6"
+			linked_quest: "0B0670532670373D"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			id: "5CB45D830356BE23"
+			linked_quest: "1582AF37FFA4377D"
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			id: "51504C706C612EED"
+			linked_quest: "361EEFC55E97AE71"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "4C551BB1DAB60627"
+			linked_quest: "33018F2BDE1BE330"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "71502DE83054391D"
+			linked_quest: "2B696CA62EB0083F"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "22255E23E520F6C2"
+			linked_quest: "0F2000A3828DD2A0"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "56D18BDA8F04B72D"
+			linked_quest: "639ACD905B202B3A"
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			id: "27264021ECB17BED"
+			linked_quest: "7E8574386FEA3F80"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			id: "6DDD5B266621B8C9"
+			linked_quest: "0F74D53943A05990"
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			id: "7A677B9A9217D8D5"
+			linked_quest: "6D614A8998E84D1A"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			id: "068EE8CECC850A5A"
+			linked_quest: "1F28F7860B76CD81"
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			id: "263F2DBC8D549BC7"
+			linked_quest: "169EDDF62E89B6E9"
+			x: -0.5d
+			y: -10.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["7E8574386FEA3F80"]
+			id: "0A78D05E78366074"
+			tasks: [
+				{
+					id: "73EE6088A2E45587"
+					item: "mbd2:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "5961DB833BE4F691"
+					item: { Count: 25, id: "kubejs:firebricks" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["33018F2BDE1BE330"]
+			id: "20D52CD955CEB6E5"
+			tasks: [{
+				id: "0BA7FA520DC49856"
+				item: "kubejs:amethyst_casing"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "365D0F5D1E71F0A1"
+			tasks: [{
+				id: "7486C9D4B220B3FC"
+				item: "kubejs:steel_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "140A8173D3E6F6DB"
+			tasks: [{
+				id: "2E3C48435AEBFE5E"
+				item: "kubejs:steel_gear"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"365D0F5D1E71F0A1"
+				"140A8173D3E6F6DB"
+				"076FD8FF5C884BEF"
+			]
+			id: "5EC1FB2F20BF7B0F"
+			tasks: [{
+				id: "61028BD4E5656C2B"
+				item: "kubejs:advanced_mechanism"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"20D52CD955CEB6E5"
+				"2A6F014969A34A39"
+				"5EC1FB2F20BF7B0F"
+				"0B0670532670373D"
+			]
+			hide_dependent_lines: true
+			id: "3163E0A143F913F2"
+			size: 2.5d
+			tasks: [{
+				id: "0C505D7046F20D7F"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "4EDE622E4948D6B3"
+			tasks: [{
+				id: "52A64371E294793F"
+				item: "kubejs:steel_rod"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			description: ["{quest.meka.68.desc}"]
+			hide_until_deps_visible: true
+			id: "66B80AD6C6D6AF51"
+			tasks: [{
+				id: "166BB418345E9B0C"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			title: "{quest.meka.68.title}"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A78D05E78366074"]
+			description: [
+				"look at usage oc controller block in EMI (JEI)"
+				""
+				"Press U while hovering ur mouse in inventory over controller block "
+				""
+				"one of the page thingys is multiblock info "
+			]
+			id: "311463923FD265D3"
+			tasks: [{
+				id: "67352AAEB105D7D7"
+				title: "how to primitive blast furnace"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+	]
+	title: "Tech 2.5: Steel Age"
+}

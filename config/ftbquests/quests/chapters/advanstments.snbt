@@ -1,0 +1,218 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "advanstments"
+	group: ""
+	icon: "minecraft:gold_block"
+	id: "36E6ACDDA0E7FD79"
+	order_index: 1
+	quest_links: [{
+		id: "4684D96D8111E7E4"
+		linked_quest: "1C9F4A10CEFB57EE"
+		shape: "square"
+		x: -12.5d
+		y: 0.5d
+	}]
+	quests: [
+		{
+			dependencies: ["2B1936D93DBECB8F"]
+			hide_dependency_lines: true
+			icon: "minecraft:grass_block"
+			id: "14885DB8B121EA07"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "502270579EA9C342"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1296000
+			}]
+			title: "Touch some grass, gamer"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B1936D93DBECB8F"]
+			hide_dependency_lines: true
+			id: "6CBCDEA7B0E96A9E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "18D4967454205405"
+				points: false
+				type: "xp"
+				value: 50L
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14885DB8B121EA07"]
+			id: "132987997D8EA3CE"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "22DF252BBD0C37A1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:grass"
+				type: "observation"
+			}]
+			title: "I mean irl"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"06E47DDC2777917C"
+				"2B1936D93DBECB8F"
+			]
+			hide_dependency_lines: true
+			id: "6BA138BD3D33FB71"
+			shape: "square"
+			tasks: [{
+				id: "66C659D84D3053FE"
+				item: "estrogen:uwu"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2B1936D93DBECB8F"
+				"1A571CB813225BC5"
+			]
+			hide_dependency_lines: true
+			id: "4950596780D5281B"
+			shape: "square"
+			tasks: [
+				{
+					id: "4539C8AD07923349"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+				{
+					id: "591998C705F5FFE6"
+					item: "mekanism:advanced_universal_cable"
+					type: "item"
+				}
+				{
+					id: "0FE0A479B04F1D79"
+					item: "mekanism:elite_universal_cable"
+					type: "item"
+				}
+				{
+					id: "4312ECFC2CD90B14"
+					item: "mekanism:ultimate_universal_cable"
+					type: "item"
+				}
+				{
+					id: "6B0934A527C77535"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "2A4B935E8ADC7E6C"
+					item: "mekanism:advanced_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "57359895FA8DB01D"
+					item: "mekanism:elite_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "6AD8DD1CC4478F42"
+					item: "mekanism:ultimate_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "6808A4F09596F0A1"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "44CD716B69637ECA"
+					item: "mekanism:advanced_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "027B3D7915109CA6"
+					item: "mekanism:elite_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "46618E52DD06DA3D"
+					item: "mekanism:ultimate_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "1D59CE51A5248B64"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+				{
+					id: "01476AEA134C6644"
+					item: "mekanism:advanced_logistical_transporter"
+					type: "item"
+				}
+				{
+					id: "21B17AFC65925061"
+					item: "mekanism:elite_logistical_transporter"
+					type: "item"
+				}
+				{
+					id: "1DDF5C09069DB33E"
+					item: "mekanism:ultimate_logistical_transporter"
+					type: "item"
+				}
+				{
+					id: "7C51C87603815E4C"
+					item: "mekanism:basic_thermodynamic_conductor"
+					type: "item"
+				}
+				{
+					id: "78A162CCE92DB546"
+					item: "mekanism:advanced_thermodynamic_conductor"
+					type: "item"
+				}
+				{
+					id: "36F2FC6F08515A45"
+					item: "mekanism:elite_thermodynamic_conductor"
+					type: "item"
+				}
+				{
+					id: "6F824863F95BD831"
+					item: "mekanism:ultimate_thermodynamic_conductor"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			id: "43A400F2042ECF91"
+			tasks: [{
+				id: "502589787AC8C160"
+				title: "what"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			hide_until_deps_complete: true
+			id: "2B1936D93DBECB8F"
+			tasks: [{
+				id: "4B2F2A495BB59352"
+				title: "Advancements"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+	]
+	title: "Advancements"
+}

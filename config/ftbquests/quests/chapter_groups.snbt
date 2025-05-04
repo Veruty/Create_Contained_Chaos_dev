@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "3C9C2CEF96DB5B0C", title: "Technology" }
+		{ id: "4BCA08601609B5F5", title: "Exploration" }
+		{ id: "1B9B9B5F76BED733", title: "Magic" }
+		{ id: "53B219EDA5E606F4", title: "Misc" }
+		{ id: "37BAA532886F195A", title: "unused" }
+	]
+}

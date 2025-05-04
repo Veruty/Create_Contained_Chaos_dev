@@ -1,0 +1,11 @@
+{
+	id: "7D868879615E932D"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 4, item: "create_new_age:radioactive_thorium", random_bonus: 8 }
+		{ count: 2, item: "create_new_age:overcharged_diamond", random_bonus: 4 }
+		{ item: "create_new_age:copper_circuit" }
+	]
+	title: "na.lvl.3"
+}

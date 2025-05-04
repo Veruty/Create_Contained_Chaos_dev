@@ -1,0 +1,11 @@
+{
+	id: "3FE27EC9C6D5580E"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 16, item: "mekanism:ingot_osmium", random_bonus: 48 }
+		{ count: 4, item: "mekanism:alloy_atomic", random_bonus: 4 }
+		{ count: 2, item: "mekanism:ultimate_control_circuit", random_bonus: 4 }
+	]
+	title: "meka.lvl.4"
+}

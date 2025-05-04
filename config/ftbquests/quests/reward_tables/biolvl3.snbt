@@ -1,0 +1,12 @@
+{
+	id: "6976E1F886FCDF85"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 2, item: "biomancy:exotic_compound", random_bonus: 3 }
+		{ count: 3, item: "biomancy:living_flesh", random_bonus: 5 }
+		{ count: 10, item: "biomancy:nutrient_paste", random_bonus: 15 }
+		{ count: 5, item: "biomancy:creator_mix", random_bonus: 5 }
+	]
+	title: "bio.lvl.3"
+}

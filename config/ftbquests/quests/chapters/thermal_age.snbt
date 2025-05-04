@@ -1,0 +1,1727 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_age"
+	group: "3C9C2CEF96DB5B0C"
+	icon: "thermal:machine_frame"
+	id: "66D2924207B36F5B"
+	order_index: 4
+	quest_links: [
+		{
+			id: "685162C4B96A7EB9"
+			linked_quest: "3163E0A143F913F2"
+			size: 2.25d
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			id: "4627E8B27AD7A70C"
+			linked_quest: "6359276B4243403D"
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			id: "5C603CCA4245F56C"
+			linked_quest: "13DB6781627E18E8"
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			id: "050F5980548100ED"
+			linked_quest: "0F2000A3828DD2A0"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			id: "20015CC3CFB8884E"
+			linked_quest: "4CCDC24B680782FF"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			id: "39FDB9873794C8DB"
+			linked_quest: "7169195B7A4DB2E6"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			id: "7434C0410F80FA63"
+			linked_quest: "6E6F52C321CD84BD"
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			id: "44B601C07352FA5E"
+			linked_quest: "10AF6DCCA93031E6"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "2B58B4BBA9E74311"
+			linked_quest: "4EDE622E4948D6B3"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "61FCD4F4603F8C68"
+			linked_quest: "1D1FE294A7E4C824"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "2B232EC63306972E"
+			linked_quest: "7083FA0AF9A0304C"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "461EDC0E5E51D7B5"
+			linked_quest: "5EC1FB2F20BF7B0F"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "2F77B7EDA442EF26"
+			linked_quest: "7DEC2438E0FDB776"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "0D2F8BFB324EB537"
+			linked_quest: "6C8535A4ED77BEC9"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "5301D9801FF0D6F7"
+			linked_quest: "158426E64B0F7B64"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "2A2A25E45B9AE47C"
+			linked_quest: "1582AF37FFA4377D"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "778556612A343027"
+			linked_quest: "7F8F6CB4674626C1"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "2F1736B0E7F214CB"
+			linked_quest: "16A3041FDF552B6B"
+			x: 11.0d
+			y: -13.5d
+		}
+		{
+			id: "211D58FC257A5253"
+			linked_quest: "785EDF40D817A352"
+			x: 15.0d
+			y: -13.5d
+		}
+		{
+			id: "08213996E1D70343"
+			linked_quest: "735E77C68EB1ECDE"
+			x: 15.0d
+			y: -15.5d
+		}
+		{
+			id: "4F345FAB37E7153E"
+			linked_quest: "34716F03D4E67B4E"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "23C29535DD2514D6"
+			linked_quest: "79E5B71B36FB83DC"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "027B9B431C0D35E1"
+			linked_quest: "66B80AD6C6D6AF51"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			id: "49896180924FD709"
+			linked_quest: "0D54515C2F1422BC"
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			id: "7EF183FF97BBD34C"
+			linked_quest: "369BF0F6F9E74C57"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			id: "2D4B648ECD2E3851"
+			linked_quest: "569E99CF30853B2E"
+			x: 17.0d
+			y: -7.5d
+		}
+		{
+			id: "3B5B73FAEF9AEF7A"
+			linked_quest: "061CA8B8F6F9B574"
+			x: 8.0d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6359276B4243403D"]
+			id: "11DD0CF119BD3D1B"
+			tasks: [{
+				id: "44E91B7FC9C12118"
+				item: "thermal:constantan_gear"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["13DB6781627E18E8"]
+			id: "2E027E91E196A770"
+			tasks: [{
+				id: "7300B72DB828C355"
+				item: "thermal:invar_gear"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["13DB6781627E18E8"]
+			id: "4F49DBCF0D59B3C3"
+			tasks: [{
+				id: "299E541578257586"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1582AF37FFA4377D"]
+			hide_dependent_lines: true
+			id: "3592AD21376AC01E"
+			size: 1.0d
+			tasks: [{
+				id: "263439C096A2A814"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"2E027E91E196A770"
+				"3592AD21376AC01E"
+			]
+			id: "70DE287E07025B5B"
+			tasks: [{
+				id: "224EAE42361447FB"
+				item: {
+					Count: 1
+					id: "thermal:machine_furnace"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"3592AD21376AC01E"
+				"11DD0CF119BD3D1B"
+			]
+			id: "4D8560D694D7BFEF"
+			tasks: [{
+				id: "453D65B9605683B9"
+				item: {
+					Count: 1
+					id: "thermal:machine_sawmill"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"3592AD21376AC01E"
+				"202EAE8B2734F3E9"
+			]
+			hide_dependent_lines: true
+			id: "454433BD96203E33"
+			size: 2.0d
+			tasks: [{
+				id: "2EBF805458F7E1C8"
+				item: {
+					Count: 1
+					id: "thermal:machine_pulverizer"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"3592AD21376AC01E"
+				"11DD0CF119BD3D1B"
+			]
+			id: "4E95D85134C948B3"
+			tasks: [{
+				id: "41B1E1387178D9F3"
+				item: {
+					Count: 1
+					id: "thermal:machine_centrifuge"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"3592AD21376AC01E"
+				"11DD0CF119BD3D1B"
+			]
+			id: "00C083BBFFEC1868"
+			tasks: [{
+				id: "462A60C79290F987"
+				item: {
+					Count: 1
+					id: "thermal:machine_pyrolyzer"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 50
+							EnergySend: 50
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"2E027E91E196A770"
+				"3592AD21376AC01E"
+			]
+			id: "12A7ADFECDA51FD4"
+			tasks: [{
+				id: "547BC8B665C936A8"
+				item: {
+					Count: 1
+					id: "thermal:machine_refinery"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"2E027E91E196A770"
+				"3592AD21376AC01E"
+			]
+			id: "440176FA8C09436A"
+			tasks: [{
+				id: "4295A6451CCB26B6"
+				item: {
+					Count: 1
+					id: "thermal:machine_chiller"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"2E027E91E196A770"
+				"3592AD21376AC01E"
+			]
+			id: "0B35FB9E98F90414"
+			tasks: [{
+				id: "0B4BFC70E0939F2F"
+				item: {
+					Count: 1
+					id: "thermal:machine_crucible"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 800
+							EnergySend: 800
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"2E027E91E196A770"
+				"3592AD21376AC01E"
+			]
+			id: "6A538B848D6F1BDA"
+			tasks: [{
+				id: "19C85D86D264648C"
+				item: {
+					Count: 1
+					id: "thermal:machine_bottler"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"3592AD21376AC01E"
+				"11DD0CF119BD3D1B"
+			]
+			id: "627A16A61AC4B498"
+			tasks: [{
+				id: "638CC37B96D6D705"
+				item: {
+					Count: 1
+					id: "thermal:machine_brewer"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 50
+							EnergySend: 50
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"2E027E91E196A770"
+				"3592AD21376AC01E"
+				"11DD0CF119BD3D1B"
+			]
+			id: "3A40BF9344EFA15D"
+			tasks: [{
+				id: "1A0F6F94A43DF57F"
+				item: {
+					Count: 1
+					id: "thermal:machine_press"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"568D6543DA5D4E7B"
+				"106EA2B693428E50"
+				"72508FDF2C08E421"
+				"5EC1FB2F20BF7B0F"
+			]
+			id: "21414A676679B65C"
+			size: 2.0d
+			tasks: [{
+				id: "158FBDBAA2BDC833"
+				item: {
+					Count: 1
+					id: "thermal:machine_smelter"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E6F52C321CD84BD"]
+			id: "202EAE8B2734F3E9"
+			tasks: [{
+				id: "1F8EAD0CEBB9689D"
+				item: "thermal:copper_gear"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6E6F52C321CD84BD"
+				"454433BD96203E33"
+			]
+			id: "458917088683F9A1"
+			tasks: [{
+				id: "4CC9F8732555C877"
+				item: "thermal:copper_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"454433BD96203E33"
+				"0F2000A3828DD2A0"
+			]
+			id: "23F538688C08AB8E"
+			tasks: [{
+				id: "10534F0E0E336FC1"
+				item: "thermal:iron_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"454433BD96203E33"
+				"4CCDC24B680782FF"
+			]
+			id: "255EC494E1B2E693"
+			tasks: [{
+				id: "12A843258362166E"
+				item: "thermal:nickel_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"10AF6DCCA93031E6"
+				"454433BD96203E33"
+			]
+			id: "63E76D79E1A10CDD"
+			tasks: [{
+				id: "610FA044BE022A10"
+				item: "thermal:netherite_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"23F538688C08AB8E"
+				"255EC494E1B2E693"
+			]
+			id: "71BE94971284ED6F"
+			tasks: [{
+				id: "4E116C057160526C"
+				item: "thermal:invar_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"458917088683F9A1"
+				"255EC494E1B2E693"
+			]
+			id: "2F67689E57377CE2"
+			tasks: [{
+				id: "1C4B0606728EB63C"
+				item: "thermal:constantan_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"63E76D79E1A10CDD"
+				"458917088683F9A1"
+				"255EC494E1B2E693"
+			]
+			id: "61F6F267B79322C1"
+			tasks: [{
+				id: "5169EA8907D1FF96"
+				item: "kubejs:ht_cupronickel_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["61F6F267B79322C1"]
+			description: [
+				"In this stage you can ether try to smelt it in Primitive Blast Firnace (takes 50s for 1 ingot and has 5% chance to fail)"
+				""
+				"Or you can superheat blaze burner and mix 1 dust with 1 bucket of lava in create mixer (fast 100% chance to get the ingot)"
+				""
+				"After you craft induction smelter you can make HT Cupronickel directly in it"
+			]
+			id: "34202AF1F210B138"
+			subtitle: "read me, important"
+			tasks: [{
+				id: "3DDA82CE9A12BB1C"
+				title: "ht cupronickel"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["13DB6781627E18E8"]
+			id: "1723125859F05BF6"
+			tasks: [{
+				id: "72861F2F5F45FDE9"
+				item: "thermal:invar_plate"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7169195B7A4DB2E6"]
+			id: "64CD69088FDC0A11"
+			tasks: [{
+				id: "760F10BAA33E32BF"
+				item: "kubejs:ht_cupronickel_plate"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["64CD69088FDC0A11"]
+			id: "46BDF7E318CFEF82"
+			tasks: [{
+				id: "79770D126AB17FBE"
+				item: "kubejs:ht_cupronickel_wire"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"46BDF7E318CFEF82"
+				"4EDE622E4948D6B3"
+			]
+			id: "568D6543DA5D4E7B"
+			tasks: [{
+				id: "0290839363A232E9"
+				item: "kubejs:ht_cupronickel_coil"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1723125859F05BF6"
+				"3592AD21376AC01E"
+				"1D1FE294A7E4C824"
+				"59348BAD12A2C83B"
+			]
+			id: "106EA2B693428E50"
+			tasks: [{
+				id: "1593AB68A7366E77"
+				item: "kubejs:power_management_mechanism"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7083FA0AF9A0304C"]
+			id: "59348BAD12A2C83B"
+			tasks: [{
+				id: "5F9F9960C35516E0"
+				item: "createaddition:copper_wire"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10AF6DCCA93031E6"]
+			hide_dependency_lines: true
+			id: "72508FDF2C08E421"
+			tasks: [{
+				id: "2CE38031CE7D521E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/netherite"
+					}
+				}
+				title: "Any #forge:plates/netherite"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"21414A676679B65C"
+				"458917088683F9A1"
+				"1582AF37FFA4377D"
+				"5D89912932B119FD"
+			]
+			id: "7FDBCABAF76969CA"
+			subtitle: "can use ingots instead of dusts in crafting of this thing"
+			tasks: [{
+				id: "2ACB7659216F4B60"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"21414A676679B65C"
+				"6C8535A4ED77BEC9"
+				"79E5B71B36FB83DC"
+				"061CA8B8F6F9B574"
+			]
+			id: "084507B9B436E794"
+			tasks: [{
+				id: "32BDBA282CF495E7"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"21414A676679B65C"
+				"39FDB1956F2E2FFE"
+				"7F8F6CB4674626C1"
+				"34716F03D4E67B4E"
+			]
+			id: "17644E1FF638718A"
+			tasks: [{
+				id: "1A86425DD0C4A19B"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7DEC2438E0FDB776"
+				"454433BD96203E33"
+			]
+			id: "7641FCC0C8771388"
+			tasks: [{
+				id: "1A19F601D9C321EA"
+				item: "thermal:gold_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6C8535A4ED77BEC9"
+				"454433BD96203E33"
+			]
+			id: "5D89912932B119FD"
+			tasks: [{
+				id: "1D0DA88444B63D61"
+				item: "thermal:silver_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"454433BD96203E33"
+				"158426E64B0F7B64"
+			]
+			id: "39FDB1956F2E2FFE"
+			tasks: [{
+				id: "1471F18C96F0FE27"
+				item: "thermal:diamond_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5D89912932B119FD"
+				"7641FCC0C8771388"
+			]
+			id: "718ED31A1A3D1C56"
+			tasks: [{
+				id: "4899F01878EB63C0"
+				item: "thermal:electrum_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["718ED31A1A3D1C56"]
+			id: "634C8C7C150B995A"
+			tasks: [{
+				id: "3015FFA3E2D7496B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/electrum"
+					}
+				}
+				title: "Any #forge:ingots/electrum"
+				type: "item"
+			}]
+			title: "Electrum Ingot"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7FDBCABAF76969CA"]
+			id: "781415599B7A50E0"
+			tasks: [{
+				id: "7D5C250A0ADA29AB"
+				item: "thermal:signalum_gear"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"634C8C7C150B995A"
+				"781415599B7A50E0"
+				"4F49DBCF0D59B3C3"
+			]
+			id: "0372FCC367715FC7"
+			tasks: [{
+				id: "319CA1173440ABF5"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7FDBCABAF76969CA"]
+			id: "03AB15C68C1B5FBD"
+			tasks: [{
+				id: "5453127E1CFEA277"
+				item: "thermal:signalum_plate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0372FCC367715FC7"
+				"17644E1FF638718A"
+				"75F2F3338030D548"
+			]
+			id: "29B21798D3307198"
+			tasks: [{
+				id: "18ED84533751B357"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["084507B9B436E794"]
+			id: "75F2F3338030D548"
+			tasks: [{
+				id: "5617257D1557C15F"
+				item: "thermal:lumium_gear"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00C083BBFFEC1868"]
+			id: "509EB1785945E0ED"
+			tasks: [{
+				id: "4C5BA44F38A6D9E7"
+				item: "thermal:coal_coke"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A40BF9344EFA15D"]
+			id: "155FD22AAE8DB91B"
+			tasks: [{
+				id: "16D1C82516C2C593"
+				item: "thermal:press_gear_die"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4D8560D694D7BFEF"]
+			id: "4BCAA163DD491CA4"
+			tasks: [{
+				id: "70A9EF0FA07814FC"
+				item: "thermal:sawdust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4BCAA163DD491CA4"]
+			id: "461038E22BEEB0FE"
+			tasks: [{
+				id: "2442491876360A8A"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A538B848D6F1BDA"]
+			description: ["yeah you can make those in fluid encapsulator thing"]
+			icon: "kubejs:redstone_crystal"
+			id: "57BCC8EC646F93CC"
+			tasks: [{
+				id: "224F7E7CAB8C5339"
+				title: "Amethyst Alloy and Redstone Crystal"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0B35FB9E98F90414"]
+			id: "36FCE9143615C464"
+			tasks: [
+				{
+					id: "2DCACE5D2D8E9215"
+					item: "thermal:redstone_bucket"
+					type: "item"
+				}
+				{
+					id: "6723D71836706560"
+					item: "kubejs:liquid_amethyst_bucket"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"16A3041FDF552B6B"
+				"12A7ADFECDA51FD4"
+			]
+			id: "5DF011ED815314BA"
+			tasks: [{
+				id: "796AB2F7B191D53E"
+				item: "thermal:rosin"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"12A7ADFECDA51FD4"
+				"785EDF40D817A352"
+			]
+			id: "4902F4ACDBA6F2EE"
+			tasks: [{
+				id: "04FABB542143B63A"
+				item: "thermal:syrup_bottle"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"735E77C68EB1ECDE"
+				"12A7ADFECDA51FD4"
+			]
+			id: "1A08B33AE2467AF5"
+			tasks: [{
+				id: "242929FFFDBEDAF9"
+				item: "thermal:rubber"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1A08B33AE2467AF5"]
+			id: "256D3BF65E48D706"
+			tasks: [{
+				id: "7DFBB917BF05DD68"
+				item: "thermal:cured_rubber"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["454433BD96203E33"]
+			id: "7AE255599303B6EF"
+			subtitle: "hover over quests to see what is made of what"
+			tasks: [{
+				id: "4F2E7DD8A7DB9689"
+				title: "ok"
+				type: "checkmark"
+			}]
+			title: "Dust = Came from Pulverizer"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["256D3BF65E48D706"]
+			id: "1603DECF15653B3A"
+			tasks: [{
+				id: "334BE6732230318C"
+				item: "thermal:fluid_tank_augment"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3592AD21376AC01E"]
+			id: "1D8E1C78330BBACD"
+			tasks: [{
+				id: "4C69736882112A39"
+				item: "thermal:rf_coil_augment"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3592AD21376AC01E"]
+			id: "5A5B150BB97ABDAC"
+			tasks: [{
+				id: "351751FD16CC3467"
+				item: "thermal:rf_coil_storage_augment"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3592AD21376AC01E"]
+			id: "62CFAACBBB28C5A9"
+			tasks: [{
+				id: "773F644C1A117F07"
+				item: "thermal:rf_coil_xfer_augment"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3592AD21376AC01E"]
+			id: "4FABAA3C6235CB5C"
+			tasks: [{
+				id: "09F88F2B24DBC619"
+				item: "thermal:machine_speed_augment"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["471A6C75C6804B02"]
+			id: "628FC49630C0ACE0"
+			tasks: [{
+				id: "3A6F371DC95F1608"
+				item: "thermal:machine_efficiency_augment"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["084507B9B436E794"]
+			id: "471A6C75C6804B02"
+			tasks: [{
+				id: "60F0F248E95248DA"
+				item: "thermal:lumium_plate"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1723125859F05BF6"]
+			id: "0A13E42CFD16CB10"
+			tasks: [{
+				id: "266F204A1FC16767"
+				item: "thermal:machine_output_augment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["11DD0CF119BD3D1B"]
+			id: "7EDB6BBA56548494"
+			tasks: [{
+				id: "15B3D0C0BB137E87"
+				item: "thermal:machine_catalyst_augment"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["781415599B7A50E0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4ECC229D5D5A29C4"
+			tasks: [{
+				id: "508C89AEAEEB0EB2"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03AB15C68C1B5FBD"]
+			hide_dependency_lines: true
+			id: "1A8DD70416D87E1C"
+			tasks: [{
+				id: "2D27B7045C107CC2"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["471A6C75C6804B02"]
+			id: "5278A6646F137062"
+			tasks: [{
+				id: "79C6E235E7528348"
+				item: "thermal:dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["634C8C7C150B995A"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "485C9E9B93368D35"
+			tasks: [{
+				id: "29202254BFE2EA01"
+				item: "thermal:dynamo_throttle_augment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3163E0A143F913F2"]
+			id: "63C367D51A6AEDA6"
+			tasks: [{
+				id: "4A5CD3CA22A0BBED"
+				item: {
+					Count: 1
+					id: "thermal:dynamo_stirling"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 0
+							EnergySend: 400
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3163E0A143F913F2"]
+			id: "7AAEF440048C0C87"
+			tasks: [{
+				id: "5631A599E91E0EF8"
+				item: {
+					Count: 1
+					id: "thermal:dynamo_compression"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 0
+							EnergySend: 400
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"2E027E91E196A770"
+			]
+			id: "6BF843DC0BAB5FDF"
+			tasks: [{
+				id: "39C548DA3E570043"
+				item: {
+					Count: 1
+					id: "thermal:dynamo_magmatic"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 0
+							EnergySend: 400
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"6359276B4243403D"
+			]
+			id: "398A523E1FF39D21"
+			tasks: [{
+				id: "26769615EFB04551"
+				item: {
+					Count: 1
+					id: "thermal:dynamo_numismatic"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 0
+							EnergySend: 400
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3163E0A143F913F2"]
+			id: "039ABEE7BC1A3ABB"
+			tasks: [{
+				id: "007081717410DA2C"
+				item: {
+					Count: 1
+					id: "thermal:dynamo_disenchantment"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 0
+							EnergySend: 400
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"202EAE8B2734F3E9"
+			]
+			id: "223083A8FA161494"
+			tasks: [{
+				id: "4A5E391B575337BF"
+				item: {
+					Count: 1
+					id: "thermal:dynamo_gourmand"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 0
+							EnergySend: 400
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3163E0A143F913F2"]
+			id: "0AABB2D64DDB3F4C"
+			tasks: [{
+				id: "1F4FE014B3B0EA54"
+				item: {
+					Count: 1
+					id: "thermal:dynamo_lapidary"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 0
+							EnergySend: 400
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["256D3BF65E48D706"]
+			id: "2654F1EE231CACF5"
+			tasks: [{
+				id: "0D962B451B420849"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							AmountIn: 1000
+							AmountOut: 1000
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 1b
+							}
+						}
+						Properties: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5EC1FB2F20BF7B0F"]
+			id: "4220B6C47B188FEA"
+			tasks: [{
+				id: "24513D4992E875B6"
+				item: "thermal:energy_cell_frame"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4220B6C47B188FEA"
+				"3592AD21376AC01E"
+			]
+			id: "719F4D60EC63A1C4"
+			tasks: [{
+				id: "7FF3B236FBF6CB7E"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							AmountIn: 2000
+							AmountOut: 2000
+							Augments: [{
+								Count: 1b
+								id: "thermal:rf_coil_storage_augment"
+							}]
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 2000
+							EnergySend: 2000
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 1b
+							}
+						}
+						Properties: {
+							RFMax: 6.0f
+							RFXfer: 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+	]
+	title: "Tech 3: Thermal Age"
+}

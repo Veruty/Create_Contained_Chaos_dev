@@ -1,0 +1,11 @@
+{
+	id: "4C30B58C542E67F2"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 8, item: "create_new_age:thorium", random_bonus: 8 }
+		{ count: 4, item: "create_new_age:overcharged_gold", random_bonus: 2 }
+		{ count: 2, item: "create_new_age:radioactive_thorium", random_bonus: 2 }
+	]
+	title: "na.lvl.2"
+}

@@ -1,0 +1,10 @@
+ClientEvents.lang('en_us', event => {
+	event.renameItem('blocksyouneed_luna:steel_ingot', 'Unused item')
+	event.renameItem('blocksyouneed_luna:steel_block', 'Unused block')
+	event.renameItem('ad_astra:steel_ingot', 'Unused item')
+	event.renameItem('ad_astra:steel_plate', 'Unused item')
+	event.renameItem('ad_astra:steel_nugget', 'Unused item')
+	event.renameItem('ad_astra:steel_block', 'Unused block')
+	event.renameItem('davebuildingmod:steel_ingot', 'Unused item')
+	event.renameItem('davebuildingmod:steel_block', 'Unused block')
+})

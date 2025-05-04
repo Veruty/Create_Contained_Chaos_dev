@@ -1,0 +1,505 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "atomic_disassembler_the_full_guide"
+	group: "37BAA532886F195A"
+	icon: {
+		Count: 1
+		id: "mekanism:atomic_disassembler"
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "1000000"
+				}]
+			}
+		}
+	}
+	id: "13DE0DAA8B105933"
+	order_index: 3
+	quest_links: [{
+		id: "402D3F2C1AC4C3C5"
+		linked_quest: "31F827BCD6C0754F"
+		x: -11.5d
+		y: 7.5d
+	}]
+	quests: [
+		{
+			dependencies: ["44F862C7C90CA924"]
+			description: [
+				"{quest.adtfg.1.1.desc}"
+				""
+				"{quest.adtfg.1.2.desc}"
+			]
+			hide_until_deps_visible: true
+			icon: "mekanism:atomic_disassembler"
+			id: "0933FECC966F2BFB"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6B5040D1877FBB00"
+				title: "I'm Ready"
+				type: "checkmark"
+			}]
+			title: "{quest.adtfg.1.title}"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4021E142C009534C"]
+			description: ["{quest.adtfg.2.desc}"]
+			icon: "mekanism:alloy_atomic"
+			id: "35FF39D8937663F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CAEEA5B01AEB212"
+				table_id: 3787235680673248236L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "414E2B8CF140B97D"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			title: "{quest.adtfg.2.title}"
+			x: -7.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["170383D8AD2F9AB5"]
+			description: [
+				"{quest.adtfg.3.1.desc}"
+				""
+				"{quest.adtfg.3.2.desc}"
+				""
+				"{quest.adtfg.3.3.desc}"
+			]
+			icon: "kubejs:unstable_alloy"
+			id: "04AB3A3D281BC00D"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "195CC3F3A2F5174D"
+				item: { Count: 8, id: "kubejs:unstable_alloy" }
+				type: "item"
+			}]
+			title: "{quest.adtfg.3.title}"
+			x: -9.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["44F862C7C90CA924"]
+			description: ["{quest.adtfg.4.desc}"]
+			id: "5D7C1E06DEE3C098"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "67C7E650E006E4A4"
+				item: { Count: 2, id: "kubejs:liquid_redstone_bucket" }
+				type: "item"
+			}]
+			title: "{quest.adtfg.4.title}"
+			x: -4.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["26D52AC7096BED77"]
+			description: ["{quest.adtfg.5.desc}"]
+			id: "3B0AA96561C9787F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D8799CDB57A96DC"
+				table_id: 4129896840933225100L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "245607D9B0CEDF7E"
+				item: { Count: 8, id: "mekanism:energy_tablet" }
+				type: "item"
+			}]
+			title: "{quest.adtfg.5.title}"
+			x: -4.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["631618DEA825BE1A"]
+			description: ["{quest.adtfg.6.desc}"]
+			icon: "kubejs:reinforced_moon_cheese_alloy"
+			id: "2B57EDD46AF162CD"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "26750D4AAE760179"
+				item: { Count: 8, id: "kubejs:reinforced_moon_cheese_alloy" }
+				type: "item"
+			}]
+			title: "{quest.adtfg.6.title}"
+			x: -9.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7B47940857DF13E5"]
+			description: ["{quest.adtfg.7.desc}"]
+			icon: "kubejs:almost_complete_atomic_disassembler"
+			id: "63099B81CE566B87"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "1AE9AF6B3A0DD700"
+				item: "kubejs:almost_complete_atomic_disassembler"
+				type: "item"
+			}]
+			title: "{quest.adtfg.7.title}"
+			x: -2.25d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"19E812C5C18EC00A"
+				"7930A0C331B6E1C3"
+				"10C29AA47DD5F201"
+				"3107960A46F45F22"
+			]
+			description: ["{quest.adtfg.8.desc}"]
+			icon: "kubejs:advanced_mechanism"
+			id: "71C356B841001E89"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "05B5F0A78A51DD53"
+				item: "kubejs:advanced_mechanism"
+				type: "item"
+			}]
+			title: "{quest.adtfg.8.title}"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0933FECC966F2BFB"]
+			description: ["{quest.adtfg.9.desc}"]
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			icon: "minecraft:diamond"
+			id: "10C29AA47DD5F201"
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "1526792C67AC22A3"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "{quest.adtfg.9.title}"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0933FECC966F2BFB"]
+			description: ["{quest.adtfg.10.desc}"]
+			hide_dependency_lines: true
+			id: "3107960A46F45F22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3799AB440FAA1CCE"
+				table_id: 3755101900932477118L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "2F2C17F3A46EB748"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			title: "{quest.adtfg.10.title}"
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0933FECC966F2BFB"]
+			description: ["{quest.adtfg.11.desc}"]
+			hide_dependency_lines: true
+			id: "19E812C5C18EC00A"
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "7B68BBE45D339DC5"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "{quest.adtfg.11.title}"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"63099B81CE566B87"
+				"71C356B841001E89"
+			]
+			description: [
+				"{quest.adtfg.12.1.desc}"
+				""
+				"{quest.adtfg.12.2.desc}"
+			]
+			icon: {
+				Count: 1
+				id: "mekanism:atomic_disassembler"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "1000000"
+						}]
+					}
+				}
+			}
+			id: "36DCE5083BD00607"
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "1C61E6DF6F50B37B"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			title: "{quest.adtfg.12.title}"
+			x: 1.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0933FECC966F2BFB"]
+			description: ["{quest.adtfg.13.desc}"]
+			hide_dependency_lines: true
+			icon: "mekanism:ingot_refined_obsidian"
+			id: "490BBA730C60E1E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7305150229B92599"
+				table_id: 3787235680673248236L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "4FFAAE55709F8A0D"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			title: "{quest.adtfg.13.title}"
+			x: -7.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0933FECC966F2BFB"]
+			description: ["{quest.adtfg.14.desc}"]
+			hide_dependency_lines: true
+			icon: "mekanism:alloy_infused"
+			id: "26D52AC7096BED77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69A0CFE4618F454E"
+				table_id: 4129896840933225100L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "07D997E3E2E9A051"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "{quest.adtfg.14.title}"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26D52AC7096BED77"]
+			description: ["{quest.adtfg.15.desc}"]
+			icon: "mekanism:alloy_reinforced"
+			id: "4021E142C009534C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CA0F4523F54FBC5"
+				table_id: 3755101900932477118L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "6240F410A01A4453"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			title: "{quest.adtfg.15.title}"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31F827BCD6C0754F"]
+			description: ["{quest.adtfg.17.desc}"]
+			icon: "kubejs:moon_cheese_alloy"
+			id: "631618DEA825BE1A"
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "2A9FB5499A0ECDB7"
+				item: { Count: 4, id: "kubejs:moon_cheese_alloy" }
+				type: "item"
+			}]
+			title: "{quest.adtfg.17.title}"
+			x: -11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2B57EDD46AF162CD"
+				"04AB3A3D281BC00D"
+				"35FF39D8937663F7"
+				"490BBA730C60E1E7"
+				"3B0AA96561C9787F"
+				"5D7C1E06DEE3C098"
+			]
+			description: [
+				"{quest.adtfg.18.1.desc}"
+				""
+				"{quest.adtfg.18.2.desc}"
+			]
+			icon: "create:deployer"
+			id: "7B47940857DF13E5"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2F69C3ACC79D7228"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "{quest.adtfg.18.title}"
+			x: -6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0933FECC966F2BFB"]
+			description: ["{quest.adtfg.19.desc}"]
+			hide_dependency_lines: true
+			icon: "create_new_age:overcharged_iron_sheet"
+			id: "7930A0C331B6E1C3"
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "65892A3F71994FDC"
+				item: "create_new_age:overcharged_iron_sheet"
+				type: "item"
+			}]
+			title: "{quest.adtfg.19.title}"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"13071D3187F39840"
+				"7BF362284A0D368C"
+				"073B37044CE7F82C"
+				"430A83020CB9F76D"
+				"17DF0983306BEA6A"
+			]
+			icon: "create:mechanical_press"
+			id: "170383D8AD2F9AB5"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "3B6C803CE2202817"
+				title: "Some assemly required"
+				type: "checkmark"
+			}]
+			x: -12.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44F862C7C90CA924"]
+			id: "073B37044CE7F82C"
+			tasks: [{
+				count: 64L
+				id: "41F246D3A9C96F77"
+				item: { Count: 64, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44F862C7C90CA924"]
+			id: "17DF0983306BEA6A"
+			tasks: [{
+				count: 64L
+				id: "556640099E67B28B"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44F862C7C90CA924"]
+			id: "430A83020CB9F76D"
+			tasks: [{
+				count: 64L
+				id: "49FD21F1BDEF1EA8"
+				item: { Count: 64, id: "mekanism:ingot_uranium" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44F862C7C90CA924"]
+			id: "7BF362284A0D368C"
+			tasks: [{
+				count: 64L
+				id: "2DB435ED28C7F424"
+				item: { Count: 64, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44F862C7C90CA924"]
+			hide_text_until_complete: false
+			id: "13071D3187F39840"
+			tasks: [{
+				count: 64L
+				id: "5B56EA6E02C88AFE"
+				item: { Count: 64, id: "mekanism:ingot_lead" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5283F2BB4BFFEA53"]
+			id: "44F862C7C90CA924"
+			tasks: [{
+				id: "44D69BD5296BF255"
+				title: "123123"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 3.5d
+		}
+	]
+	title: "{quest.adtfg.root.title}"
+}

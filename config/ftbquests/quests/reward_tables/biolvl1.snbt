@@ -1,0 +1,12 @@
+{
+	id: "15B274619EB82873"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 3, item: "biomancy:flesh_bits", random_bonus: 2 }
+		{ count: 4, item: "biomancy:elastic_fibers", random_bonus: 3 }
+		{ count: 2, item: "biomancy:mineral_fragment", random_bonus: 1 }
+		{ item: "biomancy:tough_fibers", random_bonus: 2 }
+	]
+	title: "bio.lvl.1"
+}

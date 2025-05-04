@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "4BCA08601609B5F5"
+	icon: "minecraft:grass_block"
+	id: "4C168ABDC3A90CA4"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [
+		{
+			id: "2257DA0D233EAEFD"
+			linked_quest: "6E6F52C321CD84BD"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "40B0B4154B514A94"
+			linked_quest: "0F2000A3828DD2A0"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "6A5A4B913BE23C0E"
+			linked_quest: "158426E64B0F7B64"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "6BD7ECFAEAEE9E4C"
+			linked_quest: "55A1237E4E373FCA"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			id: "426B453A375BBF04"
+			linked_quest: "0E26D8711F2FDDE4"
+			x: -7.5d
+			y: -3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["2914EB6824015651"]
+			icon: "minecraft:oak_log"
+			id: "2B89F0F9A63C590A"
+			tasks: [{
+				id: "6D2A0392F739589E"
+				observe_type: 1
+				timer: 0L
+				to_observe: "minecraft:logs"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B89F0F9A63C590A"]
+			id: "01B5EFFCB94E0FE3"
+			tasks: [{
+				id: "0C59BCE386BD9D46"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
+			id: "5FDB30A581409E56"
+			tasks: [{
+				id: "65EC9B8AD13991F0"
+				title: "welcome to exlploration"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FDB30A581409E56"]
+			id: "2914EB6824015651"
+			subtitle: "might be buggy, close quests and open again"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "07E30949E80929CA"
+				type: "dimension"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"526A77EEB8CB20F6"
+				"0F2000A3828DD2A0"
+			]
+			dependency_requirement: "one_completed"
+			id: "7735AE558F4AD354"
+			tasks: [{
+				id: "1B1617440C0B72FD"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"526A77EEB8CB20F6"
+				"158426E64B0F7B64"
+			]
+			dependency_requirement: "one_completed"
+			id: "7BD4BA94CED71F8C"
+			tasks: [{
+				id: "77BA41E26C3E7A38"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7BD4BA94CED71F8C"
+				"526A77EEB8CB20F6"
+			]
+			dependency_requirement: "one_completed"
+			id: "5F412B939501E126"
+			tasks: [{
+				id: "7DBA25A73D64CDB7"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7735AE558F4AD354"]
+			id: "79F384A447C70803"
+			tasks: [{
+				id: "6BB69E272C86BFD1"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"79F384A447C70803"
+				"5F412B939501E126"
+			]
+			id: "015431AF0A5996BD"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5E346B83102F5247"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FDB30A581409E56"]
+			hide_dependent_lines: true
+			id: "526A77EEB8CB20F6"
+			tasks: [{
+				id: "16950381E40B0619"
+				title: "find it instead"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FDB30A581409E56"]
+			id: "37EBE338226CA2B2"
+			tasks: [{
+				id: "16B588EF6BDC188D"
+				title: "things to explore"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["37EBE338226CA2B2"]
+			icon: "minecraft:budding_amethyst"
+			id: "715945E33F35CF4C"
+			tasks: [{
+				id: "620043BD0EEDF4E7"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:budding_amethyst"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"526A77EEB8CB20F6"
+				"0F2000A3828DD2A0"
+			]
+			dependency_requirement: "one_completed"
+			id: "2EA31EC8685CA619"
+			tasks: [{
+				id: "686A54EA5F5A2129"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"01B5EFFCB94E0FE3"
+				"526A77EEB8CB20F6"
+			]
+			dependency_requirement: "one_completed"
+			id: "10129FAB40012EB9"
+			tasks: [{
+				id: "5D547072C09FFF2D"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+	]
+	title: "Overworld"
+}

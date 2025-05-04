@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gettingstarted"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "35D8A406CCEDC5DE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Welcome to Contained Chaos, my \"fun little modpack\" that was centered (mostly) around Create (untill some idiot turned it into boneless gregtech)."
+			""
+			"This quest line will guide you through everything you need to know to get started, and you can follow other quest lines to guide you through other parts of this modpack. It is recommended not to skip the questline as a lot of modded stuff is changed."
+			""
+			"If you're ready to start the quest line, click the check mark! You'll also recieve some honeyed apples for some food to help you get started. :)"
+			""
+			"Note: The quest lines won't cover &oevery&r mod/feature in the modpack, and you will most likely have to figure out some things on your own."
+		]
+		hide_details_until_startable: false
+		hide_text_until_complete: false
+		hide_until_deps_complete: false
+		hide_until_deps_visible: false
+		icon: "minecraft:grass_block"
+		id: "0E26D8711F2FDDE4"
+		rewards: [{
+			count: 16
+			id: "649E74E3230FA304"
+			item: "create:honeyed_apple"
+			type: "item"
+		}]
+		size: 2.0d
+		subtitle: "The beginning of everything."
+		tasks: [{
+			id: "4F94EE490B4CC267"
+			title: "I'm Ready"
+			type: "checkmark"
+		}]
+		title: "Beginning"
+		x: -0.5d
+		y: -1.5d
+	}]
+	title: "Getting Started"
+}

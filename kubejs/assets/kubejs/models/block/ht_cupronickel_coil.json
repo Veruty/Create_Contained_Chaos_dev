@@ -1,0 +1,21 @@
+{
+   "loader": "fusion:model",
+   "type": "connecting",
+   "textures": {
+      "1": "kubejs:block/ht_cupronickel_coil_up_down",
+      "2": "kubejs:block/ht_cupronickel_coil_side",
+      "particle": "#2"
+   },
+   "connections": [
+      {"type": "is_same_block"}
+   ],
+   "parent": "block/cube_all",
+   "textures": {
+        "up": { "texture": "#1"},
+        "down": { "texture": "#1"},
+        "north": { "texture": "#2" },
+        "south": { "texture": "#2" },
+        "east": { "texture": "#2" },
+        "west": { "texture": "#2" }
+   }
+}

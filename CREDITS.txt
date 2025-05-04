@@ -1,0 +1,10 @@
+\config\fancymenu\assets\caipirinha.ogg | Ariane Kranz - Caipirinha (and whoever did this sped up vers i really cant find original)
+\config\fancymenu\assets\caipirinha.gif | LillyAlbarn Caipirinha - Neco Arc Dancing https://www.newgrounds.com/art/view/lillyalbarn/caipirinha-neco-arc-gif
+\config\fancymenu\assets\silence.ogg | https://commons.wikimedia.org/wiki/File:Silence.ogg 
+\kubejs\assets\kubejs\textures\item\steel_plate.png | retextured copper sheet from Create
+\kubejs\assets\kubejs\textures\item\steel_nugget.png | retextured copper nugget from Create
+\kubejs\assets\kubejs\textures\item\steel_gear.png | retextured gear from GtCEu Modern https://github.com/GregTechCEu/GregTech-Modern/blob/1.20.1/src/main/resources/assets/gtceu/textures/item/material_sets/rough/gear.png
+\kubejs\assets\kubejs\textures\item\godly_shard_***.png and \kubejs\assets\kubejs\textures\item\redstone_crystal.png | heavily modified copies of crystall texture from Thaumcraft 6
+https://github.com/GregTechCEu/GregTech-Modern/blob/1.20.1/src/main/resources/assets/gtceu/textures/item/material_sets/metallic/dust.png
+https://github.com/GregTechCEu/GregTech-Modern/blob/1.20.1/src/main/resources/assets/gtceu/textures/item/material_sets/metallic/ingot.png
+

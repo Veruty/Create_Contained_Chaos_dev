@@ -1,0 +1,931 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biomancy"
+	group: "1B9B9B5F76BED733"
+	icon: "biomancy:primordial_cradle"
+	id: "1866028A07209555"
+	order_index: 0
+	quest_links: [{
+		id: "7382D31BA0CBD8B2"
+		linked_quest: "0E26D8711F2FDDE4"
+		x: -3.5d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["2960FDE713B6103F"]
+			description: ["{quest.bio.2.desc}"]
+			id: "021D775B26534B09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "461C6DA4A9C31203"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "2E20E6C0DDBFBCBC"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			title: "{quest.bio.2.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["021D775B26534B09"]
+			description: ["{quest.bio.4.desc}"]
+			id: "1A1E781BF5BA2B7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51F9B0DFCF8722DA"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "352369BFF29805A8"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			title: "{quest.bio.4.title}"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["021D775B26534B09"]
+			description: ["{quest.bio.3.desc}"]
+			id: "5E0F9397FA83D61A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38FCDD03BFCD9CD4"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "73A77F01BBDB7D9F"
+				item: {
+					Count: 1
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.bio.3.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A1E781BF5BA2B7F"]
+			description: ["{quest.bio.10.desc}"]
+			id: "63F29667796878B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23D4C5AEDBCC3976"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "biomancy:flesh_blob"
+				icon: "biomancy:living_flesh"
+				id: "012EDA83A48351A2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{quest.bio.10.title}"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E0F9397FA83D61A"]
+			description: ["{quest.bio.9.desc}"]
+			id: "189AFD207C1BC5E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42EFEFEB3BD188F0"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0F904612E17ADA8C"
+				item: "biomancy:mob_gland"
+				type: "item"
+			}]
+			title: "{quest.bio.9.title}"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"189AFD207C1BC5E2"
+				"63F29667796878B6"
+			]
+			description: ["{quest.bio.11.desc}"]
+			id: "1D86A07D3FDC56D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AD66392848AF470"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "09F9A61BFA60AB70"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			title: "{quest.bio.11.title}"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"63F29667796878B6"
+				"31093D4C407236BE"
+			]
+			description: ["{bio.quest.13.desc}"]
+			id: "23AA8BC5D26A4F47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C54C6BE0D820957"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "424215F51C40D591"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			title: "{bio.quest.13.title}"
+			x: 7.5d
+			y: -0.9d
+		}
+		{
+			dependencies: ["1D86A07D3FDC56D7"]
+			description: ["{bio.quest.12.desc}"]
+			icon: "biomancy:flesh_bits"
+			id: "31093D4C407236BE"
+			size: 1.0d
+			tasks: [{
+				id: "19346CF9D81FBE19"
+				type: "checkmark"
+			}]
+			title: "{bio.quest.12.title}"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			description: ["{bio.quest.14.desc}"]
+			id: "72C605D5F08E942D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1265911D70180882"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2AF7B0E9439180F3"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			title: "{bio.quest.14.title}"
+			x: 4.5d
+			y: -1.6999999999999997d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			description: ["{bio.quest.16.desc}"]
+			id: "09130E1FF6A014BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DF7307A9B2A7D9B"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "61D79B7ED25C3D70"
+				item: "biomancy:fleshkin_chest"
+				type: "item"
+			}]
+			title: "{bio.quest.16.title}"
+			x: 5.0d
+			y: -3.1999999999999997d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			description: ["{bio.quest.17.desc}"]
+			id: "1C89DED7139FF7AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7978F1AD5440934B"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0E4FC13BC9E154C5"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			title: "{bio.quest.17.title}"
+			x: 6.0d
+			y: -4.200000000000001d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			description: ["{bio.quest.36.desc}"]
+			id: "056D3A526AC4A8F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28EC10FA73722F38"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "220FD9083CB1A5C2"
+				item: {
+					Count: 1
+					id: "biomancy:ravenous_claws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{bio.quest.36.title}"
+			x: 10.5d
+			y: -1.6999999999999997d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			description: ["{bio.quest.34.desc}"]
+			id: "2AFBF9E2184C3053"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6103F62781C6C8C0"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "62AC59DA50BDFA8D"
+				item: {
+					Count: 1
+					id: "biomancy:thorn_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{bio.quest.34.title}"
+			x: 9.0d
+			y: -4.200000000000001d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			description: ["{bio.quest.35.desc}"]
+			id: "5319D9DD1A371E27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C55D5A07967C658"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "666D95E13F38780E"
+				item: {
+					Count: 1
+					id: "biomancy:caustic_gunblade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{bio.quest.35.title}"
+			x: 10.0d
+			y: -3.1999999999999997d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			description: ["{bio.quest.33.desc}"]
+			id: "0C9382E10D0FC3D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C1FEFB4E4250573"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "316F27845037D438"
+				item: {
+					Count: 1
+					id: "biomancy:injector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{bio.quest.33.title}"
+			x: 7.5d
+			y: -4.700000000000001d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			description: ["{bio.quest.38.desc}"]
+			id: "25DEBD7139CEB509"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07C9B48EB7A6BB78"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "003071091AA84DC7"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4BE76B0BE73E5641"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "46D24121F59CA224"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_leggings"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "25213D237E35BC1D"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_boots"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{bio.quest.38.title}"
+			x: 10.0d
+			y: 1.3000000000000003d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			description: ["{bio.quest.39.desc}"]
+			id: "6503991883B2A2FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "731A12546DE9B97A"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4F5A67B059EC3A80"
+				item: "biomancy:creator_mix"
+				type: "item"
+			}]
+			title: "{bio.quest.39.title}"
+			x: 9.0d
+			y: 2.3000000000000003d
+		}
+		{
+			dependencies: ["1A1E781BF5BA2B7F"]
+			description: ["{quest.bio.5.desc}"]
+			icon: "biomancy:malignant_flesh"
+			id: "4E58979834FDC050"
+			size: 1.25d
+			tasks: [{
+				id: "0D72000AF3644476"
+				type: "checkmark"
+			}]
+			title: "{quest.bio.5.title}"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E58979834FDC050"]
+			description: ["{quest.bio.6.desc}"]
+			id: "7BBB19E7ACF3C68E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "750D9CC1824133D1"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D48DA170CC98594"
+				item: "biomancy:primal_orifice"
+				type: "item"
+			}]
+			title: "{quest.bio.6.title}"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E58979834FDC050"]
+			description: ["{quest.bio.7.desc}"]
+			id: "59895C25DDFF91BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FC1C011F20556BE"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "49675DDB58139BFC"
+				item: "biomancy:bloomlight"
+				type: "item"
+			}]
+			title: "{quest.bio.7.title}"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E58979834FDC050"]
+			description: ["{quest.bio.8.desc}"]
+			id: "613236E638C66692"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "755D28C4142DA932"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "48E5923CC40A2451"
+				item: "biomancy:primal_bloom"
+				type: "item"
+			}]
+			title: "{quest.bio.8.title}"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			dependency_requirement: "one_completed"
+			description: ["{bio.quest.37.desc}"]
+			id: "4004129749B191AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "081DB6FA9C2EEB4B"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D36A658CB457985"
+				item: {
+					Count: 1
+					id: "biomancy:extractor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{bio.quest.37.title}"
+			x: 10.5d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["72C605D5F08E942D"]
+			description: ["{bio.quest.15.desc}"]
+			id: "54F8F0C353755CF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DA67A7747E5541D"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "50614474A4FF7C12"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			title: "{bio.quest.15.title}"
+			x: 3.0d
+			y: -2.1999999999999997d
+		}
+		{
+			dependencies: ["1C89DED7139FF7AE"]
+			description: ["{bio.quest.18.desc}"]
+			id: "0CA7E3DAEF8411B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A9F652D2325996C"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			shape: "square"
+			size: 1.25d
+			tasks: [{
+				id: "62ABA9A9D7CA77DD"
+				item: "biomancy:organic_compound"
+				type: "item"
+			}]
+			title: "{bio.quest.18.title}"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0CA7E3DAEF8411B3"]
+			description: ["{bio.quest.19.desc}"]
+			id: "2065EEC6934625DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D9B274D29299217"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "58E63E8C19DFDF86"
+				item: "biomancy:unstable_compound"
+				type: "item"
+			}]
+			title: "{bio.quest.19.title}"
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0CA7E3DAEF8411B3"]
+			description: ["{bio.quest.32.desc}"]
+			hide_dependent_lines: true
+			id: "2EDDBE7F3D466B79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F17F0DA195F2808"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1CBE2B2D333C6E44"
+				item: "biomancy:decaying_additive"
+				type: "item"
+			}]
+			title: "{bio.quest.32.title}"
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0CA7E3DAEF8411B3"]
+			description: ["{bio.quest.31.desc}"]
+			hide_dependent_lines: true
+			id: "692C1E964AB5B540"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "350D5DA6E50B9697"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1974571F63CAC8E5"
+				item: "biomancy:healing_additive"
+				type: "item"
+			}]
+			title: "{bio.quest.31.title}"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0CA7E3DAEF8411B3"]
+			description: ["{bio.quest.25.desc}"]
+			id: "168998763F13F317"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0607B4FBEFBD2980"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6DEFBA096C8D3964"
+				item: "biomancy:genetic_compound"
+				type: "item"
+			}]
+			title: "{bio.quest.25.title}"
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"2EDDBE7F3D466B79"
+				"692C1E964AB5B540"
+				"168998763F13F317"
+			]
+			description: ["{bio.quest.28.desc}"]
+			id: "01B61DFAA5FF2EB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A343DE3A924C7EB"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3C1D407C79CF0570"
+				item: "biomancy:shrinking_serum"
+				type: "item"
+			}]
+			title: "{bio.quest.28.title}"
+			x: 9.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"2EDDBE7F3D466B79"
+				"692C1E964AB5B540"
+				"168998763F13F317"
+			]
+			description: ["{bio.quest.27.desc}"]
+			hide_dependency_lines: false
+			id: "35D001AF7577BAF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FC8B1307F6387CF"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7BF13FCBC5C1CA20"
+				item: "biomancy:rejuvenation_serum"
+				type: "item"
+			}]
+			title: "{bio.quest.27.title}"
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"2EDDBE7F3D466B79"
+				"168998763F13F317"
+			]
+			description: ["{bio.quest.26.desc}"]
+			id: "562221D54B28E7F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03A6E55F515C4335"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "44F6EACACC541BF8"
+				item: "biomancy:ageing_serum"
+				type: "item"
+			}]
+			title: "{bio.quest.26.title}"
+			x: 7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"168998763F13F317"
+				"692C1E964AB5B540"
+			]
+			description: ["{bio.quest.29.desc}"]
+			id: "211FCAB9A75F67D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02290DE5C43C22A7"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "18377FEAD36C6BD5"
+				item: "biomancy:enlargement_serum"
+				type: "item"
+			}]
+			title: "{bio.quest.29.title}"
+			x: 10.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["168998763F13F317"]
+			description: ["{bio.quest.30.desc}"]
+			id: "3957EF823549E9AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EF927337057FC8E"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1ED376BDEF9E30E9"
+				item: "biomancy:breeding_stimulant"
+				type: "item"
+			}]
+			title: "{bio.quest.30.title}"
+			x: 11.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0CA7E3DAEF8411B3"]
+			description: ["{quest.bio.20.desc}"]
+			id: "197F2D1A0B4C7341"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6416A5ABA0985339"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "793173F053CBF5F6"
+				item: "biomancy:exotic_compound"
+				type: "item"
+			}]
+			title: "{bio.quest.20.title}"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"197F2D1A0B4C7341"
+				"692C1E964AB5B540"
+			]
+			description: ["{bio.quest.21.desc}"]
+			id: "72B11A8B658E1BF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63FCAC3D0ED819F1"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "389D3C6AFA1367E1"
+				item: "biomancy:absorption_boost"
+				type: "item"
+			}]
+			title: "{bio.quest.21.title}"
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["197F2D1A0B4C7341"]
+			description: ["{bio.quest.22.desc}"]
+			id: "7152B3E6B0F9F5EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F1CC73DDA589B1F"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "215C77E43EABD7D8"
+				item: "biomancy:frenzy_serum"
+				type: "item"
+			}]
+			title: "{bio.quest.22.title}"
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"197F2D1A0B4C7341"
+				"2EDDBE7F3D466B79"
+				"692C1E964AB5B540"
+			]
+			description: ["{bio.quest.23.desc}"]
+			id: "3F1CFCD6026DD68C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6107F4789324E6F5"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6607AE37327442C0"
+				item: "biomancy:cleansing_serum"
+				type: "item"
+			}]
+			title: "{bio.quest.23.title}"
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["197F2D1A0B4C7341"]
+			description: ["{bio.quest.24.desc}"]
+			id: "14856139A7155398"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4405FB383C8B4BD9"
+				table_id: 8679068758044343808L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1AA18D3B75FFA7B5"
+				item: "biomancy:insomnia_cure"
+				type: "item"
+			}]
+			title: "{bio.quest.24.title}"
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			dependency_requirement: "one_completed"
+			description: ["{bio.quest.40.desc}"]
+			id: "3C485ACA1C07D565"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D944943C7A2D6DA"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "662C681F020087DD"
+					item: "biomancy:flesh"
+					type: "item"
+				}
+				{
+					id: "2388C2AFCFDBF9F9"
+					item: "biomancy:flesh_door"
+					type: "item"
+				}
+				{
+					id: "3426C2B0F025DA47"
+					item: "biomancy:fleshkin_pressure_plate"
+					type: "item"
+				}
+				{
+					id: "5B2BD085700E2A08"
+					item: "biomancy:flesh_iris_door"
+					type: "item"
+				}
+				{
+					id: "4ABB1CBEAD418ADF"
+					item: "biomancy:flesh_ladder"
+					type: "item"
+				}
+				{
+					id: "5890F7B3FCCE82D2"
+					item: "biomancy:flesh_fence"
+					type: "item"
+				}
+				{
+					id: "7FEF98923229EA5D"
+					item: "biomancy:flesh_fence_gate"
+					type: "item"
+				}
+			]
+			title: "{bio.quest.40.title}"
+			x: 7.5d
+			y: 2.8000000000000003d
+		}
+		{
+			dependencies: ["23AA8BC5D26A4F47"]
+			description: ["{bio.quest.41.desc}"]
+			id: "4E779E380FD2DE3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45C1A4AF67D0E4F6"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1FAFE6BF31FB8031"
+					item: "biomancy:maw_hopper"
+					type: "item"
+				}
+				{
+					id: "59E52A64A5671A0D"
+					item: "biomancy:tongue"
+					type: "item"
+				}
+			]
+			title: "{bio.quest.41.title}"
+			x: 6.0d
+			y: 2.3000000000000003d
+		}
+		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			description: ["{quest.bio.1.desc}"]
+			hide_until_deps_complete: true
+			icon: "biomancy:living_flesh"
+			id: "2960FDE713B6103F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54F569FD6D692D58"
+				table_id: 1563439983274502259L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "604EAD1AFB005F63"
+				type: "checkmark"
+			}]
+			title: "{quest.bio.1.title}"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "Biomancy"
+}
