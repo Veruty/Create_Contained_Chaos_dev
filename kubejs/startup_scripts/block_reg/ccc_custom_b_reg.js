@@ -11,7 +11,7 @@ StartupEvents.registry('block', e => {
 		.textureAll("kubejs:block/condensed_casing")
         .tagBlock('mineable/axe')
         .tagBlock('mineable/pickaxe')
-        .tagBlock('minecraft:needs_wooden_tool')
+        .tagBlock('minecraft:needs_stone_tool')
 		.model('kubejs:block/condensed_casing')    
 	e.create('amethyst_casing')
         .displayName('Amethyst Casing')

@@ -1,5 +1,5 @@
 StartupEvents.registry('block', e => {
-    e.create('steel_block')
+        e.create('steel_block')
         .displayName('Steel Block')
         .soundType('metal')
         .hardness(1.0)
@@ -8,7 +8,7 @@ StartupEvents.registry('block', e => {
         .tagBlock('mineable/pickaxe')
         .tagBlock('minecraft:needs_iron_tool')
         .tagBlock('minecraft:beacon_base_blocks')
-	e.create('ht_cupronickel_block')
+        e.create('ht_cupronickel_block')
         .displayName('HT Cupronickel Block')
         .soundType('metal')
         .hardness(1.0)
