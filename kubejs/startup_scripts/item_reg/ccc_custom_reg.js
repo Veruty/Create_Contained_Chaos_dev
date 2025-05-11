@@ -39,4 +39,6 @@ StartupEvents.registry('item', e => {
 	e.create('incomplete_power_management_mechanism', 'create:sequenced_assembly').displayName('Incomplete Power Management Mechanism')
 	e.create('power_management_mechanism').displayName('Power Management Mechanism')
     e.create('simple_mechanism').displayName('Simple Mechanism')
+    e.create('graphite_dust').displayName('Graphite Dust')
+    e.create('graphite_rod').displayName('Graphite Rod')
 })

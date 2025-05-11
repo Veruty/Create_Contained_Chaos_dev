@@ -83,8 +83,8 @@
 		{
 			id: "2F77B7EDA442EF26"
 			linked_quest: "7DEC2438E0FDB776"
-			x: -1.0d
-			y: -4.0d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			id: "0D2F8BFB324EB537"
@@ -95,7 +95,7 @@
 		{
 			id: "5301D9801FF0D6F7"
 			linked_quest: "158426E64B0F7B64"
-			x: -1.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -107,8 +107,8 @@
 		{
 			id: "778556612A343027"
 			linked_quest: "7F8F6CB4674626C1"
-			x: 6.0d
-			y: 0.0d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			id: "2F1736B0E7F214CB"
@@ -131,14 +131,14 @@
 		{
 			id: "4F345FAB37E7153E"
 			linked_quest: "34716F03D4E67B4E"
-			x: 5.0d
-			y: -1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			id: "23C29535DD2514D6"
 			linked_quest: "79E5B71B36FB83DC"
 			x: 8.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			id: "027B9B431C0D35E1"
@@ -169,6 +169,12 @@
 			linked_quest: "061CA8B8F6F9B574"
 			x: 8.0d
 			y: 3.0d
+		}
+		{
+			id: "05E56074784F2600"
+			linked_quest: "2E78E9C05C56F804"
+			x: 1.0d
+			y: -10.0d
 		}
 	]
 	quests: [
@@ -215,8 +221,8 @@
 				item: "thermal:rf_coil"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -756,20 +762,6 @@
 		{
 			dependencies: [
 				"454433BD96203E33"
-				"0F2000A3828DD2A0"
-			]
-			id: "23F538688C08AB8E"
-			tasks: [{
-				id: "10534F0E0E336FC1"
-				item: "thermal:iron_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"454433BD96203E33"
 				"4CCDC24B680782FF"
 			]
 			id: "255EC494E1B2E693"
@@ -797,8 +789,8 @@
 		}
 		{
 			dependencies: [
-				"23F538688C08AB8E"
 				"255EC494E1B2E693"
+				"2E78E9C05C56F804"
 			]
 			id: "71BE94971284ED6F"
 			tasks: [{
@@ -997,7 +989,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1010,8 +1002,8 @@
 				item: "thermal:gold_dust"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1038,7 +1030,7 @@
 				item: "thermal:diamond_dust"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -1053,7 +1045,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["718ED31A1A3D1C56"]
@@ -1071,8 +1063,8 @@
 				type: "item"
 			}]
 			title: "Electrum Ingot"
-			x: 0.0d
-			y: -1.0d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7FDBCABAF76969CA"]
@@ -1083,7 +1075,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1098,7 +1090,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7FDBCABAF76969CA"]
@@ -1123,8 +1115,8 @@
 				item: "thermal:upgrade_augment_3"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["084507B9B436E794"]
@@ -1134,7 +1126,7 @@
 				item: "thermal:lumium_gear"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -1387,8 +1379,8 @@
 				item: "thermal:machine_cycle_augment"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["03AB15C68C1B5FBD"]
@@ -1423,8 +1415,8 @@
 				item: "thermal:dynamo_throttle_augment"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3163E0A143F913F2"]

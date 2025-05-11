@@ -111,8 +111,8 @@
 			y: 4.5d
 		}
 		{
-			id: "17D4CE7A57C9E6FE"
-			linked_quest: "0F6604EA16142E25"
+			id: "393A9DCBF809D091"
+			linked_quest: "0D27740F8ACC92E6"
 			x: 6.0d
 			y: -2.5d
 		}
@@ -677,7 +677,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0F6604EA16142E25"]
+			dependencies: [
+				"0F6604EA16142E25"
+				"0D27740F8ACC92E6"
+			]
 			description: ["{quest.na.29.desc}"]
 			id: "1EBA4DF9A0D7282E"
 			rewards: [{

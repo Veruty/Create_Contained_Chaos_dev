@@ -617,5 +617,10 @@
 	"bio.quest.41.title" : "Fleshy Pipes",
 	"bio.quest.41.desc" : "Maw Hoppers and Tongues are useful for fleshy automation. Some people might find it a little gross, but thats just how it is when working with flesh! And who needs a conveyor belt anyway, when you have intestines! :3",
 	"block.mbd2.primitive_blast_furnace" : "Primitive Blast Furnace",
-	"mbd2.primitive_blast_furnace" : "Primitive Blast Furnace"
+	"mbd2.primitive_blast_furnace" : "Primitive Blast Furnace",
+	"mbd2.arc_furnace" : "Arc Furnace",
+	"block.mbd2.arc_furnace_controller" : "Arc Furnace",
+	"block.mbd2.machine_casing_input" : "Machine Casing Input Hatch",
+	"block.mbd2.machine_casing_output" : "Machine Casing Output Hatch",
+	"block.mbd2.machine_casing_energy" : "Machine Casing Energy Hatch"
 }
