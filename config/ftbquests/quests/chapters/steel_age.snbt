@@ -10,49 +10,49 @@
 		{
 			id: "63DBE6E30AD35420"
 			linked_quest: "4BCDA1E23D59D3DA"
-			x: -4.5d
+			x: -3.5d
 			y: -8.0d
 		}
 		{
 			id: "71272BAC194F8ED3"
 			linked_quest: "799038DEE9B54AF9"
-			x: -4.5d
+			x: -3.5d
 			y: -9.0d
 		}
 		{
 			id: "36C4FC326C149313"
 			linked_quest: "48AC1B81E5CA307C"
-			x: -4.5d
+			x: -3.5d
 			y: -10.0d
 		}
 		{
 			id: "744DA79F54703CB0"
 			linked_quest: "076FD8FF5C884BEF"
-			x: 3.5d
-			y: -4.0d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			id: "36E65CF5DA21E9E0"
 			linked_quest: "2A6F014969A34A39"
 			x: 7.5d
-			y: -4.0d
+			y: 0.0d
 		}
 		{
 			id: "362A353C2FCA7DB6"
 			linked_quest: "0B0670532670373D"
-			x: 5.5d
+			x: 7.5d
 			y: -4.0d
 		}
 		{
 			id: "5CB45D830356BE23"
 			linked_quest: "1582AF37FFA4377D"
-			x: 5.5d
+			x: 7.5d
 			y: -6.0d
 		}
 		{
 			id: "51504C706C612EED"
 			linked_quest: "361EEFC55E97AE71"
-			x: -4.5d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -70,14 +70,14 @@
 		{
 			id: "22255E23E520F6C2"
 			linked_quest: "0F2000A3828DD2A0"
-			x: -2.5d
-			y: -2.0d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "56D18BDA8F04B72D"
 			linked_quest: "639ACD905B202B3A"
-			x: -2.5d
-			y: -8.0d
+			x: -1.5d
+			y: -7.0d
 		}
 		{
 			id: "27264021ECB17BED"
@@ -108,6 +108,18 @@
 			linked_quest: "169EDDF62E89B6E9"
 			x: -0.5d
 			y: -10.0d
+		}
+		{
+			id: "0B1549301E4CD306"
+			linked_quest: "50EBD65CA8334938"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "2846D626BA7ED0FC"
+			linked_quest: "10A8AADE334FF8ED"
+			x: 3.5d
+			y: -6.0d
 		}
 	]
 	quests: [
@@ -149,8 +161,8 @@
 				item: "kubejs:steel_plate"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
@@ -185,7 +197,6 @@
 				"5EC1FB2F20BF7B0F"
 				"0B0670532670373D"
 			]
-			hide_dependent_lines: true
 			id: "3163E0A143F913F2"
 			size: 2.5d
 			tasks: [{
@@ -205,7 +216,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
@@ -218,7 +229,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.68.title}"
-			x: 0.5d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -236,8 +247,41 @@
 				title: "how to primitive blast furnace"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: -1.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "3DD2DDE31C0F289D"
+			tasks: [{
+				id: "06A6D7BEDDA22FC2"
+				item: "thermal:saw_blade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "578EED23BE3C1A3E"
+			tasks: [{
+				id: "51C575ECAD2A57F9"
+				item: "thermal:drill_head"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1582AF37FFA4377D"]
+			id: "081F69357DEC5D7B"
+			tasks: [{
+				id: "71BCA8FF99CFDE69"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
 		}
 	]
 	title: "Tech 2.5: Steel Age"

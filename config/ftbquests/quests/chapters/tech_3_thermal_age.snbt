@@ -1,0 +1,824 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_3_thermal_age"
+	group: "3C9C2CEF96DB5B0C"
+	id: "60B15F2FA809940C"
+	order_index: 4
+	quest_links: [
+		{
+			id: "7EA0C86C8B3E07CF"
+			linked_quest: "3163E0A143F913F2"
+			size: 2.0d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "43C70B1630D2E107"
+			linked_quest: "6E6F52C321CD84BD"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "79B043D718B189FC"
+			linked_quest: "6359276B4243403D"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "79DC58E859BBF8B3"
+			linked_quest: "4CCDC24B680782FF"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "0ECD8DF4784BE3E1"
+			linked_quest: "0F2000A3828DD2A0"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "7E259AEFCDD02CF4"
+			linked_quest: "13DB6781627E18E8"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "751B3FF79A77D584"
+			linked_quest: "7169195B7A4DB2E6"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "06DE22553F095990"
+			linked_quest: "10AF6DCCA93031E6"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "577076476C949760"
+			linked_quest: "16A3041FDF552B6B"
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			id: "772DF12463B7247F"
+			linked_quest: "785EDF40D817A352"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "4E7F5F33892CA162"
+			linked_quest: "735E77C68EB1ECDE"
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			id: "1F53FBD2FAEE0943"
+			linked_quest: "569E99CF30853B2E"
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "5AAF4863476F87D0"
+			linked_quest: "348B8187567F1B60"
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			id: "334D7CA31CA1E123"
+			linked_quest: "0D54515C2F1422BC"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "64D68FDD5FA97B32"
+			linked_quest: "5BC4166217EE3746"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			id: "178ABEE17DB57E55"
+			linked_quest: "254E4932EC0F65DE"
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			id: "66266F010D7BF9DF"
+			linked_quest: "45924C04AA899369"
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			id: "1CD8E4ECD0D59D89"
+			linked_quest: "4B411BCE6B93026F"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			id: "781CB623791016B8"
+			linked_quest: "3DD2DDE31C0F289D"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			id: "319F4F380E415D50"
+			linked_quest: "4EDE622E4948D6B3"
+			x: 4.0d
+			y: -4.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6E6F52C321CD84BD"]
+			id: "6579DB848B8A0F03"
+			tasks: [{
+				id: "498999A34EA91BA5"
+				item: "thermal:copper_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3163E0A143F913F2"
+				"6579DB848B8A0F03"
+			]
+			hide_dependent_lines: true
+			id: "57C18E34B65D3992"
+			size: 1.0d
+			tasks: [{
+				id: "7CB76911AA930B83"
+				item: {
+					Count: 1
+					id: "thermal:machine_pulverizer"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13DB6781627E18E8"]
+			id: "1A54443AF5949C4B"
+			tasks: [{
+				id: "58C1AFF2873758D8"
+				item: "thermal:invar_gear"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["082B7E91B6D788BD"]
+			id: "70144B7A34667B05"
+			tasks: [{
+				id: "13AE1EF5FE017AF7"
+				item: {
+					Count: 1
+					id: "thermal:machine_brewer"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 50
+							EnergySend: 50
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"082B7E91B6D788BD"
+				"3DD2DDE31C0F289D"
+			]
+			id: "738B273CFAD8F3A1"
+			tasks: [{
+				id: "193CE4B4024522E0"
+				item: {
+					Count: 1
+					id: "thermal:machine_sawmill"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["738B273CFAD8F3A1"]
+			id: "000099F56EB2D52B"
+			tasks: [{
+				id: "1F0169D382BC275A"
+				item: "thermal:sawdust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"082B7E91B6D788BD"
+				"1A54443AF5949C4B"
+			]
+			id: "6E5E117D2040AC61"
+			tasks: [{
+				id: "380C83A76EDC6D96"
+				item: {
+					Count: 1
+					id: "thermal:machine_press"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E5E117D2040AC61"]
+			id: "42C39731CB92BDB4"
+			tasks: [{
+				id: "58335818B7B1BAFB"
+				item: "thermal:press_gear_die"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A54443AF5949C4B"]
+			id: "4EDA4F38E404D678"
+			tasks: [{
+				id: "49DCC88E83DBCE4A"
+				item: {
+					Count: 1
+					id: "thermal:machine_furnace"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A54443AF5949C4B"]
+			id: "4E77408AA078A860"
+			tasks: [{
+				id: "5FEA9436B2DBAE4A"
+				item: {
+					Count: 1
+					id: "thermal:machine_chiller"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6359276B4243403D"]
+			id: "082B7E91B6D788BD"
+			tasks: [{
+				id: "200C2A47F7826F6B"
+				item: "thermal:constantan_gear"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A54443AF5949C4B"]
+			id: "599B3B0F363D984B"
+			tasks: [{
+				id: "6039D8341DF2203E"
+				item: {
+					Count: 1
+					id: "thermal:machine_bottler"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["599B3B0F363D984B"]
+			description: ["yeah you can make those in fluid encapsulator thing"]
+			icon: "kubejs:redstone_crystal"
+			id: "68D19593CA740C33"
+			tasks: [{
+				id: "46F1624211FEE9DC"
+				title: "Amethyst Alloy and Redstone Crystal"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1A54443AF5949C4B"]
+			id: "6FECD729F49669CA"
+			tasks: [{
+				id: "48C7F4AAB85AA506"
+				item: {
+					Count: 1
+					id: "thermal:machine_crucible"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 800
+							EnergySend: 800
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6FECD729F49669CA"]
+			id: "0FEA957BCFFEDBF4"
+			tasks: [
+				{
+					id: "36BE96470FB492D0"
+					item: "thermal:redstone_bucket"
+					type: "item"
+				}
+				{
+					id: "0B3294A1CE7DCB5D"
+					item: "kubejs:liquid_amethyst_bucket"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1A54443AF5949C4B"]
+			id: "642C2815F184984F"
+			tasks: [{
+				id: "3CE495F985B804A8"
+				item: {
+					Count: 1
+					id: "thermal:machine_refinery"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 50000
+							EnergyRecv: 200
+							EnergySend: 200
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"785EDF40D817A352"
+				"642C2815F184984F"
+			]
+			id: "4EAB51A2297C9B12"
+			tasks: [{
+				id: "7AE7CDE9432C28D0"
+				item: "thermal:syrup_bottle"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"16A3041FDF552B6B"
+				"642C2815F184984F"
+			]
+			id: "322DB199F4A45032"
+			tasks: [{
+				id: "03D922E92540068C"
+				item: "thermal:rosin"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"735E77C68EB1ECDE"
+				"642C2815F184984F"
+			]
+			id: "3B648F1A48BF2800"
+			tasks: [{
+				id: "2FAD2C895CC75C9D"
+				item: "thermal:rubber"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3B648F1A48BF2800"]
+			id: "3AD3293C7E0AFE5E"
+			tasks: [{
+				id: "234FC32177C50E0D"
+				item: "thermal:cured_rubber"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3AD3293C7E0AFE5E"]
+			id: "100D48898F058F9B"
+			tasks: [{
+				id: "039C513020712659"
+				item: "thermal:fluid_tank_augment"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3AD3293C7E0AFE5E"]
+			id: "6F2C74C5931655A6"
+			tasks: [{
+				id: "281ABF6896FA81EC"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							AmountIn: 1000
+							AmountOut: 1000
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+							Xfer: {
+								XferIn: 0b
+								XferOut: 1b
+							}
+						}
+						Properties: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["13DB6781627E18E8"]
+			id: "7C83D96E851301CB"
+			tasks: [{
+				id: "7B27E81E856C5D7B"
+				item: "thermal:energy_cell_frame"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7C83D96E851301CB"
+				"3AD3293C7E0AFE5E"
+			]
+			id: "5249372500C109C3"
+			tasks: [{
+				id: "6EB6A3928E51EC0F"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7169195B7A4DB2E6"]
+			id: "33653D25B5D88C23"
+			tasks: [{
+				id: "1970A92728D12DA5"
+				item: "kubejs:ht_cupronickel_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33653D25B5D88C23"]
+			id: "2938CB3EC7549F90"
+			tasks: [{
+				id: "2BB0492153071244"
+				item: "kubejs:ht_cupronickel_wire"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2938CB3EC7549F90"
+				"4EDE622E4948D6B3"
+			]
+			id: "694C044053503001"
+			tasks: [{
+				id: "5D1197E1BDB9CB82"
+				item: "kubejs:ht_cupronickel_coil"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["10AF6DCCA93031E6"]
+			description: [
+				"In this stage you can ether try to smelt it in Primitive Blast Firnace (takes 50s for 1 ingot and has 5% chance to fail)"
+				""
+				"Or you can superheat blaze burner and mix 1 dust with 1 bucket of lava in create mixer (fast 100% chance to get the ingot)"
+				""
+				"After you craft induction smelter you can make HT Cupronickel directly in it"
+			]
+			id: "7529DEF7AB75801A"
+			subtitle: "read me, important"
+			tasks: [{
+				id: "6C7D25ADB56D3CAB"
+				title: "ht cupronickel"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"13DB6781627E18E8"
+				"42C39731CB92BDB4"
+			]
+			id: "0F08F02B93921796"
+			tasks: [{
+				id: "3F16EDE5BEC82614"
+				item: "thermal:invar_plate"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F08F02B93921796"]
+			id: "6CC175405584F4D0"
+			tasks: [{
+				id: "1746E9E4338803C7"
+				item: "kubejs:power_management_mechanism"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["10AF6DCCA93031E6"]
+			id: "4C7BE6D2C72AB69A"
+			tasks: [{
+				id: "2F3D05B622D1BCA0"
+				item: "thermal:netherite_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"1A54443AF5949C4B"
+				"6CC175405584F4D0"
+				"4C7BE6D2C72AB69A"
+				"694C044053503001"
+			]
+			id: "7008601BDEF473A3"
+			size: 2.0d
+			tasks: [{
+				id: "0F1B3ADCB323D1FA"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+	]
+	title: "Tech 3: Thermal Age"
+}

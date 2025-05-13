@@ -96,6 +96,12 @@
 			x: 9.0d
 			y: 0.5d
 		}
+		{
+			id: "02535C11216A7840"
+			linked_quest: "3AD3293C7E0AFE5E"
+			x: 1.5d
+			y: -1.0d
+		}
 	]
 	quests: [
 		{
@@ -517,7 +523,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4BCAA163DD491CA4"]
+			dependencies: ["000099F56EB2D52B"]
 			id: "569E99CF30853B2E"
 			tasks: [{
 				id: "0C72B2CFF1F71E6B"
@@ -528,8 +534,115 @@
 				}
 				type: "item"
 			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"081F69357DEC5D7B"
+				"578EED23BE3C1A3E"
+			]
+			id: "50EBD65CA8334938"
+			tasks: [{
+				id: "5C7B3DC38AECA292"
+				item: {
+					Count: 1
+					id: "thermal:flux_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
 			x: -3.0d
-			y: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3DD2DDE31C0F289D"
+				"081F69357DEC5D7B"
+			]
+			id: "10A8AADE334FF8ED"
+			tasks: [{
+				id: "22C2CC100AA758D4"
+				item: {
+					Count: 1
+					id: "thermal:flux_saw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["000099F56EB2D52B"]
+			id: "348B8187567F1B60"
+			tasks: [{
+				id: "2354079E1CC9765C"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3AD3293C7E0AFE5E"]
+			id: "5BC4166217EE3746"
+			tasks: [{
+				id: "78FB43549F90BCEE"
+				item: {
+					Count: 1
+					id: "thermal:potion_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3AD3293C7E0AFE5E"]
+			id: "254E4932EC0F65DE"
+			tasks: [{
+				id: "74C456AFD4D1F7B3"
+				item: {
+					Count: 1
+					id: "thermal:rf_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AD3293C7E0AFE5E"]
+			id: "45924C04AA899369"
+			tasks: [{
+				id: "53CC9AA8011F9EC1"
+				item: {
+					Count: 1
+					id: "thermal:potion_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AD3293C7E0AFE5E"]
+			id: "4B411BCE6B93026F"
+			tasks: [{
+				id: "36C3B4FA6D07DB69"
+				item: {
+					Count: 1
+					id: "thermal:fluid_reservoir"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
 		}
 	]
 	title: "Utilities"

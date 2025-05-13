@@ -10,85 +10,37 @@
 			id: "1E31F0AF196F9617"
 			linked_quest: "7B196B74898CA9AD"
 			x: -7.5d
-			y: 3.5d
+			y: 1.5d
 		}
 		{
 			id: "5B4C77838E1831FF"
 			linked_quest: "2A6F014969A34A39"
-			x: 0.5d
-			y: -0.5d
-		}
-		{
-			id: "6CB6FC6DA9112EEE"
-			linked_quest: "255EC494E1B2E693"
-			x: 3.5d
-			y: 2.5d
-		}
-		{
-			id: "0985E8A42DD6762C"
-			linked_quest: "458917088683F9A1"
-			x: 1.5d
-			y: 0.5d
-		}
-		{
-			id: "4CA782B9EC4141CE"
-			linked_quest: "63E76D79E1A10CDD"
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			id: "336E178D750B4D9B"
-			linked_quest: "61F6F267B79322C1"
-			x: 1.5d
-			y: 2.5d
-		}
-		{
-			id: "2CA7BC48DFB49321"
-			linked_quest: "2F67689E57377CE2"
-			x: 2.5d
-			y: 1.5d
-		}
-		{
-			id: "2954422AD82B940D"
-			linked_quest: "5D89912932B119FD"
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			id: "6370E4CC014931B5"
-			linked_quest: "7641FCC0C8771388"
-			x: -2.5d
-			y: 4.5d
-		}
-		{
-			id: "2BC55ED96A1999F4"
-			linked_quest: "718ED31A1A3D1C56"
-			x: -1.5d
-			y: 3.5d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			id: "6A6B32AEB9F45374"
 			linked_quest: "634C8C7C150B995A"
-			x: -0.5d
-			y: 2.5d
+			x: -2.5d
+			y: 4.5d
 		}
 		{
 			id: "4694EFEC92A5E64F"
 			linked_quest: "7FDBCABAF76969CA"
-			x: -0.5d
+			x: -2.5d
 			y: 0.5d
 		}
 		{
 			id: "05926E4FBE99A5D2"
 			linked_quest: "17644E1FF638718A"
-			x: -4.5d
-			y: 4.5d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			id: "5B1F3DD09153E21C"
 			linked_quest: "084507B9B436E794"
-			x: -2.5d
-			y: 2.5d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			id: "06A5A3F0E864EEDD"
@@ -121,8 +73,8 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -133,7 +85,7 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -3.5d
 			y: 1.5d
 		}
 		{
@@ -157,8 +109,8 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.5d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -173,8 +125,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -185,8 +137,8 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.5d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -200,8 +152,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -0.5d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -227,7 +179,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -242,13 +194,14 @@
 				item: "create:rose_quartz"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"71BE94971284ED6F"
-				"6709463DFA0B9A57"
+				"4CCDC24B680782FF"
+				"0F2000A3828DD2A0"
 			]
 			icon: "thermal:invar_ingot"
 			id: "13DB6781627E18E8"
@@ -257,11 +210,15 @@
 				item: "thermal:invar_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["2F67689E57377CE2"]
+			dependencies: [
+				"2F67689E57377CE2"
+				"6E6F52C321CD84BD"
+				"4CCDC24B680782FF"
+			]
 			icon: "thermal:constantan_ingot"
 			id: "6359276B4243403D"
 			tasks: [{
@@ -269,7 +226,7 @@
 				item: "thermal:constantan_ingot"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.5d
 			y: -0.5d
 		}
 		{
@@ -281,7 +238,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1582AF37FFA4377D"]
@@ -291,8 +248,8 @@
 				item: "kubejs:redstone_crystal"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -307,8 +264,8 @@
 				item: "kubejs:amethyst_dust"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.5d
+			x: -7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["361EEFC55E97AE71"]
@@ -319,8 +276,8 @@
 				item: "kubejs:amethyst_alloy"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0F74D53943A05990"]
@@ -330,8 +287,8 @@
 				item: "kubejs:firebrick"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.5d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -346,8 +303,8 @@
 				item: "kubejs:fireclay"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.5d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -357,8 +314,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -0.5d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6D614A8998E84D1A"]
@@ -368,8 +325,8 @@
 				item: "minecraft:brick"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -0.5d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -384,8 +341,8 @@
 				item: "kubejs:brick_dust"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.5d
+			x: 6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -407,8 +364,8 @@
 				type: "item"
 			}]
 			title: "Netherrack Dust"
-			x: 7.5d
-			y: 2.5d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["015431AF0A5996BD"]
@@ -418,8 +375,8 @@
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.5d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -429,7 +386,7 @@
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -445,7 +402,7 @@
 				item: "kubejs:steel_ingot"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -473,23 +430,33 @@
 				type: "item"
 			}]
 			title: "Osmium"
-			x: -7.5d
-			y: 5.5d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
-				"61F6F267B79322C1"
 				"34202AF1F210B138"
+				"10AF6DCCA93031E6"
+				"6E6F52C321CD84BD"
+				"4CCDC24B680782FF"
+				"7529DEF7AB75801A"
 			]
 			icon: "kubejs:ht_cupronickel_ingot"
 			id: "7169195B7A4DB2E6"
-			tasks: [{
-				id: "2CF925F59E341B04"
-				item: "kubejs:ht_cupronickel_ingot"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 1.5d
+			tasks: [
+				{
+					id: "2CF925F59E341B04"
+					item: "kubejs:ht_cupronickel_ingot"
+					type: "item"
+				}
+				{
+					id: "4372F1B6DE821EFA"
+					item: "kubejs:ht_cupronickel_dust"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -502,8 +469,8 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["015431AF0A5996BD"]
@@ -513,8 +480,8 @@
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.5d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -532,8 +499,8 @@
 				type: "item"
 			}]
 			title: "Silver Ingot"
-			x: -3.5d
-			y: 1.5d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -544,7 +511,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -562,8 +529,8 @@
 				type: "item"
 			}]
 			title: "Lead Ingot"
-			x: -5.5d
-			y: 3.5d
+			x: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -581,8 +548,8 @@
 				type: "item"
 			}]
 			title: "Tin Ingot"
-			x: -3.5d
-			y: 3.5d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -595,36 +562,29 @@
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.5d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
-				"454433BD96203E33"
-				"0F2000A3828DD2A0"
+				"79E5B71B36FB83DC"
+				"6E6F52C321CD84BD"
 			]
-			id: "2E78E9C05C56F804"
+			id: "3706B46EC74FA568"
 			tasks: [{
-				id: "7090ACF1609E0708"
-				item: "thermal:iron_dust"
+				id: "33B1AB133B6C7287"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/bronze"
+					}
+				}
+				title: "Any #forge:ingots/bronze"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"255EC494E1B2E693"
-				"2E78E9C05C56F804"
-			]
-			id: "6709463DFA0B9A57"
-			tasks: [{
-				id: "359A2FEDBF8E1EE3"
-				item: "thermal:invar_dust"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 0.5d
+			x: 0.5d
+			y: 1.5d
 		}
 	]
 	title: "Metalls, Alloys and Other Stuff"

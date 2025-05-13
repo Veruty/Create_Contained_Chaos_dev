@@ -110,16 +110,16 @@
 			y: -5.0d
 		}
 		{
-			id: "362423E9576FDDD5"
-			linked_quest: "256D3BF65E48D706"
-			x: 1.5d
-			y: 5.0d
-		}
-		{
 			id: "2216260D6EB2C493"
 			linked_quest: "0E26D8711F2FDDE4"
 			x: -8.5d
 			y: -1.0d
+		}
+		{
+			id: "7E1974F2487BC772"
+			linked_quest: "3AD3293C7E0AFE5E"
+			x: 1.5d
+			y: 5.0d
 		}
 	]
 	quests: [
@@ -535,7 +535,7 @@
 			dependencies: [
 				"7B196B74898CA9AD"
 				"092216D2A1FCF195"
-				"256D3BF65E48D706"
+				"3AD3293C7E0AFE5E"
 			]
 			dependency_requirement: "one_completed"
 			id: "31ED22752767F572"
@@ -552,7 +552,7 @@
 			dependencies: [
 				"7B196B74898CA9AD"
 				"092216D2A1FCF195"
-				"256D3BF65E48D706"
+				"3AD3293C7E0AFE5E"
 			]
 			dependency_requirement: "one_completed"
 			id: "770BCA67195C96C3"
@@ -753,7 +753,7 @@
 		{
 			dependencies: [
 				"092216D2A1FCF195"
-				"256D3BF65E48D706"
+				"3AD3293C7E0AFE5E"
 			]
 			dependency_requirement: "one_completed"
 			id: "407A917EF08B601F"

@@ -295,4 +295,6 @@ ServerEvents.recipes(e => {
 	'minecraft:redstone',            // Arg 2: the item to replace
 	'thermal:machine_frame'         // Arg 3: the item to replace it with
 )
+    e.remove({ id: 'thermal:rubber_from_dandelion'})
+    e.remove({ id: 'thermal:rubber_from_vine'})
 })
