@@ -5,21 +5,13 @@
 	group: "3C9C2CEF96DB5B0C"
 	icon: "mekanism:ingot_osmium"
 	id: "1D4FF9AB9F93EDF3"
-	order_index: 7
-	quest_links: [
-		{
-			id: "2FCC653E0C2C2E28"
-			linked_quest: "7123A4C8BA21DA32"
-			x: -2.5d
-			y: -1.0d
-		}
-		{
-			id: "35B82790D819286E"
-			linked_quest: "14E68D38AA35147C"
-			x: -0.5d
-			y: -1.0d
-		}
-	]
+	order_index: 6
+	quest_links: [{
+		id: "35B82790D819286E"
+		linked_quest: "14E68D38AA35147C"
+		x: -0.5d
+		y: -1.0d
+	}]
 	quests: [ ]
 	title: "Tech 4: Osmium Age"
 }

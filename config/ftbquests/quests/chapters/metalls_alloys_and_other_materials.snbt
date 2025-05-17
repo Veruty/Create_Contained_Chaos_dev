@@ -380,10 +380,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"11993546792DCF90"
-				"7123A4C8BA21DA32"
-			]
+			dependencies: ["11993546792DCF90"]
 			icon: "mekanism:ingot_osmium"
 			id: "14E68D38AA35147C"
 			tasks: [{

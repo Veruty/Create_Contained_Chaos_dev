@@ -4,136 +4,142 @@
 	filename: "osmium_age"
 	group: "3C9C2CEF96DB5B0C"
 	icon: "kubejs:condensed_alloy"
-	id: "4D3C59877D65F146"
+	id: "4C35D0EBD34E3BD8"
 	order_index: 5
 	quest_links: [
 		{
-			id: "40CE20D9BE3B7FCA"
+			id: "444E1AD6EEFE0281"
 			linked_quest: "49FBA3E87E3985CE"
 			x: -5.0d
 			y: -0.5d
 		}
 		{
-			id: "4A2142C093F22106"
+			id: "10A2F3F6024F9B67"
 			linked_quest: "2D7428D54474BD78"
 			x: -5.0d
 			y: -2.5d
 		}
 		{
-			id: "2DE368A7D997C0BC"
+			id: "3805D5F63B9BF07B"
 			linked_quest: "53A00D68797A26DC"
 			x: -7.0d
 			y: -6.5d
 		}
 		{
-			id: "31B6CC250E40EC4C"
+			id: "62F672C16E37AFF8"
 			linked_quest: "2D32F8A06B3EB8C9"
 			x: -7.0d
 			y: 1.5d
 		}
 		{
-			id: "7CF84B1EFF6E8797"
+			id: "63FFA1146AF40577"
 			linked_quest: "322DB199F4A45032"
 			x: -4.0d
 			y: -1.5d
 		}
 		{
-			id: "51925B54ED1FA259"
+			id: "3F17F49325523D30"
 			linked_quest: "07208D775177F39A"
 			x: -4.0d
 			y: -5.5d
 		}
 		{
-			id: "3141693D89E91E3A"
+			id: "5D282EFC8B4B621F"
 			linked_quest: "5BC6558140FA230A"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
-			id: "2F517D04B4AF73C9"
+			id: "5A47E541C6355DC0"
 			linked_quest: "0F08F02B93921796"
 			x: -14.0d
 			y: -1.5d
 		}
 		{
-			id: "3F80E2F6DD64CDE3"
+			id: "1768EC90D01016A7"
 			linked_quest: "453D10B6EDB4F135"
 			x: -10.0d
 			y: 0.5d
 		}
 		{
-			id: "3AC02520D8169416"
+			id: "0FB35B4CDAC330D4"
 			linked_quest: "686228F0BAC28CB9"
 			x: -9.0d
 			y: -0.5d
 		}
 		{
-			id: "0BE71EDC1AB1FA3B"
+			id: "57111351E28DB7A8"
 			linked_quest: "6C8535A4ED77BEC9"
 			x: -7.0d
 			y: -0.5d
 		}
 		{
-			id: "1B21C507DE42EDD7"
+			id: "1C9A9AC0C3CE57CC"
 			linked_quest: "1582AF37FFA4377D"
 			x: -4.0d
 			y: 0.5d
 		}
 		{
-			id: "23E0FB36787D0D39"
+			id: "63E5BCEA2A1427E1"
 			linked_quest: "6E6F52C321CD84BD"
 			x: -6.0d
 			y: 0.5d
 		}
 		{
-			id: "44756785846C75A3"
+			id: "10B2B1C8AEE9D831"
 			linked_quest: "79E5B71B36FB83DC"
 			x: -5.0d
 			y: -4.5d
 		}
 		{
-			id: "01B7BB625E24B263"
+			id: "6A508EE24522D55B"
 			linked_quest: "061CA8B8F6F9B574"
 			x: -6.0d
 			y: -3.5d
 		}
 		{
-			id: "5AC9585153FDCBC7"
+			id: "6A33DCA23321BD51"
 			linked_quest: "7F8F6CB4674626C1"
 			x: -6.0d
 			y: -5.5d
 		}
 		{
-			id: "49A909B9E2EA22DC"
+			id: "394ED215B2967096"
 			linked_quest: "34716F03D4E67B4E"
 			x: -6.0d
 			y: -7.5d
 		}
 		{
-			id: "046870EE44E1614F"
+			id: "0E0D4E831C63B3FE"
 			linked_quest: "158426E64B0F7B64"
 			x: -8.0d
 			y: -7.5d
 		}
 		{
-			id: "59C347BECBB42157"
+			id: "13E579FC05211249"
 			linked_quest: "2B696CA62EB0083F"
 			x: -10.0d
 			y: -1.5d
 		}
 		{
-			id: "5913AB93B69B8D24"
+			id: "6F888DCFB0772445"
 			linked_quest: "2A6F014969A34A39"
 			x: -8.0d
 			y: 0.5d
+		}
+		{
+			id: "4024B8C9B622337F"
+			linked_quest: "7008601BDEF473A3"
+			x: -7.0d
+			y: -2.5d
 		}
 	]
 	quests: [
 		{
 			dependencies: ["686228F0BAC28CB9"]
-			id: "3A0FDCFDD05101CF"
+			id: "02A3DD54FFB5BF8C"
 			tasks: [{
-				id: "2B91881CD81085AD"
+				id: "7BB36F7C04F79A64"
 				item: "kubejs:condensed_casing"
 				type: "item"
 			}]
@@ -142,12 +148,12 @@
 		}
 		{
 			dependencies: [
-				"3A0FDCFDD05101CF"
 				"0F08F02B93921796"
+				"02A3DD54FFB5BF8C"
 			]
-			id: "2E7FCB10FF3327FD"
+			id: "192CB3C2EB1ACCAA"
 			tasks: [{
-				id: "719F4F764EF0E793"
+				id: "4674FA2D366B188C"
 				item: "kubejs:machine_casing"
 				type: "item"
 			}]
@@ -156,9 +162,9 @@
 		}
 		{
 			dependencies: ["49FBA3E87E3985CE"]
-			id: "748966BE1675ECEB"
+			id: "464ECEE1CEA70D5D"
 			tasks: [{
-				id: "3890F9A3D4F47360"
+				id: "253205939880A8F5"
 				item: "thermal:signalum_plate"
 				type: "item"
 			}]
@@ -167,9 +173,9 @@
 		}
 		{
 			dependencies: ["2D7428D54474BD78"]
-			id: "6C78AAEFEAB24B55"
+			id: "02D8780AA29AC7C9"
 			tasks: [{
-				id: "3B991F813BE15FD8"
+				id: "06815A5FE31CD540"
 				item: "thermal:lumium_gear"
 				type: "item"
 			}]
@@ -179,12 +185,12 @@
 		{
 			dependencies: [
 				"322DB199F4A45032"
-				"6C78AAEFEAB24B55"
-				"748966BE1675ECEB"
+				"02D8780AA29AC7C9"
+				"464ECEE1CEA70D5D"
 			]
-			id: "2EBBB9DBE7B23E9E"
+			id: "34FA222D80267D54"
 			tasks: [{
-				id: "0DA304979C80F692"
+				id: "6903FB60B407DDA8"
 				item: {
 					Count: 1
 					id: "thermal:machine_crystallizer"
@@ -220,12 +226,12 @@
 		}
 		{
 			dependencies: [
-				"6C78AAEFEAB24B55"
 				"07208D775177F39A"
+				"02D8780AA29AC7C9"
 			]
-			id: "5927DF11F163544C"
+			id: "37E6C8A9F2CD11B7"
 			tasks: [{
-				id: "790240449BDB0A94"
+				id: "552385B48C8E7D69"
 				item: {
 					Count: 1
 					id: "thermal:machine_insolator"
@@ -261,9 +267,9 @@
 		}
 		{
 			dependencies: ["49FBA3E87E3985CE"]
-			id: "0C9BCEC4C1C42C73"
+			id: "3054886B6B5F73AF"
 			tasks: [{
-				id: "720BB502FA21F57A"
+				id: "1695DC8D5C1C06B1"
 				item: "thermal:signalum_gear"
 				type: "item"
 			}]
@@ -273,12 +279,11 @@
 		{
 			dependencies: [
 				"5BC6558140FA230A"
-				"0C9BCEC4C1C42C73"
 				"2D32F8A06B3EB8C9"
 			]
-			id: "38DECBB73C9857DD"
+			id: "4491DAB17F4A18B0"
 			tasks: [{
-				id: "52F4C92B6E75A693"
+				id: "1B8C53C3389AF039"
 				item: "thermal:upgrade_augment_2"
 				type: "item"
 			}]
@@ -287,13 +292,12 @@
 		}
 		{
 			dependencies: [
-				"6C78AAEFEAB24B55"
-				"38DECBB73C9857DD"
 				"53A00D68797A26DC"
+				"4491DAB17F4A18B0"
 			]
-			id: "7B6BC6F7CDE0345B"
+			id: "0F70608C6C396A45"
 			tasks: [{
-				id: "70D0E0A5F6044DBF"
+				id: "76BB7693088E034C"
 				item: "thermal:upgrade_augment_3"
 				type: "item"
 			}]
@@ -301,10 +305,10 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["6C78AAEFEAB24B55"]
-			id: "3A0E5330AB063643"
+			dependencies: ["02D8780AA29AC7C9"]
+			id: "556AFC538CF1173F"
 			tasks: [{
-				id: "4A961FA9D3250D26"
+				id: "6BC08E19E642D535"
 				item: "thermal:potion_duration_augment"
 				type: "item"
 			}]
@@ -312,9 +316,13 @@
 			y: -4.5d
 		}
 		{
-			id: "70794BD2C6E846C9"
+			dependencies: [
+				"7008601BDEF473A3"
+				"026F6123222B6D73"
+			]
+			id: "7479799253628160"
 			tasks: [{
-				id: "7DE0273793F3DBB2"
+				id: "7143DA8E1734FE75"
 				item: "kubejs:ht_ceramic_plate"
 				type: "item"
 			}]
@@ -322,13 +330,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"70794BD2C6E846C9"
-				"3A0FDCFDD05101CF"
-			]
-			id: "707B2D0CD7358D3A"
+			dependencies: ["02A3DD54FFB5BF8C"]
+			id: "026F6123222B6D73"
 			tasks: [{
-				id: "26170AD128693278"
+				id: "7209D8B6F60F9CAB"
 				item: "kubejs:heat_proof_casing"
 				type: "item"
 			}]
@@ -337,10 +342,11 @@
 		}
 		{
 			dependencies: [
-				"0AB14C5CBFDAF2F6"
-				"174FC6FD19B9CBE9"
-				"4E3150B512DEAFBF"
-				"4BF93782EAF92CFE"
+				"586240F13D8D5D4E"
+				"7651DDD095BC027B"
+				"16A8863381BBA3E9"
+				"028313DC074D1EAE"
+				"026F6123222B6D73"
 			]
 			description: [
 				"look in jemi how to build this thing"
@@ -348,11 +354,11 @@
 				"it requires each machine hatch to operate, hatches can be placed in place of any of the machine casing blocks"
 			]
 			icon: "mbd2:arc_furnace_controller"
-			id: "7123A4C8BA21DA32"
+			id: "27563C07956A5BCD"
 			size: 2.0d
 			subtitle: "hehe osmium door "
 			tasks: [{
-				id: "7A21270CBF7F701B"
+				id: "1E29F32D6E77D160"
 				title: "Arc Furnace"
 				type: "checkmark"
 			}]
@@ -360,10 +366,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["2E7FCB10FF3327FD"]
-			id: "174FC6FD19B9CBE9"
+			dependencies: ["192CB3C2EB1ACCAA"]
+			id: "7651DDD095BC027B"
 			tasks: [{
-				id: "1C79C360AF5F0F48"
+				id: "13E0887587D397C2"
 				item: "kubejs:electric_macine_casing"
 				type: "item"
 			}]
@@ -372,12 +378,12 @@
 		}
 		{
 			dependencies: [
-				"2E7FCB10FF3327FD"
-				"6016DB215894DBE6"
+				"372E74E56DE03D30"
+				"192CB3C2EB1ACCAA"
 			]
-			id: "0AB14C5CBFDAF2F6"
+			id: "586240F13D8D5D4E"
 			tasks: [{
-				id: "7B6327DA0A84E7A6"
+				id: "0FA263BD2D797202"
 				item: "kubejs:graphite_electrodes_machine_casing"
 				type: "item"
 			}]
@@ -385,9 +391,10 @@
 			y: -3.5d
 		}
 		{
-			id: "4E3150B512DEAFBF"
+			dependencies: ["7008601BDEF473A3"]
+			id: "16A8863381BBA3E9"
 			tasks: [{
-				id: "7F666990C04D56C2"
+				id: "47113669009BCB63"
 				item: "mbd2:arc_furnace_controller"
 				type: "item"
 			}]
@@ -395,9 +402,10 @@
 			y: -5.5d
 		}
 		{
-			id: "0F9A72BB15BD39FB"
+			dependencies: ["7008601BDEF473A3"]
+			id: "3DCCD65A3DB529CD"
 			tasks: [{
-				id: "5DA2FE79DFCED186"
+				id: "5B731C65719F548D"
 				item: "kubejs:graphite_dust"
 				type: "item"
 			}]
@@ -405,10 +413,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["0F9A72BB15BD39FB"]
-			id: "6016DB215894DBE6"
+			dependencies: ["3DCCD65A3DB529CD"]
+			id: "372E74E56DE03D30"
 			tasks: [{
-				id: "7FDDE388734C8039"
+				id: "28CEF912B3A1CF6D"
 				item: "kubejs:graphite_rod"
 				type: "item"
 			}]
@@ -416,21 +424,21 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["2E7FCB10FF3327FD"]
-			id: "4BF93782EAF92CFE"
+			dependencies: ["192CB3C2EB1ACCAA"]
+			id: "028313DC074D1EAE"
 			tasks: [
 				{
-					id: "13A2040903B1A9D8"
+					id: "733D2F7FF5473558"
 					item: "mbd2:machine_casing_energy"
 					type: "item"
 				}
 				{
-					id: "045BCAE802FB5FA8"
+					id: "1FE51F7752D6BDA8"
 					item: "mbd2:machine_casing_output"
 					type: "item"
 				}
 				{
-					id: "564092819EDD8F3D"
+					id: "328F29D791B09B76"
 					item: "mbd2:machine_casing_input"
 					type: "item"
 				}
