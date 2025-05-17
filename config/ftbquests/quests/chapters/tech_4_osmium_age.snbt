@@ -5,7 +5,7 @@
 	group: "3C9C2CEF96DB5B0C"
 	icon: "mekanism:ingot_osmium"
 	id: "1D4FF9AB9F93EDF3"
-	order_index: 6
+	order_index: 7
 	quest_links: [
 		{
 			id: "2FCC653E0C2C2E28"
