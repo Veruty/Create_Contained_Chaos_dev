@@ -14,11 +14,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create:smelting/ingot_osmium_compat_mekanism' })
 	event.remove({ id: 'create:blasting/ingot_osmium_compat_mekanism' })
 	event.remove({ id: 'create:splashing/mekanism/crushed_raw_osmium' })
-	event.custom({"type": "thermal:smelter",
-		"ingredient": [{"value": [{"tag": "forge:dusts/osmium"}, {"item": "create:crushed_raw_osmium"}], "count": 1}],
-		"result": [{"item": "mekanism:ingot_osmium", "count": 1}],
-		"energy": 32000
-	})
+	event.remove({ id: 'thermal:compat/mekanism/smelter_mek_osmium_ore' })
 	event.shaped('mekanismgenerators:wind_generator', [
         ' O ',
         'OTO',

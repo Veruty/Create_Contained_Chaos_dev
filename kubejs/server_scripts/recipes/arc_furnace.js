@@ -101,7 +101,7 @@ e.shaped(
         'EBE'
     ],
     {
-        D: 'kubejs:machine_casing',
+        D: 'thermal:machine_smelter',
         B: 'kubejs:advanced_mechanism',
         E: 'create_new_age:copper_circuit',
         C: 'create:precision_mechanism',

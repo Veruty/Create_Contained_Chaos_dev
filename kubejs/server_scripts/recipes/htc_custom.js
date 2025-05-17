@@ -66,7 +66,7 @@ ServerEvents.recipes(e => {
 		"result": [{"item": "kubejs:ht_cupronickel_ingot", "count": 4}],
 		"energy": 54000
 	})
-	e.recipes.create.mixing('kubejs:graphite_dust', ['minecraft:clay_ball', '4x #forge:dusts/coal']).superheated
+	e.recipes.create.mixing('kubejs:graphite_dust', ['minecraft:clay_ball', '4x #forge:dusts/coal']).superheated()
 	e.custom({"type": "thermal:smelter",
 		"ingredients": [
 			{"item": "minecraft:clay_ball","count": 1},
@@ -74,6 +74,14 @@ ServerEvents.recipes(e => {
 		],
 		"result": [{"item": "kubejs:graphite_dust", "count": 1}],
 		"energy": 12000
+	})
+	e.custom({"type": "thermal:smelter",
+		"ingredients": [
+			{"item": "minecraft:clay","count": 4},
+			{"tag": "forge:dusts/netherite","count": 1}
+		],
+		"result": [{"item": "kubejs:ht_ceramic_plate", "count": 4}],
+		"energy": 32000
 	})
 	e.custom(
 		{

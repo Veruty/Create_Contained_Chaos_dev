@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "tech_3_thermal_age"
 	group: "3C9C2CEF96DB5B0C"
+	icon: "thermal:invar_ingot"
 	id: "60B15F2FA809940C"
 	order_index: 4
 	quest_links: [
@@ -106,8 +107,8 @@
 		{
 			id: "66266F010D7BF9DF"
 			linked_quest: "45924C04AA899369"
-			x: 7.0d
-			y: 8.5d
+			x: 5.0d
+			y: 6.5d
 		}
 		{
 			id: "1CD8E4ECD0D59D89"
@@ -124,7 +125,13 @@
 		{
 			id: "319F4F380E415D50"
 			linked_quest: "4EDE622E4948D6B3"
-			x: 4.0d
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			id: "7D031E5DB7FFB2B2"
+			linked_quest: "1D1FE294A7E4C824"
+			x: 8.0d
 			y: -4.5d
 		}
 	]
@@ -629,8 +636,8 @@
 				item: "thermal:fluid_tank_augment"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.5d
+			x: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3AD3293C7E0AFE5E"]
@@ -745,7 +752,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["10AF6DCCA93031E6"]
@@ -781,7 +788,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0F08F02B93921796"]
+			dependencies: [
+				"0F08F02B93921796"
+				"1D1FE294A7E4C824"
+			]
 			id: "6CC175405584F4D0"
 			tasks: [{
 				id: "1746E9E4338803C7"
@@ -789,7 +799,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["10AF6DCCA93031E6"]
@@ -800,7 +810,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -817,7 +827,18 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["13DB6781627E18E8"]
+			id: "5BC6558140FA230A"
+			tasks: [{
+				id: "06F7EC861B938CAA"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
 		}
 	]
 	title: "Tech 3: Thermal Age"

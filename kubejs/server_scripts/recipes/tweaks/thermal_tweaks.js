@@ -297,4 +297,20 @@ ServerEvents.recipes(e => {
 )
     e.remove({ id: 'thermal:rubber_from_dandelion'})
     e.remove({ id: 'thermal:rubber_from_vine'})
+    e.remove({ id: 'thermal:tinker_bench'})
+    e.shaped(
+    Item.of('thermal:tinker_bench'),
+    [
+        'AAA',
+        'BCB',
+        'DED'
+    ],
+    {
+        C: 'minecraft:crafting_table',
+        D: '#minecraft:planks',
+        A: 'kubejs:steel_ingot',
+        B: '#forge:glass',
+        E: 'thermal:rf_coil'
+    }
+)
 })

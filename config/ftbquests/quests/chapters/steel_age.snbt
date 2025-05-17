@@ -283,6 +283,39 @@
 			x: 5.5d
 			y: -6.0d
 		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			description: [
+				"this block lets you upgrade equpment from thermal (fluxsaw, fluxbore, etc) with augments "
+				""
+				"it lets flux tools have more energy stored, fluxbore mines up to 9x9"
+			]
+			id: "672329F518A13D70"
+			size: 1.5d
+			subtitle: "very important!"
+			tasks: [{
+				id: "0593828A3FB65E5B"
+				item: {
+					Count: 1
+					id: "thermal:tinker_bench"
+					tag: {
+						BlockEntityTag: {
+							Energy: 500000
+							EnergyMax: 500000
+							EnergyRecv: 1000
+							EnergySend: 1000
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
 	]
 	title: "Tech 2.5: Steel Age"
 }

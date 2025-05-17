@@ -1,8 +1,7 @@
 ServerEvents.recipes(e => {
 	e.recipes.create.deploying('kubejs:bifrost_sword', ['kubejs:unstable_alloy_sword', 'botania:rainbow_rod'])
 	e.recipes.create.mixing(Fluid.of('kubejs:liquid_redstone', 100), ['minecraft:redstone']).heated()
-	e.recipes.create.mixing('4x kubejs:condensed_alloy', ['kubejs:redstone_alloy', 'create:brass_ingot', '#forge:ingots/steel']).heated()
-	e.recipes.create.mixing('kubejs:redstone_alloy', ['kubejs:redstone_crystal', 'minecraft:gold_nugget'])
+	e.recipes.create.mixing('kubejs:redstone_alloy', ['kubejs:redstone_crystal', 'create:brass_nugget']).superheated()
 	e.recipes.create.mixing('4x kubejs:chicken_nuggies', [Fluid.water(500), 'minecraft:chicken', 'minecraft:egg', '2x create:wheat_flour', '2x #forge:dusts/salt']).heated()
     e.recipes.create.mixing(Fluid.of('kubejs:molten_moon_cheese', 500), ['ad_astra:cheese']).heated()
     e.recipes.create.mixing(Fluid.of('kubejs:molten_iron', 500), ['minecraft:iron_ingot']).heated()
@@ -78,6 +77,14 @@ ServerEvents.recipes(e => {
 			{"value": [{"tag": "forge:ingots/steel"},{"tag": "forge:dusts/steel"}],"count": 1},
 		],
 		"result": [{"item": "kubejs:condensed_alloy", "count": 4}],
+		"energy": 32000
+	})
+	e.custom({"type": "thermal:smelter",
+		"ingredients": [
+			{"item": "kubejs:redstone_crystal", "count": 1},
+			{"tag": "forge:nuggets/brass", "count": 1},
+		],
+		"result": [{"item": "kubejs:redstone_alloy", "count": 1}],
 		"energy": 32000
 	})
 	e.custom({"type": "create:sequenced_assembly",
