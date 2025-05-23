@@ -11,49 +11,49 @@
 			id: "7EA0C86C8B3E07CF"
 			linked_quest: "3163E0A143F913F2"
 			size: 2.0d
-			x: -2.0d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
 			id: "43C70B1630D2E107"
 			linked_quest: "6E6F52C321CD84BD"
-			x: 2.0d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
 			id: "79B043D718B189FC"
 			linked_quest: "6359276B4243403D"
-			x: 4.0d
+			x: 3.0d
 			y: -0.5d
 		}
 		{
 			id: "79DC58E859BBF8B3"
 			linked_quest: "4CCDC24B680782FF"
-			x: 2.0d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
 			id: "0ECD8DF4784BE3E1"
 			linked_quest: "0F2000A3828DD2A0"
-			x: 2.0d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
 			id: "7E259AEFCDD02CF4"
 			linked_quest: "13DB6781627E18E8"
-			x: 4.0d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
 			id: "751B3FF79A77D584"
 			linked_quest: "7169195B7A4DB2E6"
-			x: 4.0d
+			x: 3.0d
 			y: -2.5d
 		}
 		{
 			id: "06DE22553F095990"
 			linked_quest: "10AF6DCCA93031E6"
-			x: 2.0d
+			x: 1.0d
 			y: -3.5d
 		}
 		{
@@ -84,12 +84,12 @@
 			id: "5AAF4863476F87D0"
 			linked_quest: "348B8187567F1B60"
 			x: 11.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			id: "334D7CA31CA1E123"
 			linked_quest: "0D54515C2F1422BC"
-			x: 3.0d
+			x: 2.0d
 			y: 3.5d
 		}
 		{
@@ -125,14 +125,38 @@
 		{
 			id: "319F4F380E415D50"
 			linked_quest: "4EDE622E4948D6B3"
-			x: 5.0d
+			x: 4.0d
 			y: -5.5d
 		}
 		{
 			id: "7D031E5DB7FFB2B2"
 			linked_quest: "1D1FE294A7E4C824"
-			x: 8.0d
-			y: -4.5d
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			id: "629EDA09E12CDA5B"
+			linked_quest: "081F69357DEC5D7B"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			id: "0D37657E272C091F"
+			linked_quest: "3706B46EC74FA568"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "1CDB881A5F5D2BBC"
+			linked_quest: "6C8535A4ED77BEC9"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "79937597BD75D64F"
+			linked_quest: "47272468310BF7CD"
+			x: 3.0d
+			y: 6.5d
 		}
 	]
 	quests: [
@@ -144,7 +168,7 @@
 				item: "thermal:copper_gear"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -187,7 +211,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -288,8 +312,8 @@
 				item: "thermal:sawdust"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -0.5d
+			x: 11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -333,15 +357,44 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["6E5E117D2040AC61"]
+			dependencies: ["0F08F02B93921796"]
 			id: "42C39731CB92BDB4"
+			subtitle: "from cringe"
 			tasks: [{
-				id: "58335818B7B1BAFB"
-				item: "thermal:press_gear_die"
+				id: "0A73012D18D9586E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:press_unpacking_die"
+							}
+							{
+								Count: 1b
+								id: "thermal:press_packing_3x3_die"
+							}
+							{
+								Count: 1b
+								id: "thermal:press_coin_die"
+							}
+							{
+								Count: 1b
+								id: "thermal:press_gear_die"
+							}
+							{
+								Count: 1b
+								id: "thermal:press_packing_2x2_die"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.5d
+			title: "Dies"
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1A54443AF5949C4B"]
@@ -690,8 +743,8 @@
 				item: "thermal:energy_cell_frame"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -726,7 +779,7 @@
 				item: "kubejs:ht_cupronickel_plate"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
@@ -737,7 +790,7 @@
 				item: "kubejs:ht_cupronickel_wire"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
@@ -751,7 +804,7 @@
 				item: "kubejs:ht_cupronickel_coil"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: -6.5d
 		}
 		{
@@ -770,21 +823,18 @@
 				title: "ht cupronickel"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"13DB6781627E18E8"
-				"42C39731CB92BDB4"
-			]
+			dependencies: ["13DB6781627E18E8"]
 			id: "0F08F02B93921796"
 			tasks: [{
 				id: "3F16EDE5BEC82614"
 				item: "thermal:invar_plate"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -798,7 +848,7 @@
 				item: "kubejs:power_management_mechanism"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -5.5d
 		}
 		{
@@ -809,7 +859,7 @@
 				item: "thermal:netherite_plate"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -7.5d
 		}
 		{
@@ -837,8 +887,247 @@
 				item: "thermal:upgrade_augment_1"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["081F69357DEC5D7B"]
+			id: "57BB29C747C3000C"
+			tasks: [{
+				id: "7E0F1D85D100BF00"
+				item: "thermal:rf_coil_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["081F69357DEC5D7B"]
+			id: "4D7736C2ECC0CAB8"
+			tasks: [{
+				id: "0FE720662DB4EA62"
+				item: "thermal:rf_coil_storage_augment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["081F69357DEC5D7B"]
+			id: "09FAD05BD1BD1D04"
+			tasks: [{
+				id: "6ADCE562DA50F935"
+				item: "thermal:rf_coil_xfer_augment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["082B7E91B6D788BD"]
+			id: "784612EC23265C1C"
+			tasks: [{
+				id: "06175F0BF48BEB52"
+				item: "thermal:machine_catalyst_augment"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F08F02B93921796"]
+			id: "2B030EBF94DC6912"
+			tasks: [{
+				id: "610C5FB4C253397A"
+				item: "thermal:machine_output_augment"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F2000A3828DD2A0"]
+			id: "275AF1FB1F654BB9"
+			tasks: [{
+				id: "7E920C80C8C2BF97"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4E77408AA078A860"]
+			id: "4863E0F4532A83CA"
+			tasks: [{
+				id: "5E1C9549D7945A9D"
+				item: "thermal:chiller_ball_cast"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["081F69357DEC5D7B"]
+			id: "2E4D4CBE9614A412"
+			tasks: [{
+				id: "69A7E5CFCD88F9CA"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3706B46EC74FA568"]
+			id: "21C93E07E329C722"
+			tasks: [{
+				id: "0B0DD07B81044C4B"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["082B7E91B6D788BD"]
+			id: "01956B8E7A2E9355"
+			tasks: [{
+				id: "0C3229999BE3F182"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01956B8E7A2E9355"]
+			id: "76658840A60B3347"
+			tasks: [{
+				id: "5878B7C7321F3D4A"
+				item: "thermal:coal_coke"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["082B7E91B6D788BD"]
+			id: "27F668767628FC8A"
+			tasks: [{
+				id: "28B74E2B1AFA5924"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 9.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["1A54443AF5949C4B"]
+			id: "4AFCB1AE203AD281"
+			tasks: [{
+				id: "0EC0520EB3C68FAD"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6359276B4243403D"]
+			id: "7631B69595DE7DA6"
+			tasks: [{
+				id: "43310769EF6BF894"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6579DB848B8A0F03"]
+			id: "308E5EF682031C4F"
+			tasks: [{
+				id: "38B423F160EE4801"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10AF6DCCA93031E6"]
+			id: "70D24C5DEB766FD4"
+			tasks: [{
+				id: "06E35F957244B61D"
+				item: "thermal:netherite_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70D24C5DEB766FD4"]
+			id: "55A41167963C389F"
+			tasks: [{
+				id: "2D376638FEFF9B9D"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C8535A4ED77BEC9"]
+			id: "2933765446705F2D"
+			tasks: [{
+				id: "131931024BE1F0E6"
+				item: "thermal:silver_gear"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2933765446705F2D"]
+			id: "420128A7F8F5BCF5"
+			tasks: [{
+				id: "023486CEBF50CA55"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"081F69357DEC5D7B"
+				"47272468310BF7CD"
+			]
+			id: "79D906302911749F"
+			tasks: [{
+				id: "00596BD2E6EF5AE3"
+				item: {
+					Count: 1
+					id: "thermal:flux_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["76658840A60B3347"]
+			description: ["you can make steel in induction smelter from iron and coke"]
+			id: "6948A8FF0F925F04"
+			tasks: [{
+				id: "1A499327AA47957D"
+				title: "new steel production"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -4.5d
 		}
 	]
 	title: "Tech 3: Thermal Age"

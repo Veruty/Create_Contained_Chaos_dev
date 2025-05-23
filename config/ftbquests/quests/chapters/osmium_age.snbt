@@ -29,25 +29,25 @@
 			id: "62F672C16E37AFF8"
 			linked_quest: "2D32F8A06B3EB8C9"
 			x: -7.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			id: "63FFA1146AF40577"
 			linked_quest: "322DB199F4A45032"
-			x: -4.0d
-			y: -1.5d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			id: "3F17F49325523D30"
 			linked_quest: "07208D775177F39A"
-			x: -4.0d
+			x: -2.0d
 			y: -5.5d
 		}
 		{
 			id: "5D282EFC8B4B621F"
 			linked_quest: "5BC6558140FA230A"
-			x: 0.0d
-			y: 0.5d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			id: "5A47E541C6355DC0"
@@ -76,8 +76,8 @@
 		{
 			id: "1C9A9AC0C3CE57CC"
 			linked_quest: "1582AF37FFA4377D"
-			x: -4.0d
-			y: 0.5d
+			x: -5.0d
+			y: 1.5d
 		}
 		{
 			id: "63E5BCEA2A1427E1"
@@ -262,7 +262,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: -3.5d
 		}
 		{
@@ -273,7 +273,7 @@
 				item: "thermal:signalum_gear"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 0.5d
 		}
 		{
@@ -287,8 +287,8 @@
 				item: "thermal:upgrade_augment_2"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -301,7 +301,7 @@
 				item: "thermal:upgrade_augment_3"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -6.5d
 		}
 		{
@@ -312,8 +312,8 @@
 				item: "thermal:potion_duration_augment"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.5d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -446,6 +446,124 @@
 			title: "Machine Casing Hatches"
 			x: -13.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["49FBA3E87E3985CE"]
+			id: "54ADDCF354A1353D"
+			tasks: [
+				{
+					id: "1ED0735641F7331C"
+					item: "thermal:item_filter_augment"
+					type: "item"
+				}
+				{
+					id: "778CA0D3B2D29E32"
+					item: "thermal:fluid_filter_augment"
+					type: "item"
+				}
+			]
+			title: "Filters"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B42E4188B81507A"]
+			id: "0EC64536ED26F53E"
+			tasks: [{
+				id: "59024F43D255357C"
+				item: "thermal:machine_efficiency_augment"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D32F8A06B3EB8C9"]
+			id: "7446BF7E892A57EE"
+			tasks: [{
+				id: "157403062D023FC0"
+				item: "thermal:machine_speed_augment"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3054886B6B5F73AF"]
+			id: "49F9614C968FE2AA"
+			tasks: [{
+				id: "10424A1A915499EB"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["464ECEE1CEA70D5D"]
+			id: "0157785C97D58488"
+			tasks: [{
+				id: "336983A340A3C4AA"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B42E4188B81507A"]
+			id: "2D747A1E594F72E2"
+			tasks: [{
+				id: "55C66AA7C6DD4248"
+				item: "thermal:dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2D7428D54474BD78"]
+			id: "4B42E4188B81507A"
+			tasks: [{
+				id: "18517627C4EAE501"
+				item: "thermal:lumium_plate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2D32F8A06B3EB8C9"]
+			id: "3EAE66025918A862"
+			tasks: [{
+				id: "6FC0E2ED85FEE69C"
+				item: "thermal:dynamo_throttle_augment"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3054886B6B5F73AF"]
+			id: "5F3589F15A0A6CA1"
+			tasks: [{
+				id: "501DE8AFC2C37870"
+				item: "thermal:potion_amplifier_augment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D32F8A06B3EB8C9"]
+			id: "3B34F658AA247433"
+			tasks: [{
+				id: "196E25BA71238247"
+				item: "thermal:charge_bench"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
 		}
 	]
 	title: "Tech 3.5: Alloy Age"

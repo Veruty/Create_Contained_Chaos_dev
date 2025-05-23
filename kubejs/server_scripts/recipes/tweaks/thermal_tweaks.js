@@ -290,11 +290,6 @@ ServerEvents.recipes(e => {
 	e.remove({ id: 'thermal:fire_charge/enderium_ingot_2' })
 	e.remove({ id: 'thermal:smelting/enderium_ingot_from_dust_smelting' })
 	e.remove({ id: 'thermal:smelting/enderium_ingot_from_dust_blasting' })
-	e.replaceInput(
-	{ input: 'thermal:rf_coil' }, // Arg 1: the filter
-	'minecraft:redstone',            // Arg 2: the item to replace
-	'thermal:machine_frame'         // Arg 3: the item to replace it with
-)
     e.remove({ id: 'thermal:rubber_from_dandelion'})
     e.remove({ id: 'thermal:rubber_from_vine'})
     e.remove({ id: 'thermal:tinker_bench'})
@@ -311,6 +306,65 @@ ServerEvents.recipes(e => {
         A: 'kubejs:steel_ingot',
         B: '#forge:glass',
         E: 'thermal:rf_coil'
+    }
+)
+ e.remove({ id: 'thermal:drill_head' })
+e.shaped(
+    Item.of('thermal:drill_head'),
+    [
+        ' A ',
+        'ABA',
+        'AAA'
+    ],
+    {
+        A: 'kubejs:steel_ingot',
+        B: 'minecraft:copper_ingot'
+    }
+)
+e.remove({ id: 'thermal:dynamo_lapidary' })
+e.shaped(
+    Item.of('thermal:dynamo_lapidary'),
+    [
+        ' A ',
+        'BCB',
+        'DED'
+    ],
+    {
+        B: 'minecraft:iron_ingot',
+        C: 'thermal:netherite_gear',
+        E: 'minecraft:redstone',
+        D: 'minecraft:diamond',
+        A: 'thermal:rf_coil'
+    }
+)
+e.remove({ id: 'thermal:flux_capacitor' })
+e.shaped(
+    Item.of('thermal:flux_capacitor'),
+    [
+        'ABA',
+        'CDC',
+        'AAA'
+    ],
+    {
+        A: 'kubejs:steel_ingot',
+        D: 'thermal:sulfur_dust',
+        C: 'thermal:lead_plate',
+        B: 'thermal:rf_coil'
+    }
+)
+e.remove({ id: 'thermal:flux_magnet' })
+e.shaped(
+    Item.of('thermal:flux_magnet'),
+    [
+        'ABA',
+        'CDC',
+        ' C '
+    ],
+    {
+        B: 'minecraft:redstone',
+        A: 'create_new_age:magnetite_block',
+        C: 'kubejs:steel_ingot',
+        D: 'thermal:rf_coil'
     }
 )
 })

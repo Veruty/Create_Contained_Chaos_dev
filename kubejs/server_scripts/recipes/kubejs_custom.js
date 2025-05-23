@@ -169,4 +169,5 @@ ServerEvents.recipes(e => {
 		],
 		"transitionalItem": {"item": "kubejs:incomplete_power_management_mechanism"}
 		})
+		e.recipes.create.mixing('4x thermal:bronze_ingot', ['#forge:ingots/tin','3x #forge:ingots/copper']).heated()
 })
