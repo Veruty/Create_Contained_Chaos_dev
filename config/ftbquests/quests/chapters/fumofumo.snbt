@@ -1,0 +1,659 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fumofumo"
+	group: ""
+	id: "46DDF21FCF46A752"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			hide_until_deps_complete: true
+			id: "799063E3A36FD472"
+			tasks: [{
+				id: "1C3052F166BBD633"
+				title: "Fumos!"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["799063E3A36FD472"]
+			hide_dependent_lines: true
+			id: "22ADD8C25369833D"
+			tasks: [{
+				id: "0F8CB91917DB70F9"
+				title: "touhou project fumos"
+				type: "checkmark"
+			}]
+			title: "Touhou Project Fumos"
+			x: -3.75d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"799063E3A36FD472"
+				"2DECD4F84CC0A80F"
+			]
+			hide_dependent_lines: true
+			id: "6193117CB7A3D8F7"
+			tasks: [{
+				id: "0306E90463A9106B"
+				title: "Contained Chaos Fumos"
+				type: "checkmark"
+			}]
+			x: 7.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "7F68760B62EE8756"
+			tasks: [{
+				id: "1AF47DAD3B073D85"
+				item: "kubejs:alice_fumo"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "344F160F7EC232C5"
+			tasks: [{
+				id: "79403917107B69DC"
+				item: "kubejs:chen_fumo"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "51B58F846CC44426"
+			tasks: [{
+				id: "5CC19279E4EDC915"
+				item: "kubejs:cirno_fumo"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "118EFBA7B0F17315"
+			tasks: [{
+				id: "65D24FC7256D51F5"
+				item: "kubejs:eiki_fumo"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "2B8E5ED1B8206D09"
+			tasks: [{
+				id: "24643FBF7B87629C"
+				item: "kubejs:flandre_fumo"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "5FAB94BC1A325617"
+			tasks: [{
+				id: "21C05EA87FAA42C6"
+				item: "kubejs:koishi_fumo"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "55F63C3EDA87272A"
+			tasks: [{
+				id: "7D6BBA0E55B59927"
+				item: "kubejs:marisahat_fumo"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F63C3EDA87272A"]
+			id: "4127750EAF56BEA2"
+			tasks: [{
+				id: "68077D686CBDC14D"
+				item: "kubejs:marisa_fumo"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51B58F846CC44426"]
+			id: "3E4C784FE7CA3944"
+			tasks: [{
+				id: "18641E8518B4236A"
+				item: "kubejs:tancirno_fumo"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "2364219ABEB283F7"
+			tasks: [{
+				id: "30F80B6F3B5D0B13"
+				item: "kubejs:meiling_fumo"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "7EDB8421CD95CF21"
+			tasks: [{
+				id: "36518FD11AEFBA71"
+				item: "kubejs:nazrin_fumo"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "4391B880145709AA"
+			tasks: [{
+				id: "607480C8FCDC43B4"
+				item: "kubejs:nitori_fumo"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "68150B37A7BE0CD7"
+			tasks: [{
+				id: "51E1DFE2523FD9CE"
+				item: "kubejs:patchouli_fumo"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "77D3717EE010F622"
+			tasks: [{
+				id: "3DA6A97D4B73CAAA"
+				item: "kubejs:sunnymilk_fumo"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "011ADF2CE3277E9C"
+			tasks: [{
+				id: "3CA5CE1BE6AD7AD8"
+				item: "kubejs:tewi_fumo"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "24BC51833009C6E6"
+			tasks: [{
+				id: "0117B14277A5882E"
+				item: "kubejs:youmu_fumo"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "799566267F38E764"
+			tasks: [{
+				id: "5011EE7C8BAE14BE"
+				item: "kubejs:yuyuko_fumo"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "63399C06233E6223"
+			tasks: [{
+				id: "0885C513CE16459C"
+				item: "kubejs:newreimu_fumo"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63399C06233E6223"]
+			description: [
+				"shift right click any Reimu fumo with dye to color it!"
+				""
+				"light-gray will give off color reimu"
+				""
+				"slimeball will give you bootleg reimu"
+			]
+			id: "171584325F9685EC"
+			tasks: [
+				{
+					id: "2B90F8D4141B956B"
+					item: "kubejs:magentareimu_fumo"
+					type: "item"
+				}
+				{
+					id: "7404DDC4EEE39A0F"
+					item: "kubejs:limereimu_fumo"
+					type: "item"
+				}
+				{
+					id: "49784F6C953F235D"
+					item: "kubejs:lightbluereimu_fumo"
+					type: "item"
+				}
+				{
+					id: "10FFE3136EA7FAC8"
+					item: "kubejs:greenreimu_fumo"
+					type: "item"
+				}
+				{
+					id: "5C86780E54E48DAF"
+					item: "kubejs:grayreimu_fumo"
+					type: "item"
+				}
+				{
+					id: "1A506BC096738D8D"
+					item: "kubejs:cyanreimu_fumo"
+					type: "item"
+				}
+				{
+					id: "23E4990FFC2F4F2F"
+					item: "kubejs:brownreimu_fumo"
+					type: "item"
+				}
+				{
+					id: "1A1F0F6038D41327"
+					item: "kubejs:bluereimu_fumo"
+					type: "item"
+				}
+				{
+					id: "7F416E0F72C82F62"
+					item: "kubejs:blackreimu_fumo"
+					type: "item"
+				}
+				{
+					id: "45009517D6F1B80D"
+					item: "kubejs:offcolorreimu_fumo"
+					type: "item"
+				}
+				{
+					id: "3C05D6D7136F3A8B"
+					item: "kubejs:orangereimu_fumo"
+					type: "item"
+				}
+				{
+					id: "6CA83D38FCAEBFE3"
+					item: "kubejs:pinkreimu_fumo"
+					type: "item"
+				}
+				{
+					id: "14238EDFE98E9B8D"
+					item: "kubejs:purplereimu_fumo"
+					type: "item"
+				}
+				{
+					id: "2DE39223560CF054"
+					item: "kubejs:reimu_fumo"
+					type: "item"
+				}
+				{
+					id: "10BB2094F355AD93"
+					item: "kubejs:whitereimu_fumo"
+					type: "item"
+				}
+				{
+					id: "7D77C978C5CECE23"
+					item: "kubejs:yellowreimu_fumo"
+					type: "item"
+				}
+			]
+			title: "Colored Reimu fumo"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["799063E3A36FD472"]
+			description: ["shift right click with fumo in your hand to place it in your head slot (if its empty)"]
+			id: "21010D39AAC7773E"
+			tasks: [{
+				id: "4BCEAEF10AB90FCA"
+				title: "Fumos on head"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["799063E3A36FD472"]
+			id: "2DECD4F84CC0A80F"
+			tasks: [{
+				id: "7541FE7DAFFE3090"
+				item: "blahaj:yarn_spinner"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"799063E3A36FD472"
+				"2DECD4F84CC0A80F"
+			]
+			hide_dependent_lines: true
+			id: "1BF01E3DD0D0175F"
+			tasks: [{
+				id: "35E1AD921DC5058D"
+				title: "Blahaj"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1BF01E3DD0D0175F"]
+			id: "1701E3AF4A0574C6"
+			tasks: [{
+				id: "61FEA8BE4C05BD30"
+				item: "blahaj:blue_shark"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1BF01E3DD0D0175F"]
+			id: "13148F10D3D7BD56"
+			tasks: [{
+				id: "7029E150EF0845D8"
+				item: "blahaj:gray_shark"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1BF01E3DD0D0175F"]
+			id: "1AC2C8B6411DC192"
+			tasks: [{
+				id: "0B9E401AD478CCB3"
+				item: "blahaj:blue_whale"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1BF01E3DD0D0175F"]
+			id: "53AF3B5414CEE0E9"
+			tasks: [{
+				id: "05891491D735F58F"
+				item: "blahaj:reaper"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1BF01E3DD0D0175F"]
+			id: "50B01EC32FBBE6A3"
+			tasks: [{
+				id: "571E99C6613F244B"
+				item: "blahaj:killer_whale"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1BF01E3DD0D0175F"]
+			id: "28F481394FF48E58"
+			tasks: [{
+				id: "0C50F3349139D520"
+				item: "blahaj:bread"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "394EC47A0ADF8492"
+			tasks: [{
+				id: "5F90772D9CF54C7E"
+				item: "kubejs:zalkat_fumo"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "04D4775349F5C9D9"
+			tasks: [{
+				id: "113D5ACE69E4B74D"
+				item: "kubejs:thesauce_fumo"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "42B0F5F8A50671C5"
+			tasks: [{
+				id: "4C935060BC970463"
+				item: "kubejs:veruty_fumo"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "67605E8181187CFC"
+			tasks: [{
+				id: "7DAE7F8C95386F64"
+				item: "kubejs:blockypanda83_fumo"
+				type: "item"
+			}]
+			x: 10.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "31E1FFA4C426D813"
+			tasks: [{
+				id: "11406168C97B251C"
+				item: "kubejs:chaoscorporation_fumo"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "237B6AD095A9FB6E"
+			tasks: [{
+				id: "427B167621F943A6"
+				item: "kubejs:junycat_fumo"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "7B531AC7D9189E79"
+			tasks: [{
+				id: "34A8ED73A87F332E"
+				item: "kubejs:lavender_bunnies_fumo"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "6350157357D2488B"
+			tasks: [{
+				id: "25D5BB081B5ABD28"
+				item: "kubejs:lordshadowlight_fumo"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "6C3FEE20C74AE75E"
+			tasks: [{
+				id: "3B9326F4CAF54599"
+				item: "kubejs:spar117maschief_fumo"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "3E2B7A87851BD453"
+			tasks: [{
+				id: "4944CBFC49AF84B5"
+				item: "kubejs:m3chanicb_fumo"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "51F0CFDA433971FB"
+			tasks: [{
+				id: "776582F380A2192A"
+				item: "kubejs:sirheadcrab1_fumo"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2DECD4F84CC0A80F"]
+			id: "012AD10BE4996DC6"
+			tasks: [
+				{
+					id: "70DC6414824E8DAF"
+					item: "blahaj:white_yarn"
+					type: "item"
+				}
+				{
+					id: "485000ADDE489CA2"
+					item: "blahaj:orange_yarn"
+					type: "item"
+				}
+				{
+					id: "26C4195A17C0D2F0"
+					item: "blahaj:magenta_yarn"
+					type: "item"
+				}
+				{
+					id: "2BCBEB2373FE8C56"
+					item: "blahaj:light_blue_yarn"
+					type: "item"
+				}
+				{
+					id: "3E7AFE11273625D8"
+					item: "blahaj:yellow_yarn"
+					type: "item"
+				}
+				{
+					id: "4F47522B23EE0C18"
+					item: "blahaj:lime_yarn"
+					type: "item"
+				}
+				{
+					id: "5FF4B41D9B52D228"
+					item: "blahaj:pink_yarn"
+					type: "item"
+				}
+				{
+					id: "2D09402F5988B27F"
+					item: "blahaj:gray_yarn"
+					type: "item"
+				}
+				{
+					id: "19EF4D1CC5CFF905"
+					item: "blahaj:light_gray_yarn"
+					type: "item"
+				}
+				{
+					id: "5B551534BD46512B"
+					item: "blahaj:cyan_yarn"
+					type: "item"
+				}
+				{
+					id: "4BD909CA5FE0347A"
+					item: "blahaj:purple_yarn"
+					type: "item"
+				}
+				{
+					id: "2572EB17C652EB89"
+					item: "blahaj:blue_yarn"
+					type: "item"
+				}
+				{
+					id: "33A7C25A901E9C55"
+					item: "blahaj:brown_yarn"
+					type: "item"
+				}
+				{
+					id: "7E466E6D9392DD5C"
+					item: "blahaj:green_yarn"
+					type: "item"
+				}
+				{
+					id: "0BC28E0CBA80EB44"
+					item: "blahaj:red_yarn"
+					type: "item"
+				}
+				{
+					id: "2ED685739788F6F3"
+					item: "blahaj:black_yarn"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -5.0d
+		}
+	]
+	title: "FumoFumo (and Blahaj)"
+}
