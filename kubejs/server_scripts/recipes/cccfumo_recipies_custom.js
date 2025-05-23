@@ -1,8 +1,5 @@
 ServerEvents.recipes(e => {
 	
-	e.smelting('kubejs:tancirno_fumo', 'kubejs:cirno_fumo')
-	e.smelting('kubejs:marisa_fumo', 'kubejs:marisahat_fumo')
-	
 	e.shaped('kubejs:zalkat_fumo', [
 		'BWB',
 		'WCW',
@@ -57,7 +54,7 @@ ServerEvents.recipes(e => {
 		L: 'blahaj:light_blue_yarn',
 		C: 'minecraft:white_wool'
 	})
-	e.shaped('kubejs:juwny_fumo', [
+	e.shaped('kubejs:junucat_fumo', [
 		'PPP',
 		'GCG',
 		'WMG'
@@ -79,7 +76,7 @@ ServerEvents.recipes(e => {
 		G: 'blahaj:gray_yarn',
 		C: 'minecraft:white_wool'
 	})
-	e.shaped('kubejs:not_vi789_fumo', [
+	e.shaped('kubejs:lavender_bunnies_fumo', [
 		'BLB',
 		'GCG',
 		'MGM'
@@ -111,5 +108,22 @@ ServerEvents.recipes(e => {
 		P: 'blahaj:pink_yarn',
 		C: 'minecraft:white_wool'
 	})
-
+	e.shaped(
+    Item.of('kubejs:lordshadowlight_fumo'),
+    [
+        'ABC',
+        'DEF',
+        'GHI'
+    ],
+    {
+        G: 'blahaj:light_blue_yarn',
+        D: 'blahaj:lime_yarn',
+        A: 'blahaj:yellow_yarn',
+        F: 'blahaj:black_yarn',
+        C: 'blahaj:red_yarn',
+        B: 'blahaj:orange_yarn',
+        I: 'blahaj:purple_yarn',
+        E: 'minecraft:black_wool',
+        H: 'blahaj:magenta_yarn'
+    })
 })

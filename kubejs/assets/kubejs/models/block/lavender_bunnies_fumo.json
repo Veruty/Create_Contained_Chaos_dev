@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "kubejs:block/fumo/not_vi789",
-		"particle": "block/lime_wool"
+		"0": "kubejs:block/fumo/lavender_bunnies",
+		"particle": "block/green_wool"
 	},
 	"elements": [
 		{

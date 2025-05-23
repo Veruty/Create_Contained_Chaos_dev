@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "kubejs:block/fumo/juwny",
-		"particle": "block/pink_wool"
+		"0": "kubejs:block/fumo/lordshadowlight",
+		"particle": "block/black_wool"
 	},
 	"elements": [
 		{
