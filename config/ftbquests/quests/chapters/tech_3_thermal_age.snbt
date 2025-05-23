@@ -158,6 +158,36 @@
 			x: 3.0d
 			y: 6.5d
 		}
+		{
+			id: "502992E430C972C2"
+			linked_quest: "3410A7C9AAFDDF9D"
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			id: "28E7FDA3ED03B98B"
+			linked_quest: "34716F03D4E67B4E"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "5A1917C0239BE0F0"
+			linked_quest: "44473F3856921C99"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			id: "7C9D7B7A9956D143"
+			linked_quest: "7626338EC1AE3DC4"
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			id: "57170B9856B43DBD"
+			linked_quest: "27E099B509BC96EA"
+			x: 2.0d
+			y: 7.5d
+		}
 	]
 	quests: [
 		{
@@ -1100,24 +1130,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"081F69357DEC5D7B"
-				"47272468310BF7CD"
-			]
-			id: "79D906302911749F"
-			tasks: [{
-				id: "00596BD2E6EF5AE3"
-				item: {
-					Count: 1
-					id: "thermal:flux_magnet"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 7.5d
-		}
-		{
 			dependencies: ["76658840A60B3347"]
 			description: ["you can make steel in induction smelter from iron and coke"]
 			id: "6948A8FF0F925F04"
@@ -1128,6 +1140,24 @@
 			}]
 			x: 8.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["34716F03D4E67B4E"]
+			id: "2BB0C5E6BF2353AD"
+			tasks: [{
+				id: "19CF33ACCABB3CFD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/lead"
+					}
+				}
+				title: "Any #forge:plates/lead"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
 		}
 	]
 	title: "Tech 3: Thermal Age"

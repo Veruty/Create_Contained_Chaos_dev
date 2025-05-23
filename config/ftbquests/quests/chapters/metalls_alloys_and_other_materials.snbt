@@ -704,6 +704,35 @@
 			x: -1.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["11993546792DCF90"]
+			id: "44473F3856921C99"
+			tasks: [{
+				id: "719B52DE9981E905"
+				item: "thermal:sulfur"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44473F3856921C99"]
+			id: "3410A7C9AAFDDF9D"
+			tasks: [{
+				id: "312E0F972C234942"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/sulfur"
+					}
+				}
+				title: "Any #forge:dusts/sulfur"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
 	]
 	title: "Metalls, Alloys and Other Stuff"
 }

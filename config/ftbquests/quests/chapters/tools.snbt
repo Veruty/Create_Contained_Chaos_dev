@@ -644,6 +644,43 @@
 			x: 3.0d
 			y: -2.5d
 		}
+		{
+			dependencies: [
+				"3410A7C9AAFDDF9D"
+				"081F69357DEC5D7B"
+				"2BB0C5E6BF2353AD"
+			]
+			id: "7626338EC1AE3DC4"
+			tasks: [{
+				id: "4C36CA6119210DDD"
+				item: {
+					Count: 1
+					id: "thermal:flux_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"081F69357DEC5D7B"
+				"47272468310BF7CD"
+			]
+			id: "27E099B509BC96EA"
+			tasks: [{
+				id: "6683BF9EF125BB86"
+				item: {
+					Count: 1
+					id: "thermal:flux_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
 	]
 	title: "Utilities"
 }
