@@ -1,0 +1,6 @@
+
+["Drop Chance Configuration"]
+	#Drop chance for small essence
+	#Range: 0.0 ~ 1.0
+	"Drop chance for small essence" = 0.25
+
