@@ -1,7 +1,4 @@
 {
-  "framedblocks": {
-    "framed_item_frame": true
-  },
   "enderchests": {
     "hud": true
   },
@@ -131,6 +128,9 @@
   },
   "supplementaries": {
     "hat_stand": true
+  },
+  "petrolpark": {
+    "contamination": true
   },
   "waystones": {
     "waystone": true

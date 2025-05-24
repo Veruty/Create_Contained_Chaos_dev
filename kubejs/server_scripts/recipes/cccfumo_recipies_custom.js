@@ -54,7 +54,7 @@ ServerEvents.recipes(e => {
 		L: 'blahaj:light_blue_yarn',
 		C: 'minecraft:white_wool'
 	})
-	e.shaped('kubejs:junucat_fumo', [
+	e.shaped('kubejs:junycat_fumo', [
 		'PPP',
 		'GCG',
 		'WMG'
