@@ -646,8 +646,8 @@
 				item: "thermal:apatite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.5d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -660,8 +660,8 @@
 				item: "thermal:phytogro"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 3.5d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -671,8 +671,8 @@
 				item: "thermal:niter"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 3.5d
+			x: -7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -712,8 +712,8 @@
 				item: "thermal:sulfur"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.5d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["44473F3856921C99"]
@@ -730,8 +730,8 @@
 				title: "Any #forge:dusts/sulfur"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.5d
+			x: -6.5d
+			y: 3.5d
 		}
 	]
 	title: "Metalls, Alloys and Other Stuff"

@@ -367,4 +367,36 @@ e.shaped(
         D: 'thermal:rf_coil'
     }
 )
+e.custom({
+  "type": "thermal:pyrolyzer",
+  "ingredient": {
+    "item": "minecraft:charcoal"
+  },
+  "result": [
+    {
+      "item": "thermal:coal_coke"
+    },
+    {
+      "item": "thermal:tar",
+      "chance": 0.5
+    },
+    {
+      "fluid": "thermal:creosote",
+      "amount": 500
+    }
+  ],
+  "energy": 4000,
+  "experience": 0.15
+})
+e.custom({
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "mekanism:raw_osmium"
+  },
+  "result": [
+    {
+      "item": "mekanism:dust_osmium"
+    }
+  ]
+})
 })
