@@ -17,4 +17,8 @@ StartupEvents.registry('fluid', e => {
         .thickTexture(0xFFD91C)
         .bucketColor(0xFFD91C)
         .displayName('Molten Moon Cheese')
+    e.create('molten_steel')
+        .thickTexture(0xBA0000)
+        .displayName('Molten Steel')
+        .noBucket() 
 })

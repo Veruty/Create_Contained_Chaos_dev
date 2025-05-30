@@ -55,10 +55,6 @@
     "modId": "almostunified",
     "version": "1.20.1-0.10.0"
   },
-  "another_furniture-forge-1.20.1-3.0.2.jar": {
-    "modId": "another_furniture",
-    "version": "1.20.1-3.0.2"
-  },
   "Apotheosis-1.20.1-7.4.8.jar": {
     "modId": "apotheosis",
     "version": "7.4.8"
@@ -111,9 +107,9 @@
     "modId": "badpackets",
     "version": "0.4.3"
   },
-  "balm-forge-1.20.1-7.3.30-all.jar": {
+  "balm-forge-1.20.1-7.3.31-all.jar": {
     "modId": "balm",
-    "version": "7.3.30"
+    "version": "7.3.31"
   },
   "bedrockores-MC1.20.1-2.1.0+2b9c75d.jar": {
     "modId": "bedrockores",
@@ -199,10 +195,6 @@
     "modId": "chisel",
     "version": "2.0.0+mc1.20.1"
   },
-  "chisels-and-bits-forge-1.4.148.jar": {
-    "modId": "chiselsandbits",
-    "version": "1.4.148"
-  },
   "citadel-2.6.1-1.20.1.jar": {
     "modId": "citadel",
     "version": "2.6.1"
@@ -275,9 +267,9 @@
     "modId": "create_central_kitchen",
     "version": "1.4.1"
   },
-  "create_connected-1.0.3-mc1.20.1-all.jar": {
+  "create_connected-1.1.1-mc1.20.1-all.jar": {
     "modId": "create_connected",
-    "version": "1.0.3-mc1.20.1"
+    "version": "1.1.1-mc1.20.1"
   },
   "create_easy_structures-0.2-forge-1.20.1.jar": {
     "modId": "create_easy_structures",
@@ -291,9 +283,9 @@
     "modId": "create_furnitures",
     "version": "1.0.9"
   },
-  "create_jetpack-forge-4.4.1.jar": {
+  "create_jetpack-forge-4.4.2.jar": {
     "modId": "create_jetpack",
-    "version": "4.4.1"
+    "version": "4.4.2"
   },
   "create_mecanical_extruder-1.20.1-1.6.9-6.0.4.jar": {
     "modId": "create_mechanical_extruder",
@@ -327,9 +319,9 @@
     "modId": "curios",
     "version": "5.14.1+1.20.1"
   },
-  "curvy_pipes-1.20.1-1.8.2.jar": {
+  "curvy_pipes-1.20.1-1.8.3.jar": {
     "modId": "curvy_pipes",
-    "version": "1.8.2"
+    "version": "1.8.3"
   },
   "CyclopsCore-1.20.1-1.20.0.jar": {
     "modId": "cyclopscore",
@@ -338,10 +330,6 @@
   "Delightful-1.20.1-3.7.1.jar": {
     "modId": "delightful",
     "version": "3.7.1"
-  },
-  "drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar": {
-    "modId": "drippyloadingscreen",
-    "version": "3.0.12"
   },
   "dsbg-1.0-1.20.1.jar": {
     "modId": "dsbg",
@@ -395,9 +383,9 @@
     "modId": "fancymenu",
     "version": "3.5.2"
   },
-  "FarmersDelight-1.20.1-1.2.7.jar": {
+  "FarmersDelight-1.20.1-1.2.8.jar": {
     "modId": "farmersdelight",
-    "version": "1.20.1-1.2.7"
+    "version": "1.20.1-1.2.8"
   },
   "fast-ip-ping-v1.0.5-mc1.20.4-forge.jar": {
     "modId": "fastipping",
@@ -495,9 +483,9 @@
     "modId": "jade",
     "version": "11.13.1+forge"
   },
-  "jei-1.20.1-forge-15.20.0.106.jar": {
+  "jei-1.20.1-forge-15.20.0.110.jar": {
     "modId": "jei",
-    "version": "15.20.0.106"
+    "version": "15.20.0.110"
   },
   "jmi-forge-1.20.1-0.14-48.jar": {
     "modId": "jmi",
@@ -608,9 +596,9 @@
     "modId": "mahoutsukai",
     "version": "1.20.1-v1.34.78"
   },
-  "mcjtylib-1.20-8.0.6.jar": {
+  "mcjtylib-1.20-8.0.7.jar": {
     "modId": "mcjtylib",
-    "version": "1.20-8.0.6"
+    "version": "1.20-8.0.7"
   },
   "Mekanism-1.20.1-10.4.16.80.jar": {
     "modId": "mekanism",
@@ -636,9 +624,9 @@
     "modId": "mousetweaks",
     "version": "2.25.1"
   },
-  "multiblocked2-1.20.1-1.0.28.jar": {
+  "multiblocked2-1.20.1-1.0.28.b.jar": {
     "modId": "mbd2",
-    "version": "1.0.28"
+    "version": "1.0.28.b"
   },
   "mutil-1.20.1-6.2.0.jar": {
     "modId": "mutil",
@@ -672,13 +660,9 @@
     "modId": "patchouli",
     "version": "1.20.1-84.1-FORGE"
   },
-  "petrolpark-1.20.1-1.4.9-all.jar": {
-    "modId": "petrolpark",
-    "version": "1.4.9"
-  },
-  "petrolsparts-1.20.1-1.2.3-all.jar": {
-    "modId": "petrolsparts",
-    "version": "1.2.3"
+  "photon-forge-1.20.1-1.1.8.jar": {
+    "modId": "photon",
+    "version": "1.1.8"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "modId": "placebo",
@@ -820,21 +804,21 @@
     "modId": "sliceanddice",
     "version": "3.4.0"
   },
-  "sophisticatedbackpacks-1.20.1-3.23.17.1246.jar": {
+  "sophisticatedbackpacks-1.20.1-3.23.19.1251.jar": {
     "modId": "sophisticatedbackpacks",
-    "version": "3.23.17.1246"
+    "version": "3.23.19.1251"
   },
-  "sophisticatedcore-1.20.1-1.2.63.993.jar": {
+  "sophisticatedcore-1.20.1-1.2.69.1005.jar": {
     "modId": "sophisticatedcore",
-    "version": "1.2.63.993"
+    "version": "1.2.69.1005"
   },
-  "sophisticatedstorage-1.20.1-1.3.44.1157.jar": {
+  "sophisticatedstorage-1.20.1-1.3.49.1167.jar": {
     "modId": "sophisticatedstorage",
-    "version": "1.3.44.1157"
+    "version": "1.3.49.1167"
   },
-  "sophisticatedstoragecreateintegration-1.20.1-0.1.10.30.jar": {
+  "sophisticatedstoragecreateintegration-1.20.1-0.1.12.36.jar": {
     "modId": "sophisticatedstoragecreateintegration",
-    "version": "0.1.10.30"
+    "version": "0.1.12.36"
   },
   "soulslike-weaponry-1.2.4-1.20.1-forge.jar": {
     "modId": "soulsweapons",
