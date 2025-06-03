@@ -16,45 +16,205 @@
 		{
 			id: "613FFA815B7D2D78"
 			linked_quest: "69AFBCB81781D8C4"
-			x: 0.0d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
 			id: "2C817C0EAB966788"
 			linked_quest: "0411ED0767B20251"
-			x: 0.0d
+			x: -2.0d
 			y: -2.5d
 		}
 		{
 			id: "1776511BAD3D40FD"
 			linked_quest: "2836704E36180258"
-			x: 0.0d
+			x: -3.0d
 			y: -3.5d
 		}
 		{
 			id: "1AADAA5835C4075E"
 			linked_quest: "061CA8B8F6F9B574"
-			x: 0.0d
-			y: 0.5d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "734A20C2B80680A3"
+			linked_quest: "7F8F6CB4674626C1"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "22FB2DB0315A1187"
+			linked_quest: "10AF6DCCA93031E6"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "5BB5C761C7AA858D"
+			linked_quest: "7DEC2438E0FDB776"
+			x: -1.0d
+			y: -3.5d
 		}
 	]
-	quests: [{
-		dependencies: ["015431AF0A5996BD"]
-		description: [
-			"Getting to the brass age means you need to make brass. But to make brass, you need a way to supply heat to a mixer. To do that, you need a Blaze Burner."
-			""
-			"Find a Nether Fortress and bring an empty blaze burner with you so you can capture a blaze inside it and bring it back to the Overworld."
-		]
-		icon: "minecraft:nether_bricks"
-		id: "62675A010097C976"
-		tasks: [{
-			id: "605C83102E4C6D3E"
-			structure: "betterfortresses:fortress"
-			type: "structure"
-		}]
-		title: "Finding a Fortress"
-		x: 0.0d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			dependencies: ["015431AF0A5996BD"]
+			description: [
+				"Getting to the brass age means you need to make brass. But to make brass, you need a way to supply heat to a mixer. To do that, you need a Blaze Burner."
+				""
+				"Find a Nether Fortress and bring an empty blaze burner with you so you can capture a blaze inside it and bring it back to the Overworld."
+			]
+			icon: "minecraft:nether_bricks"
+			id: "62675A010097C976"
+			tasks: [{
+				id: "605C83102E4C6D3E"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			title: "Finding a Fortress"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["061CA8B8F6F9B574"]
+			id: "054F32CED3753E1A"
+			tasks: [{
+				id: "55518ECF931B5E50"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62675A010097C976"]
+			id: "546F9AB121D5A0DC"
+			tasks: [{
+				id: "23A6560EE2361B77"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"546F9AB121D5A0DC"
+				"7F8F6CB4674626C1"
+			]
+			id: "1DDD21264D9FFB87"
+			tasks: [{
+				id: "5EDDC790BE5AD3FD"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["015431AF0A5996BD"]
+			icon: "minecraft:gilded_blackstone"
+			id: "41FA83084ED4D781"
+			tasks: [{
+				id: "6D1FDA2CF7DBDB77"
+				structure: "#minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			title: "Finding a Bastion"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["41FA83084ED4D781"]
+			id: "0EEC996551B84B4C"
+			tasks: [{
+				id: "425701C9231ECD83"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"10AF6DCCA93031E6"
+				"0EEC996551B84B4C"
+			]
+			id: "26E7BD11970C8F3C"
+			tasks: [
+				{
+					id: "0EB5772215A078CB"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A7FBB2703B4E1E4"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CB987678D4FC28D"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B97432E151DC2EB"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Armor"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1DDD21264D9FFB87"]
+			icon: "minecraft:mossy_stone_bricks"
+			id: "71317828170D43B3"
+			tasks: [{
+				id: "0882C60F9D9E2C06"
+				structure: "#betterstrongholds:better_strongholds"
+				type: "structure"
+			}]
+			title: "Finding a Stronghold"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71317828170D43B3"]
+			id: "5400A2A76BA7C157"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "6954418A4D8C373C"
+				type: "dimension"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+	]
 	title: "Nether"
 }

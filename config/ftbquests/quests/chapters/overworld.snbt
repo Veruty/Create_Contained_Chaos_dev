@@ -30,13 +30,19 @@
 			id: "6BD7ECFAEAEE9E4C"
 			linked_quest: "55A1237E4E373FCA"
 			x: -1.5d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			id: "426B453A375BBF04"
 			linked_quest: "0E26D8711F2FDDE4"
 			x: -7.5d
 			y: -3.0d
+		}
+		{
+			id: "69C1D199064A8FEB"
+			linked_quest: "7F8F6CB4674626C1"
+			x: -4.5d
+			y: -2.0d
 		}
 	]
 	quests: [
@@ -187,7 +193,7 @@
 				type: "checkmark"
 			}]
 			x: -5.5d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["37EBE338226CA2B2"]
@@ -201,7 +207,7 @@
 				type: "observation"
 			}]
 			x: -3.5d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -244,6 +250,32 @@
 			}]
 			x: 2.5d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"526A77EEB8CB20F6"
+				"01B5EFFCB94E0FE3"
+			]
+			dependency_requirement: "one_completed"
+			id: "63546C2E81516C9E"
+			tasks: [{
+				id: "29E234DE8CC9280C"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["526A77EEB8CB20F6"]
+			id: "6B67ACFC62C25945"
+			tasks: [{
+				id: "76FB73F8A27DCD08"
+				item: "minecraft:glow_ink_sac"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
 		}
 	]
 	title: "Overworld"

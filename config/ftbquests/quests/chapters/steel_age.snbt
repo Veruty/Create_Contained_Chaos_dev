@@ -10,26 +10,26 @@
 		{
 			id: "63DBE6E30AD35420"
 			linked_quest: "4BCDA1E23D59D3DA"
-			x: -3.5d
+			x: -4.5d
 			y: -8.0d
 		}
 		{
 			id: "71272BAC194F8ED3"
 			linked_quest: "799038DEE9B54AF9"
-			x: -3.5d
+			x: -4.5d
 			y: -9.0d
 		}
 		{
 			id: "36C4FC326C149313"
 			linked_quest: "48AC1B81E5CA307C"
-			x: -3.5d
+			x: -4.5d
 			y: -10.0d
 		}
 		{
 			id: "744DA79F54703CB0"
 			linked_quest: "076FD8FF5C884BEF"
 			x: 2.5d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			id: "36E65CF5DA21E9E0"
@@ -52,14 +52,14 @@
 		{
 			id: "51504C706C612EED"
 			linked_quest: "361EEFC55E97AE71"
-			x: -3.5d
-			y: 0.0d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
 			id: "4C551BB1DAB60627"
 			linked_quest: "33018F2BDE1BE330"
 			x: 3.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			id: "71502DE83054391D"
@@ -70,8 +70,8 @@
 		{
 			id: "22255E23E520F6C2"
 			linked_quest: "0F2000A3828DD2A0"
-			x: -1.5d
-			y: -3.0d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			id: "56D18BDA8F04B72D"
@@ -127,6 +127,12 @@
 			x: 2.5d
 			y: -5.0d
 		}
+		{
+			id: "67D1F97F686FA89E"
+			linked_quest: "2E5025697AF514D2"
+			x: 5.5d
+			y: -4.0d
+		}
 	]
 	quests: [
 		{
@@ -168,7 +174,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
@@ -221,8 +227,8 @@
 				item: "kubejs:steel_rod"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
@@ -235,7 +241,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.68.title}"
-			x: -1.5d
+			x: -3.5d
 			y: -1.0d
 		}
 		{
@@ -249,9 +255,13 @@
 			]
 			id: "311463923FD265D3"
 			tasks: [{
-				id: "67352AAEB105D7D7"
-				title: "how to primitive blast furnace"
-				type: "checkmark"
+				hasCustomPicture: false
+				id: "55693D5F0ABD75CB"
+				ignoreState: false
+				layer: true
+				name: ""
+				rightclick: false
+				type: "questsadditions:structure"
 			}]
 			x: -1.5d
 			y: -5.0d
@@ -297,7 +307,7 @@
 				"it lets flux tools have more energy stored, fluxbore mines up to 9x9"
 			]
 			id: "672329F518A13D70"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "very important!"
 			tasks: [{
 				id: "0593828A3FB65E5B"
@@ -320,7 +330,102 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			description: ["{quest.meka.66.desc}"]
+			hide_until_deps_visible: true
+			id: "3607146165FF4141"
+			subtitle: "{quest.meka.66.subtitle}"
+			tasks: [{
+				id: "055546296497FB8F"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			title: "{quest.meka.66.title}"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			description: ["{quest.meka.65.desc}"]
+			hide_until_deps_visible: true
+			id: "38CC95A34EA7D51A"
+			tasks: [{
+				id: "1230753DA8E30193"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			title: "{quest.meka.65.title}"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			description: ["{quest.meka.67.desc}"]
+			hide_until_deps_visible: true
+			id: "1FB79D9B7334CE15"
+			tasks: [{
+				id: "67CF479D624698FB"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			title: "{quest.meka.67.title}"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2B696CA62EB0083F"
+				"0F2000A3828DD2A0"
+			]
+			description: ["{quest.meka.62.desc}"]
+			id: "38C674557E3A78A2"
+			tasks: [{
+				id: "472A2C938F58F371"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			title: "{quest.meka.62.title}"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "37239C5C536D143B"
+			tasks: [{
+				id: "2B5986BAB5E1B3F8"
+				item: "mekanism:dynamic_tank"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37239C5C536D143B"
+				"5EC1FB2F20BF7B0F"
+			]
+			id: "7F38E7256BD0794D"
+			tasks: [{
+				id: "2E40552C0460FD7F"
+				item: "mekanism:dynamic_valve"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "04230887528CB717"
+			tasks: [{
+				id: "1E66DBCBAC7934BE"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
 		}
 	]
 	title: "Tech 2.5: Steel Age"

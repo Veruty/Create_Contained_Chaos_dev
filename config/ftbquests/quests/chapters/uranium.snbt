@@ -1,0 +1,1252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uranium"
+	group: "3C9C2CEF96DB5B0C"
+	icon: "mekanism:ingot_uranium"
+	id: "6641EA21798CBBE0"
+	images: [
+		{
+			click: "https://www.youtube.com/watch?v=_cuZ7qbzsM4"
+			color: 261911
+			dependency: "184C45FA04F84576"
+			height: 5.0d
+			image: "alexscaves:textures/misc/advancement/icon/defeat_nucleeper.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 23.0d
+			y: 11.0d
+		}
+		{
+			dependency: "20E5021FAB7FB3F7"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: 3.0d
+		}
+		{
+			dependency: "20E5021FAB7FB3F7"
+			height: 8.0d
+			image: "kubejs:textures/questimg/mekanism/small_nuclear_reactor.png"
+			rotation: 0.0d
+			width: 3.6943521594684388d
+			x: 31.0d
+			y: 3.0d
+		}
+		{
+			dependency: "4A90D76598166235"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 21.0d
+			y: 16.0d
+		}
+		{
+			click: "#7B16E9F7C8996C69"
+			dependency: "4A90D76598166235"
+			height: 1.0d
+			hover: ["mekanism.chemical_injection_chamber"]
+			image: "mekanism:block/chemical_injection_chamber/front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 16.0d
+		}
+		{
+			dependency: "4A90D76598166235"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 19.0d
+			y: 16.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			hover: ["mekanism.fissle_fuel"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/fissle_fuel.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 16.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: 17.0d
+		}
+		{
+			click: "#0E6D1D87267BFE68"
+			dependency: "1E2ADCA13482CE85"
+			height: 2.0d
+			hover: ["mekanism.isotopic_centrefuge"]
+			image: "kubejs:textures/questimg/mekanism/isotopic_centrefuge.png"
+			rotation: 0.0d
+			width: 1.0025575447570332d
+			x: 18.0d
+			y: 18.5d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: 20.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			hover: ["mekanism.uranium_hexaflourite"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/uranium_hexaflourite.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 21.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: 22.0d
+		}
+		{
+			click: "#59EA4D9F875D7D03"
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			hover: ["mekanism.chemical_infuser"]
+			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
+			rotation: 0.0d
+			width: 1.005128205128205d
+			x: 18.0d
+			y: 23.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: 24.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			hover: ["mekanism.uranium_oxide"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/uranium_oxide.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 25.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: 26.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			hover: ["mekanism.chemical_oxidizer"]
+			image: "kubejs:textures/questimg/mekanism/chemical_oxidizer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 27.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: 28.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: 30.0d
+		}
+		{
+			click: "#16FAA83B048985DD"
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			hover: ["mekanism.enrichment_chamber"]
+			image: "mekanism:block/factory/enriching/enriching_factory_front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 31.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: 32.0d
+		}
+		{
+			click: "https://imgur.com/a/ccc-tutorial-B98wNGZ"
+			dependency: "0E6D1D87267BFE68"
+			height: 5.0d
+			hover: ["imgur.click.to.see"]
+			image: "kubejs:textures/questimg/mekanism/plutonium.png"
+			rotation: 0.0d
+			width: 10.020979020979022d
+			x: 23.0d
+			y: 21.0d
+		}
+		{
+			dependency: "6F04404F44DA2821"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: 25.0d
+		}
+		{
+			dependency: "0E6D1D87267BFE68"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: 19.0d
+		}
+		{
+			click: "https://imgur.com/a/ccc-tutorial-B98wNGZ"
+			dependency: "6F04404F44DA2821"
+			height: 5.0d
+			hover: ["imgur.click.to.see"]
+			image: "kubejs:textures/questimg/mekanism/polonium.png"
+			rotation: 0.0d
+			width: 8.740458015267174d
+			x: 23.0d
+			y: 27.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: 23.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			hover: ["mekanism.hydrofluoric_acid"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrofluoric_acid.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 23.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 15.0d
+			y: 23.0d
+		}
+		{
+			click: "#017AC018B98522AF"
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			hover: ["mekanism.chemical_dissolution_chamber"]
+			image: "kubejs:textures/questimg/mekanism/chemical_dissolution_chamber.png"
+			rotation: 0.0d
+			width: 1.005128205128205d
+			x: 14.0d
+			y: 23.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 14.0d
+			y: 24.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 13.0d
+			y: 23.0d
+		}
+		{
+			click: "#59EA4D9F875D7D03"
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			hover: ["mekanism.chemical_infuser"]
+			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
+			rotation: 0.0d
+			width: 1.005128205128205d
+			x: 10.0d
+			y: 23.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 22.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			dependency: "1E2ADCA13482CE85"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependency: "2DD36B9BE139C4F4"
+			height: 4.0d
+			image: "kubejs:textures/questimg/mekanism/waste_disp.png"
+			rotation: 0.0d
+			width: 5.359855334538879d
+			x: 31.0d
+			y: 18.5d
+		}
+		{
+			dependency: "1659DE275C71BC86"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 37.0d
+			y: 11.0d
+		}
+		{
+			dependency: "1659DE275C71BC86"
+			height: 11.904545454545453d
+			image: "kubejs:textures/questimg/mekanism/turbine.png"
+			rotation: 0.0d
+			width: 2.6227272727272726d
+			x: 39.0d
+			y: 11.0d
+		}
+	]
+	order_index: 7
+	quest_links: [
+		{
+			id: "7F4AE40ADD97AE3B"
+			linked_quest: "017D7401B588065C"
+			x: 23.0d
+			y: 13.5d
+		}
+		{
+			id: "53DEFA111FE90E49"
+			linked_quest: "19BF6BCFC7E63352"
+			x: 29.0d
+			y: 23.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.98.desc}"]
+			hide_until_deps_visible: true
+			id: "184C45FA04F84576"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				id: "530391485791C814"
+				item: { Count: 8, id: "mekanism:raw_uranium" }
+				type: "item"
+			}]
+			title: "{quest.meka.98.title}"
+			x: 23.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"65F70D94D394C484"
+				"07B80FF72157DDEC"
+			]
+			description: ["{quest.meka.135.desc}"]
+			id: "1D98380A445B84AC"
+			tasks: [{
+				id: "6AE842A83F5A7D42"
+				item: {
+					Count: 1
+					id: "mekanism:gauge_dropper"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 1L
+									gasName: "mekanism:hydrofluoric_acid"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.meka.135.title}"
+			x: 16.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["2FDDA89F7508690A"]
+			description: ["{quest.meka.136.desc}"]
+			id: "3290AD3CDB2834BE"
+			tasks: [{
+				id: "1A8DA28F039AE5A9"
+				item: {
+					Count: 1
+					id: "mekanism:gauge_dropper"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 1L
+									gasName: "mekanism:uranium_hexafluoride"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.meka.136.title}"
+			x: 17.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"3290AD3CDB2834BE"
+				"1E2ADCA13482CE85"
+			]
+			description: ["{quest.meka.137.desc}"]
+			id: "3BDD98F8F5C4608B"
+			tasks: [{
+				id: "1BD5B84D31E27E29"
+				item: {
+					Count: 1
+					id: "mekanism:gauge_dropper"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 1L
+									gasName: "mekanism:fissile_fuel"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.meka.137.title}"
+			x: 17.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1E2ADCA13482CE85"]
+			description: ["{quest.meka.131.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "65F70D94D394C484"
+			tasks: [{
+				id: "6FD9B089DF98579A"
+				item: "mekanism:fluorite_gem"
+				type: "item"
+			}]
+			title: "{quest.meka.131.title}"
+			x: 14.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["1E2ADCA13482CE85"]
+			description: ["{quest.meka.132.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "07DFDEDF1959FA02"
+			tasks: [{
+				id: "5C6E1A7FD97F637A"
+				item: "mekanism:ingot_uranium"
+				type: "item"
+			}]
+			title: "{quest.meka.132.title}"
+			x: 18.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["07DFDEDF1959FA02"]
+			description: ["{quest.meka.133.desc}"]
+			id: "3C368757BA62EC6A"
+			tasks: [{
+				id: "5B03C04125498AA3"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			title: "{quest.meka.133.title}"
+			x: 18.0d
+			y: 29.0d
+		}
+		{
+			dependencies: [
+				"1D98380A445B84AC"
+				"3C368757BA62EC6A"
+			]
+			description: ["{quest.meka.134.desc}"]
+			hide_until_deps_visible: false
+			icon: "createdeco:decal_up"
+			id: "2FDDA89F7508690A"
+			shape: "pentagon"
+			tasks: [{
+				id: "6310682ADFA65893"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.134.title}"
+			x: 17.0d
+			y: 29.0d
+		}
+		{
+			dependencies: [
+				"49C5EF3A52F1578C"
+				"15438CE8A83216DF"
+				"4AB946FD927013AD"
+				"2E75442BDB40A728"
+				"7776B4E09E926234"
+			]
+			description: ["{quest.meka.106.desc}"]
+			hide_until_deps_visible: false
+			id: "2D55AF2EA9983E4A"
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 26L
+					id: "7DD660B21757D571"
+					item: { Count: 26, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4C93742ECFDDC8AC"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "057BFA9C3E77BF69"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					id: "18E2C4A1E4D23363"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2433E324EE3EC3AF"
+					item: { Count: 4, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+			]
+			title: "{quest.meka.106.title}"
+			x: 25.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["184C45FA04F84576"]
+			description: ["{quest.meka.122.desc}"]
+			hide_until_deps_visible: true
+			icon: "createdeco:decal_fire_diamond"
+			id: "1E2ADCA13482CE85"
+			tasks: [{
+				id: "5F0D6382067CB8C6"
+				title: "be prepared"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.122.title}"
+			x: 17.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"28E12E8C08190C5B"
+				"764B3F29C0E5FBF9"
+				"3BDD98F8F5C4608B"
+				"02A525C72F999957"
+			]
+			description: ["{quest.meka.138.desc}"]
+			icon: "createdeco:decal_radioactive"
+			id: "77BBA58663730A1F"
+			tasks: [{
+				id: "5D434741EC5B9053"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.138.title}"
+			x: 28.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"02A525C72F999957"
+				"459E6EAECACE32DF"
+				"0474D40050B5E0D2"
+				"0571351624C9E2BA"
+				"019EA2934414A56F"
+				"3ECC322BE9BFD6A0"
+				"5F266EDEA9E52684"
+				"35BF1D9F8D139459"
+				"21D2ECE01D979648"
+				"7BDF641DB273182F"
+				"78FA150F447544C8"
+			]
+			description: ["{quest.meka.111.desc}"]
+			id: "6C6DB3009BA6DEE6"
+			tasks: [
+				{
+					count: 5L
+					id: "28A49C3EF187AF53"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2E86C98E3564FF34"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "71491FDE2B997D84"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2457F876E8F139D5"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					count: 71L
+					id: "6F62A26B90550624"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1EAFEBFF1AEFAA21"
+					item: { Count: 2, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5B9E5B910B6AEC9C"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "28E3A9416FC3B7CF"
+					item: { Count: 33, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "4B0B3873993F79B2"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "{quest.meka.111.title}"
+			x: 33.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["184C45FA04F84576"]
+			description: [
+				"{quest.meka.99.desc}"
+				""
+				"{quest.meka.99.1.desc}"
+			]
+			hide_until_deps_visible: true
+			icon: "alexscaves:uranium_rod"
+			id: "20E5021FAB7FB3F7"
+			tasks: [{
+				id: "397F5B3BB43A6410"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.99.title}"
+			x: 23.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["20E5021FAB7FB3F7"]
+			description: ["{quest.meka.103.desc}"]
+			hide_details_until_startable: false
+			hide_until_deps_visible: true
+			id: "2E75442BDB40A728"
+			tasks: [{
+				id: "2AE2DC4B89828729"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
+			}]
+			title: "{quest.meka.103.title}"
+			x: 25.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["20E5021FAB7FB3F7"]
+			description: ["{quest.meka.101.desc}"]
+			hide_until_deps_visible: true
+			id: "49C5EF3A52F1578C"
+			tasks: [{
+				id: "307EA585044C962B"
+				item: "mekanismgenerators:fission_fuel_assembly"
+				type: "item"
+			}]
+			title: "{quest.meka.101.title}"
+			x: 23.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2E75442BDB40A728"]
+			description: ["{quest.meka.104.desc}"]
+			id: "4AB946FD927013AD"
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "7A13F24F5529DA90"
+				item: "mekanismgenerators:fission_reactor_port"
+				type: "item"
+			}]
+			title: "{quest.meka.104.title}"
+			x: 26.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2E75442BDB40A728"]
+			description: ["{quest.meka.105.desc}"]
+			id: "699D4CEBDED9D90B"
+			shape: "rsquare"
+			tasks: [{
+				id: "2B29DB28B983E687"
+				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				type: "item"
+			}]
+			title: "{quest.meka.105.title}"
+			x: 27.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["20E5021FAB7FB3F7"]
+			description: ["{quest.meka.100.desc}"]
+			hide_until_deps_visible: true
+			id: "7776B4E09E926234"
+			shape: "rsquare"
+			tasks: [{
+				id: "3F0E26249DC6997C"
+				item: "mekanismgenerators:reactor_glass"
+				type: "item"
+			}]
+			title: "{quest.meka.100.title}"
+			x: 22.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["20E5021FAB7FB3F7"]
+			description: ["{quest.meka.102.desc}"]
+			hide_until_deps_visible: true
+			id: "15438CE8A83216DF"
+			tasks: [{
+				id: "5FBB79EFB91A49AC"
+				item: "mekanismgenerators:control_rod_assembly"
+				type: "item"
+			}]
+			title: "{quest.meka.102.title}"
+			x: 24.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["20E5021FAB7FB3F7"]
+			description: ["{quest.meka.108.desc}"]
+			hide_until_deps_visible: true
+			icon: "design_decor:biohazard_sign"
+			id: "28E12E8C08190C5B"
+			tasks: [{
+				id: "1F937B53C4567339"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.108.title}"
+			x: 28.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2D55AF2EA9983E4A"]
+			description: ["{quest.meka.107.desc}"]
+			icon: "createdeco:decal_warning"
+			id: "44A44400940480E0"
+			tasks: [{
+				id: "4D3AA501D84D4E41"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.107.title}"
+			x: 28.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77BBA58663730A1F"]
+			description: ["{quest.meka.146.desc}"]
+			hide_until_deps_visible: true
+			icon: "createdeco:decal_creeper"
+			id: "7D47B502FB09B7C4"
+			tasks: [{
+				id: "1A130185B7D6ADDD"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.146.title}"
+			x: 34.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2C861747DABE7638"
+				"2DD36B9BE139C4F4"
+				"0E6D1D87267BFE68"
+			]
+			description: ["{quest.meka.140.desc}"]
+			hide_until_deps_visible: true
+			icon: "alexscaves:toxic_paste"
+			id: "764B3F29C0E5FBF9"
+			min_required_dependencies: 2
+			shape: "diamond"
+			tasks: [{
+				id: "60A32A7C12C82084"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.140.title}"
+			x: 28.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["184C45FA04F84576"]
+			description: ["{quest.meka.139.desc}"]
+			hide_until_deps_visible: true
+			icon: "alexscaves:waste_drum"
+			id: "2C861747DABE7638"
+			tasks: [{
+				id: "6FD825BF3B0F3189"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.139.title}"
+			x: 27.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["184C45FA04F84576"]
+			description: [
+				"{quest.meka.110.desc}"
+				""
+				"{quest.meka.110.1.desc}"
+			]
+			hide_until_deps_visible: true
+			icon: "mekanismgenerators:turbine_blade"
+			id: "02A525C72F999957"
+			subtitle: "No i dont know why format error is here"
+			tasks: [{
+				id: "324AF67086865477"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.110.title}"
+			x: 29.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2C861747DABE7638"]
+			description: ["{quest.meka.141.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2DD36B9BE139C4F4"
+			tasks: [{
+				count: 8L
+				id: "485CEC6390EF9FFA"
+				item: { Count: 8, id: "mekanism:radioactive_waste_barrel" }
+				type: "item"
+			}]
+			title: "{quest.meka.141.title}"
+			x: 29.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0E6D1D87267BFE68"]
+			description: ["{quest.meka.143.desc}"]
+			hide_until_deps_visible: true
+			id: "3B9C52A58DF3D1DA"
+			tasks: [{
+				id: "644F1AA7F8463BB5"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			title: "{quest.meka.143.title}"
+			x: 24.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"57149BB733AC8A92"
+				"31EA8B6DD3491B6A"
+			]
+			description: ["{quest.meka.150.desc}"]
+			hide_until_deps_visible: true
+			id: "70926C93EDAFCF7A"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "00FBF6C2C8C00D42"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			title: "{quest.meka.150.title}"
+			x: 28.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["2C861747DABE7638"]
+			description: ["{quest.meka.148.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "57149BB733AC8A92"
+			tasks: [{
+				id: "6702A6A2880043D6"
+				item: "mekanism:fluorite_gem"
+				type: "item"
+			}]
+			title: "{quest.meka.148.title}"
+			x: 27.0d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"3859C9C6168B9502"
+				"184C45FA04F84576"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{quest.meka.141.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0E6D1D87267BFE68"
+			tasks: [{
+				id: "083721D4997DEC82"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			title: "{quest.meka.142.title}"
+			x: 23.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["31EA8B6DD3491B6A"]
+			description: ["{quest.meka.147.desc}"]
+			icon: "createdeco:decal_down"
+			id: "6F04404F44DA2821"
+			tasks: [{
+				id: "28EEDABA8501D173"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.147.title}"
+			x: 23.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["0E6D1D87267BFE68"]
+			description: ["{quest.meka.145.desc}"]
+			hide_until_deps_visible: true
+			icon: "createdeco:decal_down"
+			id: "5B24898C8328EBA7"
+			tasks: [{
+				id: "1536F6CBE8FA50E5"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.145.title}"
+			x: 23.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"7D47B502FB09B7C4"
+				"70926C93EDAFCF7A"
+			]
+			description: ["{quest.meka.149.desc}"]
+			icon: "design_decor:gear_sign"
+			id: "05E8C1429D726BF3"
+			tasks: [{
+				id: "657D7B8E0FDD69E7"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.149.title}"
+			x: 34.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3B9C52A58DF3D1DA"]
+			description: ["{quest.meka.144.desc}"]
+			id: "4A90D76598166235"
+			tasks: [{
+				count: 4L
+				id: "32737E7E828157D9"
+				item: "mekanism:reprocessed_fissile_fragment"
+				type: "item"
+			}]
+			title: "{quest.meka.144.title}"
+			x: 22.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6C6DB3009BA6DEE6"]
+			description: ["{quest.meka.121.desc}"]
+			id: "1659DE275C71BC86"
+			tasks: [{
+				id: "66F44D2539CA7CD2"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.121.title}"
+			x: 36.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["02A525C72F999957"]
+			description: ["{quest.meka.116.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7BDF641DB273182F"
+			tasks: [{
+				id: "3DBF498633B5EA3B"
+				item: "mekanismgenerators:turbine_rotor"
+				type: "item"
+			}]
+			title: "{quest.meka.116.title}"
+			x: 35.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["02A525C72F999957"]
+			description: ["{quest.meka.115.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "21D2ECE01D979648"
+			tasks: [{
+				count: 2L
+				id: "735105781CD31451"
+				item: { Count: 2, id: "mekanismgenerators:turbine_blade" }
+				type: "item"
+			}]
+			title: "{quest.meka.115.title}"
+			x: 34.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["02A525C72F999957"]
+			description: ["{quest.meka.114.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "35BF1D9F8D139459"
+			tasks: [{
+				id: "61A4AAB80191A610"
+				item: "mekanismgenerators:rotational_complex"
+				type: "item"
+			}]
+			title: "{quest.meka.114.title}"
+			x: 33.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["02A525C72F999957"]
+			description: ["{quest.meka.112.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "459E6EAECACE32DF"
+			tasks: [{
+				id: "541CBA7AA353C499"
+				item: "mekanismgenerators:turbine_casing"
+				type: "item"
+			}]
+			title: "{quest.meka.112.title}"
+			x: 31.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["02A525C72F999957"]
+			description: ["{quest.meka.117.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "019EA2934414A56F"
+			tasks: [{
+				count: 2L
+				id: "1F440C7F245967E7"
+				item: { Count: 2, id: "mekanismgenerators:turbine_valve" }
+				type: "item"
+			}]
+			title: "{quest.meka.117.title}"
+			x: 31.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["02A525C72F999957"]
+			description: ["{quest.meka.118.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0571351624C9E2BA"
+			tasks: [{
+				id: "7D33F4BF60CCE3A6"
+				item: "mekanismgenerators:saturating_condenser"
+				type: "item"
+			}]
+			title: "{quest.meka.118.title}"
+			x: 32.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["02A525C72F999957"]
+			description: ["{quest.meka.120.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0474D40050B5E0D2"
+			tasks: [{
+				id: "0368E63CE5BAC64D"
+				item: "mekanismgenerators:turbine_vent"
+				type: "item"
+			}]
+			title: "{quest.meka.120.title}"
+			x: 34.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["02A525C72F999957"]
+			description: ["{quest.meka.119.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5F266EDEA9E52684"
+			tasks: [{
+				id: "5D0C4C4121E3F96B"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			title: "{quest.meka.119.title}"
+			x: 33.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["02A525C72F999957"]
+			description: ["{quest.meka.113.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3ECC322BE9BFD6A0"
+			tasks: [{
+				id: "0EB63FDBE34AE07B"
+				item: "mekanismgenerators:electromagnetic_coil"
+				type: "item"
+			}]
+			title: "{quest.meka.113.title}"
+			x: 32.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["02A525C72F999957"]
+			description: [
+				"{quest.meka.turbinesize.desc}"
+				""
+				"{quest.meka.turbinesize.1.desc}"
+				""
+				"{quest.meka.turbinesize.2.desc}"
+				""
+				"{quest.meka.turbinesize.3.desc}"
+			]
+			icon: "tfmg:turbine_blade"
+			id: "201183C17A6A37B5"
+			subtitle: "{quest.meka.turbinesize.subtitle}"
+			tasks: [{
+				id: "40A16E9E0590B6B9"
+				title: "{quest.checkmark.ok}"
+				type: "checkmark"
+			}]
+			title: "{quest.meka.turbinesize.title}"
+			x: 29.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["02A525C72F999957"]
+			hide_dependency_lines: true
+			id: "78FA150F447544C8"
+			tasks: [{
+				id: "200EDAF5F6664836"
+				item: "mekanism:pressure_disperser"
+				type: "item"
+			}]
+			title: "{quest.meka.fuckiforgotthatquest.title}"
+			x: 35.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"764B3F29C0E5FBF9"
+				"19BF6BCFC7E63352"
+			]
+			description: ["{quest.meka.76.desc}"]
+			id: "31EA8B6DD3491B6A"
+			tasks: [{
+				id: "36295F7AD9229443"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			title: "{quest.meka.76.title}"
+			x: 28.0d
+			y: 24.0d
+		}
+	]
+	title: "Tech 4.5: Uranium Age"
+}

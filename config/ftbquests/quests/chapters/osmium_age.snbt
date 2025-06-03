@@ -29,7 +29,7 @@
 			id: "62F672C16E37AFF8"
 			linked_quest: "2D32F8A06B3EB8C9"
 			x: -7.0d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			id: "63FFA1146AF40577"
@@ -47,13 +47,13 @@
 			id: "5D282EFC8B4B621F"
 			linked_quest: "5BC6558140FA230A"
 			x: -1.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			id: "5A47E541C6355DC0"
 			linked_quest: "0F08F02B93921796"
-			x: -14.0d
-			y: -1.5d
+			x: -13.0d
+			y: -0.5d
 		}
 		{
 			id: "1768EC90D01016A7"
@@ -116,12 +116,6 @@
 			y: -7.5d
 		}
 		{
-			id: "13E579FC05211249"
-			linked_quest: "2B696CA62EB0083F"
-			x: -10.0d
-			y: -1.5d
-		}
-		{
 			id: "6F888DCFB0772445"
 			linked_quest: "2A6F014969A34A39"
 			x: -8.0d
@@ -132,6 +126,12 @@
 			linked_quest: "7008601BDEF473A3"
 			x: -7.0d
 			y: -2.5d
+		}
+		{
+			id: "380F10265932FF44"
+			linked_quest: "6ECF805F53CBBEF2"
+			x: -10.0d
+			y: -1.5d
 		}
 	]
 	quests: [
@@ -288,7 +288,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -486,7 +486,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3054886B6B5F73AF"]
@@ -541,7 +541,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3054886B6B5F73AF"]
@@ -552,7 +552,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2D32F8A06B3EB8C9"]
@@ -562,7 +562,7 @@
 				item: "thermal:charge_bench"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -6.0d
 			y: 2.5d
 		}
 	]

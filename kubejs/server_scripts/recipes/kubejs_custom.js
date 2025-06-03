@@ -73,8 +73,8 @@ ServerEvents.recipes(e => {
 	e.custom({"type": "thermal:smelter",
 		"ingredients": [
 			{"item": "kubejs:redstone_alloy", "count": 1},
-			{"tag": "forge:ingots/brass", "count": 1},
-			{"value": [{"tag": "forge:ingots/steel"},{"tag": "forge:dusts/steel"}],"count": 1},
+			{"tag": "forge:gems/lapis", "count": 2},
+			{"value": [{"tag": "forge:ingots/tin"},{"tag": "forge:dusts/tin"}],"count": 1},
 		],
 		"result": [{"item": "kubejs:condensed_alloy", "count": 4}],
 		"energy": 32000

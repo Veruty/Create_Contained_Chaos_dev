@@ -70,13 +70,13 @@
 		{
 			id: "7781B84DBA5796DF"
 			linked_quest: "7AE75BB65C7D9E4E"
-			x: 1.0d
+			x: 0.5d
 			y: -8.5d
 		}
 		{
 			id: "78E63347AC309056"
 			linked_quest: "7F05A6D3CBCFAB40"
-			x: -1.0d
+			x: -1.5d
 			y: -4.5d
 		}
 		{
@@ -112,13 +112,13 @@
 		{
 			id: "2216260D6EB2C493"
 			linked_quest: "0E26D8711F2FDDE4"
-			x: -8.5d
+			x: -9.0d
 			y: -1.0d
 		}
 		{
 			id: "7E1974F2487BC772"
 			linked_quest: "3AD3293C7E0AFE5E"
-			x: 1.5d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -126,6 +126,54 @@
 			linked_quest: "3706B46EC74FA568"
 			x: 9.0d
 			y: 9.5d
+		}
+		{
+			id: "5A747FCDA926D4C4"
+			linked_quest: "33C653AEA4714144"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			id: "2A042F095FA049D6"
+			linked_quest: "054F32CED3753E1A"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			id: "2BE9A5A6249AF44B"
+			linked_quest: "70BB713A10F8868C"
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			id: "0DA015B1E3841B8F"
+			linked_quest: "1582AF37FFA4377D"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			id: "097A18FFE143FFB0"
+			linked_quest: "0F2000A3828DD2A0"
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			id: "75072C6E1E029D43"
+			linked_quest: "11A6EB192C17D579"
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			id: "16B38C366382E77F"
+			linked_quest: "302781795CC2B9AE"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			id: "58DBA7208C705975"
+			linked_quest: "2CBF9D02A3972569"
+			x: 6.0d
+			y: -7.0d
 		}
 	]
 	quests: [
@@ -138,7 +186,7 @@
 				type: "checkmark"
 			}]
 			title: "Welcome to Create!"
-			x: -6.5d
+			x: -7.0d
 			y: -1.0d
 		}
 		{
@@ -149,7 +197,7 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -171,7 +219,7 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -6.5d
 		}
 		{
@@ -182,7 +230,7 @@
 				item: "create:large_cogwheel"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -5.5d
 		}
 		{
@@ -193,7 +241,7 @@
 				item: "create:cogwheel"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -7.5d
 		}
 		{
@@ -204,7 +252,7 @@
 				item: "create:turntable"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -5.5d
 		}
 		{
@@ -215,7 +263,7 @@
 				item: "create:windmill_bearing"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -7.5d
 		}
 		{
@@ -226,7 +274,7 @@
 				item: "create:nozzle"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -237,7 +285,7 @@
 				item: "create:white_sail"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -8.5d
 		}
 		{
@@ -375,7 +423,7 @@
 				item: "create:piston_extension_pole"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
@@ -400,7 +448,7 @@
 				item: "create:gantry_carriage"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -457,7 +505,7 @@
 				item: { Count: 8, id: "create:gantry_shaft" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -479,7 +527,7 @@
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -490,7 +538,7 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
@@ -501,7 +549,7 @@
 				item: "create:cart_assembler"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
@@ -512,7 +560,7 @@
 				item: "create:linear_chassis"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -3.5d
 		}
 		{
@@ -523,7 +571,7 @@
 				item: "create:radial_chassis"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -3.5d
 		}
 		{
@@ -534,7 +582,7 @@
 				item: "create:sticker"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
@@ -551,7 +599,7 @@
 				item: "create:andesite_funnel"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
@@ -568,7 +616,7 @@
 				item: "create:andesite_tunnel"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 3.0d
 		}
 		{
@@ -651,7 +699,7 @@
 				type: "item"
 			}]
 			title: "Table Cloth"
-			x: 0.0d
+			x: -0.5d
 			y: 1.5d
 		}
 		{
@@ -730,7 +778,7 @@
 				type: "item"
 			}]
 			title: "Postbox"
-			x: -1.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -742,7 +790,7 @@
 				item: "minecraft:kelp"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 5.0d
 		}
 		{
@@ -753,7 +801,7 @@
 				item: "minecraft:dried_kelp"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
@@ -768,7 +816,7 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 7.0d
 		}
 		{
@@ -783,7 +831,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["7F1FC387AB804DD8"]
+			dependencies: [
+				"7F1FC387AB804DD8"
+				"0F2000A3828DD2A0"
+			]
 			id: "74837414C3A22899"
 			tasks: [{
 				id: "65F1FAD3CAE036B7"
@@ -812,7 +863,7 @@
 				title: "Andesite Age"
 				type: "checkmark"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -881,8 +932,8 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -6.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["06A5695E979F7149"]
@@ -893,7 +944,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6ED2850F351B1E86"]
@@ -963,8 +1014,8 @@
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 7.0d
+			x: 17.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["74837414C3A22899"]
@@ -1068,8 +1119,8 @@
 				item: "create:minecart_coupling"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 5.0d
+			x: 17.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["74837414C3A22899"]
@@ -1091,7 +1142,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3DD064405C55BF12"]
@@ -1145,7 +1196,7 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -6.5d
 		}
 		{
@@ -1156,7 +1207,7 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -6.5d
 		}
 		{
@@ -1167,7 +1218,7 @@
 				item: "create:schematicannon"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
@@ -1191,7 +1242,7 @@
 				}
 			]
 			title: "Schematica"
-			x: -4.5d
+			x: -5.0d
 			y: -2.0d
 		}
 		{
@@ -1585,6 +1636,37 @@
 			}]
 			x: 11.0d
 			y: -12.0d
+		}
+		{
+			dependencies: ["092216D2A1FCF195"]
+			id: "1C600876C74B2A3E"
+			tasks: [{
+				id: "24CCDD05F508091F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "interiors:kelp_seat"
+							}
+							{
+								Count: 1b
+								id: "interiors:kelp_floor_chair"
+							}
+							{
+								Count: 1b
+								id: "interiors:kelp_chair"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Kelp Seats"
+			x: -1.0d
+			y: 4.0d
 		}
 	]
 	title: "Tech 1: Andesite Age"

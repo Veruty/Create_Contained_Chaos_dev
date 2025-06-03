@@ -52,19 +52,19 @@
 		{
 			id: "79B9A10620A37417"
 			linked_quest: "67B70624E29E7DC5"
-			x: 6.5d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
 			id: "14D0E97B41850026"
 			linked_quest: "4C9C07C9E763E09F"
-			x: 4.5d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
 			id: "6741C31EB7FF5662"
 			linked_quest: "3B3B85000FE90F48"
-			x: 5.5d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -137,7 +137,7 @@
 			id: "2FA4729095E2EAC1"
 			linked_quest: "2532C79C4742628A"
 			x: 8.5d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			id: "09076BFDCC4ACD4A"
@@ -160,13 +160,13 @@
 		{
 			id: "76FDC89E5E1D22CE"
 			linked_quest: "40111A64FF3CE372"
-			x: 7.5d
+			x: 6.5d
 			y: 2.0d
 		}
 		{
 			id: "29F4E4DFAC015CB7"
 			linked_quest: "65DE15594598930C"
-			x: 8.5d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -180,6 +180,24 @@
 			linked_quest: "69AFBCB81781D8C4"
 			x: 9.5d
 			y: -5.0d
+		}
+		{
+			id: "370189D86D702FAA"
+			linked_quest: "054F32CED3753E1A"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "3F7AB1696A88EBA3"
+			linked_quest: "4D470E684F1CC93A"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			id: "2B0F3566E59230A3"
+			linked_quest: "27ADD28DFF4889AF"
+			x: 8.5d
+			y: 4.0d
 		}
 	]
 	quests: [
@@ -661,6 +679,17 @@
 			}]
 			x: -4.5d
 			y: 10.0d
+		}
+		{
+			dependencies: ["4BCDA1E23D59D3DA"]
+			id: "31076E0286BDD977"
+			tasks: [{
+				id: "3346091C7ECD37C8"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
 		}
 	]
 	title: "Tech 2: Brass Age"

@@ -7,9 +7,7 @@ BlockEvents.rightClicked('kubejs:firebricks', e => {
 
     if( item == 'minecraft:bucket' )
     {
-        player.tell( "Something stops you from placing that there." ) // Warn player
-        check = block // store block for ItemEvents
-        
+        check = block // store block for ItemEvents  
     }
     
 })

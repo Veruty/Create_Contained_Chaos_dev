@@ -6,13 +6,26 @@
 	icon: "minecraft:gold_block"
 	id: "36E6ACDDA0E7FD79"
 	order_index: 1
-	quest_links: [{
-		id: "4684D96D8111E7E4"
-		linked_quest: "1C9F4A10CEFB57EE"
-		shape: "square"
-		x: -12.5d
-		y: 0.5d
-	}]
+	quest_links: [
+		{
+			id: "093ECA6A3237C595"
+			linked_quest: "26E7BD11970C8F3C"
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			id: "5E639E1B934BD057"
+			linked_quest: "75BA8DAE253D5BAF"
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			id: "5CD66EA32F1D71AC"
+			linked_quest: "5A6CEC7028BDD091"
+			x: -10.5d
+			y: -1.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["2B1936D93DBECB8F"]
@@ -41,7 +54,7 @@
 				id: "18D4967454205405"
 				points: false
 				type: "xp"
-				value: 50L
+				value: 100L
 			}]
 			x: -6.5d
 			y: 0.5d
@@ -79,10 +92,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"2B1936D93DBECB8F"
-				"1A571CB813225BC5"
-			]
+			dependencies: ["2B1936D93DBECB8F"]
 			hide_dependency_lines: true
 			id: "4950596780D5281B"
 			shape: "square"

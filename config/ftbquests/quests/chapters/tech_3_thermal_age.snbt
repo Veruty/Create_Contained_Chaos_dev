@@ -12,7 +12,7 @@
 			linked_quest: "3163E0A143F913F2"
 			size: 2.0d
 			x: -3.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			id: "43C70B1630D2E107"
@@ -188,6 +188,18 @@
 			x: 2.0d
 			y: 7.5d
 		}
+		{
+			id: "53118359AB3804C0"
+			linked_quest: "2A6F014969A34A39"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "4A4F13BA284ABEB1"
+			linked_quest: "546F9AB121D5A0DC"
+			x: 7.0d
+			y: 0.5d
+		}
 	]
 	quests: [
 		{
@@ -241,8 +253,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["13DB6781627E18E8"]
@@ -335,13 +347,25 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["738B273CFAD8F3A1"]
+			dependencies: [
+				"738B273CFAD8F3A1"
+				"12A42A5F44B3BC36"
+			]
+			dependency_requirement: "one_completed"
 			id: "000099F56EB2D52B"
 			tasks: [{
 				id: "1F0169D382BC275A"
-				item: "thermal:sawdust"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/wood"
+					}
+				}
+				title: "Any #forge:dusts/wood"
 				type: "item"
 			}]
+			title: "Sawdust"
 			x: 11.0d
 			y: -1.5d
 		}
@@ -1020,7 +1044,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["082B7E91B6D788BD"]
+			dependencies: [
+				"082B7E91B6D788BD"
+				"546F9AB121D5A0DC"
+			]
 			id: "01956B8E7A2E9355"
 			tasks: [{
 				id: "0C3229999BE3F182"
@@ -1082,8 +1109,8 @@
 				item: "thermal:dynamo_gourmand"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["10AF6DCCA93031E6"]
@@ -1093,8 +1120,8 @@
 				item: "thermal:netherite_gear"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: 1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["70D24C5DEB766FD4"]
@@ -1104,8 +1131,8 @@
 				item: "thermal:dynamo_lapidary"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6C8535A4ED77BEC9"]

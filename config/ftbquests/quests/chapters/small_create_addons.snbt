@@ -1,0 +1,219 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "small_create_addons"
+	group: "53B219EDA5E606F4"
+	icon: "create:experience_nugget"
+	id: "1CD78B0059BA805E"
+	order_index: 4
+	quest_links: [
+		{
+			id: "70B9FE1AB07305C0"
+			linked_quest: "31076E0286BDD977"
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			id: "5293044C90CD608E"
+			linked_quest: "7A0BDC9A8F3E23A6"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			id: "202410A8A2F12883"
+			linked_quest: "3C000001D46F4ADA"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "204F4AEAC914FF91"
+			linked_quest: "74837414C3A22899"
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			id: "74BC52BC3AC11D83"
+			linked_quest: "63546C2E81516C9E"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			id: "23FA38D8130AA0C1"
+			linked_quest: "6ECF805F53CBBEF2"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "6AC48EC877A65212"
+			linked_quest: "6B67ACFC62C25945"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "25FBE6DE8A2FD158"
+			linked_quest: "0F6604EA16142E25"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			id: "60818D1C6DC8F7E7"
+			linked_quest: "3B464C781BE9B0AD"
+			x: -10.0d
+			y: 0.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"7A0BDC9A8F3E23A6"
+				"3C000001D46F4ADA"
+			]
+			id: "1C897FB72A14682E"
+			tasks: [{
+				id: "7AC93DE506386F92"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"74837414C3A22899"
+				"7A0BDC9A8F3E23A6"
+			]
+			id: "70BB713A10F8868C"
+			tasks: [{
+				id: "6FE191367EA55ED2"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"63546C2E81516C9E"
+				"3B464C781BE9B0AD"
+			]
+			id: "33306B0228791E18"
+			tasks: [{
+				id: "0D7641E77555E3E7"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31076E0286BDD977"]
+			id: "664A706BBA3DBAA4"
+			tasks: [{
+				id: "2740FBF28F06B2AB"
+				item: "create_enchantment_industry:experience_rotor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0E10A7ECF0339502"
+				"6ECF805F53CBBEF2"
+				"6B67ACFC62C25945"
+				"0F6604EA16142E25"
+			]
+			id: "6C54CCBAC27CDE91"
+			tasks: [{
+				id: "5B76661400B285E3"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C897FB72A14682E"]
+			description: [
+				"Its made in disenchanter by:"
+				""
+				"Draining player xp (standing on disenchanter)"
+				""
+				"Disenchanting items (insert item onto disenchanter)"
+				""
+				"Liquid Experience behaves like any other fluid and can be pumped, routed and stored."
+			]
+			icon: "minecraft:experience_bottle"
+			id: "0E10A7ECF0339502"
+			tasks: [{
+				id: "446C4A6A98185066"
+				type: "checkmark"
+			}]
+			title: "Liquid Experience"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"63546C2E81516C9E"
+				"70BB713A10F8868C"
+				"0E10A7ECF0339502"
+				"33CEA49596ADC5EE"
+			]
+			id: "386066730DE2A584"
+			tasks: [{
+				id: "047C14810C730FFD"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70BB713A10F8868C"]
+			description: ["To duplicate an enchanted book you will need to right-click Printer with Enchanted Book you want to copy, place books on Depot below the Printer and pump Liquid Experience into Printer"]
+			id: "33CEA49596ADC5EE"
+			tasks: [{
+				id: "7E844C97BA49B819"
+				type: "checkmark"
+			}]
+			title: "Duplicating Enchanted Books with Printer"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"386066730DE2A584"
+				"6C54CCBAC27CDE91"
+			]
+			id: "433D7E4306A6BD56"
+			tasks: [{
+				id: "5E086B69073E6EE9"
+				title: "Hyper Experience in Enchanted Book making"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33306B0228791E18"]
+			icon: "create:blaze_burner"
+			id: "53915B78D7E7BEDA"
+			tasks: [{
+				id: "69BA18E87BCAEBCD"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_enchantment_industry:blaze_enchanter"
+				type: "observation"
+			}]
+			title: "Blaze Enchanter"
+			x: -9.0d
+			y: 3.5d
+		}
+	]
+	title: "Create: Enchantment Industry"
+}
