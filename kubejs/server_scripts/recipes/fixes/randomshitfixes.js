@@ -29,4 +29,6 @@ ServerEvents.recipes(e => {
 		B: 'minecraft:barrel',
 
 	})
+	e.remove({ id: 'mekanism:separator/water' })
+	e.custom({"type":"mekanism:separating","input":{"amount":2,"fluid":"minecraft:water"},"leftGasOutput":{"amount":2,"gas":"mekanism:hydrogen"},"rightGasOutput":{"amount":1,"gas":"mekanism:oxygen"}})
 })
