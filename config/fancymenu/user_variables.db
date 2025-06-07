@@ -6,3 +6,9 @@ variable {
   reset_on_launch = true
 }
 
+variable {
+  name = realtime24
+  value = 
+  reset_on_launch = false
+}
+
