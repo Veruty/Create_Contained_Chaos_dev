@@ -628,13 +628,13 @@
     "modId": "melody",
     "version": "1.0.2"
   },
-  "modernfix-forge-5.23.0+mc1.20.1.jar": {
+  "modernfix-forge-5.23.1+mc1.20.1.jar": {
     "modId": "modernfix",
-    "version": "5.23.0+mc1.20.1"
+    "version": "5.23.1+mc1.20.1"
   },
-  "moonlight-1.20-2.14.1-forge.jar": {
+  "moonlight-1.20-2.14.3-forge.jar": {
     "modId": "moonlight",
-    "version": "1.20-2.14.1"
+    "version": "1.20-2.14.3"
   },
   "MouseTweaks-forge-mc1.20.1-2.25.1.jar": {
     "modId": "mousetweaks",
