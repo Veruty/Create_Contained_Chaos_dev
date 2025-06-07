@@ -133,6 +133,12 @@
 			x: -10.0d
 			y: -1.5d
 		}
+		{
+			id: "1B8C3A66C0EA8AD1"
+			linked_quest: "14E68D38AA35147C"
+			x: -10.0d
+			y: -7.5d
+		}
 	]
 	quests: [
 		{
