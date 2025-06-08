@@ -14,8 +14,8 @@
 			image: "kubejs:textures/questimg/mekanism/tet.png"
 			rotation: 0.0d
 			width: 2.7358490566037736d
-			x: 11.0d
-			y: 6.5d
+			x: 22.0d
+			y: -0.5d
 		}
 		{
 			dependency: "286D095D71CB0153"
@@ -82,44 +82,8 @@
 			image: "kubejs:textures/questimg/mekanism/bat.png"
 			rotation: 0.0d
 			width: 2.7319587628865976d
-			x: 2.0d
-			y: 13.5d
-		}
-		{
-			dependency: "1A332CC6CFD92F79"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: 9.0d
-			y: 6.5d
-		}
-		{
-			dependency: "1A332CC6CFD92F79"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 180.0d
-			width: 1.0d
-			x: 8.0d
-			y: 5.5d
-		}
-		{
-			dependency: "6E97368920DAE881"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: 7.0d
-			y: 4.5d
-		}
-		{
-			dependency: "48558E331B14B773"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
-			y: 5.5d
+			x: 1.0d
+			y: 12.5d
 		}
 		{
 			dependency: "205AA1AB99D13D3D"
@@ -228,75 +192,21 @@
 			y: -17.5d
 		}
 		{
-			dependency: "48010D86B97969E4"
 			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: 5.0d
-			y: 10.5d
-		}
-		{
-			dependency: "48010D86B97969E4"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 7.0d
-			y: 10.5d
-		}
-		{
-			dependency: "7E747BD610CB2D21"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 7.0d
-			y: 12.5d
-		}
-		{
-			dependency: "7E747BD610CB2D21"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: 5.0d
-			y: 12.5d
-		}
-		{
-			dependency: "46DA59DC1925C374"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 7.0d
-			y: 14.5d
-		}
-		{
-			dependency: "46DA59DC1925C374"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: 5.0d
-			y: 14.5d
-		}
-		{
-			height: 1.0d
-			hover: ["mekanism.sulfur_dust"]
+			hover: ["item.mekanism.dust_sulfur"]
 			image: "mekanism:item/dust_sulfur"
 			rotation: 0.0d
 			width: 1.0d
-			x: 13.0d
-			y: 13.0d
+			x: 16.0d
+			y: 12.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 14.0d
-			y: 13.0d
+			x: 17.0d
+			y: 12.5d
 		}
 		{
 			click: "#1FB9020CDF615344"
@@ -305,16 +215,16 @@
 			image: "kubejs:textures/questimg/mekanism/chemical_oxidizer.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.0d
-			y: 13.0d
+			x: 18.0d
+			y: 12.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 16.0d
-			y: 13.0d
+			x: 19.0d
+			y: 12.5d
 		}
 		{
 			height: 1.0d
@@ -322,40 +232,40 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfur_dioxide.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 17.0d
-			y: 13.0d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 18.0d
-			y: 13.0d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
 			x: 20.0d
-			y: 13.0d
+			y: 12.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 22.0d
-			y: 13.0d
+			x: 21.0d
+			y: 12.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 24.0d
-			y: 13.0d
+			x: 23.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 25.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 27.0d
+			y: 12.5d
 		}
 		{
 			click: "#59EA4D9F875D7D03"
@@ -364,24 +274,24 @@
 			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
 			rotation: 0.0d
 			width: 1.005128205128205d
-			x: 19.0d
-			y: 13.0d
+			x: 22.0d
+			y: 12.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.0d
-			y: 12.0d
+			x: 22.0d
+			y: 11.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.0d
-			y: 10.0d
+			x: 22.0d
+			y: 9.5d
 		}
 		{
 			height: 1.0d
@@ -389,8 +299,8 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.0d
-			y: 11.0d
+			x: 22.0d
+			y: 10.5d
 		}
 		{
 			height: 1.0d
@@ -398,8 +308,8 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfur_trioxide.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 21.0d
-			y: 13.0d
+			x: 24.0d
+			y: 12.5d
 		}
 		{
 			click: "#0FD3A26A0ECE27E5"
@@ -408,24 +318,24 @@
 			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.0d
-			y: 9.0d
+			x: 22.0d
+			y: 8.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: 20.0d
-			y: 9.0d
+			x: 21.0d
+			y: 8.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 21.0d
-			y: 10.0d
+			x: 24.0d
+			y: 9.5d
 		}
 		{
 			color: 1926101
@@ -434,16 +344,16 @@
 			image: "minecraft:block/water_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 21.0d
-			y: 9.0d
+			x: 24.0d
+			y: 8.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 22.0d
-			y: 9.0d
+			x: 25.0d
+			y: 8.5d
 		}
 		{
 			click: "#6E97368920DAE881"
@@ -452,24 +362,24 @@
 			image: "kubejs:textures/questimg/mekanism/rotary_condensentrator.png"
 			rotation: 0.0d
 			width: 0.9949238578680203d
-			x: 23.0d
-			y: 9.0d
+			x: 26.0d
+			y: 8.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 23.0d
-			y: 10.0d
+			x: 26.0d
+			y: 9.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 23.0d
-			y: 12.0d
+			x: 26.0d
+			y: 11.5d
 		}
 		{
 			height: 1.0d
@@ -477,8 +387,8 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/water_vapor.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 23.0d
-			y: 11.0d
+			x: 26.0d
+			y: 10.5d
 		}
 		{
 			click: "#59EA4D9F875D7D03"
@@ -487,8 +397,8 @@
 			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
 			rotation: 0.0d
 			width: 1.005128205128205d
-			x: 23.0d
-			y: 13.0d
+			x: 26.0d
+			y: 12.5d
 		}
 		{
 			height: 1.0d
@@ -496,16 +406,25 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfuric_acid.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 25.0d
-			y: 13.0d
+			x: 28.0d
+			y: 12.5d
 		}
 		{
+			click: "#1A529EAEBFC7B6FB"
 			height: 1.0d
 			hover: ["item.mekanism.bio_fuel"]
 			image: "mekanism:item/bio_fuel"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.0d
+			x: 14.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 15.0d
 			y: -6.5d
 		}
 		{
@@ -549,21 +468,13 @@
 			y: -6.5d
 		}
 		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 27.0d
-			y: -6.5d
-		}
-		{
 			click: "#60872E585150C8D4"
 			height: 1.0d
 			hover: ["block.mekanism.pressurized_reaction_chamber"]
 			image: "kubejs:textures/questimg/mekanism/pressurized_reaction_chamber.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 16.0d
 			y: -6.5d
 		}
 		{
@@ -571,7 +482,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 18.0d
+			x: 16.0d
 			y: -7.5d
 		}
 		{
@@ -580,8 +491,43 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/ethylene.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 16.0d
 			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			hover: ["block.mekanism.ethene"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/ethylene.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: -8.5d
+		}
+		{
+			click: "#7F9A49100E2C93D4"
+			height: 1.0d
+			hover: ["item.mekanism.substrate"]
+			image: "mekanism:item/substrate"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: -6.5d
 		}
 		{
 			height: 1.0d
@@ -592,47 +538,13 @@
 			y: -8.5d
 		}
 		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 0.0d
-			width: 1.0d
-			x: 22.0d
-			y: -7.5d
-		}
-		{
-			height: 1.0d
-			hover: ["block.mekanism.ethene"]
-			image: "kubejs:textures/questimg/mekanism/liqud_gasses/ethylene.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 22.0d
-			y: -8.5d
-		}
-		{
-			height: 1.0d
-			hover: ["item.mekanism.substrate"]
-			image: "mekanism:item/substrate"
-			rotation: 0.0d
-			width: 1.0d
-			x: 20.0d
-			y: -6.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 21.0d
-			y: -8.5d
-		}
-		{
 			click: "#6E97368920DAE881"
 			height: 1.0d
 			hover: ["mekanism.rotary_condensentrator"]
 			image: "kubejs:textures/questimg/mekanism/rotary_condensentrator.png"
 			rotation: 0.0d
 			width: 0.9949238578680203d
-			x: 20.0d
+			x: 18.0d
 			y: -8.5d
 		}
 		{
@@ -642,16 +554,17 @@
 			image: "kubejs:textures/questimg/mekanism/pressurized_reaction_chamber.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 20.0d
 			y: -6.5d
 		}
 		{
+			click: "#4EF88C2A1B845264"
 			height: 1.0d
 			hover: ["item.mekanism.hdpe_pellet"]
 			image: "mekanism:item/hdpe_pellet"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 22.0d
 			y: -6.5d
 		}
 		{
@@ -661,7 +574,7 @@
 			image: "mekanism:block/factory/enriching/enriching_factory_front_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.0d
+			x: 24.0d
 			y: -6.5d
 		}
 		{
@@ -669,7 +582,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 22.0d
+			x: 20.0d
 			y: -5.5d
 		}
 		{
@@ -677,7 +590,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 18.0d
+			x: 16.0d
 			y: -5.5d
 		}
 		{
@@ -686,7 +599,7 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 20.0d
 			y: -4.5d
 		}
 		{
@@ -694,8 +607,8 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: 18.0d
-			y: 9.0d
+			x: 23.0d
+			y: 8.5d
 		}
 		{
 			height: 1.0d
@@ -703,13 +616,652 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 17.0d
-			y: 9.0d
+			x: 20.0d
+			y: 8.5d
 		}
 		{
 			height: 1.0d
 			hover: ["gas.mekanism.hydrogen"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			click: "#19BF6BCFC7E63352"
+			height: 1.0d
+			hover: ["item.mekanism.hdpe_sheet"]
+			image: "mekanism:item/hdpe_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -6.5d
+		}
+		{
+			click: "#017AC018B98522AF"
+			height: 1.0d
+			hover: ["block.mekanism.chemical_dissolution_chamber"]
+			image: "kubejs:textures/questimg/mekanism/chemical_dissolution_chamber.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 12.5d
+		}
+		{
+			click: "#414874164A8292BE"
+			height: 1.0d
+			hover: ["block.mekanism.chemical_washer"]
+			image: "kubejs:textures/questimg/mekanism/chemical_washer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 8.5d
+		}
+		{
+			click: "#48558E331B14B773"
+			height: 1.0d
+			hover: ["block.mekanism.chemical_crystallizer"]
+			image: "mekanism:block/models/chemical_crystallizer_elements1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 4.5d
+		}
+		{
+			click: "#7B16E9F7C8996C69"
+			height: 1.0d
+			hover: ["block.mekanism.chemical_injection_chamber"]
+			image: "mekanism:block/chemical_injection_chamber/front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 0.5d
+		}
+		{
+			click: "#61DAEBB4FA84E63D"
+			height: 1.0d
+			hover: ["block.mekanism.purification_chamber"]
+			image: "mekanism:block/purification_chamber/front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -3.5d
+		}
+		{
+			click: "#27C740059DA71649"
+			height: 1.0d
+			hover: ["block.mekanism.crusher"]
+			image: "mekanism:block/crusher/front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -7.5d
+		}
+		{
+			click: "#16FAA83B048985DD"
+			height: 1.0d
+			hover: ["mekanism.enrichment_chamber"]
+			image: "mekanism:block/factory/enriching/enriching_factory_front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			hover: ["slurry.mekanism.dirty"]
+			image: "mekanism:slurry/dirty"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 9.5d
+		}
+		{
+			color: 1926101
+			height: 1.0d
+			hover: ["minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			hover: ["slurry.mekanism.clean"]
+			image: "mekanism:slurry/clean"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			hover: ["item.mekanism.crystal"]
+			image: "mekanism:item/crystal_osmium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			hover: ["item.mekanism.shard"]
+			image: "mekanism:item/shard_osmium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -12.5d
+		}
+		{
+			height: 1.0d
+			hover: ["item.mekanism.clump"]
+			image: "mekanism:item/clump_osmium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			hover: ["item.mekanism.dirty_dust"]
+			image: "mekanism:item/dirty_dust_osmium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			hover: ["item.mekanism.dust"]
+			image: "mekanism:item/dust_osmium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			hover: ["evaporation.mekanism.evaporation_plant"]
+			image: "mekanism:block/thermal_evaporation_controller"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			hover: ["block.mekanism.brine"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/brine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			hover: ["item.mekanism.dust_lithium"]
+			image: "mekanism:item/dust_lithium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			hover: ["gas.mekanism.lithium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/lithium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			hover: ["block.mekanism.lithium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/lithium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			click: "#6E97368920DAE881"
+			height: 1.0d
+			hover: ["mekanism.rotary_condensentrator"]
+			image: "kubejs:textures/questimg/mekanism/rotary_condensentrator.png"
+			rotation: 0.0d
+			width: 0.9949238578680203d
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 19.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			hover: ["gas.mekanism.hydrogen_chloride"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen_chloride.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: 0.5d
+		}
+		{
+			click: "#59EA4D9F875D7D03"
+			height: 1.0d
+			hover: ["mekanism.chemical_infuser"]
+			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
+			rotation: 0.0d
+			width: 1.005128205128205d
+			x: 26.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 27.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 26.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			hover: ["gas.mekanism.hydrogen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			hover: ["gas.mekanism.chlorine"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/chlorine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 24.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 24.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 24.0d
+			y: 3.5d
+		}
+		{
+			click: "#0FD3A26A0ECE27E5"
+			height: 1.0d
+			hover: ["mekanism.electrolytic_separator"]
+			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 25.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 23.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			hover: ["gas.mekanism.sodium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sodium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			hover: ["mekanism.oxygen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 27.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -2.5d
+		}
+		{
+			click: "#0FD3A26A0ECE27E5"
+			height: 1.0d
+			hover: ["mekanism.electrolytic_separator"]
+			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 25.0d
+			y: -3.5d
+		}
+		{
+			color: 1926101
+			height: 1.0d
+			hover: ["minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: -3.5d
+		}
+		{
+			click: "#1A332CC6CFD92F79"
+			height: 1.0d
+			image: "mekanism:block/thermal_evaporation_controller_on_led"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			hover: ["evaporation.mekanism.evaporation_plant"]
+			image: "mekanism:block/thermal_evaporation_controller"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 6.5d
+		}
+		{
+			click: "#1A332CC6CFD92F79"
+			height: 1.0d
+			image: "mekanism:block/thermal_evaporation_controller_on_led"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			hover: ["item.mekanism.salt"]
+			image: "mekanism:item/salt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 9.5d
+		}
+		{
+			click: "#48558E331B14B773"
+			height: 1.0d
+			hover: ["block.mekanism.chemical_crystallizer"]
+			image: "mekanism:block/models/chemical_crystallizer_elements1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 8.5d
+		}
+		{
+			click: "#0FD3A26A0ECE27E5"
+			height: 1.0d
+			hover: ["mekanism.electrolytic_separator"]
+			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 18.0d
@@ -717,12 +1269,178 @@
 		}
 		{
 			height: 1.0d
-			hover: ["item.mekanism.hdpe_sheet"]
-			image: "mekanism:item/hdpe_sheet"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			color: 1926101
+			height: 1.0d
+			hover: ["minecraft.water"]
+			image: "minecraft:block/water_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 28.0d
-			y: -6.5d
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 22.0d
+			y: -7.5d
+		}
+		{
+			click: "#12C8C973364CE575"
+			height: 1.0d
+			hover: ["item.mekanism.hdpe_rod"]
+			image: "mekanism:item/hdpe_rod"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 22.0d
+			y: -9.5d
+		}
+		{
+			click: "#2BBF76BF79BA5108"
+			height: 1.0d
+			hover: ["item.mekanism.hdpe_stick"]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: -10.5d
+		}
+		{
+			click: "#70D24C5DEB766FD4"
+			height: 1.0d
+			hover: ["item.thermal.netherite_gear"]
+			image: "thermal:item/netherite_gear"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 23.0d
+			y: -10.5d
+		}
+		{
+			click: "#03524C8291BA941F"
+			height: 1.0d
+			hover: ["item.mekanism.alloy_atomic"]
+			image: "mekanism:item/alloy_atomic"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: -10.5d
+		}
+		{
+			click: "#6BD8ADA2F4C73784"
+			height: 1.0d
+			hover: ["item.mekanism.ingot_refined_obsidian"]
+			image: "mekanism:item/ingot_refined_obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			hover: ["item.mekanism.atomic_disassembler"]
+			image: "kubejs:textures/questimg/mekanism/atomic_disassembler.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: -12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 21.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 25.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/almost_complete_atomic_disassembler"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: -10.5d
+		}
+		{
+			click: "#08E13E7BE1D8864D"
+			height: 1.0d
+			hover: ["item.mekanism.energy_tablet"]
+			image: "mekanism:item/energy_tablet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -10.5d
 		}
 	]
 	order_index: 6
@@ -761,8 +1479,8 @@
 		{
 			id: "33464D4947F7A677"
 			linked_quest: "67BD5D776F242F93"
-			x: 6.0d
-			y: 2.5d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			id: "5E1F7420AD762806"
@@ -845,44 +1563,44 @@
 		{
 			id: "5237CB6A01F176C9"
 			linked_quest: "21990EF09673C683"
-			x: 1.0d
-			y: 7.5d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
 			id: "4832B95CC8469132"
 			linked_quest: "268773CD97A1A5E0"
-			x: -1.0d
-			y: 7.5d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			id: "1BBF9E27D210647A"
 			linked_quest: "46986AFF42480BF0"
-			x: 1.0d
+			x: 5.0d
 			y: 5.5d
 		}
 		{
 			id: "67AC5BAB434E77F4"
 			linked_quest: "1C22D0986140449F"
-			x: 0.0d
-			y: 6.5d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			id: "37574625321A324C"
 			linked_quest: "3D34425A97C15842"
-			x: 28.0d
-			y: -3.5d
+			x: 27.0d
+			y: -6.5d
 		}
 		{
 			id: "1202AC55316F182C"
 			linked_quest: "000099F56EB2D52B"
-			x: 6.0d
-			y: -1.5d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			id: "1B4C00595AEBBBCE"
 			linked_quest: "348B8187567F1B60"
-			x: 5.0d
-			y: -0.5d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			id: "6901227833D5BDE5"
@@ -893,8 +1611,26 @@
 		{
 			id: "6AEC50F826F21099"
 			linked_quest: "3410A7C9AAFDDF9D"
-			x: 13.0d
-			y: 14.0d
+			x: 16.0d
+			y: 13.5d
+		}
+		{
+			id: "24364CFD597A61FA"
+			linked_quest: "15A1D3E46BE50A42"
+			x: 29.0d
+			y: -1.5d
+		}
+		{
+			id: "57F91B71E9A9C15E"
+			linked_quest: "70D24C5DEB766FD4"
+			x: 26.0d
+			y: -9.5d
+		}
+		{
+			id: "0A98E52C5A492B77"
+			linked_quest: "5B4D620A582F7AB7"
+			x: -1.0d
+			y: 3.5d
 		}
 	]
 	quests: [
@@ -1092,8 +1828,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.13.title}"
-			x: 9.0d
-			y: 3.5d
+			x: 11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["24CD759A561EB2C6"]
@@ -1120,8 +1856,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.16.title}"
-			x: 6.0d
-			y: 8.5d
+			x: 4.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["45C9D5B3C08D1FFD"]
@@ -1133,8 +1869,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.30.title}"
-			x: 6.0d
-			y: 10.5d
+			x: 4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["48010D86B97969E4"]
@@ -1146,8 +1882,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.33.title}"
-			x: 6.0d
-			y: 12.5d
+			x: 4.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["7E747BD610CB2D21"]
@@ -1159,8 +1895,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.36.title}"
-			x: 6.0d
-			y: 14.5d
+			x: 4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
@@ -1312,7 +2048,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.80.title}"
-			x: 14.0d
+			x: 12.0d
 			y: 0.5d
 		}
 		{
@@ -1326,8 +2062,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.81.title}"
-			x: 7.0d
-			y: -0.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
@@ -1341,7 +2077,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.82.title}"
-			x: 12.0d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -1355,7 +2091,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.83.title}"
-			x: 13.0d
+			x: 5.0d
 			y: -0.5d
 		}
 		{
@@ -1376,7 +2112,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.91.title}"
-			x: 16.0d
+			x: 14.0d
 			y: 0.5d
 		}
 		{
@@ -1397,7 +2133,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.93.title}"
-			x: 16.0d
+			x: 14.0d
 			y: 4.5d
 		}
 		{
@@ -1410,7 +2146,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.96.title}"
-			x: 18.0d
+			x: 16.0d
 			y: 4.5d
 		}
 		{
@@ -1423,7 +2159,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.94.title}"
-			x: 18.0d
+			x: 16.0d
 			y: 0.5d
 		}
 		{
@@ -1438,13 +2174,10 @@
 			}]
 			title: "{quest.meka.84.title}"
 			x: 11.0d
-			y: 3.5d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"48558E331B14B773"
-				"1A332CC6CFD92F79"
-			]
+			dependencies: ["0453C7D5AA35CAAA"]
 			description: ["{quest.meka.19.desc}"]
 			id: "2B88C4AA15C024DF"
 			tasks: [{
@@ -1453,8 +2186,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.19.title}"
-			x: 6.0d
-			y: 6.5d
+			x: 17.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -1470,11 +2203,14 @@
 				type: "item"
 			}]
 			title: "{quest.meka.17.title}"
-			x: 4.0d
-			y: 8.5d
+			x: 7.0d
+			y: 10.5d
 		}
 		{
-			dependencies: ["62EB68FA87F80CED"]
+			dependencies: [
+				"62EB68FA87F80CED"
+				"48010D86B97969E4"
+			]
 			description: ["{quest.meka.31.desc}"]
 			id: "6B7489F4D2DE7ABE"
 			tasks: [{
@@ -1483,11 +2219,14 @@
 				type: "item"
 			}]
 			title: "{quest.meka.31.title}"
-			x: 4.0d
-			y: 10.5d
+			x: 7.0d
+			y: 12.5d
 		}
 		{
-			dependencies: ["6B7489F4D2DE7ABE"]
+			dependencies: [
+				"6B7489F4D2DE7ABE"
+				"7E747BD610CB2D21"
+			]
 			description: ["{quest.meka.34.desc}"]
 			id: "4222372C36422598"
 			tasks: [{
@@ -1496,11 +2235,14 @@
 				type: "item"
 			}]
 			title: "{quest.meka.34.title}"
-			x: 4.0d
-			y: 12.5d
+			x: 7.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["4222372C36422598"]
+			dependencies: [
+				"4222372C36422598"
+				"46DA59DC1925C374"
+			]
 			description: ["{quest.meka.37.desc}"]
 			id: "7FD99F0885299CBE"
 			tasks: [{
@@ -1509,8 +2251,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.37.title}"
-			x: 4.0d
-			y: 14.5d
+			x: 7.0d
+			y: 16.5d
 		}
 		{
 			dependencies: [
@@ -1526,11 +2268,14 @@
 				type: "item"
 			}]
 			title: "{quest.meka.18.title}"
-			x: 8.0d
-			y: 8.5d
+			x: 10.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["2EFE7E0B6A4606D7"]
+			dependencies: [
+				"2EFE7E0B6A4606D7"
+				"48010D86B97969E4"
+			]
 			description: ["{quest.meka.32.desc}"]
 			id: "58AD6764A194D8DB"
 			tasks: [{
@@ -1539,11 +2284,14 @@
 				type: "item"
 			}]
 			title: "{quest.meka.32.title}"
-			x: 8.0d
-			y: 10.5d
+			x: 10.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["58AD6764A194D8DB"]
+			dependencies: [
+				"58AD6764A194D8DB"
+				"7E747BD610CB2D21"
+			]
 			description: ["{quest.meka.35.desc}"]
 			id: "24A371935B68036D"
 			tasks: [{
@@ -1552,11 +2300,14 @@
 				type: "item"
 			}]
 			title: "{quest.meka.35.title}"
-			x: 8.0d
-			y: 12.5d
+			x: 10.0d
+			y: 13.5d
 		}
 		{
-			dependencies: ["24A371935B68036D"]
+			dependencies: [
+				"24A371935B68036D"
+				"46DA59DC1925C374"
+			]
 			description: ["{quest.meka.38.desc}"]
 			id: "5457F1584CFED690"
 			tasks: [{
@@ -1565,8 +2316,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.38.title}"
-			x: 8.0d
-			y: 14.5d
+			x: 10.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
@@ -1579,13 +2330,12 @@
 				type: "item"
 			}]
 			title: "{quest.meka.41.title}"
-			x: 6.0d
-			y: 4.5d
+			x: 11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
 			description: ["{quest.meka.40.desc}"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "6E97368920DAE881"
 			tasks: [{
@@ -1594,38 +2344,38 @@
 				type: "item"
 			}]
 			title: "{quest.meka.40.title}"
-			x: 8.0d
-			y: 4.5d
+			x: 5.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6DCDEAA1333F7DEE"]
 			description: ["{quest.meka.39.desc}"]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			hide_until_deps_visible: true
 			id: "1A332CC6CFD92F79"
 			tasks: [
 				{
-					count: 2L
 					id: "14C65A5CDB8391A4"
-					item: { Count: 2, id: "mekanism:thermal_evaporation_controller" }
+					item: "mekanism:thermal_evaporation_controller"
 					type: "item"
 				}
 				{
-					count: 4L
+					count: 2L
 					id: "13828150C1DFAD8F"
-					item: { Count: 4, id: "mekanism:thermal_evaporation_valve" }
+					item: "mekanism:thermal_evaporation_valve"
 					type: "item"
 				}
 				{
-					count: 66L
+					count: 33L
 					id: "7E9AD9DA6A1A3B23"
-					item: { Count: 66, id: "mekanism:thermal_evaporation_block" }
+					item: "mekanism:thermal_evaporation_block"
 					type: "item"
 				}
 			]
 			title: "{quest.meka.39.title}"
-			x: 8.0d
-			y: 6.5d
+			x: 22.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
@@ -1638,8 +2388,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.20.title}"
-			x: 2.0d
-			y: 8.5d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["33AF1F966B4EE7B8"]
@@ -1652,7 +2402,7 @@
 			}]
 			title: "{quest.meka.21.title}"
 			x: 2.0d
-			y: 10.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["27C740059DA71649"]
@@ -1672,7 +2422,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.92.title}"
-			x: 16.0d
+			x: 14.0d
 			y: 2.5d
 		}
 		{
@@ -1689,7 +2439,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.95.title}"
-			x: 18.0d
+			x: 16.0d
 			y: 2.5d
 		}
 		{
@@ -1815,8 +2565,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.meka.28.title}"
-			x: 0.0d
-			y: 10.5d
+			x: 1.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["152091CB3B8EDA46"]
@@ -1829,7 +2579,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.97.title}"
-			x: 19.0d
+			x: 17.0d
 			y: 1.5d
 		}
 		{
@@ -1843,8 +2593,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.25.title}"
-			x: 3.0d
-			y: 3.5d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["152091CB3B8EDA46"]
@@ -1857,8 +2607,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.26.title}"
-			x: 19.0d
-			y: 3.5d
+			x: 18.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1874,8 +2624,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.23.title}"
-			x: 2.0d
-			y: 4.5d
+			x: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["238D6B5DF5DCF916"]
@@ -1887,8 +2637,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.24.title}"
-			x: 0.0d
-			y: 4.5d
+			x: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["24CD759A561EB2C6"]
@@ -1902,8 +2652,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.22.title}"
-			x: 1.0d
-			y: 3.5d
+			x: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
@@ -1916,8 +2666,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.88.title}"
-			x: 8.0d
-			y: 2.5d
+			x: 11.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
@@ -1930,8 +2680,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.86.title}"
-			x: 12.0d
-			y: 2.5d
+			x: 10.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
@@ -1959,7 +2709,7 @@
 			}]
 			title: "{quest.meka.87.title}"
 			x: 11.0d
-			y: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["05D2DA6C4AACB4A2"]
@@ -1985,8 +2735,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.27.title}"
-			x: 0.0d
-			y: 2.5d
+			x: 1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
@@ -1999,8 +2749,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.85.title}"
-			x: 13.0d
-			y: 1.5d
+			x: 11.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["16FAA83B048985DD"]
@@ -2052,7 +2802,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.75.title}"
-			x: 28.0d
+			x: 26.0d
 			y: -5.5d
 		}
 		{
@@ -2066,7 +2816,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.74.title}"
-			x: 24.0d
+			x: 23.0d
 			y: -5.5d
 		}
 		{
@@ -2079,7 +2829,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.73.title}"
-			x: 20.0d
+			x: 18.0d
 			y: -5.5d
 		}
 		{
@@ -2092,7 +2842,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.72.title}"
-			x: 16.0d
+			x: 14.0d
 			y: -5.5d
 		}
 		{
@@ -2122,8 +2872,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.89.title}"
-			x: 13.5d
-			y: -2.5d
+			x: 12.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -2145,8 +2895,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.151.title}"
-			x: 29.0d
-			y: -4.5d
+			x: 28.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3410A7C9AAFDDF9D"]
@@ -2156,12 +2906,12 @@
 			tasks: [{
 				icon: "create:brass_hand"
 				id: "507370457C85E239"
-				title: "Right-click Chemical Oxidizer while Suilfur Dioxide is inside"
+				title: "Right-click any block while Suilfur Dioxide is inside"
 				type: "custom"
 			}]
 			title: "{quest.meka.127.title}"
-			x: 17.0d
-			y: 14.0d
+			x: 20.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["52795A656E90F398"]
@@ -2171,12 +2921,12 @@
 			tasks: [{
 				icon: "create:brass_hand"
 				id: "040A29662464CD85"
-				title: "Right-click Chemical Infuser while Suilfur Trioxide is inside"
+				title: "Right-click any block while Suilfur Trioxide is inside"
 				type: "custom"
 			}]
 			title: "{quest.meka.128.title}"
-			x: 21.0d
-			y: 14.0d
+			x: 24.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["7BC2ECAB8B22CBFF"]
@@ -2186,12 +2936,12 @@
 			tasks: [{
 				icon: "create:brass_hand"
 				id: "048BEDB820F2D6DC"
-				title: "Right-click Chemical Infuser while Suilfuric Acid is inside"
+				title: "Right-click any block while Suilfuric Acid is inside"
 				type: "custom"
 			}]
 			title: "{quest.meka.130.title}"
-			x: 25.0d
-			y: 14.0d
+			x: 28.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["27C740059DA71649"]
@@ -2208,7 +2958,7 @@
 				title: "Any #forge:dusts/tin"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: -1.5d
 		}
 		{
@@ -2226,7 +2976,7 @@
 				title: "Any #forge:dusts/steel"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: 6.5d
 		}
 		{
@@ -2244,7 +2994,7 @@
 				title: "Any #forge:dusts/diamond"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: -3.5d
 		}
 		{
@@ -2255,8 +3005,8 @@
 				item: "mekanism:upgrade_gas"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 2.5d
+			x: 12.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7244ACCE7B1EA609"]
@@ -2266,7 +3016,7 @@
 				item: "mekanism:upgrade_filter"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 16.0d
 			y: -1.5d
 		}
 		{
@@ -2277,7 +3027,7 @@
 				item: "mekanism:upgrade_anchor"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 16.0d
 			y: -3.5d
 		}
 		{
@@ -2288,7 +3038,7 @@
 				item: "mekanism:upgrade_muffling"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 16.0d
 			y: 6.5d
 		}
 		{
@@ -2318,8 +3068,459 @@
 				type: "checkmark"
 			}]
 			title: "{quest.meka.129.title}"
-			x: 21.0d
-			y: 11.0d
+			x: 24.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14E68D38AA35147C"]
+			hide_dependency_lines: true
+			id: "53E66405375D45E9"
+			tasks: [{
+				id: "4000F010E68D1723"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:completes_ore_processing_quests"
+					}
+				}
+				type: "item"
+			}]
+			title: "Ores for multiplication"
+			x: 33.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"07B80FF72157DDEC"
+				"53E66405375D45E9"
+			]
+			icon: "mekanism:basic_chemical_tank"
+			id: "1320FCEE195D9D91"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "61C80229A6088D66"
+				title: "Right-click any block while any Dirty Slurry is inside"
+				type: "custom"
+			}]
+			title: "Dirty Slurry"
+			x: 31.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1320FCEE195D9D91"]
+			icon: "mekanism:basic_chemical_tank"
+			id: "4A6AF19B37DBD45C"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "093570D31C881837"
+				title: "Right-click any block while any Clean Slurry is inside"
+				type: "custom"
+			}]
+			title: "Clean Slurry"
+			x: 31.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4A6AF19B37DBD45C"
+				"02AFE459E338D665"
+			]
+			id: "2156FF005A98CD92"
+			tasks: [{
+				id: "29BA02E24209C7E3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:crystals"
+					}
+				}
+				title: "Any #mekanism:crystals"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2156FF005A98CD92"
+				"53E66405375D45E9"
+			]
+			dependency_requirement: "one_completed"
+			id: "2AE328444D00892F"
+			tasks: [{
+				id: "7D24622CE53F1738"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:shards"
+					}
+				}
+				title: "Any #mekanism:shards"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"53E66405375D45E9"
+				"2AE328444D00892F"
+			]
+			dependency_requirement: "one_completed"
+			id: "36B6C44B34DF66AC"
+			tasks: [{
+				id: "60B84AC38A589D09"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:clumps"
+					}
+				}
+				title: "Any #mekanism:clumps"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36B6C44B34DF66AC"]
+			id: "1CCCAC787EE36BCE"
+			tasks: [{
+				id: "30E95956DE61B8D1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:dirty_dusts"
+					}
+				}
+				title: "Any #mekanism:dirty_dusts"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"1CCCAC787EE36BCE"
+				"53E66405375D45E9"
+			]
+			dependency_requirement: "one_completed"
+			id: "66FD815724870C36"
+			tasks: [{
+				id: "3F57801F2FB2F503"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:iron_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:gold_dust"
+							}
+							{
+								Count: 1b
+								id: "mekanism:dust_osmium"
+							}
+							{
+								Count: 1b
+								id: "thermal:copper_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:tin_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:lead_dust"
+							}
+							{
+								Count: 1b
+								id: "mekanism:dust_uranium"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 31.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["1A332CC6CFD92F79"]
+			icon: "mekanism:brine_bucket"
+			id: "25DC4A8FAB183E2A"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "3990489D29FD69B6"
+				title: "Right-click any block while Brine is inside"
+				type: "custom"
+			}]
+			title: "Brine"
+			x: 25.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["25DC4A8FAB183E2A"]
+			id: "51C57A02C2F76A57"
+			tasks: [{
+				icon: "mekanism:chlorine_bucket"
+				id: "4A9D1DC701EA89D0"
+				title: "Right-click any block while Chlorine is inside"
+				type: "custom"
+			}]
+			title: "Chlorine"
+			x: 27.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25DC4A8FAB183E2A"]
+			icon: "mekanism:sodium_bucket"
+			id: "60CA950C9ACBAFB4"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "5042389DF6578656"
+				title: "Right-click any block while Sodium is inside"
+				type: "custom"
+			}]
+			title: "Sodium"
+			x: 25.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25DC4A8FAB183E2A"]
+			icon: "mekanism:lithium_bucket"
+			id: "7C5B918C67AE83A3"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "081A57CAB9D4382E"
+				title: "Right-click any block while Liquid Lithium is inside"
+				type: "custom"
+			}]
+			title: "Liquid Lithium"
+			x: 20.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7C5B918C67AE83A3"]
+			icon: "mekanism:lithium_bucket"
+			id: "0453C7D5AA35CAAA"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "111F08EC986B989D"
+				title: "Right-click any block while Lithium is inside"
+				type: "custom"
+			}]
+			title: "Lithium"
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"51C57A02C2F76A57"
+				"15A1D3E46BE50A42"
+			]
+			dependency_requirement: "one_completed"
+			icon: "mekanism:hydrogen_chloride_bucket"
+			id: "02AFE459E338D665"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "7A69667E4DB84182"
+				title: "Right-click any block while Hydrogen Chloride is inside"
+				type: "custom"
+			}]
+			title: "Hydrogen Chloride"
+			x: 29.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19BF6BCFC7E63352"]
+			description: ["{quest.meka.76.desc}"]
+			id: "03E3F14D60D1C2B1"
+			tasks: [{
+				id: "5690575CB46F81FC"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			title: "{quest.meka.76.title}"
+			x: 27.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4EF88C2A1B845264"]
+			id: "12C8C973364CE575"
+			tasks: [{
+				id: "7EF57DE398269DD2"
+				item: "mekanism:hdpe_rod"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["12C8C973364CE575"]
+			id: "40E3FECE1B0A087F"
+			tasks: [{
+				id: "3B61BD7033D39C4C"
+				item: "mekanism:pigment_mixer"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["12C8C973364CE575"]
+			id: "2BBF76BF79BA5108"
+			tasks: [{
+				id: "65213FA56E7E618D"
+				item: "mekanism:hdpe_stick"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"08E13E7BE1D8864D"
+				"5944EBB2CCABE319"
+			]
+			hide_dependency_lines: true
+			id: "128647FAFC8D7F71"
+			size: 2.0d
+			tasks: [{
+				id: "2653DB00BC3362C8"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"2BBF76BF79BA5108"
+				"70D24C5DEB766FD4"
+				"6BD8ADA2F4C73784"
+				"03524C8291BA941F"
+			]
+			hide_dependency_lines: true
+			id: "5944EBB2CCABE319"
+			tasks: [{
+				id: "02DCDFEC5F2D4BF2"
+				item: "kubejs:almost_complete_atomic_disassembler"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3859C9C6168B9502"]
+			id: "5035C45DE3317085"
+			tasks: [{
+				id: "6DB4F857B1A28A32"
+				item: "mekanism:dimensional_stabilizer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["000099F56EB2D52B"]
+			id: "758A5DE271C19325"
+			tasks: [{
+				id: "5F29FD1F9149DC71"
+				item: "mekanism:dye_base"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4882C29ACF76E6CD"
+				"758A5DE271C19325"
+			]
+			id: "29F7716C8563D8C9"
+			tasks: [{
+				id: "6152AF0D00390140"
+				item: "mekanism:painting_machine"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			id: "6DB8383940475BA3"
+			tasks: [{
+				id: "55FEEB8F6CD32AB5"
+				item: "mekanism:pigment_extractor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08E13E7BE1D8864D"]
+			id: "38067577BD54E104"
+			tasks: [{
+				id: "134917C1AE95E2C5"
+				item: "mekanism:chargepad"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["45C9D5B3C08D1FFD"]
+			id: "4F91D4334D58E25B"
+			tasks: [{
+				id: "193D1F6D2B052229"
+				item: "mekanism:laser_amplifier"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4F91D4334D58E25B"]
+			id: "12FD833A44346711"
+			tasks: [{
+				id: "30F5624AD7507AAD"
+				item: "mekanism:laser_tractor_beam"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["08E13E7BE1D8864D"]
+			id: "36698A00750FB0BD"
+			tasks: [{
+				id: "168CF3309E6A22A4"
+				item: "mekanism:laser"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["37B06FC941C75A60"]
+			id: "27D6810EE60DC4EB"
+			tasks: [{
+				id: "69C2BA6A21C191E5"
+				item: "mekanism:seismic_vibrator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
 		}
 	]
 	title: "Tech 4: Osmium Age"

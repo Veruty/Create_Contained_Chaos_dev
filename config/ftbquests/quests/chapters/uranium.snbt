@@ -307,44 +307,6 @@
 			y: 23.0d
 		}
 		{
-			click: "#59EA4D9F875D7D03"
-			dependency: "1E2ADCA13482CE85"
-			height: 1.0d
-			hover: ["mekanism.chemical_infuser"]
-			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
-			rotation: 0.0d
-			width: 1.005128205128205d
-			x: 10.0d
-			y: 23.0d
-		}
-		{
-			dependency: "1E2ADCA13482CE85"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.0d
-			y: 22.0d
-		}
-		{
-			dependency: "1E2ADCA13482CE85"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.0d
-			y: 20.0d
-		}
-		{
-			dependency: "1E2ADCA13482CE85"
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
-			y: 20.0d
-		}
-		{
 			dependency: "2DD36B9BE139C4F4"
 			height: 4.0d
 			image: "kubejs:textures/questimg/mekanism/waste_disp.png"
@@ -385,6 +347,12 @@
 			linked_quest: "19BF6BCFC7E63352"
 			x: 29.0d
 			y: 23.0d
+		}
+		{
+			id: "10832E6F4EDECCFC"
+			linked_quest: "03E3F14D60D1C2B1"
+			x: 30.0d
+			y: 24.0d
 		}
 	]
 	quests: [
@@ -939,7 +907,8 @@
 		{
 			dependencies: [
 				"57149BB733AC8A92"
-				"31EA8B6DD3491B6A"
+				"764B3F29C0E5FBF9"
+				"03E3F14D60D1C2B1"
 			]
 			description: ["{quest.meka.150.desc}"]
 			hide_until_deps_visible: true
@@ -990,7 +959,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["31EA8B6DD3491B6A"]
+			dependencies: ["03E3F14D60D1C2B1"]
 			description: ["{quest.meka.147.desc}"]
 			icon: "createdeco:decal_down"
 			id: "6F04404F44DA2821"
@@ -1230,22 +1199,6 @@
 			title: "{quest.meka.fuckiforgotthatquest.title}"
 			x: 35.0d
 			y: 12.0d
-		}
-		{
-			dependencies: [
-				"764B3F29C0E5FBF9"
-				"19BF6BCFC7E63352"
-			]
-			description: ["{quest.meka.76.desc}"]
-			id: "31EA8B6DD3491B6A"
-			tasks: [{
-				id: "36295F7AD9229443"
-				item: "mekanism:solar_neutron_activator"
-				type: "item"
-			}]
-			title: "{quest.meka.76.title}"
-			x: 28.0d
-			y: 24.0d
 		}
 	]
 	title: "Tech 4.5: Uranium Age"

@@ -622,5 +622,13 @@
 	"block.mbd2.arc_furnace_controller" : "Arc Furnace",
 	"block.mbd2.machine_casing_input" : "Machine Casing Input Hatch",
 	"block.mbd2.machine_casing_output" : "Machine Casing Output Hatch",
-	"block.mbd2.machine_casing_energy" : "Machine Casing Energy Hatch"
+	"block.mbd2.machine_casing_energy" : "Machine Casing Energy Hatch",
+	"slurry.mekanism.dirty" : "Dirty Slurry",
+	"slurry.mekanism.clean" : "Clean Slurry",
+	"item.mekanism.crystal" : "Crystal",
+	"item.mekanism.shard" : "Shard",
+	"item.mekanism.clump" : "Clump",
+	"item.mekanism.dirty_dust" : "Dirty Dust",
+	"item.mekanism.dust" : "Dust"
+
 }
