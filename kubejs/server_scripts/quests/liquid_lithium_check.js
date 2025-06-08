@@ -1,6 +1,6 @@
  let liquidLithiumCheck
 BlockEvents.rightClicked(event => {
-liquidLithiumCheck = "" + event.block.entityData.toString()
+liquidLithiumCheck = "" + event.block.entityData
 liquidLithiumCheck = liquidLithiumCheck.includes("FluidName:\u0022mekanism:lithium\u0022")
 })
 

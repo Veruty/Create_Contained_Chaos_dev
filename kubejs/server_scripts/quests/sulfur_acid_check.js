@@ -1,6 +1,6 @@
  let sulfAcidCheck
 BlockEvents.rightClicked(event => {
-sulfAcidCheck = "" + event.block.entityData.toString()
+sulfAcidCheck = "" + event.block.entityData
 sulfAcidCheck = sulfAcidCheck.includes("gasName:\u0022mekanism:sulfuric_acid\u0022")
 })
 

@@ -1,6 +1,6 @@
  let lithiumCheck
 BlockEvents.rightClicked(event => {
-lithiumCheck = "" + event.block.entityData.toString()
+lithiumCheck = "" + event.block.entityData
 lithiumCheck = lithiumCheck.includes("gasName:\u0022mekanism:lithium\u0022")
 })
 

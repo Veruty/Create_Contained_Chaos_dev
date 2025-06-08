@@ -1,6 +1,6 @@
  let hydrogenChlorideCheck
 BlockEvents.rightClicked(event => {
-hydrogenChlorideCheck = "" + event.block.entityData.toString()
+hydrogenChlorideCheck = "" + event.block.entityData
 hydrogenChlorideCheck = hydrogenChlorideCheck.includes("gasName:\u0022mekanism:hydrogen_chloride\u0022")
 })
 

@@ -1,6 +1,6 @@
  let cleanSlurryCheck
 BlockEvents.rightClicked(event => {
-cleanSlurryCheck = "" + event.block.entityData.toString()
+cleanSlurryCheck = "" + event.block.entityData
 cleanSlurryCheck = cleanSlurryCheck.includes("slurryName:\u0022mekanism:clean")
 })
 

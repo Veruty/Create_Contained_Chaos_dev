@@ -1,6 +1,6 @@
  let sulfTrioxCheck
 BlockEvents.rightClicked(event => {
-sulfTrioxCheck = "" + event.block.entityData.toString() 
+sulfTrioxCheck = "" + event.block.entityData
 sulfTrioxCheck = sulfTrioxCheck.includes("gasName:\u0022mekanism:sulfur_trioxide\u0022")
 })
 

@@ -1,6 +1,6 @@
  let dirtySlurryCheck
 BlockEvents.rightClicked(event => {
-dirtySlurryCheck = "" + event.block.entityData.toString()
+dirtySlurryCheck = "" + event.block.entityData
 dirtySlurryCheck = dirtySlurryCheck.includes("slurryName:\u0022mekanism:dirty")
 })
 

@@ -1,6 +1,6 @@
  let brineCheck
 BlockEvents.rightClicked(event => {
-brineCheck = "" + event.block.entityData.toString()
+brineCheck = "" + event.block.entityData
 brineCheck = brineCheck.includes("FluidName:\u0022mekanism:brine\u0022")
 })
 

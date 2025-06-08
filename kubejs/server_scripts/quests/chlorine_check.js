@@ -1,6 +1,6 @@
  let chlorineCheck
 BlockEvents.rightClicked(event => {
-chlorineCheck = "" + event.block.entityData.toString()
+chlorineCheck = "" + event.block.entityData
 chlorineCheck = chlorineCheck.includes("gasName:\u0022mekanism:chlorine\u0022")
 })
 
