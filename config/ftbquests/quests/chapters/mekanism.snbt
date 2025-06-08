@@ -1377,15 +1377,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["item.mekanism.atomic_disassembler"]
-			image: "kubejs:textures/questimg/mekanism/atomic_disassembler.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 18.0d
-			y: -12.5d
-		}
-		{
-			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
@@ -1441,6 +1432,15 @@
 			width: 1.0d
 			x: 17.0d
 			y: -10.5d
+		}
+		{
+			height: 1.0d
+			hover: ["item.mekanism.atomic_disassembler"]
+			image: "kubejs:textures/questimg/mekanism/atomic_disassembler.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: -12.5d
 		}
 	]
 	order_index: 6
