@@ -7,4 +7,5 @@
 \kubejs\assets\kubejs\textures\item\godly_shard_***.png and \kubejs\assets\kubejs\textures\item\redstone_crystal.png | heavily modified copies of crystall texture from Thaumcraft 6
 https://github.com/GregTechCEu/GregTech-Modern/blob/1.20.1/src/main/resources/assets/gtceu/textures/item/material_sets/metallic/dust.png
 https://github.com/GregTechCEu/GregTech-Modern/blob/1.20.1/src/main/resources/assets/gtceu/textures/item/material_sets/metallic/ingot.png
+\kubejs\data\irons_spellbooks\advancements\grant_patchouli.json | thanks https://github.com/MarioSMB for this datapack
 
