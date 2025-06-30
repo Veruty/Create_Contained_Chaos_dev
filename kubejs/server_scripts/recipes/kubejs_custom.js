@@ -88,6 +88,21 @@ ServerEvents.recipes(e => {
 		"energy": 32000
 	})
 	e.custom({"type": "create:sequenced_assembly",
+		"ingredient": {"item": "create:andesite_alloy"},
+		"loops": 1,
+		"results": {"item": "kubejs:simple_mechanism"},
+		"sequence": [{
+			"type": "create:deploying",
+				"ingredients": [
+					{"item": "kubejs:incomplete_simple_mechanism"},
+					{"item": "create:cogwheel"}
+				],
+				"results": [{"item": "kubejs:incomplete_advanced_mechanism"}]
+			},
+	],
+	"transitionalItem": {"item": "kubejs:incomplete_simple_mechanism"}
+	})
+	e.custom({"type": "create:sequenced_assembly",
 		"ingredient": {"tag": "forge:plates/steel"},
 			"loops": 3,
 				"results": [
