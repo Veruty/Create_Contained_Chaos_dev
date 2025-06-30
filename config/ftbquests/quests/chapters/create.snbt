@@ -181,6 +181,7 @@
 			dependencies: ["0E26D8711F2FDDE4"]
 			hide_until_deps_complete: true
 			id: "1B37E08BF781B7C8"
+			subtitle: "look at ponders god damn it"
 			tasks: [{
 				id: "2DC629D2B7791C1E"
 				type: "checkmark"
