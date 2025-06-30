@@ -129,9 +129,6 @@
   "supplementaries": {
     "hat_stand": true
   },
-  "petrolpark": {
-    "contamination": true
-  },
   "waystones": {
     "waystone": true
   },
