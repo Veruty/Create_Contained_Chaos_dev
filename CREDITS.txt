@@ -8,4 +8,5 @@
 https://github.com/GregTechCEu/GregTech-Modern/blob/1.20.1/src/main/resources/assets/gtceu/textures/item/material_sets/metallic/dust.png
 https://github.com/GregTechCEu/GregTech-Modern/blob/1.20.1/src/main/resources/assets/gtceu/textures/item/material_sets/metallic/ingot.png
 \kubejs\data\irons_spellbooks\advancements\grant_patchouli.json | thanks https://github.com/MarioSMB for this datapack
-
+\kubejs\assets\ftbquests\textures\item\book.png | https://github.com/Futureazoo/TextureRepository/blob/master/futureazoo/items/magic/tome_charms.png
+\kubejs\assets\kubejs\textures\block\sturdy_bricks.png | https://github.com/malcolmriley/unused-textures/blob/master/blocks/sturdy_bricks.png
