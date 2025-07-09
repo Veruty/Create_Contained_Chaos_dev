@@ -274,11 +274,6 @@
     "modId": "crashutilities",
     "version": "8.1.4"
   },
-  "Create Thermal Ore Excavation 1.20.1 B.1.0.jar": {
-    "jarName": "Create Thermal Ore Excavation 1.20.1 B.1.0.jar",
-    "modId": "tmtctoe",
-    "version": "1.0.0"
-  },
   "create-1.20.1-6.0.6.jar": {
     "jarName": "create-1.20.1-6.0.6.jar",
     "modId": "create",
@@ -319,10 +314,10 @@
     "modId": "create_enchantment_industry",
     "version": "1.3.3-for-create-6.0.6"
   },
-  "create_furnitures-1.0.9-forge-1.20.1.jar": {
-    "jarName": "create_furnitures-1.0.9-forge-1.20.1.jar",
+  "create_furnitures-1.1.2-forge-1.20.1.jar": {
+    "jarName": "create_furnitures-1.1.2-forge-1.20.1.jar",
     "modId": "create_furnitures",
-    "version": "1.0.9"
+    "version": "1.1.2"
   },
   "create_hypertube-0.2.2-FORGE.jar": {
     "jarName": "create_hypertube-0.2.2-FORGE.jar",
@@ -354,11 +349,6 @@
     "modId": "createdieselgenerators",
     "version": "1.20.1-1.3.2"
   },
-  "createimmersiveunnecessaryshaft-0.2.0.jar": {
-    "jarName": "createimmersiveunnecessaryshaft-0.2.0.jar",
-    "modId": "createimmersiveunnecessaryshaft",
-    "version": "0.2.0"
-  },
   "createoreexcavation-1.20-1.6.4.jar": {
     "jarName": "createoreexcavation-1.20-1.6.4.jar",
     "modId": "createoreexcavation",
@@ -374,10 +364,10 @@
     "modId": "curios",
     "version": "5.14.1+1.20.1"
   },
-  "curvy_pipes-1.20.1-1.10.1.jar": {
-    "jarName": "curvy_pipes-1.20.1-1.10.1.jar",
+  "curvy_pipes-1.20.1-1.11.0.jar": {
+    "jarName": "curvy_pipes-1.20.1-1.11.0.jar",
     "modId": "curvy_pipes",
-    "version": "1.10.1"
+    "version": "1.11.0"
   },
   "CyclopsCore-1.20.1-1.20.1.jar": {
     "jarName": "CyclopsCore-1.20.1-1.20.1.jar",
@@ -438,6 +428,11 @@
     "jarName": "endertanks-forge-1.20.1-1.4.jar",
     "modId": "endertanks",
     "version": "1.20.1-1.4"
+  },
+  "EngineeredSchematics-1.2.3.jar": {
+    "jarName": "EngineeredSchematics-1.2.3.jar",
+    "modId": "engineered_schematics",
+    "version": "1.2.3"
   },
   "Engineers Delight 1.20.1 B.1.4.jar": {
     "jarName": "Engineers Delight 1.20.1 B.1.4.jar",
@@ -559,11 +554,6 @@
     "modId": "immersiveengineering",
     "version": "1.20.1-10.2.0-183"
   },
-  "ImmersiveGeology-0.7.4-b1815.jar": {
-    "jarName": "ImmersiveGeology-0.7.4-b1815.jar",
-    "modId": "immersivegeology",
-    "version": "0.7.4-b1815"
-  },
   "ImmersiveIndustry-1.20.1-0.2.3.jar": {
     "jarName": "ImmersiveIndustry-1.20.1-0.2.3.jar",
     "modId": "immersiveindustry",
@@ -598,21 +588,6 @@
     "jarName": "jei-1.20.1-forge-15.20.0.112.jar",
     "modId": "jei",
     "version": "15.20.0.112"
-  },
-  "jmi-forge-1.20.1-0.14-48.jar": {
-    "jarName": "jmi-forge-1.20.1-0.14-48.jar",
-    "modId": "jmi",
-    "version": "1.20.1-0.14-48"
-  },
-  "journeymap-1.20.1-5.10.3-forge.jar": {
-    "jarName": "journeymap-1.20.1-5.10.3-forge.jar",
-    "modId": "journeymap",
-    "version": "5.10.3"
-  },
-  "JourneyMap-Teams-forge-1.20.1-1.1.1.jar": {
-    "jarName": "JourneyMap-Teams-forge-1.20.1-1.1.1.jar",
-    "modId": "journeymapteams",
-    "version": "1.1.1"
   },
   "JustEnoughBeacons-Forge-1.19+-1.1.2.jar": {
     "jarName": "JustEnoughBeacons-Forge-1.19+-1.1.2.jar",
@@ -757,10 +732,10 @@
     "modId": "modernfix",
     "version": "5.24.1+mc1.20.1"
   },
-  "moonlight-1.20-2.14.11-forge.jar": {
-    "jarName": "moonlight-1.20-2.14.11-forge.jar",
+  "moonlight-1.20-2.14.13-forge.jar": {
+    "jarName": "moonlight-1.20-2.14.13-forge.jar",
     "modId": "moonlight",
-    "version": "1.20-2.14.11"
+    "version": "1.20-2.14.13"
   },
   "MouseTweaks-forge-mc1.20.1-2.25.1.jar": {
     "jarName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
@@ -1091,6 +1066,11 @@
     "jarName": "voicechat-forge-1.20.1-2.5.30.jar",
     "modId": "voicechat",
     "version": "1.20.1-2.5.30"
+  },
+  "watercollector-1.20.1-1.1.0.jar": {
+    "jarName": "watercollector-1.20.1-1.1.0.jar",
+    "modId": "watercollector",
+    "version": "1.0.0"
   },
   "waystones-forge-1.20.1-14.1.13.jar": {
     "jarName": "waystones-forge-1.20.1-14.1.13.jar",
