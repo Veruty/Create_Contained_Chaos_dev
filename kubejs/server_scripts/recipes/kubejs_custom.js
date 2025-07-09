@@ -72,15 +72,6 @@ ServerEvents.recipes(e => {
 	})
 	e.custom({"type": "thermal:smelter",
 		"ingredients": [
-			{"item": "kubejs:redstone_alloy", "count": 1},
-			{"tag": "forge:gems/lapis", "count": 2},
-			{"value": [{"tag": "forge:ingots/tin"},{"tag": "forge:dusts/tin"}],"count": 1},
-		],
-		"result": [{"item": "kubejs:condensed_alloy", "count": 4}],
-		"energy": 32000
-	})
-	e.custom({"type": "thermal:smelter",
-		"ingredients": [
 			{"item": "kubejs:redstone_crystal", "count": 1},
 			{"tag": "forge:nuggets/brass", "count": 1},
 		],
@@ -102,87 +93,5 @@ ServerEvents.recipes(e => {
 	],
 	"transitionalItem": {"item": "kubejs:incomplete_simple_mechanism"}
 	})
-	e.custom({"type": "create:sequenced_assembly",
-		"ingredient": {"tag": "forge:plates/steel"},
-			"loops": 3,
-				"results": [
-					{"chance": 140.0, "item": "kubejs:advanced_mechanism"},
-					{"chance": 8.0, "item": "kubejs:steel_plate"},
-					{"chance": 8.0, "item": "kubejs:steel_ingot"},
-					{"chance": 8.0, "item": "kubejs:redstone_crystal"},
-					{"chance": 5.0, "item": "kubejs:steel_gear"},
-					{"chance": 3.0, "item": "minecraft:iron_ingot"},
-					{"chance": 3.0, "item": "minecraft:redstone"},
-					{"chance": 1.0, "item": "minecraft:compass"}
-				],
-		"sequence": [{
-			"type": "create:deploying",
-				"ingredients": [
-					{"item": "kubejs:incomplete_advanced_mechanism"},
-					{"item": "kubejs:steel_gear"}
-				],
-				"results": [{"item": "kubejs:incomplete_advanced_mechanism"}]
-		},
-		{	
-			"type": "create:deploying",
-				"ingredients": [
-					{"item": "kubejs:incomplete_advanced_mechanism"},
-					{"item": "kubejs:steel_nugget"}
-				],
-				"results": [{"item": "kubejs:incomplete_advanced_mechanism"}]
-		},
-		{
-			"type": "create:pressing",
-				"ingredients": [{"item": "kubejs:incomplete_advanced_mechanism"}],
-				"results": [{"item": "kubejs:incomplete_advanced_mechanism"}]
-		}
-		],
-		"transitionalItem": {"item": "kubejs:incomplete_advanced_mechanism"}
-		})
-	e.custom({"type": "create:sequenced_assembly",
-		"ingredient": {"tag": "forge:plates/invar"},
-			"loops": 2,
-				"results": [
-					{"chance": 140.0, "item": "kubejs:power_management_mechanism"},
-					{"chance": 8.0, "item": "thermal:invar_plate"},
-					{"chance": 8.0, "item": "thermal:invar_ingot"},
-					{"chance": 8.0, "item": "createaddition:copper_wire"},
-					{"chance": 5.0, "item": "create:electron_tube"},
-					{"chance": 3.0, "item": "minecraft:iron_ingot"},
-					{"chance": 3.0, "item": "thermal:rf_coil"},
-					{"chance": 1.0, "item": "minecraft:copper_ingot"}
-				],
-		"sequence": [{
-				"type": "create:deploying",
-				"ingredients": [
-					{"item": "kubejs:incomplete_power_management_mechanism"},
-					{"item": "createaddition:copper_wire"}
-				],
-				"results": [{"item": "kubejs:incomplete_power_management_mechanism"}]
-		},
-		{
-				"type": "create:deploying",
-				"ingredients": [
-					{"item": "kubejs:incomplete_power_management_mechanism"},
-					{"item": "create:electron_tube"}
-				],
-				"results": [{"item": "kubejs:incomplete_power_management_mechanism"}]
-		},
-		{
-				"type": "create:deploying",
-				"ingredients": [
-					{"item": "kubejs:incomplete_power_management_mechanism"},
-					{"item": "thermal:rf_coil"}
-				],
-				"results": [{"item": "kubejs:incomplete_power_management_mechanism"}]
-		},
-		{
-			"type": "create:pressing",
-				"ingredients": [{"item": "kubejs:incomplete_power_management_mechanism"}],
-				"results": [{"item": "kubejs:incomplete_power_management_mechanism"}]
-		}
-		],
-		"transitionalItem": {"item": "kubejs:incomplete_power_management_mechanism"}
-		})
 		e.recipes.create.mixing('4x thermal:bronze_ingot', ['#forge:ingots/tin','3x #forge:ingots/copper']).heated()
 })

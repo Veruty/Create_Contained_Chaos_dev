@@ -126,20 +126,20 @@ ServerEvents.recipes(e => {
         C: '#forge:glass',
         B: 'kubejs:simple_mechanism'
     })
-	e.remove({ id: 'thermal:energy_cell_frame' })
-	e.shaped(
-    Item.of('thermal:energy_cell_frame'),
-    [
-        'ABA',
-        'BCB',
-        'ABA'
-    ],
-    {
-        B: 'kubejs:redstone_crystal',
-        A: 'thermal:invar_ingot',
-        C: 'kubejs:advanced_mechanism'
-    })
-	e.remove({ id: 'thermal:machine_frame' })
+	//e.remove({ id: 'thermal:energy_cell_frame' })
+	//e.shaped(
+    //Item.of('thermal:energy_cell_frame'),
+    //[
+    //    'ABA',
+    //    'BCB',
+    //    'ABA'
+    //],
+    //{
+    //    B: 'kubejs:redstone_crystal',
+    //    A: 'thermal:invar_ingot',
+    //    C: 'kubejs:advanced_mechanism'
+    ///})
+	/*e.remove({ id: 'thermal:machine_frame' })
 	e.shaped('thermal:machine_frame', [
         'BMB',
         'GAG',
@@ -270,14 +270,14 @@ ServerEvents.recipes(e => {
         A: 'thermal:rosin',
         F: 'kubejs:power_management_mechanism',
         D: 'thermal:machine_frame'
-    })
+    }) */
     e.remove({ id: 'thermal:saw_blade' })
 	e.shaped('thermal:saw_blade', [
         'SS ',
         'SCS',
         ' SS'
     ], {
-        S: 'kubejs:steel_ingot',
+        S: 'thermal:steel_ingot',
         C: 'minecraft:copper_ingot'
     })
     e.remove({ id: 'thermal:machine_crafter' })
@@ -293,7 +293,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'thermal:rubber_from_dandelion'})
     e.remove({ id: 'thermal:rubber_from_vine'})
     e.remove({ id: 'thermal:tinker_bench'})
-    e.shaped(
+    /*e.shaped(
     Item.of('thermal:tinker_bench'),
     [
         'AAA',
@@ -303,11 +303,11 @@ ServerEvents.recipes(e => {
     {
         C: 'minecraft:crafting_table',
         D: '#minecraft:planks',
-        A: 'kubejs:steel_ingot',
+        A: 'thermal:steel_ingot',
         B: '#forge:glass',
         E: 'thermal:rf_coil'
     }
-)
+)*/
  e.remove({ id: 'thermal:drill_head' })
 e.shaped(
     Item.of('thermal:drill_head'),
@@ -317,11 +317,11 @@ e.shaped(
         'AAA'
     ],
     {
-        A: 'kubejs:steel_ingot',
+        A: '',
         B: 'minecraft:copper_ingot'
     }
 )
-e.remove({ id: 'thermal:dynamo_lapidary' })
+/*e.remove({ id: 'thermal:dynamo_lapidary' })
 e.shaped(
     Item.of('thermal:dynamo_lapidary'),
     [
@@ -336,7 +336,7 @@ e.shaped(
         D: 'minecraft:diamond',
         A: 'thermal:rf_coil'
     }
-)
+)*/
 e.remove({ id: 'thermal:flux_capacitor' })
 e.shaped(
     Item.of('thermal:flux_capacitor'),
@@ -346,7 +346,7 @@ e.shaped(
         'AAA'
     ],
     {
-        A: 'kubejs:steel_ingot',
+        A: 'thermal:steel_ingot',
         D: 'thermal:sulfur_dust',
         C: 'thermal:lead_plate',
         B: 'thermal:rf_coil'
@@ -363,7 +363,7 @@ e.shaped(
     {
         B: 'minecraft:redstone',
         A: 'create_new_age:magnetite_block',
-        C: 'kubejs:steel_ingot',
+        C: 'thermal:steel_ingot',
         D: 'thermal:rf_coil'
     }
 )

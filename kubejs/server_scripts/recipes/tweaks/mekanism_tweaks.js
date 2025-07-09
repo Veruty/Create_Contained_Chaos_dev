@@ -13,18 +13,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'mekanism:configurator' })
 	event.remove({ id: 'mekanism:dynamic_valve' })
     event.shaped(
-        Item.of('mekanism:basic_logistical_transporter', 8),
-        [
-            '   ',
-            'ABA',
-            '   '
-        ],
-        {
-            A: '#forge:ingots/steel',
-            B: 'minecraft:iron_ingot'
-        }
-    )
-    event.shaped(
         Item.of('mekanism:configurator'),
         [
             ' A ',
@@ -38,16 +26,19 @@ ServerEvents.recipes(event => {
             C: 'thermal:rf_coil'
         }
     )
-    event.shaped(
-        Item.of('mekanism:dynamic_valve', 2),
-        [
-            ' A ',
-            'ABA',
-            ' A '
-        ],
-        {
-            A: 'mekanism:dynamic_tank',
-            B: 'kubejs:advanced_mechanism'
-        }
-    )
+    event.custom({"type": "thermal:smelter",
+		"ingredients": [
+			{"value": [{"tag": "forge:raw_materials/osmium"}, {"tag": "forge:dusts/osmium"}, {"tag": "forge:ores/osmium"}],"count": 1},
+		],
+		"result": [{"item": "mekanism:ingot_osmium", "count": 1}],
+		"energy": 54000
+	})
+	event.remove({ id: 'mekanism:rotary/steam'})
+	event.custom({"type": "mekanism:rotary",
+  "fluidInput": {"amount": 1,"fluid": "mekanism:steam"},
+  "fluidOutput": {"amount": 1,"fluid": "mekanism:steam"},
+  "gasInput": {"amount": 1000,"gas": "mekanism:steam"},
+  "gasOutput": {"amount": 1000  ,"gas": "mekanism:steam"
+}
+  })
 })

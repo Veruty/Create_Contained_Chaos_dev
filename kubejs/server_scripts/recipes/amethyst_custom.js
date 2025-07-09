@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-	e.recipes.create.mixing(Fluid.of('kubejs:liquid_amethyst', 100), ['kubejs:amethyst_dust']).heated()
+	e.recipes.create.mixing(Fluid.of('kubejs:liquid_amethyst', 100), ['minecraft:amethyst_shard']).heated()
 	e.custom({"type": "create:filling",
 	"ingredients": [
 	{"item": "minecraft:iron_nugget"},
@@ -7,19 +7,6 @@ ServerEvents.recipes(e => {
 	 ]
 	  ,
 	"results": [{"item": "kubejs:amethyst_alloy"}]
-	})
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"item": "minecraft:amethyst_shard"}],
-        "results": [{"item": "kubejs:amethyst_dust"}]
-	})	
-	e.custom({"type": "create:crushing",
-	"ingredients": [{"item": "minecraft:amethyst_shard"}],
-        "results": [{"item": "2x kubejs:amethyst_dust"}]
-	})	
-	e.recipes.mekanism.crushing("2x kubejs:amethyst_dust", "minecraft:amethyst_shard")
-	e.custom({"type": "thermal:pulverizer",
-	"ingredients": [{"item": "minecraft:amethyst_shard"}],
-        "results": [{"item": "kubejs:amethyst_dust"}]
 	})
 	e.custom({"type": "thermal:bottler",
 	"ingredients": 
@@ -45,7 +32,7 @@ ServerEvents.recipes(e => {
 	"energy": 72000
 	})
 	e.custom({"type": "thermal:crystallizer",
-		"ingredients": [{"fluid": "minecraft:water","amount": 2000}, {"item": "kubejs:amethyst_dust","amount":2}],
+		"ingredients": [{"fluid": "minecraft:water","amount": 2000}, {"item": "minecraft:amethyst_shard","amount":2}],
 		"result": [{"item": "minecraft:amethyst_shard"}]
 	})
 })
