@@ -1,8 +1,8 @@
 {
-  "fmlloader-1.20.1-47.4.1.jar (modloader)": {
-    "jarName": "fmlloader-1.20.1-47.4.1.jar (modloader)",
+  "fmlloader-1.20.1-47.4.3.jar (modloader)": {
+    "jarName": "fmlloader-1.20.1-47.4.3.jar (modloader)",
     "modId": "forge",
-    "version": "fmlloader-1.20.1-47.4.1.jar"
+    "version": "fmlloader-1.20.1-47.4.3.jar"
   },
   "[1.20.1] SecurityCraft v1.10.0.1.jar": {
     "jarName": "[1.20.1] SecurityCraft v1.10.0.1.jar",
@@ -79,10 +79,10 @@
     "modId": "appmek",
     "version": "1.4.2"
   },
-  "appliedenergistics2-forge-15.4.5.jar": {
-    "jarName": "appliedenergistics2-forge-15.4.5.jar",
+  "appliedenergistics2-forge-15.4.6.jar": {
+    "jarName": "appliedenergistics2-forge-15.4.6.jar",
     "modId": "ae2",
-    "version": "15.4.5"
+    "version": "15.4.6"
   },
   "aquamirae-6.API15.jar": {
     "jarName": "aquamirae-6.API15.jar",
@@ -154,10 +154,10 @@
     "modId": "blockrunner",
     "version": "8.0.4"
   },
-  "blocksyouneed_luna-1.9.1-forge-1.20.1.jar": {
-    "jarName": "blocksyouneed_luna-1.9.1-forge-1.20.1.jar",
+  "blocksyouneed_luna-1.10-forge-1.20.1.jar": {
+    "jarName": "blocksyouneed_luna-1.10-forge-1.20.1.jar",
     "modId": "blocksyouneed_luna",
-    "version": "1.9.1"
+    "version": "1.10"
   },
   "bloodmagic-1.20.1-3.3.3-45.jar": {
     "jarName": "bloodmagic-1.20.1-3.3.3-45.jar",
@@ -264,10 +264,10 @@
     "modId": "craftingrecipeexporter",
     "version": "1.0.2"
   },
-  "CrashAssistant-forge-1.19.2-1.20.1-1.9.9.jar": {
-    "jarName": "CrashAssistant-forge-1.19.2-1.20.1-1.9.9.jar",
+  "CrashAssistant-forge-1.19.2-1.20.1-1.9.11.jar": {
+    "jarName": "CrashAssistant-forge-1.19.2-1.20.1-1.9.11.jar",
     "modId": "crash_assistant",
-    "version": "1.9.9"
+    "version": "1.9.11"
   },
   "crashutilities-8.1.4.jar": {
     "jarName": "crashutilities-8.1.4.jar",
@@ -364,10 +364,10 @@
     "modId": "curios",
     "version": "5.14.1+1.20.1"
   },
-  "curvy_pipes-1.20.1-1.11.0.jar": {
-    "jarName": "curvy_pipes-1.20.1-1.11.0.jar",
+  "curvy_pipes-1.20.1-1.11.2.jar": {
+    "jarName": "curvy_pipes-1.20.1-1.11.2.jar",
     "modId": "curvy_pipes",
-    "version": "1.11.0"
+    "version": "1.11.2"
   },
   "CyclopsCore-1.20.1-1.20.1.jar": {
     "jarName": "CyclopsCore-1.20.1-1.20.1.jar",
@@ -727,10 +727,10 @@
     "modId": "melody",
     "version": "1.0.2"
   },
-  "modernfix-forge-5.24.1+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.24.1+mc1.20.1.jar",
+  "modernfix-forge-5.24.2+mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.24.2+mc1.20.1.jar",
     "modId": "modernfix",
-    "version": "5.24.1+mc1.20.1"
+    "version": "5.24.2+mc1.20.1"
   },
   "moonlight-1.20-2.14.13-forge.jar": {
     "jarName": "moonlight-1.20-2.14.13-forge.jar",
@@ -797,20 +797,10 @@
     "modId": "polymorph",
     "version": "0.49.10+1.20.1"
   },
-  "ponderjs-1.20.1-2.0.6.jar": {
-    "jarName": "ponderjs-1.20.1-2.0.6.jar",
-    "modId": "ponderjs",
-    "version": "2.0.6"
-  },
   "Prism-1.20.1-forge-1.0.5.jar": {
     "jarName": "Prism-1.20.1-forge-1.0.5.jar",
     "modId": "prism",
     "version": "1.0.5"
-  },
-  "probejs-6.0.1-forge.jar": {
-    "jarName": "probejs-6.0.1-forge.jar",
-    "modId": "probejs",
-    "version": "6.0.1"
   },
   "projectile_damage-forge-3.2.2+1.20.1.jar": {
     "jarName": "projectile_damage-forge-3.2.2+1.20.1.jar",
@@ -937,20 +927,20 @@
     "modId": "sliceanddice",
     "version": "3.4.1"
   },
-  "sophisticatedbackpacks-1.20.1-3.23.19.1263.jar": {
-    "jarName": "sophisticatedbackpacks-1.20.1-3.23.19.1263.jar",
+  "sophisticatedbackpacks-1.20.1-3.23.23.1281.jar": {
+    "jarName": "sophisticatedbackpacks-1.20.1-3.23.23.1281.jar",
     "modId": "sophisticatedbackpacks",
-    "version": "3.23.19.1263"
+    "version": "3.23.23.1281"
   },
-  "sophisticatedcore-1.20.1-1.2.71.1022.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.2.71.1022.jar",
+  "sophisticatedcore-1.20.1-1.2.75.1033.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.2.75.1033.jar",
     "modId": "sophisticatedcore",
-    "version": "1.2.71.1022"
+    "version": "1.2.75.1033"
   },
-  "sophisticatedstorage-1.20.1-1.3.53.1189.jar": {
-    "jarName": "sophisticatedstorage-1.20.1-1.3.53.1189.jar",
+  "sophisticatedstorage-1.20.1-1.3.55.1200.jar": {
+    "jarName": "sophisticatedstorage-1.20.1-1.3.55.1200.jar",
     "modId": "sophisticatedstorage",
-    "version": "1.3.53.1189"
+    "version": "1.3.55.1200"
   },
   "sophisticatedstoragecreateintegration-1.20.1-0.1.12.36.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.20.1-0.1.12.36.jar",
@@ -987,10 +977,10 @@
     "modId": "supermartijn642configlib",
     "version": "1.1.8"
   },
-  "supplementaries-1.20-3.1.34.jar": {
-    "jarName": "supplementaries-1.20-3.1.34.jar",
+  "supplementaries-1.20-3.1.36.jar": {
+    "jarName": "supplementaries-1.20-3.1.36.jar",
     "modId": "supplementaries",
-    "version": "1.20-3.1.34"
+    "version": "1.20-3.1.36"
   },
   "TerraBlender-forge-1.20.1-3.0.1.10.jar": {
     "jarName": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
@@ -1047,10 +1037,10 @@
     "modId": "torchmaster",
     "version": "20.1.9"
   },
-  "traveloptics-4.4.0-1.20.1.jar": {
-    "jarName": "traveloptics-4.4.0-1.20.1.jar",
+  "traveloptics-5.0.0-1.20.1.jar": {
+    "jarName": "traveloptics-5.0.0-1.20.1.jar",
     "modId": "traveloptics",
-    "version": "4.4.0-1.20.1"
+    "version": "5.0.0-1.20.1"
   },
   "twilightforest-1.20.1-4.3.2508-universal.jar": {
     "jarName": "twilightforest-1.20.1-4.3.2508-universal.jar",
@@ -1062,15 +1052,10 @@
     "modId": "visualworkbench",
     "version": "8.0.0"
   },
-  "voicechat-forge-1.20.1-2.5.30.jar": {
-    "jarName": "voicechat-forge-1.20.1-2.5.30.jar",
+  "voicechat-forge-1.20.1-2.5.34.jar": {
+    "jarName": "voicechat-forge-1.20.1-2.5.34.jar",
     "modId": "voicechat",
-    "version": "1.20.1-2.5.30"
-  },
-  "watercollector-1.20.1-1.1.0.jar": {
-    "jarName": "watercollector-1.20.1-1.1.0.jar",
-    "modId": "watercollector",
-    "version": "1.0.0"
+    "version": "1.20.1-2.5.34"
   },
   "waystones-forge-1.20.1-14.1.13.jar": {
     "jarName": "waystones-forge-1.20.1-14.1.13.jar",
