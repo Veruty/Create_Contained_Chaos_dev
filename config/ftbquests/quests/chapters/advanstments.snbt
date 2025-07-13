@@ -216,12 +216,181 @@
 			hide_until_deps_complete: true
 			id: "2B1936D93DBECB8F"
 			tasks: [{
-				id: "4B2F2A495BB59352"
-				title: "Advancements"
-				type: "checkmark"
+				elapsedTime: 1L
+				id: "5EFFCC69BD581D83"
+				type: "questsadditions:time"
 			}]
+			title: "Advancements"
 			x: -8.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["10F302095CE22E91"]
+			id: "338DEE15FD74E7B2"
+			tasks: [
+				{
+					id: "359EA4CC8F4DE958"
+					item: "mekanism:module_energy_unit"
+					type: "item"
+				}
+				{
+					id: "107B6B1C829746BE"
+					item: "mekanism:module_color_modulation_unit"
+					type: "item"
+				}
+				{
+					id: "74C763F74EFE469B"
+					item: "mekanism:module_laser_dissipation_unit"
+					type: "item"
+				}
+				{
+					id: "2D306BA618E57749"
+					item: "mekanism:module_radiation_shielding_unit"
+					type: "item"
+				}
+				{
+					id: "4AC69D7A0E7A55E1"
+					item: "mekanism:module_excavation_escalation_unit"
+					type: "item"
+				}
+				{
+					id: "15F5DC8484CB0E57"
+					item: "mekanism:module_attack_amplification_unit"
+					type: "item"
+				}
+				{
+					id: "0192F97F6EE5817D"
+					item: "mekanism:module_farming_unit"
+					type: "item"
+				}
+				{
+					id: "57B431ED1A51D7BC"
+					item: "mekanism:module_shearing_unit"
+					type: "item"
+				}
+				{
+					id: "6E8375D3E6B720EF"
+					item: "mekanism:module_silk_touch_unit"
+					type: "item"
+				}
+				{
+					id: "4CB17FEFA54D7FBA"
+					item: "mekanism:module_fortune_unit"
+					type: "item"
+				}
+				{
+					id: "1CF72F5C5005A097"
+					item: "mekanism:module_blasting_unit"
+					type: "item"
+				}
+				{
+					id: "149FDE9565421A9A"
+					item: "mekanism:module_vein_mining_unit"
+					type: "item"
+				}
+				{
+					id: "461607CDAB46BA22"
+					item: "mekanism:module_electrolytic_breathing_unit"
+					type: "item"
+				}
+				{
+					id: "17F72E8E4AF6556B"
+					item: "mekanism:module_teleportation_unit"
+					type: "item"
+				}
+				{
+					id: "08D77C6ABA91E882"
+					item: "mekanism:module_inhalation_purification_unit"
+					type: "item"
+				}
+				{
+					id: "74AD34FE2384E88E"
+					item: "mekanism:module_vision_enhancement_unit"
+					type: "item"
+				}
+				{
+					id: "24358ADD11D7DE50"
+					item: "mekanism:module_nutritional_injection_unit"
+					type: "item"
+				}
+				{
+					id: "39C680D00B145A3B"
+					item: "mekanism:module_dosimeter_unit"
+					type: "item"
+				}
+				{
+					id: "33F6379AAA7C0FCE"
+					item: "mekanism:module_geiger_unit"
+					type: "item"
+				}
+				{
+					id: "5466EA5D7ED5AC0E"
+					item: "mekanism:module_jetpack_unit"
+					type: "item"
+				}
+				{
+					id: "1EAE3DEB1023C15D"
+					item: "mekanism:module_charge_distribution_unit"
+					type: "item"
+				}
+				{
+					id: "754CB40630226621"
+					item: "mekanism:module_gravitational_modulating_unit"
+					type: "item"
+				}
+				{
+					id: "3A388EA9E1C14BA5"
+					item: "mekanism:module_elytra_unit"
+					type: "item"
+				}
+				{
+					id: "479D488B2DD4D49F"
+					item: "mekanism:module_gyroscopic_stabilization_unit"
+					type: "item"
+				}
+				{
+					id: "4395301D482D240E"
+					item: "mekanism:module_hydrostatic_repulsor_unit"
+					type: "item"
+				}
+				{
+					id: "567219C097489262"
+					item: "mekanism:module_locomotive_boosting_unit"
+					type: "item"
+				}
+				{
+					id: "521310E1FFC4570C"
+					item: "mekanism:module_motorized_servo_unit"
+					type: "item"
+				}
+				{
+					id: "7B37C97D3CF96623"
+					item: "mekanism:module_hydraulic_propulsion_unit"
+					type: "item"
+				}
+				{
+					id: "06D9D3AD9D66EEAB"
+					item: "mekanism:module_magnetic_attraction_unit"
+					type: "item"
+				}
+				{
+					id: "1EFECBE58DA7003C"
+					item: "mekanism:module_frost_walker_unit"
+					type: "item"
+				}
+				{
+					id: "5E0BB9F004C0DDB8"
+					item: "mekanismgenerators:module_solar_recharging_unit"
+					type: "item"
+				}
+				{
+					id: "572005B04170BEC9"
+					item: "mekanismgenerators:module_geothermal_generator_unit"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -1.5d
 		}
 	]
 	title: "Advancements"

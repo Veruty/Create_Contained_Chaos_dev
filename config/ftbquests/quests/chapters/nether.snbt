@@ -20,12 +20,6 @@
 			y: -0.5d
 		}
 		{
-			id: "2C817C0EAB966788"
-			linked_quest: "0411ED0767B20251"
-			x: -2.0d
-			y: -2.5d
-		}
-		{
 			id: "1776511BAD3D40FD"
 			linked_quest: "2836704E36180258"
 			x: -3.0d

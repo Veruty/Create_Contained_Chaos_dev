@@ -11,8 +11,8 @@
 		{
 			id: "2257DA0D233EAEFD"
 			linked_quest: "6E6F52C321CD84BD"
-			x: 4.5d
-			y: -3.0d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			id: "40B0B4154B514A94"
@@ -29,7 +29,7 @@
 		{
 			id: "6BD7ECFAEAEE9E4C"
 			linked_quest: "55A1237E4E373FCA"
-			x: -1.5d
+			x: -3.5d
 			y: -5.0d
 		}
 		{
@@ -57,7 +57,7 @@
 				to_observe: "minecraft:logs"
 				type: "observation"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
@@ -68,24 +68,12 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0E26D8711F2FDDE4"]
 			hide_until_deps_complete: true
-			hide_until_deps_visible: false
-			id: "5FDB30A581409E56"
-			tasks: [{
-				id: "65EC9B8AD13991F0"
-				title: "welcome to exlploration"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["5FDB30A581409E56"]
 			id: "2914EB6824015651"
 			subtitle: "might be buggy, close quests and open again"
 			tasks: [{
@@ -93,7 +81,7 @@
 				id: "07E30949E80929CA"
 				type: "dimension"
 			}]
-			x: -3.5d
+			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -173,30 +161,20 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5FDB30A581409E56"]
+			dependencies: ["2914EB6824015651"]
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			id: "526A77EEB8CB20F6"
 			tasks: [{
-				id: "16950381E40B0619"
-				title: "find it instead"
-				type: "checkmark"
+				id: "278BC181E59B31B3"
+				type: "custom"
 			}]
-			x: -6.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5FDB30A581409E56"]
-			id: "37EBE338226CA2B2"
-			tasks: [{
-				id: "16B588EF6BDC188D"
-				title: "things to explore"
-				type: "checkmark"
-			}]
+			title: "find it instead in a chest"
 			x: -5.5d
-			y: -5.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["37EBE338226CA2B2"]
+			dependencies: ["2914EB6824015651"]
 			icon: "minecraft:budding_amethyst"
 			id: "715945E33F35CF4C"
 			tasks: [{
@@ -206,7 +184,7 @@
 				to_observe: "minecraft:budding_amethyst"
 				type: "observation"
 			}]
-			x: -3.5d
+			x: -5.5d
 			y: -5.0d
 		}
 		{
@@ -248,7 +226,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.5d
 			y: -3.0d
 		}
 		{
@@ -263,7 +241,7 @@
 				item: "minecraft:book"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.5d
 			y: -4.0d
 		}
 		{

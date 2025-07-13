@@ -121,12 +121,6 @@
 			y: -5.5d
 		}
 		{
-			id: "08C2F167C2FB8790"
-			linked_quest: "081F69357DEC5D7B"
-			x: -4.5d
-			y: -2.5d
-		}
-		{
 			id: "057E011A52137399"
 			linked_quest: "000099F56EB2D52B"
 			x: -1.5d
@@ -135,14 +129,38 @@
 		{
 			id: "4E2D521FDFFB6472"
 			linked_quest: "34716F03D4E67B4E"
-			x: 1.5d
-			y: -10.0d
+			x: -6.0d
+			y: -2.5d
 		}
 		{
 			id: "27D171E5F9A6BCD7"
 			linked_quest: "05D2DA6C4AACB4A2"
 			x: 3.0d
 			y: -2.5d
+		}
+		{
+			id: "51132579810069D4"
+			linked_quest: "2B696CA62EB0083F"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "05A4D54C431406B3"
+			linked_quest: "128647FAFC8D7F71"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			id: "576BFFFE3FE3D69A"
+			linked_quest: "2FC88C6AD3272AEF"
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			id: "6FB95AE20BC2025C"
+			linked_quest: "2D2776326FEDAEB3"
+			x: 3.0d
+			y: -8.5d
 		}
 	]
 	quests: [
@@ -580,10 +598,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"081F69357DEC5D7B"
-				"578EED23BE3C1A3E"
-			]
+			dependencies: ["2B696CA62EB0083F"]
 			id: "50EBD65CA8334938"
 			tasks: [{
 				id: "5C7B3DC38AECA292"
@@ -598,10 +613,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"3DD2DDE31C0F289D"
-				"081F69357DEC5D7B"
-			]
+			dependencies: ["2B696CA62EB0083F"]
 			id: "10A8AADE334FF8ED"
 			tasks: [{
 				id: "22C2CC100AA758D4"
@@ -612,8 +624,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["000099F56EB2D52B"]
@@ -627,7 +639,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["3AD3293C7E0AFE5E"]
+			dependencies: [
+				"3AD3293C7E0AFE5E"
+				"2933765446705F2D"
+			]
 			id: "5BC4166217EE3746"
 			tasks: [{
 				id: "78FB43549F90BCEE"
@@ -657,7 +672,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["3AD3293C7E0AFE5E"]
+			dependencies: [
+				"3AD3293C7E0AFE5E"
+				"2933765446705F2D"
+			]
 			id: "45924C04AA899369"
 			tasks: [{
 				id: "53CC9AA8011F9EC1"
@@ -689,8 +707,8 @@
 		{
 			dependencies: [
 				"3410A7C9AAFDDF9D"
-				"081F69357DEC5D7B"
 				"2BB0C5E6BF2353AD"
+				"34716F03D4E67B4E"
 			]
 			id: "7626338EC1AE3DC4"
 			tasks: [{
@@ -702,13 +720,13 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
-				"081F69357DEC5D7B"
 				"47272468310BF7CD"
+				"34716F03D4E67B4E"
 			]
 			id: "27E099B509BC96EA"
 			tasks: [{
@@ -720,11 +738,11 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.0d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["081F69357DEC5D7B"]
+			dependencies: ["2B696CA62EB0083F"]
 			description: ["{quest.meka.64.desc}"]
 			hide_until_deps_visible: false
 			id: "2E5025697AF514D2"
@@ -778,8 +796,8 @@
 				}
 			]
 			title: "{quest.meka.109.title}"
-			x: 0.0d
-			y: -8.5d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1027,8 +1045,8 @@
 				item: "mekanism:geiger_counter"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -8.5d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["34716F03D4E67B4E"]
@@ -1038,8 +1056,8 @@
 				item: "mekanism:dosimeter"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -8.5d
+			x: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
@@ -1095,6 +1113,21 @@
 			}]
 			x: 6.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["34716F03D4E67B4E"]
+			description: ["{quest.meka.141.desc}"]
+			hide_until_deps_visible: true
+			id: "7937800A7D3DDD04"
+			tasks: [{
+				consume_items: false
+				id: "6235364FD4D2E117"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			title: "{quest.meka.141.title}"
+			x: -7.5d
+			y: -2.5d
 		}
 	]
 	title: "Utilities"

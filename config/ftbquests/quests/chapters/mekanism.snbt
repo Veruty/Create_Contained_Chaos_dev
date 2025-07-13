@@ -1443,7 +1443,7 @@
 			y: -12.5d
 		}
 	]
-	order_index: 6
+	order_index: 5
 	quest_links: [
 		{
 			id: "03011F2C97537CE8"
@@ -1454,8 +1454,8 @@
 		{
 			id: "2D3EA9688918ACAC"
 			linked_quest: "0E641878ED919900"
-			x: 2.0d
-			y: 2.5d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			id: "69C5D93CD46214F3"
@@ -1587,8 +1587,8 @@
 		{
 			id: "37574625321A324C"
 			linked_quest: "3D34425A97C15842"
-			x: 27.0d
-			y: -6.5d
+			x: 28.0d
+			y: -7.5d
 		}
 		{
 			id: "1202AC55316F182C"
@@ -1603,12 +1603,6 @@
 			y: 4.5d
 		}
 		{
-			id: "6901227833D5BDE5"
-			linked_quest: "37239C5C536D143B"
-			x: -3.0d
-			y: -6.5d
-		}
-		{
 			id: "6AEC50F826F21099"
 			linked_quest: "3410A7C9AAFDDF9D"
 			x: 16.0d
@@ -1621,16 +1615,22 @@
 			y: -1.5d
 		}
 		{
-			id: "57F91B71E9A9C15E"
-			linked_quest: "70D24C5DEB766FD4"
-			x: 26.0d
-			y: -9.5d
-		}
-		{
 			id: "0A98E52C5A492B77"
 			linked_quest: "5B4D620A582F7AB7"
 			x: -1.0d
 			y: 3.5d
+		}
+		{
+			id: "66768B5CF1D11AB4"
+			linked_quest: "1D98380A445B84AC"
+			x: 29.0d
+			y: 14.5d
+		}
+		{
+			id: "1DA4B2DE88B24E77"
+			linked_quest: "7008601BDEF473A3"
+			x: 2.5d
+			y: 2.5d
 		}
 	]
 	quests: [
@@ -1638,6 +1638,7 @@
 			dependencies: ["14E68D38AA35147C"]
 			description: ["{quest.meka.3.desc}"]
 			id: "479C1BDCAB91242C"
+			size: 1.25d
 			tasks: [{
 				id: "58944330BEE209D2"
 				item: "mekanism:metallurgic_infuser"
@@ -1652,6 +1653,7 @@
 			description: ["{quest.meka.4.desc}"]
 			hide_until_deps_visible: true
 			id: "24CD759A561EB2C6"
+			size: 1.25d
 			tasks: [{
 				id: "34540D220749F1E4"
 				item: "mekanism:alloy_infused"
@@ -1666,6 +1668,7 @@
 			description: ["{quest.meka.7.desc}"]
 			hide_until_deps_visible: true
 			id: "37B06FC941C75A60"
+			size: 1.25d
 			tasks: [{
 				id: "28C80FEB6FF559AB"
 				item: "mekanism:basic_control_circuit"
@@ -1682,6 +1685,7 @@
 			]
 			description: ["{quest.meka.8.desc}"]
 			id: "6DCDEAA1333F7DEE"
+			size: 1.25d
 			tasks: [{
 				id: "25753FC020446755"
 				item: "mekanism:advanced_control_circuit"
@@ -1695,6 +1699,7 @@
 			dependencies: ["24CD759A561EB2C6"]
 			description: ["{quest.meka.5.desc}"]
 			id: "2063D6C58019E165"
+			size: 1.25d
 			tasks: [{
 				id: "2E93414E9C9E8107"
 				item: "mekanism:alloy_reinforced"
@@ -1708,6 +1713,7 @@
 			dependencies: ["2063D6C58019E165"]
 			description: ["{quest.meka.6.desc}"]
 			id: "03524C8291BA941F"
+			size: 1.25d
 			tasks: [{
 				id: "5E74E1F4186B720F"
 				item: "mekanism:alloy_atomic"
@@ -1724,6 +1730,7 @@
 			]
 			description: ["{quest.meka.9.desc}"]
 			id: "0A12FEEA09B6D99B"
+			size: 1.25d
 			tasks: [{
 				id: "3C9C1DBF5D66F8CA"
 				item: "mekanism:elite_control_circuit"
@@ -1740,6 +1747,7 @@
 			]
 			description: ["{quest.meka.10.desc}"]
 			id: "3859C9C6168B9502"
+			size: 1.25d
 			subtitle: "{quest.meka.10.subtitle}"
 			tasks: [{
 				id: "5EF6ABF3DE226731"
@@ -1755,7 +1763,7 @@
 			description: ["{quest.meka.12.desc}"]
 			id: "4882C29ACF76E6CD"
 			shape: "circle"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "53F2773B0A688110"
 				item: "mekanism:steel_casing"
@@ -1836,6 +1844,7 @@
 			description: ["{quest.meka.15.desc}"]
 			hide_until_deps_visible: true
 			id: "08E13E7BE1D8864D"
+			size: 1.5d
 			tasks: [{
 				id: "5DFAA04775AD10A9"
 				item: "mekanism:energy_tablet"
@@ -1850,6 +1859,7 @@
 			description: ["{quest.meka.16.desc}"]
 			hide_until_deps_visible: true
 			id: "45C9D5B3C08D1FFD"
+			size: 1.5d
 			tasks: [{
 				id: "74F3D91912959008"
 				item: "mekanism:basic_energy_cube"
@@ -1903,6 +1913,7 @@
 			description: ["{quest.meka.14.desc}"]
 			hide_until_deps_visible: true
 			id: "16FAA83B048985DD"
+			size: 1.25d
 			tasks: [{
 				id: "5C6B32CABBEC4AF4"
 				item: "mekanism:enrichment_chamber"
@@ -2447,6 +2458,7 @@
 			description: ["{quest.meka.42.desc}"]
 			hide_until_deps_visible: true
 			id: "05D2DA6C4AACB4A2"
+			size: 1.25d
 			tasks: [{
 				id: "5FFB4B1747446B49"
 				item: "mekanism:teleportation_core"
@@ -2895,8 +2907,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.151.title}"
-			x: 28.0d
-			y: -5.5d
+			x: 27.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3410A7C9AAFDDF9D"]
@@ -3043,7 +3055,6 @@
 		}
 		{
 			dependencies: [
-				"37239C5C536D143B"
 				"510AE13EEA10D57A"
 				"13FBC17283BA0E53"
 			]
@@ -3406,7 +3417,6 @@
 		{
 			dependencies: [
 				"2BBF76BF79BA5108"
-				"70D24C5DEB766FD4"
 				"6BD8ADA2F4C73784"
 				"03524C8291BA941F"
 			]
@@ -3522,6 +3532,32 @@
 			x: 0.0d
 			y: 2.5d
 		}
+		{
+			dependencies: ["3859C9C6168B9502"]
+			dependency_requirement: "one_completed"
+			description: ["{quest.meka.141.desc}"]
+			hide_until_deps_visible: true
+			id: "07B9EE65C72C31C5"
+			tasks: [{
+				id: "73796C3838F9A99F"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			title: "{quest.meka.142.title}"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["19BF6BCFC7E63352"]
+			id: "10F302095CE22E91"
+			tasks: [{
+				id: "549D7F2A9F78CD5B"
+				item: "mekanism:module_base"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -5.5d
+		}
 	]
-	title: "Tech 4: Osmium Age"
+	title: "Osmium Age"
 }

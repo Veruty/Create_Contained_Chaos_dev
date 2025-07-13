@@ -9,8 +9,8 @@
 		{
 			id: "1E31F0AF196F9617"
 			linked_quest: "7B196B74898CA9AD"
-			x: -8.5d
-			y: 1.5d
+			x: -7.5d
+			y: -1.5d
 		}
 		{
 			id: "5B4C77838E1831FF"
@@ -21,7 +21,7 @@
 		{
 			id: "06A5A3F0E864EEDD"
 			linked_quest: "0E26D8711F2FDDE4"
-			x: -0.5d
+			x: -2.5d
 			y: -4.5d
 		}
 	]
@@ -33,13 +33,11 @@
 			hide_until_deps_complete: true
 			id: "11993546792DCF90"
 			tasks: [{
-				id: "0F76A4227B1AAE8A"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:air"
-				type: "observation"
+				elapsedTime: 1L
+				id: "58C470BBC8D8F88D"
+				type: "questsadditions:time"
 			}]
-			x: -0.5d
+			x: -2.5d
 			y: -3.0d
 		}
 		{
@@ -49,6 +47,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "6E6F52C321CD84BD"
+			rewards: [{
+				count: 6
+				id: "4F08B2B6C4D7E992"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "414937825231608C"
 				item: "minecraft:copper_ingot"
@@ -61,18 +65,30 @@
 			dependencies: ["11993546792DCF90"]
 			dependency_requirement: "one_completed"
 			id: "6ECF805F53CBBEF2"
+			rewards: [{
+				count: 12
+				id: "5822BA7340EB03B7"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F1F00FB6C665F0D"
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
 			dependency_requirement: "one_completed"
 			id: "1582AF37FFA4377D"
+			rewards: [{
+				count: 12
+				id: "545F3DD617C3BF91"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43B62009CB0B51AD"
 				item: "minecraft:redstone"
@@ -85,6 +101,12 @@
 			dependencies: ["11993546792DCF90"]
 			dependency_requirement: "one_completed"
 			id: "7DEC2438E0FDB776"
+			rewards: [{
+				count: 6
+				id: "6CCC03DA192DF77B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B2775223DF2EA07"
 				item: "minecraft:gold_ingot"
@@ -101,25 +123,37 @@
 			dependency_requirement: "one_completed"
 			id: "0F2000A3828DD2A0"
 			progression_mode: "flexible"
+			rewards: [{
+				count: 6
+				id: "36FDCB99B349536C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EC6CF5C3DDBB3DE"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -0.5d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
 			dependency_requirement: "one_completed"
 			id: "26A6DE1E900CE836"
-			tasks: [{
-				id: "779E93A29A16B062"
+			rewards: [{
+				count: 6
+				id: "65D2B3EE17CE6116"
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			tasks: [{
+				id: "555617D5CD1A7377"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -128,6 +162,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "158426E64B0F7B64"
+			rewards: [{
+				count: 2
+				id: "0AD3F8F5DFD96890"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D2AB2B60F54FB6C"
 				item: "minecraft:diamond"
@@ -143,6 +183,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "55A1237E4E373FCA"
+			rewards: [{
+				count: 4
+				id: "45DF9920E16948DD"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BEA4064F64D67FA"
 				item: "minecraft:amethyst_shard"
@@ -154,12 +200,18 @@
 		{
 			dependencies: ["015431AF0A5996BD"]
 			id: "69AFBCB81781D8C4"
+			rewards: [{
+				count: 12
+				id: "35A3D1F42F17ACD0"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A5BDB25A834C14C"
 				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -170,13 +222,19 @@
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
 			id: "4B09A7791718993F"
+			rewards: [{
+				count: 3
+				id: "114C1D8DFC4BF0AD"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1AE27BDE58EBC7A2"
 				item: "create:rose_quartz"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -185,6 +243,12 @@
 			]
 			icon: "thermal:invar_ingot"
 			id: "13DB6781627E18E8"
+			rewards: [{
+				count: 6
+				id: "13F7B83383A32E69"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "381C64D1EC2373BC"
 				item: "thermal:invar_ingot"
@@ -200,23 +264,49 @@
 			]
 			icon: "thermal:constantan_ingot"
 			id: "6359276B4243403D"
-			tasks: [{
-				id: "32059803B5F965C2"
+			rewards: [{
+				count: 6
+				id: "7F57BB17E99CCD32"
 				item: "thermal:constantan_ingot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			tasks: [{
+				id: "32059803B5F965C2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/constantan"
+					}
+				}
+				title: "Any #forge:ingots/constantan"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
 			id: "4CCDC24B680782FF"
-			tasks: [{
-				id: "072E3A15AB836A86"
+			rewards: [{
+				count: 6
+				id: "5396F6107F92BB0E"
 				item: "thermal:nickel_ingot"
 				type: "item"
 			}]
-			x: 2.5d
+			tasks: [{
+				id: "072E3A15AB836A86"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/nickel"
+					}
+				}
+				title: "Any #forge:ingots/nickel"
+				type: "item"
+			}]
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -231,24 +321,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"799038DEE9B54AF9"
-				"48AC1B81E5CA307C"
-				"55A1237E4E373FCA"
-				"4BCDA1E23D59D3DA"
-			]
-			dependency_requirement: "one_completed"
-			id: "361EEFC55E97AE71"
-			tasks: [{
-				id: "496F8B89096B1BDA"
-				item: "kubejs:amethyst_dust"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["361EEFC55E97AE71"]
+			dependencies: ["55A1237E4E373FCA"]
 			dependency_requirement: "one_completed"
 			id: "33018F2BDE1BE330"
 			tasks: [{
@@ -256,118 +329,18 @@
 				item: "kubejs:amethyst_alloy"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -6.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["0F74D53943A05990"]
-			id: "7E8574386FEA3F80"
-			tasks: [{
-				id: "291A046D2E6B73BC"
-				item: "kubejs:firebrick"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"0E1AD70420CEC1FB"
-				"6D614A8998E84D1A"
-				"169EDDF62E89B6E9"
-				"639ACD905B202B3A"
-			]
-			dependency_requirement: "one_completed"
-			id: "0F74D53943A05990"
-			tasks: [{
-				id: "4586D3180F7BD0CE"
-				item: "kubejs:fireclay"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["11993546792DCF90"]
-			id: "6D614A8998E84D1A"
-			tasks: [{
-				id: "3B6F639152732F33"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6D614A8998E84D1A"]
-			id: "1F28F7860B76CD81"
-			tasks: [{
-				id: "5903F504299C5FCA"
-				item: "minecraft:brick"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"799038DEE9B54AF9"
-				"48AC1B81E5CA307C"
-				"1F28F7860B76CD81"
-				"4BCDA1E23D59D3DA"
-			]
-			dependency_requirement: "one_completed"
-			id: "169EDDF62E89B6E9"
-			tasks: [{
-				id: "156E38BC639AFD85"
-				item: "kubejs:brick_dust"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"0411ED0767B20251"
-				"4BCDA1E23D59D3DA"
-				"799038DEE9B54AF9"
-				"48AC1B81E5CA307C"
-			]
-			dependency_requirement: "one_completed"
-			id: "639ACD905B202B3A"
-			tasks: [{
-				id: "5CBA4EC59F24202F"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:dusts/netherrack"
-					}
-				}
-				type: "item"
-			}]
-			title: "Netherrack Dust"
-			x: 5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"015431AF0A5996BD"
-				"11993546792DCF90"
-			]
-			dependency_requirement: "one_completed"
-			id: "0411ED0767B20251"
-			tasks: [{
-				id: "47EFAB543CBABB43"
-				item: "minecraft:netherrack"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
 			id: "148FC02694DEB3DD"
+			rewards: [{
+				count: 6
+				id: "63D1BC08C4AB4BBE"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C9628D001522182"
 				item: "create:zinc_ingot"
@@ -378,24 +351,46 @@
 		}
 		{
 			dependencies: [
-				"0A78D05E78366074"
-				"26A6DE1E900CE836"
 				"0F2000A3828DD2A0"
+				"2B46651C03FEEBF0"
+				"3B56434268E39A91"
 			]
 			dependency_requirement: "one_completed"
 			id: "2B696CA62EB0083F"
-			tasks: [{
-				id: "4D861E94E8FD90BC"
-				item: "kubejs:steel_ingot"
+			min_required_dependencies: 2
+			rewards: [{
+				count: 6
+				id: "7445B0703F3A1BE5"
+				item: "thermal:steel_ingot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			tasks: [{
+				id: "4D861E94E8FD90BC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["27563C07956A5BCD"]
+			dependencies: ["7008601BDEF473A3"]
+			dependency_requirement: "one_completed"
 			icon: "mekanism:ingot_osmium"
 			id: "14E68D38AA35147C"
+			rewards: [{
+				count: 5
+				id: "6F1F67E77B2FB98E"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			size: 1.0d
 			tasks: [{
 				id: "1082DAE02E1EE092"
 				item: "mekanism:ingot_osmium"
@@ -406,56 +401,49 @@
 		}
 		{
 			dependencies: [
-				"10AF6DCCA93031E6"
-				"6E6F52C321CD84BD"
-				"4CCDC24B680782FF"
-				"7529DEF7AB75801A"
-			]
-			icon: "kubejs:ht_cupronickel_ingot"
-			id: "7169195B7A4DB2E6"
-			tasks: [
-				{
-					id: "2CF925F59E341B04"
-					item: "kubejs:ht_cupronickel_ingot"
-					type: "item"
-				}
-				{
-					id: "4372F1B6DE821EFA"
-					item: "kubejs:ht_cupronickel_dust"
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
 				"2836704E36180258"
 				"7DEC2438E0FDB776"
 			]
 			id: "10AF6DCCA93031E6"
+			rewards: [{
+				count: 2
+				id: "6A1E7AA5069ABC7C"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F90640A7A58DBF9"
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["015431AF0A5996BD"]
 			id: "2836704E36180258"
+			rewards: [{
+				id: "2C50A1AE98D6A80D"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C077D5178EE9CAD"
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.5d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
 			id: "6C8535A4ED77BEC9"
+			rewards: [{
+				count: 6
+				id: "7969BC803FDB47FE"
+				item: "thermal:silver_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "60B277D02DCD6C3F"
 				item: {
@@ -475,6 +463,12 @@
 		{
 			dependencies: ["11993546792DCF90"]
 			id: "7F8F6CB4674626C1"
+			rewards: [{
+				count: 3
+				id: "1594C53030F27CB5"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
 			tasks: [{
 				id: "666F331318B7B30B"
 				item: "minecraft:ender_pearl"
@@ -486,6 +480,12 @@
 		{
 			dependencies: ["11993546792DCF90"]
 			id: "34716F03D4E67B4E"
+			rewards: [{
+				count: 8
+				id: "56F62CCD1705689C"
+				item: "thermal:lead_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "755773058DC5D22B"
 				item: {
@@ -505,6 +505,12 @@
 		{
 			dependencies: ["11993546792DCF90"]
 			id: "79E5B71B36FB83DC"
+			rewards: [{
+				count: 6
+				id: "26179429B5BCE6CC"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EEF5243EB7EDFA5"
 				item: {
@@ -527,6 +533,12 @@
 				"015431AF0A5996BD"
 			]
 			id: "061CA8B8F6F9B574"
+			rewards: [{
+				count: 8
+				id: "175CEE47224BD36B"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FE49C85A4E86F54"
 				item: "minecraft:glowstone_dust"
@@ -543,6 +555,12 @@
 				"3FB70B2734FF2281"
 			]
 			id: "3706B46EC74FA568"
+			rewards: [{
+				count: 6
+				id: "7533E2ECF1D9377A"
+				item: "blocksyouneed_luna:bronze_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "33B1AB133B6C7287"
 				item: {
@@ -566,6 +584,12 @@
 				"7008601BDEF473A3"
 			]
 			id: "49FBA3E87E3985CE"
+			rewards: [{
+				count: 3
+				id: "1FDFEE3F9FBF2589"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A95458B0A5DB98F"
 				item: "thermal:signalum_ingot"
@@ -582,6 +606,12 @@
 				"7008601BDEF473A3"
 			]
 			id: "53A00D68797A26DC"
+			rewards: [{
+				count: 3
+				id: "2D87ADD36858C11E"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C933E62DA798934"
 				item: "thermal:enderium_ingot"
@@ -598,6 +628,12 @@
 				"7008601BDEF473A3"
 			]
 			id: "2D7428D54474BD78"
+			rewards: [{
+				count: 3
+				id: "2EEAAC905E12759C"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B5F614342FBD364"
 				item: "thermal:lumium_ingot"
@@ -612,6 +648,12 @@
 				"6C8535A4ED77BEC9"
 			]
 			id: "2D32F8A06B3EB8C9"
+			rewards: [{
+				count: 6
+				id: "040B0489ED9765CB"
+				item: "thermal:electrum_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C1E60237CD5DE45"
 				item: {
@@ -631,6 +673,12 @@
 		{
 			dependencies: ["11993546792DCF90"]
 			id: "4E6AE903F54A184D"
+			rewards: [{
+				count: 12
+				id: "3E27B8BBF315BCB7"
+				item: "thermal:apatite"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FE4D87F19FD478C"
 				item: "thermal:apatite"
@@ -645,6 +693,12 @@
 				"4E6AE903F54A184D"
 			]
 			id: "07208D775177F39A"
+			rewards: [{
+				count: 16
+				id: "4478FBE6F651D754"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
 			tasks: [{
 				id: "07559C81449CDEDF"
 				item: "thermal:phytogro"
@@ -656,6 +710,12 @@
 		{
 			dependencies: ["11993546792DCF90"]
 			id: "14535D0448341AC4"
+			rewards: [{
+				count: 7
+				id: "778391D905117AA3"
+				item: "thermal:niter"
+				type: "item"
+			}]
 			tasks: [{
 				id: "64D93EEBD6E6447C"
 				item: "thermal:niter"
@@ -663,22 +723,6 @@
 			}]
 			x: -6.5d
 			y: 3.5d
-		}
-		{
-			dependencies: [
-				"7008601BDEF473A3"
-				"6ECF805F53CBBEF2"
-				"453D10B6EDB4F135"
-				"13DB6781627E18E8"
-			]
-			id: "686228F0BAC28CB9"
-			tasks: [{
-				id: "13DEEDC946B94B64"
-				item: "kubejs:condensed_alloy"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -697,17 +741,29 @@
 		{
 			dependencies: ["11993546792DCF90"]
 			id: "44473F3856921C99"
+			rewards: [{
+				count: 7
+				id: "55AEC17DC728CFEF"
+				item: "thermal:sulfur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "719B52DE9981E905"
 				item: "thermal:sulfur"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 3.5d
+			x: -4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
 			id: "3410A7C9AAFDDF9D"
+			rewards: [{
+				count: 8
+				id: "702EC0A91E618C48"
+				item: "thermal:sulfur_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "312E0F972C234942"
 				item: {
@@ -728,20 +784,32 @@
 			description: ["{quest.meka.123.desc}"]
 			hide_until_deps_visible: true
 			id: "3B56434268E39A91"
+			rewards: [{
+				count: 12
+				id: "18E0EB0474BDD7C3"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "71D401C4C53BD7AB"
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
 			title: "{quest.meka.123.title}"
-			x: -7.5d
-			y: 4.5d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
 			description: ["{quest.meka.124.desc}"]
 			hide_until_deps_visible: true
 			id: "77E41E8DAB050A8D"
+			rewards: [{
+				count: 3
+				id: "5AD34B29ABC0C672"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D28F9EB3E767402"
 				item: "minecraft:gunpowder"
@@ -754,6 +822,12 @@
 		{
 			dependencies: ["11993546792DCF90"]
 			id: "15A1D3E46BE50A42"
+			rewards: [{
+				count: 63
+				id: "14B4B7C01FAB50C7"
+				item: "mekanism:salt"
+				type: "item"
+			}]
 			tasks: [{
 				id: "461BE9CBFBBABCFA"
 				item: "mekanism:salt"
@@ -761,6 +835,83 @@
 			}]
 			x: -3.5d
 			y: 4.5d
+		}
+		{
+			dependencies: [
+				"01956B8E7A2E9355"
+				"26A6DE1E900CE836"
+				"3B56434268E39A91"
+			]
+			dependency_requirement: "one_completed"
+			id: "2B46651C03FEEBF0"
+			min_required_dependencies: 1
+			rewards: [{
+				count: 12
+				id: "453C7D1891399457"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3421B8FA2AD900C9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:coal_coke"
+					}
+				}
+				title: "Any #forge:coal_coke"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11993546792DCF90"]
+			description: ["{quest.meka.132.desc}"]
+			hide_until_deps_visible: true
+			id: "0EB161BB955F8CB2"
+			rewards: [{
+				count: 8
+				id: "3DFD7986AF8C2A34"
+				item: "immersiveengineering:ingot_uranium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56590DE3AD270151"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/uranium"
+					}
+				}
+				title: "Any #forge:ingots/uranium"
+				type: "item"
+			}]
+			title: "{quest.meka.132.title}"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11993546792DCF90"]
+			description: ["{quest.meka.131.desc}"]
+			hide_until_deps_visible: true
+			id: "6C69E2C1B5619EEB"
+			rewards: [{
+				count: 8
+				id: "7ABF0F9D74D99317"
+				item: "mekanism:fluorite_gem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10B949D73331C13F"
+				item: "mekanism:fluorite_gem"
+				type: "item"
+			}]
+			title: "{quest.meka.131.title}"
+			x: -6.5d
+			y: 5.5d
 		}
 	]
 	title: "Metalls, Alloys and Other Stuff"

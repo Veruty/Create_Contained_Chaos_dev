@@ -10,14 +10,8 @@
 		{
 			id: "50CF4B8FDBC95B88"
 			linked_quest: "7083FA0AF9A0304C"
-			x: -5.5d
-			y: 2.5d
-		}
-		{
-			id: "70272DF22A1D83F6"
-			linked_quest: "1B37E08BF781B7C8"
 			x: -4.5d
-			y: -2.5d
+			y: 1.5d
 		}
 		{
 			id: "7C21D928FF1722BE"
@@ -55,23 +49,16 @@
 			x: 2.5d
 			y: -1.5d
 		}
-	]
-	quests: [
 		{
-			dependencies: ["1B37E08BF781B7C8"]
-			hide_dependency_lines: true
-			hide_until_deps_visible: true
-			id: "62FEF68951189C4E"
-			tasks: [{
-				id: "0892EDB90C3A308E"
-				title: "Copper Age"
-				type: "checkmark"
-			}]
+			id: "35AC5AEF51007B4D"
+			linked_quest: "6E6F52C321CD84BD"
 			x: -4.5d
 			y: -0.5d
 		}
+	]
+	quests: [
 		{
-			dependencies: ["62FEF68951189C4E"]
+			dependencies: ["6E6F52C321CD84BD"]
 			id: "7A0BDC9A8F3E23A6"
 			tasks: [{
 				id: "42ED0EDB1148E68E"
@@ -82,10 +69,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"62FEF68951189C4E"
-				"7083FA0AF9A0304C"
-			]
+			dependencies: ["7083FA0AF9A0304C"]
 			id: "0CB9D235A331FB22"
 			tasks: [{
 				id: "470B9F1C1592C36D"
@@ -129,8 +113,8 @@
 				item: "create:copper_valve_handle"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.5d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0CB9D235A331FB22"]
@@ -167,8 +151,8 @@
 				type: "item"
 			}]
 			title: "Fluid Tank"
-			x: -7.5d
-			y: 2.5d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7A0BDC9A8F3E23A6"]
@@ -205,8 +189,8 @@
 		}
 		{
 			dependencies: [
-				"62FEF68951189C4E"
 				"6ED2850F351B1E86"
+				"6E6F52C321CD84BD"
 			]
 			id: "0DB71B8F5E9A680A"
 			tasks: [{
@@ -219,8 +203,8 @@
 		}
 		{
 			dependencies: [
-				"62FEF68951189C4E"
 				"6ED2850F351B1E86"
+				"6E6F52C321CD84BD"
 			]
 			id: "7353FEEB491EFD28"
 			tasks: [{
@@ -258,5 +242,5 @@
 			y: 3.5d
 		}
 	]
-	title: "Tech 1.5: Copper Age"
+	title: "Copper Age"
 }

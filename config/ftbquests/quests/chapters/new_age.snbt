@@ -130,12 +130,6 @@
 			hide_until_deps_visible: true
 			icon: "create_new_age:nuclear_fuel"
 			id: "33C653AEA4714144"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3AAB7E6A694536CB"
-				table_id: 418132405775659999L
-				type: "random"
-			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [{

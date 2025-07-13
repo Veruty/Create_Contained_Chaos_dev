@@ -3,39 +3,43 @@
 	default_quest_shape: ""
 	filename: "osmium_age"
 	group: "3C9C2CEF96DB5B0C"
-	icon: "kubejs:condensed_alloy"
+	icon: "thermal:enderium_ingot"
 	id: "4C35D0EBD34E3BD8"
-	order_index: 5
+	order_index: 4
 	quest_links: [
 		{
 			id: "444E1AD6EEFE0281"
 			linked_quest: "49FBA3E87E3985CE"
-			x: -5.0d
-			y: -0.5d
+			size: 1.5d
+			x: -9.0d
+			y: -2.5d
 		}
 		{
 			id: "10A2F3F6024F9B67"
 			linked_quest: "2D7428D54474BD78"
+			size: 1.5d
 			x: -5.0d
 			y: -2.5d
 		}
 		{
 			id: "3805D5F63B9BF07B"
 			linked_quest: "53A00D68797A26DC"
+			size: 1.5d
 			x: -7.0d
 			y: -6.5d
 		}
 		{
 			id: "62F672C16E37AFF8"
 			linked_quest: "2D32F8A06B3EB8C9"
-			x: -7.0d
-			y: 3.5d
+			size: 1.5d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			id: "63FFA1146AF40577"
 			linked_quest: "322DB199F4A45032"
-			x: -1.0d
-			y: -2.5d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			id: "3F17F49325523D30"
@@ -46,44 +50,26 @@
 		{
 			id: "5D282EFC8B4B621F"
 			linked_quest: "5BC6558140FA230A"
-			x: -1.0d
-			y: 2.5d
-		}
-		{
-			id: "5A47E541C6355DC0"
-			linked_quest: "0F08F02B93921796"
-			x: -13.0d
-			y: -0.5d
-		}
-		{
-			id: "1768EC90D01016A7"
-			linked_quest: "453D10B6EDB4F135"
-			x: -10.0d
-			y: 0.5d
-		}
-		{
-			id: "0FB35B4CDAC330D4"
-			linked_quest: "686228F0BAC28CB9"
-			x: -9.0d
-			y: -0.5d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			id: "57111351E28DB7A8"
 			linked_quest: "6C8535A4ED77BEC9"
 			x: -7.0d
-			y: -0.5d
+			y: 2.5d
 		}
 		{
 			id: "1C9A9AC0C3CE57CC"
 			linked_quest: "1582AF37FFA4377D"
-			x: -5.0d
-			y: 1.5d
+			x: -9.0d
+			y: -4.5d
 		}
 		{
 			id: "63E5BCEA2A1427E1"
 			linked_quest: "6E6F52C321CD84BD"
-			x: -6.0d
-			y: 0.5d
+			x: -10.0d
+			y: -3.5d
 		}
 		{
 			id: "10B2B1C8AEE9D831"
@@ -106,66 +92,43 @@
 		{
 			id: "394ED215B2967096"
 			linked_quest: "34716F03D4E67B4E"
-			x: -6.0d
-			y: -7.5d
+			x: -8.0d
+			y: -5.5d
 		}
 		{
 			id: "0E0D4E831C63B3FE"
 			linked_quest: "158426E64B0F7B64"
-			x: -8.0d
-			y: -7.5d
-		}
-		{
-			id: "6F888DCFB0772445"
-			linked_quest: "2A6F014969A34A39"
-			x: -8.0d
-			y: 0.5d
+			x: -9.0d
+			y: -6.5d
 		}
 		{
 			id: "4024B8C9B622337F"
 			linked_quest: "7008601BDEF473A3"
+			size: 1.5d
 			x: -7.0d
 			y: -2.5d
 		}
 		{
-			id: "380F10265932FF44"
-			linked_quest: "6ECF805F53CBBEF2"
-			x: -10.0d
-			y: -1.5d
-		}
-		{
 			id: "1B8C3A66C0EA8AD1"
 			linked_quest: "14E68D38AA35147C"
-			x: -10.0d
-			y: -7.5d
+			size: 1.5d
+			x: -7.0d
+			y: -0.75d
+		}
+		{
+			id: "111BE4E3A8FCE707"
+			linked_quest: "7DEC2438E0FDB776"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "26559CED6B8413E2"
+			linked_quest: "2B696CA62EB0083F"
+			x: -8.0d
+			y: -3.5d
 		}
 	]
 	quests: [
-		{
-			dependencies: ["686228F0BAC28CB9"]
-			id: "02A3DD54FFB5BF8C"
-			tasks: [{
-				id: "7BB36F7C04F79A64"
-				item: "kubejs:condensed_casing"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"0F08F02B93921796"
-				"02A3DD54FFB5BF8C"
-			]
-			id: "192CB3C2EB1ACCAA"
-			tasks: [{
-				id: "4674FA2D366B188C"
-				item: "kubejs:machine_casing"
-				type: "item"
-			}]
-			x: -13.0d
-			y: -2.5d
-		}
 		{
 			dependencies: ["49FBA3E87E3985CE"]
 			id: "464ECEE1CEA70D5D"
@@ -174,8 +137,8 @@
 				item: "thermal:signalum_plate"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -0.5d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2D7428D54474BD78"]
@@ -227,8 +190,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -279,8 +242,8 @@
 				item: "thermal:signalum_gear"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -11.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -288,13 +251,19 @@
 				"2D32F8A06B3EB8C9"
 			]
 			id: "4491DAB17F4A18B0"
+			rewards: [{
+				id: "5CCD5637DF2BBD22"
+				item: "thermal:electrum_block"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				id: "1B8C53C3389AF039"
 				item: "thermal:upgrade_augment_2"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -302,12 +271,18 @@
 				"4491DAB17F4A18B0"
 			]
 			id: "0F70608C6C396A45"
+			rewards: [{
+				id: "12FDDCDF244CE986"
+				item: "thermal:enderium_block"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				id: "76BB7693088E034C"
 				item: "thermal:upgrade_augment_3"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -6.5d
 		}
 		{
@@ -320,138 +295,6 @@
 			}]
 			x: -4.0d
 			y: -1.5d
-		}
-		{
-			dependencies: [
-				"7008601BDEF473A3"
-				"026F6123222B6D73"
-			]
-			id: "7479799253628160"
-			tasks: [{
-				id: "7143DA8E1734FE75"
-				item: "kubejs:ht_ceramic_plate"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["02A3DD54FFB5BF8C"]
-			id: "026F6123222B6D73"
-			tasks: [{
-				id: "7209D8B6F60F9CAB"
-				item: "kubejs:heat_proof_casing"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"586240F13D8D5D4E"
-				"7651DDD095BC027B"
-				"16A8863381BBA3E9"
-				"028313DC074D1EAE"
-				"026F6123222B6D73"
-			]
-			description: [
-				"look in jemi how to build this thing"
-				""
-				"it requires each machine hatch to operate, hatches can be placed in place of any of the machine casing blocks"
-			]
-			icon: "mbd2:arc_furnace_controller"
-			id: "27563C07956A5BCD"
-			size: 2.0d
-			subtitle: "hehe osmium door "
-			tasks: [{
-				id: "1E29F32D6E77D160"
-				title: "Arc Furnace"
-				type: "checkmark"
-			}]
-			x: -10.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["192CB3C2EB1ACCAA"]
-			id: "7651DDD095BC027B"
-			tasks: [{
-				id: "13E0887587D397C2"
-				item: "kubejs:electric_macine_casing"
-				type: "item"
-			}]
-			x: -14.0d
-			y: -5.5d
-		}
-		{
-			dependencies: [
-				"372E74E56DE03D30"
-				"192CB3C2EB1ACCAA"
-			]
-			id: "586240F13D8D5D4E"
-			tasks: [{
-				id: "0FA263BD2D797202"
-				item: "kubejs:graphite_electrodes_machine_casing"
-				type: "item"
-			}]
-			x: -12.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["7008601BDEF473A3"]
-			id: "16A8863381BBA3E9"
-			tasks: [{
-				id: "47113669009BCB63"
-				item: "mbd2:arc_furnace_controller"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["7008601BDEF473A3"]
-			id: "3DCCD65A3DB529CD"
-			tasks: [{
-				id: "5B731C65719F548D"
-				item: "kubejs:graphite_dust"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["3DCCD65A3DB529CD"]
-			id: "372E74E56DE03D30"
-			tasks: [{
-				id: "28CEF912B3A1CF6D"
-				item: "kubejs:graphite_rod"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["192CB3C2EB1ACCAA"]
-			id: "028313DC074D1EAE"
-			tasks: [
-				{
-					id: "733D2F7FF5473558"
-					item: "mbd2:machine_casing_energy"
-					type: "item"
-				}
-				{
-					id: "1FE51F7752D6BDA8"
-					item: "mbd2:machine_casing_output"
-					type: "item"
-				}
-				{
-					id: "328F29D791B09B76"
-					item: "mbd2:machine_casing_input"
-					type: "item"
-				}
-			]
-			title: "Machine Casing Hatches"
-			x: -13.0d
-			y: -4.5d
 		}
 		{
 			dependencies: ["49FBA3E87E3985CE"]
@@ -469,8 +312,8 @@
 				}
 			]
 			title: "Filters"
-			x: -2.0d
-			y: 0.5d
+			x: -10.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4B42E4188B81507A"]
@@ -491,8 +334,8 @@
 				item: "thermal:machine_speed_augment"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 4.5d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3054886B6B5F73AF"]
@@ -502,8 +345,8 @@
 				item: "thermal:machine_cycle_augment"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -11.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["464ECEE1CEA70D5D"]
@@ -513,8 +356,8 @@
 				item: "thermal:dynamo_output_augment"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4B42E4188B81507A"]
@@ -546,8 +389,8 @@
 				item: "thermal:dynamo_throttle_augment"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.5d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3054886B6B5F73AF"]
@@ -557,8 +400,8 @@
 				item: "thermal:potion_amplifier_augment"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.5d
+			x: -11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2D32F8A06B3EB8C9"]
@@ -568,9 +411,60 @@
 				item: "thermal:charge_bench"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4FAA4B88B33F23D1"]
+			id: "593053EB6DBA09F9"
+			tasks: [{
+				id: "4F7D2FC75400458D"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
 			y: 2.5d
 		}
+		{
+			dependencies: ["2D32F8A06B3EB8C9"]
+			id: "6D66B3B2C2C9CF02"
+			tasks: [{
+				id: "7CB13221D36C9C20"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:gears/electrum"
+					}
+				}
+				title: "Any #forge:gears/electrum"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D66B3B2C2C9CF02"]
+			id: "4FAA4B88B33F23D1"
+			tasks: [{
+				id: "12643A3384837282"
+				item: "thermal:energy_cell_frame"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
 	]
-	title: "Tech 3.5: Alloy Age"
+	title: "Alloy Age"
 }

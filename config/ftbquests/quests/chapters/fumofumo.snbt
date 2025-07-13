@@ -22,11 +22,11 @@
 		{
 			dependencies: ["799063E3A36FD472"]
 			hide_dependent_lines: true
+			icon: "kubejs:newreimu_fumo"
 			id: "22ADD8C25369833D"
 			tasks: [{
-				id: "0F8CB91917DB70F9"
-				title: "touhou project fumos"
-				type: "checkmark"
+				id: "1AB8C0A5255B88BB"
+				type: "custom"
 			}]
 			title: "Touhou Project Fumos"
 			x: -3.75d
@@ -38,12 +38,13 @@
 				"2DECD4F84CC0A80F"
 			]
 			hide_dependent_lines: true
+			icon: "kubejs:junycat_fumo"
 			id: "6193117CB7A3D8F7"
 			tasks: [{
-				id: "0306E90463A9106B"
-				title: "Contained Chaos Fumos"
-				type: "checkmark"
+				id: "189703149B7048E4"
+				type: "custom"
 			}]
+			title: "Contained Chaos Fumos"
 			x: 7.25d
 			y: -3.0d
 		}
@@ -344,6 +345,7 @@
 		{
 			dependencies: ["799063E3A36FD472"]
 			description: ["shift right click with fumo in your hand to place it in your head slot (if its empty)"]
+			icon: "minecraft:player_head"
 			id: "21010D39AAC7773E"
 			tasks: [{
 				id: "4BCEAEF10AB90FCA"
@@ -351,7 +353,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["799063E3A36FD472"]
@@ -370,12 +372,13 @@
 				"2DECD4F84CC0A80F"
 			]
 			hide_dependent_lines: true
+			icon: "blahaj:blue_shark"
 			id: "1BF01E3DD0D0175F"
 			tasks: [{
-				id: "35E1AD921DC5058D"
-				title: "Blahaj"
-				type: "checkmark"
+				id: "5FA33467E2698887"
+				type: "custom"
 			}]
+			title: "Blahaj"
 			x: 1.5d
 			y: -7.0d
 		}
@@ -651,6 +654,7 @@
 					type: "item"
 				}
 			]
+			title: "Yarn"
 			x: 9.5d
 			y: -5.0d
 		}

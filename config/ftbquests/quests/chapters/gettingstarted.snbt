@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"Welcome to Contained Chaos, my \"fun little modpack\" that was centered (mostly) around Create (untill some idiot turned it into boneless gregtech)."
+			"Welcome to Contained Chaos, my \"fun little modpack\" that was centered (mostly) around Create (untill some idiot turned it into boneless gregtech)(nevermind)."
 			""
 			"This quest line will guide you through everything you need to know to get started, and you can follow other quest lines to guide you through other parts of this modpack. It is recommended not to skip the questline as a lot of modded stuff is changed."
 			""
@@ -25,7 +25,7 @@
 		id: "0E26D8711F2FDDE4"
 		rewards: [{
 			count: 16
-			id: "649E74E3230FA304"
+			id: "2C9A59B4D7AE4EF9"
 			item: "create:honeyed_apple"
 			type: "item"
 		}]
