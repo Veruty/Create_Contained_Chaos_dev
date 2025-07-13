@@ -1,5 +1,6 @@
 ServerEvents.recipes(e => {
-	e.recipes.create.deploying('minecraft:netherite_ingot', ['minecraft:gold_ingot', 'minecraft:netherite_scrap'])
+	e.recipes.create.deploying('kubejs:half_netherite_ingot', ['minecraft:gold_ingot', 'minecraft:netherite_scrap'])
+    e.shapeless('minecraft:netherite_ingot', ['kubejs:half_netherite_ingot', 'kubejs:half_netherite_ingot'])
 	e.recipes.create.sequenced_assembly([
         'minecraft:netherite_upgrade_smithing_template'
     ], 'minecraft:nether_brick', [
