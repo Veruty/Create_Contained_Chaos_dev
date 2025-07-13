@@ -1,3 +1,4 @@
+let antimatterCheck
 let brineCheck
 let chlorineCheck
 let cleanSlurryCheck
@@ -17,6 +18,8 @@ let sulfTrioxCheck
 let uranHexfluCheck
 let uranOxideCheck
 BlockEvents.rightClicked(event => {
+antimatterCheck = "" + event.block.entityData
+antimatterCheck = antimatterCheck.includes("gasName:\u0022mekanism:antimatter\u0022")
 brineCheck = "" + event.block.entityData
 brineCheck = brineCheck.includes("FluidName:\u0022mekanism:brine\u0022")
 chlorineCheck = "" + event.block.entityData
@@ -56,6 +59,19 @@ uranOxideCheck = uranOxideCheck.includes("gasName:\u0022mekanism:uranium_oxide\u
 })
 
 
+FTBQuestsEvents.customTask('49FBE9A6ADA5A631', event => {
+    event.maxProgress = 1 // Sets the Progress Count.
+
+    event.setCheckTimer(20) // Checks for progress every 1 second (20 ticks).
+    
+    event.setCheck((task, player) => {
+        if(antimatterCheck == null) {return 0}
+        if(antimatterCheck == true) {
+            task.progress++ // Adds progress to the quest.
+            antimatterCheck = false
+        }
+    })
+})
 FTBQuestsEvents.customTask('3990489D29FD69B6', event => {
     event.maxProgress = 1 // Sets the Progress Count.
 
