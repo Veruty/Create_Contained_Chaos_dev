@@ -21,7 +21,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 28.0d
+			x: 27.5d
 			y: 2.0d
 		}
 		{
@@ -43,6 +43,7 @@
 			y: 16.0d
 		}
 		{
+			click: "#3BDD98F8F5C4608B"
 			height: 1.0d
 			hover: ["mekanism.fissle_fuel"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/fissle_fuel.png"
@@ -78,6 +79,7 @@
 			y: 20.0d
 		}
 		{
+			click: "#3290AD3CDB2834BE"
 			height: 1.0d
 			hover: ["gas.mekanism.uranium_hexafluoride"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/uranium_hexaflourite.png"
@@ -113,6 +115,7 @@
 			y: 24.0d
 		}
 		{
+			click: "#10741E4877447DBA"
 			height: 1.0d
 			hover: ["gas.mekanism.uranium_oxide"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/uranium_oxide.png"
@@ -128,15 +131,6 @@
 			width: 1.0d
 			x: 18.0d
 			y: 26.0d
-		}
-		{
-			height: 1.0d
-			hover: ["mekanism.chemical_oxidizer"]
-			image: "kubejs:textures/questimg/mekanism/chemical_oxidizer.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 18.0d
-			y: 27.0d
 		}
 		{
 			height: 1.0d
@@ -181,6 +175,7 @@
 			y: 23.0d
 		}
 		{
+			click: "#1D98380A445B84AC"
 			height: 1.0d
 			hover: ["mekanism.hydrofluoric_acid"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrofluoric_acid.png"
@@ -220,7 +215,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 44.0d
+			x: 45.5d
 			y: 6.0d
 		}
 		{
@@ -228,8 +223,8 @@
 			image: "kubejs:textures/questimg/mekanism/turbine.png"
 			rotation: 0.0d
 			width: 2.6227272727272726d
-			x: 46.0d
-			y: 5.0d
+			x: 47.5d
+			y: 5.5d
 		}
 		{
 			click: "#60872E585150C8D4"
@@ -251,6 +246,7 @@
 			y: 16.0d
 		}
 		{
+			click: "#1D08429A12730A8C"
 			height: 1.0d
 			hover: ["item.mekanism.fluorite_gem"]
 			image: "mekanism:item/fluorite_gem"
@@ -268,6 +264,7 @@
 			y: 22.0d
 		}
 		{
+			click: "#18EAC1D1ADB6E3AE"
 			height: 1.0d
 			hover: ["item.mekanism.ingot_uranium"]
 			image: "mekanism:item/ingot_uranium"
@@ -277,6 +274,7 @@
 			y: 33.0d
 		}
 		{
+			click: "#3C368757BA62EC6A"
 			height: 1.0d
 			hover: ["item.mekanism.yellow_cake_uranium"]
 			image: "mekanism:item/yellow_cake_uranium"
@@ -304,6 +302,7 @@
 			y: 14.0d
 		}
 		{
+			click: "#4A90D76598166235"
 			height: 1.0d
 			hover: ["item.mekanism.reprocessed_fissile_fragment"]
 			image: "mekanism:item/reprocessed_fissile_fragment"
@@ -313,6 +312,7 @@
 			y: 16.0d
 		}
 		{
+			click: "#3B9C52A58DF3D1DA"
 			height: 1.0d
 			hover: ["item.mekanism.pellet_plutonium"]
 			image: "mekanism:item/pellet_plutonium"
@@ -322,6 +322,7 @@
 			y: 16.0d
 		}
 		{
+			click: "#45632A6888E7C456"
 			height: 1.0d
 			hover: ["gas.mekanism.plutonium"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/plutonium.png"
@@ -386,15 +387,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["item.mekanism.dust_fluorite"]
-			image: "mekanism:item/dust_fluorite"
-			rotation: 0.0d
-			width: 1.0d
-			x: 32.0d
-			y: 14.0d
-		}
-		{
-			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
@@ -410,6 +402,7 @@
 			y: 14.0d
 		}
 		{
+			click: "#1D08429A12730A8C"
 			height: 1.0d
 			hover: ["item.mekanism.fluorite_gem"]
 			image: "mekanism:item/fluorite_gem"
@@ -437,6 +430,7 @@
 			y: 14.0d
 		}
 		{
+			click: "#1D08429A12730A8C"
 			height: 1.0d
 			hover: ["item.mekanism.dust_fluorite"]
 			image: "mekanism:item/dust_fluorite"
@@ -454,6 +448,7 @@
 			y: 14.0d
 		}
 		{
+			click: "#70926C93EDAFCF7A"
 			height: 1.0d
 			hover: ["item.mekanism.pellet_polonium"]
 			image: "mekanism:item/pellet_polonium"
@@ -487,6 +482,7 @@
 			y: 15.0d
 		}
 		{
+			click: "#6F8FA16F7D787D5C"
 			height: 1.0d
 			hover: ["gas.mekanism.nuclear_waste"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/nuclear_waste.png"
@@ -506,6 +502,7 @@
 			y: 8.0d
 		}
 		{
+			click: "<ftbq-image>"
 			height: 1.0d
 			hover: ["gas.mekanism.spent_nuclear_waste"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/spent_nuclear_waste.png"
@@ -515,6 +512,7 @@
 			y: 14.0d
 		}
 		{
+			click: "<ftbq-image>"
 			height: 1.0d
 			hover: ["gas.mekanism.spent_nuclear_waste"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/spent_nuclear_waste.png"
@@ -524,6 +522,7 @@
 			y: 14.0d
 		}
 		{
+			click: "<ftbq-image>"
 			height: 1.0d
 			hover: ["gas.mekanism.steam"]
 			image: "mekanism:liquid/steam"
@@ -539,16 +538,6 @@
 			width: 1.0d
 			x: 33.0d
 			y: 8.5d
-		}
-		{
-			color: 1926101
-			height: 1.0d
-			hover: ["minecraft.water"]
-			image: "minecraft:block/water_still"
-			rotation: 0.0d
-			width: 1.0d
-			x: 26.0d
-			y: 6.0d
 		}
 		{
 			height: 1.0d
@@ -577,6 +566,7 @@
 			y: 4.0d
 		}
 		{
+			click: "<ftbq-image>"
 			height: 1.0d
 			hover: ["block.mekanism.steam"]
 			image: "mekanism:liquid/steam"
@@ -610,6 +600,7 @@
 			y: 5.0d
 		}
 		{
+			click: "#304F6368898F0222"
 			height: 1.0d
 			hover: ["block.mekanism.radioactive_waste_barrel"]
 			image: "kubejs:textures/questimg/mekanism/nuclear_waste_barrel.png"
@@ -619,6 +610,7 @@
 			y: 14.0d
 		}
 		{
+			click: "#304F6368898F0222"
 			height: 1.0d
 			hover: ["block.mekanism.radioactive_waste_barrel"]
 			image: "kubejs:textures/questimg/mekanism/nuclear_waste_barrel.png"
@@ -702,7 +694,9 @@
 			y: 10.0d
 		}
 		{
+			click: "#4067138C8953B01F"
 			height: 5.0d
+			hover: ["sps.mekanism.sps"]
 			image: "kubejs:textures/questimg/mekanism/sps.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -754,6 +748,7 @@
 			y: 27.139795918367376d
 		}
 		{
+			click: "#601EAEFED1542BFE"
 			height: 1.0d
 			hover: ["gas.mekanism.antimatter"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/antimatter.png"
@@ -781,6 +776,7 @@
 			y: 30.0d
 		}
 		{
+			click: "#6484427CF4CBAB1F"
 			height: 1.0d
 			hover: ["item.mekanism.pellet_antimatter"]
 			image: "mekanism:item/pellet_antimatter"
@@ -882,6 +878,7 @@
 			y: 10.0d
 		}
 		{
+			click: "<ftbq-image>"
 			height: 4.0d
 			hover: ["boiler.mekanism.thermoelectric_boiler"]
 			image: "kubejs:textures/questimg/mekanism/boiler.png"
@@ -924,6 +921,28 @@
 			y: 10.0d
 		}
 		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["gas.mekanism.superheated_sodium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/superheated_sodium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 34.0d
+			y: 8.5d
+		}
+		{
+			click: "#29F04CE306ED98D4"
+			color: 1926101
+			height: 1.0d
+			hover: ["minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: 6.0d
+		}
+		{
+			click: "#29F04CE306ED98D4"
 			color: 1926101
 			height: 1.0d
 			hover: ["minecraft.water"]
@@ -934,13 +953,24 @@
 			y: 10.0d
 		}
 		{
+			click: "#1D08429A12730A8C"
 			height: 1.0d
-			hover: ["gas.mekanism.superheated_sodium"]
-			image: "kubejs:textures/questimg/mekanism/liqud_gasses/superheated_sodium.png"
+			hover: ["item.mekanism.dust_fluorite"]
+			image: "mekanism:item/dust_fluorite"
 			rotation: 0.0d
 			width: 1.0d
-			x: 34.0d
-			y: 8.5d
+			x: 32.0d
+			y: 14.0d
+		}
+		{
+			click: "#1FB9020CDF615344"
+			height: 1.0d
+			hover: ["mekanism.chemical_oxidizer"]
+			image: "kubejs:textures/questimg/mekanism/chemical_oxidizer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 27.0d
 		}
 	]
 	order_index: 6
@@ -948,7 +978,7 @@
 		{
 			id: "7F4AE40ADD97AE3B"
 			linked_quest: "017D7401B588065C"
-			x: 26.0d
+			x: 25.5d
 			y: 3.0d
 		}
 		{
@@ -966,25 +996,25 @@
 		{
 			id: "4CAEE300360C8E28"
 			linked_quest: "510AE13EEA10D57A"
-			x: 21.0d
+			x: 20.5d
 			y: 4.0d
 		}
 		{
 			id: "18FD11BED5FD168A"
 			linked_quest: "0A12FEEA09B6D99B"
-			x: 24.0d
+			x: 23.5d
 			y: -1.0d
 		}
 		{
 			id: "2632C23A2AF8CD2C"
 			linked_quest: "16FAA83B048985DD"
-			x: 19.0d
+			x: 18.5d
 			y: 2.0d
 		}
 		{
 			id: "0F3E73ADFB202F54"
 			linked_quest: "4882C29ACF76E6CD"
-			x: 19.0d
+			x: 18.5d
 			y: 0.0d
 		}
 		{
@@ -1008,14 +1038,14 @@
 		{
 			id: "4AE358100C7658F9"
 			linked_quest: "26E7BD11970C8F3C"
-			x: 30.0d
-			y: 18.5d
+			x: 32.0d
+			y: 16.5d
 		}
 		{
 			id: "487FF9794DE7AA5F"
 			linked_quest: "128647FAFC8D7F71"
-			x: 29.0d
-			y: 19.5d
+			x: 31.0d
+			y: 17.5d
 		}
 		{
 			id: "77BDB7EA46C186B0"
@@ -1139,7 +1169,7 @@
 				}
 			]
 			title: "{quest.meka.106.title}"
-			x: 23.0d
+			x: 22.5d
 			y: 2.0d
 		}
 		{
@@ -1229,7 +1259,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.103.title}"
-			x: 21.0d
+			x: 20.5d
 			y: 0.0d
 		}
 		{
@@ -1243,7 +1273,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.101.title}"
-			x: 23.0d
+			x: 22.5d
 			y: 4.0d
 		}
 		{
@@ -1261,7 +1291,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.104.title}"
-			x: 23.0d
+			x: 22.5d
 			y: 0.0d
 		}
 		{
@@ -1275,7 +1305,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.105.title}"
-			x: 20.0d
+			x: 19.5d
 			y: 1.0d
 		}
 		{
@@ -1290,7 +1320,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.100.title}"
-			x: 21.0d
+			x: 20.5d
 			y: 2.0d
 		}
 		{
@@ -1304,7 +1334,7 @@
 				type: "item"
 			}]
 			title: "{quest.meka.102.title}"
-			x: 25.0d
+			x: 24.5d
 			y: 0.0d
 		}
 		{
@@ -1318,7 +1348,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.meka.107.title}"
-			x: 27.0d
+			x: 26.5d
 			y: 2.0d
 		}
 		{
@@ -1673,7 +1703,7 @@
 				type: "item"
 			}]
 			x: 26.0d
-			y: 21.5d
+			y: 20.5d
 		}
 		{
 			dependencies: [
@@ -1687,7 +1717,7 @@
 				type: "item"
 			}]
 			x: 28.0d
-			y: 21.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
@@ -1697,7 +1727,7 @@
 				item: "mekanism:laser"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 29.0d
 			y: 18.5d
 		}
 		{
@@ -1912,7 +1942,7 @@
 			]
 			title: "QIO I/O"
 			x: 30.0d
-			y: 22.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["70926C93EDAFCF7A"]

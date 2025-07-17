@@ -192,6 +192,7 @@
 			y: -17.5d
 		}
 		{
+			click: "#6AEC50F826F21099"
 			height: 1.0d
 			hover: ["item.mekanism.dust_sulfur"]
 			image: "mekanism:item/dust_sulfur"
@@ -227,6 +228,7 @@
 			y: 12.5d
 		}
 		{
+			click: "#52795A656E90F398"
 			height: 1.0d
 			hover: ["mekanism.sulfur_dioxide"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfur_dioxide.png"
@@ -294,15 +296,7 @@
 			y: 9.5d
 		}
 		{
-			height: 1.0d
-			hover: ["mekanism.oxygen"]
-			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 22.0d
-			y: 10.5d
-		}
-		{
+			click: "#7BC2ECAB8B22CBFF"
 			height: 1.0d
 			hover: ["mekanism.sulfur_trioxide"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfur_trioxide.png"
@@ -338,6 +332,7 @@
 			y: 9.5d
 		}
 		{
+			click: "#29F04CE306ED98D4"
 			color: 1926101
 			height: 1.0d
 			hover: ["minecraft.water"]
@@ -401,6 +396,7 @@
 			y: 12.5d
 		}
 		{
+			click: "#07B80FF72157DDEC"
 			height: 1.0d
 			hover: ["mekanism.sulfiric_acid"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfuric_acid.png"
@@ -486,6 +482,7 @@
 			y: -7.5d
 		}
 		{
+			click: "<ftbq-image>"
 			height: 1.0d
 			hover: ["gas.mekanism.ethene"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/ethylene.png"
@@ -511,6 +508,7 @@
 			y: -7.5d
 		}
 		{
+			click: "<ftbq-image>"
 			height: 1.0d
 			hover: ["block.mekanism.ethene"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/ethylene.png"
@@ -594,6 +592,7 @@
 			y: -5.5d
 		}
 		{
+			click: "<ftbq-image>"
 			height: 1.0d
 			hover: ["mekanism.oxygen"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
@@ -611,15 +610,7 @@
 			y: 8.5d
 		}
 		{
-			height: 1.0d
-			hover: ["gas.mekanism.hydrogen"]
-			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 20.0d
-			y: 8.5d
-		}
-		{
+			click: "<ftbq-image>"
 			height: 1.0d
 			hover: ["gas.mekanism.hydrogen"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
@@ -709,6 +700,7 @@
 			y: -11.5d
 		}
 		{
+			click: "#1320FCEE195D9D91"
 			height: 1.0d
 			hover: ["slurry.mekanism.dirty"]
 			image: "mekanism:slurry/dirty"
@@ -742,16 +734,6 @@
 			y: 9.5d
 		}
 		{
-			color: 1926101
-			height: 1.0d
-			hover: ["minecraft.water"]
-			image: "minecraft:block/water_still"
-			rotation: 0.0d
-			width: 1.0d
-			x: 28.0d
-			y: 8.5d
-		}
-		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
@@ -768,6 +750,7 @@
 			y: 7.5d
 		}
 		{
+			click: "#4A6AF19B37DBD45C"
 			height: 1.0d
 			hover: ["slurry.mekanism.clean"]
 			image: "mekanism:slurry/clean"
@@ -793,6 +776,7 @@
 			y: 3.5d
 		}
 		{
+			click: "#2156FF005A98CD92"
 			height: 1.0d
 			hover: ["item.mekanism.crystal"]
 			image: "mekanism:item/crystal_osmium"
@@ -818,6 +802,7 @@
 			y: -0.5d
 		}
 		{
+			click: "#2AE328444D00892F"
 			height: 1.0d
 			hover: ["item.mekanism.shard"]
 			image: "mekanism:item/shard_osmium"
@@ -875,6 +860,7 @@
 			y: -12.5d
 		}
 		{
+			click: "#36B6C44B34DF66AC"
 			height: 1.0d
 			hover: ["item.mekanism.clump"]
 			image: "mekanism:item/clump_osmium"
@@ -884,6 +870,7 @@
 			y: -5.5d
 		}
 		{
+			click: "#1CCCAC787EE36BCE"
 			height: 1.0d
 			hover: ["item.mekanism.dirty_dust"]
 			image: "mekanism:item/dirty_dust_osmium"
@@ -893,6 +880,7 @@
 			y: -9.5d
 		}
 		{
+			click: "#66FD815724870C36"
 			height: 1.0d
 			hover: ["item.mekanism.dust"]
 			image: "mekanism:item/dust_osmium"
@@ -910,6 +898,7 @@
 			y: 0.5d
 		}
 		{
+			click: "#1A332CC6CFD92F79"
 			height: 1.0d
 			hover: ["evaporation.mekanism.evaporation_plant"]
 			image: "mekanism:block/thermal_evaporation_controller"
@@ -919,6 +908,7 @@
 			y: 4.5d
 		}
 		{
+			click: "#25DC4A8FAB183E2A"
 			height: 1.0d
 			hover: ["block.mekanism.brine"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/brine.png"
@@ -928,6 +918,7 @@
 			y: 4.5d
 		}
 		{
+			click: "#2B88C4AA15C024DF"
 			height: 1.0d
 			hover: ["item.mekanism.dust_lithium"]
 			image: "mekanism:item/dust_lithium"
@@ -937,6 +928,7 @@
 			y: 10.5d
 		}
 		{
+			click: "#0453C7D5AA35CAAA"
 			height: 1.0d
 			hover: ["gas.mekanism.lithium"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/lithium.png"
@@ -946,6 +938,7 @@
 			y: 6.5d
 		}
 		{
+			click: "#7C5B918C67AE83A3"
 			height: 1.0d
 			hover: ["block.mekanism.lithium"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/lithium.png"
@@ -981,6 +974,7 @@
 			y: 4.5d
 		}
 		{
+			click: "#02AFE459E338D665"
 			height: 1.0d
 			hover: ["gas.mekanism.hydrogen_chloride"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen_chloride.png"
@@ -1024,15 +1018,7 @@
 			y: 1.5d
 		}
 		{
-			height: 1.0d
-			hover: ["gas.mekanism.hydrogen"]
-			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 26.0d
-			y: -1.5d
-		}
-		{
+			click: "#51C57A02C2F76A57"
 			height: 1.0d
 			hover: ["gas.mekanism.chlorine"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/chlorine.png"
@@ -1108,6 +1094,7 @@
 			y: 7.5d
 		}
 		{
+			click: "#60CA950C9ACBAFB4"
 			height: 1.0d
 			hover: ["gas.mekanism.sodium"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sodium.png"
@@ -1115,15 +1102,6 @@
 			width: 1.0d
 			x: 24.0d
 			y: 0.5d
-		}
-		{
-			height: 1.0d
-			hover: ["mekanism.oxygen"]
-			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 28.0d
-			y: -3.5d
 		}
 		{
 			height: 1.0d
@@ -1168,16 +1146,6 @@
 			y: -3.5d
 		}
 		{
-			color: 1926101
-			height: 1.0d
-			hover: ["minecraft.water"]
-			image: "minecraft:block/water_still"
-			rotation: 0.0d
-			width: 1.0d
-			x: 24.0d
-			y: -3.5d
-		}
-		{
 			click: "#1A332CC6CFD92F79"
 			height: 1.0d
 			image: "mekanism:block/thermal_evaporation_controller_on_led"
@@ -1188,6 +1156,7 @@
 			y: 4.5d
 		}
 		{
+			click: "#1A332CC6CFD92F79"
 			height: 1.0d
 			hover: ["evaporation.mekanism.evaporation_plant"]
 			image: "mekanism:block/thermal_evaporation_controller"
@@ -1231,6 +1200,7 @@
 			y: -0.5d
 		}
 		{
+			click: "#24364CFD597A61FA"
 			height: 1.0d
 			hover: ["item.mekanism.salt"]
 			image: "mekanism:item/salt"
@@ -1290,16 +1260,6 @@
 			width: 1.0d
 			x: 18.0d
 			y: -3.5d
-		}
-		{
-			color: 1926101
-			height: 1.0d
-			hover: ["minecraft.water"]
-			image: "minecraft:block/water_still"
-			rotation: 0.0d
-			width: 1.0d
-			x: 18.0d
-			y: -2.5d
 		}
 		{
 			height: 1.0d
@@ -1400,7 +1360,9 @@
 			y: -10.5d
 		}
 		{
+			click: "#5944EBB2CCABE319"
 			height: 1.0d
+			hover: ["Almost Complete Atomic Disassembler"]
 			image: "kubejs:item/almost_complete_atomic_disassembler"
 			rotation: 0.0d
 			width: 1.0d
@@ -1434,6 +1396,7 @@
 			y: -10.5d
 		}
 		{
+			click: "#128647FAFC8D7F71"
 			height: 1.0d
 			hover: ["item.mekanism.atomic_disassembler"]
 			image: "kubejs:textures/questimg/mekanism/atomic_disassembler.png"
@@ -1441,6 +1404,68 @@
 			width: 1.0d
 			x: 18.0d
 			y: -12.5d
+		}
+		{
+			click: "#29F04CE306ED98D4"
+			color: 1926101
+			height: 1.0d
+			hover: ["minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: -3.5d
+		}
+		{
+			click: "#29F04CE306ED98D4"
+			color: 1926101
+			height: 1.0d
+			hover: ["minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["mekanism.oxygen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 10.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["gas.mekanism.hydrogen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 8.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["mekanism.oxygen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: -3.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["gas.mekanism.hydrogen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -1.5d
 		}
 	]
 	order_index: 5
@@ -3281,9 +3306,10 @@
 		}
 		{
 			dependencies: ["25DC4A8FAB183E2A"]
+			icon: "mekanism:chlorine_bucket"
 			id: "51C57A02C2F76A57"
 			tasks: [{
-				icon: "mekanism:chlorine_bucket"
+				icon: "create:brass_hand"
 				id: "4A9D1DC701EA89D0"
 				title: "Right-click any block while Chlorine is inside"
 				type: "custom"
