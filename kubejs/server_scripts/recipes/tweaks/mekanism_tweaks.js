@@ -41,4 +41,21 @@ ServerEvents.recipes(event => {
   "gasOutput": {"amount": 1000  ,"gas": "mekanism:steam"
 }
   })
+  event.custom({
+  "type": "mekanism:combining",
+  "extraInput": {
+    "ingredient": {
+      "item": "mekanism:raw_osmium"
+    }
+  },
+  "mainInput": {
+    "ingredient": {
+      "item": "mekanism:raw_osmium"
+    }
+  },
+  "output": {
+	"count": 2,
+    "item": "mekanism:ingot_osmium"
+  }
+})
 })
