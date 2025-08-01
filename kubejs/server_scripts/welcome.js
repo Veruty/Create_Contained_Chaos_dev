@@ -1,0 +1,4 @@
+PlayerEvents.loggedIn(event => {
+    let player = event.player.name.string
+    event.server.runCommandSilent(`tellraw ${player} ["Welcome to ",{"text":"","extra":[{"text":"C","color":"#FF41A9"},{"text":"o","color":"#F942AF"},{"text":"n","color":"#F243B5"},{"text":"t","color":"#EC44BB"},{"text":"a","color":"#E645C2"},{"text":"i","color":"#E046C8"},{"text":"n","color":"#D947CE"},{"text":"e","color":"#D349D4"},{"text":"d","color":"#CD4ADA"},{"text":" "},{"text":"C","color":"#C04CE6"},{"text":"h","color":"#BA4DED"},{"text":"a","color":"#B44EF3"},{"text":"o","color":"#AD4FF9"},{"text":"s","color":"#A750FF"}]},"! Check for news and updates in offical ",{"text":"Discord","underlined":true,"clickEvent":{"action":"open_url","value":"https://discord.com/invite/5YGUP5wKyn"},"hoverEvent":{"action":"show_text","contents":"Click to open"},"color":"#0066ff"}]`)
+})
