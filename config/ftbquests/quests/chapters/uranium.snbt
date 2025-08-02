@@ -2743,7 +2743,7 @@
 			tasks: [{
 				icon: "create:brass_hand"
 				id: "53501A8E6EFE8143"
-				title: "Right-click any block while Tritium is inside"
+				title: "Right-click any block while Heavy Water is inside"
 				type: "custom"
 			}]
 			title: "Heavy Water"
@@ -2757,7 +2757,7 @@
 			tasks: [{
 				icon: "create:brass_hand"
 				id: "2BC0E42E26595DBB"
-				title: "Right-click any block while Tritium is inside"
+				title: "Right-click any block while Deuterium is inside"
 				type: "custom"
 			}]
 			title: "Deuterium"

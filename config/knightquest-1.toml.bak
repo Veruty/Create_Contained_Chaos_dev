@@ -59,29 +59,9 @@
 	#Range: 1.0 ~ 500.0
 	"Max health for Eld Knight" = 90.0
 
-["Ratman Configuration"]
-	#Range: 1.0 ~ 500.0
-	"Max health for Ratman" = 22.0
-
-["Bad Patch Configuration"]
-	#Range: 1.0 ~ 500.0
-	"Max health for Bad Patch" = 7.0
-
-["EldBomb Configuration"]
-	#Range: 1.0 ~ 500.0
-	"Max health for Eld Bomb" = 7.0
-
-["Fallen Knight Configuration"]
-	#Range: 1.0 ~ 500.0
-	"Max health for Fallen Knight" = 35.0
-
 ["Ghosty Configuration"]
 	#Range: 0.0 ~ 25.0
 	"Ghosty invulnerability radius" = 7.0
-
-["Lizzy Configuration"]
-	#Range: 1.0 ~ 500.0
-	"Max health for Lizzy" = 10.0
 
 ["Gremlin Configuration"]
 	"Can take gold from a player" = true
@@ -227,4 +207,24 @@
 	"Enable Nail weapon abilities" = true
 	"Enable Paladin weapon abilities" = true
 	"Enable Uchigatana weapon abilities" = true
+
+["Ratman Configuration"]
+	#Range: 1.0 ~ 500.0
+	"Max health for Ratman" = 22.0
+
+["Bad Patch Configuration"]
+	#Range: 1.0 ~ 500.0
+	"Max health for Bad Patch" = 7.0
+
+["EldBomb Configuration"]
+	#Range: 1.0 ~ 500.0
+	"Max health for Eld Bomb" = 7.0
+
+["Fallen Knight Configuration"]
+	#Range: 1.0 ~ 500.0
+	"Max health for Fallen Knight" = 35.0
+
+["Lizzy Configuration"]
+	#Range: 1.0 ~ 500.0
+	"Max health for Lizzy" = 10.0
 
