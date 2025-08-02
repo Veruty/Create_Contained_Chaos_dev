@@ -3,8 +3,11 @@ let brineCheck
 let chlorineCheck
 let cleanSlurryCheck
 let dirtySlurryCheck
+let deuteriumCheck
 let fissileFuelCheck
+let fusionFuelCheck
 let hydrofluAcidCheck
+let heavyWaterCheck
 let hydrogenChlorideCheck
 let liquidLithiumCheck
 let lithiumCheck
@@ -15,6 +18,7 @@ let sodiumCheck
 let sulfAcidCheck
 let sulfDioxCheck
 let sulfTrioxCheck
+let tritiumCheck
 let uranHexfluCheck
 let uranOxideCheck
 BlockEvents.rightClicked(event => {
@@ -28,10 +32,16 @@ cleanSlurryCheck = "" + event.block.entityData
 cleanSlurryCheck = cleanSlurryCheck.includes("slurryName:\u0022mekanism:clean")
 dirtySlurryCheck = "" + event.block.entityData
 dirtySlurryCheck = dirtySlurryCheck.includes("slurryName:\u0022mekanism:dirty")
+deuteriumCheck = "" + event.block.entityData
+deuteriumCheck = deuteriumCheck.includes("gasName:\u0022mekanismgenerators:deuterium\u0022")
 fissileFuelCheck = "" + event.block.entityData
 fissileFuelCheck = fissileFuelCheck.includes("gasName:\u0022mekanism:fissile_fuel\u0022")
+fusionFuelCheck = "" + event.block.entityData
+fusionFuelCheck = fusionFuelCheck.includes("gasName:\u0022mekanismgenerators:fusion_fuel\u0022")
 hydrofluAcidCheck = "" + event.block.entityData
 hydrofluAcidCheck = hydrofluAcidCheck.includes("gasName:\u0022mekanism:hydrofluoric_acid\u0022")
+heavyWaterCheck = "" + event.block.entityData
+heavyWaterCheck = heavyWaterCheck.includes("FluidName:\u0022mekanism:heavy_water\u0022")
 hydrogenChlorideCheck = "" + event.block.entityData
 hydrogenChlorideCheck = hydrogenChlorideCheck.includes("gasName:\u0022mekanism:hydrogen_chloride\u0022")
 liquidLithiumCheck = "" + event.block.entityData
@@ -52,6 +62,8 @@ sulfDioxCheck = "" + event.block.entityData
 sulfDioxCheck = sulfDioxCheck.includes("gasName:\u0022mekanism:sulfur_dioxide\u0022")
 sulfTrioxCheck = "" + event.block.entityData
 sulfTrioxCheck = sulfTrioxCheck.includes("gasName:\u0022mekanism:sulfur_trioxide\u0022")
+tritiumCheck = "" + event.block.entityData
+tritiumCheck = tritiumCheck.includes("gasName:\u0022mekanismgenerators:tritium\u0022")
 uranHexfluCheck = "" + event.block.entityData
 uranHexfluCheck = uranHexfluCheck.includes("gasName:\u0022mekanism:uranium_hexafluoride\u0022")
 uranOxideCheck = "" + event.block.entityData
@@ -124,6 +136,19 @@ FTBQuestsEvents.customTask('61C80229A6088D66', event => {
         }
     })
 })
+FTBQuestsEvents.customTask('2BC0E42E26595DBB', event => {
+    event.maxProgress = 1 // Sets the Progress Count.
+
+    event.setCheckTimer(20) // Checks for progress every 1 second (20 ticks).
+    
+    event.setCheck((task, player) => {
+        if(deuteriumCheck == null) {return 0}
+        if(deuteriumCheck == true) {
+            task.progress++ // Adds progress to the quest.
+            deuteriumCheck = false
+        }
+    })
+})
 FTBQuestsEvents.customTask('196C5E0A9724C7E6', event => {
     event.maxProgress = 1 // Sets the Progress Count.
 
@@ -134,6 +159,19 @@ FTBQuestsEvents.customTask('196C5E0A9724C7E6', event => {
         if(fissileFuelCheck == true) {
             task.progress++ // Adds progress to the quest.
             fissileFuelCheck = false
+        }
+    })
+})
+FTBQuestsEvents.customTask('2FDA096C5B14429E', event => {
+    event.maxProgress = 1 // Sets the Progress Count.
+
+    event.setCheckTimer(20) // Checks for progress every 1 second (20 ticks).
+    
+    event.setCheck((task, player) => {
+        if(fusionFuelCheck == null) {return 0}
+        if(fusionFuelCheck == true) {
+            task.progress++ // Adds progress to the quest.
+            fusionFuelCheck = false
         }
     })
 })
@@ -150,7 +188,19 @@ FTBQuestsEvents.customTask('18DB029DCC58EAFD', event => {
         }
     })
 })
+FTBQuestsEvents.customTask('53501A8E6EFE8143', event => {
+    event.maxProgress = 1 // Sets the Progress Count.
 
+    event.setCheckTimer(20) // Checks for progress every 1 second (20 ticks).
+    
+    event.setCheck((task, player) => {
+        if(heavyWaterCheck == null) {return 0}
+        if(heavyWaterCheck == true) {
+            task.progress++ // Adds progress to the quest.
+            heavyWaterCheck = false
+        }
+    })
+})
 FTBQuestsEvents.customTask('7A69667E4DB84182', event => {
     event.maxProgress = 1 // Sets the Progress Count.
 
@@ -278,6 +328,19 @@ FTBQuestsEvents.customTask('040A29662464CD85', event => {
         if(sulfTrioxCheck == true) {
             task.progress++ // Adds progress to the quest.
             sulfTrioxCheck = false
+        }
+    })
+})
+FTBQuestsEvents.customTask('72558BED5CBBED84', event => {
+    event.maxProgress = 1 // Sets the Progress Count.
+
+    event.setCheckTimer(20) // Checks for progress every 1 second (20 ticks).
+    
+    event.setCheck((task, player) => {
+        if(tritiumCheck == null) {return 0}
+        if(tritiumCheck == true) {
+            task.progress++ // Adds progress to the quest.
+            tritiumCheck = false
         }
     })
 })
