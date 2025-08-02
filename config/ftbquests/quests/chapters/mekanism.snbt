@@ -1467,6 +1467,24 @@
 			x: 26.0d
 			y: -1.5d
 		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["config.jade.plugin_mekanism.energy"]
+			image: "mekanism:liquid/energy"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.0d
+			y: 12.5d
+		}
 	]
 	order_index: 5
 	quest_links: [
@@ -1654,7 +1672,7 @@
 		{
 			id: "1DA4B2DE88B24E77"
 			linked_quest: "7008601BDEF473A3"
-			x: 2.5d
+			x: 2.0d
 			y: 2.5d
 		}
 	]
@@ -2113,8 +2131,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.82.title}"
-			x: 6.0d
-			y: -1.5d
+			x: 11.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
@@ -2786,8 +2804,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.85.title}"
-			x: 11.0d
-			y: -2.5d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["16FAA83B048985DD"]
@@ -3475,7 +3493,7 @@
 				item: "mekanism:dye_base"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 4.5d
 		}
 		{
@@ -3490,7 +3508,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
@@ -3583,6 +3601,39 @@
 			}]
 			x: 28.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["75BA8DAE253D5BAF"]
+			id: "024932A6C70924F6"
+			tasks: [{
+				id: "35BBD360A5D24C7A"
+				item: "mekanism:upgrade_stone_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6A546B3E93E58AC8"]
+			id: "5A4CFE4FD8D50B72"
+			tasks: [{
+				id: "73CCF6C551E06726"
+				item: "mekanism:fluidic_plenisher"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			id: "78F25CE7798979EC"
+			tasks: [{
+				id: "5D49EC4366ACC789"
+				item: "mekanism:fuelwood_heater"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
 		}
 	]
 	title: "Osmium Age"

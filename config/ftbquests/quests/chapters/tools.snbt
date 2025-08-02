@@ -765,8 +765,8 @@
 				type: "item"
 			}]
 			title: "{quest.meka.90.title}"
-			x: -4.5d
-			y: -8.5d
+			x: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["34716F03D4E67B4E"]
@@ -1128,6 +1128,50 @@
 			title: "{quest.meka.141.title}"
 			x: -7.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["37B06FC941C75A60"]
+			id: "77EB0C8EC4CBCEBC"
+			tasks: [{
+				id: "535D85889E12F9F7"
+				item: "mekanism:basic_bin"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["77EB0C8EC4CBCEBC"]
+			id: "66EB4B4B33380BFC"
+			tasks: [{
+				id: "15CD7CE90ABA17D3"
+				item: "mekanism:advanced_bin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["66EB4B4B33380BFC"]
+			id: "6E3B013A4B5F2A5B"
+			tasks: [{
+				id: "4B75742ABDE36949"
+				item: "mekanism:elite_bin"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6E3B013A4B5F2A5B"]
+			id: "2407F59D7753B0DA"
+			tasks: [{
+				id: "5C5D7CDBDF025116"
+				item: "mekanism:ultimate_bin"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
 		}
 	]
 	title: "Utilities"

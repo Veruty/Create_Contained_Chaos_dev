@@ -25,7 +25,9 @@
 			y: 2.0d
 		}
 		{
+			click: "<ftbq-image>"
 			height: 8.0d
+			hover: ["fission.mekanismgenerators.fission_reactor"]
 			image: "kubejs:textures/questimg/mekanism/small_nuclear_reactor.png"
 			rotation: 0.0d
 			width: 3.6943521594684388d
@@ -972,6 +974,320 @@
 			x: 18.0d
 			y: 27.0d
 		}
+		{
+			height: 4.7d
+			image: "kubejs:textures/questimg/mekanism/fusion.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 44.5d
+			y: 17.0d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["config.jade.plugin_mekanism.energy"]
+			image: "mekanism:liquid/energy"
+			rotation: 0.0d
+			width: 1.0d
+			x: 50.5d
+			y: 6.0d
+		}
+		{
+			height: 1.1d
+			image: "kubejs:textures/questimg/mekanism/laser_amp.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 41.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 44.5d
+			y: 19.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 49.5d
+			y: 6.0d
+		}
+		{
+			click: "#29F04CE306ED98D4"
+			color: 1926101
+			height: 1.0d
+			hover: ["minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 43.5d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 43.5d
+			y: 14.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 45.5d
+			y: 14.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["gas.mekanism.steam"]
+			image: "mekanism:liquid/steam"
+			rotation: 0.0d
+			width: 1.0d
+			x: 45.5d
+			y: 13.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["config.jade.plugin_mekanism.energy"]
+			image: "mekanism:liquid/energy"
+			rotation: 0.0d
+			width: 1.0d
+			x: 41.0d
+			y: 17.0d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["OR"]
+			image: "fancymenu:textures/contextmenu/icons/arrow_vertical.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 48.0d
+			y: 16.5d
+		}
+		{
+			click: "#759171FDCBE90927"
+			height: 1.0d
+			hover: ["gas.mekanismgenerators.fusion_fuel"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/dt_fuel.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 48.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 47.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 42.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 47.0d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 47.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 49.0d
+			y: 15.5d
+		}
+		{
+			click: "#29F44E9995CA5B56"
+			height: 1.0d
+			hover: ["gas.mekanismgenerators.tritium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/tritium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 50.0d
+			y: 13.5d
+		}
+		{
+			click: "#59EA4D9F875D7D03"
+			height: 1.0d
+			hover: ["mekanism.chemical_infuser"]
+			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
+			rotation: 0.0d
+			width: 1.005128205128205d
+			x: 50.0d
+			y: 15.5d
+		}
+		{
+			click: "#417DA7A05E8691B2"
+			height: 1.0d
+			hover: ["gas.mekanismgenerators.deuterium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/deuterium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 52.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 51.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 50.0d
+			y: 14.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 52.0d
+			y: 11.5d
+		}
+		{
+			click: "#0453C7D5AA35CAAA"
+			height: 1.0d
+			hover: ["gas.mekanism.lithium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/lithium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 52.0d
+			y: 10.5d
+		}
+		{
+			click: "#03E3F14D60D1C2B1"
+			height: 2.0d
+			hover: ["block.mekanism.solar_neutron_activator"]
+			image: "kubejs:textures/questimg/mekanism/solar_neutron_activator.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 52.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 51.0d
+			y: 13.5d
+		}
+		{
+			click: "#0FD3A26A0ECE27E5"
+			height: 1.0d
+			hover: ["mekanism.electrolytic_separator"]
+			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 54.0d
+			y: 15.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["mekanism.oxygen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 54.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 53.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 54.0d
+			y: 14.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 54.0d
+			y: 16.5d
+		}
+		{
+			click: "#30BBFC85B25DC92F"
+			color: 1183318
+			height: 1.0d
+			hover: ["block.mekanism.heavy_water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 54.0d
+			y: 17.5d
+		}
+		{
+			click: "#29F44E9995CA5B56"
+			height: 1.0d
+			hover: ["gas.mekanismgenerators.tritium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/tritium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 48.0d
+			y: 17.5d
+		}
+		{
+			click: "#417DA7A05E8691B2"
+			height: 1.0d
+			hover: ["gas.mekanismgenerators.deuterium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/deuterium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 48.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 42.0d
+			y: 15.5d
+		}
 	]
 	order_index: 6
 	quest_links: [
@@ -1052,6 +1368,30 @@
 			linked_quest: "10F302095CE22E91"
 			x: 39.0d
 			y: 32.0d
+		}
+		{
+			id: "42BC4E21F8A6A7F9"
+			linked_quest: "4F91D4334D58E25B"
+			x: 41.0d
+			y: 18.0d
+		}
+		{
+			id: "701A380582E3AA69"
+			linked_quest: "0453C7D5AA35CAAA"
+			x: 51.0d
+			y: 10.5d
+		}
+		{
+			id: "16BF22A7767A0AA5"
+			linked_quest: "1DABC7B3C0706F1F"
+			x: 55.0d
+			y: 18.5d
+		}
+		{
+			id: "13E2277706B7A7B5"
+			linked_quest: "29F04CE306ED98D4"
+			x: 54.0d
+			y: 19.5d
 		}
 	]
 	quests: [
@@ -1788,7 +2128,7 @@
 				item: "mekanismgenerators:fusion_reactor_frame"
 				type: "item"
 			}]
-			x: 45.5d
+			x: 44.5d
 			y: 20.5d
 		}
 		{
@@ -2315,6 +2655,150 @@
 			}]
 			x: 39.0d
 			y: 25.5d
+		}
+		{
+			dependencies: ["27D92762D1BEB1B3"]
+			id: "60D1279DD1EF92FA"
+			tasks: [{
+				id: "24939383FA595D9A"
+				item: "mekanismgenerators:fusion_reactor_controller"
+				type: "item"
+			}]
+			x: 45.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["27D92762D1BEB1B3"]
+			id: "42EC3E8546FE3EC5"
+			tasks: [{
+				id: "11E04C0B232B0C78"
+				item: "mekanismgenerators:fusion_reactor_port"
+				type: "item"
+			}]
+			x: 46.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["27D92762D1BEB1B3"]
+			id: "40A6A85D3CAB6A00"
+			tasks: [{
+				id: "5A1ED6CF9A7259F9"
+				item: "mekanismgenerators:fusion_reactor_logic_adapter"
+				type: "item"
+			}]
+			x: 43.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7776B4E09E926234"]
+			hide_dependency_lines: true
+			id: "710478AD232E1EBB"
+			tasks: [{
+				id: "613711BF0C834128"
+				item: "mekanismgenerators:laser_focus_matrix"
+				type: "item"
+			}]
+			x: 44.5d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"29F44E9995CA5B56"
+				"417DA7A05E8691B2"
+			]
+			icon: "mekanismgenerators:fusion_fuel_bucket"
+			id: "759171FDCBE90927"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "2FDA096C5B14429E"
+				title: "Right-click any block while D-T Fuel is inside"
+				type: "custom"
+			}]
+			title: "D-T Fuel"
+			x: 48.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0453C7D5AA35CAAA"]
+			icon: "mekanismgenerators:tritium_bucket"
+			id: "29F44E9995CA5B56"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "72558BED5CBBED84"
+				title: "Right-click any block while Tritium is inside"
+				type: "custom"
+			}]
+			title: "Tritium"
+			x: 49.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1DABC7B3C0706F1F"
+				"29F04CE306ED98D4"
+			]
+			description: ["10 mB of Heavy Water can be extracted from a water source block via an electric pump with a filter upgrade installed."]
+			icon: "mekanism:heavy_water_bucket"
+			id: "30BBFC85B25DC92F"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "53501A8E6EFE8143"
+				title: "Right-click any block while Tritium is inside"
+				type: "custom"
+			}]
+			title: "Heavy Water"
+			x: 53.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["30BBFC85B25DC92F"]
+			icon: "mekanismgenerators:deuterium_bucket"
+			id: "417DA7A05E8691B2"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "2BC0E42E26595DBB"
+				title: "Right-click any block while Tritium is inside"
+				type: "custom"
+			}]
+			title: "Deuterium"
+			x: 53.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["58E63508AB6B0288"]
+			id: "01F62F7347153B19"
+			tasks: [{
+				id: "34E5B706C85517D6"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 41.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["479C1BDCAB91242C"]
+			id: "58E63508AB6B0288"
+			tasks: [{
+				id: "34AC6E9A46660FEA"
+				item: "mekanismgenerators:hohlraum"
+				type: "item"
+			}]
+			x: 41.0d
+			y: 13.5d
 		}
 	]
 	title: "Uranium Age"
