@@ -367,4 +367,20 @@ ItemEvents.tooltip(event => {
       text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
     }
   })
+      event.addAdvanced('kubejs:lucasskittles_fumo', (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, [Text.of('[Shift]').gray()])
+    } else {
+      text.add(1, Text.gray('Original: Lucasskittles'))
+      text.add(2, Text.gray('Model: KosherKomeiji, Veruty, THESUACE'))
+    }
+  }) 
+        event.addAdvanced('kubejs:leevee123_fumo', (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, [Text.of('[Shift]').gray()])
+    } else {
+      text.add(1, Text.gray('Original: leevee123'))
+      text.add(2, Text.gray('Model: KosherKomeiji, Veruty, THESUACE'))
+    }
+  }) 
 })
