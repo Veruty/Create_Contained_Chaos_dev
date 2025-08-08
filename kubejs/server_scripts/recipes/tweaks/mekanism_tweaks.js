@@ -11,7 +11,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'thermal:compat/mekanism/smelter_mek_osmium_ore' })
 	event.remove({ id: 'mekanism:transmitter/logistical_transporter/basic' })
 	event.remove({ id: 'mekanism:configurator' })
-	event.remove({ id: 'mekanism:dynamic_valve' })
     event.shaped(
         Item.of('mekanism:configurator'),
         [
@@ -31,7 +30,7 @@ ServerEvents.recipes(event => {
 			{"value": [{"tag": "forge:raw_materials/osmium"}, {"tag": "forge:dusts/osmium"}, {"tag": "forge:ores/osmium"}],"count": 1},
 		],
 		"result": [{"item": "mekanism:ingot_osmium", "count": 1}],
-		"energy": 54000
+		"energy": 27000
 	})
 	event.remove({ id: 'mekanism:rotary/steam'})
 	event.custom({"type": "mekanism:rotary",
