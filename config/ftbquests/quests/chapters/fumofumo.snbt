@@ -21,12 +21,17 @@
 		}
 		{
 			dependencies: ["799063E3A36FD472"]
+			disable_toast: true
 			hide_dependent_lines: true
 			icon: "kubejs:newreimu_fumo"
 			id: "22ADD8C25369833D"
 			tasks: [{
-				id: "1AB8C0A5255B88BB"
-				type: "custom"
+				disable_toast: true
+				elapsedTime: 1L
+				gameTime: "system"
+				id: "6A57C10231A54024"
+				secret: true
+				type: "questsadditions:time"
 			}]
 			title: "Touhou Project Fumos"
 			x: -3.75d
@@ -37,12 +42,16 @@
 				"799063E3A36FD472"
 				"2DECD4F84CC0A80F"
 			]
+			disable_toast: true
 			hide_dependent_lines: true
 			icon: "kubejs:junycat_fumo"
 			id: "6193117CB7A3D8F7"
 			tasks: [{
-				id: "189703149B7048E4"
-				type: "custom"
+				disable_toast: true
+				elapsedTime: 1L
+				id: "1B5BE744BE5F0BA6"
+				secret: true
+				type: "questsadditions:time"
 			}]
 			title: "Contained Chaos Fumos"
 			x: 7.25d
@@ -371,12 +380,17 @@
 				"799063E3A36FD472"
 				"2DECD4F84CC0A80F"
 			]
+			disable_toast: true
 			hide_dependent_lines: true
 			icon: "blahaj:blue_shark"
 			id: "1BF01E3DD0D0175F"
 			tasks: [{
-				id: "5FA33467E2698887"
-				type: "custom"
+				disable_toast: true
+				elapsedTime: 1L
+				gameTime: "system"
+				id: "565C27C614DC98A1"
+				secret: true
+				type: "questsadditions:time"
 			}]
 			title: "Blahaj"
 			x: 1.5d
@@ -456,8 +470,8 @@
 				item: "kubejs:zalkat_fumo"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: 2.714285714285701d
+			y: -1.5535714285714235d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -467,8 +481,8 @@
 				item: "kubejs:thesauce_fumo"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 4.214285714285701d
+			y: -1.5535714285714235d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -478,8 +492,8 @@
 				item: "kubejs:veruty_fumo"
 				type: "item"
 			}]
-			x: 7.25d
-			y: 0.0d
+			x: 6.464285714285701d
+			y: -0.053571428571423496d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -489,8 +503,8 @@
 				item: "kubejs:blockypanda83_fumo"
 				type: "item"
 			}]
-			x: 10.25d
-			y: 0.0d
+			x: 9.464285714285701d
+			y: -0.053571428571423496d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -500,8 +514,8 @@
 				item: "kubejs:chaoscorporation_fumo"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -1.5d
+			x: 8.714285714285701d
+			y: -1.5535714285714235d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -511,8 +525,8 @@
 				item: "kubejs:junycat_fumo"
 				type: "item"
 			}]
-			x: 4.25d
-			y: 0.0d
+			x: 3.464285714285701d
+			y: -0.053571428571423496d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -522,8 +536,8 @@
 				item: "kubejs:lavender_bunnies_fumo"
 				type: "item"
 			}]
-			x: 5.75d
-			y: 0.0d
+			x: 4.964285714285701d
+			y: -0.053571428571423496d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -533,8 +547,8 @@
 				item: "kubejs:lordshadowlight_fumo"
 				type: "item"
 			}]
-			x: 8.75d
-			y: 0.0d
+			x: 7.964285714285701d
+			y: -0.053571428571423496d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -544,8 +558,8 @@
 				item: "kubejs:spar117maschief_fumo"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			x: 5.714285714285701d
+			y: -1.5535714285714235d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -555,8 +569,8 @@
 				item: "kubejs:m3chanicb_fumo"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.5d
+			x: 10.214285714285701d
+			y: -1.5535714285714235d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -566,8 +580,8 @@
 				item: "kubejs:sirheadcrab1_fumo"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.5d
+			x: 7.214285714285701d
+			y: -1.5535714285714235d
 		}
 		{
 			dependencies: ["2DECD4F84CC0A80F"]
@@ -657,6 +671,28 @@
 			title: "Yarn"
 			x: 9.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "0FF5719AE49B51E1"
+			tasks: [{
+				id: "6F822ADECB01DF24"
+				item: "kubejs:lucasskittles_fumo"
+				type: "item"
+			}]
+			x: 10.714285714285701d
+			y: -0.053571428571423496d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "6D77CA6C4DCEBCE1"
+			tasks: [{
+				id: "6F6F8EAF1A3168C9"
+				item: "kubejs:leevee123_fumo"
+				type: "item"
+			}]
+			x: 11.714285714285701d
+			y: -1.5535714285714235d
 		}
 	]
 	title: "FumoFumo (and Blahaj)"
