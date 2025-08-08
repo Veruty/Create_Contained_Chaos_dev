@@ -470,8 +470,8 @@
 				item: "kubejs:zalkat_fumo"
 				type: "item"
 			}]
-			x: 2.714285714285701d
-			y: -1.5535714285714235d
+			x: 2.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -481,8 +481,8 @@
 				item: "kubejs:thesauce_fumo"
 				type: "item"
 			}]
-			x: 4.214285714285701d
-			y: -1.5535714285714235d
+			x: 4.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -492,8 +492,8 @@
 				item: "kubejs:veruty_fumo"
 				type: "item"
 			}]
-			x: 6.464285714285701d
-			y: -0.053571428571423496d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -503,8 +503,8 @@
 				item: "kubejs:blockypanda83_fumo"
 				type: "item"
 			}]
-			x: 9.464285714285701d
-			y: -0.053571428571423496d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -514,8 +514,8 @@
 				item: "kubejs:chaoscorporation_fumo"
 				type: "item"
 			}]
-			x: 8.714285714285701d
-			y: -1.5535714285714235d
+			x: 8.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -525,8 +525,8 @@
 				item: "kubejs:junycat_fumo"
 				type: "item"
 			}]
-			x: 3.464285714285701d
-			y: -0.053571428571423496d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -536,8 +536,8 @@
 				item: "kubejs:lavender_bunnies_fumo"
 				type: "item"
 			}]
-			x: 4.964285714285701d
-			y: -0.053571428571423496d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -547,8 +547,8 @@
 				item: "kubejs:lordshadowlight_fumo"
 				type: "item"
 			}]
-			x: 7.964285714285701d
-			y: -0.053571428571423496d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -558,8 +558,8 @@
 				item: "kubejs:spar117maschief_fumo"
 				type: "item"
 			}]
-			x: 5.714285714285701d
-			y: -1.5535714285714235d
+			x: 5.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -569,8 +569,8 @@
 				item: "kubejs:m3chanicb_fumo"
 				type: "item"
 			}]
-			x: 10.214285714285701d
-			y: -1.5535714285714235d
+			x: 10.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -580,8 +580,8 @@
 				item: "kubejs:sirheadcrab1_fumo"
 				type: "item"
 			}]
-			x: 7.214285714285701d
-			y: -1.5535714285714235d
+			x: 7.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2DECD4F84CC0A80F"]
@@ -680,8 +680,8 @@
 				item: "kubejs:lucasskittles_fumo"
 				type: "item"
 			}]
-			x: 10.714285714285701d
-			y: -0.053571428571423496d
+			x: 10.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -691,8 +691,8 @@
 				item: "kubejs:leevee123_fumo"
 				type: "item"
 			}]
-			x: 11.714285714285701d
-			y: -1.5535714285714235d
+			x: 11.75d
+			y: -1.5d
 		}
 	]
 	title: "FumoFumo (and Blahaj)"
