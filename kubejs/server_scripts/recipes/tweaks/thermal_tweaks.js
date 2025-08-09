@@ -317,7 +317,7 @@ e.shaped(
         'AAA'
     ],
     {
-        A: '',
+        A: 'thermal:steel_ingot',
         B: 'minecraft:copper_ingot'
     }
 )
