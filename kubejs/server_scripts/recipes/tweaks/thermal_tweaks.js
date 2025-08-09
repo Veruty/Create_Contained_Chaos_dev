@@ -388,15 +388,5 @@ e.custom({
   "energy": 4000,
   "experience": 0.15
 })
-e.custom({
-  "type": "thermal:pulverizer",
-  "ingredient": {
-    "item": "mekanism:raw_osmium"
-  },
-  "result": [
-    {
-      "item": "mekanism:dust_osmium"
-    }
-  ]
-})
+
 })
