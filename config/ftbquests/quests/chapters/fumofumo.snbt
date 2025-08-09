@@ -4,6 +4,14 @@
 	filename: "fumofumo"
 	group: ""
 	id: "46DDF21FCF46A752"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/questimg/icons/fumos.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 13.5d
+		y: 0.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -470,7 +478,7 @@
 				item: "kubejs:zalkat_fumo"
 				type: "item"
 			}]
-			x: 2.75d
+			x: 4.25d
 			y: -1.5d
 		}
 		{
@@ -481,7 +489,7 @@
 				item: "kubejs:thesauce_fumo"
 				type: "item"
 			}]
-			x: 4.25d
+			x: 10.25d
 			y: -1.5d
 		}
 		{
@@ -492,8 +500,8 @@
 				item: "kubejs:veruty_fumo"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -514,7 +522,7 @@
 				item: "kubejs:chaoscorporation_fumo"
 				type: "item"
 			}]
-			x: 8.75d
+			x: 5.75d
 			y: -1.5d
 		}
 		{
@@ -525,8 +533,8 @@
 				item: "kubejs:junycat_fumo"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -536,8 +544,8 @@
 				item: "kubejs:lavender_bunnies_fumo"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -547,8 +555,8 @@
 				item: "kubejs:lordshadowlight_fumo"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -558,8 +566,8 @@
 				item: "kubejs:spar117maschief_fumo"
 				type: "item"
 			}]
-			x: 5.75d
-			y: -1.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6193117CB7A3D8F7"]
@@ -569,7 +577,7 @@
 				item: "kubejs:m3chanicb_fumo"
 				type: "item"
 			}]
-			x: 10.25d
+			x: 8.75d
 			y: -1.5d
 		}
 		{
@@ -680,7 +688,7 @@
 				item: "kubejs:lucasskittles_fumo"
 				type: "item"
 			}]
-			x: 10.75d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -691,8 +699,8 @@
 				item: "kubejs:leevee123_fumo"
 				type: "item"
 			}]
-			x: 11.75d
-			y: -1.5d
+			x: 5.0d
+			y: 0.0d
 		}
 	]
 	title: "FumoFumo (and Blahaj)"
