@@ -859,11 +859,14 @@
 		{
 			dependencies: ["0E26D8711F2FDDE4"]
 			hide_until_deps_complete: true
+			icon: "minecraft:andesite"
 			id: "42AA25C1E9AF0537"
 			subtitle: "look at ponders god damn it"
 			tasks: [{
+				disable_toast: true
 				elapsedTime: 1L
 				id: "15CF8137B1067FED"
+				secret: true
 				type: "questsadditions:time"
 			}]
 			title: "Andesite Age"

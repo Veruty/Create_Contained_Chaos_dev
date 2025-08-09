@@ -151,6 +151,7 @@
 				"79F384A447C70803"
 				"5F412B939501E126"
 			]
+			dependency_requirement: "one_completed"
 			id: "015431AF0A5996BD"
 			tasks: [{
 				dimension: "minecraft:the_nether"
