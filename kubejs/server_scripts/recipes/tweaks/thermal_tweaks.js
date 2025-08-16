@@ -9,6 +9,7 @@ ServerEvents.recipes(e => {
         S: 'create:cogwheel',
         C: 'create:andesite_casing'
     })
+    e.custom({"type":"mekanism:crushing","input":{"ingredient":{"tag":"forge:gems/sulfur"}},"output":{"item":"thermal:sulfur_dust"}})
 	e.remove({ id: 'thermal:device_tree_extractor' })
 	e.shaped('thermal:device_tree_extractor', [
         'PMP',
