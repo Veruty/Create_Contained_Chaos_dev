@@ -1294,7 +1294,7 @@
 		{
 			id: "7F4AE40ADD97AE3B"
 			linked_quest: "017D7401B588065C"
-			x: 25.5d
+			x: 21.5d
 			y: 3.0d
 		}
 		{
@@ -1468,52 +1468,6 @@
 		}
 		{
 			dependencies: [
-				"49C5EF3A52F1578C"
-				"15438CE8A83216DF"
-				"4AB946FD927013AD"
-				"2E75442BDB40A728"
-				"7776B4E09E926234"
-			]
-			description: ["{quest.meka.106.desc}"]
-			hide_until_deps_visible: false
-			id: "2D55AF2EA9983E4A"
-			shape: "rsquare"
-			tasks: [
-				{
-					count: 26L
-					id: "7DD660B21757D571"
-					item: { Count: 26, id: "mekanismgenerators:fission_reactor_casing" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "4C93742ECFDDC8AC"
-					item: "mekanismgenerators:fission_reactor_port"
-					type: "item"
-				}
-				{
-					id: "057BFA9C3E77BF69"
-					item: "mekanismgenerators:control_rod_assembly"
-					type: "item"
-				}
-				{
-					id: "18E2C4A1E4D23363"
-					item: "mekanismgenerators:fission_fuel_assembly"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "2433E324EE3EC3AF"
-					item: { Count: 4, id: "mekanismgenerators:reactor_glass" }
-					type: "item"
-				}
-			]
-			title: "{quest.meka.106.title}"
-			x: 22.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
 				"02A525C72F999957"
 				"459E6EAECACE32DF"
 				"0474D40050B5E0D2"
@@ -1528,61 +1482,12 @@
 			]
 			description: ["{quest.meka.111.desc}"]
 			id: "6C6DB3009BA6DEE6"
-			tasks: [
-				{
-					count: 5L
-					id: "28A49C3EF187AF53"
-					item: "mekanismgenerators:turbine_rotor"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "2E86C98E3564FF34"
-					item: "mekanismgenerators:turbine_blade"
-					type: "item"
-				}
-				{
-					id: "71491FDE2B997D84"
-					item: "mekanismgenerators:rotational_complex"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "2457F876E8F139D5"
-					item: "mekanismgenerators:electromagnetic_coil"
-					type: "item"
-				}
-				{
-					count: 71L
-					id: "6F62A26B90550624"
-					item: "mekanismgenerators:turbine_casing"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "1EAFEBFF1AEFAA21"
-					item: { Count: 2, id: "mekanismgenerators:turbine_valve" }
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "5B9E5B910B6AEC9C"
-					item: "mekanismgenerators:saturating_condenser"
-					type: "item"
-				}
-				{
-					count: 33L
-					id: "28E3A9416FC3B7CF"
-					item: { Count: 33, id: "mekanismgenerators:turbine_vent" }
-					type: "item"
-				}
-				{
-					count: 36L
-					id: "4B0B3873993F79B2"
-					item: "mekanism:structural_glass"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 36L
+				id: "4B0B3873993F79B2"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
 			title: "{quest.meka.111.title}"
 			x: 41.5d
 			y: 6.0d
@@ -1678,7 +1583,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2D55AF2EA9983E4A"]
+			dependencies: ["0FA29031A0EA42BA"]
 			description: ["{quest.meka.107.desc}"]
 			hide_dependent_lines: true
 			icon: "createdeco:decal_warning"
@@ -2000,7 +1905,8 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["44A44400940480E0"]
+			dependencies: ["0FA29031A0EA42BA"]
+			hide_dependency_lines: true
 			icon: "immersiveengineering:biodiesel_bucket"
 			id: "6F8FA16F7D787D5C"
 			rewards: [{
@@ -2799,6 +2705,23 @@
 			}]
 			x: 41.0d
 			y: 13.5d
+		}
+		{
+			dependencies: [
+				"49C5EF3A52F1578C"
+				"2E75442BDB40A728"
+				"15438CE8A83216DF"
+				"4AB946FD927013AD"
+			]
+			id: "0FA29031A0EA42BA"
+			tasks: [{
+				elapsedTime: 1L
+				id: "0A2FF4E17A31883F"
+				type: "questsadditions:time"
+			}]
+			title: "Nuclear Reactor"
+			x: 22.5d
+			y: 2.0d
 		}
 	]
 	title: "Uranium Age"
