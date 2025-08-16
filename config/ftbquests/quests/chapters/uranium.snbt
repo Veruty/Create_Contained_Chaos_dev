@@ -1481,12 +1481,12 @@
 				"78FA150F447544C8"
 			]
 			description: ["{quest.meka.111.desc}"]
+			icon: "mekanismgenerators:turbine_blade"
 			id: "6C6DB3009BA6DEE6"
 			tasks: [{
-				count: 36L
-				id: "4B0B3873993F79B2"
-				item: "mekanism:structural_glass"
-				type: "item"
+				elapsedTime: 1L
+				id: "60763D2567C42E54"
+				type: "questsadditions:time"
 			}]
 			title: "{quest.meka.111.title}"
 			x: 41.5d
@@ -2713,6 +2713,7 @@
 				"15438CE8A83216DF"
 				"4AB946FD927013AD"
 			]
+			icon: "mekanismgenerators:fission_fuel_assembly"
 			id: "0FA29031A0EA42BA"
 			tasks: [{
 				elapsedTime: 1L
