@@ -8,7 +8,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create:splashing/mekanism/crushed_raw_osmium' })
 	event.remove({ id: 'thermal:compat/mekanism/smelter_mek_osmium_ore' })
 	event.remove({ id: 'thermal:compat/mekanism/pulverizer_mek_osmium_ore' })
-	event.remove({ id: 'mekanism:transmitter/logistical_transporter/basic' })
 	event.remove({ id: 'mekanism:configurator' })
 	event.remove({ id: 'immersiveengineering:crafting/raw_hammercrushing_osmium' })
 	event.remove({ id: 'immersiveengineering:crafting/hammercrushing_osmium' })
@@ -31,11 +30,12 @@ ServerEvents.recipes(event => {
     )
     event.custom({"type": "thermal:smelter",
 		"ingredients": [
-			{"value": [{"tag": "forge:raw_materials/osmium"}, {"tag": "forge:dusts/osmium"}, {"tag": "forge:ores/osmium"}],"count": 1},
+			{"value": [{"tag": "forge:raw_materials/osmium"}, {"item": "create:crushed_raw_osmium"}, {"tag": "forge:dusts/osmium"}, {"tag": "forge:ores/osmium"}],"count": 1},
 		],
 		"result": [{"item": "mekanism:ingot_osmium", "count": 1}],
 		"energy": 27000
 	})
+	event.custom({"type":"immersiveengineering:arc_furnace","additives":[],"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/osmium"}},{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"create:crushed_raw_materials"}}],"energy":102400,"input":{"item": "create:crushed_raw_osmium"},"results":[{"base_ingredient":{"tag":"forge:ingots/osmium"},"count":2}],"slag":{"tag":"forge:slag"},"time":200})
 	event.remove({ id: 'mekanism:rotary/steam'})
 	event.custom({"type": "mekanism:rotary",
   "fluidInput": {"amount": 1,"fluid": "mekanism:steam"},
