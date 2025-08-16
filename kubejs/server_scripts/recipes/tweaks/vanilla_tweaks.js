@@ -9,4 +9,17 @@ ServerEvents.recipes(e => {
         e.recipes.createDeploying('kubejs:incomplete_netherite_upgrade',['kubejs:incomplete_netherite_upgrade','minecraft:diamond']),
         e.recipes.createPressing('kubejs:incomplete_netherite_upgrade','kubejs:incomplete_netherite_upgrade')
     ]).transitionalItem('kubejs:incomplete_netherite_upgrade').loops(3)
+    e.remove({ id: 'minecraft:sticky_piston' })
+    e.shaped(
+    Item.of('minecraft:sticky_piston'),
+    [
+        ' A ',
+        ' B ',
+        '   '
+    ],
+    {
+        A: '#forge:slimeballs',
+        B: 'minecraft:piston'
+    }
+)
 })
