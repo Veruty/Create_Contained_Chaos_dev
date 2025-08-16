@@ -749,7 +749,14 @@
 			}]
 			tasks: [{
 				id: "719B52DE9981E905"
-				item: "thermal:sulfur"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:gems/sulfur"
+					}
+				}
+				title: "Any #forge:gems/sulfur"
 				type: "item"
 			}]
 			x: -4.5d
