@@ -5,7 +5,7 @@
 	group: "1B9B9B5F76BED733"
 	icon: "biomancy:primordial_cradle"
 	id: "1866028A07209555"
-	order_index: 0
+	order_index: 1
 	quest_links: [{
 		id: "7382D31BA0CBD8B2"
 		linked_quest: "0E26D8711F2FDDE4"
