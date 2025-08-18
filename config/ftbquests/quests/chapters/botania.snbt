@@ -509,6 +509,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["0E26D8711F2FDDE4"]
 			id: "79619B03DF0DE28F"
 			subtitle: "Create a petal apothecary, used to create unique flowers, to generate mana or have other unique uses"
 			tasks: [{
