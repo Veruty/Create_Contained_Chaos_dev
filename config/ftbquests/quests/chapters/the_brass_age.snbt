@@ -244,7 +244,6 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			title: "Precision Mechanisms"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -300,13 +299,14 @@
 				type: "item"
 			}]
 			size: 1.5d
+			subtitle: "The Rolling Stones"
 			tasks: [{
 				count: 2L
 				id: "5087769155252209"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			title: "The Rolling Stones"
+			title: "Crushing Wheel"
 			x: 5.0d
 			y: 8.0d
 		}

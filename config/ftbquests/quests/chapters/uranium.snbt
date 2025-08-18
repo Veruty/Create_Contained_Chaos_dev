@@ -1366,7 +1366,7 @@
 		{
 			id: "77BDB7EA46C186B0"
 			linked_quest: "10F302095CE22E91"
-			x: 39.0d
+			x: 40.5d
 			y: 32.0d
 		}
 		{
@@ -1409,7 +1409,7 @@
 				title: "Right-click any block while Hydroflouric Acid is inside"
 				type: "custom"
 			}]
-			title: "{quest.meka.135.title}"
+			title: "Hydrofluoric Acid"
 			x: 16.0d
 			y: 22.0d
 		}
@@ -1427,7 +1427,7 @@
 				title: "Right-click any block while Uranium Hexafluoride is inside"
 				type: "custom"
 			}]
-			title: "{quest.meka.136.title}"
+			title: "Uranium Hexafluoride"
 			x: 17.0d
 			y: 21.0d
 		}
@@ -1449,7 +1449,7 @@
 				title: "Right-click any block while Fissile Fuel is inside"
 				type: "custom"
 			}]
-			title: "{quest.meka.137.title}"
+			title: "Fissile Fuel"
 			x: 17.0d
 			y: 16.0d
 		}
@@ -1457,12 +1457,12 @@
 			dependencies: ["0EB161BB955F8CB2"]
 			description: ["{quest.meka.133.desc}"]
 			id: "3C368757BA62EC6A"
+			subtitle: "The Cake is a lie"
 			tasks: [{
 				id: "5B03C04125498AA3"
 				item: "mekanism:yellow_cake_uranium"
 				type: "item"
 			}]
-			title: "{quest.meka.133.title}"
 			x: 17.0d
 			y: 29.0d
 		}
@@ -1503,7 +1503,6 @@
 				item: "mekanismgenerators:fission_reactor_casing"
 				type: "item"
 			}]
-			title: "{quest.meka.103.title}"
 			x: 20.5d
 			y: 0.0d
 		}
@@ -1517,7 +1516,6 @@
 				item: "mekanismgenerators:fission_fuel_assembly"
 				type: "item"
 			}]
-			title: "{quest.meka.101.title}"
 			x: 22.5d
 			y: 4.0d
 		}
@@ -1529,13 +1527,12 @@
 			description: ["{quest.meka.104.desc}"]
 			id: "4AB946FD927013AD"
 			shape: "circle"
+			subtitle: "In-N-Out"
 			tasks: [{
-				count: 4L
 				id: "7A13F24F5529DA90"
 				item: "mekanismgenerators:fission_reactor_port"
 				type: "item"
 			}]
-			title: "{quest.meka.104.title}"
 			x: 22.5d
 			y: 0.0d
 		}
@@ -1544,12 +1541,12 @@
 			description: ["{quest.meka.105.desc}"]
 			id: "699D4CEBDED9D90B"
 			shape: "rsquare"
+			subtitle: "Only Logical Solution"
 			tasks: [{
 				id: "2B29DB28B983E687"
 				item: "mekanismgenerators:fission_reactor_logic_adapter"
 				type: "item"
 			}]
-			title: "{quest.meka.105.title}"
 			x: 19.5d
 			y: 1.0d
 		}
@@ -1564,7 +1561,6 @@
 				item: "mekanismgenerators:reactor_glass"
 				type: "item"
 			}]
-			title: "{quest.meka.100.title}"
 			x: 20.5d
 			y: 2.0d
 		}
@@ -1573,12 +1569,12 @@
 			description: ["{quest.meka.102.desc}"]
 			hide_until_deps_visible: true
 			id: "15438CE8A83216DF"
+			subtitle: "Controlling the Fission"
 			tasks: [{
 				id: "5FBB79EFB91A49AC"
 				item: "mekanismgenerators:control_rod_assembly"
 				type: "item"
 			}]
-			title: "{quest.meka.102.title}"
 			x: 24.5d
 			y: 0.0d
 		}
@@ -1592,7 +1588,7 @@
 				id: "4D3AA501D84D4E41"
 				type: "checkmark"
 			}]
-			title: "{quest.meka.107.title}"
+			title: "How to: Smallest fission reactor"
 			x: 26.5d
 			y: 2.0d
 		}
@@ -1611,7 +1607,7 @@
 				id: "324AF67086865477"
 				type: "checkmark"
 			}]
-			title: "{quest.meka.110.title}"
+			title: "Turbine"
 			x: 36.0d
 			y: 6.0d
 		}
@@ -1625,7 +1621,6 @@
 				item: "mekanism:pellet_plutonium"
 				type: "item"
 			}]
-			title: "{quest.meka.143.title}"
 			x: 27.0d
 			y: 17.0d
 		}
@@ -1646,7 +1641,6 @@
 				item: "mekanism:pellet_polonium"
 				type: "item"
 			}]
-			title: "{quest.meka.150.title}"
 			x: 33.0d
 			y: 20.5d
 		}
@@ -1654,13 +1648,12 @@
 			dependencies: ["3B9C52A58DF3D1DA"]
 			description: ["{quest.meka.144.desc}"]
 			id: "4A90D76598166235"
+			subtitle: "Fuel Recovery"
 			tasks: [{
-				count: 4L
 				id: "32737E7E828157D9"
 				item: "mekanism:reprocessed_fissile_fragment"
 				type: "item"
 			}]
-			title: "{quest.meka.144.title}"
 			x: 22.0d
 			y: 17.0d
 		}
@@ -1672,7 +1665,7 @@
 				id: "66F44D2539CA7CD2"
 				type: "checkmark"
 			}]
-			title: "{quest.meka.121.title}"
+			title: "How to: Mekanism turbine"
 			x: 44.5d
 			y: 6.0d
 		}
@@ -1682,12 +1675,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "7BDF641DB273182F"
+			subtitle: "Spin me right round"
 			tasks: [{
 				id: "3DBF498633B5EA3B"
 				item: "mekanismgenerators:turbine_rotor"
 				type: "item"
 			}]
-			title: "{quest.meka.116.title}"
 			x: 43.5d
 			y: 5.0d
 		}
@@ -1698,12 +1691,10 @@
 			hide_until_deps_visible: true
 			id: "21D2ECE01D979648"
 			tasks: [{
-				count: 2L
 				id: "735105781CD31451"
-				item: { Count: 2, id: "mekanismgenerators:turbine_blade" }
+				item: "mekanismgenerators:turbine_blade"
 				type: "item"
 			}]
-			title: "{quest.meka.115.title}"
 			x: 42.5d
 			y: 4.0d
 		}
@@ -1713,12 +1704,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "35BF1D9F8D139459"
+			subtitle: "Rotational Complex? I find it quite simple actually."
 			tasks: [{
 				id: "61A4AAB80191A610"
 				item: "mekanismgenerators:rotational_complex"
 				type: "item"
 			}]
-			title: "{quest.meka.114.title}"
 			x: 41.5d
 			y: 4.0d
 		}
@@ -1728,12 +1719,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "459E6EAECACE32DF"
+			subtitle: "Case it up"
 			tasks: [{
 				id: "541CBA7AA353C499"
 				item: "mekanismgenerators:turbine_casing"
 				type: "item"
 			}]
-			title: "{quest.meka.112.title}"
 			x: 39.5d
 			y: 5.0d
 		}
@@ -1744,12 +1735,10 @@
 			hide_until_deps_visible: true
 			id: "019EA2934414A56F"
 			tasks: [{
-				count: 2L
 				id: "1F440C7F245967E7"
-				item: { Count: 2, id: "mekanismgenerators:turbine_valve" }
+				item: "mekanismgenerators:turbine_valve"
 				type: "item"
 			}]
-			title: "{quest.meka.117.title}"
 			x: 39.5d
 			y: 7.0d
 		}
@@ -1764,7 +1753,6 @@
 				item: "mekanismgenerators:saturating_condenser"
 				type: "item"
 			}]
-			title: "{quest.meka.118.title}"
 			x: 40.5d
 			y: 8.0d
 		}
@@ -1779,7 +1767,6 @@
 				item: "mekanismgenerators:turbine_vent"
 				type: "item"
 			}]
-			title: "{quest.meka.120.title}"
 			x: 42.5d
 			y: 8.0d
 		}
@@ -1794,7 +1781,6 @@
 				item: "mekanism:structural_glass"
 				type: "item"
 			}]
-			title: "{quest.meka.119.title}"
 			x: 41.5d
 			y: 8.0d
 		}
@@ -1804,12 +1790,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3ECC322BE9BFD6A0"
+			subtitle: "Coiled Up"
 			tasks: [{
 				id: "0EB63FDBE34AE07B"
 				item: "mekanismgenerators:electromagnetic_coil"
 				type: "item"
 			}]
-			title: "{quest.meka.113.title}"
 			x: 40.5d
 			y: 4.0d
 		}
@@ -1845,7 +1831,6 @@
 				item: "mekanism:pressure_disperser"
 				type: "item"
 			}]
-			title: "{quest.meka.fuckiforgotthatquest.title}"
 			x: 43.5d
 			y: 7.0d
 		}
@@ -1900,7 +1885,7 @@
 				title: "Right-click any block while Polonium is inside"
 				type: "custom"
 			}]
-			title: "polonium"
+			title: "Polonium"
 			x: 33.0d
 			y: 13.0d
 		}
@@ -2209,7 +2194,7 @@
 				item: "mekanism:module_energy_unit"
 				type: "item"
 			}]
-			x: 40.0d
+			x: 41.5d
 			y: 31.0d
 		}
 		{
@@ -2220,7 +2205,7 @@
 				item: "mekanism:module_color_modulation_unit"
 				type: "item"
 			}]
-			x: 36.0d
+			x: 37.5d
 			y: 31.0d
 		}
 		{
@@ -2231,7 +2216,7 @@
 				item: "mekanism:module_laser_dissipation_unit"
 				type: "item"
 			}]
-			x: 38.0d
+			x: 39.5d
 			y: 31.0d
 		}
 		{
@@ -2242,7 +2227,7 @@
 				item: "mekanism:module_radiation_shielding_unit"
 				type: "item"
 			}]
-			x: 43.0d
+			x: 44.5d
 			y: 32.0d
 		}
 		{
@@ -2253,7 +2238,7 @@
 				item: "mekanism:module_excavation_escalation_unit"
 				type: "item"
 			}]
-			x: 42.0d
+			x: 43.5d
 			y: 31.0d
 		}
 		{
@@ -2264,7 +2249,7 @@
 				item: "mekanism:module_farming_unit"
 				type: "item"
 			}]
-			x: 42.0d
+			x: 43.5d
 			y: 33.0d
 		}
 		{
@@ -2275,7 +2260,7 @@
 				item: "mekanism:module_attack_amplification_unit"
 				type: "item"
 			}]
-			x: 36.0d
+			x: 37.5d
 			y: 33.0d
 		}
 		{
@@ -2286,7 +2271,7 @@
 				item: "mekanism:module_silk_touch_unit"
 				type: "item"
 			}]
-			x: 40.0d
+			x: 41.5d
 			y: 21.5d
 		}
 		{
@@ -2297,7 +2282,7 @@
 				item: "mekanism:module_fortune_unit"
 				type: "item"
 			}]
-			x: 42.0d
+			x: 43.5d
 			y: 23.5d
 		}
 		{
@@ -2308,7 +2293,7 @@
 				item: "mekanism:module_blasting_unit"
 				type: "item"
 			}]
-			x: 41.0d
+			x: 42.5d
 			y: 28.5d
 		}
 		{
@@ -2319,7 +2304,7 @@
 				item: "mekanism:module_vein_mining_unit"
 				type: "item"
 			}]
-			x: 37.0d
+			x: 38.5d
 			y: 22.5d
 		}
 		{
@@ -2355,7 +2340,7 @@
 				item: "mekanism:module_inhalation_purification_unit"
 				type: "item"
 			}]
-			x: 43.0d
+			x: 44.5d
 			y: 24.5d
 		}
 		{
@@ -2366,7 +2351,7 @@
 				item: "mekanism:module_vision_enhancement_unit"
 				type: "item"
 			}]
-			x: 38.0d
+			x: 39.5d
 			y: 29.5d
 		}
 		{
@@ -2377,7 +2362,7 @@
 				item: "mekanism:module_nutritional_injection_unit"
 				type: "item"
 			}]
-			x: 35.0d
+			x: 36.5d
 			y: 25.5d
 		}
 		{
@@ -2399,7 +2384,7 @@
 				item: "mekanism:module_geiger_unit"
 				type: "item"
 			}]
-			x: 40.0d
+			x: 41.5d
 			y: 33.0d
 		}
 		{
@@ -2410,7 +2395,7 @@
 				item: "mekanism:module_jetpack_unit"
 				type: "item"
 			}]
-			x: 43.0d
+			x: 44.5d
 			y: 26.5d
 		}
 		{
@@ -2421,7 +2406,7 @@
 				item: "mekanism:module_charge_distribution_unit"
 				type: "item"
 			}]
-			x: 43.0d
+			x: 44.5d
 			y: 25.5d
 		}
 		{
@@ -2446,7 +2431,7 @@
 				item: "mekanism:module_gyroscopic_stabilization_unit"
 				type: "item"
 			}]
-			x: 36.0d
+			x: 37.5d
 			y: 27.5d
 		}
 		{
@@ -2457,7 +2442,7 @@
 				item: "mekanism:module_hydrostatic_repulsor_unit"
 				type: "item"
 			}]
-			x: 42.0d
+			x: 43.5d
 			y: 27.5d
 		}
 		{
@@ -2468,7 +2453,7 @@
 				item: "mekanism:module_locomotive_boosting_unit"
 				type: "item"
 			}]
-			x: 39.0d
+			x: 40.5d
 			y: 21.5d
 		}
 		{
@@ -2479,7 +2464,7 @@
 				item: "mekanism:module_motorized_servo_unit"
 				type: "item"
 			}]
-			x: 37.0d
+			x: 38.5d
 			y: 28.5d
 		}
 		{
@@ -2490,7 +2475,7 @@
 				item: "mekanism:module_hydraulic_propulsion_unit"
 				type: "item"
 			}]
-			x: 40.0d
+			x: 41.5d
 			y: 29.5d
 		}
 		{
@@ -2501,7 +2486,7 @@
 				item: "mekanism:module_magnetic_attraction_unit"
 				type: "item"
 			}]
-			x: 35.0d
+			x: 36.5d
 			y: 26.5d
 		}
 		{
@@ -2512,7 +2497,7 @@
 				item: "mekanism:module_frost_walker_unit"
 				type: "item"
 			}]
-			x: 35.0d
+			x: 36.5d
 			y: 24.5d
 		}
 		{
@@ -2523,7 +2508,7 @@
 				item: "mekanismgenerators:module_solar_recharging_unit"
 				type: "item"
 			}]
-			x: 38.0d
+			x: 39.5d
 			y: 21.5d
 		}
 		{
@@ -2534,7 +2519,7 @@
 				item: "mekanismgenerators:module_geothermal_generator_unit"
 				type: "item"
 			}]
-			x: 41.0d
+			x: 42.5d
 			y: 22.5d
 		}
 		{
@@ -2545,7 +2530,7 @@
 				item: "mekanism:module_shearing_unit"
 				type: "item"
 			}]
-			x: 38.0d
+			x: 39.5d
 			y: 33.0d
 		}
 		{
@@ -2559,7 +2544,7 @@
 				id: "76211E78F0A785A9"
 				type: "questsadditions:time"
 			}]
-			x: 39.0d
+			x: 40.5d
 			y: 25.5d
 		}
 		{

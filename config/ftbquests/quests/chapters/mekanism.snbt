@@ -1675,6 +1675,12 @@
 			x: 2.0d
 			y: 2.5d
 		}
+		{
+			id: "22E3BBB728765E5A"
+			linked_quest: "2B696CA62EB0083F"
+			x: 12.0d
+			y: 6.5d
+		}
 	]
 	quests: [
 		{
@@ -1682,12 +1688,12 @@
 			description: ["{quest.meka.3.desc}"]
 			id: "479C1BDCAB91242C"
 			size: 1.25d
+			subtitle: "Harder, Better, Faster, Stronger"
 			tasks: [{
 				id: "58944330BEE209D2"
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			title: "{quest.meka.3.title}"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -1697,12 +1703,12 @@
 			hide_until_deps_visible: true
 			id: "24CD759A561EB2C6"
 			size: 1.25d
+			subtitle: "Redstone-infused iron"
 			tasks: [{
 				id: "34540D220749F1E4"
 				item: "mekanism:alloy_infused"
 				type: "item"
 			}]
-			title: "{quest.meka.4.title}"
 			x: 4.0d
 			y: -3.5d
 		}
@@ -1712,12 +1718,12 @@
 			hide_until_deps_visible: true
 			id: "37B06FC941C75A60"
 			size: 1.25d
+			subtitle: "LV Circuit"
 			tasks: [{
 				id: "28C80FEB6FF559AB"
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			title: "{quest.meka.7.title}"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -1729,12 +1735,12 @@
 			description: ["{quest.meka.8.desc}"]
 			id: "6DCDEAA1333F7DEE"
 			size: 1.25d
+			subtitle: "Smart Rock"
 			tasks: [{
 				id: "25753FC020446755"
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			title: "{quest.meka.8.title}"
 			x: 2.0d
 			y: -3.5d
 		}
@@ -1743,12 +1749,12 @@
 			description: ["{quest.meka.5.desc}"]
 			id: "2063D6C58019E165"
 			size: 1.25d
+			subtitle: "Diamond-infused redstone-infused iron"
 			tasks: [{
 				id: "2E93414E9C9E8107"
 				item: "mekanism:alloy_reinforced"
 				type: "item"
 			}]
-			title: "{quest.meka.5.title}"
 			x: 4.0d
 			y: -5.5d
 		}
@@ -1757,12 +1763,12 @@
 			description: ["{quest.meka.6.desc}"]
 			id: "03524C8291BA941F"
 			size: 1.25d
+			subtitle: "Obsidian-infused diamond-infused redstone-infused iron"
 			tasks: [{
 				id: "5E74E1F4186B720F"
 				item: "mekanism:alloy_atomic"
 				type: "item"
 			}]
-			title: "{quest.meka.6.title}"
 			x: 4.0d
 			y: -7.5d
 		}
@@ -1774,12 +1780,12 @@
 			description: ["{quest.meka.9.desc}"]
 			id: "0A12FEEA09B6D99B"
 			size: 1.25d
+			subtitle: "Smarter Rock"
 			tasks: [{
 				id: "3C9C1DBF5D66F8CA"
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			title: "{quest.meka.9.title}"
 			x: 2.0d
 			y: -5.5d
 		}
@@ -1791,13 +1797,12 @@
 			description: ["{quest.meka.10.desc}"]
 			id: "3859C9C6168B9502"
 			size: 1.25d
-			subtitle: "{quest.meka.10.subtitle}"
+			subtitle: "Smartest Rock"
 			tasks: [{
 				id: "5EF6ABF3DE226731"
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			title: "{quest.meka.10.title}"
 			x: 2.0d
 			y: -7.5d
 		}
@@ -1807,12 +1812,12 @@
 			id: "4882C29ACF76E6CD"
 			shape: "circle"
 			size: 1.25d
+			subtitle: "Steel Beams"
 			tasks: [{
 				id: "53F2773B0A688110"
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			title: "{quest.meka.12.title}"
 			x: 8.0d
 			y: 0.5d
 		}
@@ -1825,9 +1830,8 @@
 				item: "mekanism:basic_tier_installer"
 				type: "item"
 			}]
-			title: "{quest.meka.57.title}"
-			x: -2.0d
-			y: 0.5d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6DCDEAA1333F7DEE"]
@@ -1838,7 +1842,6 @@
 				item: "mekanism:advanced_tier_installer"
 				type: "item"
 			}]
-			title: "{quest.meka.58.title}"
 			x: -2.0d
 			y: -3.5d
 		}
@@ -1851,7 +1854,6 @@
 				item: "mekanism:elite_tier_installer"
 				type: "item"
 			}]
-			title: "{quest.meka.59.title}"
 			x: -2.0d
 			y: -5.5d
 		}
@@ -1864,7 +1866,6 @@
 				item: "mekanism:ultimate_tier_installer"
 				type: "item"
 			}]
-			title: "{quest.meka.60.title}"
 			x: -2.0d
 			y: -7.5d
 		}
@@ -1873,12 +1874,12 @@
 			description: ["{quest.meka.13.desc}"]
 			hide_until_deps_visible: true
 			id: "1498C5F2CDF698DE"
+			subtitle: "Cooler Furnace"
 			tasks: [{
 				id: "1732141EA009FF3E"
 				item: "mekanism:energized_smelter"
 				type: "item"
 			}]
-			title: "{quest.meka.13.title}"
 			x: 11.0d
 			y: -1.5d
 		}
@@ -1888,12 +1889,12 @@
 			hide_until_deps_visible: true
 			id: "08E13E7BE1D8864D"
 			size: 1.5d
+			subtitle: "Energy Bucket"
 			tasks: [{
 				id: "5DFAA04775AD10A9"
 				item: "mekanism:energy_tablet"
 				type: "item"
 			}]
-			title: "{quest.meka.15.title}"
 			x: 4.0d
 			y: 6.5d
 		}
@@ -1903,12 +1904,12 @@
 			hide_until_deps_visible: true
 			id: "45C9D5B3C08D1FFD"
 			size: 1.5d
+			subtitle: "1-Block Powerbank"
 			tasks: [{
 				id: "74F3D91912959008"
 				item: "mekanism:basic_energy_cube"
 				type: "item"
 			}]
-			title: "{quest.meka.16.title}"
 			x: 4.0d
 			y: 9.5d
 		}
@@ -1916,12 +1917,12 @@
 			dependencies: ["45C9D5B3C08D1FFD"]
 			description: ["{quest.meka.30.desc}"]
 			id: "48010D86B97969E4"
+			subtitle: "Better Powerbank"
 			tasks: [{
 				id: "0526CDA09615FDE3"
 				item: "mekanism:advanced_energy_cube"
 				type: "item"
 			}]
-			title: "{quest.meka.30.title}"
 			x: 4.0d
 			y: 11.5d
 		}
@@ -1929,12 +1930,12 @@
 			dependencies: ["48010D86B97969E4"]
 			description: ["{quest.meka.33.desc}"]
 			id: "7E747BD610CB2D21"
+			subtitle: "Even Better Powerbank"
 			tasks: [{
 				id: "34D71A742EC49780"
 				item: "mekanism:elite_energy_cube"
 				type: "item"
 			}]
-			title: "{quest.meka.33.title}"
 			x: 4.0d
 			y: 13.5d
 		}
@@ -1942,12 +1943,12 @@
 			dependencies: ["7E747BD610CB2D21"]
 			description: ["{quest.meka.36.desc}"]
 			id: "46DA59DC1925C374"
+			subtitle: "Best Powerbank"
 			tasks: [{
 				id: "702C920C5AE4607C"
 				item: "mekanism:ultimate_energy_cube"
 				type: "item"
 			}]
-			title: "{quest.meka.36.title}"
 			x: 4.0d
 			y: 15.5d
 		}
@@ -1957,12 +1958,12 @@
 			hide_until_deps_visible: true
 			id: "16FAA83B048985DD"
 			size: 1.25d
+			subtitle: "Mekanists hate this one trick!"
 			tasks: [{
 				id: "5C6B32CABBEC4AF4"
 				item: "mekanism:enrichment_chamber"
 				type: "item"
 			}]
-			title: "{quest.meka.14.title}"
 			x: 8.0d
 			y: -3.5d
 		}
@@ -1970,12 +1971,12 @@
 			dependencies: ["16FAA83B048985DD"]
 			description: ["{quest.meka.50.desc}"]
 			id: "286D095D71CB0153"
+			subtitle: "Better Redstone"
 			tasks: [{
 				id: "4340836A868423C5"
 				item: "mekanism:enriched_redstone"
 				type: "item"
 			}]
-			title: "{quest.meka.50.title}"
 			x: 6.0d
 			y: -3.5d
 		}
@@ -1983,12 +1984,12 @@
 			dependencies: ["16FAA83B048985DD"]
 			description: ["{quest.meka.51.desc}"]
 			id: "008C4D2348C89452"
+			subtitle: "Better Diamond"
 			tasks: [{
 				id: "5C4E521A2942FC07"
 				item: "mekanism:enriched_diamond"
 				type: "item"
 			}]
-			title: "{quest.meka.51.title}"
 			x: 6.0d
 			y: -5.5d
 		}
@@ -1999,12 +2000,12 @@
 			]
 			description: ["{quest.meka.52.desc}"]
 			id: "263967591E41F934"
+			subtitle: "Better Obsidian"
 			tasks: [{
 				id: "5F084361362FC76F"
 				item: "mekanism:enriched_refined_obsidian"
 				type: "item"
 			}]
-			title: "{quest.meka.52.title}"
 			x: 6.0d
 			y: -7.5d
 		}
@@ -2017,7 +2018,6 @@
 				item: "mekanism:dust_refined_obsidian"
 				type: "item"
 			}]
-			title: "{quest.meka.54.title}"
 			x: 8.0d
 			y: -7.5d
 		}
@@ -2025,12 +2025,12 @@
 			dependencies: ["16FAA83B048985DD"]
 			description: ["{quest.meka.49.desc}"]
 			id: "1182BD2031E81300"
+			subtitle: "Better Coal"
 			tasks: [{
 				id: "029CA3EC31FA3B1F"
 				item: "mekanism:enriched_carbon"
 				type: "item"
 			}]
-			title: "{quest.meka.49.title}"
 			x: 7.0d
 			y: -2.5d
 		}
@@ -2044,19 +2044,19 @@
 			id: "3A7557AC37DD96D9"
 			min_required_dependencies: 1
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5F9A8056A530A808"
-					item: "mekanism:dust_obsidian"
-					type: "item"
+			subtitle: "Pulverized Volcanic Glass "
+			tasks: [{
+				id: "43D5887DD42C8498"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/obsidian"
+					}
 				}
-				{
-					id: "7C88FA78B2AE1789"
-					item: "create:powdered_obsidian"
-					type: "item"
-				}
-			]
-			title: "{quest.meka.53.title}"
+				type: "item"
+			}]
+			title: "Obsidian Dust"
 			x: 8.0d
 			y: -5.5d
 		}
@@ -2070,7 +2070,6 @@
 				item: "mekanism:osmium_compressor"
 				type: "item"
 			}]
-			title: "{quest.meka.79.title}"
 			x: 12.0d
 			y: -5.5d
 		}
@@ -2081,12 +2080,12 @@
 			]
 			description: ["{quest.meka.55.desc}"]
 			id: "6BD8ADA2F4C73784"
+			subtitle: "Strong ingot"
 			tasks: [{
 				id: "33FC74B3B3C25710"
 				item: "mekanism:ingot_refined_obsidian"
 				type: "item"
 			}]
-			title: "{quest.meka.55.title}"
 			x: 10.0d
 			y: -7.5d
 		}
@@ -2095,13 +2094,12 @@
 			description: ["{quest.meka.80.desc}"]
 			hide_until_deps_visible: true
 			id: "27C740059DA71649"
-			subtitle: "{quest.meka.80.subtitle}"
+			subtitle: "CRUSH!"
 			tasks: [{
 				id: "1D155B3EC96DAA16"
 				item: "mekanism:crusher"
 				type: "item"
 			}]
-			title: "{quest.meka.80.title}"
 			x: 12.0d
 			y: 0.5d
 		}
@@ -2115,7 +2113,6 @@
 				item: "mekanism:precision_sawmill"
 				type: "item"
 			}]
-			title: "{quest.meka.81.title}"
 			x: 6.0d
 			y: 2.5d
 		}
@@ -2130,7 +2127,6 @@
 				item: "mekanism:electric_pump"
 				type: "item"
 			}]
-			title: "{quest.meka.82.title}"
 			x: 11.0d
 			y: -2.5d
 		}
@@ -2144,7 +2140,6 @@
 				item: "mekanism:chemical_infuser"
 				type: "item"
 			}]
-			title: "{quest.meka.83.title}"
 			x: 5.0d
 			y: -0.5d
 		}
@@ -2165,7 +2160,7 @@
 				title: "Any #forge:dusts/osmium"
 				type: "item"
 			}]
-			title: "{quest.meka.91.title}"
+			title: "Osmium Dust"
 			x: 14.0d
 			y: 0.5d
 		}
@@ -2186,7 +2181,7 @@
 				title: "Any #forge:dusts/gold"
 				type: "item"
 			}]
-			title: "{quest.meka.93.title}"
+			title: "Gold Dust"
 			x: 14.0d
 			y: 4.5d
 		}
@@ -2194,12 +2189,12 @@
 			dependencies: ["1CA3C59D0ED5EFDC"]
 			description: ["{quest.meka.96.desc}"]
 			id: "3713AAB7A3F2E9A7"
+			subtitle: "MORE POWAAH"
 			tasks: [{
 				id: "16A124835681643D"
 				item: "mekanism:upgrade_energy"
 				type: "item"
 			}]
-			title: "{quest.meka.96.title}"
 			x: 16.0d
 			y: 4.5d
 		}
@@ -2207,12 +2202,12 @@
 			dependencies: ["4C7918259EDF52EB"]
 			description: ["{quest.meka.94.desc}"]
 			id: "1B1685D5DC2495F5"
+			subtitle: "Speed it up!"
 			tasks: [{
 				id: "6C0D2EB8714246BA"
 				item: "mekanism:upgrade_speed"
 				type: "item"
 			}]
-			title: "{quest.meka.94.title}"
 			x: 16.0d
 			y: 0.5d
 		}
@@ -2226,7 +2221,6 @@
 				item: "mekanism:combiner"
 				type: "item"
 			}]
-			title: "{quest.meka.84.title}"
 			x: 11.0d
 			y: 1.5d
 		}
@@ -2234,12 +2228,12 @@
 			dependencies: ["0453C7D5AA35CAAA"]
 			description: ["{quest.meka.19.desc}"]
 			id: "2B88C4AA15C024DF"
+			subtitle: "Hydrophobic"
 			tasks: [{
 				id: "269EB9587CD066E6"
 				item: "mekanism:dust_lithium"
 				type: "item"
 			}]
-			title: "{quest.meka.19.title}"
 			x: 17.0d
 			y: 10.5d
 		}
@@ -2251,12 +2245,12 @@
 			description: ["{quest.meka.17.desc}"]
 			hide_until_deps_visible: true
 			id: "62EB68FA87F80CED"
+			subtitle: "Big Battery Cell"
 			tasks: [{
 				id: "51EA5BB344022DD3"
 				item: "mekanism:basic_induction_cell"
 				type: "item"
 			}]
-			title: "{quest.meka.17.title}"
 			x: 7.0d
 			y: 10.5d
 		}
@@ -2267,12 +2261,12 @@
 			]
 			description: ["{quest.meka.31.desc}"]
 			id: "6B7489F4D2DE7ABE"
+			subtitle: "Bigger Battery Cell"
 			tasks: [{
 				id: "64F10DB51CE30282"
 				item: "mekanism:advanced_induction_cell"
 				type: "item"
 			}]
-			title: "{quest.meka.31.title}"
 			x: 7.0d
 			y: 12.5d
 		}
@@ -2283,12 +2277,12 @@
 			]
 			description: ["{quest.meka.34.desc}"]
 			id: "4222372C36422598"
+			subtitle: "Even Bigger Battery Cell"
 			tasks: [{
 				id: "679EBB23221F752F"
 				item: "mekanism:elite_induction_cell"
 				type: "item"
 			}]
-			title: "{quest.meka.34.title}"
 			x: 7.0d
 			y: 14.5d
 		}
@@ -2299,12 +2293,12 @@
 			]
 			description: ["{quest.meka.37.desc}"]
 			id: "7FD99F0885299CBE"
+			subtitle: "Biggest Battery Cell"
 			tasks: [{
 				id: "073AA8499C65DB55"
 				item: "mekanism:ultimate_induction_cell"
 				type: "item"
 			}]
-			title: "{quest.meka.37.title}"
 			x: 7.0d
 			y: 16.5d
 		}
@@ -2316,12 +2310,12 @@
 			description: ["{quest.meka.18.desc}"]
 			hide_until_deps_visible: true
 			id: "2EFE7E0B6A4606D7"
+			subtitle: "Big Battery I/O "
 			tasks: [{
 				id: "139C74B208BDDF40"
 				item: "mekanism:basic_induction_provider"
 				type: "item"
 			}]
-			title: "{quest.meka.18.title}"
 			x: 10.0d
 			y: 9.5d
 		}
@@ -2332,12 +2326,12 @@
 			]
 			description: ["{quest.meka.32.desc}"]
 			id: "58AD6764A194D8DB"
+			subtitle: "Bigger Battery I/O "
 			tasks: [{
 				id: "2EA64E88BECF4C6F"
 				item: "mekanism:advanced_induction_provider"
 				type: "item"
 			}]
-			title: "{quest.meka.32.title}"
 			x: 10.0d
 			y: 11.5d
 		}
@@ -2348,12 +2342,12 @@
 			]
 			description: ["{quest.meka.35.desc}"]
 			id: "24A371935B68036D"
+			subtitle: "Even bigger Battery I/O "
 			tasks: [{
 				id: "176DFCB1B4C8EBDF"
 				item: "mekanism:elite_induction_provider"
 				type: "item"
 			}]
-			title: "{quest.meka.35.title}"
 			x: 10.0d
 			y: 13.5d
 		}
@@ -2364,12 +2358,12 @@
 			]
 			description: ["{quest.meka.38.desc}"]
 			id: "5457F1584CFED690"
+			subtitle: "Biggest Battery I/O "
 			tasks: [{
 				id: "7ED69069088B7CA2"
 				item: "mekanism:ultimate_induction_provider"
 				type: "item"
 			}]
-			title: "{quest.meka.38.title}"
 			x: 10.0d
 			y: 15.5d
 		}
@@ -2383,7 +2377,6 @@
 				item: "mekanism:chemical_crystallizer"
 				type: "item"
 			}]
-			title: "{quest.meka.41.title}"
 			x: 11.0d
 			y: 2.5d
 		}
@@ -2392,12 +2385,12 @@
 			description: ["{quest.meka.40.desc}"]
 			hide_until_deps_visible: false
 			id: "6E97368920DAE881"
+			subtitle: "Doesn't use stress units!"
 			tasks: [{
 				id: "23A2F31DD752A047"
 				item: "mekanism:rotary_condensentrator"
 				type: "item"
 			}]
-			title: "{quest.meka.40.title}"
 			x: 5.0d
 			y: 8.5d
 		}
@@ -2408,6 +2401,7 @@
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
 			id: "1A332CC6CFD92F79"
+			subtitle: "Thermal evaporation in action"
 			tasks: [
 				{
 					id: "14C65A5CDB8391A4"
@@ -2427,7 +2421,7 @@
 					type: "item"
 				}
 			]
-			title: "{quest.meka.39.title}"
+			title: "Thermal Evaporation Tower"
 			x: 22.0d
 			y: 3.5d
 		}
@@ -2475,7 +2469,7 @@
 				title: "Any #forge:dusts/iron"
 				type: "item"
 			}]
-			title: "{quest.meka.92.title}"
+			title: "Iron Dust"
 			x: 14.0d
 			y: 2.5d
 		}
@@ -2492,7 +2486,6 @@
 				item: "mekanism:electrolytic_core"
 				type: "item"
 			}]
-			title: "{quest.meka.95.title}"
 			x: 16.0d
 			y: 2.5d
 		}
@@ -2502,12 +2495,12 @@
 			hide_until_deps_visible: true
 			id: "05D2DA6C4AACB4A2"
 			size: 1.25d
+			subtitle: "No black holes here!"
 			tasks: [{
 				id: "5FFB4B1747446B49"
 				item: "mekanism:teleportation_core"
 				type: "item"
 			}]
-			title: "{quest.meka.42.title}"
 			x: 4.0d
 			y: -11.5d
 		}
@@ -2515,19 +2508,20 @@
 			dependencies: ["37B06FC941C75A60"]
 			description: ["{quest.meka.61.desc}"]
 			id: "26D579BACDB8DD90"
+			subtitle: "Logistical Nightmare"
 			tasks: [{
 				id: "3ECA5EB6CEB08E2A"
 				item: "mekanism:logistical_sorter"
 				type: "item"
 			}]
-			title: "{quest.meka.61.title}"
-			x: -1.0d
-			y: 1.5d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["37B06FC941C75A60"]
 			description: ["{quest.meka.63.desc}"]
 			id: "13FBC17283BA0E53"
+			subtitle: "Savekeeping"
 			tasks: [{
 				id: "767C18BCF8FAA95D"
 				item: {
@@ -2540,7 +2534,7 @@
 				title: "Any #mekanism:personal_storage"
 				type: "item"
 			}]
-			title: "{quest.meka.63.title}"
+			title: "Personal Storage"
 			x: -3.0d
 			y: -0.5d
 		}
@@ -2551,12 +2545,12 @@
 			]
 			description: ["{quest.meka.48.desc}"]
 			id: "2FFCC04506C08E87"
+			subtitle: "Wireless everything!"
 			tasks: [{
 				id: "58DB22855CE10A0A"
 				item: "mekanism:quantum_entangloporter"
 				type: "item"
 			}]
-			title: "{quest.meka.48.title}"
 			x: 6.0d
 			y: -11.5d
 		}
@@ -2569,7 +2563,6 @@
 				item: "mekanism:teleporter"
 				type: "item"
 			}]
-			title: "{quest.meka.45.title}"
 			x: 4.0d
 			y: -13.5d
 		}
@@ -2577,12 +2570,12 @@
 			dependencies: ["42119548DAF90F47"]
 			description: ["{quest.meka.56.desc}"]
 			id: "06EAB6D86F2CE214"
+			subtitle: "Not so strong ingot"
 			tasks: [{
 				id: "30813BD113CD5C80"
 				item: "mekanism:ingot_refined_glowstone"
 				type: "item"
 			}]
-			title: "{quest.meka.56.title}"
 			x: 12.0d
 			y: -7.5d
 		}
@@ -2598,7 +2591,6 @@
 				item: "mekanism:teleporter_frame"
 				type: "item"
 			}]
-			title: "{quest.meka.46.title}"
 			x: 10.0d
 			y: -13.5d
 		}
@@ -2619,7 +2611,7 @@
 				title: "a123"
 				type: "checkmark"
 			}]
-			title: "{quest.meka.28.title}"
+			title: "Big battery time!"
 			x: 1.0d
 			y: 9.5d
 		}
@@ -2627,13 +2619,11 @@
 			dependencies: ["152091CB3B8EDA46"]
 			description: ["{quest.meka.97.desc}"]
 			id: "0FD3A26A0ECE27E5"
-			subtitle: "{quest.meka.97.subtitle}"
 			tasks: [{
 				id: "6866B32A164E517F"
 				item: "mekanism:electrolytic_separator"
 				type: "item"
 			}]
-			title: "{quest.meka.97.title}"
 			x: 17.0d
 			y: 1.5d
 		}
@@ -2642,12 +2632,12 @@
 			description: ["{quest.meka.25.desc}"]
 			hide_until_deps_visible: true
 			id: "0D5F6DB2C48C0DC7"
+			subtitle: "Energy of the wind"
 			tasks: [{
 				id: "342A90218AAFD601"
 				item: "mekanismgenerators:wind_generator"
 				type: "item"
 			}]
-			title: "{quest.meka.25.title}"
 			x: 7.0d
 			y: 5.5d
 		}
@@ -2656,14 +2646,14 @@
 			description: ["{quest.meka.26.desc}"]
 			hide_until_deps_visible: true
 			id: "4E117CF81AF1B7CD"
+			subtitle: "Burning Gases"
 			tasks: [{
 				id: "03EC9C89766DF1F7"
 				item: "mekanismgenerators:gas_burning_generator"
 				type: "item"
 			}]
-			title: "{quest.meka.26.title}"
-			x: 18.0d
-			y: 2.5d
+			x: 17.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -2673,12 +2663,12 @@
 			description: ["{quest.meka.23.desc}"]
 			hide_until_deps_visible: true
 			id: "238D6B5DF5DCF916"
+			subtitle: "Useless solar panel"
 			tasks: [{
 				id: "583E4B02BCFAB66D"
 				item: "mekanismgenerators:solar_generator"
 				type: "item"
 			}]
-			title: "{quest.meka.23.title}"
 			x: 6.0d
 			y: 7.5d
 		}
@@ -2686,12 +2676,12 @@
 			dependencies: ["238D6B5DF5DCF916"]
 			description: ["{quest.meka.24.desc}"]
 			id: "0293243342E01312"
+			subtitle: "Useful solar panel"
 			tasks: [{
 				id: "37124C2E56672F46"
 				item: "mekanismgenerators:advanced_solar_generator"
 				type: "item"
 			}]
-			title: "{quest.meka.24.title}"
 			x: 7.0d
 			y: 8.5d
 		}
@@ -2701,12 +2691,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "4DBEBE514C5D068E"
+			subtitle: "Energy of the sun"
 			tasks: [{
 				id: "605DCE90F5CDF00A"
 				item: "mekanismgenerators:solar_panel"
 				type: "item"
 			}]
-			title: "{quest.meka.22.title}"
 			x: 8.0d
 			y: 7.5d
 		}
@@ -2720,7 +2710,6 @@
 				item: "mekanism:chemical_washer"
 				type: "item"
 			}]
-			title: "{quest.meka.88.title}"
 			x: 11.0d
 			y: 3.5d
 		}
@@ -2734,7 +2723,6 @@
 				item: "mekanism:chemical_dissolution_chamber"
 				type: "item"
 			}]
-			title: "{quest.meka.86.title}"
 			x: 10.0d
 			y: 3.5d
 		}
@@ -2743,12 +2731,12 @@
 			description: ["{quest.meka.77.desc}"]
 			hide_until_deps_visible: true
 			id: "0F9F4AA425D11F76"
+			subtitle: "Blender.exe"
 			tasks: [{
 				id: "6C15D64E4ED43B77"
 				item: "mekanism:nutritional_liquifier"
 				type: "item"
 			}]
-			title: "{quest.meka.77.title}"
 			x: 5.0d
 			y: 1.5d
 		}
@@ -2757,12 +2745,12 @@
 			description: ["{quest.meka.87.desc}"]
 			hide_until_deps_visible: true
 			id: "3E518674153D0FA9"
+			subtitle: "You know this modpack has Create, right?"
 			tasks: [{
 				id: "6E6DF3A4B26A7063"
 				item: "mekanism:formulaic_assemblicator"
 				type: "item"
 			}]
-			title: "{quest.meka.87.title}"
 			x: 11.0d
 			y: -0.5d
 		}
@@ -2770,12 +2758,12 @@
 			dependencies: ["05D2DA6C4AACB4A2"]
 			description: ["{quest.meka.44.desc}"]
 			id: "1A238FB3373842F9"
+			subtitle: "Secured Mekamisms"
 			tasks: [{
 				id: "7143521ECC951138"
 				item: "mekanism:security_desk"
 				type: "item"
 			}]
-			title: "{quest.meka.44.title}"
 			x: 2.0d
 			y: -13.5d
 		}
@@ -2784,12 +2772,12 @@
 			description: ["{quest.meka.27.desc}"]
 			hide_until_deps_visible: true
 			id: "121317D40B896327"
+			subtitle: "(Actually) Green energy"
 			tasks: [{
 				id: "07FD5627AFF1663A"
 				item: "mekanismgenerators:bio_generator"
 				type: "item"
 			}]
-			title: "{quest.meka.27.title}"
 			x: 1.0d
 			y: 3.5d
 		}
@@ -2803,7 +2791,6 @@
 				item: "mekanism:resistive_heater"
 				type: "item"
 			}]
-			title: "{quest.meka.85.title}"
 			x: 5.0d
 			y: -1.5d
 		}
@@ -2811,12 +2798,12 @@
 			dependencies: ["16FAA83B048985DD"]
 			description: ["{quest.meka.69.desc}"]
 			id: "60872E585150C8D4"
+			subtitle: "Under preassure"
 			tasks: [{
 				id: "268096D5BBAA7037"
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			title: "{quest.meka.69.title}"
 			x: 9.0d
 			y: -2.5d
 		}
@@ -2824,13 +2811,11 @@
 			dependencies: ["16FAA83B048985DD"]
 			description: ["{quest.meka.70.desc}"]
 			id: "61DAEBB4FA84E63D"
-			subtitle: "{quest.meka.70.subtitle}"
 			tasks: [{
 				id: "3BCAA75F401B6015"
 				item: "mekanism:purification_chamber"
 				type: "item"
 			}]
-			title: "{quest.meka.70.title}"
 			x: 9.0d
 			y: -4.5d
 		}
@@ -2843,7 +2828,6 @@
 				item: "mekanism:chemical_injection_chamber"
 				type: "item"
 			}]
-			title: "{quest.meka.71.title}"
 			x: 10.0d
 			y: -3.5d
 		}
@@ -2856,7 +2840,6 @@
 				item: "mekanism:hdpe_sheet"
 				type: "item"
 			}]
-			title: "{quest.meka.75.title}"
 			x: 26.0d
 			y: -5.5d
 		}
@@ -2864,13 +2847,14 @@
 			dependencies: ["7F9A49100E2C93D4"]
 			description: ["{quest.meka.74.desc}"]
 			id: "4EF88C2A1B845264"
+			subtitle: "almostplastic"
 			tasks: [{
 				count: 3L
 				id: "416123BD3F30DADD"
 				item: { Count: 3, id: "mekanism:hdpe_pellet" }
 				type: "item"
 			}]
-			title: "{quest.meka.74.title}"
+			title: "HDPE Pellet"
 			x: 23.0d
 			y: -5.5d
 		}
@@ -2878,12 +2862,12 @@
 			dependencies: ["1A529EAEBFC7B6FB"]
 			description: ["{quest.meka.73.desc}"]
 			id: "7F9A49100E2C93D4"
+			subtitle: "notplastic"
 			tasks: [{
 				id: "7E46DA1402CD1510"
 				item: "mekanism:substrate"
 				type: "item"
 			}]
-			title: "{quest.meka.73.title}"
 			x: 18.0d
 			y: -5.5d
 		}
@@ -2896,7 +2880,6 @@
 				item: "mekanism:bio_fuel"
 				type: "item"
 			}]
-			title: "{quest.meka.72.title}"
 			x: 14.0d
 			y: -5.5d
 		}
@@ -2913,7 +2896,7 @@
 				title: "tele"
 				type: "checkmark"
 			}]
-			title: "{quest.meka.47.title}"
+			title: "How to: Teleporter"
 			x: 7.0d
 			y: -13.5d
 		}
@@ -2921,12 +2904,12 @@
 			dependencies: ["3E518674153D0FA9"]
 			description: ["{quest.meka.89.desc}"]
 			id: "5A1BDB6E45003F3F"
+			subtitle: "just why"
 			tasks: [{
 				id: "315233E4D8D3B3DF"
 				item: "mekanism:crafting_formula"
 				type: "item"
 			}]
-			title: "{quest.meka.89.title}"
 			x: 12.0d
 			y: -1.5d
 		}
@@ -2949,7 +2932,7 @@
 				}
 				type: "item"
 			}]
-			title: "{quest.meka.151.title}"
+			title: "Stronger wings"
 			x: 27.0d
 			y: -6.5d
 		}
@@ -2958,13 +2941,14 @@
 			description: ["{quest.meka.128.desc}"]
 			icon: "mekanism:sulfur_dioxide_bucket"
 			id: "52795A656E90F398"
+			subtitle: "Gas Sulfur²"
 			tasks: [{
 				icon: "create:brass_hand"
 				id: "507370457C85E239"
 				title: "Right-click any block while Suilfur Dioxide is inside"
 				type: "custom"
 			}]
-			title: "{quest.meka.127.title}"
+			title: "Sulfur Dioxide"
 			x: 20.0d
 			y: 13.5d
 		}
@@ -2973,13 +2957,14 @@
 			description: ["{quest.meka.128.desc}"]
 			icon: "mekanism:sulfur_trioxide_bucket"
 			id: "7BC2ECAB8B22CBFF"
+			subtitle: "Gas Sulfur³"
 			tasks: [{
 				icon: "create:brass_hand"
 				id: "040A29662464CD85"
 				title: "Right-click any block while Suilfur Trioxide is inside"
 				type: "custom"
 			}]
-			title: "{quest.meka.128.title}"
+			title: "Sulfur Trioxide"
 			x: 24.0d
 			y: 13.5d
 		}
@@ -2994,7 +2979,7 @@
 				title: "Right-click any block while Suilfuric Acid is inside"
 				type: "custom"
 			}]
-			title: "{quest.meka.130.title}"
+			title: "Sulfuric Acid"
 			x: 28.0d
 			y: 13.5d
 		}
@@ -3013,11 +2998,15 @@
 				title: "Any #forge:dusts/tin"
 				type: "item"
 			}]
+			title: "Tin Dust"
 			x: 14.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["27C740059DA71649"]
+			dependencies: [
+				"27C740059DA71649"
+				"2B696CA62EB0083F"
+			]
 			id: "61714F3150978ED8"
 			tasks: [{
 				id: "11994A026EC356BE"
@@ -3049,6 +3038,7 @@
 				title: "Any #forge:dusts/diamond"
 				type: "item"
 			}]
+			title: "Diamond Dust"
 			x: 14.0d
 			y: -3.5d
 		}
@@ -3121,7 +3111,7 @@
 				id: "37055A949FE265A0"
 				type: "checkmark"
 			}]
-			title: "{quest.meka.129.title}"
+			title: "Stay Hydrated"
 			x: 24.0d
 			y: 10.5d
 		}
@@ -3181,6 +3171,7 @@
 				"02AFE459E338D665"
 			]
 			id: "2156FF005A98CD92"
+			subtitle: "cat_cronch_crunch.gif"
 			tasks: [{
 				id: "29BA02E24209C7E3"
 				item: {
@@ -3405,7 +3396,6 @@
 				item: "mekanism:solar_neutron_activator"
 				type: "item"
 			}]
-			title: "{quest.meka.76.title}"
 			x: 27.0d
 			y: -4.5d
 		}
@@ -3587,7 +3577,6 @@
 				item: "mekanism:isotopic_centrifuge"
 				type: "item"
 			}]
-			title: "{quest.meka.142.title}"
 			x: 1.0d
 			y: -6.5d
 		}
@@ -3634,6 +3623,66 @@
 			}]
 			x: 6.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["37B06FC941C75A60"]
+			id: "6F090DF94C778B3A"
+			subtitle: "Logisticly Improbable"
+			tasks: [{
+				id: "3C195C0F74609AF4"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "3B76FBF7D6E731C4"
+			subtitle: "Most used cable"
+			tasks: [{
+				id: "2D4D828050F772B5"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "057B264D01290588"
+			subtitle: "Moving Luqids"
+			tasks: [{
+				id: "7E310BF658EDC8CC"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "2B2DA9C17AD1456B"
+			subtitle: "Least used cable"
+			tasks: [{
+				id: "7F3DE770F40B4109"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "68D9DEF49C85661C"
+			subtitle: "Pass the gas"
+			tasks: [{
+				id: "5AEAD569C7A5F34A"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.5d
 		}
 	]
 	title: "Osmium Age"
