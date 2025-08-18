@@ -3,6 +3,14 @@
 	default_quest_shape: ""
 	filename: "botania"
 	group: "1B9B9B5F76BED733"
+	icon: {
+		Count: 1
+		id: "botania:twig_wand"
+		tag: {
+			color1: 0
+			color2: 0
+		}
+	}
 	id: "4C1A87EFA64816EA"
 	images: [
 		{
@@ -62,6 +70,7 @@
 		{
 			click: "<ftbq-image>"
 			height: 1.0d
+			hover: ["block.minecraft.oak_log"]
 			image: "minecraft:block/oak_log"
 			rotation: 0.0d
 			width: 1.0d
@@ -69,7 +78,9 @@
 			y: 12.5d
 		}
 		{
+			click: "<ftbq-image>"
 			height: 1.0d
+			hover: ["60 Seconds"]
 			image: "fancymenu:textures/contextmenu/icons/arrow_up.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -326,8 +337,78 @@
 			x: -9.5d
 			y: 9.5d
 		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["block.minecraft.oak_log"]
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 12.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["block.minecraft.oak_log"]
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 12.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["block.minecraft.oak_log"]
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 13.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["block.minecraft.oak_log"]
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 14.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["block.minecraft.oak_log"]
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 14.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["block.minecraft.oak_log"]
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 14.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["block.minecraft.oak_log"]
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 13.5d
+		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -378,10 +459,7 @@
 				item: {
 					Count: 1
 					id: "botania:twig_wand"
-					tag: {
-						color1: 0
-						color2: 0
-					}
+					tag: { }
 				}
 				type: "item"
 			}]
