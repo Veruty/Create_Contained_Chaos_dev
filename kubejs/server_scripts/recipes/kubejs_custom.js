@@ -9,16 +9,6 @@ ServerEvents.recipes(e => {
     e.recipes.create.mixing('2x kubejs:moon_cheese_alloy', [Fluid.of('kubejs:molten_moon_cheese', 500), Fluid.of('kubejs:molten_iron', 500)])
     e.recipes.create.mixing('2x kubejs:reinforced_moon_cheese_alloy', ['kubejs:moon_cheese_alloy', '#forge:ingots/steel']).heated()
 	e.recipes.create.sequenced_assembly([
-        'kubejs:unstable_alloy'
-    ], 'kubejs:condensed_alloy', [
-        e.recipes.createDeploying('kubejs:incomplete_unstable_alloy',['kubejs:incomplete_unstable_alloy', '#forge:ingots/osmium']),
-        e.recipes.createDeploying('kubejs:incomplete_unstable_alloy',['kubejs:incomplete_unstable_alloy', '#forge:ingots/lead']),
-        e.recipes.createDeploying('kubejs:incomplete_unstable_alloy',['kubejs:incomplete_unstable_alloy', '#forge:ingots/uranium']),
-        e.recipes.createDeploying('kubejs:incomplete_unstable_alloy',['kubejs:incomplete_unstable_alloy', 'minecraft:diamond']),
-        e.recipes.createDeploying('kubejs:incomplete_unstable_alloy',['kubejs:incomplete_unstable_alloy', 'minecraft:netherite_ingot']),
-        e.recipes.createPressing('kubejs:incomplete_unstable_alloy','kubejs:incomplete_unstable_alloy')
-    ]).transitionalItem('kubejs:incomplete_unstable_alloy').loops(8)
-	e.recipes.create.sequenced_assembly([
         'kubejs:unstable_alloy_sword'
     ], 'minecraft:netherite_sword', [
         e.recipes.createDeploying('kubejs:incomplete_unstable_alloy_sword',['kubejs:incomplete_unstable_alloy_sword', 'kubejs:unstable_alloy']),
@@ -111,4 +101,37 @@ ServerEvents.recipes(e => {
   "result": {"base_ingredient": {"item": "kubejs:condensed_alloy"}, "count": 2},
   "time": 200
 })
+e.custom({
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+	{
+      "item": "kubejs:redstone_alloy"
+    }
+  ],
+  "energy": 51200,
+  "input": {
+    "item": "kubejs:condensed_alloy"
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "item": "kubejs:unstable_alloy"
+      },
+      "count": 2
+    }
+  ],
+  "time": 100
+})
+	e.custom({"type": "thermal:smelter",
+		"ingredients": [
+			{"item": "kubejs:condensed_alloy", "count": 1},
+			{ "item": "kubejs:redstone_alloy", "count": 1},
+			{"item": "botania:terrasteel_ingot", "count": 1},
+		],
+		"result": [{"item": "kubejs:unstable_alloy", "count": 2}],
+		"energy": 128000
+	})
 })
