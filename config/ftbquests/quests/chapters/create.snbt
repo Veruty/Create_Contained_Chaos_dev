@@ -1395,13 +1395,14 @@
 				}
 			]
 			size: 2.0d
+			subtitle: "Mixing Metals"
 			tasks: [{
 				count: 2L
 				id: "0F09BF56F87E0B78"
 				item: { Count: 2, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			title: "Mixing Metals"
+			title: "Brass Ingot"
 			x: 8.0d
 			y: 10.5d
 		}

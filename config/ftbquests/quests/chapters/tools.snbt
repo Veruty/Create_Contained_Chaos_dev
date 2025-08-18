@@ -746,12 +746,12 @@
 			description: ["{quest.meka.64.desc}"]
 			hide_until_deps_visible: false
 			id: "2E5025697AF514D2"
+			subtitle: "Configure Everything"
 			tasks: [{
 				id: "30FB333F89D2C39C"
 				item: "mekanism:configurator"
 				type: "item"
 			}]
-			title: "{quest.meka.64.title}"
 			x: -3.0d
 			y: -4.0d
 		}
@@ -759,12 +759,12 @@
 			dependencies: ["37B06FC941C75A60"]
 			hide_until_deps_visible: false
 			id: "0E641878ED919900"
+			subtitle: "Ctrl+C, Ctrl+V"
 			tasks: [{
 				id: "665F86D2F4E901C7"
 				item: "mekanism:configuration_card"
 				type: "item"
 			}]
-			title: "{quest.meka.90.title}"
 			x: -6.0d
 			y: -5.5d
 		}
@@ -773,6 +773,7 @@
 			description: ["{quest.meka.109.desc}"]
 			hide_until_deps_visible: true
 			id: "017D7401B588065C"
+			subtitle: "Nuclear safety 101"
 			tasks: [
 				{
 					id: "19E09F69FAA29035"
@@ -795,7 +796,7 @@
 					type: "item"
 				}
 			]
-			title: "{quest.meka.109.title}"
+			title: "Hazmat Suit"
 			x: -6.0d
 			y: -4.0d
 		}
@@ -812,7 +813,6 @@
 				item: "mekanism:robit"
 				type: "item"
 			}]
-			title: "{quest.ben.2.title}"
 			x: 1.5d
 			y: -4.0d
 		}
@@ -850,7 +850,6 @@
 				item: "mekanism:canteen"
 				type: "item"
 			}]
-			title: "{quest.meka.78.title}"
 			x: 4.5d
 			y: -4.0d
 		}
@@ -858,12 +857,12 @@
 			dependencies: ["05D2DA6C4AACB4A2"]
 			description: ["{quest.meka.43.desc}"]
 			id: "1074858BE75A3D4E"
+			subtitle: "Personal teleportation"
 			tasks: [{
 				id: "197D10C9A0C0BBA2"
 				item: "mekanism:portable_teleporter"
 				type: "item"
 			}]
-			title: "{quest.meka.43.title}"
 			x: 4.5d
 			y: -2.5d
 		}
@@ -1119,13 +1118,13 @@
 			description: ["{quest.meka.141.desc}"]
 			hide_until_deps_visible: true
 			id: "7937800A7D3DDD04"
+			subtitle: "Useless Waste"
 			tasks: [{
 				consume_items: false
 				id: "6235364FD4D2E117"
 				item: "mekanism:radioactive_waste_barrel"
 				type: "item"
 			}]
-			title: "{quest.meka.141.title}"
 			x: -7.5d
 			y: -2.5d
 		}
