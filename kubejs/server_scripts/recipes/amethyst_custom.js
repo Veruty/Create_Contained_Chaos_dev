@@ -17,7 +17,7 @@ ServerEvents.recipes(e => {
 	"result": [{"item": "kubejs:amethyst_alloy"}]
 	})
 	e.custom({"type": "thermal:crucible",
-	"ingredient": {"tag": "forge:dusts/amethyst"},
+	"ingredient": {"item": "minecraft:amethyst_shard"},
 	"result": [{"fluid": "kubejs:liquid_amethyst", "amount": 100}],
 	"energy": 8000
 	})
