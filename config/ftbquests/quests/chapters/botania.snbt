@@ -24,14 +24,6 @@
 			y: 12.5d
 		}
 		{
-			height: 1.0d
-			image: "fancymenu:textures/contextmenu/icons/arrow_up.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.5d
-			y: 11.5d
-		}
-		{
 			click: "#2D04240028CE46B9"
 			height: 1.0d
 			hover: ["block.botania.pure_daisy"]
@@ -57,14 +49,14 @@
 			rotation: 0.0d
 			width: 10.0d
 			x: 13.0d
-			y: 15.0d
+			y: 18.0d
 		}
 		{
 			height: 7.0d
 			image: "kubejs:textures/questimg/botania/2025-08-17_12.41.36-removebg-preview.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 16.0d
+			x: 15.5d
 			y: 5.5d
 		}
 		{
@@ -407,27 +399,63 @@
 			x: -11.5d
 			y: 13.5d
 		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["60 Seconds"]
+			image: "fancymenu:textures/contextmenu/icons/arrow_up.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 11.5d
+		}
 	]
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "106D257CF5F371AA"
+			linked_quest: "0BC9E2BF3F83029D"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "313734DAD55F7238"
+			linked_quest: "03CB1A747D019D4E"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "6C3A5641B692D2D9"
+			linked_quest: "1BF2B00BBDA7C6C3"
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			id: "4545453179439F4C"
+			linked_quest: "134C2C44F7D9C0AB"
+			x: 13.0d
+			y: 9.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["79619B03DF0DE28F"]
+			description: ["Obtain a pure daisy from white flowers, allowing for creative living stone and wood"]
 			id: "2D04240028CE46B9"
-			subtitle: "Obtain a pure daisy from white flowers, allowing for creative living stone and wood"
+			subtitle: "ACS Grade"
 			tasks: [{
 				id: "58C9FCC4E7E8A550"
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			title: "ACS Grade"
 			x: -8.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["2D04240028CE46B9"]
+			description: ["Obtain Living Rock by surounding a Pure Daisy with Stone "]
 			id: "710414E22309EFF9"
-			subtitle: "Obtain Living rock by surounding a pure daisy with it. 99.1% pure crystals"
+			subtitle: "99.1% pure crystals"
 			tasks: [{
 				id: "2F6B124C1318F8E9"
 				item: "botania:livingrock"
@@ -439,21 +467,22 @@
 		}
 		{
 			dependencies: ["2D04240028CE46B9"]
+			description: ["Obtain Living wood by placing logs around a pure daisy"]
 			id: "11A2CEC81F265FE9"
-			subtitle: "Obtain Living wood by placing logs around a pure daisy"
+			subtitle: "Its.. alive?"
 			tasks: [{
 				id: "6DAA880FC31E1DD8"
 				item: "botania:livingwood_log"
 				type: "item"
 			}]
-			title: "Its.. alive?"
 			x: -10.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["11A2CEC81F265FE9"]
+			description: ["Obtain a wand of the forest, which can be used to configure blocks, and pull rabbits out of hats"]
 			id: "34D92E67DE1907A1"
-			subtitle: "Obtain a wand of the forest, which can be used to configure blocks, and pull rabbits out of hats"
+			subtitle: "Abrakadabra!"
 			tasks: [{
 				id: "619FE2BE12FC4076"
 				item: {
@@ -463,20 +492,19 @@
 				}
 				type: "item"
 			}]
-			title: "Abrakadabra!"
 			x: -10.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["11A2CEC81F265FE9"]
+			description: ["Obtain a mana spreader, used to transfer mana from generators to storage pools"]
 			id: "04DB82D9A305C6E5"
-			subtitle: "Obtain a mana spreader, used to transfer mana from generators to storage pools"
+			subtitle: "Lag Machine lmfao"
 			tasks: [{
 				id: "1209E62A622A52CF"
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			title: "Lag Machine lmfao"
 			x: -12.5d
 			y: 7.5d
 		}
@@ -532,7 +560,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["23262E35FE142578"]
+			dependencies: [
+				"03CB1A747D019D4E"
+				"1BF2B00BBDA7C6C3"
+			]
 			id: "613F96A1F6686DC2"
 			subtitle: "Create a runic altar which can be used to create runes, which are needed to make better flowers and gear"
 			tasks: [{
@@ -541,36 +572,11 @@
 				type: "item"
 			}]
 			title: "Woah magic!"
-			x: 6.0d
-			y: 10.5d
+			x: 1.5d
+			y: 11.5d
 		}
 		{
-			dependencies: ["0FA6058EA8FF3A04"]
-			id: "23262E35FE142578"
-			subtitle: "Infuse an item with mana, to create a better version of it. can be used to craft higher tier thingies!!"
-			tasks: [
-				{
-					id: "7A715C04D9D837F9"
-					item: "botania:mana_pearl"
-					type: "item"
-				}
-				{
-					id: "5EA4503F81B0235A"
-					item: "botania:mana_diamond"
-					type: "item"
-				}
-				{
-					id: "65662DD677B035A9"
-					item: "botania:manasteel_ingot"
-					type: "item"
-				}
-			]
-			title: "Mana infusion"
-			x: 6.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["23262E35FE142578"]
+			dependencies: ["5F20BF6C046A0340"]
 			id: "34D31EF42D7267C7"
 			subtitle: "Create a fabulous mana pool, which can be used to craft... the ####"
 			tasks: [{
@@ -579,8 +585,8 @@
 				type: "item"
 			}]
 			title: "OMG FABULOUSSSS"
-			x: 6.0d
-			y: 5.5d
+			x: 18.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["34D31EF42D7267C7"]
@@ -594,8 +600,8 @@
 				type: "item"
 			}]
 			title: "The pool of everlasting guilt"
-			x: 8.0d
-			y: 5.5d
+			x: 20.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["613F96A1F6686DC2"]
@@ -630,8 +636,8 @@
 				}
 			]
 			title: "You runed it!"
-			x: 6.0d
-			y: 13.0d
+			x: 1.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["00BC5EB6BAE2E88A"]
@@ -660,8 +666,8 @@
 				}
 			]
 			title: "The Season... of Rune!"
-			x: 4.0d
-			y: 13.0d
+			x: -1.5d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -722,23 +728,10 @@
 			}]
 			title: "The avatar"
 			x: 13.0d
-			y: 13.0d
+			y: 16.0d
 		}
 		{
-			dependencies: ["72EE99B1831D7BD4"]
-			id: "56978491C11520E6"
-			subtitle: "Create Terrasteel, and use it wisely, perhaps it can be used for THAT ritual..."
-			tasks: [{
-				id: "3A9BD48A32036F80"
-				item: "botania:terrasteel_ingot"
-				type: "item"
-			}]
-			title: "Supa Steel!"
-			x: 13.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["56978491C11520E6"]
+			dependencies: ["134C2C44F7D9C0AB"]
 			id: "20F3368C6AAEA8A6"
 			subtitle: "Create an elven core, which can be used to perform a special ritual to commune with other realms"
 			tasks: [{
@@ -751,7 +744,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["56978491C11520E6"]
+			dependencies: ["134C2C44F7D9C0AB"]
 			id: "64561D6FFC9D8D8D"
 			subtitle: "Create a natura pylon, which is needed for the communion ritual"
 			tasks: [{
@@ -808,8 +801,8 @@
 		}
 		{
 			dependencies: ["04DB82D9A305C6E5"]
+			description: ["Create an elven mana spreader, which transfers much more mana at a much higher and faster rate."]
 			id: "68DC3A875E494615"
-			subtitle: "Create an elven mana spreader, which transfers much more mana at a much higher and faster rate."
 			tasks: [{
 				id: "2529C4332A3F791D"
 				item: "botania:elven_spreader"
@@ -861,8 +854,8 @@
 				}
 			]
 			title: "Gotta catch 'em all!"
-			x: 2.0d
-			y: 13.0d
+			x: -3.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["4467E8BA188037B0"]
@@ -1046,7 +1039,7 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["56978491C11520E6"]
+			dependencies: ["134C2C44F7D9C0AB"]
 			id: "3860993DD424FB5C"
 			subtitle: "Obtain terrasteel armor, making you an absolute tank!"
 			tasks: [
@@ -1100,7 +1093,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["56978491C11520E6"]
+			dependencies: ["134C2C44F7D9C0AB"]
 			id: "69A7FB4817F3010F"
 			subtitle: "Obtain a terra tool, which is much stronger than regular tools, some with hidden abilities!"
 			tasks: [
@@ -1343,8 +1336,8 @@
 				type: "item"
 			}]
 			title: "Yea! Science!"
-			x: -0.5d
-			y: 6.5d
+			x: -2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0FF4A0F578F8FD2C"]
@@ -1356,8 +1349,8 @@
 				type: "item"
 			}]
 			title: "2? 4? 8?!?!?!"
-			x: -0.5d
-			y: 4.5d
+			x: -3.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0FA6058EA8FF3A04"]
@@ -1382,8 +1375,8 @@
 				type: "item"
 			}]
 			title: "Wildin' out"
-			x: -2.5d
-			y: 4.5d
+			x: -3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["36AA3D4006342EC4"]
@@ -1399,7 +1392,7 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["56978491C11520E6"]
+			dependencies: ["134C2C44F7D9C0AB"]
 			id: "30861B4B1386D151"
 			subtitle: "Create a thorny chakram, which you can throw at people, no doubt leaving a few thorns left behind"
 			tasks: [{
@@ -1425,7 +1418,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["23262E35FE142578"]
+			dependencies: [
+				"03CB1A747D019D4E"
+				"0BC9E2BF3F83029D"
+			]
 			id: "59EAC4E455B15BAA"
 			subtitle: "obtain an assembly halo, which is useless lmfao"
 			tasks: [{
@@ -1434,11 +1430,14 @@
 				type: "item"
 			}]
 			title: "Now we're crafting!"
-			x: 5.0d
-			y: 6.5d
+			x: 0.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["59EAC4E455B15BAA"]
+			dependencies: [
+				"59EAC4E455B15BAA"
+				"1BF2B00BBDA7C6C3"
+			]
 			id: "2ECC429C6A7D33CE"
 			subtitle: "This little thingy will take items from your inventory, and craft it into something which you set, allowing you to make all sorts of trinkets on the go"
 			tasks: [{
@@ -1447,8 +1446,8 @@
 				type: "item"
 			}]
 			title: "Its crafting time"
-			x: 3.0d
-			y: 6.5d
+			x: 0.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["36AA3D4006342EC4"]
@@ -1460,7 +1459,7 @@
 				type: "item"
 			}]
 			title: "The path to Asgard"
-			x: 16.5d
+			x: 18.5d
 			y: 8.0d
 		}
 		{
@@ -1473,8 +1472,8 @@
 				type: "item"
 			}]
 			title: "Dirty stick"
-			x: 7.0d
-			y: 14.0d
+			x: 4.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["61C979651BB832A7"]
@@ -1486,11 +1485,11 @@
 				type: "item"
 			}]
 			title: "Dirty stick mk II"
-			x: 8.0d
-			y: 15.0d
+			x: 6.5d
+			y: 17.0d
 		}
 		{
-			dependencies: ["23262E35FE142578"]
+			dependencies: ["1BF2B00BBDA7C6C3"]
 			id: "44CF8BAB5EF033FE"
 			subtitle: "Shows you ores in your vicinity, even through walls!"
 			tasks: [{
@@ -1499,8 +1498,8 @@
 				type: "item"
 			}]
 			title: "Woah cool! XRAY!!!"
-			x: 7.0d
-			y: 8.5d
+			x: -3.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["36AA3D4006342EC4"]
@@ -1525,8 +1524,8 @@
 				type: "item"
 			}]
 			title: "builder's wand"
-			x: 1.0d
-			y: 12.0d
+			x: -4.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["00BC5EB6BAE2E88A"]
@@ -1542,8 +1541,8 @@
 				type: "item"
 			}]
 			title: "Weeeee"
-			x: 9.0d
-			y: 12.0d
+			x: 0.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["3A79F1EE9B098258"]
@@ -1594,8 +1593,8 @@
 				type: "item"
 			}]
 			title: "great for rock fights!"
-			x: 9.0d
-			y: 14.0d
+			x: 4.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["03B67D04AEA31C6D"]
@@ -1607,8 +1606,8 @@
 				type: "item"
 			}]
 			title: "Balling"
-			x: 11.0d
-			y: 14.0d
+			x: 6.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["36AA3D4006342EC4"]
@@ -1620,7 +1619,7 @@
 				type: "item"
 			}]
 			title: "Self explanatory :p"
-			x: 18.5d
+			x: 16.5d
 			y: 8.0d
 		}
 		{
@@ -1637,7 +1636,7 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["23262E35FE142578"]
+			dependencies: ["0BC9E2BF3F83029D"]
 			id: "080C2EA64F093785"
 			subtitle: "Will outline a circle/sphere, great for building the forbidden shapes!"
 			tasks: [{
@@ -1646,11 +1645,11 @@
 				type: "item"
 			}]
 			title: "Circle timeeee!"
-			x: 5.0d
-			y: 8.5d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["23262E35FE142578"]
+			dependencies: ["0BC9E2BF3F83029D"]
 			id: "04D905FB58030CA9"
 			subtitle: "Will store your trinkets, so that you can always have a spare on hand!"
 			tasks: [{
@@ -1659,8 +1658,8 @@
 				type: "item"
 			}]
 			title: "Too many to chose from!"
-			x: 7.0d
-			y: 6.5d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["00BC5EB6BAE2E88A"]
@@ -1672,11 +1671,14 @@
 				type: "item"
 			}]
 			title: "Passive income"
-			x: 7.0d
-			y: 12.0d
+			x: 2.5d
+			y: 15.0d
 		}
 		{
-			dependencies: ["23262E35FE142578"]
+			dependencies: [
+				"03CB1A747D019D4E"
+				"1BF2B00BBDA7C6C3"
+			]
 			id: "6517693766FB9201"
 			subtitle: "Allows you to store mana that you can use on the go!"
 			tasks: [{
@@ -1685,8 +1687,8 @@
 				type: "item"
 			}]
 			title: "Portable Magic!"
-			x: 6.0d
-			y: 3.5d
+			x: 2.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["6517693766FB9201"]
@@ -1698,8 +1700,8 @@
 				type: "item"
 			}]
 			title: "Put a ring on it"
-			x: 6.0d
-			y: 1.5d
+			x: 4.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["67FB60B7BEEB1B0F"]
@@ -1711,8 +1713,8 @@
 				type: "item"
 			}]
 			title: "No boom?"
-			x: 3.0d
-			y: 12.0d
+			x: -2.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["67FB60B7BEEB1B0F"]
@@ -1724,7 +1726,7 @@
 				type: "item"
 			}]
 			title: "Trans your gender"
-			x: 5.0d
+			x: -1.5d
 			y: 14.0d
 		}
 		{
@@ -1776,8 +1778,8 @@
 				type: "item"
 			}]
 			title: "Fire Fighter"
-			x: 5.0d
-			y: 12.0d
+			x: -2.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["3A79F1EE9B098258"]
@@ -1802,8 +1804,8 @@
 				type: "item"
 			}]
 			title: "Nyoooom!"
-			x: 5.0d
-			y: 16.0d
+			x: 2.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["3A79F1EE9B098258"]
@@ -1865,8 +1867,8 @@
 				type: "item"
 			}]
 			title: "Long Long man"
-			x: 1.0d
-			y: 14.0d
+			x: -4.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["00BC5EB6BAE2E88A"]
@@ -1878,8 +1880,8 @@
 				type: "item"
 			}]
 			title: "Open your inner eye"
-			x: 7.0d
-			y: 16.0d
+			x: 0.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["3A79F1EE9B098258"]
