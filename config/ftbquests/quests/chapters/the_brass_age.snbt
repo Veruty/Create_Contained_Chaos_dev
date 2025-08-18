@@ -137,7 +137,7 @@
 		{
 			id: "2FA4729095E2EAC1"
 			linked_quest: "2532C79C4742628A"
-			x: 5.0d
+			x: 7.0d
 			y: -2.0d
 		}
 		{
@@ -804,6 +804,17 @@
 				type: "item"
 			}]
 			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["558178D79A181CAD"]
+			id: "6D49429A3FE3EEF7"
+			tasks: [{
+				id: "024E4518DDE03BA2"
+				item: "create_hypertube:hypertube_accelerator"
+				type: "item"
+			}]
+			x: 5.0d
 			y: -2.0d
 		}
 	]
