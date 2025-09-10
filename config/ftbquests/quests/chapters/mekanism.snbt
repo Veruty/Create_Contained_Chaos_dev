@@ -1485,6 +1485,14 @@
 			x: -1.0d
 			y: 12.5d
 		}
+		{
+			height: 1.2d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.2d
+			x: 28.0d
+			y: 13.5d
+		}
 	]
 	order_index: 5
 	quest_links: [
@@ -2973,6 +2981,7 @@
 			description: ["{quest.meka.130.desc}"]
 			icon: "mekanism:sulfuric_acid_bucket"
 			id: "07B80FF72157DDEC"
+			shape: "square"
 			tasks: [{
 				icon: "create:brass_hand"
 				id: "048BEDB820F2D6DC"

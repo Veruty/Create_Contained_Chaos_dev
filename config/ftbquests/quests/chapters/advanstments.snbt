@@ -225,7 +225,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["10F302095CE22E91"]
+			dependencies: ["3F2D26C94514A093"]
 			id: "338DEE15FD74E7B2"
 			tasks: [
 				{
@@ -389,6 +389,7 @@
 					type: "item"
 				}
 			]
+			title: "All Modules"
 			x: -8.5d
 			y: -1.5d
 		}

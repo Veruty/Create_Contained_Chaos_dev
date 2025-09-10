@@ -167,8 +167,10 @@
 			hide_until_deps_visible: true
 			id: "526A77EEB8CB20F6"
 			tasks: [{
-				id: "278BC181E59B31B3"
-				type: "custom"
+				elapsedTime: 1L
+				id: "0D97665DB1E7232E"
+				title: "Autocomplete"
+				type: "questsadditions:time"
 			}]
 			title: "find it instead in a chest"
 			x: -5.5d

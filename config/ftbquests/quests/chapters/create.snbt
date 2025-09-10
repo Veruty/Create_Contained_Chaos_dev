@@ -5,6 +5,14 @@
 	group: "3C9C2CEF96DB5B0C"
 	icon: "create:andesite_alloy"
 	id: "3417C9D6F7C7F7C7"
+	images: [{
+		height: 1.7d
+		image: "ftbquests:block/barrier_open"
+		rotation: 0.0d
+		width: 1.7d
+		x: 8.0d
+		y: 10.5d
+	}]
 	order_index: 0
 	quest_links: [
 		{
@@ -1394,7 +1402,8 @@
 					type: "item"
 				}
 			]
-			size: 2.0d
+			shape: "square"
+			size: 1.5d
 			subtitle: "Mixing Metals"
 			tasks: [{
 				count: 2L
