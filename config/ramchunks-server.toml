@@ -1,0 +1,31 @@
+
+#RAM Chunk Storage Configuration
+[storage]
+	#Enable RAM-based chunk storage (requires restart)
+	enableRamStorage = true
+	#Interval in minutes between auto-saves (min 1, max 120)
+	#Range: 1 ~ 120
+	autoSaveInterval = 5
+	#Maximum number of chunks to keep in RAM (0 for unlimited)
+	#Range: > 0
+	maxChunksInRam = 2000
+	#Enable NBT compression when saving chunks to disk
+	enableCompression = true
+	#Enable debug logging (spammy)
+	enableDebugLogging = false
+	#Custom directory to store chunk data (leave empty for default)
+	customStorageDir = ""
+	#Number of chunks to unload in a single tick (reduces lag spikes)
+	#Range: 1 ~ 100
+	chunkUnloadBatchSize = 10
+	#Automatically unload unused chunks when memory is low
+	enableAutoUnload = true
+	#Maximum memory usage in MB before forcing chunk unloads (0 to disable)
+	#Range: 0 ~ 16384
+	maxMemoryUsageMB = 0
+	#Enable asynchronous chunk saving (recommended)
+	enableAsyncSaving = true
+	#Number of threads to use for async saving (1-8)
+	#Range: 1 ~ 8
+	asyncSaveThreads = 2
+
