@@ -1,0 +1,14 @@
+
+#FSR 2.0 Configuration
+[fsr]
+	#FSR 2.0 Quality Mode
+	#Allowed Values: NATIVE, ULTRA_QUALITY, QUALITY, BALANCED, PERFORMANCE, ULTRA_PERFORMANCE
+	qualityMode = "BALANCED"
+	#Enable FSR 2.0 Sharpening
+	enableSharpening = true
+	#FSR 2.0 Sharpening Strength (0.0 - 1.0)
+	#Range: 0.0 ~ 1.0
+	sharpeningStrength = 0.8
+	#Automatically optimize FSR settings based on system performance
+	autoOptimize = true
+
