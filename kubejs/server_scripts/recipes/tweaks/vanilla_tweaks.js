@@ -21,5 +21,15 @@ ServerEvents.recipes(e => {
         A: '#forge:slimeballs',
         B: 'minecraft:piston'
     }
+    )
+e.custom(
+    {"type":"mekanism:nucleosynthesizing"
+        ,"duration":1000
+        ,"gasInput":{"amount":25,"gas":"mekanism:antimatter"}
+        ,"itemInput":{"ingredient":{"item":"minecraft:netherite_scrap"}}
+        ,"output":{"item":"minecraft:netherite_ingot"}}
+    )
+}
 )
-})
+
+
