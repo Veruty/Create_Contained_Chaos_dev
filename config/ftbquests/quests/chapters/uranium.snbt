@@ -1449,6 +1449,7 @@
 				type: "choice"
 			}]
 			size: 1.25d
+			subtitle: "Jet Fuel"
 			tasks: [{
 				icon: "create:brass_hand"
 				id: "196C5E0A9724C7E6"
