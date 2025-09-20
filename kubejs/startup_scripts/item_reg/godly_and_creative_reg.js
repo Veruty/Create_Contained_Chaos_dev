@@ -16,9 +16,4 @@ StartupEvents.registry('item', e => {
 	e.create('energy_godly_alloy').displayName('Energy Godly Alloy').rarity('EPIC')
 	e.create('unstable_godly_alloy').displayName('Unstable Godly Alloy').rarity('EPIC')
 	e.create('incomplete_energy_godly_alloy').displayName('Incomplete Energy Godly Alloy').rarity('EPIC')
-
-	e.create('incomplete_creative_pool').displayName('Incomplete Guilty Pool').rarity('EPIC')
-	e.create('incomplete_creative_motor').displayName('Incomplete Creative Motor').rarity('EPIC')
-	e.create('incomplete_creative_tank').displayName('Incomplete Creative Tank').rarity('EPIC')
-
 })
