@@ -6,7 +6,6 @@ StartupEvents.registry('item', e => {
 	e.create('half_netherite_ingot').displayName('Netherite Half Ingot').rarity('COMMON')
     e.create('redstone_crystal').displayName('Redstone Crystal')
     e.create('condensed_alloy').displayName('Condensed Alloy').rarity('UNCOMMON')
-    e.create('incomplete_unstable_alloy', 'create:sequenced_assembly').displayName('Incomplete Unstable Alloy').rarity('UNCOMMON')
     e.create('unstable_alloy').displayName('Unstable Alloy').rarity('RARE')
     e.create('unstable_alloy_sword', 'sword').tier('unstable_alloy').displayName('Unstable Alloy Sword').rarity('RARE')
     e.create('unstable_alloy_axe', 'axe').tier('unstable_alloy').displayName('Unstable Alloy Axe').rarity('RARE')
