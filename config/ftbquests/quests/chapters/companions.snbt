@@ -28,7 +28,7 @@
 				item: "knightlib:homunculus"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -8.0d
 		}
 		{
@@ -54,8 +54,8 @@
 				item: "knightlib:filled_grail"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.5d
+			x: 2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0E25D61F508C4FAC"]
@@ -67,8 +67,8 @@
 				item: "companions:empty_puppet_block"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -10.5d
+			x: 2.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0E25D61F508C4FAC"]
@@ -80,8 +80,8 @@
 				item: "companions:big_bread"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -10.5d
+			x: 0.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5A038373FC1BB8A7"]
@@ -93,8 +93,8 @@
 				item: "companions:soul_furnace_block"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.5d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6B9F6D6BCDAC7DB7"]
@@ -106,8 +106,8 @@
 				item: "companions:crystallized_blood"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -10.5d
+			x: -3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6B9F6D6BCDAC7DB7"]
@@ -120,7 +120,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -10.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6AE23440548427CA"]
@@ -133,8 +133,8 @@
 				title: "Handyman"
 				type: "structure"
 			}]
-			x: 3.0d
-			y: -13.5d
+			x: 2.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -162,7 +162,7 @@
 				item: "companions:needle"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
@@ -176,7 +176,7 @@
 				title: "Build a bear"
 				type: "structure"
 			}]
-			x: 10.5d
+			x: 3.5d
 			y: -0.5d
 		}
 		{
@@ -202,8 +202,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 3.5d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["54731DBA660E2691"]
@@ -218,8 +218,8 @@
 				to_observe: "companions:cornelius"
 				type: "observation"
 			}]
-			x: 10.5d
-			y: 3.5d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2B39F7FCAA1EC5E9"]
@@ -251,8 +251,8 @@
 				to_observe: "companions:hostile_imp"
 				type: "observation"
 			}]
-			x: 5.0d
-			y: 9.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2B39F7FCAA1EC5E9"]
@@ -264,8 +264,8 @@
 				item: "companions:mage_staff"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.5d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7D176DF39FE2BF68"]
@@ -280,8 +280,8 @@
 				to_observe: "companions:living_candle"
 				type: "observation"
 			}]
-			x: -4.0d
-			y: 7.5d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["049E8B8DC4F4B577"]
@@ -294,7 +294,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -14.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["049E8B8DC4F4B577"]
@@ -306,8 +306,8 @@
 				item: "companions:shadow_bell"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -14.5d
+			x: -3.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["049E8B8DC4F4B577"]
@@ -319,8 +319,8 @@
 				item: "companions:shade_maw_altar"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -14.5d
+			x: -1.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2B39F7FCAA1EC5E9"]
@@ -335,7 +335,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.0d
+			x: -2.5d
 			y: -0.5d
 		}
 		{
@@ -349,7 +349,7 @@
 				item: "companions:respawn_totem_block"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
@@ -365,8 +365,8 @@
 				to_observe: "companions:mankh"
 				type: "observation"
 			}]
-			x: -11.5d
-			y: -2.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["450B7A8800C11C8B"]
@@ -381,8 +381,8 @@
 				to_observe: "companions:cloak"
 				type: "observation"
 			}]
-			x: -11.5d
-			y: 1.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["450B7A8800C11C8B"]
@@ -394,7 +394,7 @@
 				item: "companions:book_naginata"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -6.5d
 			y: -0.5d
 		}
 	]
