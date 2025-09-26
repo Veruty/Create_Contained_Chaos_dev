@@ -1,0 +1,96 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "4BCA08601609B5F5"
+	icon: "minecraft:end_stone"
+	id: "6BA39FE78542AF6E"
+	order_index: 2
+	quest_links: [{
+		id: "569E869ED7CFF61E"
+		linked_quest: "5400A2A76BA7C157"
+		x: -3.0d
+		y: 0.5d
+	}]
+	quests: [
+		{
+			dependencies: ["5400A2A76BA7C157"]
+			icon: "minecraft:dragon_head"
+			id: "3C86F48AE184D51A"
+			tasks: [{
+				id: "01D3E3817D63C055"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:ender_dragon"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5400A2A76BA7C157"]
+			icon: "minecraft:end_stone"
+			id: "3093A84FC6694B28"
+			tasks: [{
+				biome: "#minecraft:has_structure/end_city"
+				id: "06FE8C0C63EC7964"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C86F48AE184D51A"]
+			id: "4FDAF59647D074EC"
+			tasks: [{
+				id: "0F34B0847862AF61"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C86F48AE184D51A"]
+			id: "5A6CEC7028BDD091"
+			tasks: [{
+				id: "77058DD69E2C442F"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3093A84FC6694B28"]
+			icon: "minecraft:purpur_block"
+			id: "0A5481DA7464A28D"
+			tasks: [{
+				id: "2EF376499FDF2D58"
+				structure: "#minecraft:end_city"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A5481DA7464A28D"]
+			hide_until_deps_visible: true
+			id: "3D34425A97C15842"
+			tasks: [{
+				id: "1464169F0B48C466"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+	]
+	title: "End"
+}

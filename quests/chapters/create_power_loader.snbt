@@ -1,0 +1,104 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_power_loader"
+	group: "53B219EDA5E606F4"
+	icon: "create_power_loader:brass_chunk_loader"
+	id: "73FC62A0AEC72C83"
+	order_index: 5
+	quest_links: [
+		{
+			id: "3194C1D7123DE223"
+			linked_quest: "7DBC7E2955637282"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "69D459DB78CBD090"
+			linked_quest: "054F32CED3753E1A"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "3A84F2788F4FE458"
+			linked_quest: "558178D79A181CAD"
+			x: 2.0d
+			y: -0.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"7DBC7E2955637282"
+				"054F32CED3753E1A"
+			]
+			id: "302781795CC2B9AE"
+			tasks: [{
+				id: "58C5651EC941EBCF"
+				item: "create_power_loader:empty_andesite_chunk_loader"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"558178D79A181CAD"
+				"5B073DB6C4609529"
+				"054F32CED3753E1A"
+			]
+			id: "4D470E684F1CC93A"
+			tasks: [{
+				id: "673D01CB96CAAC8D"
+				item: "create_power_loader:empty_brass_chunk_loader"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4D470E684F1CC93A"
+				"42ABA1C28769F334"
+			]
+			id: "27ADD28DFF4889AF"
+			tasks: [{
+				id: "485BAD2EF4FD55F8"
+				item: "create_power_loader:brass_chunk_loader"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"302781795CC2B9AE"
+				"42ABA1C28769F334"
+			]
+			id: "2CBF9D02A3972569"
+			tasks: [{
+				id: "42D61EFB88DF4039"
+				item: "create_power_loader:andesite_chunk_loader"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"302781795CC2B9AE"
+				"4D470E684F1CC93A"
+			]
+			dependency_requirement: "one_completed"
+			id: "42ABA1C28769F334"
+			subtitle: "right click a ghast with empty chunk loader to get normal one"
+			tasks: [{
+				id: "48D558D53F1C2DDB"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	title: "Create: Power Loader"
+}

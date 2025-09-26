@@ -1,0 +1,12 @@
+{
+	id: "341CCD48947970BE"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 4, item: "mekanism:ingot_osmium", random_bonus: 12 }
+		{ count: 2, item: "mekanism:alloy_reinforced", random_bonus: 2 }
+		{ count: 2, item: "mekanism:advanced_control_circuit", random_bonus: 2 }
+		{ count: 2, item: "mekanism:ingot_refined_obsidian", random_bonus: 2 }
+	]
+	title: "meka.lvl.2"
+}

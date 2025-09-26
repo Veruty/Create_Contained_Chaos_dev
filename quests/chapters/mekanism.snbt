@@ -1,0 +1,3698 @@
+{
+	autofocus_id: "2DDF535AB43AD762"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "3C9C2CEF96DB5B0C"
+	icon: "mekanism:ingot_osmium"
+	id: "60BE6236A0E7840B"
+	images: [
+		{
+			click: "https://ftbwiki.org/Thermal_Evaporation_Plant"
+			height: 5.0d
+			hover: ["Click to see FTB wiki"]
+			image: "kubejs:textures/questimg/mekanism/tet.png"
+			rotation: 0.0d
+			width: 2.7358490566037736d
+			x: 22.0d
+			y: -0.5d
+		}
+		{
+			dependency: "286D095D71CB0153"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependency: "008C4D2348C89452"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependency: "263967591E41F934"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "63B3E84031F1A0EC"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -15.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -15.5d
+		}
+		{
+			dependency: "205AA1AB99D13D3D"
+			height: 1.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -16.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Induction_Matrix"
+			height: 5.0d
+			hover: ["Click to see the Mekanism Wiki "]
+			image: "kubejs:textures/questimg/mekanism/bat.png"
+			rotation: 0.0d
+			width: 2.7319587628865976d
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependency: "205AA1AB99D13D3D"
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 7.0d
+			y: -14.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -16.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -17.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -18.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -18.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -18.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -17.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -16.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -15.5d
+		}
+		{
+			dependency: "205AA1AB99D13D3D"
+			height: 1.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -17.5d
+		}
+		{
+			click: "#6AEC50F826F21099"
+			height: 1.0d
+			hover: ["item.mekanism.dust_sulfur"]
+			image: "mekanism:item/dust_sulfur"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: 12.5d
+		}
+		{
+			click: "#1FB9020CDF615344"
+			height: 1.0d
+			hover: ["mekanism.chemical_oxidizer"]
+			image: "kubejs:textures/questimg/mekanism/chemical_oxidizer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: 12.5d
+		}
+		{
+			click: "#52795A656E90F398"
+			height: 1.0d
+			hover: ["mekanism.sulfur_dioxide"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfur_dioxide.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 21.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 23.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 25.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 27.0d
+			y: 12.5d
+		}
+		{
+			click: "#59EA4D9F875D7D03"
+			height: 1.0d
+			hover: ["mekanism.chemical_infuser"]
+			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
+			rotation: 0.0d
+			width: 1.005128205128205d
+			x: 22.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 9.5d
+		}
+		{
+			click: "#7BC2ECAB8B22CBFF"
+			height: 1.0d
+			hover: ["mekanism.sulfur_trioxide"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfur_trioxide.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 12.5d
+		}
+		{
+			click: "#0FD3A26A0ECE27E5"
+			height: 1.0d
+			hover: ["mekanism.electrolytic_separator"]
+			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 21.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 24.0d
+			y: 9.5d
+		}
+		{
+			click: "#29F04CE306ED98D4"
+			color: 1926101
+			height: 1.0d
+			hover: ["minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 25.0d
+			y: 8.5d
+		}
+		{
+			click: "#6E97368920DAE881"
+			height: 1.0d
+			hover: ["mekanism.rotary_condensentrator"]
+			image: "kubejs:textures/questimg/mekanism/rotary_condensentrator.png"
+			rotation: 0.0d
+			width: 0.9949238578680203d
+			x: 26.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			hover: ["gas.mekanism.water_vapor"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/water_vapor.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: 10.5d
+		}
+		{
+			click: "#59EA4D9F875D7D03"
+			height: 1.0d
+			hover: ["mekanism.chemical_infuser"]
+			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
+			rotation: 0.0d
+			width: 1.005128205128205d
+			x: 26.0d
+			y: 12.5d
+		}
+		{
+			click: "#07B80FF72157DDEC"
+			height: 1.0d
+			hover: ["mekanism.sulfiric_acid"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfuric_acid.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: 12.5d
+		}
+		{
+			click: "#1A529EAEBFC7B6FB"
+			height: 1.0d
+			hover: ["item.mekanism.bio_fuel"]
+			image: "mekanism:item/bio_fuel"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 21.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 23.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 25.0d
+			y: -6.5d
+		}
+		{
+			click: "#60872E585150C8D4"
+			height: 1.0d
+			hover: ["block.mekanism.pressurized_reaction_chamber"]
+			image: "kubejs:textures/questimg/mekanism/pressurized_reaction_chamber.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 16.0d
+			y: -7.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["gas.mekanism.ethene"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/ethylene.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: -7.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["block.mekanism.ethene"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/ethylene.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: -8.5d
+		}
+		{
+			click: "#7F9A49100E2C93D4"
+			height: 1.0d
+			hover: ["item.mekanism.substrate"]
+			image: "mekanism:item/substrate"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -8.5d
+		}
+		{
+			click: "#6E97368920DAE881"
+			height: 1.0d
+			hover: ["mekanism.rotary_condensentrator"]
+			image: "kubejs:textures/questimg/mekanism/rotary_condensentrator.png"
+			rotation: 0.0d
+			width: 0.9949238578680203d
+			x: 18.0d
+			y: -8.5d
+		}
+		{
+			click: "#60872E585150C8D4"
+			height: 1.0d
+			hover: ["block.mekanism.pressurized_reaction_chamber"]
+			image: "kubejs:textures/questimg/mekanism/pressurized_reaction_chamber.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: -6.5d
+		}
+		{
+			click: "#4EF88C2A1B845264"
+			height: 1.0d
+			hover: ["item.mekanism.hdpe_pellet"]
+			image: "mekanism:item/hdpe_pellet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: -6.5d
+		}
+		{
+			click: "#16FAA83B048985DD"
+			height: 1.0d
+			hover: ["mekanism.enrichment_chamber"]
+			image: "mekanism:block/factory/enriching/enriching_factory_front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 20.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 16.0d
+			y: -5.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["mekanism.oxygen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 23.0d
+			y: 8.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["gas.mekanism.hydrogen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			click: "#19BF6BCFC7E63352"
+			height: 1.0d
+			hover: ["item.mekanism.hdpe_sheet"]
+			image: "mekanism:item/hdpe_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -6.5d
+		}
+		{
+			click: "#017AC018B98522AF"
+			height: 1.0d
+			hover: ["block.mekanism.chemical_dissolution_chamber"]
+			image: "kubejs:textures/questimg/mekanism/chemical_dissolution_chamber.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 12.5d
+		}
+		{
+			click: "#414874164A8292BE"
+			height: 1.0d
+			hover: ["block.mekanism.chemical_washer"]
+			image: "kubejs:textures/questimg/mekanism/chemical_washer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 8.5d
+		}
+		{
+			click: "#48558E331B14B773"
+			height: 1.0d
+			hover: ["block.mekanism.chemical_crystallizer"]
+			image: "mekanism:block/models/chemical_crystallizer_elements1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 4.5d
+		}
+		{
+			click: "#7B16E9F7C8996C69"
+			height: 1.0d
+			hover: ["block.mekanism.chemical_injection_chamber"]
+			image: "mekanism:block/chemical_injection_chamber/front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 0.5d
+		}
+		{
+			click: "#61DAEBB4FA84E63D"
+			height: 1.0d
+			hover: ["block.mekanism.purification_chamber"]
+			image: "mekanism:block/purification_chamber/front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -3.5d
+		}
+		{
+			click: "#27C740059DA71649"
+			height: 1.0d
+			hover: ["block.mekanism.crusher"]
+			image: "mekanism:block/crusher/front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -7.5d
+		}
+		{
+			click: "#16FAA83B048985DD"
+			height: 1.0d
+			hover: ["mekanism.enrichment_chamber"]
+			image: "mekanism:block/factory/enriching/enriching_factory_front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -11.5d
+		}
+		{
+			click: "#1320FCEE195D9D91"
+			height: 1.0d
+			hover: ["slurry.mekanism.dirty"]
+			image: "mekanism:slurry/dirty"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 7.5d
+		}
+		{
+			click: "#4A6AF19B37DBD45C"
+			height: 1.0d
+			hover: ["slurry.mekanism.clean"]
+			image: "mekanism:slurry/clean"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 3.5d
+		}
+		{
+			click: "#2156FF005A98CD92"
+			height: 1.0d
+			hover: ["item.mekanism.crystal"]
+			image: "mekanism:item/crystal_osmium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -0.5d
+		}
+		{
+			click: "#2AE328444D00892F"
+			height: 1.0d
+			hover: ["item.mekanism.shard"]
+			image: "mekanism:item/shard_osmium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 30.0d
+			y: -12.5d
+		}
+		{
+			click: "#36B6C44B34DF66AC"
+			height: 1.0d
+			hover: ["item.mekanism.clump"]
+			image: "mekanism:item/clump_osmium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -5.5d
+		}
+		{
+			click: "#1CCCAC787EE36BCE"
+			height: 1.0d
+			hover: ["item.mekanism.dirty_dust"]
+			image: "mekanism:item/dirty_dust_osmium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -9.5d
+		}
+		{
+			click: "#66FD815724870C36"
+			height: 1.0d
+			hover: ["item.mekanism.dust"]
+			image: "mekanism:item/dust_osmium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: 0.5d
+		}
+		{
+			click: "#1A332CC6CFD92F79"
+			height: 1.0d
+			hover: ["evaporation.mekanism.evaporation_plant"]
+			image: "mekanism:block/thermal_evaporation_controller"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 4.5d
+		}
+		{
+			click: "#25DC4A8FAB183E2A"
+			height: 1.0d
+			hover: ["block.mekanism.brine"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/brine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 4.5d
+		}
+		{
+			click: "#2B88C4AA15C024DF"
+			height: 1.0d
+			hover: ["item.mekanism.dust_lithium"]
+			image: "mekanism:item/dust_lithium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 10.5d
+		}
+		{
+			click: "#0453C7D5AA35CAAA"
+			height: 1.0d
+			hover: ["gas.mekanism.lithium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/lithium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 6.5d
+		}
+		{
+			click: "#7C5B918C67AE83A3"
+			height: 1.0d
+			hover: ["block.mekanism.lithium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/lithium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			click: "#6E97368920DAE881"
+			height: 1.0d
+			hover: ["mekanism.rotary_condensentrator"]
+			image: "kubejs:textures/questimg/mekanism/rotary_condensentrator.png"
+			rotation: 0.0d
+			width: 0.9949238578680203d
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 19.0d
+			y: 4.5d
+		}
+		{
+			click: "#02AFE459E338D665"
+			height: 1.0d
+			hover: ["gas.mekanism.hydrogen_chloride"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen_chloride.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: 0.5d
+		}
+		{
+			click: "#59EA4D9F875D7D03"
+			height: 1.0d
+			hover: ["mekanism.chemical_infuser"]
+			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
+			rotation: 0.0d
+			width: 1.005128205128205d
+			x: 26.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 27.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 26.0d
+			y: 1.5d
+		}
+		{
+			click: "#51C57A02C2F76A57"
+			height: 1.0d
+			hover: ["gas.mekanism.chlorine"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/chlorine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 24.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 24.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 24.0d
+			y: 3.5d
+		}
+		{
+			click: "#0FD3A26A0ECE27E5"
+			height: 1.0d
+			hover: ["mekanism.electrolytic_separator"]
+			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 25.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 23.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			click: "#60CA950C9ACBAFB4"
+			height: 1.0d
+			hover: ["gas.mekanism.sodium"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sodium.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 27.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -2.5d
+		}
+		{
+			click: "#0FD3A26A0ECE27E5"
+			height: 1.0d
+			hover: ["mekanism.electrolytic_separator"]
+			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 25.0d
+			y: -3.5d
+		}
+		{
+			click: "#1A332CC6CFD92F79"
+			height: 1.0d
+			image: "mekanism:block/thermal_evaporation_controller_on_led"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 4.5d
+		}
+		{
+			click: "#1A332CC6CFD92F79"
+			height: 1.0d
+			hover: ["evaporation.mekanism.evaporation_plant"]
+			image: "mekanism:block/thermal_evaporation_controller"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 6.5d
+		}
+		{
+			click: "#1A332CC6CFD92F79"
+			height: 1.0d
+			image: "mekanism:block/thermal_evaporation_controller_on_led"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: -0.5d
+		}
+		{
+			click: "#24364CFD597A61FA"
+			height: 1.0d
+			hover: ["item.mekanism.salt"]
+			image: "mekanism:item/salt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 9.5d
+		}
+		{
+			click: "#48558E331B14B773"
+			height: 1.0d
+			hover: ["block.mekanism.chemical_crystallizer"]
+			image: "mekanism:block/models/chemical_crystallizer_elements1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 8.5d
+		}
+		{
+			click: "#0FD3A26A0ECE27E5"
+			height: 1.0d
+			hover: ["mekanism.electrolytic_separator"]
+			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 22.0d
+			y: -7.5d
+		}
+		{
+			click: "#12C8C973364CE575"
+			height: 1.0d
+			hover: ["item.mekanism.hdpe_rod"]
+			image: "mekanism:item/hdpe_rod"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 22.0d
+			y: -9.5d
+		}
+		{
+			click: "#2BBF76BF79BA5108"
+			height: 1.0d
+			hover: ["item.mekanism.hdpe_stick"]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: -10.5d
+		}
+		{
+			click: "#70D24C5DEB766FD4"
+			height: 1.0d
+			hover: ["item.thermal.netherite_gear"]
+			image: "thermal:item/netherite_gear"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 23.0d
+			y: -10.5d
+		}
+		{
+			click: "#03524C8291BA941F"
+			height: 1.0d
+			hover: ["item.mekanism.alloy_atomic"]
+			image: "mekanism:item/alloy_atomic"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: -10.5d
+		}
+		{
+			click: "#6BD8ADA2F4C73784"
+			height: 1.0d
+			hover: ["item.mekanism.ingot_refined_obsidian"]
+			image: "mekanism:item/ingot_refined_obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 21.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 25.0d
+			y: -10.5d
+		}
+		{
+			click: "#5944EBB2CCABE319"
+			height: 1.0d
+			hover: ["Almost Complete Atomic Disassembler"]
+			image: "kubejs:item/almost_complete_atomic_disassembler"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: -10.5d
+		}
+		{
+			click: "#08E13E7BE1D8864D"
+			height: 1.0d
+			hover: ["item.mekanism.energy_tablet"]
+			image: "mekanism:item/energy_tablet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 18.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -10.5d
+		}
+		{
+			click: "#128647FAFC8D7F71"
+			height: 1.0d
+			hover: ["item.mekanism.atomic_disassembler"]
+			image: "kubejs:textures/questimg/mekanism/atomic_disassembler.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: -12.5d
+		}
+		{
+			click: "#29F04CE306ED98D4"
+			color: 1926101
+			height: 1.0d
+			hover: ["minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: -3.5d
+		}
+		{
+			click: "#29F04CE306ED98D4"
+			color: 1926101
+			height: 1.0d
+			hover: ["minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["mekanism.oxygen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 10.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["gas.mekanism.hydrogen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 8.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["mekanism.oxygen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: -3.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["gas.mekanism.hydrogen"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -1.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["config.jade.plugin_mekanism.energy"]
+			image: "mekanism:liquid/energy"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			height: 1.2d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.2d
+			x: 28.0d
+			y: 13.5d
+		}
+	]
+	order_index: 5
+	quest_links: [
+		{
+			id: "03011F2C97537CE8"
+			linked_quest: "4BCDA1E23D59D3DA"
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			id: "2D3EA9688918ACAC"
+			linked_quest: "0E641878ED919900"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "69C5D93CD46214F3"
+			linked_quest: "14E68D38AA35147C"
+			size: 1.5d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "01B8AB22A8EF4B8B"
+			linked_quest: "776CB43BA45FE4DC"
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			id: "3F7611505F406199"
+			linked_quest: "75BA8DAE253D5BAF"
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			id: "33464D4947F7A677"
+			linked_quest: "67BD5D776F242F93"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "5E1F7420AD762806"
+			linked_quest: "1074858BE75A3D4E"
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			id: "083CE31AD676FF88"
+			linked_quest: "11A6EB192C17D579"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "1F2F1B0CE9F74379"
+			linked_quest: "510AE13EEA10D57A"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "41C76A5687332F6D"
+			linked_quest: "3E5B5195668F7E6B"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "202B05CDCDA9788B"
+			linked_quest: "419B1C160A0821B8"
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			id: "23F65C558D05E40F"
+			linked_quest: "08545DE2B8CABC49"
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			id: "7CA34BEDF7D41173"
+			linked_quest: "11ECE09E205A7609"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			id: "34A27D15AE81DC00"
+			linked_quest: "4E3C7862E89017F0"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			id: "08C0697F3BDC467B"
+			linked_quest: "089D565A6023BBAF"
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			id: "1AD978DC9BE5242A"
+			linked_quest: "7E40EF3542E17175"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "162345A8DC78CFE8"
+			linked_quest: "69E4829A677E5CAD"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "0987FEE3850AC3C5"
+			linked_quest: "12999183CE96C38D"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "72997F7929BEDDCC"
+			linked_quest: "57700824BF78D8D6"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "5237CB6A01F176C9"
+			linked_quest: "21990EF09673C683"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			id: "4832B95CC8469132"
+			linked_quest: "268773CD97A1A5E0"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "1BBF9E27D210647A"
+			linked_quest: "46986AFF42480BF0"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			id: "67AC5BAB434E77F4"
+			linked_quest: "1C22D0986140449F"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "37574625321A324C"
+			linked_quest: "3D34425A97C15842"
+			x: 28.0d
+			y: -7.5d
+		}
+		{
+			id: "1202AC55316F182C"
+			linked_quest: "000099F56EB2D52B"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			id: "1B4C00595AEBBBCE"
+			linked_quest: "348B8187567F1B60"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "6AEC50F826F21099"
+			linked_quest: "3410A7C9AAFDDF9D"
+			x: 16.0d
+			y: 13.5d
+		}
+		{
+			id: "24364CFD597A61FA"
+			linked_quest: "15A1D3E46BE50A42"
+			x: 29.0d
+			y: -1.5d
+		}
+		{
+			id: "0A98E52C5A492B77"
+			linked_quest: "5B4D620A582F7AB7"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "66768B5CF1D11AB4"
+			linked_quest: "1D98380A445B84AC"
+			x: 29.0d
+			y: 14.5d
+		}
+		{
+			id: "1DA4B2DE88B24E77"
+			linked_quest: "7008601BDEF473A3"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "22E3BBB728765E5A"
+			linked_quest: "2B696CA62EB0083F"
+			x: 12.0d
+			y: 6.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["14E68D38AA35147C"]
+			description: ["{quest.meka.3.desc}"]
+			id: "479C1BDCAB91242C"
+			size: 1.25d
+			subtitle: "Harder, Better, Faster, Stronger"
+			tasks: [{
+				id: "58944330BEE209D2"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["479C1BDCAB91242C"]
+			description: ["{quest.meka.4.desc}"]
+			hide_until_deps_visible: true
+			id: "24CD759A561EB2C6"
+			size: 1.25d
+			subtitle: "Redstone-infused iron"
+			tasks: [{
+				id: "34540D220749F1E4"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["479C1BDCAB91242C"]
+			description: ["{quest.meka.7.desc}"]
+			hide_until_deps_visible: true
+			id: "37B06FC941C75A60"
+			size: 1.25d
+			subtitle: "LV Circuit"
+			tasks: [{
+				id: "28C80FEB6FF559AB"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"37B06FC941C75A60"
+				"24CD759A561EB2C6"
+			]
+			description: ["{quest.meka.8.desc}"]
+			id: "6DCDEAA1333F7DEE"
+			size: 1.25d
+			subtitle: "Smart Rock"
+			tasks: [{
+				id: "25753FC020446755"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["24CD759A561EB2C6"]
+			description: ["{quest.meka.5.desc}"]
+			id: "2063D6C58019E165"
+			size: 1.25d
+			subtitle: "Diamond-infused redstone-infused iron"
+			tasks: [{
+				id: "2E93414E9C9E8107"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2063D6C58019E165"]
+			description: ["{quest.meka.6.desc}"]
+			id: "03524C8291BA941F"
+			size: 1.25d
+			subtitle: "Obsidian-infused diamond-infused redstone-infused iron"
+			tasks: [{
+				id: "5E74E1F4186B720F"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"2063D6C58019E165"
+				"6DCDEAA1333F7DEE"
+			]
+			description: ["{quest.meka.9.desc}"]
+			id: "0A12FEEA09B6D99B"
+			size: 1.25d
+			subtitle: "Smarter Rock"
+			tasks: [{
+				id: "3C9C1DBF5D66F8CA"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0A12FEEA09B6D99B"
+				"03524C8291BA941F"
+			]
+			description: ["{quest.meka.10.desc}"]
+			id: "3859C9C6168B9502"
+			size: 1.25d
+			subtitle: "Smartest Rock"
+			tasks: [{
+				id: "5EF6ABF3DE226731"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["14E68D38AA35147C"]
+			description: ["{quest.meka.12.desc}"]
+			id: "4882C29ACF76E6CD"
+			shape: "circle"
+			size: 1.25d
+			subtitle: "Steel Beams"
+			tasks: [{
+				id: "53F2773B0A688110"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37B06FC941C75A60"]
+			description: ["{quest.meka.57.desc}"]
+			id: "7DBE55A240CFD900"
+			tasks: [{
+				id: "2D5D42C0C576CB5C"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DCDEAA1333F7DEE"]
+			description: ["{quest.meka.58.desc}"]
+			id: "2FE74109A0EBDE43"
+			tasks: [{
+				id: "775FA529FC3CF6C1"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A12FEEA09B6D99B"]
+			description: ["{quest.meka.59.desc}"]
+			id: "199632AF99031363"
+			tasks: [{
+				id: "33C7444BFE690831"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3859C9C6168B9502"]
+			description: ["{quest.meka.60.desc}"]
+			id: "7772E5BC5E558726"
+			tasks: [{
+				id: "1AB43417933A92EE"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.13.desc}"]
+			hide_until_deps_visible: true
+			id: "1498C5F2CDF698DE"
+			subtitle: "Cooler Furnace"
+			tasks: [{
+				id: "1732141EA009FF3E"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24CD759A561EB2C6"]
+			description: ["{quest.meka.15.desc}"]
+			hide_until_deps_visible: true
+			id: "08E13E7BE1D8864D"
+			size: 1.5d
+			subtitle: "Energy Bucket"
+			tasks: [{
+				id: "5DFAA04775AD10A9"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["08E13E7BE1D8864D"]
+			description: ["{quest.meka.16.desc}"]
+			hide_until_deps_visible: true
+			id: "45C9D5B3C08D1FFD"
+			size: 1.5d
+			subtitle: "1-Block Powerbank"
+			tasks: [{
+				id: "74F3D91912959008"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["45C9D5B3C08D1FFD"]
+			description: ["{quest.meka.30.desc}"]
+			id: "48010D86B97969E4"
+			subtitle: "Better Powerbank"
+			tasks: [{
+				id: "0526CDA09615FDE3"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["48010D86B97969E4"]
+			description: ["{quest.meka.33.desc}"]
+			id: "7E747BD610CB2D21"
+			subtitle: "Even Better Powerbank"
+			tasks: [{
+				id: "34D71A742EC49780"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7E747BD610CB2D21"]
+			description: ["{quest.meka.36.desc}"]
+			id: "46DA59DC1925C374"
+			subtitle: "Best Powerbank"
+			tasks: [{
+				id: "702C920C5AE4607C"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.14.desc}"]
+			hide_until_deps_visible: true
+			id: "16FAA83B048985DD"
+			size: 1.25d
+			subtitle: "Mekanists hate this one trick!"
+			tasks: [{
+				id: "5C6B32CABBEC4AF4"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16FAA83B048985DD"]
+			description: ["{quest.meka.50.desc}"]
+			id: "286D095D71CB0153"
+			subtitle: "Better Redstone"
+			tasks: [{
+				id: "4340836A868423C5"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16FAA83B048985DD"]
+			description: ["{quest.meka.51.desc}"]
+			id: "008C4D2348C89452"
+			subtitle: "Better Diamond"
+			tasks: [{
+				id: "5C4E521A2942FC07"
+				item: "mekanism:enriched_diamond"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"16FAA83B048985DD"
+				"2DF13CAC3F425280"
+			]
+			description: ["{quest.meka.52.desc}"]
+			id: "263967591E41F934"
+			subtitle: "Better Obsidian"
+			tasks: [{
+				id: "5F084361362FC76F"
+				item: "mekanism:enriched_refined_obsidian"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3A7557AC37DD96D9"]
+			description: ["{quest.meka.54.desc}"]
+			id: "2DF13CAC3F425280"
+			tasks: [{
+				id: "585382E7EBA39971"
+				item: "mekanism:dust_refined_obsidian"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["16FAA83B048985DD"]
+			description: ["{quest.meka.49.desc}"]
+			id: "1182BD2031E81300"
+			subtitle: "Better Coal"
+			tasks: [{
+				id: "029CA3EC31FA3B1F"
+				item: "mekanism:enriched_carbon"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4BCDA1E23D59D3DA"
+				"16FAA83B048985DD"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{quest.meka.53.desc}"]
+			id: "3A7557AC37DD96D9"
+			min_required_dependencies: 1
+			shape: "diamond"
+			subtitle: "Pulverized Volcanic Glass "
+			tasks: [{
+				id: "43D5887DD42C8498"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/obsidian"
+					}
+				}
+				type: "item"
+			}]
+			title: "Obsidian Dust"
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.79.desc}"]
+			hide_until_deps_visible: true
+			id: "42119548DAF90F47"
+			tasks: [{
+				id: "54A6321070473646"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2DF13CAC3F425280"
+				"42119548DAF90F47"
+			]
+			description: ["{quest.meka.55.desc}"]
+			id: "6BD8ADA2F4C73784"
+			subtitle: "Strong ingot"
+			tasks: [{
+				id: "33FC74B3B3C25710"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.80.desc}"]
+			hide_until_deps_visible: true
+			id: "27C740059DA71649"
+			subtitle: "CRUSH!"
+			tasks: [{
+				id: "1D155B3EC96DAA16"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.81.desc}"]
+			hide_until_deps_visible: true
+			id: "12A42A5F44B3BC36"
+			tasks: [{
+				id: "3FC71DB7621660D9"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.82.desc}"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "6A546B3E93E58AC8"
+			tasks: [{
+				id: "6C4B78AF6C4B018C"
+				item: "mekanism:electric_pump"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.83.desc}"]
+			hide_until_deps_visible: true
+			id: "59EA4D9F875D7D03"
+			tasks: [{
+				id: "67DE6C92847E4D2A"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27C740059DA71649"]
+			description: ["{quest.meka.91.desc}"]
+			hide_until_deps_visible: true
+			id: "4C7918259EDF52EB"
+			tasks: [{
+				id: "23BE81369EF53E11"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/osmium"
+					}
+				}
+				title: "Any #forge:dusts/osmium"
+				type: "item"
+			}]
+			title: "Osmium Dust"
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["27C740059DA71649"]
+			description: ["{quest.meka.93.desc}"]
+			hide_until_deps_visible: true
+			id: "1CA3C59D0ED5EFDC"
+			tasks: [{
+				id: "79418560931D832A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/gold"
+					}
+				}
+				title: "Any #forge:dusts/gold"
+				type: "item"
+			}]
+			title: "Gold Dust"
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1CA3C59D0ED5EFDC"]
+			description: ["{quest.meka.96.desc}"]
+			id: "3713AAB7A3F2E9A7"
+			subtitle: "MORE POWAAH"
+			tasks: [{
+				id: "16A124835681643D"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C7918259EDF52EB"]
+			description: ["{quest.meka.94.desc}"]
+			id: "1B1685D5DC2495F5"
+			subtitle: "Speed it up!"
+			tasks: [{
+				id: "6C0D2EB8714246BA"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.84.desc}"]
+			hide_until_deps_visible: true
+			id: "206DE53B5822AFC4"
+			tasks: [{
+				id: "0E874CB273C67F9E"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0453C7D5AA35CAAA"]
+			description: ["{quest.meka.19.desc}"]
+			id: "2B88C4AA15C024DF"
+			subtitle: "Hydrophobic"
+			tasks: [{
+				id: "269EB9587CD066E6"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"45C9D5B3C08D1FFD"
+				"2B88C4AA15C024DF"
+			]
+			description: ["{quest.meka.17.desc}"]
+			hide_until_deps_visible: true
+			id: "62EB68FA87F80CED"
+			subtitle: "Big Battery Cell"
+			tasks: [{
+				id: "51EA5BB344022DD3"
+				item: "mekanism:basic_induction_cell"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"62EB68FA87F80CED"
+				"48010D86B97969E4"
+			]
+			description: ["{quest.meka.31.desc}"]
+			id: "6B7489F4D2DE7ABE"
+			subtitle: "Bigger Battery Cell"
+			tasks: [{
+				id: "64F10DB51CE30282"
+				item: "mekanism:advanced_induction_cell"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"6B7489F4D2DE7ABE"
+				"7E747BD610CB2D21"
+			]
+			description: ["{quest.meka.34.desc}"]
+			id: "4222372C36422598"
+			subtitle: "Even Bigger Battery Cell"
+			tasks: [{
+				id: "679EBB23221F752F"
+				item: "mekanism:elite_induction_cell"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"4222372C36422598"
+				"46DA59DC1925C374"
+			]
+			description: ["{quest.meka.37.desc}"]
+			id: "7FD99F0885299CBE"
+			subtitle: "Biggest Battery Cell"
+			tasks: [{
+				id: "073AA8499C65DB55"
+				item: "mekanism:ultimate_induction_cell"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"45C9D5B3C08D1FFD"
+				"2B88C4AA15C024DF"
+			]
+			description: ["{quest.meka.18.desc}"]
+			hide_until_deps_visible: true
+			id: "2EFE7E0B6A4606D7"
+			subtitle: "Big Battery I/O "
+			tasks: [{
+				id: "139C74B208BDDF40"
+				item: "mekanism:basic_induction_provider"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"2EFE7E0B6A4606D7"
+				"48010D86B97969E4"
+			]
+			description: ["{quest.meka.32.desc}"]
+			id: "58AD6764A194D8DB"
+			subtitle: "Bigger Battery I/O "
+			tasks: [{
+				id: "2EA64E88BECF4C6F"
+				item: "mekanism:advanced_induction_provider"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"58AD6764A194D8DB"
+				"7E747BD610CB2D21"
+			]
+			description: ["{quest.meka.35.desc}"]
+			id: "24A371935B68036D"
+			subtitle: "Even bigger Battery I/O "
+			tasks: [{
+				id: "176DFCB1B4C8EBDF"
+				item: "mekanism:elite_induction_provider"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"24A371935B68036D"
+				"46DA59DC1925C374"
+			]
+			description: ["{quest.meka.38.desc}"]
+			id: "5457F1584CFED690"
+			subtitle: "Biggest Battery I/O "
+			tasks: [{
+				id: "7ED69069088B7CA2"
+				item: "mekanism:ultimate_induction_provider"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.41.desc}"]
+			hide_until_deps_visible: true
+			id: "48558E331B14B773"
+			tasks: [{
+				id: "10B2BE9DA4179FFB"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["08E13E7BE1D8864D"]
+			description: ["{quest.meka.40.desc}"]
+			hide_until_deps_visible: false
+			id: "6E97368920DAE881"
+			subtitle: "Doesn't use stress units!"
+			tasks: [{
+				id: "23A2F31DD752A047"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6DCDEAA1333F7DEE"]
+			description: ["{quest.meka.39.desc}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: true
+			id: "1A332CC6CFD92F79"
+			subtitle: "Thermal evaporation in action"
+			tasks: [
+				{
+					id: "14C65A5CDB8391A4"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "13828150C1DFAD8F"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "7E9AD9DA6A1A3B23"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+			]
+			title: "Thermal Evaporation Tower"
+			x: 22.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08E13E7BE1D8864D"]
+			description: ["{quest.meka.20.desc}"]
+			hide_until_deps_visible: true
+			id: "33AF1F966B4EE7B8"
+			tasks: [{
+				id: "6772B53810486239"
+				item: "mekanism:induction_casing"
+				type: "item"
+			}]
+			title: "{quest.meka.20.title}"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["33AF1F966B4EE7B8"]
+			description: ["{quest.meka.21.desc}"]
+			id: "63A5E8C0B3A1C355"
+			tasks: [{
+				id: "0BF769EC784F9718"
+				item: "mekanism:induction_port"
+				type: "item"
+			}]
+			title: "{quest.meka.21.title}"
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["27C740059DA71649"]
+			description: ["{quest.meka.92.desc}"]
+			hide_until_deps_visible: true
+			id: "2355C781C841F7A0"
+			tasks: [{
+				id: "1563DC0BE33A9978"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/iron"
+					}
+				}
+				title: "Any #forge:dusts/iron"
+				type: "item"
+			}]
+			title: "Iron Dust"
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2355C781C841F7A0"
+				"1CA3C59D0ED5EFDC"
+				"4C7918259EDF52EB"
+			]
+			description: ["{quest.meka.95.desc}"]
+			id: "152091CB3B8EDA46"
+			tasks: [{
+				id: "0D4B7C68386D8AE2"
+				item: "mekanism:electrolytic_core"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["03524C8291BA941F"]
+			description: ["{quest.meka.42.desc}"]
+			hide_until_deps_visible: true
+			id: "05D2DA6C4AACB4A2"
+			size: 1.25d
+			subtitle: "No black holes here!"
+			tasks: [{
+				id: "5FFB4B1747446B49"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["37B06FC941C75A60"]
+			description: ["{quest.meka.61.desc}"]
+			id: "26D579BACDB8DD90"
+			subtitle: "Logistical Nightmare"
+			tasks: [{
+				id: "3ECA5EB6CEB08E2A"
+				item: "mekanism:logistical_sorter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37B06FC941C75A60"]
+			description: ["{quest.meka.63.desc}"]
+			id: "13FBC17283BA0E53"
+			subtitle: "Savekeeping"
+			tasks: [{
+				id: "767C18BCF8FAA95D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:personal_storage"
+					}
+				}
+				title: "Any #mekanism:personal_storage"
+				type: "item"
+			}]
+			title: "Personal Storage"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"05D2DA6C4AACB4A2"
+				"6BD8ADA2F4C73784"
+			]
+			description: ["{quest.meka.48.desc}"]
+			id: "2FFCC04506C08E87"
+			subtitle: "Wireless everything!"
+			tasks: [{
+				id: "58DB22855CE10A0A"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["05D2DA6C4AACB4A2"]
+			description: ["{quest.meka.45.desc}"]
+			id: "63B3E84031F1A0EC"
+			tasks: [{
+				id: "7E111466AD950AD6"
+				item: "mekanism:teleporter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["42119548DAF90F47"]
+			description: ["{quest.meka.56.desc}"]
+			id: "06EAB6D86F2CE214"
+			subtitle: "Not so strong ingot"
+			tasks: [{
+				id: "30813BD113CD5C80"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"6BD8ADA2F4C73784"
+				"06EAB6D86F2CE214"
+			]
+			description: ["{quest.meka.46.desc}"]
+			id: "01D3CA4CAC690A49"
+			tasks: [{
+				id: "36309B311766C7C1"
+				item: "mekanism:teleporter_frame"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["63A5E8C0B3A1C355"]
+			description: ["{quest.meka.28.desc}"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "projectred_expansion:battery"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2ADB4087CB1B55B7"
+			tasks: [{
+				id: "2B5F9974046E722C"
+				title: "a123"
+				type: "checkmark"
+			}]
+			title: "Big battery time!"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["152091CB3B8EDA46"]
+			description: ["{quest.meka.97.desc}"]
+			id: "0FD3A26A0ECE27E5"
+			tasks: [{
+				id: "6866B32A164E517F"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08E13E7BE1D8864D"]
+			description: ["{quest.meka.25.desc}"]
+			hide_until_deps_visible: true
+			id: "0D5F6DB2C48C0DC7"
+			subtitle: "Energy of the wind"
+			tasks: [{
+				id: "342A90218AAFD601"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["152091CB3B8EDA46"]
+			description: ["{quest.meka.26.desc}"]
+			hide_until_deps_visible: true
+			id: "4E117CF81AF1B7CD"
+			subtitle: "Burning Gases"
+			tasks: [{
+				id: "03EC9C89766DF1F7"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"08E13E7BE1D8864D"
+				"4DBEBE514C5D068E"
+			]
+			description: ["{quest.meka.23.desc}"]
+			hide_until_deps_visible: true
+			id: "238D6B5DF5DCF916"
+			subtitle: "Useless solar panel"
+			tasks: [{
+				id: "583E4B02BCFAB66D"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["238D6B5DF5DCF916"]
+			description: ["{quest.meka.24.desc}"]
+			id: "0293243342E01312"
+			subtitle: "Useful solar panel"
+			tasks: [{
+				id: "37124C2E56672F46"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["24CD759A561EB2C6"]
+			description: ["{quest.meka.22.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "4DBEBE514C5D068E"
+			subtitle: "Energy of the sun"
+			tasks: [{
+				id: "605DCE90F5CDF00A"
+				item: "mekanismgenerators:solar_panel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.88.desc}"]
+			hide_until_deps_visible: true
+			id: "414874164A8292BE"
+			tasks: [{
+				id: "10F3C9AFB9248A3B"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.86.desc}"]
+			hide_until_deps_visible: true
+			id: "017AC018B98522AF"
+			tasks: [{
+				id: "12D3621551BABA2A"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.77.desc}"]
+			hide_until_deps_visible: true
+			id: "0F9F4AA425D11F76"
+			subtitle: "Blender.exe"
+			tasks: [{
+				id: "6C15D64E4ED43B77"
+				item: "mekanism:nutritional_liquifier"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.87.desc}"]
+			hide_until_deps_visible: true
+			id: "3E518674153D0FA9"
+			subtitle: "You know this modpack has Create, right?"
+			tasks: [{
+				id: "6E6DF3A4B26A7063"
+				item: "mekanism:formulaic_assemblicator"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05D2DA6C4AACB4A2"]
+			description: ["{quest.meka.44.desc}"]
+			id: "1A238FB3373842F9"
+			subtitle: "Secured Mekamisms"
+			tasks: [{
+				id: "7143521ECC951138"
+				item: "mekanism:security_desk"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["37B06FC941C75A60"]
+			description: ["{quest.meka.27.desc}"]
+			hide_until_deps_visible: true
+			id: "121317D40B896327"
+			subtitle: "(Actually) Green energy"
+			tasks: [{
+				id: "07FD5627AFF1663A"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			description: ["{quest.meka.85.desc}"]
+			hide_until_deps_visible: true
+			id: "361AE6668AD6875D"
+			tasks: [{
+				id: "206CD560E427DBB3"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16FAA83B048985DD"]
+			description: ["{quest.meka.69.desc}"]
+			id: "60872E585150C8D4"
+			subtitle: "Under preassure"
+			tasks: [{
+				id: "268096D5BBAA7037"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16FAA83B048985DD"]
+			description: ["{quest.meka.70.desc}"]
+			id: "61DAEBB4FA84E63D"
+			tasks: [{
+				id: "3BCAA75F401B6015"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["61DAEBB4FA84E63D"]
+			description: ["{quest.meka.71.desc}"]
+			id: "7B16E9F7C8996C69"
+			tasks: [{
+				id: "70E785C5689CE543"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4EF88C2A1B845264"]
+			description: ["{quest.meka.75.desc}"]
+			id: "19BF6BCFC7E63352"
+			tasks: [{
+				id: "69FF8481BD3C555A"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: 26.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F9A49100E2C93D4"]
+			description: ["{quest.meka.74.desc}"]
+			id: "4EF88C2A1B845264"
+			subtitle: "almostplastic"
+			tasks: [{
+				count: 3L
+				id: "416123BD3F30DADD"
+				item: { Count: 3, id: "mekanism:hdpe_pellet" }
+				type: "item"
+			}]
+			title: "HDPE Pellet"
+			x: 23.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1A529EAEBFC7B6FB"]
+			description: ["{quest.meka.73.desc}"]
+			id: "7F9A49100E2C93D4"
+			subtitle: "notplastic"
+			tasks: [{
+				id: "7E46DA1402CD1510"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["27C740059DA71649"]
+			description: ["{quest.meka.72.desc}"]
+			id: "1A529EAEBFC7B6FB"
+			tasks: [{
+				id: "714A8C11A6151BF1"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"63B3E84031F1A0EC"
+				"01D3CA4CAC690A49"
+			]
+			description: ["{quest.meka.47.desc}"]
+			icon: "createdeco:decal_up"
+			id: "205AA1AB99D13D3D"
+			tasks: [{
+				id: "3524035FC2A58BA8"
+				title: "tele"
+				type: "checkmark"
+			}]
+			title: "How to: Teleporter"
+			x: 7.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3E518674153D0FA9"]
+			description: ["{quest.meka.89.desc}"]
+			id: "5A1BDB6E45003F3F"
+			subtitle: "just why"
+			tasks: [{
+				id: "315233E4D8D3B3DF"
+				item: "mekanism:crafting_formula"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"19BF6BCFC7E63352"
+				"3D34425A97C15842"
+			]
+			description: ["{quest.meka.151.desc}"]
+			hide_until_deps_visible: true
+			id: "3AF0314C01BD75C0"
+			tasks: [{
+				id: "34FCCB8B2D58330D"
+				item: {
+					Count: 1
+					id: "mekanism:hdpe_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Stronger wings"
+			x: 27.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3410A7C9AAFDDF9D"]
+			description: ["{quest.meka.128.desc}"]
+			icon: "mekanism:sulfur_dioxide_bucket"
+			id: "52795A656E90F398"
+			subtitle: "Gas Sulfur²"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "507370457C85E239"
+				title: "Right-click any block while Suilfur Dioxide is inside"
+				type: "custom"
+			}]
+			title: "Sulfur Dioxide"
+			x: 20.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["52795A656E90F398"]
+			description: ["{quest.meka.128.desc}"]
+			icon: "mekanism:sulfur_trioxide_bucket"
+			id: "7BC2ECAB8B22CBFF"
+			subtitle: "Gas Sulfur³"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "040A29662464CD85"
+				title: "Right-click any block while Suilfur Trioxide is inside"
+				type: "custom"
+			}]
+			title: "Sulfur Trioxide"
+			x: 24.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7BC2ECAB8B22CBFF"]
+			description: ["{quest.meka.130.desc}"]
+			icon: "mekanism:sulfuric_acid_bucket"
+			id: "07B80FF72157DDEC"
+			shape: "square"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "048BEDB820F2D6DC"
+				title: "Right-click any block while Suilfuric Acid is inside"
+				type: "custom"
+			}]
+			title: "Sulfuric Acid"
+			x: 28.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["27C740059DA71649"]
+			id: "7244ACCE7B1EA609"
+			tasks: [{
+				id: "35A6E105EC6F713A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/tin"
+					}
+				}
+				title: "Any #forge:dusts/tin"
+				type: "item"
+			}]
+			title: "Tin Dust"
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"27C740059DA71649"
+				"2B696CA62EB0083F"
+			]
+			id: "61714F3150978ED8"
+			tasks: [{
+				id: "11994A026EC356BE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/steel"
+					}
+				}
+				title: "Any #forge:dusts/steel"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27C740059DA71649"]
+			id: "006E193B744CDEA2"
+			tasks: [{
+				id: "1A60BEC6F08ABE3B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/diamond"
+					}
+				}
+				title: "Any #forge:dusts/diamond"
+				type: "item"
+			}]
+			title: "Diamond Dust"
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2355C781C841F7A0"]
+			id: "3F4DA53AFD010A03"
+			tasks: [{
+				id: "2824C2A6CECCF397"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7244ACCE7B1EA609"]
+			id: "1DABC7B3C0706F1F"
+			tasks: [{
+				id: "43BA7E1B34FC2453"
+				item: "mekanism:upgrade_filter"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["006E193B744CDEA2"]
+			id: "63F2FF1DEB1B2014"
+			tasks: [{
+				id: "0AD7FE7E56C74A1E"
+				item: "mekanism:upgrade_anchor"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["61714F3150978ED8"]
+			id: "0619A9E097F2F644"
+			tasks: [{
+				id: "6CFCED209BAF3D33"
+				item: "mekanism:upgrade_muffling"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"510AE13EEA10D57A"
+				"13FBC17283BA0E53"
+			]
+			id: "1FB9020CDF615344"
+			tasks: [{
+				id: "59EBDFE0178DCCDA"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["14E68D38AA35147C"]
+			description: ["{quest.meka.129.desc}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "minecraft:water_bucket"
+			id: "29F04CE306ED98D4"
+			tasks: [{
+				id: "37055A949FE265A0"
+				type: "checkmark"
+			}]
+			title: "Stay Hydrated"
+			x: 24.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14E68D38AA35147C"]
+			hide_dependency_lines: true
+			id: "53E66405375D45E9"
+			tasks: [{
+				id: "4000F010E68D1723"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:completes_ore_processing_quests"
+					}
+				}
+				type: "item"
+			}]
+			title: "Ores for multiplication"
+			x: 33.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"07B80FF72157DDEC"
+				"53E66405375D45E9"
+			]
+			icon: "mekanism:basic_chemical_tank"
+			id: "1320FCEE195D9D91"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "61C80229A6088D66"
+				title: "Right-click any block while any Dirty Slurry is inside"
+				type: "custom"
+			}]
+			title: "Dirty Slurry"
+			x: 31.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1320FCEE195D9D91"]
+			icon: "mekanism:basic_chemical_tank"
+			id: "4A6AF19B37DBD45C"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "093570D31C881837"
+				title: "Right-click any block while any Clean Slurry is inside"
+				type: "custom"
+			}]
+			title: "Clean Slurry"
+			x: 31.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4A6AF19B37DBD45C"
+				"02AFE459E338D665"
+			]
+			id: "2156FF005A98CD92"
+			subtitle: "cat_cronch_crunch.gif"
+			tasks: [{
+				id: "29BA02E24209C7E3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:crystals"
+					}
+				}
+				title: "Any #mekanism:crystals"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2156FF005A98CD92"
+				"53E66405375D45E9"
+			]
+			dependency_requirement: "one_completed"
+			id: "2AE328444D00892F"
+			tasks: [{
+				id: "7D24622CE53F1738"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:shards"
+					}
+				}
+				title: "Any #mekanism:shards"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"53E66405375D45E9"
+				"2AE328444D00892F"
+			]
+			dependency_requirement: "one_completed"
+			id: "36B6C44B34DF66AC"
+			tasks: [{
+				id: "60B84AC38A589D09"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:clumps"
+					}
+				}
+				title: "Any #mekanism:clumps"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36B6C44B34DF66AC"]
+			id: "1CCCAC787EE36BCE"
+			tasks: [{
+				id: "30E95956DE61B8D1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:dirty_dusts"
+					}
+				}
+				title: "Any #mekanism:dirty_dusts"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"1CCCAC787EE36BCE"
+				"53E66405375D45E9"
+			]
+			dependency_requirement: "one_completed"
+			id: "66FD815724870C36"
+			tasks: [{
+				id: "3F57801F2FB2F503"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:iron_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:gold_dust"
+							}
+							{
+								Count: 1b
+								id: "mekanism:dust_osmium"
+							}
+							{
+								Count: 1b
+								id: "thermal:copper_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:tin_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:lead_dust"
+							}
+							{
+								Count: 1b
+								id: "mekanism:dust_uranium"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 31.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["1A332CC6CFD92F79"]
+			icon: "mekanism:brine_bucket"
+			id: "25DC4A8FAB183E2A"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "3990489D29FD69B6"
+				title: "Right-click any block while Brine is inside"
+				type: "custom"
+			}]
+			title: "Brine"
+			x: 25.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["25DC4A8FAB183E2A"]
+			icon: "mekanism:chlorine_bucket"
+			id: "51C57A02C2F76A57"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "4A9D1DC701EA89D0"
+				title: "Right-click any block while Chlorine is inside"
+				type: "custom"
+			}]
+			title: "Chlorine"
+			x: 27.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25DC4A8FAB183E2A"]
+			icon: "mekanism:sodium_bucket"
+			id: "60CA950C9ACBAFB4"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "5042389DF6578656"
+				title: "Right-click any block while Sodium is inside"
+				type: "custom"
+			}]
+			title: "Sodium"
+			x: 25.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25DC4A8FAB183E2A"]
+			icon: "mekanism:lithium_bucket"
+			id: "7C5B918C67AE83A3"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "081A57CAB9D4382E"
+				title: "Right-click any block while Liquid Lithium is inside"
+				type: "custom"
+			}]
+			title: "Liquid Lithium"
+			x: 20.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7C5B918C67AE83A3"]
+			icon: "mekanism:lithium_bucket"
+			id: "0453C7D5AA35CAAA"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "111F08EC986B989D"
+				title: "Right-click any block while Lithium is inside"
+				type: "custom"
+			}]
+			title: "Lithium"
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"51C57A02C2F76A57"
+				"15A1D3E46BE50A42"
+			]
+			dependency_requirement: "one_completed"
+			icon: "mekanism:hydrogen_chloride_bucket"
+			id: "02AFE459E338D665"
+			tasks: [{
+				icon: "create:brass_hand"
+				id: "7A69667E4DB84182"
+				title: "Right-click any block while Hydrogen Chloride is inside"
+				type: "custom"
+			}]
+			title: "Hydrogen Chloride"
+			x: 29.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19BF6BCFC7E63352"]
+			description: ["{quest.meka.76.desc}"]
+			id: "03E3F14D60D1C2B1"
+			tasks: [{
+				id: "5690575CB46F81FC"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4EF88C2A1B845264"]
+			id: "12C8C973364CE575"
+			tasks: [{
+				id: "7EF57DE398269DD2"
+				item: "mekanism:hdpe_rod"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["12C8C973364CE575"]
+			id: "40E3FECE1B0A087F"
+			tasks: [{
+				id: "3B61BD7033D39C4C"
+				item: "mekanism:pigment_mixer"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["12C8C973364CE575"]
+			id: "2BBF76BF79BA5108"
+			tasks: [{
+				id: "65213FA56E7E618D"
+				item: "mekanism:hdpe_stick"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"08E13E7BE1D8864D"
+				"5944EBB2CCABE319"
+			]
+			hide_dependency_lines: true
+			id: "128647FAFC8D7F71"
+			size: 2.0d
+			tasks: [{
+				id: "2653DB00BC3362C8"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"2BBF76BF79BA5108"
+				"6BD8ADA2F4C73784"
+				"03524C8291BA941F"
+			]
+			hide_dependency_lines: true
+			id: "5944EBB2CCABE319"
+			tasks: [{
+				id: "02DCDFEC5F2D4BF2"
+				item: "kubejs:almost_complete_atomic_disassembler"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3859C9C6168B9502"]
+			id: "5035C45DE3317085"
+			tasks: [{
+				id: "6DB4F857B1A28A32"
+				item: "mekanism:dimensional_stabilizer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["000099F56EB2D52B"]
+			id: "758A5DE271C19325"
+			tasks: [{
+				id: "5F29FD1F9149DC71"
+				item: "mekanism:dye_base"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4882C29ACF76E6CD"
+				"758A5DE271C19325"
+			]
+			id: "29F7716C8563D8C9"
+			tasks: [{
+				id: "6152AF0D00390140"
+				item: "mekanism:painting_machine"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			id: "6DB8383940475BA3"
+			tasks: [{
+				id: "55FEEB8F6CD32AB5"
+				item: "mekanism:pigment_extractor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08E13E7BE1D8864D"]
+			id: "38067577BD54E104"
+			tasks: [{
+				id: "134917C1AE95E2C5"
+				item: "mekanism:chargepad"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["45C9D5B3C08D1FFD"]
+			id: "4F91D4334D58E25B"
+			tasks: [{
+				id: "193D1F6D2B052229"
+				item: "mekanism:laser_amplifier"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4F91D4334D58E25B"]
+			id: "12FD833A44346711"
+			tasks: [{
+				id: "30F5624AD7507AAD"
+				item: "mekanism:laser_tractor_beam"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["08E13E7BE1D8864D"]
+			id: "36698A00750FB0BD"
+			tasks: [{
+				id: "168CF3309E6A22A4"
+				item: "mekanism:laser"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["37B06FC941C75A60"]
+			id: "27D6810EE60DC4EB"
+			tasks: [{
+				id: "69C2BA6A21C191E5"
+				item: "mekanism:seismic_vibrator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3859C9C6168B9502"]
+			dependency_requirement: "one_completed"
+			description: ["{quest.meka.141.desc}"]
+			hide_until_deps_visible: true
+			id: "07B9EE65C72C31C5"
+			tasks: [{
+				id: "73796C3838F9A99F"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["19BF6BCFC7E63352"]
+			id: "10F302095CE22E91"
+			tasks: [{
+				id: "549D7F2A9F78CD5B"
+				item: "mekanism:module_base"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["75BA8DAE253D5BAF"]
+			id: "024932A6C70924F6"
+			tasks: [{
+				id: "35BBD360A5D24C7A"
+				item: "mekanism:upgrade_stone_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6A546B3E93E58AC8"]
+			id: "5A4CFE4FD8D50B72"
+			tasks: [{
+				id: "73CCF6C551E06726"
+				item: "mekanism:fluidic_plenisher"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4882C29ACF76E6CD"]
+			id: "78F25CE7798979EC"
+			tasks: [{
+				id: "5D49EC4366ACC789"
+				item: "mekanism:fuelwood_heater"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37B06FC941C75A60"]
+			id: "6F090DF94C778B3A"
+			subtitle: "Logisticly Improbable"
+			tasks: [{
+				id: "3C195C0F74609AF4"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "3B76FBF7D6E731C4"
+			subtitle: "Most used cable"
+			tasks: [{
+				id: "2D4D828050F772B5"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "057B264D01290588"
+			subtitle: "Moving Luqids"
+			tasks: [{
+				id: "7E310BF658EDC8CC"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "2B2DA9C17AD1456B"
+			subtitle: "Least used cable"
+			tasks: [{
+				id: "7F3DE770F40B4109"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			id: "68D9DEF49C85661C"
+			subtitle: "Pass the gas"
+			tasks: [{
+				id: "5AEAD569C7A5F34A"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.5d
+		}
+	]
+	title: "Osmium Age"
+}

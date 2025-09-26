@@ -1,0 +1,402 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "companions"
+	group: "1B9B9B5F76BED733"
+	id: "124D5C6D7704A5F4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Begin your legendary adventure to pet and make friends with all frien shaped entities :3"]
+			id: "2B39F7FCAA1EC5E9"
+			subtitle: "Silly times await"
+			tasks: [{
+				id: "3BE74E8458CD0585"
+				title: "Beginnings"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BE8C6FB5A2BB437"]
+			id: "0E25D61F508C4FAC"
+			subtitle: "Lil flesh guy"
+			tasks: [{
+				id: "1B4B22B5C7ADF1DD"
+				item: "knightlib:homunculus"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2B39F7FCAA1EC5E9"]
+			description: ["Obtain a great chalice, which can be filled with souls to create life essence."]
+			id: "5A038373FC1BB8A7"
+			subtitle: "The holy stanley cup"
+			tasks: [{
+				id: "17E66D75CDB76A4C"
+				item: "knightlib:great_chalice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A038373FC1BB8A7"]
+			description: ["Fill up a grail from the greater chalice, allowing you to create life forms, just dont drink it"]
+			id: "7BE8C6FB5A2BB437"
+			subtitle: "Something Something king arthur"
+			tasks: [{
+				id: "09876A8A9FA123E9"
+				item: "knightlib:filled_grail"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0E25D61F508C4FAC"]
+			description: ["Obtain a lifeless puppet, if only there was like a hand which could puppeteer it.... oh well"]
+			id: "6AE23440548427CA"
+			subtitle: "If only there was someone to puppet it"
+			tasks: [{
+				id: "0FEC046DE5148713"
+				item: "companions:empty_puppet_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0E25D61F508C4FAC"]
+			description: ["Obtain Big bread, which can be used to create a croisant, all you need is a way to bake it..."]
+			id: "6E54E914C1397410"
+			subtitle: "Its like bread, but big"
+			tasks: [{
+				id: "022CF210FE37EC9C"
+				item: "companions:big_bread"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5A038373FC1BB8A7"]
+			description: ["Obtain a soul furnace, which, when a chalice is placed on top of, will accept souls and use them to fuel the oven"]
+			id: "6B9F6D6BCDAC7DB7"
+			subtitle: "Mmm i love baking with the souls of the damned"
+			tasks: [{
+				id: "63AE33AD4601C317"
+				item: "companions:soul_furnace_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B9F6D6BCDAC7DB7"]
+			description: ["Smelt Flesh in the soul furnace to obtain the peak of demonic ritual offerings"]
+			id: "049E8B8DC4F4B577"
+			subtitle: "Charred flesh"
+			tasks: [{
+				id: "1F25E4077BB162E9"
+				item: "companions:crystallized_blood"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6B9F6D6BCDAC7DB7"]
+			description: ["Infuse a pure gem with souls in the furnace, allowing for the creation of magical things"]
+			id: "255D61047383C801"
+			subtitle: "24k souls"
+			tasks: [{
+				id: "1ADB956813135206"
+				item: "companions:soul_gem"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6AE23440548427CA"]
+			description: ["Enter a swamp and discover Избушка на курьих ножках, inside of which you can find the pupeteer"]
+			id: "5C73F72CBD4BF9FD"
+			subtitle: "The house with the legs of an animal"
+			tasks: [{
+				id: "7DF5B0B63DE81A51"
+				structure: "companions:companions_babayaga"
+				title: "Handyman"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"6E54E914C1397410"
+				"6B9F6D6BCDAC7DB7"
+			]
+			description: ["Obtain the croissant egg, which hatches into the croissant dragon. you must then feed it 3 milk buckets to evolve it to its final form"]
+			id: "218F086777D7E1E1"
+			subtitle: "haha egg"
+			tasks: [{
+				id: "29ED14E75B8BE17E"
+				item: "companions:croissant_egg_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2B39F7FCAA1EC5E9"]
+			description: ["Obtain a mysterious needle... i wonder what i could create with it"]
+			id: "20C096CA8BC9A299"
+			subtitle: "Sewing the seeds of chaos"
+			tasks: [{
+				id: "5969F1ADFE8E52C7"
+				item: "companions:needle"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["20C096CA8BC9A299"]
+			description: ["Discover the teddy tower, which contains a broken teddy bear... if only you had something to fix it"]
+			id: "49D0E73FB37581D0"
+			subtitle: "What wonders could be inside?"
+			tasks: [{
+				id: "4263CBEDBF4A6514"
+				structure: "companions:companions_teddytower"
+				title: "Build a bear"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B39F7FCAA1EC5E9"]
+			description: ["Obtain coins, if only you could extort someone for cheap labour..."]
+			id: "54731DBA660E2691"
+			min_required_tasks: 1
+			subtitle: "Moneyyy"
+			tasks: [
+				{
+					id: "47EEE453F790C847"
+					item: "companions:copper_coin"
+					type: "item"
+				}
+				{
+					id: "76BE769AD8731F73"
+					item: "companions:nether_coin"
+					type: "item"
+				}
+				{
+					id: "3717143BEE710025"
+					item: "companions:end_coin"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54731DBA660E2691"]
+			description: ["Find cornelieous, the sick bastard, and befriend him by killing a poor innocent bee in front of him, then give him money, and he will extort the other frogs for cheap labour. he is truly, the capitalist of all time"]
+			id: "46E660862FBC791F"
+			subtitle: "hey, you look like you hate bees!"
+			tasks: [{
+				id: "2E7FBE24ADE3680A"
+				observe_type: 5
+				timer: 0L
+				title: "Frog man"
+				to_observe: "companions:cornelius"
+				type: "observation"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2B39F7FCAA1EC5E9"]
+			description: ["Defeat a raid, and find a broken robot. if only you could repair it somehow, perhaps you could harness its energy..."]
+			id: "305FB03E5D3F996A"
+			subtitle: "Robotics club going crazy "
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				icon: "companions:tesla_coil_block"
+				id: "2A7ECCE4A2BEE393"
+				title: "Strange robot"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54731DBA660E2691"]
+			description: ["Find an imp, you could try paying him off and have him join you... only issue is he may not always take too kindly to your bribes. if hes purple, pay him. if hes red, run."]
+			id: "25985E6946E0A23C"
+			subtitle: "sell your soul for a coin?"
+			tasks: [{
+				icon: "companions:nether_coin"
+				id: "49D0C78BB2770845"
+				observe_type: 5
+				timer: 0L
+				title: "Deal with the devil"
+				to_observe: "companions:hostile_imp"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2B39F7FCAA1EC5E9"]
+			description: ["Obtain a mage staff, which you can use on a golden allay along with a mage cloak and hat, to befriend it! it can be given magic books which will allow it to cast the spells"]
+			id: "7D176DF39FE2BF68"
+			subtitle: "I cast, Bullet!"
+			tasks: [{
+				id: "6A7F8EDA968C52E8"
+				item: "companions:mage_staff"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D176DF39FE2BF68"]
+			description: ["Summon a living candle by smelting a candle in a soul furnace, giving your golden allay friend an extra life if it is killed"]
+			id: "4B5B586BF9280FA1"
+			subtitle: "Extra life"
+			tasks: [{
+				id: "4345B7F7C0AF55DF"
+				observe_type: 5
+				timer: 0L
+				title: "Beauty and the candle"
+				to_observe: "companions:living_candle"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["049E8B8DC4F4B577"]
+			description: ["obtain an altar which can be used alongside a special bell, to summon a special monster for a limited time, the only thing you must do is provide a sacrifice"]
+			id: "1174DCE191D07775"
+			subtitle: "by the pricking of my thumbs,"
+			tasks: [{
+				id: "0C100DA9685A7248"
+				item: "companions:shade_sword_altar"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["049E8B8DC4F4B577"]
+			description: ["The summoning bell, best have a sacrifice ready... or else"]
+			id: "24818C02DAF6FB81"
+			subtitle: "It calls to me..."
+			tasks: [{
+				id: "57AD9DE6E1EABF90"
+				item: "companions:shadow_bell"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["049E8B8DC4F4B577"]
+			description: ["obtain an altar which can be used alongside a special bell, to summon a special monster for a limited time, the only thing you must do is provide a sacrifice"]
+			id: "48EE3B00853865F0"
+			subtitle: "something wicked, this way comes"
+			tasks: [{
+				id: "1A3138DA76A18B89"
+				item: "companions:shade_maw_altar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2B39F7FCAA1EC5E9"]
+			description: ["Kill the sacred pontiff, obtaining the strongest of materials. "]
+			id: "4D34BD4DF7821125"
+			subtitle: "The King has fallen"
+			tasks: [{
+				entity: "companions:sacred_pontiff"
+				icon: "supplementaries:key"
+				id: "4CF272D2F6B02B66"
+				title: "Kill the king"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D34BD4DF7821125"]
+			description: ["Obtain a special totem, which when powered by an hourglass, will respawn a fallen companion up to 4 times, before needing to be refueled. "]
+			hide_until_deps_complete: true
+			id: "450B7A8800C11C8B"
+			subtitle: "Second life"
+			tasks: [{
+				id: "24EFC77F61DB6F4A"
+				item: "companions:respawn_totem_block"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["450B7A8800C11C8B"]
+			description: ["Use the relic gold on the totem to transform it into a mankh, a fucking laser monkey"]
+			id: "62770693B4AF012A"
+			subtitle: "Obtain the ancient friend, the monke"
+			tasks: [{
+				id: "0726BD38ED569670"
+				observe_type: 5
+				timer: 0L
+				title: "Monke"
+				to_observe: "companions:mankh"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["450B7A8800C11C8B"]
+			description: ["Use the cloth from the pontiff on the totem, turning it into a magical monke which buffs you, and attacks enemies"]
+			id: "6D334204B6A6F99B"
+			subtitle: "why he spooky tho"
+			tasks: [{
+				id: "2C44864E02BD9173"
+				observe_type: 5
+				timer: 0L
+				title: "spooky monke"
+				to_observe: "companions:cloak"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["450B7A8800C11C8B"]
+			description: ["Summon fucking naginatas from heaven to strike your foes down, can be given to the golden allay to let it cast the rods from god."]
+			id: "49E1F8C00CA857FD"
+			subtitle: "Rods from god"
+			tasks: [{
+				id: "3970787BCA8A8405"
+				item: "companions:book_naginata"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+	]
+	title: "Companions"
+}

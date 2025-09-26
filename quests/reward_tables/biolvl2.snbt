@@ -1,0 +1,13 @@
+{
+	id: "78723F0D406C7E00"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "biomancy:creator_mix", random_bonus: 3 }
+		{ count: 2, item: "biomancy:exotic_dust", random_bonus: 3 }
+		{ count: 2, item: "biomancy:genetic_compound", random_bonus: 2 }
+		{ count: 5, item: "biomancy:mob_sinew", random_bonus: 10 }
+		{ count: 2, item: "biomancy:living_flesh", random_bonus: 3 }
+	]
+	title: "bio.lvl.2"
+}
