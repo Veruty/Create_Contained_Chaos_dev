@@ -8,6 +8,8 @@ ServerEvents.tags('item', e => {
 	e.add('forge:alloys', 'kubejs:energy_godly_alloy')
 	e.add('forge:alloys', 'kubejs:incomplete_energy_godly_alloy')
 	e.add('forge:alloys', 'kubejs:unstable_godly_alloy')
+	e.add('forge:alloys', 'matter_godly_alloy')
+	e.add('forge:alloys', 'kinetic_godly_alloy')
 	e.add('forge:alloys', 'create:refined_radiance')
 	e.add('forge:alloys', 'create:shadow_steel')
 	e.add('forge:alloys', 'create:chromatic_compound')
