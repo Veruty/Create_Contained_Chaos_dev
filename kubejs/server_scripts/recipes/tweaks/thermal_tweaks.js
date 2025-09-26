@@ -127,151 +127,6 @@ ServerEvents.recipes(e => {
         C: '#forge:glass',
         B: 'kubejs:simple_mechanism'
     })
-	//e.remove({ id: 'thermal:energy_cell_frame' })
-	//e.shaped(
-    //Item.of('thermal:energy_cell_frame'),
-    //[
-    //    'ABA',
-    //    'BCB',
-    //    'ABA'
-    //],
-    //{
-    //    B: 'kubejs:redstone_crystal',
-    //    A: 'thermal:invar_ingot',
-    //    C: 'kubejs:advanced_mechanism'
-    ///})
-	/*e.remove({ id: 'thermal:machine_frame' })
-	e.shaped('thermal:machine_frame', [
-        'BMB',
-        'GAG',
-        'BRB'
-    ], {
-        B: 'create:brass_ingot',
-        M: 'kubejs:advanced_mechanism',
-        G: '#forge:glass',
-        A: 'kubejs:amethyst_casing',
-        R: 'kubejs:redstone_crystal'
-    })
-    e.remove({ id: 'thermal:machine_furnace' })
-	e.shaped('thermal:machine_furnace', [
-        ' M ',
-        'PLP',
-        'GFG'
-    ], {
-        M: 'minecraft:redstone_block',
-        P: 'kubejs:firebricks',
-        G: 'thermal:invar_gear',
-        F: 'thermal:rf_coil',
-        L: 'thermal:machine_frame'
-    })
-	e.remove({ id: 'thermal:machine_press' })
-	e.shaped(
-    Item.of('thermal:machine_press'),
-    [
-        'ABA',
-        'CDC',
-        'EFE'
-    ],
-    {
-        C: '#forge:rods/steel',
-        E: 'thermal:constantan_gear',
-        B: 'kubejs:steel_block',
-        A: 'thermal:invar_gear',
-        D: 'thermal:machine_frame',
-        F: 'thermal:rf_coil'
-    })
-	e.remove({ id: 'thermal:machine_sawmill' })
-	e.shaped(
-    Item.of('thermal:machine_sawmill'),
-    [
-        ' A ',
-        'BCB',
-        'DED'
-    ],
-    {
-        B: '#forge:stone',
-        D: 'thermal:constantan_gear',
-        C: 'thermal:machine_frame',
-        A: 'thermal:saw_blade',
-        E: 'thermal:rf_coil'
-    })
-	e.remove({ id: 'thermal:machine_pulverizer' })
-	e.shaped(
-    Item.of('thermal:machine_pulverizer'),
-    [
-        ' A ',
-        'BCB',
-        'DED'
-    ],
-    {
-        B: 'minecraft:flint',
-        D: 'thermal:copper_gear',
-        C: 'thermal:machine_frame',
-        A: 'minecraft:piston',
-        E: 'thermal:rf_coil'
-    })
-	e.remove({ id: 'thermal:machine_bottler' })
-	e.shaped(
-    Item.of('thermal:machine_bottler'),
-    [
-        ' A ',
-        'BCB',
-        'DED'
-    ],
-    {
-        A: 'minecraft:bucket',
-        D: 'thermal:invar_gear',
-        B: '#forge:glass',
-        C: 'thermal:machine_frame',
-        E: 'thermal:rf_coil'
-    })
-	e.remove({ id: 'thermal:machine_smelter' })
-	e.shaped(
-    Item.of('thermal:machine_smelter'),
-    [
-        'ABA',
-        'CDC',
-        'EFE'
-    ],
-    {
-        C: 'kubejs:ht_cupronickel_coil',
-        A: '#forge:plates/netherite',
-        B: 'kubejs:advanced_mechanism',
-        E: 'thermal:invar_gear',
-        D: 'thermal:machine_frame',
-        F: 'kubejs:power_management_mechanism'
-    })
-	e.remove({ id: 'thermal:machine_insolator' })
-	e.shaped(
-    Item.of('thermal:machine_insolator'),
-    [
-        ' A ',
-        'BCB',
-        'DED'
-    ],
-    {
-        B: 'thermal:phytogro',
-        D: 'thermal:lumium_gear',
-        A: '#forge:glass',
-        E: 'kubejs:power_management_mechanism',
-        C: 'thermal:machine_frame'
-    })
-	e.remove({ id: 'thermal:machine_crystallizer' })
-	e.shaped(
-    Item.of('thermal:machine_crystallizer'),
-    [
-        'ABA',
-        'CDC',
-        'EFE'
-    ],
-    {
-        E: 'thermal:lumium_gear',
-        C: 'thermal:signalum_plate',
-        B: '#thermal:glass/hardened',
-        A: 'thermal:rosin',
-        F: 'kubejs:power_management_mechanism',
-        D: 'thermal:machine_frame'
-    }) */
     e.remove({ id: 'thermal:saw_blade' })
 	e.shaped('thermal:saw_blade', [
         'SS ',
@@ -294,7 +149,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'thermal:rubber_from_dandelion'})
     e.remove({ id: 'thermal:rubber_from_vine'})
     e.remove({ id: 'thermal:tinker_bench'})
-    /*e.shaped(
+    e.shaped(
     Item.of('thermal:tinker_bench'),
     [
         'AAA',
@@ -308,7 +163,7 @@ ServerEvents.recipes(e => {
         B: '#forge:glass',
         E: 'thermal:rf_coil'
     }
-)*/
+)
  e.remove({ id: 'thermal:drill_head' })
 e.shaped(
     Item.of('thermal:drill_head'),
@@ -322,22 +177,6 @@ e.shaped(
         B: 'minecraft:copper_ingot'
     }
 )
-/*e.remove({ id: 'thermal:dynamo_lapidary' })
-e.shaped(
-    Item.of('thermal:dynamo_lapidary'),
-    [
-        ' A ',
-        'BCB',
-        'DED'
-    ],
-    {
-        B: 'minecraft:iron_ingot',
-        C: 'thermal:netherite_gear',
-        E: 'minecraft:redstone',
-        D: 'minecraft:diamond',
-        A: 'thermal:rf_coil'
-    }
-)*/
 e.remove({ id: 'thermal:flux_capacitor' })
 e.shaped(
     Item.of('thermal:flux_capacitor'),
