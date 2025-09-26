@@ -12,6 +12,8 @@ StartupEvents.registry('item', e => {
 	e.create('godly_shard_strange_charged').displayName('Charged Strange Shard').rarity('EPIC')
 
 	e.create('botanic_godly_alloy').displayName('Botanic Godly Alloy').rarity('EPIC')
+	e.create('kinetic_godly_alloy').displayName('Kinetic Godly Alloy').rarity('EPIC')
+	e.create('matter_godly_alloy').displayName('Matter Godly Alloy').rarity('EPIC')
 	e.create('fluid_godly_alloy').displayName('Fluid Godly Alloy').rarity('EPIC')
 	e.create('energy_godly_alloy').displayName('Energy Godly Alloy').rarity('EPIC')
 	e.create('unstable_godly_alloy').displayName('Unstable Godly Alloy').rarity('EPIC')

@@ -11,27 +11,29 @@ e.shaped('create:creative_blaze_cake',
 		G:'kubejs:unstable_godly_alloy',
 		B: 'create:blaze_cake'
 	})
+
 e.recipes.create.sequenced_assembly(
     ['kubejs:unstable_godly_alloy'],
     'kubejs:unstable_alloy',
-     [
-        e.recipes.createFilling('kubejs:incomplete_unstable_godly_alloy',['kubejs:incomplete_unstable_godly_alloy', Fluid.of('thermal:refined_fuel', 1000)]),
-        e.recipes.createFilling('kubejs:incomplete_unstable_godly_alloy',['kubejs:incomplete_unstable_godly_alloy', {fluidTag: "forge:diesel", amount: 1000}]),
-        e.recipes.createFilling('kubejs:incomplete_unstable_godly_alloy',['kubejs:incomplete_unstable_godly_alloy', {fluidTag: "forge:gasoline", amount: 1000}]),
-        e.recipes.createFilling('kubejs:incomplete_unstable_godly_alloy',['kubejs:incomplete_unstable_godly_alloy', {fluidTag: "forge:biodiesel", amount: 1000}]),
-        e.recipes.createFilling('kubejs:incomplete_unstable_godly_alloy',['kubejs:incomplete_unstable_godly_alloy', Fluid.of('mekanismgenerators:fusion_fuel', 1000)])
+    [
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('thermal:refined_fuel', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', {fluidTag: "forge:diesel", amount: 1000}]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', {fluidTag: "forge:gasoline", amount: 1000}]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', {fluidTag: "forge:biodiesel", amount: 1000}]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('mekanismgenerators:fusion_fuel', 1000)])
     ]
 ).transitionalItem('kubejs:unstable_alloy').loops(10)
+
 e.recipes.create.sequenced_assembly(
     ['kubejs:fluid_godly_alloy'],
     'kubejs:unstable_alloy',
      [
-        e.recipes.createFilling('kubejs:incomplete_unstable_godly_alloy',['kubejs:incomplete_unstable_godly_alloy', Fluid.of('minecraft:lava', 1000)]),
-        e.recipes.createFilling('kubejs:incomplete_unstable_godly_alloy',['kubejs:incomplete_unstable_godly_alloy', Fluid.of('bloodmagic:life_essence_fluid', 1000)]),
-        e.recipes.createFilling('kubejs:incomplete_unstable_godly_alloy',['kubejs:incomplete_unstable_godly_alloy', Fluid.of('mekanism:uranium_hexafluoride', 1000)]),
-        e.recipes.createFilling('kubejs:incomplete_unstable_godly_alloy',['kubejs:incomplete_unstable_godly_alloy', Fluid.of('thermal:ender', 1000)]),
-        e.recipes.createFilling('kubejs:incomplete_unstable_godly_alloy',['kubejs:incomplete_unstable_godly_alloy', Fluid.of('createbigcannons:molten_nethersteel', 1000)]),
-        e.recipes.createFilling('kubejs:incomplete_unstable_godly_alloy',['kubejs:incomplete_unstable_godly_alloy', Fluid.of('immersiveengineering:acetaldehyde', 1000)])
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('minecraft:lava', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('bloodmagic:life_essence_fluid', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('mekanism:uranium_hexafluoride', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('thermal:ender', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('createbigcannons:molten_nethersteel', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('immersiveengineering:acetaldehyde', 1000)])
     ]
 ).transitionalItem('kubejs:unstable_alloy').loops(25)
 
@@ -68,6 +70,31 @@ e.recipes.create.sequenced_assembly(
         e.recipes.createDeploying('kubejs:unstable_alloy',['kubejs:unstable_alloy', 'mekanism:ultimate_induction_provider'])
     ]
 ).transitionalItem('kubejs:unstable_alloy').loops(2)
+e.recipes.create.sequenced_assembly(
+    ['kubejs:kinetic_godly_alloy'],
+    'kubejs:unstable_alloy',
+     [
+        e.recipes.createDeploying('kubejs:unstable_alloy',['kubejs:unstable_alloy', 'create:shadow_steel']),
+        e.recipes.createDeploying('kubejs:unstable_alloy',['kubejs:unstable_alloy', 'create:rotation_speed_controller']),
+        e.recipes.createDeploying('kubejs:unstable_alloy',['kubejs:unstable_alloy', 'create:refined_radiance']),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('create_enchantment_industry:hyper_experience', 250)])
+    ]
+).transitionalItem('kubejs:unstable_alloy').loops(5)
+e.shaped(
+    Item.of('kubejs:matter_godly_alloy'),
+    [
+        'ABA',
+        'CDE',
+        'ABA'
+    ],
+    {
+        C: 'mekanism:pellet_antimatter',
+        D: 'ars_nouveau:mob_jar',
+        B: 'ae2:quantum_entangled_singularity',
+        A: 'kubejs:unstable_alloy',
+        E: 'ae2:matter_ball'
+    }
+)
 
 e.shaped(
     Item.of('thermal:rf_coil_creative_augment'),
@@ -169,6 +196,48 @@ e.shaped(
         B: 'thermal:enderium_ingot'
     }
 )
-
+e.shaped(
+    Item.of('create:creative_motor'),
+    [
+        'ABA',
+        'CDE',
+        'ABA'
+    ],
+    {
+        B: 'create_confectionery:black_chocolate_bucket',
+        D: 'kubejs:kinetic_godly_alloy',
+        A: 'kubejs:unstable_alloy',
+        C: 'create_new_age:advanced_motor_extension',
+        E: 'create_new_age:reinforced_motor'
+    }
+)
+e.shaped(
+    Item.of('appbot:creative_mana_cell'),
+    [
+        'ABA',
+        'CAD',
+        'AEA'
+    ],
+    {
+        E: 'appbot:mana_cell_housing',
+        C: 'kubejs:matter_godly_alloy',
+        D: 'kubejs:energy_godly_alloy',
+        B: 'botania:creative_pool',
+        A: 'kubejs:unstable_alloy'
+    }
+)
+e.shaped(
+    Item.of('storagedrawers:creative_storage_upgrade'),
+    [
+        'AAA',
+        'BCB',
+        'AAA'
+    ],
+    {
+        C: 'storagedrawers:upgrade_template',
+        B: 'kubejs:matter_godly_alloy',
+        A: '#forge:rods/wooden'
+    }
+)
 }
 )
