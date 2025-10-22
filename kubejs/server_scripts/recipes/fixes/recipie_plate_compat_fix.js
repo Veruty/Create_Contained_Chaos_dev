@@ -1,48 +1,72 @@
-ServerEvents.recipes(e => {
-	e.recipes.createPressing('thermal:constantan_plate','#rforge:ingots/constantan')
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"tag": "forge:ingots/constantan"}],
-        "results": [{"item": "thermal:constantan_plate"}]})
-	e.recipes.createPressing('thermal:bronze_plate','#forge:ingots/bronze')
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"tag": "forge:ingots/bronze"}],
-        "results": [{"item": "thermal:bronze_plate"}]})
-	e.recipes.createPressing('thermal:signalum_plate','#forge:ingots/signalum')
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"tag": "forge:ingots/signalum"}],
-        "results": [{"item": "thermal:signalum_plate"}]})
-	e.recipes.createPressing('thermal:lumium_plate','#forge:ingots/lumium')
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"tag": "forge:ingots/lumium"}],
-        "results": [{"item": "thermal:lumium_plate"}]})
-	e.recipes.createPressing('thermal:rose_gold_plate','#forge:ingots/rose_gold')
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"tag": "forge:ingots/rose_gold"}],
-        "results": [{"item": "thermal:rose_gold_plate"}]})
-	e.recipes.createPressing('thermal:nickel_plate','#forge:ingots/nickel')
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"tag": "forge:ingots/nickel"}],
-        "results": [{"item": "thermal:nickel_plate"}]})
-	e.recipes.createPressing('thermal:silver_plate','#forge:ingots/silver')
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"tag": "forge:ingots/silver"}],
-        "results": [{"item": "thermal:silver_plate"}]})
-	e.recipes.createPressing('thermal:lead_plate','#forge:ingots/lead')
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"tag": "forge:ingots/lead"}],
-        "results": [{"item": "thermal:lead_plate"}]})
-	e.recipes.createPressing('thermal:tin_plate','#forge:ingots/tin')
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"tag": "forge:ingots/tin"}],
-        "results": [{"item": "thermal:tin_plate"}]})
-	e.recipes.createPressing('thermal:enderium_plate','#forge:ingots/enderium')
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"tag": "forge:ingots/enderium"}],
-        "results": [{"item": "thermal:enderium_plate"}]})
-	e.recipes.createPressing('thermal:invar_plate','#forge:ingots/invar')
-	e.custom({"type": "createdieselgenerators:hammering",
-	"ingredients": [{"tag": "forge:ingots/invar"}],
-        "results": [{"item": "thermal:invar_plate"}]})
+const thermal_type = [
+	'steel',
+	'rose_gold',
+	'tin',
+	'lead',
+	'silver',
+	'nickel',
+	'bronze',
+	'electrum',
+	'invar',
+	'constantan',
+	'netherite',
+	'signalum',
+	'lumium',
+	'enderium']
 
+ServerEvents.recipes(event => {
+	thermal_type.forEach(thermal_type => event.remove({ output: 'thermal:' + thermal_type + '_plate' }),)
+	thermal_type.forEach(thermal_type => event.recipes.createPressing('thermal:' + thermal_type + '_plate','#forge:ingots/' + thermal_type).id('kjscreate:pressing/' + thermal_type + '_plate_from_' + thermal_type + '_ingot'))
+	thermal_type.forEach(thermal_type =>
+	event.custom({"type": "createdieselgenerators:hammering",
+	"ingredients": [{"tag": 'forge:ingots/' + thermal_type}],
+        "results": [{"item": 'thermal:' + thermal_type + '_plate'}]}).id('kjscreatedieselgenerators:hammering/' + thermal_type + '_plate_from_' + thermal_type + '_ingot' ))
+	thermal_type.forEach(thermal_type => 
+		event.shapeless('thermal:' + thermal_type + '_plate', ['#forge:ingots/' + thermal_type,'immersiveengineering:hammer'])
+		.id('kjsimmersiveengineering:crafting/' + thermal_type + '_plate_from_' + thermal_type + '_ingot' )
+		.damageIngredient('immersiveengineering:hammer', 1)
+	)
+	thermal_type.forEach(thermal_type => 
+		event.custom({"type": "immersiveengineering:metal_press",
+		"energy": 2400,
+		"input": {"tag": 'forge:ingots/' + thermal_type},
+  		"mold": "immersiveengineering:mold_plate",
+  		"result": {"item": 'thermal:' + thermal_type + '_plate'}}) )
+	//thermal_type.forEach(thermal_type => event.custom({"type": "thermal:press",
+	//"ingredient": { "tag": 'forge:ingots/' + thermal_type},
+	//"result": [{ "item": 'thermal:' + thermal_type + '_plate' }]
+	//}).id('kjsthermal:press/' + thermal_type + '_plate_from_' + thermal_type + '_ingot' ))
+})
 
+const create_type = [
+	'copper',
+	'brass',
+	'iron',
+	'golden'
+]
+
+ServerEvents.recipes(event => {
+	create_type.forEach(create_type => event.remove({ output: 'create:' + create_type + '_sheet' }),)
+	create_type.forEach(create_type => event.recipes.createPressing('create:' + create_type + '_sheet','#forge:ingots/' + create_type).id('kjscreate:pressing/' + create_type + '_sheet_from_' + create_type + '_ingot'))
+	create_type.forEach(create_type =>
+	event.custom({"type": "createdieselgenerators:hammering",
+	"ingredients": [{"tag": 'forge:ingots/' + create_type}],
+        "results": [{"item": 'create:' + create_type + '_sheet'}]}).id('kjscreatedieselgenerators:hammering/' + create_type + '_sheet_from_' + create_type + '_ingot' ))
+	create_type.forEach(create_type => 
+		event.shapeless('create:' + create_type + '_sheet', ['#forge:ingots/' + create_type,'immersiveengineering:hammer'])
+		.id('kjsimmersiveengineering:crafting/' + create_type + '_sheet_from_' + create_type + '_ingot' )
+		.damageIngredient('immersiveengineering:hammer', 1)
+	)
+	create_type.forEach(create_type => 
+		event.custom({"type": "immersiveengineering:metal_press",
+		"energy": 2400,
+		"input": {"tag": 'forge:ingots/' + create_type},
+  		"mold": "immersiveengineering:mold_sheet",
+  		"result": {"item": 'create:' + create_type + '_sheet'}}) )
+	create_type.forEach(create_type => event.custom({"type": "thermal:press",
+	"ingredient": { "tag": 'forge:ingots/' + create_type},
+	"result": [{ "item": 'create:' + create_type + '_sheet' }]
+	}).id('kjscreate:press/' + create_type + '_sheet_from_' + create_type + '_ingot' ))
+
+	//it might me a good idea to rewrite this whole thing as a function but i cannot be arsed rn
 })
