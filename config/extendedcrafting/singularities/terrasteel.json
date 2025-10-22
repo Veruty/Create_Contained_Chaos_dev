@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.terrasteel",
+  "colors": [
+    "cafcb3",
+    "043b1c"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/terrasteel"
+  }
+}
