@@ -48,8 +48,8 @@
 			image: "kubejs:textures/questimg/botania/2025-08-17_12.22.29-removebg-preview.png"
 			rotation: 0.0d
 			width: 8.0d
-			x: 5.5d
-			y: 14.0d
+			x: 5.0d
+			y: 13.5d
 		}
 		{
 			height: 7.0d
@@ -654,7 +654,7 @@
 				}
 			]
 			title: "Seasonal Runes"
-			x: 7.5d
+			x: 6.5d
 			y: 16.5d
 		}
 		{
@@ -803,7 +803,7 @@
 				}
 			]
 			title: "Sin Runes"
-			x: 9.5d
+			x: 8.5d
 			y: 16.5d
 		}
 		{
@@ -1029,8 +1029,8 @@
 				}
 			]
 			title: "Rock Hard"
-			x: 7.5d
-			y: 10.0d
+			x: 6.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["134C2C44F7D9C0AB"]
@@ -1413,7 +1413,7 @@
 				item: "botania:exchange_rod"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.5d
 			y: 17.5d
 		}
 		{
@@ -1603,7 +1603,7 @@
 				item: "botania:goddess_charm"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: 15.5d
 		}
 		{
@@ -1616,7 +1616,7 @@
 				item: "botania:cloud_pendant"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 18.5d
 		}
 		{
@@ -1668,7 +1668,7 @@
 				item: "botania:lava_pendant"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: 17.5d
 		}
 		{
@@ -1757,7 +1757,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.5d
 			y: 15.5d
 		}
 		{

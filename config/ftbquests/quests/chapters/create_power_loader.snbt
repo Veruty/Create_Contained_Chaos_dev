@@ -57,10 +57,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"4D470E684F1CC93A"
-				"42ABA1C28769F334"
-			]
+			dependencies: ["4D470E684F1CC93A"]
 			id: "27ADD28DFF4889AF"
 			tasks: [{
 				id: "485BAD2EF4FD55F8"
@@ -71,10 +68,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"302781795CC2B9AE"
-				"42ABA1C28769F334"
-			]
+			dependencies: ["302781795CC2B9AE"]
 			id: "2CBF9D02A3972569"
 			tasks: [{
 				id: "42D61EFB88DF4039"
@@ -83,21 +77,6 @@
 			}]
 			x: 4.0d
 			y: 3.5d
-		}
-		{
-			dependencies: [
-				"302781795CC2B9AE"
-				"4D470E684F1CC93A"
-			]
-			dependency_requirement: "one_completed"
-			id: "42ABA1C28769F334"
-			subtitle: "right click a ghast with empty chunk loader to get normal one"
-			tasks: [{
-				id: "48D558D53F1C2DDB"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 2.5d
 		}
 	]
 	title: "Create: Power Loader"

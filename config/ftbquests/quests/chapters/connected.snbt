@@ -25,16 +25,10 @@
 			y: -1.0d
 		}
 		{
-			id: "38057E79FC249F43"
-			linked_quest: "23CBB16C9A8710E8"
-			x: -3.5d
-			y: -5.0d
-		}
-		{
 			id: "5B87C4FB8EE1161E"
 			linked_quest: "13CB61FC5BFC4E2D"
-			x: -4.5d
-			y: -5.0d
+			x: -4.0d
+			y: -4.5d
 		}
 		{
 			id: "175147EF7527B6CF"
@@ -82,7 +76,7 @@
 			id: "5E8CAD710D6A1E2F"
 			linked_quest: "6D59BFAA88A72943"
 			x: -4.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			id: "49F9B9C11FB0F93F"
@@ -135,25 +129,26 @@
 	]
 	quests: [
 		{
-			dependencies: ["13CB61FC5BFC4E2D"]
+			dependencies: [
+				"13CB61FC5BFC4E2D"
+				"2CE4BA59C410B6D0"
+			]
+			description: ["Does exactly as it says, its a cog with crank wheel attached to it"]
+			icon: "create_connected:crank_wheel"
 			id: "7AE75BB65C7D9E4E"
-			tasks: [{
-				id: "1FB57F9BD24E27A3"
-				item: "create_connected:crank_wheel"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["23CBB16C9A8710E8"]
-			id: "7F05A6D3CBCFAB40"
-			tasks: [{
-				id: "4C070E3B17849A19"
-				item: "create_connected:large_crank_wheel"
-				type: "item"
-			}]
-			x: -3.5d
+			tasks: [
+				{
+					id: "1FB57F9BD24E27A3"
+					item: "create_connected:crank_wheel"
+					type: "item"
+				}
+				{
+					id: "4E6025A8BD2E5E43"
+					item: "create_connected:large_crank_wheel"
+					type: "item"
+				}
+			]
+			x: -4.0d
 			y: -3.0d
 		}
 		{
