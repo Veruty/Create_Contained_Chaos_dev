@@ -10,8 +10,8 @@
 		{
 			id: "70B9FE1AB07305C0"
 			linked_quest: "31076E0286BDD977"
-			x: -10.0d
-			y: 4.5d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			id: "5293044C90CD608E"
@@ -82,6 +82,11 @@
 				"74837414C3A22899"
 				"7A0BDC9A8F3E23A6"
 			]
+			description: [
+				"Printer is used to duplicate books (even enchanted ones)."
+				""
+				"It uses Ink or Liquid Experience to duplicate books. To operate place above depot and pump fluid inside."
+			]
 			id: "70BB713A10F8868C"
 			tasks: [{
 				id: "6FE191367EA55ED2"
@@ -113,8 +118,8 @@
 				item: "create_enchantment_industry:experience_rotor"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 4.5d
+			x: -5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -133,7 +138,11 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1C897FB72A14682E"]
+			dependencies: [
+				"1C897FB72A14682E"
+				"664A706BBA3DBAA4"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Its made in disenchanter by:"
 				""
@@ -178,8 +187,9 @@
 			description: ["To duplicate an enchanted book you will need to right-click Printer with Enchanted Book you want to copy, place books on Depot below the Printer and pump Liquid Experience into Printer"]
 			id: "33CEA49596ADC5EE"
 			tasks: [{
-				id: "7E844C97BA49B819"
-				type: "checkmark"
+				elapsedTime: 1L
+				id: "54934BD3B7048361"
+				type: "questsadditions:time"
 			}]
 			title: "Duplicating Enchanted Books with Printer"
 			x: -7.0d
@@ -192,9 +202,9 @@
 			]
 			id: "433D7E4306A6BD56"
 			tasks: [{
-				id: "5E086B69073E6EE9"
-				title: "Hyper Experience in Enchanted Book making"
-				type: "checkmark"
+				elapsedTime: 1L
+				id: "202C7D6CFE082765"
+				type: "questsadditions:time"
 			}]
 			x: -7.0d
 			y: 3.5d

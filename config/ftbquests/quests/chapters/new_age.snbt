@@ -117,25 +117,25 @@
 			y: -2.5d
 		}
 		{
-			id: "56672A4CD4704A0F"
-			linked_quest: "6D59BFAA88A72943"
+			id: "0B9FACE69FC51805"
+			linked_quest: "0E26D8711F2FDDE4"
 			x: -5.0d
 			y: -1.0d
 		}
 	]
 	quests: [
 		{
-			dependencies: ["6D59BFAA88A72943"]
+			dependencies: ["0E26D8711F2FDDE4"]
 			description: ["{quest.na.1.desc}"]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			icon: "create_new_age:nuclear_fuel"
 			id: "33C653AEA4714144"
 			shape: "square"
 			size: 1.5d
 			tasks: [{
-				id: "34998B680119C580"
-				title: "{quest.na.1.checkmark}"
-				type: "checkmark"
+				elapsedTime: 1L
+				id: "37D2308E12A7520C"
+				type: "questsadditions:time"
 			}]
 			title: "{quest.na.1.title}"
 			x: -5.0d

@@ -5,17 +5,25 @@
 	group: "1B9B9B5F76BED733"
 	id: "124D5C6D7704A5F4"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "079692E4A2E7FE2F"
+		linked_quest: "0E26D8711F2FDDE4"
+		x: -1.5d
+		y: -1.5d
+	}]
 	quests: [
 		{
+			dependencies: ["0E26D8711F2FDDE4"]
 			description: ["Begin your legendary adventure to pet and make friends with all frien shaped entities :3"]
+			hide_until_deps_complete: true
 			id: "2B39F7FCAA1EC5E9"
 			subtitle: "Silly times await"
 			tasks: [{
-				id: "3BE74E8458CD0585"
-				title: "Beginnings"
-				type: "checkmark"
+				elapsedTime: 1L
+				id: "7AE208644369D540"
+				type: "questsadditions:time"
 			}]
+			title: "Beginnings"
 			x: -0.5d
 			y: -0.5d
 		}
