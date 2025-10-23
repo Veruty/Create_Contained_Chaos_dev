@@ -28,4 +28,5 @@ StartupEvents.registry('item', e => {
     e.create('redstone_alloy').displayName('Redstone Alloy').rarity('UNCOMMON')
     e.create('simple_mechanism').displayName('Simple Mechanism')
     e.create('incomplete_simple_mechanism').displayName('Incomplete Simple Mechanism')
+    e.create('sturdy_iron_composite').displayName('Sturdy Iron Composite')
 })
