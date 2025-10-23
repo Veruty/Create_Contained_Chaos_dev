@@ -96,6 +96,11 @@
 		}
 		{
 			dependencies: ["7A0BDC9A8F3E23A6"]
+			description: [
+				"The Portable Fluid Interface is the fluid version of the Portable Storage Interface. It is used to insert or extract from the fluid inventory of a Contraption."
+				""
+				"The Interfaces must be placed facing each other at 1-2 blocks apart, one on a Contraption with Fluid Tanks and one stationary. A Fluid Pump is required to insert or extract liquid from the Contraption. To pump liquids to another tank, simply connect the stationary interface and the fluid tank with fluid pipes, although pumps are required to move the liquids."
+			]
 			id: "0D67E6C3B4FEA54D"
 			tasks: [{
 				id: "12051945A81B81DE"
@@ -130,26 +135,19 @@
 		{
 			dependencies: ["7083FA0AF9A0304C"]
 			id: "1EAAF7D889C0B415"
-			tasks: [{
-				id: "577ED618D90BC03C"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "create:fluid_tank"
-							}
-							{
-								Count: 1b
-								id: "create_connected:fluid_vessel"
-							}
-						]
-					}
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "577F69A3BE275B96"
+					item: "create:fluid_tank"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "45BC8D3AFE20EA3D"
+					item: "create_connected:fluid_vessel"
+					type: "item"
+				}
+			]
 			title: "Fluid Tank"
 			x: -2.5d
 			y: 1.5d

@@ -9,8 +9,8 @@
 		{
 			id: "1E31F0AF196F9617"
 			linked_quest: "7B196B74898CA9AD"
-			x: -7.5d
-			y: 1.5d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			id: "5B4C77838E1831FF"
@@ -23,6 +23,12 @@
 			linked_quest: "0E26D8711F2FDDE4"
 			x: -2.5d
 			y: -5.0d
+		}
+		{
+			id: "05106F1FAB5B3DFD"
+			linked_quest: "4DC8771F98726863"
+			x: -5.5d
+			y: -0.5d
 		}
 	]
 	quests: [
@@ -76,8 +82,8 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: 2.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -112,7 +118,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -4.5d
 			y: 8.5d
 		}
 		{
@@ -134,8 +140,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -152,8 +158,8 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.5d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -173,8 +179,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -194,8 +200,8 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.5d
+			x: -10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["015431AF0A5996BD"]
@@ -254,7 +260,7 @@
 				item: "thermal:invar_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -0.5d
 			y: 2.5d
 		}
 		{
@@ -310,15 +316,14 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1582AF37FFA4377D"]
 			id: "0B0670532670373D"
 			tasks: [{
 				id: "20E5CE3FB3C97719"
 				item: "kubejs:redstone_crystal"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -11.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["55A1237E4E373FCA"]
@@ -329,8 +334,8 @@
 				item: "kubejs:amethyst_alloy"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -10.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -346,7 +351,7 @@
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.5d
 			y: 2.5d
 		}
 		{
@@ -377,7 +382,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7008601BDEF473A3"]
@@ -396,8 +401,8 @@
 				item: "mekanism:ingot_osmium"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 9.5d
+			x: -2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -416,8 +421,8 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.5d
+			x: -4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["015431AF0A5996BD"]
@@ -432,8 +437,8 @@
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 9.5d
+			x: -4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -474,8 +479,8 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 5.5d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -499,8 +504,8 @@
 				type: "item"
 			}]
 			title: "Lead Ingot"
-			x: -7.5d
-			y: 3.5d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -617,8 +622,8 @@
 				item: "thermal:enderium_ingot"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.5d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -667,8 +672,8 @@
 				type: "item"
 			}]
 			title: "Electrum Ingot"
-			x: -2.5d
-			y: 8.5d
+			x: -3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -684,8 +689,8 @@
 				item: "thermal:apatite"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 5.5d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -704,8 +709,8 @@
 				item: "thermal:phytogro"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.5d
+			x: 0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -721,22 +726,19 @@
 				item: "thermal:niter"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 6.5d
+			x: -0.5d
+			y: 8.5d
 		}
 		{
-			dependencies: [
-				"0B0670532670373D"
-				"2A6F014969A34A39"
-			]
+			dependencies: ["0B0670532670373D"]
 			id: "453D10B6EDB4F135"
 			tasks: [{
 				id: "490254E85E3957F6"
 				item: "kubejs:redstone_alloy"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -10.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -759,8 +761,8 @@
 				title: "Any #forge:gems/sulfur"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 8.5d
+			x: -5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -783,12 +785,12 @@
 				title: "Any #forge:dusts/sulfur"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.5d
+			x: 1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
-			description: ["{quest.meka.123.desc}"]
+			description: [""]
 			hide_until_deps_visible: true
 			id: "3B56434268E39A91"
 			rewards: [{
@@ -802,9 +804,8 @@
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			title: "{quest.meka.123.title}"
-			x: 1.5d
-			y: 6.5d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -824,7 +825,7 @@
 			}]
 			title: "{quest.meka.124.title}"
 			x: -5.5d
-			y: 7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -841,14 +842,10 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"01956B8E7A2E9355"
-				"26A6DE1E900CE836"
-				"3B56434268E39A91"
-			]
+			dependencies: ["26A6DE1E900CE836"]
 			dependency_requirement: "one_completed"
 			id: "2B46651C03FEEBF0"
 			min_required_dependencies: 1
@@ -870,8 +867,8 @@
 				title: "Any #forge:coal_coke"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -898,7 +895,7 @@
 				type: "item"
 			}]
 			title: "Uranium Ingot"
-			x: -7.5d
+			x: 2.5d
 			y: 7.5d
 		}
 		{
@@ -917,47 +914,52 @@
 				item: "mekanism:fluorite_gem"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 8.5d
+			x: -5.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["0FA6058EA8FF3A04"]
+			dependencies: [
+				"0FA6058EA8FF3A04"
+				"0F2000A3828DD2A0"
+			]
 			id: "0BC9E2BF3F83029D"
 			tasks: [{
 				id: "20AD44D6C24EA034"
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.5d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"33018F2BDE1BE330"
-				"0BC9E2BF3F83029D"
-			]
 			id: "58CC695C9F6C1EEE"
 			tasks: [{
 				id: "78EE83B9FBDD53A4"
 				item: "kubejs:condensed_alloy"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.5d
+			x: -9.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["0FA6058EA8FF3A04"]
+			dependencies: [
+				"0FA6058EA8FF3A04"
+				"7F8F6CB4674626C1"
+			]
 			id: "03CB1A747D019D4E"
 			tasks: [{
 				id: "5ABD96B46D133499"
 				item: "botania:mana_pearl"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: -0.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["0FA6058EA8FF3A04"]
+			dependencies: [
+				"0FA6058EA8FF3A04"
+				"158426E64B0F7B64"
+			]
 			id: "1BF2B00BBDA7C6C3"
 			tasks: [{
 				id: "69F2739EE86568E6"
@@ -982,15 +984,11 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
-			dependencies: [
-				"58CC695C9F6C1EEE"
-				"453D10B6EDB4F135"
-				"134C2C44F7D9C0AB"
-			]
+			dependencies: ["453D10B6EDB4F135"]
 			id: "66136119F1CB9705"
 			tasks: [{
 				count: 2L
@@ -998,8 +996,56 @@
 				item: { Count: 2, id: "kubejs:unstable_alloy" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BF2B00BBDA7C6C3"]
+			id: "4C24C6B97E26F8F1"
+			tasks: [{
+				id: "2E4AE0674EC05685"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["03CB1A747D019D4E"]
+			id: "66549A8AFA8AE6D3"
+			tasks: [{
+				id: "30A8C96E6A61244A"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BC9E2BF3F83029D"]
+			id: "15D2AEA28DAE3F85"
+			tasks: [{
+				id: "296D89BF22782499"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"134C2C44F7D9C0AB"
+				"4DC8771F98726863"
+			]
+			description: ["Defeat the Gaia Guardian and create a Gaiasteel Ingot. use this to unleash your potential through the final trial."]
+			id: "4CF7E4566BD3B30A"
+			tasks: [{
+				id: "1A5A37971F326E2E"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
 		}
 	]
 	title: "Metalls, Alloys and Other Stuff"
