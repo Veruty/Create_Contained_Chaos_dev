@@ -33,3 +33,4 @@ config/oculus.properties
 !.probe/probe-settings.json
 config/figura.json
 config/emi.css
+config/figura.json
