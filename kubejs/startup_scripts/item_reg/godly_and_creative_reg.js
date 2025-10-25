@@ -13,10 +13,9 @@ StartupEvents.registry('item', e => {
 
 	e.create('botanic_godly_alloy').displayName('Botanic Godly Alloy').rarity('EPIC')
 	e.create('kinetic_godly_alloy').displayName('Kinetic Godly Alloy').rarity('EPIC')
+	e.create('matter_godly_alloy').displayName('Matter Godly Alloy').rarity('EPIC')
 	e.create('fluid_godly_alloy').displayName('Fluid Godly Alloy').rarity('EPIC')
 	e.create('energy_godly_alloy').displayName('Energy Godly Alloy').rarity('EPIC')
 	e.create('unstable_godly_alloy').displayName('Unstable Godly Alloy').rarity('EPIC')
 	e.create('incomplete_energy_godly_alloy').displayName('Incomplete Energy Godly Alloy').rarity('EPIC')
-	e.create('incomplete_fluid_godly_alloy').displayName('Incomplete Fluid Godly Alloy').rarity('EPIC')
-	e.create('incomplete_unstable_godly_alloy').displayName('Incomplete Unstable Godly Alloy').rarity('EPIC')
 })

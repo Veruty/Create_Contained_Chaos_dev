@@ -1,9 +1,19 @@
 ServerEvents.recipes(e => {
-
-//unstable things
+e.recipes.create.item_application('createbigcannons:creative_autocannon_ammo_container', ['createbigcannons:autocannon_ammo_container', 'kubejs:unstable_godly_alloy'])
+e.recipes.create.item_application('botania:creative_pool', ['botania:fabulous_pool', 'kubejs:botanic_godly_alloy'])
+e.shaped('create:creative_blaze_cake', 
+    [
+		'GGG',
+		'GBG',
+		'GGG'
+	], 
+    {
+		G:'kubejs:unstable_godly_alloy',
+		B: 'create:blaze_cake'
+	})
 
 e.recipes.create.sequenced_assembly(
-    ['kubejs:incomplete_unstable_godly_alloy'],
+    ['kubejs:unstable_godly_alloy'],
     'kubejs:unstable_alloy',
     [
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('thermal:refined_fuel', 1000)]),
@@ -12,363 +22,65 @@ e.recipes.create.sequenced_assembly(
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', {fluidTag: "forge:biodiesel", amount: 1000}]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('mekanismgenerators:fusion_fuel', 1000)])
     ]
-).transitionalItem('kubejs:unstable_alloy').loops(25)
+).transitionalItem('kubejs:unstable_alloy').loops(10)
 
-e.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "ABCDCBA",
-    "BEDEDEB",
-    "CDFGFDC",
-    "DEGHGED",
-    "CDFGFDC",
-    "BEDEDEB",
-    "ABCDCBA"
-  ],
-  "key": {
-    "A": {
-      "item": "minecraft:blaze_rod"
-    },
-    "B": {
-      "item": "ars_nouveau:fire_essence"
-    },
-    "C": {
-      "item": "thermal:rosin"
-    },
-    "D": {
-      "item": "kubejs:incomplete_unstable_godly_alloy"
-    },
-    "E": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:coal\"}"
-    },
-    "F": {
-      "item": "thermal:bitumen"
-    },
-    "G": {
-      "item": "thermal:tar"
-    },
-    "H": {
-      "tag": "forge:coal_coke"
-    }
-  },
-  "result": {
-    "item": 'kubejs:unstable_godly_alloy'
-  }
-})
-
-
-e.recipes.create.item_application('createbigcannons:creative_autocannon_ammo_container', ['createbigcannons:autocannon_ammo_container', 'kubejs:unstable_godly_alloy'])
-e.recipes.createDeploying('create:creative_blaze_cake',['create:blaze_cake', 'kubejs:unstable_godly_alloy'])
-
-
-//fluid things
 e.recipes.create.sequenced_assembly(
-    ['kubejs:incomplete_fluid_godly_alloy'],
+    ['kubejs:fluid_godly_alloy'],
     'kubejs:unstable_alloy',
      [
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('minecraft:lava', 1000)]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('bloodmagic:life_essence_fluid', 1000)]),
-        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('create_enchantment_industry:hyper_experience', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('mekanism:uranium_hexafluoride', 1000)]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('thermal:ender', 1000)]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('createbigcannons:molten_nethersteel', 1000)]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('immersiveengineering:acetaldehyde', 1000)])
     ]
 ).transitionalItem('kubejs:unstable_alloy').loops(25)
 
-e.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "ABBCBBA",
-    "BDCECDB",
-    "BCFGFCB",
-    "CEGHGEC",
-    "BCFGFCB",
-    "BDCECDB",
-    "ABBCBBA"
-  ],
-  "key": {
-    "A": {
-      "item": "create:copper_casing"
-    },
-    "B": {
-      "item": "immersiveengineering:sheetmetal_copper"
-    },
-    "C": {
-      "item": "kubejs:incomplete_fluid_godly_alloy"
-    },
-    "D": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:copper\"}"
-    },
-    "E": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:bronze\"}"
-    },
-    "F": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:lapis_lazuli\"}"
-    },
-    "G": {
-      "item": "minecraft:bucket"
-    },
-    "H": {
-      "item": "cookingforblockheads:sink"
-    }
-  },
-  "result": {
-    "item": 'kubejs:fluid_godly_alloy'
-  }
-})
-
-e.recipes.create.item_application('create:creative_fluid_tank', ['create:fluid_tank', 'kubejs:fluid_godly_alloy'])
-e.recipes.create.item_application('create_connected:creative_fluid_vessel', ['create_connected:fluid_vessel', 'kubejs:fluid_godly_alloy'])
-
-e.shapeless(
-    Item.of('create:creative_fluid_tank'),
+e.recipes.botania.runic_altar("kubejs:botanic_godly_alloy",
     [
-        'create_connected:creative_fluid_vessel'
-    ]
-)
-e.shapeless(
-    Item.of('create_connected:creative_fluid_vessel'),
-    [
-        'create:creative_fluid_tank'
-    ]
-)
+    "botania:rune_sloth",
+    "botania:rune_wrath",
+    "botania:rune_pride",
+    "botania:rune_envy",
+    "botania:rune_greed",
+    "botania:rune_gluttony",
+    "botania:rune_lust",
+    "botania:rune_mana",
+    "kubejs:unstable_alloy",
+    "botania:gaia_ingot",
+    "botania:ender_air_bottle",
+    "botania:terrasteel_block",
+    "botania:laputa_shard"
+], 2500000)
 
-e.recipes.create.item_application('mekanism:creative_fluid_tank', ['mekanism:ultimate_fluid_tank', 'kubejs:fluid_godly_alloy'])
-
-e.shapeless(
-    Item.of('mekanism:creative_fluid_tank'),
-    [
-        'mekanism:creative_fluid_tank'
-    ]
-)
-
-e.recipes.createDeploying('thermal:fluid_tank_creative_augment',['thermal:fluid_tank_augment', 'kubejs:fluid_godly_alloy'])
-
-//botanic things
-
-e.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "ABBCBBA",
-    "BDCECFB",
-    "BCGHICB",
-    "CEHJHEC",
-    "BCKHLCB",
-    "BMCECNB",
-    "ABBCBBA"
-  ],
-  "key": {
-    "A": {
-      "item": "botania:dice"
-    },
-    "B": {
-      "item": "botania:gaia_ingot"
-    },
-    "C": {
-      "type": "forge:nbt",
-      "item": "botania:laputa_shard",
-      "count": 1,
-      "nbt": "{level:19}"
-    },
-    "D": {
-      "item": "botania:rune_sloth"
-    },
-    "E": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:manasteel\"}"
-    },
-    "F": {
-      "item": "botania:rune_wrath"
-    },
-    "G": {
-      "item": "botania:rune_greed"
-    },
-    "H": {
-      "item": "kubejs:unstable_alloy"
-    },
-    "I": {
-      "item": "minecraft:goat_horn"
-    },
-    "J": {
-      "type": "forge:nbt",
-      "item": "botania:terra_pick",
-      "count": 1,
-      "nbt": "{Damage:0,mana:2147483646}"
-    },
-    "K": {
-      "item": "botania:rune_gluttony"
-    },
-    "L": {
-      "item": "botania:rune_lust"
-    },
-    "M": {
-      "item": "botania:rune_pride"
-    },
-    "N": {
-      "item": "botania:rune_envy"
-    }
-  },
-  "result": {
-    "item": 'kubejs:botanic_godly_alloy'
-  }
-})
-
-e.recipes.create.item_application('botania:creative_pool', ['botania:fabulous_pool', 'kubejs:botanic_godly_alloy'])
-//energy things
+ e.custom ({"type":"mekanism:nucleosynthesizing",
+        "duration": 200,
+        "gasInput":{"amount":5000,"gas":"mekanism:antimatter"},
+        "itemInput":{"ingredient":{"item":'kubejs:incomplete_energy_godly_alloy'}},
+        "output":{"item": 'kubejs:energy_godly_alloy'}
+    })
 
 e.recipes.create.sequenced_assembly(
     ['kubejs:incomplete_energy_godly_alloy'],
     'kubejs:unstable_alloy',
      [
         e.recipes.createDeploying('kubejs:unstable_alloy',['kubejs:unstable_alloy', 'mekanism:ultimate_induction_cell']),
-        e.recipes.createDeploying('kubejs:unstable_alloy',['kubejs:unstable_alloy', 'mekanism:pellet_antimatter']),
+        e.recipes.createDeploying('kubejs:unstable_alloy',['kubejs:unstable_alloy', 'create_confectionery:bar_of_ruby_chocolate']),
         e.recipes.createDeploying('kubejs:unstable_alloy',['kubejs:unstable_alloy', 'mekanism:ultimate_induction_provider'])
     ]
 ).transitionalItem('kubejs:unstable_alloy').loops(2)
-
-e.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "AAABAAA",
-    "ACBDBCA",
-    "ABEFEBA",
-    "BDFGFDB",
-    "ABEFEBA",
-    "ACBDBCA",
-    "AAABAAA"
-  ],
-  "key": {
-    "A": {
-      "item": "mekanism:ultimate_induction_cell"
-    },
-    "B": {
-      "item": "kubejs:incomplete_energy_godly_alloy"
-    },
-    "C": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:steel\"}"
-    },
-    "D": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:electrum\"}"
-    },
-    "E": {
-      "item": "ae2:dense_energy_cell"
-    },
-    "F": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:redstone\"}"
-    },
-    "G": {
-      "item": "thermal:cured_rubber"
-    }
-  },
-  "result": {
-    "item": 'kubejs:energy_godly_alloy'
-  }
-})
-
-e.recipes.createDeploying('thermal:rf_coil_creative_augment',['thermal:rf_coil_augment', 'kubejs:energy_godly_alloy'])
-e.recipes.create.item_application('createaddition:creative_energy', ['createaddition:modular_accumulator', 'kubejs:energy_godly_alloy'])
-e.recipes.create.item_application('immersiveengineering:capacitor_creative', ['immersiveengineering:capacitor_hv', 'kubejs:energy_godly_alloy'])
-e.recipes.createDeploying(Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}],componentConfig:{config0:{side0:4,side1:4,side2:4,side3:4,side4:4,side5:4}}}}'), ['mekanism:ultimate_energy_cube', 'kubejs:energy_godly_alloy'])
-
-//kinetic things
-
-e.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "AAABAAA",
-    "CDBEBDF",
-    "GBHIHBG",
-    "BDJKLDB",
-    "MBNONBM",
-    "PDBQBDR",
-    "AAABAAA"
-  ],
-  "key": {
-    "A": {
-      "item": "createaddition:biomass_pellet_block"
-    },
-    "B": {
-      "item": "create:precision_mechanism"
-    },
-    "C": {
-      "item": "create_confectionery:ruby_chocolate_candy_1"
-    },
-    "D": {
-      "item": "minecraft:purple_dye"
-    },
-    "E": {
-      "item": "create:haunted_bell"
-    },
-    "F": {
-      "item": "create_confectionery:ruby_chocolate_candy_3"
-    },
-    "G": {
-      "item": "create:refined_radiance"
-    },
-    "H": {
-      "item": "create_new_age:nuclear_fuel"
-    },
-    "I": {
-      "item": "create:industrial_iron_block"
-    },
-    "J": {
-      "item": "createoreexcavation:raw_diamond"
-    },
-    "K": {
-      "item": "create:shaft"
-    },
-    "L": {
-      "item": "createoreexcavation:raw_redstone"
-    },
-    "M": {
-      "item": "create:shadow_steel"
-    },
-    "N": {
-      "item": "createdieselgenerators:huge_diesel_engine"
-    },
-    "O": {
-      "item": "createoreexcavation:raw_emerald"
-    },
-    "P": {
-      "item": "create_confectionery:ruby_chocolate_candy"
-    },
-    "Q": {
-      "item": "create_new_age:netherite_magnet"
-    },
-    "R": {
-      "item": "create_confectionery:ruby_chocolate_candy_2"
-    }
-  },
-  "result": {
-    "item": 'create:creative_motor'
-  }
-})
-
-
-
+e.recipes.create.sequenced_assembly(
+    ['kubejs:kinetic_godly_alloy'],
+    'kubejs:unstable_alloy',
+     [
+        e.recipes.createDeploying('kubejs:unstable_alloy',['kubejs:unstable_alloy', 'create:shadow_steel']),
+        e.recipes.createDeploying('kubejs:unstable_alloy',['kubejs:unstable_alloy', 'create:rotation_speed_controller']),
+        e.recipes.createDeploying('kubejs:unstable_alloy',['kubejs:unstable_alloy', 'create:refined_radiance']),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('create_enchantment_industry:hyper_experience', 250)])
+    ]
+).transitionalItem('kubejs:unstable_alloy').loops(5)
+e.shaped(
     Item.of('kubejs:matter_godly_alloy'),
     [
         'ABA',
@@ -382,7 +94,123 @@ e.custom({
         A: 'kubejs:unstable_alloy',
         E: 'ae2:matter_ball'
     }
+)
 
+e.shaped(
+    Item.of('thermal:rf_coil_creative_augment'),
+    [
+        'ABA',
+        'CDE',
+        'ABA'
+    ],
+    {
+        C: 'thermal:rf_coil_xfer_augment',
+        D: 'kubejs:energy_godly_alloy',
+        E: 'thermal:rf_coil_storage_augment',
+        A: 'kubejs:unstable_alloy',
+        B: 'thermal:enderium_ingot'
+    }
+)
+e.shaped(
+    Item.of('createaddition:creative_energy'),
+    [
+        'ABA',
+        'CDC',
+        'ABA'
+    ],
+    {
+        D: 'kubejs:energy_godly_alloy',
+        B: 'create:precision_mechanism',
+        A: 'kubejs:unstable_alloy',
+        C: 'createaddition:alternator'
+    }
+)
+e.shaped(
+    Item.of('immersiveengineering:capacitor_creative'),
+    [
+        'ABA',
+        'CDC',
+        'ABA'
+    ],
+    {
+        C: 'immersiveengineering:capacitor_hv',
+        A: 'immersiveengineering:duroplast',
+        D: 'kubejs:energy_godly_alloy',
+        B: 'kubejs:unstable_alloy'
+    }
+)
+
+e.shaped(
+    Item.of('create:creative_fluid_tank'),
+    [
+        'ABA',
+        'CDE',
+        'ABA'
+    ],
+    {
+        C: 'create:refined_radiance',
+        D: 'create:fluid_tank',
+        B: 'kubejs:fluid_godly_alloy',
+        A: 'create:railway_casing',
+        E: 'create:shadow_steel'
+    }
+)
+e.shapeless(
+    Item.of('create:creative_fluid_tank'),
+    [
+        'create_connected:creative_fluid_vessel'
+    ]
+)
+e.shapeless(
+    Item.of('create_connected:creative_fluid_vessel'),
+    [
+        'create:creative_fluid_tank'
+    ]
+)
+e.shaped(
+    Item.of('create_sa:creative_filling_tank'),
+    [
+        'ABA',
+        'CDE',
+        'ABA'
+    ],
+    {
+        E: 'create_sa:large_fueling_tank',
+        C: 'create_sa:large_filling_tank',
+        B: 'create_sa:brass_cube',
+        D: 'kubejs:unstable_godly_alloy',
+        A: 'create:railway_casing'
+    }
+)
+e.shaped(
+    Item.of('thermal:fluid_tank_creative_augment'),
+    [
+        'ABA',
+        'CDC',
+        'ABA'
+    ],
+    {
+        D: 'kubejs:fluid_godly_alloy',
+        A: 'kubejs:unstable_alloy',
+        C: 'thermal:fluid_tank_augment',
+        B: 'thermal:enderium_ingot'
+    }
+)
+e.shaped(
+    Item.of('create:creative_motor'),
+    [
+        'ABA',
+        'CDE',
+        'ABA'
+    ],
+    {
+        B: 'create_confectionery:black_chocolate_bucket',
+        D: 'kubejs:kinetic_godly_alloy',
+        A: 'kubejs:unstable_alloy',
+        C: 'create_new_age:advanced_motor_extension',
+        E: 'create_new_age:reinforced_motor'
+    }
+)
 e.shaped(
     Item.of('appbot:creative_mana_cell'),
     [

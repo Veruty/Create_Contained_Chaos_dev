@@ -138,7 +138,6 @@ ServerEvents.recipes(e => {
     })
     e.remove({ id: 'thermal:machine_crafter' })
 	e.remove({ id: 'thermal:fire_charge/signalum_ingot_4' })
-	e.remove({ id: 'thermal:fire_charge/obsidian_glass_2' })
 	e.remove({ id: 'thermal:smelting/signalum_ingot_from_dust_smelting' })
 	e.remove({ id: 'thermal:smelting/signalum_ingot_from_dust_blasting' })
 	e.remove({ id: 'thermal:fire_charge/lumium_ingot_4' })
@@ -208,29 +207,26 @@ e.shaped(
         D: 'thermal:rf_coil'
     }
 )
- e.recipes.create.mixing('2x thermal:obsidian_glass', ['#forge:obsidian', 'minecraft:quartz', 'minecraft:sand']).superheated()
-e.remove({ id: 'thermal:machine_frame' })
 e.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "ABA",
-    "BCB",
-    "ABA"
-  ],
-  "key": {
-    "A": {
-      "item": "thermal:invar_plate"
-    },
-    "B": {
-      "item": "thermal:obsidian_glass"
-    },
-    "C": {
-      "item": "thermal:invar_gear"
-    }
+  "type": "thermal:pyrolyzer",
+  "ingredient": {
+    "item": "minecraft:charcoal"
   },
-  "result": {
-    "item": "thermal:machine_frame"
-  }
+  "result": [
+    {
+      "item": "thermal:coal_coke"
+    },
+    {
+      "item": "thermal:tar",
+      "chance": 0.5
+    },
+    {
+      "fluid": "thermal:creosote",
+      "amount": 500
+    }
+  ],
+  "energy": 4000,
+  "experience": 0.15
 })
 
 })
