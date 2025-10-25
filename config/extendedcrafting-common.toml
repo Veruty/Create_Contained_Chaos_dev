@@ -95,16 +95,16 @@
 	#Should default recipes be generated for Singularities?
 	defaultRecipes = true
 	#The item to use as the Catalyst in default Singularity recipes.
-	defaultCatalyst = "extendedcrafting:ultimate_catalyst"
+	defaultCatalyst = "extendedcrafting:the_ultimate_catalyst"
 	#Should the default recipe for the Ultimate Singularity be generated?
-	ultimateSingularityRecipe = true
+	ultimateSingularityRecipe = false
 
 #Settings for the Recipe Maker.
 ["Recipe Maker"]
 	#Should the Recipe Maker be enabled?
 	enabled = true
 	#Should the recipe maker try to use tags when possible?
-	useTags = true
+	useTags = false
 	#Should the recipe maker add NBT tags when possible?
 	useNBT = true
 
