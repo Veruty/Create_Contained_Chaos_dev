@@ -13,12 +13,6 @@
 			y: 2.0d
 		}
 		{
-			id: "029F1964B1610B11"
-			linked_quest: "415B26D22F5A6DB7"
-			x: 1.5d
-			y: 3.5d
-		}
-		{
 			id: "2C1FBDE6BECB334C"
 			linked_quest: "5FB7F9FD671703FF"
 			x: 7.5d
@@ -282,6 +276,17 @@
 		}
 		{
 			dependencies: ["6ED2850F351B1E86"]
+			description: [
+				"The Wrench is a tool used to rotate, dismantle and configure components"
+				""
+				"Using a Wrench on a component will rotate the component around the face with which you interacted."
+				""
+				"Using a Wrench on a component, redstone component, rail or vanilla rail variant will dismantle it and place it in your inventory. Any block which can be rotated or otherwise interacted with using right click must be dismantled while sneaking."
+				""
+				"Hovering over certain configurable components will allow configuration by scrolling."
+				""
+				"For certain components such as the Linear Chassis, ctrl can be held to configure all connected components at once."
+			]
 			id: "0C65E2BEAABDA84F"
 			tasks: [{
 				id: "2B387B8DC999C724"
@@ -293,6 +298,11 @@
 		}
 		{
 			dependencies: ["6ED2850F351B1E86"]
+			description: [
+				"Engineer's Goggles are a wearable item that allow the user to see more details about placed machines."
+				""
+				"It can be worn on the Curio head slot with helmets"
+			]
 			id: "05033E45C56608CD"
 			tasks: [{
 				id: "127FEC7B608BE1F4"
@@ -380,14 +390,15 @@
 			dependencies: ["42AA25C1E9AF0537"]
 			id: "3C000001D46F4ADA"
 			tasks: [{
-				id: "7667FFD3ECA85DBE"
+				id: "751C5D7190C5A12A"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "create:sandpaper"
+						"ftbfiltersystem:filter": "or(item_tag(create:sandpaper))"
 					}
 				}
+				title: "Any #create:sandpaper"
 				type: "item"
 			}]
 			title: "Sandpaper"

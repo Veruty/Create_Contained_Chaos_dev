@@ -166,7 +166,13 @@
 				"02D8780AA29AC7C9"
 				"464ECEE1CEA70D5D"
 			]
+			description: [
+				"{info.thermal.machine_crystallizer.0}"
+				""
+				"{info.thermal.machine_crystallizer.1}"
+			]
 			id: "34FA222D80267D54"
+			subtitle: "{info.thermal.machine_crystallizer.2}"
 			tasks: [{
 				id: "6903FB60B407DDA8"
 				item: {
@@ -203,11 +209,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"07208D775177F39A"
-				"02D8780AA29AC7C9"
-			]
+			dependencies: ["02D8780AA29AC7C9"]
+			description: ["{info.thermal.machine_insolator.0}"]
 			id: "37E6C8A9F2CD11B7"
+			subtitle: "{info.thermal.machine_insolator.1}"
 			tasks: [{
 				id: "552385B48C8E7D69"
 				item: {

@@ -172,7 +172,7 @@
 				title: "Autocomplete"
 				type: "questsadditions:time"
 			}]
-			title: "find it instead in a chest"
+			title: "find it somewhere"
 			x: -5.5d
 			y: -1.0d
 		}
@@ -257,6 +257,54 @@
 			}]
 			x: -4.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["526A77EEB8CB20F6"]
+			id: "65753C8821AF0D34"
+			tasks: [{
+				id: "1D26047A8E805894"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["526A77EEB8CB20F6"]
+			id: "5985B343460C7920"
+			tasks: [{
+				id: "6C0FA891F37C64C4"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5985B343460C7920"
+				"526A77EEB8CB20F6"
+			]
+			dependency_requirement: "one_completed"
+			id: "0947037624BF6250"
+			tasks: [{
+				id: "21ACE1B2C8E63D9C"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["526A77EEB8CB20F6"]
+			id: "76B2BB9B75D05F17"
+			tasks: [{
+				id: "162CE7045E514D87"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
 		}
 	]
 	title: "Overworld"
