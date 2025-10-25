@@ -1,3 +1,7 @@
+config/figura.json
+config/emi.css
+patchouli_data.json
+config/emi.css
 .vscode
 crash-reports
 emojiful
@@ -28,6 +32,3 @@ usercache.json
 usernamecache.json
 estrogenconfig.zip
 config/oculus.properties
-config/figura.json
-config/emi.css
-
