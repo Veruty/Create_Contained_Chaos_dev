@@ -132,6 +132,9 @@
     "hud": true,
     "hud.redstone": true
   },
+  "appliedcooking": {
+    "kitchen_station": true
+  },
   "delightful": {
     "crop_progress": true,
     "pie_icons": true,
