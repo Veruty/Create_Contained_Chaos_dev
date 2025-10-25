@@ -1,3 +1,4 @@
+//priority: 10
 // Bulk recipe & tag removal
 global['deletedItems'] = [
 'extendedcrafting:luminessence_block',
@@ -24,7 +25,33 @@ global['deletedItems'] = [
 'extendedcrafting:enhanced_redstone_nugget',
 'extendedcrafting:ender_nugget',
 'extendedcrafting:enhanced_ender_nugget',
-'extendedcrafting:crystaltine_nugget'
+'extendedcrafting:crystaltine_nugget',
+'extendedcrafting:redstone_catalyst',
+'extendedcrafting:enhanced_redstone_catalyst',
+'extendedcrafting:ender_catalyst',
+'extendedcrafting:enhanced_ender_catalyst',
+'extendedcrafting:redstone_component',
+'extendedcrafting:enhanced_redstone_component',
+'extendedcrafting:ender_component',
+'extendedcrafting:enhanced_ender_component',
+'extendedcrafting:the_ultimate_component',
+'extendedcrafting:frame',
+'extendedcrafting:ultimate_catalyst',
+'extendedcrafting:ultimate_component',
+'extendedcrafting:ultimate_table',
+'extendedcrafting:ultimate_auto_table',
+'extendedcrafting:ultimate_singularity',
+'extendedcrafting:ender_alternator',
+'extendedcrafting:ender_crafter',
+'extendedcrafting:auto_ender_crafter',
+'extendedcrafting:flux_alternator',
+'extendedcrafting:flux_crafter',
+'extendedcrafting:auto_flux_crafter',
+'extendedcrafting:pedestal',
+'extendedcrafting:crafting_core',
+'extendedcrafting:singularity',
+'createaddition:alternator',
+'createaddition:electric_motor'
 ]
 
 ServerEvents.recipes(event => {
