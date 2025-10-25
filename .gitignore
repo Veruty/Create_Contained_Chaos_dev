@@ -27,10 +27,7 @@ user-prefs.json
 usercache.json
 usernamecache.json
 estrogenconfig.zip
-.blinkload/
 config/oculus.properties
-.probe/*
-!.probe/probe-settings.json
 config/figura.json
 config/emi.css
-config/figura.json
+
