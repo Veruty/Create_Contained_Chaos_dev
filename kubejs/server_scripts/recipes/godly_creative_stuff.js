@@ -363,53 +363,10 @@ e.custom({
     }
   },
   "result": {
-    "item": 'create:creative_motor'
+    "item": 'kubejs:kinetic_godly_alloy'
   }
 })
 
-
-
-    Item.of('kubejs:matter_godly_alloy'),
-    [
-        'ABA',
-        'CDE',
-        'ABA'
-    ],
-    {
-        C: 'mekanism:pellet_antimatter',
-        D: 'ars_nouveau:mob_jar',
-        B: 'ae2:quantum_entangled_singularity',
-        A: 'kubejs:unstable_alloy',
-        E: 'ae2:matter_ball'
-    }
-
-e.shaped(
-    Item.of('appbot:creative_mana_cell'),
-    [
-        'ABA',
-        'CAD',
-        'AEA'
-    ],
-    {
-        E: 'appbot:mana_cell_housing',
-        C: 'kubejs:matter_godly_alloy',
-        D: 'kubejs:energy_godly_alloy',
-        B: 'botania:creative_pool',
-        A: 'kubejs:unstable_alloy'
-    }
-)
-e.shaped(
-    Item.of('storagedrawers:creative_storage_upgrade'),
-    [
-        'AAA',
-        'BCB',
-        'AAA'
-    ],
-    {
-        C: 'storagedrawers:upgrade_template',
-        B: 'kubejs:matter_godly_alloy',
-        A: '#forge:rods/wooden'
-    }
-)
+e.recipes.create.item_application('create:creative_motor', ['create_new_age:reinforced_motor', 'kubejs:kinetic_godly_alloy'])
 }
 )
