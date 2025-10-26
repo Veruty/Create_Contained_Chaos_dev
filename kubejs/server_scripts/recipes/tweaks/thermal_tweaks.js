@@ -232,5 +232,5 @@ e.custom({
     "item": "thermal:machine_frame"
   }
 })
-
+	e.recipes.create.mixing('4x thermal:bronze_ingot', ['#forge:ingots/tin','3x #forge:ingots/copper']).heated()
 })
