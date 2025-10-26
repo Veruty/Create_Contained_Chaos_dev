@@ -49,6 +49,12 @@
 			x: -1.0d
 			y: -3.5d
 		}
+		{
+			id: "09751B45C88A1E29"
+			linked_quest: "09AF30A6FDE2B082"
+			x: 0.0d
+			y: -2.5d
+		}
 	]
 	quests: [
 		{
@@ -208,6 +214,17 @@
 			}]
 			x: 7.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["015431AF0A5996BD"]
+			id: "1AD413372CC6676D"
+			tasks: [{
+				id: "43950E3678643331"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
 		}
 	]
 	title: "Nether"

@@ -41,8 +41,8 @@ ServerEvents.recipes(event => {
 const create_type = [
 	'copper',
 	'brass',
-	'iron',
-	'golden'
+	'iron'
+	//fuck the golden one i just hate it why did you call it golden and not a gold ahhhh stupid ass lang shit
 ]
 
 ServerEvents.recipes(event => {
@@ -61,12 +61,12 @@ ServerEvents.recipes(event => {
 		event.custom({"type": "immersiveengineering:metal_press",
 		"energy": 2400,
 		"input": {"tag": 'forge:ingots/' + create_type},
-  		"mold": "immersiveengineering:mold_sheet",
-  		"result": {"item": 'create:' + create_type + '_sheet'}}) )
+  		"mold": "immersiveengineering:mold_plate",
+  		"result": {"item": 'create:' + create_type + '_sheet'}}).id('kjsimmersiveengineering:metal_press/' + create_type + '_sheet_from_' + create_type + '_ingot' ))
 	create_type.forEach(create_type => event.custom({"type": "thermal:press",
 	"ingredient": { "tag": 'forge:ingots/' + create_type},
 	"result": [{ "item": 'create:' + create_type + '_sheet' }]
-	}).id('kjscreate:press/' + create_type + '_sheet_from_' + create_type + '_ingot' ))
+	}).id('kjsthermal:press/' + create_type + '_sheet_from_' + create_type + '_ingot' ))
 
 	//it might me a good idea to rewrite this whole thing as a function but i cannot be arsed rn
 })

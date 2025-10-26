@@ -161,7 +161,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["5C186460408D65A9"]
+			dependencies: [
+				"5C186460408D65A9"
+				"0F2000A3828DD2A0"
+			]
 			description: ["{quest.na.6.desc}"]
 			id: "305487E15BCDC6F1"
 			rewards: [{
@@ -221,7 +224,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["5C186460408D65A9"]
+			dependencies: [
+				"5C186460408D65A9"
+				"7DEC2438E0FDB776"
+			]
 			description: ["{quest.na.7.desc}"]
 			id: "17D4970886BDFD94"
 			rewards: [{

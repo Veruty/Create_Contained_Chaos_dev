@@ -436,6 +436,12 @@
 			x: 4.5d
 			y: 7.5d
 		}
+		{
+			id: "502FA1F7E2C7C4B8"
+			linked_quest: "5400A2A76BA7C157"
+			x: 31.0d
+			y: 7.5d
+		}
 	]
 	quests: [
 		{
@@ -715,7 +721,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["134C2C44F7D9C0AB"]
@@ -728,7 +734,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1787,7 +1793,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["3A79F1EE9B098258"]
+			dependencies: [
+				"3A79F1EE9B098258"
+				"5400A2A76BA7C157"
+			]
 			description: ["Aquire ender air, which can be used to craft silly little trinkets"]
 			id: "3C13751C2045C375"
 			subtitle: "Truly dystopian"
@@ -1809,7 +1818,7 @@
 				item: "botania:black_hole_talisman"
 				type: "item"
 			}]
-			x: 34.0d
+			x: 33.0d
 			y: 3.5d
 		}
 		{
@@ -1822,7 +1831,7 @@
 				item: "botania:spawner_mover"
 				type: "item"
 			}]
-			x: 34.0d
+			x: 33.0d
 			y: 5.5d
 		}
 		{
@@ -1836,7 +1845,7 @@
 				type: "item"
 			}]
 			x: 32.0d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3C13751C2045C375"]
@@ -1849,7 +1858,7 @@
 				type: "item"
 			}]
 			x: 30.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3C13751C2045C375"]
@@ -1868,7 +1877,7 @@
 				type: "item"
 			}]
 			x: 31.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3C13751C2045C375"]
@@ -1886,8 +1895,8 @@
 				}
 				type: "item"
 			}]
-			x: 31.0d
-			y: 6.5d
+			x: 34.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3C13751C2045C375"]
@@ -1905,7 +1914,7 @@
 				type: "item"
 			}]
 			x: 32.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -2191,7 +2200,7 @@
 				type: "item"
 			}]
 			x: 30.0d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["491E28E5AF838E59"]
@@ -2566,6 +2575,17 @@
 			title: "Pasture Seeds"
 			x: -4.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["134C2C44F7D9C0AB"]
+			id: "53A29C0947D3EAC1"
+			tasks: [{
+				id: "013FD0C987935528"
+				item: "botania:terrasteel_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
 		}
 	]
 	title: "Botania"

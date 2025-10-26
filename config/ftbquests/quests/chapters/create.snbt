@@ -1237,8 +1237,8 @@
 					type: "item"
 				}
 			]
-			x: 24.0d
-			y: -2.5d
+			x: 23.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5FB7F9FD671703FF"]
@@ -1267,8 +1267,8 @@
 					type: "item"
 				}
 			]
-			x: 23.0d
-			y: -3.5d
+			x: 22.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4CC3F21F326F4047"]
@@ -1751,6 +1751,28 @@
 			title: "Chassis"
 			x: 1.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3FB70B2734FF2281"]
+			id: "32E30F160E1AC5A9"
+			tasks: [{
+				id: "51B89D0D19DE998D"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3FB70B2734FF2281"]
+			id: "51FF206E29E83EBA"
+			tasks: [{
+				id: "4EF50682DB370A6C"
+				item: "create_confectionery:bar_of_black_chocolate"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -2.5d
 		}
 	]
 	title: "Andesite Age"

@@ -1,4 +1,5 @@
 {
   "CONFIG_VERSION": 1,
-  "action_wheel_button": "key.keyboard.g"
+  "action_wheel_button": "key.keyboard.g",
+  "figura_inventory": false
 }
