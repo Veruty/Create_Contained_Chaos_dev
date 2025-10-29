@@ -69,4 +69,40 @@ ServerEvents.recipes(event => {
 	}).id('kjsthermal:press/' + create_type + '_sheet_from_' + create_type + '_ingot' ))
 
 	//it might me a good idea to rewrite this whole thing as a function but i cannot be arsed rn
+
+//create new age band aid fix \/
+
+event.custom({"type": "createdieselgenerators:hammering",
+	"ingredients": [{"item": 'create_new_age:overcharged_gold'}],
+        "results": [{"item": 'create_new_age:overcharged_golden_sheet'}]})
+
+event.custom({"type": "createdieselgenerators:hammering",
+	"ingredients": [{"item": 'create_new_age:overcharged_iron'}],
+        "results": [{"item": 'create_new_age:overcharged_iron_sheet'}]})
+
+event.shapeless('create_new_age:overcharged_golden_sheet', ['create_new_age:overcharged_gold','immersiveengineering:hammer'])
+		.damageIngredient('immersiveengineering:hammer', 1)
+event.shapeless('create_new_age:overcharged_iron_sheet', ['create_new_age:overcharged_iron','immersiveengineering:hammer'])
+		.damageIngredient('immersiveengineering:hammer', 1)
+
+event.custom({"type": "immersiveengineering:metal_press",
+		"energy": 2400,
+		"input": {"item": 'create_new_age:overcharged_gold'},
+  		"mold": "immersiveengineering:mold_plate",
+  		"result": {"item": 'create_new_age:overcharged_golden_sheet'}})
+event.custom({"type": "immersiveengineering:metal_press",
+		"energy": 2400,
+		"input": {"item": 'create_new_age:overcharged_iron'},
+  		"mold": "immersiveengineering:mold_plate",
+  		"result": {"item": 'create_new_age:overcharged_iron_sheet'}})
+
+event.custom({"type": "thermal:press",
+	"ingredient": { "item": 'create_new_age:overcharged_gold'},
+	"result": [{ "item": 'create_new_age:overcharged_golden_sheet' }]
+	})
+event.custom({"type": "thermal:press",
+	"ingredient": { "item": 'create_new_age:overcharged_iron'},
+	"result": [{ "item": 'create_new_age:overcharged_iron_sheet' }]
+	})
+
 })
