@@ -1,8 +1,8 @@
 {
-  "name": "singularity.extendedcrafting.manasteel",
+  "name": "Manasteel",
   "colors": [
-    "3962d7",
-    "1f20b7"
+    "006bff",
+    "47d6ff"
   ],
   "ingredient": {
     "tag": "forge:ingots/manasteel"
