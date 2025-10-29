@@ -89,11 +89,11 @@ e.recipes.create.mixing('4x kubejs:chicken_nuggies', [Fluid.water(500), 'minecra
 //simple mechanism
 
 	e.custom({"type": "create:sequenced_assembly",
-		"ingredient": {"item": "create:andesite_alloy"},
+		"ingredient": {"item": "create:cogwheel"},
 		"loops": 1,
 		"results": {"item": "kubejs:simple_mechanism"},
 		"sequence": [{"type": "create:deploying",
-				"ingredients": [{"item": "kubejs:incomplete_simple_mechanism"},{"item": "create:cogwheel"}],
+				"ingredients": [{"item": "kubejs:incomplete_simple_mechanism"},{"item": "create:andesite_alloy"}],
 				"results": [{"item": "kubejs:incomplete_advanced_mechanism"}]}],
 	"transitionalItem": {"item": "kubejs:incomplete_simple_mechanism"}})
 
