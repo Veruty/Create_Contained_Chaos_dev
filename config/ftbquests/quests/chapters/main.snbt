@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "main"
 	group: ""
+	icon: "kubejs:sturdy_iron_composite"
 	id: "0A414D5450CE1842"
 	images: [{
 		height: 1.0d
@@ -516,6 +517,7 @@
 				"1CD80D729DC65867"
 				"2C67FD839D662205"
 			]
+			hide_dependent_lines: true
 			id: "3809DA076973B41F"
 			tasks: [{
 				id: "15E3786F1B9C7E1B"
@@ -524,20 +526,6 @@
 			}]
 			x: 33.0d
 			y: -0.5d
-		}
-		{
-			dependencies: [
-				"06CA706779E390FE"
-				"3809DA076973B41F"
-			]
-			id: "6251B23CD0F5D3FE"
-			tasks: [{
-				elapsedTime: 60L
-				id: "1741A92BCBEFE64D"
-				type: "questsadditions:time"
-			}]
-			x: 34.5d
-			y: 0.75d
 		}
 	]
 	title: "Main"

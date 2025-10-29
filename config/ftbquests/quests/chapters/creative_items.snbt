@@ -1,0 +1,466 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative_items"
+	group: ""
+	id: "3CA63232B2291719"
+	order_index: 4
+	quest_links: [
+		{
+			id: "1E63CA8A123348EF"
+			linked_quest: "5457F1584CFED690"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "049A94C35AAC63AB"
+			linked_quest: "7FD99F0885299CBE"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			id: "5DD215BA8BFFE3CA"
+			linked_quest: "6484427CF4CBAB1F"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "2157461EBC8A06C0"
+			linked_quest: "66136119F1CB9705"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "46FA2290E52F39D3"
+			linked_quest: "2D32F8A06B3EB8C9"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			id: "1F509E6826F3B740"
+			linked_quest: "2B696CA62EB0083F"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			id: "705534D27D82E560"
+			linked_quest: "1582AF37FFA4377D"
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			id: "47C50B6785234F62"
+			linked_quest: "3706B46EC74FA568"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "0C2488BDE8EFF974"
+			linked_quest: "6E6F52C321CD84BD"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "3ECB1FA7C36F81C9"
+			linked_quest: "6ECF805F53CBBEF2"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "7946864BE299D0FB"
+			linked_quest: "26A6DE1E900CE836"
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			id: "7CA311FCC01C1587"
+			linked_quest: "2A6F014969A34A39"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "3AA5A6F078FE0FDC"
+			linked_quest: "2CA44854087F7604"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "7E6A8BE11C275702"
+			linked_quest: "57922522EFFF155B"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "19E60E6552BDD180"
+			linked_quest: "7D29F4606C564494"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "7B2D28F2AA563BC4"
+			linked_quest: "3AD3293C7E0AFE5E"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			id: "7ACA6DB37A664C95"
+			linked_quest: "0BC9E2BF3F83029D"
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			id: "01FA6BDCD4EFB30B"
+			linked_quest: "54596BF1C9F516E4"
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			id: "315C717C4703E352"
+			linked_quest: "25BC887C16393DB0"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			id: "0CCC209591A27D10"
+			linked_quest: "3A79F1EE9B098258"
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			id: "5C20EFF8BF617709"
+			linked_quest: "02326CC0B5B332A2"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			id: "545148D84D30C04A"
+			linked_quest: "3987C6B6C2DC89A9"
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			id: "0DFE6BD8B347ABDB"
+			linked_quest: "3809DA076973B41F"
+			x: -5.5d
+			y: -0.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"5457F1584CFED690"
+				"66136119F1CB9705"
+				"7FD99F0885299CBE"
+				"6484427CF4CBAB1F"
+			]
+			id: "72A451784BD6E22F"
+			size: 1.5d
+			tasks: [{
+				id: "35FB523CA0B6ECE8"
+				item: "kubejs:incomplete_energy_godly_alloy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"72A451784BD6E22F"
+				"7FD99F0885299CBE"
+				"6B815E6EF1177DCB"
+				"0C30078D3B387502"
+				"5B251E3E833B0C77"
+				"3AD3293C7E0AFE5E"
+			]
+			id: "2FD4510362D1F9FC"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "69D3C8AD0FFB84FA"
+				item: "kubejs:energy_godly_alloy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2B696CA62EB0083F"
+				"3809DA076973B41F"
+			]
+			id: "6B815E6EF1177DCB"
+			tasks: [{
+				id: "5F8AFBD87BC4E1C9"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2D32F8A06B3EB8C9"
+				"3809DA076973B41F"
+			]
+			id: "0C30078D3B387502"
+			tasks: [{
+				id: "176E63043EC68B66"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1582AF37FFA4377D"
+				"3809DA076973B41F"
+			]
+			id: "5B251E3E833B0C77"
+			tasks: [{
+				id: "1C7A559FA3E61F56"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:redstone"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["66136119F1CB9705"]
+			id: "4D7685255B6F655F"
+			size: 1.5d
+			tasks: [{
+				id: "4D830BFA8DFC1D9B"
+				item: "kubejs:incomplete_fluid_godly_alloy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4D7685255B6F655F"
+				"245EB1D0E81B76B1"
+				"5B1329D8C4A26FCC"
+				"1E1A033EFCC3F18D"
+			]
+			id: "554A46120F1F0FD6"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1ADC48F451B0583C"
+				item: "kubejs:fluid_godly_alloy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6E6F52C321CD84BD"
+				"3809DA076973B41F"
+			]
+			id: "245EB1D0E81B76B1"
+			tasks: [{
+				id: "4EB1F53D1A7AC09A"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6ECF805F53CBBEF2"
+				"3809DA076973B41F"
+			]
+			id: "5B1329D8C4A26FCC"
+			tasks: [{
+				id: "59259D6BD32F8C6A"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3706B46EC74FA568"
+				"3809DA076973B41F"
+			]
+			id: "1E1A033EFCC3F18D"
+			tasks: [{
+				id: "53C2F619D0115B64"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["66136119F1CB9705"]
+			id: "0E6B0926E278275A"
+			size: 1.5d
+			tasks: [{
+				id: "3EAA2FE1AB9EB191"
+				item: "kubejs:incomplete_unstable_godly_alloy"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0E6B0926E278275A"
+				"4E152FFF93267CBF"
+			]
+			id: "4613272CCECC2011"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5A960C867801241B"
+				item: "kubejs:unstable_godly_alloy"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"26A6DE1E900CE836"
+				"3809DA076973B41F"
+			]
+			id: "4E152FFF93267CBF"
+			tasks: [{
+				id: "1B772826884D3543"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"66136119F1CB9705"
+				"31671598BAD3C071"
+				"54596BF1C9F516E4"
+				"25BC887C16393DB0"
+				"3A79F1EE9B098258"
+				"02326CC0B5B332A2"
+				"3987C6B6C2DC89A9"
+			]
+			id: "3E342EC10340F08F"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "653E912C2BB2F110"
+				item: "kubejs:botanic_godly_alloy"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"21293F8260291886"
+				"2CA44854087F7604"
+				"57922522EFFF155B"
+				"7D29F4606C564494"
+				"2C67FD839D662205"
+			]
+			id: "7EF8903FCA281F93"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7E95D0D453B92624"
+				item: "kubejs:kinetic_godly_alloy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2A6F014969A34A39"
+				"3809DA076973B41F"
+			]
+			id: "21293F8260291886"
+			tasks: [{
+				id: "6DE25C476D4C2E07"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:brass"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0BC9E2BF3F83029D"
+				"3809DA076973B41F"
+			]
+			id: "31671598BAD3C071"
+			tasks: [{
+				id: "00CAB19A8C3C6A1B"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:manasteel"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+	]
+	title: "Creative Items"
+}

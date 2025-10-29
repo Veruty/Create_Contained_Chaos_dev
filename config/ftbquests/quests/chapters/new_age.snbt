@@ -706,7 +706,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["33C653AEA4714144"]
+			dependencies: ["11993546792DCF90"]
 			description: ["{quest.na.38.desc}"]
 			id: "5099494C667223FB"
 			rewards: [{

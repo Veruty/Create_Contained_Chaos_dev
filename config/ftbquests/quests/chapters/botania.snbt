@@ -828,12 +828,9 @@
 			dependencies: ["3A79F1EE9B098258"]
 			id: "3987C6B6C2DC89A9"
 			tasks: [{
-				advancement: "botania:challenge/gaia_guardian_hardmode"
-				criterion: ""
-				id: "29C63BB79D070D20"
-				secret: true
-				title: "..."
-				type: "advancement"
+				id: "6FAC29BC0D13DBD6"
+				item: "botania:dice"
+				type: "item"
 			}]
 			x: 26.0d
 			y: 8.5d
