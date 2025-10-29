@@ -299,11 +299,11 @@ e.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "AAABAAA",
-    "CDBEBDF",
-    "GBHIHBG",
-    "BDJKLDB",
+    "CDBEBDC",
+    "FBGHGBF",
+    "BIJKLIB",
     "MBNONBM",
-    "PDBQBDR",
+    "PDBQBDP",
     "AAABAAA"
   ],
   "key": {
@@ -314,25 +314,28 @@ e.custom({
       "item": "create:precision_mechanism"
     },
     "C": {
-      "item": "create_confectionery:ruby_chocolate_candy_1"
+      "item": "createbigcannons:nethersteel_block"
     },
     "D": {
-      "item": "minecraft:purple_dye"
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "count": 1,
+      "nbt": "{Id:\"extendedcrafting:brass\"}"
     },
     "E": {
       "item": "create:haunted_bell"
     },
     "F": {
-      "item": "create_confectionery:ruby_chocolate_candy_3"
-    },
-    "G": {
       "item": "create:refined_radiance"
     },
-    "H": {
+    "G": {
       "item": "create_new_age:nuclear_fuel"
     },
-    "I": {
+    "H": {
       "item": "create:industrial_iron_block"
+    },
+    "I": {
+      "item": "create:crafter_slot_cover"
     },
     "J": {
       "item": "createoreexcavation:raw_diamond"
@@ -353,13 +356,10 @@ e.custom({
       "item": "createoreexcavation:raw_emerald"
     },
     "P": {
-      "item": "create_confectionery:ruby_chocolate_candy"
+      "item": "create_confectionery:gingerbread_man"
     },
     "Q": {
       "item": "create_new_age:netherite_magnet"
-    },
-    "R": {
-      "item": "create_confectionery:ruby_chocolate_candy_2"
     }
   },
   "result": {
