@@ -458,6 +458,12 @@
 				"45A995501A9FD040"
 			]
 			id: "5D9F9E891FC2E104"
+			rewards: [{
+				count: 2
+				id: "4C6A1793A12478A5"
+				item: "kubejs:sturdy_iron_composite"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "4732CFC86D05DED1"
