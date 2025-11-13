@@ -1755,6 +1755,12 @@
 		{
 			dependencies: ["3FB70B2734FF2281"]
 			id: "32E30F160E1AC5A9"
+			rewards: [{
+				count: 2
+				id: "1EC64902DFD60F07"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
 			tasks: [{
 				id: "51B89D0D19DE998D"
 				item: "create:bar_of_chocolate"
@@ -1766,6 +1772,12 @@
 		{
 			dependencies: ["3FB70B2734FF2281"]
 			id: "51FF206E29E83EBA"
+			rewards: [{
+				count: 2
+				id: "07795EB920AB0E4D"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4EF50682DB370A6C"
 				item: "create_confectionery:bar_of_black_chocolate"
