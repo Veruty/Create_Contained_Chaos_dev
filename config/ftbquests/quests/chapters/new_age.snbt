@@ -9,42 +9,18 @@
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: -10.0d
-			y: 4.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 180.0d
-			width: 1.0d
-			x: -11.0d
+			x: -7.0d
 			y: -4.5d
-		}
-		{
-			height: 4.0d
-			image: "kubejs:textures/questimg/new_age/charger.png"
-			rotation: 0.0d
-			width: 1.6928571428571428d
-			x: 2.0d
-			y: 2.5d
 		}
 		{
 			height: 4.0d
 			image: "kubejs:textures/questimg/new_age/generator.png"
 			rotation: 0.0d
 			width: 2.842430484037075d
-			x: -10.775510204081606d
-			y: -6.736394557823136d
+			x: -9.0d
+			y: -4.5d
 		}
 		{
 			color: 1447446
@@ -52,48 +28,32 @@
 			image: "supplementaries:block/display_8"
 			rotation: 0.0d
 			width: 1.4d
-			x: -12.700680272108826d
-			y: -6.984013605442172d
+			x: -8.700680272108826d
+			y: -1.984013605442172d
 		}
 		{
 			height: 0.7d
 			image: "kubejs:textures/questimg/icons/x.png"
 			rotation: 0.0d
 			width: 0.7d
-			x: -13.5d
-			y: -7.0d
+			x: -9.5d
+			y: -2.0d
 		}
 		{
 			height: 0.5d
 			image: "kubejs:textures/questimg/icons/max.png"
 			rotation: 0.0d
 			width: 1.7d
-			x: -13.102040816326536d
-			y: -6.133503401360549d
+			x: -9.102040816326536d
+			y: -1.1335034013605494d
 		}
 		{
 			height: 4.0d
 			image: "kubejs:textures/questimg/new_age/na.reactor1.png"
 			rotation: 0.0d
 			width: 7.111111111111111d
-			x: -13.5d
-			y: 4.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: -8.0d
-			y: 6.5d
-		}
-		{
-			height: 7.0d
-			image: "kubejs:textures/questimg/new_age/na.reactor2.png"
-			rotation: 0.0d
-			width: 8.828178694158076d
-			x: -6.0d
-			y: 8.5d
+			x: 1.5d
+			y: 3.0d
 		}
 	]
 	order_index: 3
@@ -101,49 +61,62 @@
 		{
 			id: "0D0020035189F8B9"
 			linked_quest: "5B073DB6C4609529"
-			x: 4.0d
-			y: -2.5d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			id: "0A3FA5C3C8747199"
 			linked_quest: "4BCDA1E23D59D3DA"
-			x: 4.0d
-			y: 4.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			id: "393A9DCBF809D091"
 			linked_quest: "0D27740F8ACC92E6"
-			x: 6.0d
-			y: -2.5d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
-			id: "0B9FACE69FC51805"
-			linked_quest: "0E26D8711F2FDDE4"
+			id: "63F58F614ED6F32E"
+			linked_quest: "7B196B74898CA9AD"
 			x: -5.0d
-			y: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "40C3D22FDE9320A9"
+			linked_quest: "7DBC7E2955637282"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "7EC55798C46843FC"
+			linked_quest: "7083FA0AF9A0304C"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "50987B5662A3CD77"
+			linked_quest: "74837414C3A22899"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "62520A20B86BBCE5"
+			linked_quest: "1582AF37FFA4377D"
+			x: -4.0d
+			y: -4.5d
 		}
 	]
 	quests: [
 		{
-			dependencies: ["0E26D8711F2FDDE4"]
-			description: ["{quest.na.1.desc}"]
-			hide_until_deps_complete: true
-			icon: "create_new_age:nuclear_fuel"
-			id: "33C653AEA4714144"
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				elapsedTime: 1L
-				id: "37D2308E12A7520C"
-				type: "questsadditions:time"
-			}]
-			title: "{quest.na.1.title}"
-			x: -5.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["33C653AEA4714144"]
-			description: ["{quest.na.2.desc}"]
+			dependencies: ["7DBC7E2955637282"]
+			description: [
+				"Energizer is used to energize items at the rate of 4 FE/t per 10 RPM and stores 10K FE. "
+				""
+				"Must be placed above depot, it wont work without it like mechanical press."
+				""
+				"&8Ponder is available for this block&r"
+			]
 			id: "5C186460408D65A9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -151,40 +124,39 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
+			subtitle: "Unlimited power!"
 			tasks: [{
 				id: "1C2675860EA43AAA"
 				item: "create_new_age:energiser_t1"
 				type: "item"
 			}]
-			title: "{quest.na.2.title}"
-			x: -1.0d
-			y: 0.5d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
 				"5C186460408D65A9"
 				"0F2000A3828DD2A0"
 			]
-			description: ["{quest.na.6.desc}"]
+			description: ["Overcharged iron is created via energizing iron ingot and is used in creation of motors and some heat elements."]
 			id: "305487E15BCDC6F1"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6A394DB59C019BBB"
-				table_id: 418132405775659999L
-				type: "random"
+				count: 4
+				id: "6F278BD594378FCB"
+				item: "create_new_age:overcharged_iron"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1309D82412B2DE06"
 				item: "create_new_age:overcharged_iron"
 				type: "item"
 			}]
-			title: "{quest.na.6.title}"
-			x: -1.0d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["305487E15BCDC6F1"]
-			description: ["{quest.na.9.desc}"]
+			description: ["Created by pressing Overcharged Iron or by charging Iron Plates directly, Used in creation of Iron Wires and Strong Motor Extentions."]
 			id: "126D8726752D4181"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -197,8 +169,7 @@
 				item: "create_new_age:overcharged_iron_sheet"
 				type: "item"
 			}]
-			title: "{quest.na.9.title}"
-			x: -1.0d
+			x: -3.0d
 			y: -3.5d
 		}
 		{
@@ -206,7 +177,7 @@
 				"17D4970886BDFD94"
 				"5C186460408D65A9"
 			]
-			description: ["{quest.na.3.desc}"]
+			description: ["Faster Energizer, energizes items at the rate of 16 FE/t per 10 RPM and stores 100K FE."]
 			id: "20295703B6D73F35"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -214,40 +185,39 @@
 				table_id: 5490087560077010930L
 				type: "random"
 			}]
+			subtitle: "Faster Charging"
 			tasks: [{
 				id: "2EBE3F90DE8CF1BE"
 				item: "create_new_age:energiser_t2"
 				type: "item"
 			}]
-			title: "{quest.na.3.title}"
-			x: 1.0d
-			y: 0.5d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
 				"5C186460408D65A9"
 				"7DEC2438E0FDB776"
 			]
-			description: ["{quest.na.7.desc}"]
+			description: ["Overcharged gold is an essential material to progress through New Age, as it is needed in creation of 2nd tier of Energizer."]
 			id: "17D4970886BDFD94"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6D4728763763499C"
-				table_id: 5490087560077010930L
-				type: "random"
+				count: 4
+				id: "4AA3A633390449E3"
+				item: "create_new_age:overcharged_gold"
+				type: "item"
 			}]
 			tasks: [{
 				id: "2DE97C6F3E85E014"
 				item: "create_new_age:overcharged_gold"
 				type: "item"
 			}]
-			title: "{quest.na.7.title}"
-			x: 1.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["17D4970886BDFD94"]
-			description: ["{quest.na.10.desc}"]
+			description: ["Used only only in creation of Gold Wires."]
 			id: "0BDBE6F814EE2704"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -260,27 +230,28 @@
 				item: "create_new_age:overcharged_golden_sheet"
 				type: "item"
 			}]
-			title: "{quest.na.10.title}"
-			x: 1.0d
+			x: -1.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["20295703B6D73F35"]
-			description: ["{quest.na.8.desc}"]
+			dependencies: [
+				"20295703B6D73F35"
+				"158426E64B0F7B64"
+			]
+			description: ["Overcharged diamond is used in creation of some high-tier machinery like Reinforced Motor and Netherite Magnet"]
 			id: "61D7232C6BFA68E1"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "644AF813FBB4009D"
-				table_id: 9045066956526228269L
-				type: "random"
+				count: 2
+				id: "6340BE3601519D36"
+				item: "create_new_age:overcharged_diamond"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1C5A655143C54753"
 				item: "create_new_age:overcharged_diamond"
 				type: "item"
 			}]
-			title: "{quest.na.8.title}"
-			x: 3.0d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -288,7 +259,7 @@
 				"61D7232C6BFA68E1"
 				"20295703B6D73F35"
 			]
-			description: ["{quest.na.4.desc}"]
+			description: ["Fastest Energizer, energizes items at the rate of 64 FE/t per 10 RPM and stores 1M FE"]
 			id: "555E7BB5EE979B53"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -296,35 +267,18 @@
 				table_id: 9045066956526228269L
 				type: "random"
 			}]
+			subtitle: "Fastest Charging"
 			tasks: [{
 				id: "75D749F5D4A5A022"
 				item: "create_new_age:energiser_t3"
 				type: "item"
 			}]
-			title: "{quest.na.4.title}"
-			x: 3.0d
-			y: 0.5d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["5C186460408D65A9"]
-			description: ["{quest.na.5.desc}"]
-			icon: "davebuildingmod:electricity_block"
-			id: "0CDF7C6C320A85AE"
-			tasks: [{
-				id: "6F1B0E836C501A5F"
-				title: "{quest.checkmark.ok}"
-				type: "checkmark"
-			}]
-			title: "{quest.na.5.title}"
-			x: -1.0d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"0AB7C9751EDBB7C6"
-				"126D8726752D4181"
-			]
-			description: ["{quest.na.13.desc}"]
+			dependencies: ["126D8726752D4181"]
+			description: ["Iron wire can transfer up to 2048 FE/t"]
 			id: "2AD16E53EC3B631D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -332,21 +286,18 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
+			subtitle: "Iron Electron Highway"
 			tasks: [{
 				id: "6D99855AE8F34F40"
 				item: "create_new_age:overcharged_iron_wire"
 				type: "item"
 			}]
-			title: "{quest.na.13.title}"
-			x: -1.0d
+			x: -3.0d
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"2AD16E53EC3B631D"
-				"0BDBE6F814EE2704"
-			]
-			description: ["{quest.na.14.desc}"]
+			dependencies: ["0BDBE6F814EE2704"]
+			description: ["Gold wire can transfer up to 4096 FE/t"]
 			id: "21FAE2E0B3BA132D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -354,21 +305,18 @@
 				table_id: 5490087560077010930L
 				type: "random"
 			}]
+			subtitle: "Gold FE Path"
 			tasks: [{
 				id: "771C7200F95C682D"
 				item: "create_new_age:overcharged_golden_wire"
 				type: "item"
 			}]
-			title: "{quest.na.14.title}"
-			x: 1.0d
+			x: -1.0d
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"21FAE2E0B3BA132D"
-				"61D7232C6BFA68E1"
-			]
-			description: ["{quest.na.15.desc}"]
+			dependencies: ["61D7232C6BFA68E1"]
+			description: ["Diamond wire can transfer up to 8192 FE/t"]
 			id: "6F0B36ECBA194715"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -376,18 +324,18 @@
 				table_id: 9045066956526228269L
 				type: "random"
 			}]
+			subtitle: "Diamond Power Trasmitter"
 			tasks: [{
 				id: "2C7D0F302ABD9109"
 				item: "create_new_age:overcharged_diamond_wire"
 				type: "item"
 			}]
-			title: "{quest.na.15.title}"
-			x: 3.0d
-			y: -5.5d
+			x: 1.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["5EB39DE7A9ACCF49"]
-			description: ["{quest.na.12.desc}"]
+			dependencies: ["7083FA0AF9A0304C"]
+			description: ["Regular copper wire can transfer up to 1024 FE/t"]
 			id: "0AB7C9751EDBB7C6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -395,18 +343,28 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
+			subtitle: "Copper Energy Channel"
 			tasks: [{
 				id: "470A567E096A8A75"
 				item: "create_new_age:copper_wire"
 				type: "item"
 			}]
-			title: "{quest.na.12.title}"
-			x: -3.0d
-			y: -5.5d
+			x: -8.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["33C653AEA4714144"]
-			description: ["{quest.na.11.desc}"]
+			dependencies: ["7B196B74898CA9AD"]
+			description: [
+				"&cCAN CAUSE A LOT OF LAG, USE IMMERSIVE ENGINEERING WIRES!&r"
+				""
+				"Electrical connectors and Wires are New Age solution to transferring energy."
+				""
+				"Has 2 modes:"
+				"Inert - transfers energy via wires, outputs energy to the block it is connected to and can accept energy from block it is connected to"
+				"Pull - mostly used for compatibility between mods, in this mode connector will try to actively pull energy from the block. "
+				""
+				"Ponder is available for this block"
+			]
 			id: "5EB39DE7A9ACCF49"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -414,18 +372,18 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
+			subtitle: "Worse Immersive Wires"
 			tasks: [{
 				id: "772DD685E30FB811"
 				item: "create_new_age:electrical_connector"
 				type: "item"
 			}]
-			title: "{quest.na.11.title}"
-			x: -3.0d
+			x: -7.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["33C653AEA4714144"]
-			description: ["{quest.na.16.desc}"]
+			dependencies: ["7B196B74898CA9AD"]
+			description: ["[ \"Generator Coil is used to build \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \".\" ]"]
 			id: "1A9A034E7281FB6D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -433,20 +391,23 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
-			shape: "hexagon"
 			size: 1.25d
+			subtitle: "Rotor"
 			tasks: [{
 				id: "7CAC562AC9786EF4"
 				item: "create_new_age:generator_coil"
 				type: "item"
 			}]
-			title: "{quest.na.16.title}"
-			x: -7.5d
+			x: -5.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["33C653AEA4714144"]
-			description: ["{quest.na.17.desc}"]
+			dependencies: ["11993546792DCF90"]
+			description: [
+				"[ \"Basic Magnetite block, used in \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \" and in a couple of crafts.\" ]"
+				""
+				"&8Provides 1 Magnetic Force&r"
+			]
 			id: "47272468310BF7CD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -454,21 +415,26 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
+			subtitle: "Stator"
 			tasks: [{
 				id: "2DED719FCBD29AFF"
 				item: "create_new_age:magnetite_block"
 				type: "item"
 			}]
-			title: "{quest.na.17.title}"
-			x: -7.5d
-			y: -1.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
 				"47272468310BF7CD"
-				"1A9A034E7281FB6D"
+				"61D7232C6BFA68E1"
+				"17D4970886BDFD94"
 			]
-			description: ["{quest.na.20.desc}"]
+			description: [
+				"[ \"Upgraded Magnetite block created from regular Magnetite. It is 2nd best Magnet for \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }]"
+				""
+				"&8Provides 8 Magnetic Power&r"
+			]
 			id: "61380F4AE14D6D21"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -476,18 +442,25 @@
 				table_id: 5490087560077010930L
 				type: "random"
 			}]
+			subtitle: "Enriched Attractive Rock"
 			tasks: [{
 				id: "237B3F01B9681C71"
 				item: "create_new_age:fluxuated_magnetite"
 				type: "item"
 			}]
-			title: "{quest.na.20.title}"
-			x: -9.5d
+			x: 0.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["1A9A034E7281FB6D"]
-			description: ["{quest.na.19.desc}"]
+			dependencies: [
+				"17D4970886BDFD94"
+				"305487E15BCDC6F1"
+			]
+			description: [
+				"[ \"Crafted out of Overcharged iron and gold, used in \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } } ]"
+				""
+				"&8Provides 4 Magnetic Power&r"
+			]
 			id: "3975DDEBA5825FEC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -495,18 +468,23 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
+			subtitle: "Layer By Layer"
 			tasks: [{
 				id: "48C53BE4DE3089D3"
 				item: "create_new_age:layered_magnet"
 				type: "item"
 			}]
-			title: "{quest.na.19.title}"
-			x: -9.5d
-			y: -4.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1A9A034E7281FB6D"]
-			description: ["{quest.na.21.desc}"]
+			dependencies: ["61D7232C6BFA68E1"]
+			dependency_requirement: "one_completed"
+			description: [
+				"[ \"Best block for \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \". Created out of Overcharged Diamonds and Netherite Scrap.\" ]"
+				""
+				"&8Provides 24 Magnetic Power&r"
+			]
 			id: "5B665389F249F86E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -514,18 +492,22 @@
 				table_id: 9045066956526228269L
 				type: "random"
 			}]
+			subtitle: "Power went from 8 to 24 real quick"
 			tasks: [{
 				id: "3EF0189BC0E73A8E"
 				item: "create_new_age:netherite_magnet"
 				type: "item"
 			}]
-			title: "{quest.na.21.title}"
-			x: -7.5d
-			y: -5.5d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1A9A034E7281FB6D"]
-			description: ["{quest.na.18.desc}"]
+			dependencies: ["1582AF37FFA4377D"]
+			description: [
+				"[ \"Cheap to craft can be used in \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } } ]"
+				""
+				"&8Provides 2 Magnetic Force&r"
+			]
 			id: "2D4E8DAE7D7E45F5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -533,18 +515,18 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
+			subtitle: "Real Redstone Flux"
 			tasks: [{
 				id: "6FB5D6DE037AC057"
 				item: "create_new_age:redstone_magnet"
 				type: "item"
 			}]
-			title: "{quest.na.18.title}"
-			x: -5.5d
-			y: -4.5d
+			x: -5.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["1A9A034E7281FB6D"]
-			description: ["{quest.na.22.desc}"]
+			dependencies: ["7B196B74898CA9AD"]
+			description: ["[ \"Carbon Brushes is the actual block that collects energy from \", { \"text\": \"Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \".\" ]"]
 			id: "42C1B71BEEEE9517"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -552,19 +534,22 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
-			shape: "square"
+			subtitle: "Brush it off"
 			tasks: [{
 				id: "7E4EBFA90699D7C6"
 				item: "create_new_age:carbon_brushes"
 				type: "item"
 			}]
-			title: "{quest.na.22.title}"
-			x: -5.5d
+			x: -6.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["47272468310BF7CD"]
-			description: ["{quest.na.24.desc}"]
+			description: [
+				"Electrical Motors generate rotation from FE, input FE from any side, and output rotation from front. You can change RPM by holding wrench, right-clicking and draging RPM slider on the side of the motor. "
+				""
+				"Basic Motor can generate up to 512 SU on its own."
+			]
 			id: "3E5ECACA3ADA026A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -572,18 +557,26 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
+			subtitle: "FE to SU"
 			tasks: [{
 				id: "4E507A38E08AF0B1"
 				item: "create_new_age:basic_motor"
 				type: "item"
 			}]
-			title: "{quest.na.24.title}"
-			x: -9.0d
-			y: -1.5d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["3E5ECACA3ADA026A"]
-			description: ["{quest.na.25.desc}"]
+			dependencies: [
+				"3E5ECACA3ADA026A"
+				"308398792BEA3444"
+			]
+			description: [
+				"Motor Extentions allow for more SU to be generated in expense of bigger energy consumption. They are connected to the back of the Motor and allow to configure how much more SU needs to be generated in %. "
+				"To configure it hold wrench, right-click and drag the multiplier slider."
+				""
+				"Basic Motor Extention allows motor to make 200% SU. "
+			]
 			id: "45706992A156D647"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -591,18 +584,22 @@
 				table_id: 5490087560077010930L
 				type: "random"
 			}]
+			subtitle: "FE to More SU"
 			tasks: [{
 				id: "623AF17D0F2D3D4A"
 				item: "create_new_age:basic_motor_extension"
 				type: "item"
 			}]
-			title: "{quest.na.25.title}"
-			x: -11.0d
-			y: -1.5d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["305487E15BCDC6F1"]
-			description: ["{quest.na.26.desc}"]
+			description: [
+				"Electrical Motors generate rotation from FE, input FE from any side, and output rotation from front. You can change RPM by holding wrench, right-clicking and draging RPM slider on the side of the motor."
+				""
+				"Advanced Motor can generate up to 2048 SU on its own."
+			]
 			id: "17091CF70D51170A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -610,13 +607,13 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
+			subtitle: "Better Motor"
 			tasks: [{
 				id: "297E1E741C8556CE"
 				item: "create_new_age:advanced_motor"
 				type: "item"
 			}]
-			title: "{quest.na.26.title}"
-			x: -2.0d
+			x: -4.0d
 			y: -2.5d
 		}
 		{
@@ -624,7 +621,13 @@
 				"61D7232C6BFA68E1"
 				"5B073DB6C4609529"
 			]
-			description: ["{quest.na.27.desc}"]
+			description: [
+				"Electrical Motors generate rotation from FE, input FE from any side, and output rotation from front. You can change RPM by holding wrench, right-clicking and draging RPM slider on the side of the motor. "
+				""
+				"Reinforced Motor can generate up to 8192 SU on its own."
+				""
+				"&8Ponder is available for this block&r"
+			]
 			id: "51B69CE0DACBFCAE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -637,9 +640,8 @@
 				item: "create_new_age:reinforced_motor"
 				type: "item"
 			}]
-			title: "{quest.na.27.title}"
-			x: 2.0d
-			y: -2.5d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -647,7 +649,11 @@
 				"308398792BEA3444"
 				"5B073DB6C4609529"
 			]
-			description: ["{quest.na.28.desc}"]
+			description: [
+				"Motor Extentions allow for more SU to be generated in expense of bigger energy consumption. They are connected to the back of the Motor and allow to configure how much more SU needs to be generated in %. To configure it hold wrench, right-click and drag the multiplier slider."
+				""
+				"Strong Motor Extention allows motor to make 800% SU. "
+			]
 			id: "1CD80D729DC65867"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -655,18 +661,18 @@
 				table_id: 9045066956526228269L
 				type: "random"
 			}]
+			subtitle: "800% More SU"
 			tasks: [{
 				id: "246645799C910E47"
 				item: "create_new_age:advanced_motor_extension"
 				type: "item"
 			}]
-			title: "{quest.na.28.title}"
-			x: 2.0d
-			y: -4.5d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1EBA4DF9A0D7282E"]
-			description: ["{quest.na.30.desc}"]
+			description: ["To make Circuit deploy copper wire onto Blank Circuit."]
 			id: "308398792BEA3444"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -679,16 +685,15 @@
 				item: "create_new_age:copper_circuit"
 				type: "item"
 			}]
-			title: "{quest.na.30.title}"
 			x: 4.0d
-			y: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"0F6604EA16142E25"
 				"0D27740F8ACC92E6"
 			]
-			description: ["{quest.na.29.desc}"]
+			description: ["Blank Circuit are made by pressing Copper Plate, redstone, and Gold Wires inside heated basin."]
 			id: "1EBA4DF9A0D7282E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -701,19 +706,18 @@
 				item: "create_new_age:blank_circuit"
 				type: "item"
 			}]
-			title: "{quest.na.29.title}"
-			x: 6.0d
+			x: 4.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
-			description: ["{quest.na.38.desc}"]
+			description: [""]
 			id: "5099494C667223FB"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "1B22F5924C7B7CE7"
-				table_id: 418132405775659999L
-				type: "random"
+				count: 8
+				id: "5800CAE03BFFEDFD"
+				item: "create_new_age:thorium"
+				type: "item"
 			}]
 			tasks: [{
 				count: 10L
@@ -721,35 +725,35 @@
 				item: { Count: 8, id: "create_new_age:thorium" }
 				type: "item"
 			}]
-			title: "{quest.na.38.title}"
+			title: "Thorium"
 			x: -3.0d
-			y: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
 				"4BCDA1E23D59D3DA"
 				"5099494C667223FB"
 			]
-			description: ["{quest.na.39.desc}"]
+			description: [""]
 			id: "7DC0D577FE02F5E0"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "3CF3E85F5D17091C"
-				table_id: 5490087560077010930L
-				type: "random"
+				count: 4
+				id: "1B1CF6507A51FB4D"
+				item: "create_new_age:radioactive_thorium"
+				type: "item"
 			}]
+			subtitle: "Better then Uranium?"
 			tasks: [{
 				id: "4F2C8DA021B12247"
 				item: "create_new_age:radioactive_thorium"
 				type: "item"
 			}]
-			title: "{quest.na.39.title}"
-			x: -3.0d
-			y: 4.5d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7DC0D577FE02F5E0"]
-			description: ["{quest.na.42.desc}"]
+			description: ["Nuclear fuel created out of enriched thorium and iron plates, used to fuel Nuclear reactor"]
 			id: "2C67FD839D662205"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -762,13 +766,12 @@
 				item: "create_new_age:nuclear_fuel"
 				type: "item"
 			}]
-			title: "{quest.na.42.title}"
-			x: -5.0d
-			y: 4.5d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["33C653AEA4714144"]
-			description: ["{quest.na.40.desc}"]
+			dependencies: ["74837414C3A22899"]
+			description: ["Although nuclear reactor can run without any casing, it will irradiate everything near it, so to prevent it create Reactor Casing out of bricks and iron plates."]
 			id: "093AC2384829FB11"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -776,18 +779,18 @@
 				table_id: 5490087560077010930L
 				type: "random"
 			}]
+			subtitle: "Radiation Shield"
 			tasks: [{
 				id: "4F73511BBD1B9710"
 				item: "create_new_age:reactor_casing"
 				type: "item"
 			}]
-			title: "{quest.na.40.title}"
-			x: -7.0d
-			y: 2.5d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["093AC2384829FB11"]
-			description: ["{quest.na.43.desc}"]
+			description: ["Its fuctionally the same as Reactor Casing but you can see through it."]
 			id: "0F23A753195CBE3A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -795,14 +798,14 @@
 				table_id: 9045066956526228269L
 				type: "random"
 			}]
+			subtitle: "Transparent Radiation Shield"
 			tasks: [{
 				id: "468BD74DDCFB1E65"
 				item: "create_new_age:reactor_glass"
 				type: "item"
 			}]
-			title: "{quest.na.43.title}"
-			x: -5.0d
-			y: 2.5d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -810,7 +813,7 @@
 				"2C67FD839D662205"
 				"093AC2384829FB11"
 			]
-			description: ["{quest.na.45.desc}"]
+			description: ["Core of the reactor itself, this part is responsible for turning fuel into heat."]
 			id: "4B58EE20772EBC39"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -818,18 +821,18 @@
 				table_id: 9045066956526228269L
 				type: "random"
 			}]
+			subtitle: "Fuel stick"
 			tasks: [{
 				id: "2CD6ECF4FC138F26"
 				item: "create_new_age:reactor_rod"
 				type: "item"
 			}]
-			title: "{quest.na.45.title}"
-			x: -7.0d
-			y: 4.5d
+			x: -4.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["33C653AEA4714144"]
-			description: ["{quest.na.31.desc}"]
+			dependencies: ["7083FA0AF9A0304C"]
+			description: ["[ \"Heat Pipes are used to transfer heat between machines, without any \", { \"text\": \"Heat Pumps\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"43422AE94BEB2B49\" } }, \" heat will try to even out between all heat pipes and machines. \" ]"]
 			id: "58A0BD7E2D932964"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -837,18 +840,18 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
+			subtitle: "Transferring Heat"
 			tasks: [{
 				id: "73B396D98EEA6C8F"
 				item: "create_new_age:heat_pipe"
 				type: "item"
 			}]
-			title: "{quest.na.31.title}"
-			x: -9.0d
-			y: 0.5d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["58A0BD7E2D932964"]
-			description: ["{quest.na.32.desc}"]
+			description: ["Heat Pump is used to direct heat to where it needs to go."]
 			id: "43422AE94BEB2B49"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -856,14 +859,14 @@
 				table_id: 418132405775659999L
 				type: "random"
 			}]
+			subtitle: "Heat Diode"
 			tasks: [{
 				id: "5413A1143E83C9F8"
 				item: "create_new_age:heat_pump"
 				type: "item"
 			}]
-			title: "{quest.na.32.title}"
 			x: -8.0d
-			y: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -883,13 +886,12 @@
 				item: "create_new_age:reactor_heat_vent"
 				type: "item"
 			}]
-			title: "{quest.na.41.title}"
-			x: -9.0d
-			y: 2.5d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["093AC2384829FB11"]
-			description: ["{quest.na.44.desc}"]
+			description: ["Another essential block for running the reactor, used to deliver fuel to fuel rods, can be loaded with anything that can puch items into it (hoppers, item pipes, funnels, etc.)"]
 			id: "203078D820E20781"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -897,18 +899,24 @@
 				table_id: 9045066956526228269L
 				type: "random"
 			}]
+			subtitle: "Locked and Loaded"
 			tasks: [{
 				id: "76D1C41AC27EFC8B"
 				item: "create_new_age:reactor_fuel_acceptor"
 				type: "item"
 			}]
-			title: "{quest.na.44.title}"
-			x: -8.0d
-			y: 3.5d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["58A0BD7E2D932964"]
-			description: ["{quest.na.33.desc}"]
+			description: [
+				"Heater can be used for everything that Blaze Burner can be used for. "
+				""
+				"It has 4 heating temperatures and will use temperature accordingly."
+				""
+				"&8At the last heating temperature (500T) it acts as super-heated Blaze Burner&r"
+			]
 			id: "43D055AF7566DB9D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -916,32 +924,31 @@
 				table_id: 5490087560077010930L
 				type: "random"
 			}]
+			subtitle: "High Tech Blaze Burner"
 			tasks: [{
 				id: "4C277222726EC9BF"
 				item: "create_new_age:heater"
 				type: "item"
 			}]
-			title: "{quest.na.33.title}"
-			x: -10.0d
-			y: -0.5d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["58A0BD7E2D932964"]
-			description: ["{quest.na.35.desc}"]
+			description: ["If heat pipe reaches &410000T&r it will turn to &clava&r, and unlike other blocks heat pipes can be destroyed by flowing lava, so 1 overheated spot can cause &cchain reaction&r if left unnoticed."]
 			icon: "createdeco:decal_fire"
 			id: "757822F72F3FE14F"
 			tasks: [{
 				id: "33D01D0A4C8C961E"
-				title: "{quest.checkmark.ok}"
 				type: "checkmark"
 			}]
-			title: "{quest.na.35.title}"
-			x: -8.0d
-			y: 1.5d
+			title: "Risk of Melting"
+			x: -7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["58A0BD7E2D932964"]
-			description: ["{quest.na.34.desc}"]
+			description: ["Cheap way to generate SU from heat. Has 2 heating temperatures: 50T generates 512 SU and consumes 50T/s, 100T generates 1024 SU and consumes 100T/s."]
 			id: "48AD0A5A43B6B8B6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -954,13 +961,12 @@
 				item: "create_new_age:stirling_engine"
 				type: "item"
 			}]
-			title: "{quest.na.34.title}"
-			x: -10.0d
-			y: 1.5d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["58A0BD7E2D932964"]
-			description: ["{quest.na.36.desc}"]
+			description: ["Solar Power is the easiest way to get heat early on, this block generates 20T/s during the day."]
 			id: "23085C719A7CA2DE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -968,18 +974,18 @@
 				table_id: 5490087560077010930L
 				type: "random"
 			}]
+			subtitle: "Solar Power"
 			tasks: [{
 				id: "7FFBAC88F354EBAC"
 				item: "create_new_age:basic_solar_heating_plate"
 				type: "item"
 			}]
-			title: "{quest.na.36.title}"
-			x: -11.0d
-			y: 0.5d
+			x: -4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["23085C719A7CA2DE"]
-			description: ["{quest.na.37.desc}"]
+			description: ["A bit harder to craft then basic Solar Heating Plate it generatates 60/s during the day."]
 			id: "579550C26DFF8DF2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -987,18 +993,32 @@
 				table_id: 9045066956526228269L
 				type: "random"
 			}]
+			subtitle: "Better Solar Power"
 			tasks: [{
 				id: "6FEA144A89AEE299"
 				item: "create_new_age:advanced_solar_heating_plate"
 				type: "item"
 			}]
-			title: "{quest.na.37.title}"
-			x: -13.0d
-			y: 0.5d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["1A9A034E7281FB6D"]
-			description: ["{quest.na.23.desc}"]
+			dependencies: [
+				"1A9A034E7281FB6D"
+				"42C1B71BEEEE9517"
+			]
+			description: [
+				"New Age Generator is used to generate FE from SU."
+				""
+				"It consists of 3 main parts: "
+				"- Carbon Brushes "
+				"- Generator Coils (Rotor) "
+				"- Magnetic Blocks (Stator)"
+				""
+				"To assemble the Generator place Generator Coils and surround it with 12 Magnets. Put Carbon Brushes on one end of the shaft that Generator Coils are placed on,"
+				""
+				"Output power depends on Magnetic Force of the Magnets and RPM of Generator Coils."
+			]
 			icon: "createdeco:decal_electrical"
 			id: "4AC56FA9013CD02E"
 			tasks: [{
@@ -1006,9 +1026,9 @@
 				title: "{quest.checkmark.ok}"
 				type: "checkmark"
 			}]
-			title: "{quest.na.23.title}"
-			x: -11.0d
-			y: -3.5d
+			title: "How to: New Age Generator"
+			x: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -1017,9 +1037,9 @@
 				"4B58EE20772EBC39"
 			]
 			description: [
-				"{quest.na.46.desc}"
+				"To build New Age Nuclear Reactor:"
 				""
-				"{quest.na.46.1.desc}"
+				"[ \"Make some sort of base out of \", { \"text\": \"radiation resistant blocks\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"152341867F6CA47C\" } }, \", place Reactor Rods, connect Reactor Heat Vent and Reactor Fuel Inserter, encase rods in  radiation resistant blocks.\" ]"
 			]
 			icon: "createdeco:decal_radioactive"
 			id: "52080EC8F3699E91"
@@ -1028,55 +1048,42 @@
 				title: "{quest.checkmark.ok}"
 				type: "checkmark"
 			}]
-			title: "{quest.na.46.title}"
-			x: -9.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["52080EC8F3699E91"]
-			description: ["{quest.na.47.desc}"]
-			icon: "create:fluid_tank"
-			id: "100F96FA5191E594"
-			tasks: [{
-				id: "420FCF3262A5E3F2"
-				title: "{quest.checkmark.ok}"
-				type: "checkmark"
-			}]
-			title: "{quest.na.47.title}"
-			x: -9.0d
-			y: 6.5d
+			title: "How to: Basic Reactor"
+			x: -6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["52080EC8F3699E91"]
 			description: [
-				"{quest.na.48.desc}"
+				"In this modpack radiation from New Age goes through leather armor "
 				""
-				"{quest.na.48.1.desc}"
+				"Armor sets that protect agaist New Age radiation are: Hazmat and Meka-Suit set from Mekanism (no upgrades requered, it just protects if full set is worn)."
 			]
 			icon: "mekanism:hazmat_mask"
 			id: "702E988F57F59328"
 			tasks: [{
 				id: "6C1BFD45B968BF69"
-				title: "{quest.checkmark.ok}"
 				type: "checkmark"
 			}]
-			title: "{quest.na.48.title}"
-			x: -11.0d
-			y: 2.5d
+			title: "Hazmat troubles"
+			x: -8.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["52080EC8F3699E91"]
-			description: ["{quest.na.49.desc}"]
+			description: [
+				"New Age: Reactor Casing, Reactor Rod, Reactor Glass, Reactor Fuel Inserter, Reactor Heat Vent."
+				"Mekanism: Fission Reactor Casing and Reactor Glass."
+			]
 			icon: "mekanismgenerators:fission_reactor_casing"
 			id: "152341867F6CA47C"
 			tasks: [{
 				id: "30B3F82923FE6A5C"
-				title: "{quest.checkmark.ok}"
 				type: "checkmark"
 			}]
-			title: "{quest.na.49.title}"
-			x: -11.0d
-			y: 6.5d
+			title: "What stops New Age radiation?"
+			x: -7.0d
+			y: 4.5d
 		}
 	]
 	title: "Create: New Age"
