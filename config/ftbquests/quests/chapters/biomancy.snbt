@@ -9,13 +9,13 @@
 	quest_links: [{
 		id: "7382D31BA0CBD8B2"
 		linked_quest: "0E26D8711F2FDDE4"
-		x: -3.5d
-		y: 0.0d
+		x: -2.0d
+		y: 1.5d
 	}]
 	quests: [
 		{
-			dependencies: ["2960FDE713B6103F"]
-			description: ["{quest.bio.2.desc}"]
+			dependencies: ["0E26D8711F2FDDE4"]
+			description: ["To get started in Biomancy, you must collect various meat types, rotten flesh, and an ender pearl to create Primordial Cores."]
 			id: "021D775B26534B09"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -23,19 +23,23 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Whispers in the Meat"
 			tasks: [{
 				count: 2L
 				id: "2E20E6C0DDBFBCBC"
 				item: "biomancy:primordial_core"
 				type: "item"
 			}]
-			title: "{quest.bio.2.title}"
-			x: 0.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["021D775B26534B09"]
-			description: ["{quest.bio.4.desc}"]
+			description: [
+				"The Primordial Cradle... &8(nicknamed Little Timmy for sillyness purposes)&r It is now your little fleshy creation. "
+				""
+				"It will create flesh blobs if you feed it the right things, but make sure you place it in a safe spot. It might want to stretch out its limbs a little bit once it gets settled in..."
+			]
 			id: "1A1E781BF5BA2B7F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -43,18 +47,22 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "This is my son, Little Timmy"
 			tasks: [{
 				id: "352369BFF29805A8"
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
-			title: "{quest.bio.4.title}"
-			x: 1.0d
-			y: -1.0d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["021D775B26534B09"]
-			description: ["{quest.bio.3.desc}"]
+			description: [
+				"The Flesh Plunderer is a tool used for killing mobs/animals for a fleshy reward. "
+				""
+				"It is powerful, but has very low durability. You will want to have it to get started with obtaining fleshy materials."
+			]
 			id: "5E0F9397FA83D61A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -62,6 +70,7 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Harvesting Flesh"
 			tasks: [{
 				id: "73A77F01BBDB7D9F"
 				item: {
@@ -73,13 +82,12 @@
 				}
 				type: "item"
 			}]
-			title: "{quest.bio.3.title}"
-			x: 1.0d
-			y: 1.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1A1E781BF5BA2B7F"]
-			description: ["{quest.bio.10.desc}"]
+			description: ["If you feed your primordial cradle some raw meats and golden apples, it might spawn a flesh blob! I know the flesh blob is cute... but you have to kill it. Just dont think about it too much, because you will have to kill many more of them in the future."]
 			id: "63F29667796878B6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -87,20 +95,18 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Fleshy..."
 			tasks: [{
-				entity: "biomancy:flesh_blob"
-				icon: "biomancy:living_flesh"
-				id: "012EDA83A48351A2"
-				type: "kill"
-				value: 1L
+				id: "1619390963B91E6C"
+				item: "biomancy:living_flesh"
+				type: "item"
 			}]
-			title: "{quest.bio.10.title}"
-			x: 2.5d
-			y: -1.0d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5E0F9397FA83D61A"]
-			description: ["{quest.bio.9.desc}"]
+			description: ["Use your Flesh Plunderer to harvest some Bile Glands from mobs. Trust me, it will be useful... I promise"]
 			id: "189AFD207C1BC5E2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -108,21 +114,25 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Yucky Slimy Thing"
 			tasks: [{
 				id: "0F904612E17ADA8C"
 				item: "biomancy:mob_gland"
 				type: "item"
 			}]
-			title: "{quest.bio.9.title}"
-			x: 2.5d
-			y: 1.0d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
 				"189AFD207C1BC5E2"
 				"63F29667796878B6"
 			]
-			description: ["{quest.bio.11.desc}"]
+			description: [
+				"Harvesting bile glands from mobs and killing flesh blobs does turn out to be worth it. With those, you will be able to make a decomposer!"
+				""
+				"You can feed certain items to your new decomposer for materials that will be more useful for fleshy crafts. Make sure you stock up on some of these materials, they are very important for crafting all kinds of items in Biomancy."
+			]
 			id: "1D86A07D3FDC56D7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -130,21 +140,19 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Chomp Chomp!"
 			tasks: [{
 				id: "09F9A61BFA60AB70"
 				item: "biomancy:decomposer"
 				type: "item"
 			}]
-			title: "{quest.bio.11.title}"
 			x: 3.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"63F29667796878B6"
-				"31093D4C407236BE"
-			]
-			description: ["{bio.quest.13.desc}"]
+			dependencies: ["63F29667796878B6"]
+			dependency_requirement: "one_completed"
+			description: ["The Bio-Forge allows you to craft various fleshy blocks and items! Take a look at the quests surrounding this one or interact with the Bio-Forge to see some of the things you can craft."]
 			id: "23AA8BC5D26A4F47"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -154,32 +162,18 @@
 			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "Crafting with Flesh!"
 			tasks: [{
 				id: "424215F51C40D591"
 				item: "biomancy:bio_forge"
 				type: "item"
 			}]
-			title: "{bio.quest.13.title}"
 			x: 7.5d
 			y: -0.9d
 		}
 		{
-			dependencies: ["1D86A07D3FDC56D7"]
-			description: ["{bio.quest.12.desc}"]
-			icon: "biomancy:flesh_bits"
-			id: "31093D4C407236BE"
-			size: 1.0d
-			tasks: [{
-				id: "19346CF9D81FBE19"
-				type: "checkmark"
-			}]
-			title: "{bio.quest.12.title}"
-			x: 5.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["23AA8BC5D26A4F47"]
-			description: ["{bio.quest.14.desc}"]
+			description: ["The Digester is a must-have for anyone looking to increase their bio-machine fuel efficiency. With it, you can turn food items into nutrient paste! Some non-food items can also be fed to the digester for nutrients, check JEI if you're interested."]
 			id: "72C605D5F08E942D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -187,18 +181,22 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Mmm, nutrients"
 			tasks: [{
 				id: "2AF7B0E9439180F3"
 				item: "biomancy:digester"
 				type: "item"
 			}]
-			title: "{bio.quest.14.title}"
-			x: 4.5d
-			y: -1.6999999999999997d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["23AA8BC5D26A4F47"]
-			description: ["{bio.quest.16.desc}"]
+			description: [
+				"Fleshkin Chests are a cute way to store your items. They have more slots than a normal chest, and they only open for the player who made them! You can give a fleshkin chest a tier 3 player essence to give another player access to it though."
+				""
+				"Also, please give your fleshkin chest a cute name, it will be happier that way :3"
+			]
 			id: "09130E1FF6A014BE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -206,18 +204,18 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Don't worry, he doesnt bite..."
 			tasks: [{
 				id: "61D79B7ED25C3D70"
 				item: "biomancy:fleshkin_chest"
 				type: "item"
 			}]
-			title: "{bio.quest.16.title}"
 			x: 5.0d
 			y: -3.1999999999999997d
 		}
 		{
 			dependencies: ["23AA8BC5D26A4F47"]
-			description: ["{bio.quest.17.desc}"]
+			description: ["The Bio-Lab is a bio machine used for making serums. Serums are like potions, but instead of drinking them, you inject them. There are a lot of different serums with different effects, so some quests have been made to show you how they are made and what they do."]
 			id: "1C89DED7139FF7AE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -225,18 +223,21 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Drugs."
 			tasks: [{
 				id: "0E4FC13BC9E154C5"
 				item: "biomancy:bio_lab"
 				type: "item"
 			}]
-			title: "{bio.quest.17.title}"
 			x: 6.0d
 			y: -4.200000000000001d
 		}
 		{
 			dependencies: ["23AA8BC5D26A4F47"]
-			description: ["{bio.quest.36.desc}"]
+			description: [
+				"Ravenous Claws are the perfect weapon for any biomancer. Not only are they easily repaired by feeding them food, they are also very fast and can deal a lot of damage. They also have an awakened mode, which can be activated if you have enough Blood Charge. Blood Charge can be gained by killing mobs with the claws in dormant mode. "
+				"&8check the controls if you're not sure how to activate awakened mode!&r"
+			]
 			id: "056D3A526AC4A8F9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -244,6 +245,7 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Fight like a wild animal"
 			tasks: [{
 				id: "220FD9083CB1A5C2"
 				item: {
@@ -253,13 +255,12 @@
 				}
 				type: "item"
 			}]
-			title: "{bio.quest.36.title}"
 			x: 10.5d
 			y: -1.6999999999999997d
 		}
 		{
 			dependencies: ["23AA8BC5D26A4F47"]
-			description: ["{bio.quest.34.desc}"]
+			description: ["Besides having the coolest name for a shield ever, The Thorn is also one of the best things you can make with the Bio-Forge because of its capabilites beyond being just a normal shield. It expands and retracts when you block with it, making it less of an obstruction on your screen. It also has spikes, so any attack you block with it gets sent right back!"]
 			id: "2AFBF9E2184C3053"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -267,6 +268,7 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Spiky fleshy shield!"
 			tasks: [{
 				id: "62AC59DA50BDFA8D"
 				item: {
@@ -276,13 +278,12 @@
 				}
 				type: "item"
 			}]
-			title: "{bio.quest.34.title}"
 			x: 9.0d
 			y: -4.200000000000001d
 		}
 		{
 			dependencies: ["23AA8BC5D26A4F47"]
-			description: ["{bio.quest.35.desc}"]
+			description: ["The caustic gunblade is a great weapon! It can shoot acid projectiles for long range combat, and it can also switch into blade mode for up close fighting. It also has the ability to coat its blade in acid!"]
 			id: "5319D9DD1A371E27"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -290,6 +291,7 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "PEW PEW!"
 			tasks: [{
 				id: "666D95E13F38780E"
 				item: {
@@ -299,13 +301,12 @@
 				}
 				type: "item"
 			}]
-			title: "{bio.quest.35.title}"
 			x: 10.0d
 			y: -3.1999999999999997d
 		}
 		{
 			dependencies: ["23AA8BC5D26A4F47"]
-			description: ["{bio.quest.33.desc}"]
+			description: ["The Bio-Injector allows you to inject yourself and others with serums. If you dont like getting poked with sharp needles, try enchanting it."]
 			id: "0C9382E10D0FC3D2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -313,6 +314,7 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Sharp needles 3:"
 			tasks: [{
 				id: "316F27845037D438"
 				item: {
@@ -324,13 +326,15 @@
 				}
 				type: "item"
 			}]
-			title: "{bio.quest.33.title}"
 			x: 7.5d
 			y: -4.700000000000001d
 		}
 		{
 			dependencies: ["23AA8BC5D26A4F47"]
-			description: ["{bio.quest.38.desc}"]
+			description: [
+				"Acolyte armor is a great set of armor for a biomancer. It can be fed just like any other kind of fleshy gear, and it also gives some perks. With acolyte armor equipped, you can see some more info about your primordial cradle when looking at it. You might have to decypher some strange text though! "
+				"&8Learn to read Caro Invitica!!! :3&r"
+			]
 			id: "25DEBD7139CEB509"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -338,6 +342,7 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Skin to wear on your skin."
 			tasks: [
 				{
 					id: "003071091AA84DC7"
@@ -376,13 +381,13 @@
 					type: "item"
 				}
 			]
-			title: "{bio.quest.38.title}"
+			title: "Acolyte Armor"
 			x: 10.0d
 			y: 1.3000000000000003d
 		}
 		{
 			dependencies: ["23AA8BC5D26A4F47"]
-			description: ["{bio.quest.39.desc}"]
+			description: ["Feed this to your primordial cradle to give it a little boost! If you can sustainably make these to feed your cradle, you can get it to grow a lot faster."]
 			id: "6503991883B2A2FD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -390,32 +395,37 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Yummy (not for you!)"
 			tasks: [{
 				id: "4F5A67B059EC3A80"
 				item: "biomancy:creator_mix"
 				type: "item"
 			}]
-			title: "{bio.quest.39.title}"
 			x: 9.0d
 			y: 2.3000000000000003d
 		}
 		{
 			dependencies: ["1A1E781BF5BA2B7F"]
-			description: ["{quest.bio.5.desc}"]
+			description: ["I hope you placed your cradle in a good spot. If you have, then get ready to watch it spread around its area! Once the flesh veins have settled in, they will start to form various flesh blocks and build a flesh mound structure. You can do whatever you want with the blocks, but there are a few blocks that may be of interest."]
 			icon: "biomancy:malignant_flesh"
 			id: "4E58979834FDC050"
 			size: 1.25d
 			tasks: [{
-				id: "0D72000AF3644476"
-				type: "checkmark"
+				elapsedTime: 1L
+				id: "5742E144587C5E4E"
+				type: "questsadditions:time"
 			}]
-			title: "{quest.bio.5.title}"
-			x: -0.5d
-			y: -2.5d
+			title: "Let It Grow!"
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4E58979834FDC050"]
-			description: ["{quest.bio.6.desc}"]
+			description: [
+				"Your primordial cradle may start to create acid pools. "
+				""
+				"If you find any, look out for slimy looking blocks around them! If you collect enough of them, you can use them to craft a Caustic Gunblade."
+			]
 			id: "7BBB19E7ACF3C68E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -423,18 +433,18 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Holes?"
 			tasks: [{
 				id: "1D48DA170CC98594"
 				item: "biomancy:primal_orifice"
 				type: "item"
 			}]
-			title: "{quest.bio.6.title}"
-			x: -1.5d
-			y: -3.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4E58979834FDC050"]
-			description: ["{quest.bio.7.desc}"]
+			description: ["You might find these special light sources around your flesh mound. If you want more light in a certain area, you can break one of these and move it to a spot you like!"]
 			id: "59895C25DDFF91BD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -442,18 +452,19 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Oooh, glowy"
 			tasks: [{
 				id: "49675DDB58139BFC"
 				item: "biomancy:bloomlight"
 				type: "item"
 			}]
-			title: "{quest.bio.7.title}"
-			x: -0.5d
-			y: -4.0d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4E58979834FDC050"]
-			description: ["{quest.bio.8.desc}"]
+			description: ["If you find any of these little things growing on the outer areas of your flesh mound, that means it has grown enough to start trying to spread out to more areas! It will shoot at the land surrounding it to create more flesh veins."]
+			icon: "biomancy:primal_bloom"
 			id: "613236E638C66692"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -461,19 +472,22 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "It Spreads"
 			tasks: [{
-				id: "48E5923CC40A2451"
-				item: "biomancy:primal_bloom"
-				type: "item"
+				id: "2C79FD42449B3261"
+				observe_type: 0
+				timer: 0L
+				to_observe: "biomancy:primal_bloom"
+				type: "observation"
 			}]
-			title: "{quest.bio.8.title}"
-			x: 0.5d
-			y: -3.5d
+			title: "Primal Bloom"
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["23AA8BC5D26A4F47"]
 			dependency_requirement: "one_completed"
-			description: ["{bio.quest.37.desc}"]
+			description: ["The Essence Extractor is used for taking essence from mobs, animals, and players. With some enchantments, you can get higher tiers of essence. Tier 3 player essence is useful for giving specific players access to things like fleshkin chests."]
 			id: "4004129749B191AF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -492,13 +506,16 @@
 				}
 				type: "item"
 			}]
-			title: "{bio.quest.37.title}"
+			title: "Steal your friends DNA!"
 			x: 10.5d
 			y: -0.20000000000000004d
 		}
 		{
 			dependencies: ["72C605D5F08E942D"]
-			description: ["{bio.quest.15.desc}"]
+			description: [
+				"If you have a lot of nutrient paste, you can turn it into nutrient bars! They are a very good source of food for bio-machines and for yourself. "
+				"&8Not sure if it's really that tasty though...&r"
+			]
 			id: "54F8F0C353755CF4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -506,18 +523,18 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Not your average protein bar"
 			tasks: [{
 				id: "50614474A4FF7C12"
 				item: "biomancy:nutrient_bar"
 				type: "item"
 			}]
-			title: "{bio.quest.15.title}"
-			x: 3.0d
-			y: -2.1999999999999997d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1C89DED7139FF7AE"]
-			description: ["{bio.quest.18.desc}"]
+			description: ["Organic Compound is the most basic component of a serum. It is used for making some of the ingredients for serums, and for making the two base compounds of them."]
 			id: "0CA7E3DAEF8411B3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -527,18 +544,18 @@
 			}]
 			shape: "square"
 			size: 1.25d
+			subtitle: "Awkward potion... Fleshified"
 			tasks: [{
 				id: "62ABA9A9D7CA77DD"
 				item: "biomancy:organic_compound"
 				type: "item"
 			}]
-			title: "{bio.quest.18.title}"
 			x: 6.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["0CA7E3DAEF8411B3"]
-			description: ["{bio.quest.19.desc}"]
+			description: ["Besides making serums, organic compounds can also be used to make these little explosives! Make sure to send some to your friends mailboxes :3"]
 			id: "2065EEC6934625DE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -546,18 +563,18 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Pipe bomb!"
 			tasks: [{
 				id: "58E63E8C19DFDF86"
 				item: "biomancy:unstable_compound"
 				type: "item"
 			}]
-			title: "{bio.quest.19.title}"
 			x: 7.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["0CA7E3DAEF8411B3"]
-			description: ["{bio.quest.32.desc}"]
+			description: ["A basic ingredient in serums."]
 			hide_dependent_lines: true
 			id: "2EDDBE7F3D466B79"
 			rewards: [{
@@ -566,18 +583,18 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Bad Stuff"
 			tasks: [{
 				id: "1CBE2B2D333C6E44"
 				item: "biomancy:decaying_additive"
 				type: "item"
 			}]
-			title: "{bio.quest.32.title}"
 			x: 7.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["0CA7E3DAEF8411B3"]
-			description: ["{bio.quest.31.desc}"]
+			description: ["A basic ingredient in serums."]
 			hide_dependent_lines: true
 			id: "692C1E964AB5B540"
 			rewards: [{
@@ -586,18 +603,18 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Good Stuff"
 			tasks: [{
 				id: "1974571F63CAC8E5"
 				item: "biomancy:healing_additive"
 				type: "item"
 			}]
-			title: "{bio.quest.31.title}"
 			x: 5.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["0CA7E3DAEF8411B3"]
-			description: ["{bio.quest.25.desc}"]
+			description: ["Genetic Compound is a basic compound for making serums. The serums that this compound makes will most likely be used more often than exotic ones."]
 			id: "168998763F13F317"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -605,12 +622,12 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Basic fleshy potion stuff"
 			tasks: [{
 				id: "6DEFBA096C8D3964"
 				item: "biomancy:genetic_compound"
 				type: "item"
 			}]
-			title: "{bio.quest.25.title}"
 			x: 9.5d
 			y: -8.5d
 		}
@@ -620,7 +637,7 @@
 				"692C1E964AB5B540"
 				"168998763F13F317"
 			]
-			description: ["{bio.quest.28.desc}"]
+			description: ["This is a serum that turns slimes and flesh blobs smaller. After all, smaller means cuter! :3"]
 			id: "01B61DFAA5FF2EB5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -628,12 +645,12 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Smol-ification"
 			tasks: [{
 				id: "3C1D407C79CF0570"
 				item: "biomancy:shrinking_serum"
 				type: "item"
 			}]
-			title: "{bio.quest.28.title}"
 			x: 9.5d
 			y: -11.0d
 		}
@@ -643,7 +660,7 @@
 				"692C1E964AB5B540"
 				"168998763F13F317"
 			]
-			description: ["{bio.quest.27.desc}"]
+			description: ["This serum reverses aging in mobs and animals, turning them back into a child! I'm not entirely sure why you would need to use this though..."]
 			hide_dependency_lines: false
 			id: "35D001AF7577BAF0"
 			rewards: [{
@@ -652,12 +669,12 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Anti-Aging"
 			tasks: [{
 				id: "7BF13FCBC5C1CA20"
 				item: "biomancy:rejuvenation_serum"
 				type: "item"
 			}]
-			title: "{bio.quest.27.title}"
 			x: 8.5d
 			y: -11.0d
 		}
@@ -666,7 +683,7 @@
 				"2EDDBE7F3D466B79"
 				"168998763F13F317"
 			]
-			description: ["{bio.quest.26.desc}"]
+			description: ["This serum will cause any mob/animal that is still in its child phase to instantly grow up and become an adult. How evil of you to take away their childhood... you monster!"]
 			id: "562221D54B28E7F9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -674,12 +691,12 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Skip Your Childhood"
 			tasks: [{
 				id: "44F6EACACC541BF8"
 				item: "biomancy:ageing_serum"
 				type: "item"
 			}]
-			title: "{bio.quest.26.title}"
 			x: 7.5d
 			y: -11.0d
 		}
@@ -688,7 +705,7 @@
 				"168998763F13F317"
 				"692C1E964AB5B540"
 			]
-			description: ["{bio.quest.29.desc}"]
+			description: ["Enlargement serum turns slimes and flesh blobs BIGGER. Very useful for getting more living flesh from flesh blobs!"]
 			id: "211FCAB9A75F67D2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -696,18 +713,18 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Grow big and strong"
 			tasks: [{
 				id: "18377FEAD36C6BD5"
 				item: "biomancy:enlargement_serum"
 				type: "item"
 			}]
-			title: "{bio.quest.29.title}"
 			x: 10.5d
 			y: -11.0d
 		}
 		{
 			dependencies: ["168998763F13F317"]
-			description: ["{bio.quest.30.desc}"]
+			description: ["Breeding stimulant has the same effects as feeding 2 animals nearby some food. However, it does a bit more than just allowing them to breed once... Watch out for mutations in the children."]
 			id: "3957EF823549E9AA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -715,18 +732,18 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "The birds and the bees..."
 			tasks: [{
 				id: "1ED376BDEF9E30E9"
 				item: "biomancy:breeding_stimulant"
 				type: "item"
 			}]
-			title: "{bio.quest.30.title}"
 			x: 11.5d
 			y: -11.0d
 		}
 		{
 			dependencies: ["0CA7E3DAEF8411B3"]
-			description: ["{quest.bio.20.desc}"]
+			description: ["Exotic Compounds are used for making some of the more mysterious serums."]
 			id: "197F2D1A0B4C7341"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -734,12 +751,12 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Not available at your local drugstore"
 			tasks: [{
 				id: "793173F053CBF5F6"
 				item: "biomancy:exotic_compound"
 				type: "item"
 			}]
-			title: "{bio.quest.20.title}"
 			x: 2.5d
 			y: -8.5d
 		}
@@ -748,7 +765,7 @@
 				"197F2D1A0B4C7341"
 				"692C1E964AB5B540"
 			]
-			description: ["{bio.quest.21.desc}"]
+			description: ["Make this serum for some extra absorption hearts!"]
 			id: "72B11A8B658E1BF8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -756,18 +773,18 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Gapple injections"
 			tasks: [{
 				id: "389D3C6AFA1367E1"
 				item: "biomancy:absorption_boost"
 				type: "item"
 			}]
-			title: "{bio.quest.21.title}"
 			x: 1.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["197F2D1A0B4C7341"]
-			description: ["{bio.quest.22.desc}"]
+			description: ["Frenzy serum gives you some nice effects like speed, strength, and haste. Just beware of the withdrawal effects that come after..."]
 			id: "7152B3E6B0F9F5EF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -775,12 +792,12 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Try not to get addicted"
 			tasks: [{
 				id: "215C77E43EABD7D8"
 				item: "biomancy:frenzy_serum"
 				type: "item"
 			}]
-			title: "{bio.quest.22.title}"
 			x: 2.0d
 			y: -11.0d
 		}
@@ -790,7 +807,7 @@
 				"2EDDBE7F3D466B79"
 				"692C1E964AB5B540"
 			]
-			description: ["{bio.quest.23.desc}"]
+			description: ["This serum can cure some negative effects that can't be cured with milk."]
 			id: "3F1CFCD6026DD68C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -798,18 +815,18 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Probably cures cancer"
 			tasks: [{
 				id: "6607AE37327442C0"
 				item: "biomancy:cleansing_serum"
 				type: "item"
 			}]
-			title: "{bio.quest.23.title}"
 			x: 3.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["197F2D1A0B4C7341"]
-			description: ["{bio.quest.24.desc}"]
+			description: ["Not feeling very eepy tonight? Thats ok, this serum will make sure no phantoms attack you for staying up late! That way, you can pull an all nighter with no problems."]
 			id: "14856139A7155398"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -817,19 +834,19 @@
 				table_id: 8679068758044343808L
 				type: "loot"
 			}]
+			subtitle: "Sleep deprived"
 			tasks: [{
 				id: "1AA18D3B75FFA7B5"
 				item: "biomancy:insomnia_cure"
 				type: "item"
 			}]
-			title: "{bio.quest.24.title}"
 			x: 4.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["23AA8BC5D26A4F47"]
 			dependency_requirement: "one_completed"
-			description: ["{bio.quest.40.desc}"]
+			description: ["Various blocks can be made to give your builds a more fleshy aesthetic!"]
 			id: "3C485ACA1C07D565"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -838,6 +855,7 @@
 				type: "loot"
 			}]
 			shape: "rsquare"
+			subtitle: "Build your house out of FLESH!"
 			tasks: [
 				{
 					id: "662C681F020087DD"
@@ -875,13 +893,12 @@
 					type: "item"
 				}
 			]
-			title: "{bio.quest.40.title}"
 			x: 7.5d
 			y: 2.8000000000000003d
 		}
 		{
 			dependencies: ["23AA8BC5D26A4F47"]
-			description: ["{bio.quest.41.desc}"]
+			description: ["Maw Hoppers and Tongues are useful for fleshy automation. Some people might find it a little gross, but thats just how it is when working with flesh! And who needs a conveyor belt anyway, when you have intestines! :3"]
 			id: "4E779E380FD2DE3C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -889,6 +906,7 @@
 				table_id: 1563439983274502259L
 				type: "loot"
 			}]
+			subtitle: "Fleshy Pipes"
 			tasks: [
 				{
 					id: "1FAFE6BF31FB8031"
@@ -901,30 +919,8 @@
 					type: "item"
 				}
 			]
-			title: "{bio.quest.41.title}"
 			x: 6.0d
 			y: 2.3000000000000003d
-		}
-		{
-			dependencies: ["0E26D8711F2FDDE4"]
-			description: ["{quest.bio.1.desc}"]
-			hide_until_deps_complete: true
-			icon: "biomancy:living_flesh"
-			id: "2960FDE713B6103F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "54F569FD6D692D58"
-				table_id: 1563439983274502259L
-				type: "loot"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "604EAD1AFB005F63"
-				type: "checkmark"
-			}]
-			title: "{quest.bio.1.title}"
-			x: -2.0d
-			y: 0.0d
 		}
 	]
 	title: "Biomancy"
