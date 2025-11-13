@@ -3,26 +3,27 @@
 	default_quest_shape: ""
 	filename: "creative_items"
 	group: ""
+	icon: "kubejs:unstable_alloy"
 	id: "3CA63232B2291719"
 	order_index: 4
 	quest_links: [
 		{
 			id: "1E63CA8A123348EF"
 			linked_quest: "5457F1584CFED690"
-			x: -4.5d
-			y: -5.0d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			id: "049A94C35AAC63AB"
 			linked_quest: "7FD99F0885299CBE"
-			x: -0.5d
-			y: -6.0d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			id: "5DD215BA8BFFE3CA"
 			linked_quest: "6484427CF4CBAB1F"
-			x: -0.5d
-			y: -4.0d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			id: "2157461EBC8A06C0"
@@ -33,20 +34,20 @@
 		{
 			id: "46FA2290E52F39D3"
 			linked_quest: "2D32F8A06B3EB8C9"
-			x: 6.5d
-			y: -6.0d
+			x: -4.5d
+			y: 10.5d
 		}
 		{
 			id: "1F509E6826F3B740"
 			linked_quest: "2B696CA62EB0083F"
-			x: 6.5d
-			y: -4.0d
+			x: -6.5d
+			y: 10.5d
 		}
 		{
 			id: "705534D27D82E560"
 			linked_quest: "1582AF37FFA4377D"
-			x: 6.5d
-			y: -5.0d
+			x: -5.5d
+			y: 10.5d
 		}
 		{
 			id: "47C50B6785234F62"
@@ -76,31 +77,31 @@
 			id: "7CA311FCC01C1587"
 			linked_quest: "2A6F014969A34A39"
 			x: 6.5d
-			y: -2.0d
+			y: -5.0d
 		}
 		{
 			id: "3AA5A6F078FE0FDC"
 			linked_quest: "2CA44854087F7604"
 			x: 3.0d
-			y: -1.0d
+			y: -4.0d
 		}
 		{
 			id: "7E6A8BE11C275702"
 			linked_quest: "57922522EFFF155B"
-			x: -0.5d
-			y: -1.5d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			id: "19E60E6552BDD180"
 			linked_quest: "7D29F4606C564494"
-			x: -0.5d
-			y: -2.5d
+			x: -1.5d
+			y: -5.5d
 		}
 		{
 			id: "7B2D28F2AA563BC4"
 			linked_quest: "3AD3293C7E0AFE5E"
-			x: 1.5d
-			y: -7.0d
+			x: -7.0d
+			y: 5.0d
 		}
 		{
 			id: "7ACA6DB37A664C95"
@@ -111,8 +112,8 @@
 		{
 			id: "01FA6BDCD4EFB30B"
 			linked_quest: "54596BF1C9F516E4"
-			x: -10.0d
-			y: -6.5d
+			x: -8.5d
+			y: -3.0d
 		}
 		{
 			id: "315C717C4703E352"
@@ -123,26 +124,26 @@
 		{
 			id: "0CCC209591A27D10"
 			linked_quest: "3A79F1EE9B098258"
-			x: -7.0d
-			y: -6.5d
+			x: -8.5d
+			y: -7.5d
 		}
 		{
 			id: "5C20EFF8BF617709"
 			linked_quest: "02326CC0B5B332A2"
-			x: -6.5d
-			y: -5.0d
+			x: -7.0d
+			y: -6.5d
 		}
 		{
 			id: "545148D84D30C04A"
 			linked_quest: "3987C6B6C2DC89A9"
-			x: -8.5d
-			y: -7.5d
+			x: -10.0d
+			y: -6.5d
 		}
 		{
 			id: "0DFE6BD8B347ABDB"
 			linked_quest: "3809DA076973B41F"
 			x: -5.5d
-			y: -0.5d
+			y: -3.5d
 		}
 	]
 	quests: [
@@ -160,8 +161,8 @@
 				item: "kubejs:incomplete_energy_godly_alloy"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.0d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -180,8 +181,8 @@
 				item: "kubejs:energy_godly_alloy"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.0d
+			x: -5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -200,8 +201,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: -6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -220,8 +221,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.0d
+			x: -4.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -240,8 +241,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: -5.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["66136119F1CB9705"]
@@ -419,7 +420,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -439,7 +440,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -460,6 +461,125 @@
 			}]
 			x: -11.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["3E342EC10340F08F"]
+			id: "60EF061B6FDDA6A3"
+			tasks: [{
+				id: "65B6873E6C5656CA"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7EF8903FCA281F93"]
+			id: "54789AA518648EC2"
+			tasks: [{
+				id: "50F3D4D8C3EE55A5"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4613272CCECC2011"]
+			id: "341D6085D203CFEE"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "7029A7FB156AFD5C"
+					item: {
+						Count: 1
+						id: "createbigcannons:creative_autocannon_ammo_container"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "62A8A8D8F94C3E7E"
+					item: "create:creative_blaze_cake"
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["554A46120F1F0FD6"]
+			id: "0DF36DF5250B1327"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "6ECC42D2794997BF"
+					item: "mekanism:creative_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "54643A0A63128B60"
+					item: "thermal:fluid_tank_creative_augment"
+					type: "item"
+				}
+				{
+					id: "131D2C32596183AD"
+					item: "create:creative_fluid_tank"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FD4510362D1F9FC"]
+			id: "0F4849F75ACE5E29"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "50CFA5F3D968D2C8"
+					item: "thermal:rf_coil_creative_augment"
+					type: "item"
+				}
+				{
+					id: "3BA987EA752BC3E4"
+					item: {
+						Count: 1
+						id: "mekanism:creative_energy_cube"
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "18446744073709551615.9999"
+								}]
+								componentConfig: {
+									config0: {
+										side0: 4
+										side1: 4
+										side2: 4
+										side3: 4
+										side4: 4
+										side5: 4
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A7E79AF6B414B18"
+					item: "createaddition:creative_energy"
+					type: "item"
+				}
+				{
+					id: "55B882F13D0109BB"
+					item: "immersiveengineering:capacitor_creative"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 6.5d
 		}
 	]
 	title: "Creative Items"
