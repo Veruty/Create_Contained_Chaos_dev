@@ -108,7 +108,7 @@
 		radioactiveWasteBarrelMaxGas = 512000
 		#Number of ticks required for radioactive gas stored in a Radioactive Waste Barrel to decay radioactiveWasteBarrelDecayAmount mB.
 		#Range: > 1
-		radioactiveWasteBarrelProcessTicks = 20
+		radioactiveWasteBarrelProcessTicks = 5
 		#Number of mB of gas that decay every radioactiveWasteBarrelProcessTicks ticks when stored in a Radioactive Waste Barrel. Set to zero to disable decay all together. (Gases in the mekanism:waste_barrel_decay_blacklist tag will not decay).
 		#Range: 0 ~ 9223372036854775807
 		radioactiveWasteBarrelDecayAmount = 1
