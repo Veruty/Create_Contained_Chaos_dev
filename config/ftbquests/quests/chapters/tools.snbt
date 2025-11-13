@@ -754,7 +754,13 @@
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
-			description: ["{quest.meka.64.desc}"]
+			description: [
+				"The Configurator is Mekanism's configuration tool for its machines"
+				""
+				"It comes with several different modes that you can switch between by Crouching and then using Scroll Wheel."
+				""
+				"The configurator also has another use: when used on a multiblock that does not form, it will attempt to give an error message in chat, detailing why the multiblock couldn't form."
+			]
 			hide_until_deps_visible: false
 			id: "2E5025697AF514D2"
 			subtitle: "Configure Everything"
@@ -768,6 +774,11 @@
 		}
 		{
 			dependencies: ["37B06FC941C75A60"]
+			description: [
+				"The Configuration card can be used to copy side configurations from one machine to another machine of the same type."
+				""
+				"You will be able to copy settings from, for example a Crusher to a Crusher but not from a Crusher to a Metallurgic Infuser. To save the configuration from a machine, shift right-click with the Configuration Card on the machine with the configuration you want to copy. To load a configuration to a machine, right click the machine with the Configuration Card."
+			]
 			hide_until_deps_visible: false
 			id: "0E641878ED919900"
 			subtitle: "Ctrl+C, Ctrl+V"
@@ -781,7 +792,11 @@
 		}
 		{
 			dependencies: ["34716F03D4E67B4E"]
-			description: ["{quest.meka.109.desc}"]
+			description: [
+				"The Hazmat Suit is an Armor set that when fully worn, protects the player from Radiation. The Helmet is used to craft the Inhalation Purification Unit."
+				""
+				"&8In this modpack it also protects against radiation from Create: New Age&r"
+			]
 			hide_until_deps_visible: true
 			id: "017D7401B588065C"
 			subtitle: "Nuclear safety 101"
@@ -816,7 +831,10 @@
 				"03524C8291BA941F"
 				"6BD8ADA2F4C73784"
 			]
-			description: ["{quest.ben.2.desc}"]
+			description: [
+				"Robit is Mekanism's mechanical companion. It can act as a crafting grid, a furnace, an anvil, a chest, or simply a cute little buddy. It is immune to fire, including the Flamethrower. "
+				"&8It also has some alternate skins.&r"
+			]
 			hide_until_deps_visible: true
 			id: "776CB43BA45FE4DC"
 			tasks: [{
@@ -833,7 +851,7 @@
 				"03524C8291BA941F"
 				"776CB43BA45FE4DC"
 			]
-			description: [""]
+			description: ["The Digital Miner is the scale mining machine of Mekanism. However, this machine just teleports mined blocks to its inventory."]
 			hide_until_deps_visible: true
 			id: "75BA8DAE253D5BAF"
 			rewards: [{
@@ -854,7 +872,11 @@
 		}
 		{
 			dependencies: ["79E5B71B36FB83DC"]
-			description: ["{quest.meka.78.desc}"]
+			description: [
+				"The canteen can be filled with Nutritional Paste from the Nutritional Liquifier."
+				""
+				"It effectively replaces all food in the game, filling the player's hunger bar to full from its current position when consumed. This consumes an amount of paste proportional to the number of hunger points filled."
+			]
 			id: "67BD5D776F242F93"
 			tasks: [{
 				id: "19498FED4727D66E"
@@ -866,7 +888,13 @@
 		}
 		{
 			dependencies: ["05D2DA6C4AACB4A2"]
-			description: ["{quest.meka.43.desc}"]
+			description: [
+				"The Portable Teleporter is a piece of equipment that allows player to teleport to stationary Teleporters "
+				""
+				"Energy drain increases with the distance the player teleports to."
+				""
+				"&8(Note that in order for the Portable Teleporter to be functional, the complete Teleporter Portal structure does not need to be built; only the Teleporter block must be present)&r"
+			]
 			id: "1074858BE75A3D4E"
 			subtitle: "Personal teleportation"
 			tasks: [{
@@ -1126,7 +1154,11 @@
 		}
 		{
 			dependencies: ["34716F03D4E67B4E"]
-			description: ["{quest.meka.141.desc}"]
+			description: [
+				"Radioactive Waste Barrels are used to store and get rid of radioactive materials."
+				""
+				"&8Usually Waste Barrel deletes 0.05mB/t (1mB per 1 second) of radioactive gas put into it, but in this modpack it is changed to 0.2mB/t (4mB per 1 second).&r"
+			]
 			hide_until_deps_visible: true
 			id: "7937800A7D3DDD04"
 			subtitle: "Useless Waste"

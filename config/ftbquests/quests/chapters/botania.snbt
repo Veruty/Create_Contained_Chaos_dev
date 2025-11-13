@@ -442,6 +442,12 @@
 			x: 31.0d
 			y: 7.5d
 		}
+		{
+			id: "6617FD2C05561E22"
+			linked_quest: "0E26D8711F2FDDE4"
+			x: -10.5d
+			y: 5.5d
+		}
 	]
 	quests: [
 		{
@@ -499,8 +505,8 @@
 				type: "item"
 			}]
 			title: "Wand of The Forest"
-			x: -10.5d
-			y: 5.5d
+			x: -11.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["11A2CEC81F265FE9"]
@@ -2146,6 +2152,12 @@
 		{
 			dependencies: ["4467E8BA188037B0"]
 			id: "4DC8771F98726863"
+			rewards: [{
+				count: 2
+				id: "3247619E04327026"
+				item: "botania:life_essence"
+				type: "item"
+			}]
 			subtitle: "another me..?"
 			tasks: [{
 				id: "79B202D181018D3C"

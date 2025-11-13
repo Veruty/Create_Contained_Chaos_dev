@@ -272,6 +272,12 @@
 		{
 			dependencies: ["526A77EEB8CB20F6"]
 			id: "5985B343460C7920"
+			rewards: [{
+				count: 16
+				id: "33BD0E0A882CB04C"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C0FA891F37C64C4"
 				item: "minecraft:clay_ball"
@@ -287,6 +293,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "0947037624BF6250"
+			rewards: [{
+				count: 16
+				id: "1076AF24833A204D"
+				item: "minecraft:brick"
+				type: "item"
+			}]
 			tasks: [{
 				id: "21ACE1B2C8E63D9C"
 				item: "minecraft:brick"
@@ -298,6 +310,12 @@
 		{
 			dependencies: ["526A77EEB8CB20F6"]
 			id: "76B2BB9B75D05F17"
+			rewards: [{
+				count: 8
+				id: "4030BDC9F82A2B3B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "162CE7045E514D87"
 				item: "minecraft:emerald"
