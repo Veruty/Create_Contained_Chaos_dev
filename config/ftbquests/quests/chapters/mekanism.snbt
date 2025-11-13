@@ -14,7 +14,7 @@
 			image: "kubejs:textures/questimg/mekanism/tet.png"
 			rotation: 0.0d
 			width: 2.7358490566037736d
-			x: 22.0d
+			x: 24.0d
 			y: -0.5d
 		}
 		{
@@ -52,8 +52,8 @@
 			image: "mekanism:block/teleporter"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
-			y: -15.5d
+			x: 8.5d
+			y: -12.5d
 		}
 		{
 			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
@@ -63,17 +63,16 @@
 			image: "mekanism:block/teleporter_frame"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.0d
-			y: -15.5d
+			x: 9.5d
+			y: -12.5d
 		}
 		{
-			dependency: "205AA1AB99D13D3D"
 			height: 1.0d
 			image: "minecraft:block/nether_portal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
-			y: -16.5d
+			x: 8.5d
+			y: -13.5d
 		}
 		{
 			click: "https://wiki.aidancbrady.com/wiki/Induction_Matrix"
@@ -82,16 +81,29 @@
 			image: "kubejs:textures/questimg/mekanism/bat.png"
 			rotation: 0.0d
 			width: 2.7319587628865976d
-			x: 1.0d
+			x: 0.0d
 			y: 12.5d
 		}
 		{
-			dependency: "205AA1AB99D13D3D"
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
 			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 180.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
+			x: 9.5d
+			y: -13.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
 			y: -14.5d
 		}
 		{
@@ -102,118 +114,77 @@
 			image: "mekanism:block/teleporter_frame"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.0d
-			y: -16.5d
-		}
-		{
-			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
-			dependency: "01D3CA4CAC690A49"
-			height: 1.0d
-			hover: ["Click to see Mekanism wiki"]
-			image: "mekanism:block/teleporter_frame"
-			rotation: 0.0d
-			width: 1.0d
-			x: 8.0d
-			y: -17.5d
-		}
-		{
-			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
-			dependency: "01D3CA4CAC690A49"
-			height: 1.0d
-			hover: ["Click to see Mekanism wiki"]
-			image: "mekanism:block/teleporter_frame"
-			rotation: 0.0d
-			width: 1.0d
-			x: 8.0d
-			y: -18.5d
-		}
-		{
-			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
-			dependency: "01D3CA4CAC690A49"
-			height: 1.0d
-			hover: ["Click to see Mekanism wiki"]
-			image: "mekanism:block/teleporter_frame"
-			rotation: 0.0d
-			width: 1.0d
-			x: 7.0d
-			y: -18.5d
-		}
-		{
-			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
-			dependency: "01D3CA4CAC690A49"
-			height: 1.0d
-			hover: ["Click to see Mekanism wiki"]
-			image: "mekanism:block/teleporter_frame"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
-			y: -18.5d
-		}
-		{
-			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
-			dependency: "01D3CA4CAC690A49"
-			height: 1.0d
-			hover: ["Click to see Mekanism wiki"]
-			image: "mekanism:block/teleporter_frame"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
-			y: -17.5d
-		}
-		{
-			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
-			dependency: "01D3CA4CAC690A49"
-			height: 1.0d
-			hover: ["Click to see Mekanism wiki"]
-			image: "mekanism:block/teleporter_frame"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
-			y: -16.5d
-		}
-		{
-			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
-			dependency: "01D3CA4CAC690A49"
-			height: 1.0d
-			hover: ["Click to see Mekanism wiki"]
-			image: "mekanism:block/teleporter_frame"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
+			x: 9.5d
 			y: -15.5d
 		}
 		{
-			dependency: "205AA1AB99D13D3D"
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -15.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -15.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -14.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+			dependency: "01D3CA4CAC690A49"
+			height: 1.0d
+			hover: ["Click to see Mekanism wiki"]
+			image: "mekanism:block/teleporter_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -12.5d
+		}
+		{
 			height: 1.0d
 			image: "minecraft:block/nether_portal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
-			y: -17.5d
+			x: 8.5d
+			y: -14.5d
 		}
 		{
 			click: "#6AEC50F826F21099"
 			height: 1.0d
 			hover: ["item.mekanism.dust_sulfur"]
 			image: "mekanism:item/dust_sulfur"
-			rotation: 0.0d
-			width: 1.0d
-			x: 16.0d
-			y: 12.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 17.0d
-			y: 12.5d
-		}
-		{
-			click: "#1FB9020CDF615344"
-			height: 1.0d
-			hover: ["mekanism.chemical_oxidizer"]
-			image: "kubejs:textures/questimg/mekanism/chemical_oxidizer.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 18.0d
@@ -228,10 +199,10 @@
 			y: 12.5d
 		}
 		{
-			click: "#52795A656E90F398"
+			click: "#1FB9020CDF615344"
 			height: 1.0d
-			hover: ["mekanism.sulfur_dioxide"]
-			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfur_dioxide.png"
+			hover: ["block.mekanism.chemical_oxidizer"]
+			image: "kubejs:textures/questimg/mekanism/chemical_oxidizer.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 20.0d
@@ -243,6 +214,16 @@
 			rotation: -90.0d
 			width: 1.0d
 			x: 21.0d
+			y: 12.5d
+		}
+		{
+			click: "#52795A656E90F398"
+			height: 1.0d
+			hover: ["gas.mekanism.sulfur_dioxide"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfur_dioxide.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
 			y: 12.5d
 		}
 		{
@@ -270,13 +251,21 @@
 			y: 12.5d
 		}
 		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: 12.5d
+		}
+		{
 			click: "#59EA4D9F875D7D03"
 			height: 1.0d
-			hover: ["mekanism.chemical_infuser"]
+			hover: ["block.mekanism.chemical_infuser"]
 			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
 			rotation: 0.0d
 			width: 1.005128205128205d
-			x: 22.0d
+			x: 24.0d
 			y: 12.5d
 		}
 		{
@@ -284,7 +273,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: 11.5d
 		}
 		{
@@ -292,17 +281,17 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: 9.5d
 		}
 		{
 			click: "#7BC2ECAB8B22CBFF"
 			height: 1.0d
-			hover: ["mekanism.sulfur_trioxide"]
+			hover: ["gas.mekanism.sulfur_trioxide"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfur_trioxide.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 26.0d
 			y: 12.5d
 		}
 		{
@@ -312,7 +301,7 @@
 			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: 8.5d
 		}
 		{
@@ -320,7 +309,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: 21.0d
+			x: 23.0d
 			y: 8.5d
 		}
 		{
@@ -328,18 +317,18 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 24.0d
+			x: 26.0d
 			y: 9.5d
 		}
 		{
 			click: "#29F04CE306ED98D4"
 			color: 1926101
 			height: 1.0d
-			hover: ["minecraft.water"]
+			hover: ["block.minecraft.water"]
 			image: "minecraft:block/water_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 26.0d
 			y: 8.5d
 		}
 		{
@@ -347,7 +336,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 25.0d
+			x: 27.0d
 			y: 8.5d
 		}
 		{
@@ -357,7 +346,7 @@
 			image: "kubejs:textures/questimg/mekanism/rotary_condensentrator.png"
 			rotation: 0.0d
 			width: 0.9949238578680203d
-			x: 26.0d
+			x: 28.0d
 			y: 8.5d
 		}
 		{
@@ -365,7 +354,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.0d
+			x: 28.0d
 			y: 9.5d
 		}
 		{
@@ -373,7 +362,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.0d
+			x: 28.0d
 			y: 11.5d
 		}
 		{
@@ -382,7 +371,7 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/water_vapor.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.0d
+			x: 28.0d
 			y: 10.5d
 		}
 		{
@@ -392,17 +381,17 @@
 			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
 			rotation: 0.0d
 			width: 1.005128205128205d
-			x: 26.0d
+			x: 28.0d
 			y: 12.5d
 		}
 		{
 			click: "#07B80FF72157DDEC"
 			height: 1.0d
-			hover: ["mekanism.sulfiric_acid"]
+			hover: ["gas.mekanism.sulfuric_acid"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfuric_acid.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 28.0d
+			x: 30.0d
 			y: 12.5d
 		}
 		{
@@ -412,15 +401,7 @@
 			image: "mekanism:item/bio_fuel"
 			rotation: 0.0d
 			width: 1.0d
-			x: 14.0d
-			y: -6.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 15.0d
+			x: 16.0d
 			y: -6.5d
 		}
 		{
@@ -464,13 +445,21 @@
 			y: -6.5d
 		}
 		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 27.0d
+			y: -6.5d
+		}
+		{
 			click: "#60872E585150C8D4"
 			height: 1.0d
 			hover: ["block.mekanism.pressurized_reaction_chamber"]
 			image: "kubejs:textures/questimg/mekanism/pressurized_reaction_chamber.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.0d
+			x: 18.0d
 			y: -6.5d
 		}
 		{
@@ -478,7 +467,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 16.0d
+			x: 18.0d
 			y: -7.5d
 		}
 		{
@@ -488,7 +477,7 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/ethylene.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.0d
+			x: 18.0d
 			y: -8.5d
 		}
 		{
@@ -496,7 +485,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 17.0d
+			x: 19.0d
 			y: -8.5d
 		}
 		{
@@ -504,7 +493,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.0d
+			x: 22.0d
 			y: -7.5d
 		}
 		{
@@ -514,7 +503,7 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/ethylene.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.0d
+			x: 22.0d
 			y: -8.5d
 		}
 		{
@@ -524,7 +513,7 @@
 			image: "mekanism:item/substrate"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: -6.5d
 		}
 		{
@@ -532,7 +521,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 19.0d
+			x: 21.0d
 			y: -8.5d
 		}
 		{
@@ -542,7 +531,7 @@
 			image: "kubejs:textures/questimg/mekanism/rotary_condensentrator.png"
 			rotation: 0.0d
 			width: 0.9949238578680203d
-			x: 18.0d
+			x: 20.0d
 			y: -8.5d
 		}
 		{
@@ -552,7 +541,7 @@
 			image: "kubejs:textures/questimg/mekanism/pressurized_reaction_chamber.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.0d
+			x: 22.0d
 			y: -6.5d
 		}
 		{
@@ -562,7 +551,7 @@
 			image: "mekanism:item/hdpe_pellet"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: -6.5d
 		}
 		{
@@ -572,7 +561,7 @@
 			image: "mekanism:block/factory/enriching/enriching_factory_front_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 26.0d
 			y: -6.5d
 		}
 		{
@@ -580,7 +569,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 20.0d
+			x: 22.0d
 			y: -5.5d
 		}
 		{
@@ -588,17 +577,17 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 16.0d
+			x: 18.0d
 			y: -5.5d
 		}
 		{
 			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["mekanism.oxygen"]
+			hover: ["gas.mekanism.oxygen"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.0d
+			x: 22.0d
 			y: -4.5d
 		}
 		{
@@ -606,7 +595,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: 23.0d
+			x: 25.0d
 			y: 8.5d
 		}
 		{
@@ -616,7 +605,7 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.0d
+			x: 18.0d
 			y: -4.5d
 		}
 		{
@@ -626,7 +615,7 @@
 			image: "mekanism:item/hdpe_sheet"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.0d
+			x: 28.0d
 			y: -6.5d
 		}
 		{
@@ -636,7 +625,7 @@
 			image: "kubejs:textures/questimg/mekanism/chemical_dissolution_chamber.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 12.5d
 		}
 		{
@@ -646,7 +635,7 @@
 			image: "kubejs:textures/questimg/mekanism/chemical_washer.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 8.5d
 		}
 		{
@@ -656,7 +645,7 @@
 			image: "mekanism:block/models/chemical_crystallizer_elements1"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 4.5d
 		}
 		{
@@ -666,7 +655,7 @@
 			image: "mekanism:block/chemical_injection_chamber/front"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 0.5d
 		}
 		{
@@ -676,7 +665,7 @@
 			image: "mekanism:block/purification_chamber/front"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -3.5d
 		}
 		{
@@ -686,7 +675,7 @@
 			image: "mekanism:block/crusher/front"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -7.5d
 		}
 		{
@@ -696,7 +685,7 @@
 			image: "mekanism:block/factory/enriching/enriching_factory_front_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -11.5d
 		}
 		{
@@ -706,7 +695,7 @@
 			image: "mekanism:slurry/dirty"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 10.5d
 		}
 		{
@@ -714,7 +703,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 29.0d
+			x: 31.0d
 			y: 12.5d
 		}
 		{
@@ -722,7 +711,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 11.5d
 		}
 		{
@@ -730,7 +719,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 9.5d
 		}
 		{
@@ -738,7 +727,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 29.0d
+			x: 31.0d
 			y: 8.5d
 		}
 		{
@@ -746,7 +735,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 7.5d
 		}
 		{
@@ -756,7 +745,7 @@
 			image: "mekanism:slurry/clean"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 6.5d
 		}
 		{
@@ -764,7 +753,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 5.5d
 		}
 		{
@@ -772,7 +761,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 3.5d
 		}
 		{
@@ -782,7 +771,7 @@
 			image: "mekanism:item/crystal_osmium"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 2.5d
 		}
 		{
@@ -790,7 +779,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: 1.5d
 		}
 		{
@@ -798,7 +787,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -0.5d
 		}
 		{
@@ -808,7 +797,7 @@
 			image: "mekanism:item/shard_osmium"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -1.5d
 		}
 		{
@@ -816,7 +805,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -2.5d
 		}
 		{
@@ -824,7 +813,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -4.5d
 		}
 		{
@@ -832,7 +821,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -6.5d
 		}
 		{
@@ -840,7 +829,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -8.5d
 		}
 		{
@@ -848,7 +837,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -10.5d
 		}
 		{
@@ -856,7 +845,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -12.5d
 		}
 		{
@@ -866,7 +855,7 @@
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -5.5d
 		}
 		{
@@ -876,7 +865,7 @@
 			image: "mekanism:item/dirty_dust_osmium"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -9.5d
 		}
 		{
@@ -886,7 +875,7 @@
 			image: "mekanism:item/dust_osmium"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 32.0d
 			y: -13.5d
 		}
 		{
@@ -894,7 +883,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 29.0d
+			x: 31.0d
 			y: 0.5d
 		}
 		{
@@ -904,7 +893,7 @@
 			image: "mekanism:block/thermal_evaporation_controller"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: 4.5d
 		}
 		{
@@ -914,7 +903,7 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/brine.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 26.0d
 			y: 4.5d
 		}
 		{
@@ -924,7 +913,7 @@
 			image: "mekanism:item/dust_lithium"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: 10.5d
 		}
 		{
@@ -934,7 +923,7 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/lithium.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: 6.5d
 		}
 		{
@@ -944,7 +933,7 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/lithium.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.0d
+			x: 22.0d
 			y: 4.5d
 		}
 		{
@@ -954,120 +943,8 @@
 			image: "kubejs:textures/questimg/mekanism/rotary_condensentrator.png"
 			rotation: 0.0d
 			width: 0.9949238578680203d
-			x: 18.0d
+			x: 20.0d
 			y: 4.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: 21.0d
-			y: 4.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: 19.0d
-			y: 4.5d
-		}
-		{
-			click: "#02AFE459E338D665"
-			height: 1.0d
-			hover: ["gas.mekanism.hydrogen_chloride"]
-			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen_chloride.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 28.0d
-			y: 0.5d
-		}
-		{
-			click: "#59EA4D9F875D7D03"
-			height: 1.0d
-			hover: ["mekanism.chemical_infuser"]
-			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
-			rotation: 0.0d
-			width: 1.005128205128205d
-			x: 26.0d
-			y: 0.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 27.0d
-			y: 0.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 0.0d
-			width: 1.0d
-			x: 26.0d
-			y: -0.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 180.0d
-			width: 1.0d
-			x: 26.0d
-			y: 1.5d
-		}
-		{
-			click: "#51C57A02C2F76A57"
-			height: 1.0d
-			hover: ["gas.mekanism.chlorine"]
-			image: "kubejs:textures/questimg/mekanism/liqud_gasses/chlorine.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 26.0d
-			y: 2.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 180.0d
-			width: 1.0d
-			x: 24.0d
-			y: 5.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 180.0d
-			width: 1.0d
-			x: 24.0d
-			y: 7.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 180.0d
-			width: 1.0d
-			x: 24.0d
-			y: 3.5d
-		}
-		{
-			click: "#0FD3A26A0ECE27E5"
-			height: 1.0d
-			hover: ["mekanism.electrolytic_separator"]
-			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 24.0d
-			y: 2.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 25.0d
-			y: 2.5d
 		}
 		{
 			height: 1.0d
@@ -1080,9 +957,121 @@
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			click: "#02AFE459E338D665"
+			height: 1.0d
+			hover: ["gas.mekanism.hydrogen_chloride"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen_chloride.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 30.0d
+			y: 0.5d
+		}
+		{
+			click: "#59EA4D9F875D7D03"
+			height: 1.0d
+			hover: ["mekanism.chemical_infuser"]
+			image: "kubejs:textures/questimg/mekanism/chemical_infuser.png"
+			rotation: 0.0d
+			width: 1.005128205128205d
+			x: 28.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 28.0d
+			y: 1.5d
+		}
+		{
+			click: "#51C57A02C2F76A57"
+			height: 1.0d
+			hover: ["gas.mekanism.chlorine"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/chlorine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 26.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 26.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 26.0d
+			y: 3.5d
+		}
+		{
+			click: "#0FD3A26A0ECE27E5"
+			height: 1.0d
+			hover: ["mekanism.electrolytic_separator"]
+			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 27.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 25.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
 			y: 5.5d
 		}
 		{
@@ -1090,7 +1079,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: 7.5d
 		}
 		{
@@ -1100,8 +1089,16 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sodium.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 26.0d
 			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 31.0d
+			y: -3.5d
 		}
 		{
 			height: 1.0d
@@ -1114,17 +1111,9 @@
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 27.0d
-			y: -3.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.0d
+			x: 28.0d
 			y: -2.5d
 		}
 		{
@@ -1134,7 +1123,7 @@
 			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.0d
+			x: 28.0d
 			y: -3.5d
 		}
 		{
@@ -1142,7 +1131,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 25.0d
+			x: 27.0d
 			y: -3.5d
 		}
 		{
@@ -1152,7 +1141,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: 4.5d
 		}
 		{
@@ -1162,7 +1151,7 @@
 			image: "mekanism:block/thermal_evaporation_controller"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 26.0d
 			y: 6.5d
 		}
 		{
@@ -1172,7 +1161,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 26.0d
 			y: 6.5d
 		}
 		{
@@ -1180,7 +1169,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 24.0d
+			x: 26.0d
 			y: 1.5d
 		}
 		{
@@ -1188,7 +1177,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: 2.5d
 		}
 		{
@@ -1196,7 +1185,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 28.0d
+			x: 30.0d
 			y: -0.5d
 		}
 		{
@@ -1206,7 +1195,7 @@
 			image: "mekanism:item/salt"
 			rotation: 0.0d
 			width: 1.0d
-			x: 28.0d
+			x: 30.0d
 			y: -1.5d
 		}
 		{
@@ -1214,7 +1203,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: 9.5d
 		}
 		{
@@ -1224,7 +1213,7 @@
 			image: "mekanism:block/models/chemical_crystallizer_elements1"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: 8.5d
 		}
 		{
@@ -1234,7 +1223,7 @@
 			image: "kubejs:textures/questimg/mekanism/electrolytic_separator.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: -4.5d
 		}
 		{
@@ -1242,7 +1231,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 19.0d
+			x: 21.0d
 			y: -4.5d
 		}
 		{
@@ -1250,7 +1239,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: 17.0d
+			x: 19.0d
 			y: -4.5d
 		}
 		{
@@ -1258,7 +1247,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: -3.5d
 		}
 		{
@@ -1266,7 +1255,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: -7.5d
 		}
 		{
@@ -1276,7 +1265,7 @@
 			image: "mekanism:item/hdpe_rod"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: -8.5d
 		}
 		{
@@ -1284,7 +1273,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: -9.5d
 		}
 		{
@@ -1294,7 +1283,7 @@
 			image: "mekanism:item/hdpe_stick"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: -10.5d
 		}
 		{
@@ -1304,7 +1293,7 @@
 			image: "thermal:item/netherite_gear"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.0d
+			x: 28.0d
 			y: -10.5d
 		}
 		{
@@ -1312,7 +1301,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: 23.0d
+			x: 25.0d
 			y: -10.5d
 		}
 		{
@@ -1322,7 +1311,7 @@
 			image: "mekanism:item/alloy_atomic"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 26.0d
 			y: -10.5d
 		}
 		{
@@ -1332,15 +1321,7 @@
 			image: "mekanism:item/ingot_refined_obsidian"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.0d
-			y: -10.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: 19.0d
+			x: 22.0d
 			y: -10.5d
 		}
 		{
@@ -1356,7 +1337,15 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: 25.0d
+			x: 23.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 27.0d
 			y: -10.5d
 		}
 		{
@@ -1366,7 +1355,7 @@
 			image: "kubejs:item/almost_complete_atomic_disassembler"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: -10.5d
 		}
 		{
@@ -1376,7 +1365,7 @@
 			image: "mekanism:item/energy_tablet"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.0d
+			x: 18.0d
 			y: -10.5d
 		}
 		{
@@ -1384,7 +1373,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: -11.5d
 		}
 		{
@@ -1392,7 +1381,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 17.0d
+			x: 19.0d
 			y: -10.5d
 		}
 		{
@@ -1402,39 +1391,39 @@
 			image: "kubejs:textures/questimg/mekanism/atomic_disassembler.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: -12.5d
 		}
 		{
 			click: "#29F04CE306ED98D4"
 			color: 1926101
 			height: 1.0d
-			hover: ["minecraft.water"]
+			hover: ["block.minecraft.water"]
 			image: "minecraft:block/water_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 26.0d
 			y: -3.5d
 		}
 		{
 			click: "#29F04CE306ED98D4"
 			color: 1926101
 			height: 1.0d
-			hover: ["minecraft.water"]
+			hover: ["block.minecraft.water"]
 			image: "minecraft:block/water_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 20.0d
 			y: -2.5d
 		}
 		{
 			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["mekanism.oxygen"]
+			hover: ["gas.mekanism.oxygen"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 24.0d
 			y: 10.5d
 		}
 		{
@@ -1444,17 +1433,17 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.0d
+			x: 22.0d
 			y: 8.5d
 		}
 		{
 			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["mekanism.oxygen"]
+			hover: ["gas.mekanism.oxygen"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 28.0d
+			x: 30.0d
 			y: -3.5d
 		}
 		{
@@ -1464,7 +1453,7 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrogen.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.0d
+			x: 28.0d
 			y: -1.5d
 		}
 		{
@@ -1474,23 +1463,23 @@
 			image: "mekanism:liquid/energy"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
-			y: 12.5d
+			x: -3.0d
+			y: 11.5d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: -1.0d
-			y: 12.5d
+			x: -2.0d
+			y: 11.5d
 		}
 		{
 			height: 1.2d
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 1.2d
-			x: 28.0d
+			x: 30.0d
 			y: 13.5d
 		}
 		{
@@ -1502,206 +1491,193 @@
 			x: 8.0d
 			y: -4.5d
 		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["config.jade.plugin_mekanism.energy"]
+			image: "mekanism:liquid/energy"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			click: "#29F04CE306ED98D4"
+			color: 1926101
+			height: 1.0d
+			hover: ["block.minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 8.5d
+		}
 	]
 	order_index: 5
 	quest_links: [
 		{
 			id: "03011F2C97537CE8"
 			linked_quest: "4BCDA1E23D59D3DA"
-			x: 10.0d
-			y: -5.5d
+			x: 9.0d
+			y: -6.5d
 		}
 		{
 			id: "2D3EA9688918ACAC"
 			linked_quest: "0E641878ED919900"
-			x: -1.0d
-			y: -1.5d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			id: "69C5D93CD46214F3"
 			linked_quest: "14E68D38AA35147C"
-			x: 3.0d
-			y: 0.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			id: "01B8AB22A8EF4B8B"
 			linked_quest: "776CB43BA45FE4DC"
-			x: 5.0d
-			y: -10.5d
+			x: 7.0d
+			y: -9.5d
 		}
 		{
 			id: "3F7611505F406199"
 			linked_quest: "75BA8DAE253D5BAF"
-			x: 3.0d
+			x: 5.0d
 			y: -10.5d
 		}
 		{
 			id: "33464D4947F7A677"
 			linked_quest: "67BD5D776F242F93"
-			x: 5.0d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
 			id: "5E1F7420AD762806"
 			linked_quest: "1074858BE75A3D4E"
-			x: 2.0d
-			y: -11.5d
-		}
-		{
-			id: "083CE31AD676FF88"
-			linked_quest: "11A6EB192C17D579"
-			x: 5.0d
-			y: -2.5d
+			x: 3.0d
+			y: -12.5d
 		}
 		{
 			id: "1F2F1B0CE9F74379"
 			linked_quest: "510AE13EEA10D57A"
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			id: "41C76A5687332F6D"
-			linked_quest: "3E5B5195668F7E6B"
-			x: 3.0d
-			y: -4.5d
-		}
-		{
-			id: "202B05CDCDA9788B"
-			linked_quest: "419B1C160A0821B8"
-			x: 3.0d
-			y: -6.5d
-		}
-		{
-			id: "23F65C558D05E40F"
-			linked_quest: "08545DE2B8CABC49"
-			x: 3.0d
-			y: -8.5d
-		}
-		{
-			id: "7CA34BEDF7D41173"
-			linked_quest: "11ECE09E205A7609"
-			x: 5.0d
-			y: -4.5d
-		}
-		{
-			id: "34A27D15AE81DC00"
-			linked_quest: "4E3C7862E89017F0"
-			x: 5.0d
-			y: -6.5d
-		}
-		{
-			id: "08C0697F3BDC467B"
-			linked_quest: "089D565A6023BBAF"
-			x: 5.0d
-			y: -8.5d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			id: "1AD978DC9BE5242A"
 			linked_quest: "7E40EF3542E17175"
-			x: 0.0d
-			y: -2.5d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			id: "162345A8DC78CFE8"
 			linked_quest: "69E4829A677E5CAD"
 			x: -1.0d
-			y: -2.5d
+			y: -0.5d
 		}
 		{
 			id: "0987FEE3850AC3C5"
 			linked_quest: "12999183CE96C38D"
-			x: -2.0d
-			y: -1.5d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			id: "72997F7929BEDDCC"
 			linked_quest: "57700824BF78D8D6"
-			x: 1.0d
-			y: -2.5d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
 			id: "5237CB6A01F176C9"
 			linked_quest: "21990EF09673C683"
 			x: 2.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
 			id: "4832B95CC8469132"
 			linked_quest: "268773CD97A1A5E0"
 			x: 0.0d
-			y: 6.5d
+			y: 4.5d
 		}
 		{
 			id: "1BBF9E27D210647A"
 			linked_quest: "46986AFF42480BF0"
-			x: 5.0d
-			y: 5.5d
-		}
-		{
-			id: "67AC5BAB434E77F4"
-			linked_quest: "1C22D0986140449F"
 			x: 3.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			id: "37574625321A324C"
 			linked_quest: "3D34425A97C15842"
-			x: 28.0d
+			x: 30.0d
 			y: -7.5d
 		}
 		{
 			id: "1202AC55316F182C"
 			linked_quest: "000099F56EB2D52B"
-			x: 7.0d
+			x: 13.0d
 			y: 3.5d
 		}
 		{
 			id: "1B4C00595AEBBBCE"
 			linked_quest: "348B8187567F1B60"
-			x: 6.5d
-			y: 5.5d
+			x: 12.0d
+			y: 4.5d
 		}
 		{
 			id: "6AEC50F826F21099"
 			linked_quest: "3410A7C9AAFDDF9D"
-			x: 16.0d
+			x: 18.0d
 			y: 13.5d
 		}
 		{
 			id: "24364CFD597A61FA"
 			linked_quest: "15A1D3E46BE50A42"
-			x: 29.0d
+			x: 31.0d
 			y: -1.5d
 		}
 		{
 			id: "66768B5CF1D11AB4"
 			linked_quest: "1D98380A445B84AC"
-			x: 29.0d
+			x: 31.0d
 			y: 14.5d
 		}
 		{
 			id: "1DA4B2DE88B24E77"
 			linked_quest: "7008601BDEF473A3"
-			x: 2.0d
-			y: 1.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			id: "22E3BBB728765E5A"
 			linked_quest: "2B696CA62EB0083F"
-			x: 12.0d
-			y: 6.5d
+			x: 14.0d
+			y: 7.5d
 		}
 		{
 			id: "33383ADAE77A7F0F"
 			linked_quest: "7B020BC83DD7ED6B"
-			x: 3.0d
-			y: 1.5d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "15EE8D07CB8727E7"
+			linked_quest: "1C22D0986140449F"
+			x: 6.0d
+			y: 5.5d
 		}
 	]
 	quests: [
 		{
 			dependencies: ["14E68D38AA35147C"]
-			description: ["{quest.meka.3.desc}"]
+			description: ["The Metallurgic Infuser is the first step in the Mekanism. It can used in the production of different Alloys."]
 			id: "479C1BDCAB91242C"
 			size: 1.25d
 			subtitle: "Harder, Better, Faster, Stronger"
@@ -1710,14 +1686,20 @@
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["479C1BDCAB91242C"]
-			description: ["{quest.meka.4.desc}"]
+			description: ["Infused Alloy is the backbone of Mekanism. Its an ingredient in creation of more advanced alloys and generally useful material."]
 			hide_until_deps_visible: true
 			id: "24CD759A561EB2C6"
+			rewards: [{
+				count: 8
+				id: "632FB7E4533182EC"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
 			size: 1.25d
 			subtitle: "Redstone-infused iron"
 			tasks: [{
@@ -1730,7 +1712,10 @@
 		}
 		{
 			dependencies: ["479C1BDCAB91242C"]
-			description: ["{quest.meka.7.desc}"]
+			description: [
+				"Most basic of Control Circuits. "
+				"Used to craft basic factories and utilities."
+			]
 			hide_until_deps_visible: true
 			id: "37B06FC941C75A60"
 			size: 1.25d
@@ -1741,14 +1726,14 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"37B06FC941C75A60"
 				"24CD759A561EB2C6"
 			]
-			description: ["{quest.meka.8.desc}"]
+			description: ["Advanced Control Circuit is used to upgrade machines and in constuction of some multiblocks."]
 			id: "6DCDEAA1333F7DEE"
 			size: 1.25d
 			subtitle: "Smart Rock"
@@ -1762,8 +1747,14 @@
 		}
 		{
 			dependencies: ["24CD759A561EB2C6"]
-			description: ["{quest.meka.5.desc}"]
+			description: ["Reinforced Alloy allows for creation of higher tier things."]
 			id: "2063D6C58019E165"
+			rewards: [{
+				count: 4
+				id: "23E265F9623DFBCD"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
 			size: 1.25d
 			subtitle: "Diamond-infused redstone-infused iron"
 			tasks: [{
@@ -1776,8 +1767,14 @@
 		}
 		{
 			dependencies: ["2063D6C58019E165"]
-			description: ["{quest.meka.6.desc}"]
+			description: ["Atomic Alloy is the best in Mekanism, used in upgrading machines, creating teleportation-related devicies and thermonuclear tech."]
 			id: "03524C8291BA941F"
+			rewards: [{
+				count: 2
+				id: "641F91C507B1F908"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
 			size: 1.25d
 			subtitle: "Obsidian-infused diamond-infused redstone-infused iron"
 			tasks: [{
@@ -1793,7 +1790,7 @@
 				"2063D6C58019E165"
 				"6DCDEAA1333F7DEE"
 			]
-			description: ["{quest.meka.9.desc}"]
+			description: ["Elite Control Circuit is used in upgrading machines and creating more advanced ones, like Solar Neutron Activator."]
 			id: "0A12FEEA09B6D99B"
 			size: 1.25d
 			subtitle: "Smarter Rock"
@@ -1810,7 +1807,7 @@
 				"0A12FEEA09B6D99B"
 				"03524C8291BA941F"
 			]
-			description: ["{quest.meka.10.desc}"]
+			description: ["Most advanced of Control Circuits is used in upgrading machines, Meka-Suit creation and thermonuclear tech."]
 			id: "3859C9C6168B9502"
 			size: 1.25d
 			subtitle: "Smartest Rock"
@@ -1827,7 +1824,7 @@
 				"7B020BC83DD7ED6B"
 				"14E68D38AA35147C"
 			]
-			description: ["{quest.meka.12.desc}"]
+			description: ["Steel Casing is basic material, used to craft machines."]
 			id: "4882C29ACF76E6CD"
 			shape: "circle"
 			size: 1.25d
@@ -1837,60 +1834,64 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["37B06FC941C75A60"]
-			description: ["{quest.meka.57.desc}"]
+			description: [
+				"Basic Tier Installer is used to upgrade various machines into their Factory equivalent."
+				""
+				"Machines get +2 parrallel-processing slots upon upgrading."
+			]
 			id: "7DBE55A240CFD900"
 			tasks: [{
 				id: "2D5D42C0C576CB5C"
 				item: "mekanism:basic_tier_installer"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6DCDEAA1333F7DEE"]
-			description: ["{quest.meka.58.desc}"]
+			description: ["Advanced Tier Installers can be used on Basic Factories to turn them into Advanced Factories."]
 			id: "2FE74109A0EBDE43"
 			tasks: [{
 				id: "775FA529FC3CF6C1"
 				item: "mekanism:advanced_tier_installer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.5d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0A12FEEA09B6D99B"]
-			description: ["{quest.meka.59.desc}"]
+			description: ["Elite Tier Installers can be used on Advanced Factories to turn them into Elite Factories."]
 			id: "199632AF99031363"
 			tasks: [{
 				id: "33C7444BFE690831"
 				item: "mekanism:elite_tier_installer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: 1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3859C9C6168B9502"]
-			description: ["{quest.meka.60.desc}"]
+			description: ["Ultimate Tier Installers can be used on Elite Factories to turn them into Ultimate Factories"]
 			id: "7772E5BC5E558726"
 			tasks: [{
 				id: "1AB43417933A92EE"
 				item: "mekanism:ultimate_tier_installer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -7.5d
+			x: 1.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.13.desc}"]
+			description: ["Its just a furnace that runs on FE."]
 			hide_until_deps_visible: true
 			id: "1498C5F2CDF698DE"
 			subtitle: "Cooler Furnace"
@@ -1899,12 +1900,13 @@
 				item: "mekanism:energized_smelter"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.5d
+			x: 13.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["24CD759A561EB2C6"]
-			description: ["{quest.meka.15.desc}"]
+			description: ["Energy Tablet is basic material, used to craft energy cubes and some tools."]
+			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "08E13E7BE1D8864D"
 			size: 1.5d
@@ -1919,7 +1921,11 @@
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
-			description: ["{quest.meka.16.desc}"]
+			description: [
+				"Most basic power storage there is, one block, configurable i/o, doesnt lose energy if broken."
+				""
+				"Basic Energy Cube can hold 1.6 MFE."
+			]
 			hide_until_deps_visible: true
 			id: "45C9D5B3C08D1FFD"
 			size: 1.5d
@@ -1934,7 +1940,7 @@
 		}
 		{
 			dependencies: ["45C9D5B3C08D1FFD"]
-			description: ["{quest.meka.30.desc}"]
+			description: ["Advanced Energy Cube can hold 6.4 MFE."]
 			id: "48010D86B97969E4"
 			subtitle: "Better Powerbank"
 			tasks: [{
@@ -1947,7 +1953,7 @@
 		}
 		{
 			dependencies: ["48010D86B97969E4"]
-			description: ["{quest.meka.33.desc}"]
+			description: ["Elite Energy Cube can hold 25.6 MFE"]
 			id: "7E747BD610CB2D21"
 			subtitle: "Even Better Powerbank"
 			tasks: [{
@@ -1960,7 +1966,7 @@
 		}
 		{
 			dependencies: ["7E747BD610CB2D21"]
-			description: ["{quest.meka.36.desc}"]
+			description: ["Ultimate Energy Cube can hold 102.4 MFE"]
 			id: "46DA59DC1925C374"
 			subtitle: "Best Powerbank"
 			tasks: [{
@@ -1973,7 +1979,7 @@
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.14.desc}"]
+			description: ["Enrichment Chamber allows to turn resources into their enriched forms, increasing their efficiency."]
 			hide_until_deps_visible: true
 			id: "16FAA83B048985DD"
 			size: 1.25d
@@ -1988,7 +1994,11 @@
 		}
 		{
 			dependencies: ["16FAA83B048985DD"]
-			description: ["{quest.meka.50.desc}"]
+			description: [
+				"Enriched redstone is created by inserting a redstone dust into an Enrichment Chamber."
+				""
+				"Enriched redstone yields 80 mB redstone in the Metallurgic Infuser, the equivalent as 8 redstone."
+			]
 			id: "286D095D71CB0153"
 			subtitle: "Better Redstone"
 			tasks: [{
@@ -2001,7 +2011,11 @@
 		}
 		{
 			dependencies: ["16FAA83B048985DD"]
-			description: ["{quest.meka.51.desc}"]
+			description: [
+				"Enriched diamond is created by inserting a diamond into an Enrichment Chamber."
+				""
+				"Enriched Diamond yields 80 mB diamond in the Metallurgic Infuser, the same as 8 diamonds."
+			]
 			id: "008C4D2348C89452"
 			subtitle: "Better Diamond"
 			tasks: [{
@@ -2017,7 +2031,11 @@
 				"16FAA83B048985DD"
 				"2DF13CAC3F425280"
 			]
-			description: ["{quest.meka.52.desc}"]
+			description: [
+				"Compressed Obsidian is a compressed version of Refined Obsidian Dust for use as a secondary material in the Metallurgic Infuser. "
+				""
+				"Each piece provides 80 mB Obsidian, compared to Refined Obsidian Dust which only provides 10 mB Obsidian."
+			]
 			id: "263967591E41F934"
 			subtitle: "Better Obsidian"
 			tasks: [{
@@ -2030,8 +2048,14 @@
 		}
 		{
 			dependencies: ["3A7557AC37DD96D9"]
-			description: ["{quest.meka.54.desc}"]
+			description: ["Refined Obsidian Dust can be used to make Atomic Alloy or Refined Obsidian Ingot."]
 			id: "2DF13CAC3F425280"
+			rewards: [{
+				count: 4
+				id: "5FC3EBD2D8C2416B"
+				item: "mekanism:dust_refined_obsidian"
+				type: "item"
+			}]
 			tasks: [{
 				id: "585382E7EBA39971"
 				item: "mekanism:dust_refined_obsidian"
@@ -2042,7 +2066,10 @@
 		}
 		{
 			dependencies: ["16FAA83B048985DD"]
-			description: ["{quest.meka.49.desc}"]
+			description: [
+				"Made by putting a piece of coal in the Enrichment Chamber."
+				"Highly recommended as it increases the yield of a single piece to 80mB, compared to normal coal's 10mB, and charcoal's 20mB."
+			]
 			id: "1182BD2031E81300"
 			subtitle: "Better Coal"
 			tasks: [{
@@ -2050,8 +2077,8 @@
 				item: "mekanism:enriched_carbon"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.5d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -2059,9 +2086,15 @@
 				"5F412B939501E126"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{quest.meka.53.desc}"]
+			description: ["Obsidian Dust is used to make Refined Obsidian Dust. You only need one type of Obsidian dust to complite the quest."]
 			id: "3A7557AC37DD96D9"
 			min_required_dependencies: 1
+			rewards: [{
+				count: 4
+				id: "0AD458FFE06C2ABD"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Pulverized Volcanic Glass "
 			tasks: [{
@@ -2081,7 +2114,11 @@
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.79.desc}"]
+			description: [
+				"Osmium Compressor is used to create Refined Obsidian Ingots from Refined Obsidian Dust and Glowstone Ingots from Glowstone Dust."
+				""
+				"It fuses liquid Osmium (Osmium Ingots placed in the machine's bottom slot) with certain materials to create their corresponding ingots."
+			]
 			hide_until_deps_visible: true
 			id: "42119548DAF90F47"
 			tasks: [{
@@ -2089,16 +2126,22 @@
 				item: "mekanism:osmium_compressor"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -5.5d
+			x: 11.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
 				"2DF13CAC3F425280"
 				"42119548DAF90F47"
 			]
-			description: ["{quest.meka.55.desc}"]
+			description: ["Refined Obsidian Ingot used to craft the Atomic Disassembler, and couple high-tier machines."]
 			id: "6BD8ADA2F4C73784"
+			rewards: [{
+				count: 2
+				id: "3F92E3601D106EEC"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
 			subtitle: "Strong ingot"
 			tasks: [{
 				id: "33FC74B3B3C25710"
@@ -2110,7 +2153,7 @@
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.80.desc}"]
+			description: ["The Crusher is used to crush, among other things, clumps into Dirty Dusts, Ingots into dusts and Biomatter into Bio Fuel."]
 			hide_until_deps_visible: true
 			id: "27C740059DA71649"
 			subtitle: "CRUSH!"
@@ -2119,12 +2162,16 @@
 				item: "mekanism:crusher"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.81.desc}"]
+			description: [
+				"The Precision Sawmill is used for reclaiming wood from wooden items and turn logs into planks with a 50% better yield (6 instead of 4)."
+				""
+				"[ \"Also makes sawdust for use in making \", { \"text\": \"Cardboard Box\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"348B8187567F1B60\" } }, \".\" ]"
+			]
 			hide_until_deps_visible: true
 			id: "12A42A5F44B3BC36"
 			tasks: [{
@@ -2132,12 +2179,18 @@
 				item: "mekanism:precision_sawmill"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: 12.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.82.desc}"]
+			description: [
+				"The Electric Pump is a device with an internal buffer of 10000mB worth of fluid. It can pump any fluid that is covered in the forge fluid dictionary and can be placed on a shoreline and will pump the fluid under it.  "
+				""
+				"Unless it is collecting water, it will consume the liquid source block it collects. Electric pumps have a range of 80 blocks in all directions."
+				""
+				"&8Filter Upgrade can be installed into the pump, it allows the pump to collect heavy water from water.&r"
+			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
 			id: "6A546B3E93E58AC8"
@@ -2146,12 +2199,16 @@
 				item: "mekanism:electric_pump"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.5d
+			x: 12.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.83.desc}"]
+			description: [
+				"The Chemical Infuser combines two gases to create another gas. "
+				""
+				"The gas gauges on the left and right side of its GUI are the input tanks, and correspond to correspond with the left and right sides of the machine. The gauge in the middle is for the resulting gas, which outputs through the front of the machine. The input and output sides can be changed in the UI of the machine."
+			]
 			hide_until_deps_visible: true
 			id: "59EA4D9F875D7D03"
 			tasks: [{
@@ -2159,12 +2216,12 @@
 				item: "mekanism:chemical_infuser"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["27C740059DA71649"]
-			description: ["{quest.meka.91.desc}"]
+			description: [""]
 			hide_until_deps_visible: true
 			id: "4C7918259EDF52EB"
 			tasks: [{
@@ -2180,12 +2237,12 @@
 				type: "item"
 			}]
 			title: "Osmium Dust"
-			x: 14.0d
+			x: 16.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["27C740059DA71649"]
-			description: ["{quest.meka.93.desc}"]
+			description: [""]
 			hide_until_deps_visible: true
 			id: "1CA3C59D0ED5EFDC"
 			tasks: [{
@@ -2201,12 +2258,16 @@
 				type: "item"
 			}]
 			title: "Gold Dust"
-			x: 14.0d
+			x: 16.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["1CA3C59D0ED5EFDC"]
-			description: ["{quest.meka.96.desc}"]
+			description: [
+				"The Energy Upgrade, when installed, increases the power capacity of a Mekanism machine, as well as reduce its power consumption per tick."
+				""
+				"&8The formula to calculate the energy used is DefaultUsage * (10) to the power of ((2 * Speed Upgrades - Energy Upgrades) / 8). DefaultUsage is the default energy used by a machine.&r"
+			]
 			id: "3713AAB7A3F2E9A7"
 			subtitle: "MORE POWAAH"
 			tasks: [{
@@ -2214,12 +2275,20 @@
 				item: "mekanism:upgrade_energy"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4C7918259EDF52EB"]
-			description: ["{quest.meka.94.desc}"]
+			description: [
+				"A Mekanism machine upgrade to make them process items faster, you can install 8 of these in each Mekanism machine."
+				""
+				"The power consumption to speed growth ratio is non-linear. So at 8 speed upgrades the speed will be 10x but energy costs will be 100x."
+				""
+				"[ \"It is strongly advised to also install \", { \"text\": \"Energy Upgrades\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3713AAB7A3F2E9A7\" } }, \" to balance out the energy cost.\" ]"
+				""
+				"&8Several machines do not follow this rule: Chemical Washer, Rotatory Condenser, Chemical Infuser, Isotopic Centrifuge, Electrolytic Separator, Pigment Mixer. For these machines every speed upgrade instead multiplies their speed by 2x, for a total of 256x speed. They still consume up to 100x the power per tick as usual.&r"
+			]
 			id: "1B1685D5DC2495F5"
 			subtitle: "Speed it up!"
 			tasks: [{
@@ -2227,12 +2296,16 @@
 				item: "mekanism:upgrade_speed"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.84.desc}"]
+			description: [
+				"The Combiner allows the player to combine 2 items, although it is mainly used to create an ore block from dust."
+				""
+				"Place the ore dust in the top slot, and some cobblestone/deepslate in the bottom slot, and it will combine to make the ore block."
+			]
 			hide_until_deps_visible: true
 			id: "206DE53B5822AFC4"
 			tasks: [{
@@ -2240,12 +2313,12 @@
 				item: "mekanism:combiner"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 13.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0453C7D5AA35CAAA"]
-			description: ["{quest.meka.19.desc}"]
+			description: ["Lithium is used in crafting of Induction Cells and Induction Providers."]
 			id: "2B88C4AA15C024DF"
 			subtitle: "Hydrophobic"
 			tasks: [{
@@ -2253,7 +2326,7 @@
 				item: "mekanism:dust_lithium"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 19.0d
 			y: 10.5d
 		}
 		{
@@ -2261,7 +2334,11 @@
 				"45C9D5B3C08D1FFD"
 				"2B88C4AA15C024DF"
 			]
-			description: ["{quest.meka.17.desc}"]
+			description: [
+				"Basic Induction Cell can hold up to 3.2 GFE"
+				""
+				"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+			]
 			hide_until_deps_visible: true
 			id: "62EB68FA87F80CED"
 			subtitle: "Big Battery Cell"
@@ -2278,7 +2355,11 @@
 				"62EB68FA87F80CED"
 				"48010D86B97969E4"
 			]
-			description: ["{quest.meka.31.desc}"]
+			description: [
+				"Advanced Induction Cell can hold up to 25.6 GFE"
+				""
+				"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+			]
 			id: "6B7489F4D2DE7ABE"
 			subtitle: "Bigger Battery Cell"
 			tasks: [{
@@ -2294,7 +2375,11 @@
 				"6B7489F4D2DE7ABE"
 				"7E747BD610CB2D21"
 			]
-			description: ["{quest.meka.34.desc}"]
+			description: [
+				"Elite Induction Cell can hold up to 204.8 GFE"
+				""
+				"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+			]
 			id: "4222372C36422598"
 			subtitle: "Even Bigger Battery Cell"
 			tasks: [{
@@ -2310,7 +2395,11 @@
 				"4222372C36422598"
 				"46DA59DC1925C374"
 			]
-			description: ["{quest.meka.37.desc}"]
+			description: [
+				"Ultimate Induction Cell can hold up to 1.6 TFE"
+				""
+				"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+			]
 			id: "7FD99F0885299CBE"
 			subtitle: "Biggest Battery Cell"
 			tasks: [{
@@ -2326,7 +2415,11 @@
 				"45C9D5B3C08D1FFD"
 				"2B88C4AA15C024DF"
 			]
-			description: ["{quest.meka.18.desc}"]
+			description: [
+				"Basic Induction Provider can transport up to 102.4 kFE"
+				""
+				"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+			]
 			hide_until_deps_visible: true
 			id: "2EFE7E0B6A4606D7"
 			subtitle: "Big Battery I/O "
@@ -2343,7 +2436,11 @@
 				"2EFE7E0B6A4606D7"
 				"48010D86B97969E4"
 			]
-			description: ["{quest.meka.32.desc}"]
+			description: [
+				"Advanced Induction Provider can transport up to 819.2 kFE"
+				""
+				"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+			]
 			id: "58AD6764A194D8DB"
 			subtitle: "Bigger Battery I/O "
 			tasks: [{
@@ -2359,7 +2456,11 @@
 				"58AD6764A194D8DB"
 				"7E747BD610CB2D21"
 			]
-			description: ["{quest.meka.35.desc}"]
+			description: [
+				"Elite Induction Provider can transport up to 6.5 MFE"
+				""
+				"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+			]
 			id: "24A371935B68036D"
 			subtitle: "Even bigger Battery I/O "
 			tasks: [{
@@ -2375,7 +2476,11 @@
 				"24A371935B68036D"
 				"46DA59DC1925C374"
 			]
-			description: ["{quest.meka.38.desc}"]
+			description: [
+				"Ultimate Induction Provider can transport up to 52.4 MFE"
+				""
+				"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+			]
 			id: "5457F1584CFED690"
 			subtitle: "Biggest Battery I/O "
 			tasks: [{
@@ -2388,7 +2493,7 @@
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.41.desc}"]
+			description: ["The Chemical Crystallizer turns Clean Slurry into Crystals, Lithium into Lithium Dust and Antimatter into Antimatter Pellet."]
 			hide_until_deps_visible: true
 			id: "48558E331B14B773"
 			tasks: [{
@@ -2396,12 +2501,16 @@
 				item: "mekanism:chemical_crystallizer"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.5d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
-			description: ["{quest.meka.40.desc}"]
+			description: [
+				"The Rotary Condensentrator is used for converting substances between liquid and gaseous forms at a rate of 1:1. "
+				""
+				"It has two modes: Decondensentrating, which turns Liquids into Gases, and Condensentrating, which turns Gases into Liquids."
+			]
 			hide_until_deps_visible: false
 			id: "6E97368920DAE881"
 			subtitle: "Doesn't use stress units!"
@@ -2410,12 +2519,20 @@
 				item: "mekanism:rotary_condensentrator"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.5d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6DCDEAA1333F7DEE"]
-			description: ["{quest.meka.39.desc}"]
+			description: [
+				"Thermal Evaporation Plant is a Multiblock that allows to turn Water into Brine and Brine into Liquid Lithium."
+				""
+				"To build it start with 4x4 block base, then build out of Thermal Evaporation Blocks, then build walls on top of base, keeping 2x2 space inside hollow. The minimum height of the structure is 3 blocks. To increase the internal storage and rate of evaporation, the structure can be raised up to 18 blocks high."
+				""
+				"Thermal Evaporation Valves are used to input/output things. At least one Thermal Evaporation Controller must be present in multiblock."
+				""
+				"[ \"Max production rate is 1080mb/t. Multiblock can be accelerated by placing \", { \"text\": \"Advanced Solar Generators\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0293243342E01312\" } }, \" on corners of the top layer of the stucture and/or piping heat into Thermal Evaporation Valves.\" ] "
+			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -2441,12 +2558,12 @@
 				}
 			]
 			title: "Thermal Evaporation Tower"
-			x: 22.0d
+			x: 24.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
-			description: ["{quest.meka.20.desc}"]
+			description: ["Induction Casings are needed to form an Induction Matrix"]
 			hide_until_deps_visible: true
 			id: "33AF1F966B4EE7B8"
 			tasks: [{
@@ -2454,26 +2571,24 @@
 				item: "mekanism:induction_casing"
 				type: "item"
 			}]
-			title: "{quest.meka.20.title}"
-			x: 3.0d
-			y: 7.5d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["33AF1F966B4EE7B8"]
-			description: ["{quest.meka.21.desc}"]
+			description: ["Induction Ports are needed to input/output energy from Induction Matrix"]
 			id: "63A5E8C0B3A1C355"
 			tasks: [{
 				id: "0BF769EC784F9718"
 				item: "mekanism:induction_port"
 				type: "item"
 			}]
-			title: "{quest.meka.21.title}"
-			x: 2.0d
-			y: 8.5d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["27C740059DA71649"]
-			description: ["{quest.meka.92.desc}"]
+			description: [""]
 			hide_until_deps_visible: true
 			id: "2355C781C841F7A0"
 			tasks: [{
@@ -2489,7 +2604,7 @@
 				type: "item"
 			}]
 			title: "Iron Dust"
-			x: 14.0d
+			x: 16.0d
 			y: 2.5d
 		}
 		{
@@ -2498,19 +2613,19 @@
 				"1CA3C59D0ED5EFDC"
 				"4C7918259EDF52EB"
 			]
-			description: ["{quest.meka.95.desc}"]
+			description: ["The Electrolytic Core is a Crafting Component used in the crafting of the Electrolytic Separator and the Gas-Burning Generator."]
 			id: "152091CB3B8EDA46"
 			tasks: [{
 				id: "0D4B7C68386D8AE2"
 				item: "mekanism:electrolytic_core"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["03524C8291BA941F"]
-			description: ["{quest.meka.42.desc}"]
+			description: ["The Teleportation Core is a Crafting Component used in the crafting of various teleportation-related things."]
 			hide_until_deps_visible: true
 			id: "05D2DA6C4AACB4A2"
 			size: 1.25d
@@ -2525,7 +2640,13 @@
 		}
 		{
 			dependencies: ["37B06FC941C75A60"]
-			description: ["{quest.meka.61.desc}"]
+			description: [
+				"The Logistical Sorter is the brains of Mekanism Logistics. Attached to the side of an inventory/chest this block will route items to where they should go. "
+				""
+				"[ \"Logistical Sorter works in tandem with \", { \"text\": \"Logistical Transporters\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F090DF94C778B3A\" } }, \".\" ]"
+				""
+				"Can be configured using filters in the gui."
+			]
 			id: "26D579BACDB8DD90"
 			subtitle: "Logistical Nightmare"
 			tasks: [{
@@ -2533,12 +2654,12 @@
 				item: "mekanism:logistical_sorter"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["37B06FC941C75A60"]
-			description: ["{quest.meka.63.desc}"]
+			description: ["Personal Chest (or barrel) can be locked to avoid sharing your belongings with whole server. The chest can be placed down and used as a regular, normal chest. This chest has the storage of a double-chest but the space of one chest. If you right click the air, your chest's storage will open up. If used with a Logistical Transporter, items can be piped in and out of the chest."]
 			id: "13FBC17283BA0E53"
 			subtitle: "Savekeeping"
 			tasks: [{
@@ -2554,15 +2675,15 @@
 				type: "item"
 			}]
 			title: "Personal Storage"
-			x: -3.0d
-			y: -0.5d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"05D2DA6C4AACB4A2"
 				"6BD8ADA2F4C73784"
 			]
-			description: ["{quest.meka.48.desc}"]
+			description: ["The Quantum Entangloporter from Mekanism is a machine that allows liquids/items/energy/gas/heat to be sent from one Quantum Entangloporter to another through a channel."]
 			id: "2FFCC04506C08E87"
 			subtitle: "Wireless everything!"
 			tasks: [{
@@ -2570,43 +2691,55 @@
 				item: "mekanism:quantum_entangloporter"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -11.5d
+			x: 7.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["05D2DA6C4AACB4A2"]
-			description: ["{quest.meka.45.desc}"]
+			description: [
+				"The Teleporter is a machine that allows for teleportation of entities (Mobs, Players, Thrown Items, etc.)"
+				""
+				"To teleport from it you need the Teleporter Frame to build a Teleporter Portal."
+				""
+				"The Teleporter Portal is a multi-block structure that allows the player to teleport between Teleporter Portals on the same frequency. They are configured by right-clicking the Teleporter block at the base of the Teleporter. Their security can be configured as Public or Private. They can be used to travel between dimensions. Teleporter doesnt need loaded chunks to be operational."
+			]
 			id: "63B3E84031F1A0EC"
 			tasks: [{
 				id: "7E111466AD950AD6"
 				item: "mekanism:teleporter"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -13.5d
+			x: 7.0d
+			y: -11.5d
 		}
 		{
 			dependencies: [
 				"42119548DAF90F47"
 				"061CA8B8F6F9B574"
 			]
-			description: ["{quest.meka.56.desc}"]
+			description: ["Refined Glowstone Ingot is used to make teleporter frames"]
 			id: "06EAB6D86F2CE214"
+			rewards: [{
+				count: 2
+				id: "3099CD46DF2E1D17"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
 			subtitle: "Not so strong ingot"
 			tasks: [{
 				id: "30813BD113CD5C80"
 				item: "mekanism:ingot_refined_glowstone"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -7.5d
+			x: 11.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
 				"6BD8ADA2F4C73784"
 				"06EAB6D86F2CE214"
 			]
-			description: ["{quest.meka.46.desc}"]
+			description: ["With the Teleporter frame together with the Teleporter you can create a Teleporter Portal."]
 			id: "01D3CA4CAC690A49"
 			tasks: [{
 				id: "36309B311766C7C1"
@@ -2614,11 +2747,18 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -13.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["63A5E8C0B3A1C355"]
-			description: ["{quest.meka.28.desc}"]
+			description: [
+				"Amount of Induction Cells determines how much energy Matrix will store, "
+				"Amount of Induction Providers determines how much energy per tick can be put in and out."
+				""
+				"Incase it all in Induction Casing and Structure Glass, put Induction Ports to asseble Induction Matrix"
+				""
+				"&8&oTip: for more information click at image below.&r&r"
+			]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -2634,24 +2774,28 @@
 				type: "checkmark"
 			}]
 			title: "Big battery time!"
-			x: 1.0d
+			x: 0.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["152091CB3B8EDA46"]
-			description: ["{quest.meka.97.desc}"]
+			description: [
+				"The Electrolytic Separator separates Water, Heavy Water or Brine into useful gases."
+				""
+				"&8While the Electrolytic Separator does take Energy Upgrades, they don't actually affect the machine's energy efficiency, for balancing purposes&r"
+			]
 			id: "0FD3A26A0ECE27E5"
 			tasks: [{
 				id: "6866B32A164E517F"
 				item: "mekanism:electrolytic_separator"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 19.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
-			description: ["{quest.meka.25.desc}"]
+			description: ["Wind Turbine is a passive energy source, it generation is determened by how high it is (161 FE/t at y=315)."]
 			hide_until_deps_visible: true
 			id: "0D5F6DB2C48C0DC7"
 			subtitle: "Energy of the wind"
@@ -2660,12 +2804,19 @@
 				item: "mekanismgenerators:wind_generator"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.5d
+			x: 5.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["152091CB3B8EDA46"]
-			description: ["{quest.meka.26.desc}"]
+			description: [
+				"A Gas-Burning Generator creates power by consuming any burnable gas."
+				""
+				"It can burn Hydrogen or Ethylene"
+				""
+				"Hydrogen is burned at a maximum rate of 256 mB/t, generating up to 20,480 RF/t"
+				"Ethylene is burned at a maximum rate of 6.4 mB/t, generating up to 72,192 RF/t"
+			]
 			hide_until_deps_visible: true
 			id: "4E117CF81AF1B7CD"
 			subtitle: "Burning Gases"
@@ -2674,7 +2825,7 @@
 				item: "mekanismgenerators:gas_burning_generator"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 19.0d
 			y: 3.5d
 		}
 		{
@@ -2682,7 +2833,13 @@
 				"08E13E7BE1D8864D"
 				"4DBEBE514C5D068E"
 			]
-			description: ["{quest.meka.23.desc}"]
+			description: [
+				"Most basic Solar generator."
+				""
+				"Produses around 20 FE/t during the day (0 FE/t during the night) "
+				""
+				"Can be used to craft Advanced Solar Generator."
+			]
 			hide_until_deps_visible: true
 			id: "238D6B5DF5DCF916"
 			subtitle: "Useless solar panel"
@@ -2691,12 +2848,12 @@
 				item: "mekanismgenerators:solar_generator"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.5d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["238D6B5DF5DCF916"]
-			description: ["{quest.meka.24.desc}"]
+			description: ["Advanced Solar Generator produses around 100 FE/t during the day (0 FE/t during the night)"]
 			id: "0293243342E01312"
 			subtitle: "Useful solar panel"
 			tasks: [{
@@ -2704,12 +2861,12 @@
 				item: "mekanismgenerators:advanced_solar_generator"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 8.5d
+			x: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["24CD759A561EB2C6"]
-			description: ["{quest.meka.22.desc}"]
+			description: ["Basic component of solar panels"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "4DBEBE514C5D068E"
@@ -2719,12 +2876,16 @@
 				item: "mekanismgenerators:solar_panel"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 7.5d
+			x: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.88.desc}"]
+			description: [
+				"[ \"The Chemical Washer turns \", { \"text\": \"Dirty Slurry\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1320FCEE195D9D91\" } }, \" into \", { \"text\": \"Clean Slurry\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A6AF19B37DBD45C\" } }, \" using Water. \" ]"
+				""
+				"The clean slurry then needs to be further refined by pumping it into a Chemical Crystallizer."
+			]
 			hide_until_deps_visible: true
 			id: "414874164A8292BE"
 			tasks: [{
@@ -2737,7 +2898,11 @@
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.86.desc}"]
+			description: [
+				"[ \"The Chemical Dissolution Chamber is used in creation of \", { \"text\": \"Dirty Slurries\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1320FCEE195D9D91\" } }, \" and \", { \"text\": \"Hydrofluoric Acid\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"66768B5CF1D11AB4\" } } ]"
+				""
+				"&8The machine uses 100 mB of sulfuric acid for every block ore dissolved and outputs 1000 mb of slurry. 100 mb acid and 3 Raw Ore for 2000 mB slurry &r"
+			]
 			hide_until_deps_visible: true
 			id: "017AC018B98522AF"
 			tasks: [{
@@ -2746,11 +2911,15 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.77.desc}"]
+			description: [
+				"The Nutritional Liquifier turns consumable food items into Nutritional Paste when placed into its left UI slot. "
+				""
+				"It can hold a total of 10000mB of paste before it is full and halts production."
+			]
 			hide_until_deps_visible: true
 			id: "0F9F4AA425D11F76"
 			subtitle: "Blender.exe"
@@ -2759,26 +2928,12 @@
 				item: "mekanism:nutritional_liquifier"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 8.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.87.desc}"]
-			hide_until_deps_visible: true
-			id: "3E518674153D0FA9"
-			subtitle: "You know this modpack has Create, right?"
-			tasks: [{
-				id: "6E6DF3A4B26A7063"
-				item: "mekanism:formulaic_assemblicator"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -0.5d
-		}
-		{
 			dependencies: ["05D2DA6C4AACB4A2"]
-			description: ["{quest.meka.44.desc}"]
+			description: ["The Security Desk is a central hub for setting up all security settings of your machines. You can add/remove trusted players, override the security of all your machines, and change the who can access your machines."]
 			id: "1A238FB3373842F9"
 			subtitle: "Secured Mekamisms"
 			tasks: [{
@@ -2786,12 +2941,20 @@
 				item: "mekanism:security_desk"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -13.5d
+			x: 3.0d
+			y: -10.5d
 		}
 		{
-			dependencies: ["37B06FC941C75A60"]
-			description: ["{quest.meka.27.desc}"]
+			dependencies: ["1A529EAEBFC7B6FB"]
+			description: [
+				"Bio-Generators produce electricity from Bio Fuel."
+				""
+				"The generator will produce 28kFE from a single item, and has an internal storage capacity of 64 kFE. "
+				""
+				"After this has been reached, the bio-generator can hold 24000 units of bio fuel to be processed later, which is equivalent to 240 items. "
+				""
+				"Max generation is 280 FE/t."
+			]
 			hide_until_deps_visible: true
 			id: "121317D40B896327"
 			subtitle: "(Actually) Green energy"
@@ -2800,25 +2963,30 @@
 				item: "mekanismgenerators:bio_generator"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
+			x: 14.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.85.desc}"]
+			dependencies: ["08E13E7BE1D8864D"]
+			description: ["A condensed, coiled resistor capable of converting electrical energy directly into heat energy."]
 			hide_until_deps_visible: true
 			id: "361AE6668AD6875D"
+			subtitle: "100% Energy conversion efficiency"
 			tasks: [{
 				id: "206CD560E427DBB3"
 				item: "mekanism:resistive_heater"
 				type: "item"
 			}]
 			x: 5.0d
-			y: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["16FAA83B048985DD"]
-			description: ["{quest.meka.69.desc}"]
+			description: [
+				"The Pressurized Reaction Chamber (PRC) is used primarily to create Substrate, HDPE Pellets, Sulfur, and Ethylene. "
+				""
+				"Can also be used to create some late-game crafting components."
+			]
 			id: "60872E585150C8D4"
 			subtitle: "Under preassure"
 			tasks: [{
@@ -2826,48 +2994,61 @@
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.5d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["16FAA83B048985DD"]
-			description: ["{quest.meka.70.desc}"]
+			description: [
+				"The Purification Chamber uses oxygen to refine Ores and shards into clumps. "
+				""
+				"Each ore makes 3 clumps, whereas each shard only gives one clump. "
+				""
+				"&8The oxygen can be provided externally as gas, or internally with an oxygen filled Gas Tank or flint.&r"
+			]
 			id: "61DAEBB4FA84E63D"
+			subtitle: "Pure Pure"
 			tasks: [{
 				id: "3BCAA75F401B6015"
 				item: "mekanism:purification_chamber"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.5d
+			x: 9.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["61DAEBB4FA84E63D"]
-			description: ["{quest.meka.71.desc}"]
+			description: [
+				"The Chemical Injection Chamber is mainly used to multiply ore. "
+				""
+				"It is the start of x4 ore processing and requires a steady supply of Hydrogen Chloride."
+				""
+				"[ \"Can also be used to \", { \"text\": \"repossess nuclear fuel\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A90D76598166235\" } }, \".\" ]"
+			]
 			id: "7B16E9F7C8996C69"
 			tasks: [{
 				id: "70E785C5689CE543"
 				item: "mekanism:chemical_injection_chamber"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -3.5d
+			x: 9.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4EF88C2A1B845264"]
-			description: ["{quest.meka.75.desc}"]
+			description: ["HDPE Sheets are created by enriching the 3 HDPE Pellets, used in creation of several high-tech devices."]
 			id: "19BF6BCFC7E63352"
 			tasks: [{
 				id: "69FF8481BD3C555A"
 				item: "mekanism:hdpe_sheet"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 28.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["7F9A49100E2C93D4"]
-			description: ["{quest.meka.74.desc}"]
+			description: ["Created in a Pressurized Reaction Chamber (PRC) from Substrate, Liquid Ethylene (Ethylene condensed in Rotary Condensentrator) and Oxygen."]
 			id: "4EF88C2A1B845264"
 			subtitle: "almostplastic"
 			tasks: [{
@@ -2877,12 +3058,12 @@
 				type: "item"
 			}]
 			title: "HDPE Pellet"
-			x: 23.0d
+			x: 25.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["1A529EAEBFC7B6FB"]
-			description: ["{quest.meka.73.desc}"]
+			description: ["Intermediate product of HDPE Pellet creation, created in Pressurized Reaction Chamber (PRC) from 2 x Bio Fuel, Water and Hydrogen (Ethylene created as side-product)."]
 			id: "7F9A49100E2C93D4"
 			subtitle: "notplastic"
 			tasks: [{
@@ -2890,57 +3071,34 @@
 				item: "mekanism:substrate"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 20.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["27C740059DA71649"]
-			description: ["{quest.meka.72.desc}"]
+			description: [
+				"Bio Fuel is a type of fuel used inside of a Bio-Generator."
+				""
+				"Can also be used in the Pressurized Reaction Chamber to create Ethylene and Substrate which is needed to create plastic."
+			]
 			id: "1A529EAEBFC7B6FB"
 			tasks: [{
 				id: "714A8C11A6151BF1"
 				item: "mekanism:bio_fuel"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 16.0d
 			y: -5.5d
-		}
-		{
-			dependencies: [
-				"63B3E84031F1A0EC"
-				"01D3CA4CAC690A49"
-			]
-			description: ["{quest.meka.47.desc}"]
-			icon: "createdeco:decal_up"
-			id: "205AA1AB99D13D3D"
-			tasks: [{
-				id: "3524035FC2A58BA8"
-				title: "tele"
-				type: "checkmark"
-			}]
-			title: "How to: Teleporter"
-			x: 7.0d
-			y: -13.5d
-		}
-		{
-			dependencies: ["3E518674153D0FA9"]
-			description: ["{quest.meka.89.desc}"]
-			id: "5A1BDB6E45003F3F"
-			subtitle: "just why"
-			tasks: [{
-				id: "315233E4D8D3B3DF"
-				item: "mekanism:crafting_formula"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -1.5d
 		}
 		{
 			dependencies: [
 				"19BF6BCFC7E63352"
 				"3D34425A97C15842"
 			]
-			description: ["{quest.meka.151.desc}"]
+			description: [
+				"More durable Elytra thats it."
+				"&8also used to make upgrade Mekasuit&r"
+			]
 			hide_until_deps_visible: true
 			id: "3AF0314C01BD75C0"
 			tasks: [{
@@ -2955,12 +3113,12 @@
 				type: "item"
 			}]
 			title: "Stronger wings"
-			x: 27.0d
+			x: 29.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3410A7C9AAFDDF9D"]
-			description: ["{quest.meka.128.desc}"]
+			description: ["Only use is to create Sulfur Trioxide"]
 			icon: "mekanism:sulfur_dioxide_bucket"
 			id: "52795A656E90F398"
 			subtitle: "Gas Sulfur²"
@@ -2971,12 +3129,12 @@
 				type: "custom"
 			}]
 			title: "Sulfur Dioxide"
-			x: 20.0d
+			x: 22.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["52795A656E90F398"]
-			description: ["{quest.meka.128.desc}"]
+			description: ["Only use is to create Sulfuric Acid"]
 			icon: "mekanism:sulfur_trioxide_bucket"
 			id: "7BC2ECAB8B22CBFF"
 			subtitle: "Gas Sulfur³"
@@ -2987,12 +3145,12 @@
 				type: "custom"
 			}]
 			title: "Sulfur Trioxide"
-			x: 24.0d
+			x: 26.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["7BC2ECAB8B22CBFF"]
-			description: ["{quest.meka.130.desc}"]
+			description: ["[ \"Can be used to turn \",   { \"text\": \"Ores into Slurry\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1320FCEE195D9D91\" } } ,\" and as an ingrdient for \", { \"text\": \"Hydrofluoric Acid\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D98380A445B84AC\" } } ]"]
 			icon: "mekanism:sulfuric_acid_bucket"
 			id: "07B80FF72157DDEC"
 			shape: "square"
@@ -3003,7 +3161,7 @@
 				type: "custom"
 			}]
 			title: "Sulfuric Acid"
-			x: 28.0d
+			x: 30.0d
 			y: 13.5d
 		}
 		{
@@ -3022,7 +3180,7 @@
 				type: "item"
 			}]
 			title: "Tin Dust"
-			x: 14.0d
+			x: 16.0d
 			y: -1.5d
 		}
 		{
@@ -3043,8 +3201,8 @@
 				title: "Any #forge:dusts/steel"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.5d
+			x: 14.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["27C740059DA71649"]
@@ -3062,7 +3220,7 @@
 				type: "item"
 			}]
 			title: "Diamond Dust"
-			x: 14.0d
+			x: 16.0d
 			y: -3.5d
 		}
 		{
@@ -3073,7 +3231,7 @@
 				item: "mekanism:upgrade_gas"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 16.0d
 			y: 3.5d
 		}
 		{
@@ -3084,7 +3242,7 @@
 				item: "mekanism:upgrade_filter"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: -1.5d
 		}
 		{
@@ -3095,7 +3253,7 @@
 				item: "mekanism:upgrade_anchor"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: -3.5d
 		}
 		{
@@ -3106,8 +3264,8 @@
 				item: "mekanism:upgrade_muffling"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.5d
+			x: 15.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -3120,22 +3278,23 @@
 				item: "mekanism:chemical_oxidizer"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["14E68D38AA35147C"]
-			description: ["{quest.meka.129.desc}"]
+			description: ["[ \"There is many ways to get water in this modpack, but since you are in a Mekanism questline you can use \", { \"text\": \"Electrical Pump\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A546B3E93E58AC8\" } }, \" (It requires only one liquid source and doesn't deplete it if its water.\" ] "]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "minecraft:water_bucket"
 			id: "29F04CE306ED98D4"
+			subtitle: "Stay Hydrated"
 			tasks: [{
 				id: "37055A949FE265A0"
 				type: "checkmark"
 			}]
-			title: "Stay Hydrated"
-			x: 24.0d
+			title: "How to get water"
+			x: 26.0d
 			y: 10.5d
 		}
 		{
@@ -3154,7 +3313,7 @@
 				type: "item"
 			}]
 			title: "Ores for multiplication"
-			x: 33.0d
+			x: 35.0d
 			y: -1.5d
 		}
 		{
@@ -3171,7 +3330,7 @@
 				type: "custom"
 			}]
 			title: "Dirty Slurry"
-			x: 31.0d
+			x: 33.0d
 			y: 10.5d
 		}
 		{
@@ -3185,7 +3344,7 @@
 				type: "custom"
 			}]
 			title: "Clean Slurry"
-			x: 31.0d
+			x: 33.0d
 			y: 6.5d
 		}
 		{
@@ -3207,7 +3366,8 @@
 				title: "Any #mekanism:crystals"
 				type: "item"
 			}]
-			x: 31.0d
+			title: "Crystal"
+			x: 33.0d
 			y: 2.5d
 		}
 		{
@@ -3229,7 +3389,8 @@
 				title: "Any #mekanism:shards"
 				type: "item"
 			}]
-			x: 31.0d
+			title: "Shard"
+			x: 33.0d
 			y: -1.5d
 		}
 		{
@@ -3251,7 +3412,8 @@
 				title: "Any #mekanism:clumps"
 				type: "item"
 			}]
-			x: 31.0d
+			title: "Clump"
+			x: 33.0d
 			y: -5.5d
 		}
 		{
@@ -3269,7 +3431,8 @@
 				title: "Any #mekanism:dirty_dusts"
 				type: "item"
 			}]
-			x: 31.0d
+			title: "Dirty Dust"
+			x: 33.0d
 			y: -9.5d
 		}
 		{
@@ -3319,7 +3482,8 @@
 				}
 				type: "item"
 			}]
-			x: 31.0d
+			title: "Dust"
+			x: 33.0d
 			y: -13.5d
 		}
 		{
@@ -3333,7 +3497,7 @@
 				type: "custom"
 			}]
 			title: "Brine"
-			x: 25.0d
+			x: 27.0d
 			y: 5.5d
 		}
 		{
@@ -3347,7 +3511,7 @@
 				type: "custom"
 			}]
 			title: "Chlorine"
-			x: 27.0d
+			x: 29.0d
 			y: 3.5d
 		}
 		{
@@ -3361,7 +3525,7 @@
 				type: "custom"
 			}]
 			title: "Sodium"
-			x: 25.0d
+			x: 27.0d
 			y: 0.5d
 		}
 		{
@@ -3375,7 +3539,7 @@
 				type: "custom"
 			}]
 			title: "Liquid Lithium"
-			x: 20.0d
+			x: 22.0d
 			y: 5.5d
 		}
 		{
@@ -3389,7 +3553,7 @@
 				type: "custom"
 			}]
 			title: "Lithium"
-			x: 17.0d
+			x: 19.0d
 			y: 5.5d
 		}
 		{
@@ -3407,19 +3571,30 @@
 				type: "custom"
 			}]
 			title: "Hydrogen Chloride"
-			x: 29.0d
+			x: 31.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["19BF6BCFC7E63352"]
-			description: ["{quest.meka.76.desc}"]
+			description: [
+				"Solar Neutron Activator turns lithium into tritium, and nuclear waste into polonium."
+				""
+				"Works during the day, panel must have access to direct sunlight."
+				""
+				"&8Here are some factors that influence the production rate:&r"
+				"&8The colder a biome is, the better.&r"
+				"&8The less humid a biome is, the better.&r"
+				"&8SNAs at higher altitudes are slightly better.&r"
+				"&8While raining or thundering, SNAs work at a highly reduced rate.&r"
+				"&8During dusk or dawn, SNAs are slower.&r"
+			]
 			id: "03E3F14D60D1C2B1"
 			tasks: [{
 				id: "5690575CB46F81FC"
 				item: "mekanism:solar_neutron_activator"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 29.0d
 			y: -4.5d
 		}
 		{
@@ -3430,7 +3605,7 @@
 				item: "mekanism:hdpe_rod"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 25.0d
 			y: -7.5d
 		}
 		{
@@ -3441,7 +3616,7 @@
 				item: "mekanism:pigment_mixer"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 27.0d
 			y: -7.5d
 		}
 		{
@@ -3452,7 +3627,7 @@
 				item: "mekanism:hdpe_stick"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 25.0d
 			y: -9.5d
 		}
 		{
@@ -3468,7 +3643,7 @@
 				item: "mekanism:atomic_disassembler"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 20.0d
 			y: -14.0d
 		}
 		{
@@ -3484,7 +3659,7 @@
 				item: "kubejs:almost_complete_atomic_disassembler"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 20.0d
 			y: -9.5d
 		}
 		{
@@ -3495,44 +3670,8 @@
 				item: "mekanism:dimensional_stabilizer"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["000099F56EB2D52B"]
-			id: "758A5DE271C19325"
-			tasks: [{
-				id: "5F29FD1F9149DC71"
-				item: "mekanism:dye_base"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"4882C29ACF76E6CD"
-				"758A5DE271C19325"
-			]
-			id: "29F7716C8563D8C9"
-			tasks: [{
-				id: "6152AF0D00390140"
-				item: "mekanism:painting_machine"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["4882C29ACF76E6CD"]
-			id: "6DB8383940475BA3"
-			tasks: [{
-				id: "55FEEB8F6CD32AB5"
-				item: "mekanism:pigment_extractor"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 3.5d
+			x: 2.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
@@ -3542,8 +3681,8 @@
 				item: "mekanism:chargepad"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["45C9D5B3C08D1FFD"]
@@ -3568,20 +3707,20 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["08E13E7BE1D8864D"]
+			dependencies: ["2063D6C58019E165"]
 			id: "36698A00750FB0BD"
 			tasks: [{
 				id: "168CF3309E6A22A4"
 				item: "mekanism:laser"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: 3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3859C9C6168B9502"]
 			dependency_requirement: "one_completed"
-			description: ["{quest.meka.141.desc}"]
+			description: ["[ \"Isotopic Centrefuge in only used for 2 recipes, 1st to make \", { \"text\": \"Fissile Fuel\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BDD98F8F5C4608B\" } }, \" out of Uranium Hexaflourite and 2nd to make \", { \"text\": \"Plutonium\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"45632A6888E7C456\" } } ,\" out of spent Nuclear Waste.\" ] "]
 			hide_until_deps_visible: true
 			id: "07B9EE65C72C31C5"
 			tasks: [{
@@ -3589,8 +3728,8 @@
 				item: "mekanism:isotopic_centrifuge"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.5d
+			x: 0.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19BF6BCFC7E63352"]
@@ -3600,30 +3739,31 @@
 				item: "mekanism:module_base"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 30.0d
 			y: -5.5d
 		}
 		{
-			dependencies: ["75BA8DAE253D5BAF"]
+			dependencies: ["24CD759A561EB2C6"]
 			id: "024932A6C70924F6"
 			tasks: [{
 				id: "35BBD360A5D24C7A"
 				item: "mekanism:upgrade_stone_generator"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -9.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6A546B3E93E58AC8"]
+			description: ["The Fluidic Plenisher is the exact opposite of the Electric Pump. Instead of pumping fluids out of an area, the Fluidic Plenisher \"floods\" an area below it until all available open blocks are filled, or until it runs out of liquid to place."]
 			id: "5A4CFE4FD8D50B72"
 			tasks: [{
 				id: "73CCF6C551E06726"
 				item: "mekanism:fluidic_plenisher"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.5d
+			x: 13.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4882C29ACF76E6CD"]
@@ -3633,11 +3773,24 @@
 				item: "mekanism:fuelwood_heater"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.5d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["37B06FC941C75A60"]
+			description: [
+				"The Logistical Transporter is the basic item transport pipe for Mekanism logistics."
+				""
+				"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
+				"&6Normal&r — passive"
+				"&aPush&r — actively inserts items"
+				"&ePull&r — actively extracts items"
+				"None — disables connection"
+				""
+				"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
+				""
+				"&8Can be upgraded with Alloys by either combining 8 pipes and 1 alloy, or by right-clicking the pipe while Alloy is in hand.&r"
+			]
 			id: "6F090DF94C778B3A"
 			subtitle: "Logisticly Improbable"
 			tasks: [{
@@ -3645,11 +3798,24 @@
 				item: "mekanism:basic_logistical_transporter"
 				type: "item"
 			}]
-			x: -3.0d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
+			description: [
+				"Universal Cables are Mekanism's way to transfer power. "
+				""
+				"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
+				"&6Normal&r — passive"
+				"&aPush&r — actively inserts items"
+				"&ePull&r — actively extracts items"
+				"None — disables connection"
+				""
+				"[ \"Right-clicking with \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \" allows to set Redstone Control Mode. This can be used to control cable with redstone.\" ]"
+				""
+				"&8Can be upgraded with Alloys by either combining 8 pipes and 1 alloy, or by right-clicking the pipe while Alloy is in hand.&r"
+			]
 			id: "3B76FBF7D6E731C4"
 			subtitle: "Most used cable"
 			tasks: [{
@@ -3657,11 +3823,24 @@
 				item: "mekanism:basic_universal_cable"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.5d
+			x: 13.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
+			description: [
+				"Mechanical Pipe is the fluid pipe for Mekanism logistics."
+				""
+				"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
+				"&6Normal&r — passive"
+				"&aPush&r — actively inserts items"
+				"&ePull&r — actively extracts items"
+				"None — disables connection"
+				""
+				"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
+				""
+				"&8Can be upgraded with Alloys by either combining 8 pipes and 1 alloy, or by right-clicking the pipe while Alloy is in hand.&r"
+			]
 			id: "057B264D01290588"
 			subtitle: "Moving Luqids"
 			tasks: [{
@@ -3669,11 +3848,24 @@
 				item: "mekanism:basic_mechanical_pipe"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 5.5d
+			x: 16.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
+			description: [
+				"Thermodynamic Conductor is the heat pipe for Mekanism logistics."
+				""
+				"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
+				"&6Normal&r — passive"
+				"&aPush&r — actively inserts items"
+				"&ePull&r — actively extracts items"
+				"None — disables connection"
+				""
+				"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
+				""
+				"&8Can be upgraded with Alloys by either combining 8 pipes and 1 alloy, or by right-clicking the pipe while Alloy is in hand.&r"
+			]
 			id: "2B2DA9C17AD1456B"
 			subtitle: "Least used cable"
 			tasks: [{
@@ -3681,11 +3873,24 @@
 				item: "mekanism:basic_thermodynamic_conductor"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 7.5d
+			x: 13.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
+			description: [
+				"Pressurized Tubes are used to transport Gases. "
+				""
+				"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
+				"&6Normal&r — passive"
+				"&aPush&r — actively inserts items"
+				"&ePull&r — actively extracts items"
+				"None — disables connection"
+				""
+				"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
+				""
+				"&8Can be upgraded with Alloys by either combining 8 pipes and 1 alloy, or by right-clicking the pipe while Alloy is in hand.&r"
+			]
 			id: "68D9DEF49C85661C"
 			subtitle: "Pass the gas"
 			tasks: [{
@@ -3693,7 +3898,20 @@
 				item: "mekanism:basic_pressurized_tube"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B696CA62EB0083F"]
+			description: ["Structural glass is not necessary for any multiblock, but it can be used instead of some walls in multiblocks to see inside of it"]
+			hide_until_deps_visible: true
+			id: "58E4EE770BEE33EB"
+			tasks: [{
+				id: "0B579E1F1499EF9B"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			x: 12.0d
 			y: 7.5d
 		}
 	]

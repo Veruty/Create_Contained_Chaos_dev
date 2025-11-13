@@ -13,8 +13,8 @@
 			image: "alexscaves:textures/misc/advancement/icon/defeat_nucleeper.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 21.5d
-			y: 8.5d
+			x: 13.5d
+			y: 12.0d
 		}
 		{
 			height: 1.0d
@@ -32,7 +32,7 @@
 			rotation: 0.0d
 			width: 3.6943521594684388d
 			x: 30.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			click: "#7B16E9F7C8996C69"
@@ -47,7 +47,7 @@
 		{
 			click: "#3BDD98F8F5C4608B"
 			height: 1.0d
-			hover: ["mekanism.fissle_fuel"]
+			hover: ["gas.mekanism.fissile_fuel"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/fissle_fuel.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -155,7 +155,7 @@
 		{
 			click: "#1D98380A445B84AC"
 			height: 1.0d
-			hover: ["mekanism.hydrofluoric_acid"]
+			hover: ["gas.mekanism.hydrofluoric_acid"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/hydrofluoric_acid.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -193,16 +193,16 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 45.5d
-			y: 6.0d
+			x: 46.5d
+			y: 6.5d
 		}
 		{
 			height: 11.904545454545453d
 			image: "kubejs:textures/questimg/mekanism/turbine.png"
 			rotation: 0.0d
 			width: 2.6227272727272726d
-			x: 47.5d
-			y: 5.5d
+			x: 48.5d
+			y: 6.0d
 		}
 		{
 			click: "#60872E585150C8D4"
@@ -264,7 +264,7 @@
 		{
 			click: "#07B80FF72157DDEC"
 			height: 1.0d
-			hover: ["mekanism.sulfiric_acid"]
+			hover: ["gas.mekanism.sulfuric_acid"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sulfuric_acid.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -507,23 +507,15 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 34.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 33.0d
-			y: 8.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 35.0d
-			y: 6.0d
+			x: 27.0d
+			y: 9.0d
 		}
 		{
 			height: 1.0d
@@ -531,7 +523,7 @@
 			rotation: 180.0d
 			width: 1.0d
 			x: 34.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			click: "#6E97368920DAE881"
@@ -541,7 +533,7 @@
 			rotation: 0.0d
 			width: 0.9949238578680203d
 			x: 34.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			click: "<ftbq-image>"
@@ -551,7 +543,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 34.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			height: 1.0d
@@ -559,23 +551,7 @@
 			rotation: 180.0d
 			width: 1.0d
 			x: 34.0d
-			y: 5.0d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 35.0d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 0.0d
-			width: 1.0d
-			x: 30.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			click: "#304F6368898F0222"
@@ -662,14 +638,6 @@
 			width: 1.0d
 			x: 30.0d
 			y: 11.0d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 27.0d
-			y: 10.0d
 		}
 		{
 			click: "#4067138C8953B01F"
@@ -792,24 +760,16 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 27.0d
-			y: 6.0d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
 			x: 33.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: 33.0d
-			y: 10.0d
+			x: 25.0d
+			y: 7.0d
 		}
 		{
 			click: "#60CA950C9ACBAFB4"
@@ -819,17 +779,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 26.0d
-			y: 10.0d
-		}
-		{
-			click: "#60CA950C9ACBAFB4"
-			height: 1.0d
-			hover: ["gas.mekanism.sodium"]
-			image: "kubejs:textures/questimg/mekanism/liqud_gasses/sodium.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 34.0d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			click: "<ftbq-image>"
@@ -838,41 +788,24 @@
 			image: "kubejs:textures/questimg/mekanism/boiler.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 37.012824675324666d
-			y: 8.852040816326529d
+			x: 23.0d
+			y: 8.0d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: 35.0d
-			y: 10.0d
+			x: 27.0d
+			y: 7.0d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: 35.0d
-			y: 8.5d
-		}
-		{
-			height: 1.5d
-			image: "supplementaries:block/cannon_arrow"
-			order: 1
-			rotation: 135.0d
-			width: 1.0d
-			x: 34.97540970933827d
-			y: 7.095238095238095d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: 39.0d
-			y: 10.0d
+			x: 25.0d
+			y: 9.0d
 		}
 		{
 			click: "<ftbq-image>"
@@ -881,30 +814,8 @@
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/superheated_sodium.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 34.0d
-			y: 8.5d
-		}
-		{
-			click: "#29F04CE306ED98D4"
-			color: 1926101
-			height: 1.0d
-			hover: ["minecraft.water"]
-			image: "minecraft:block/water_still"
-			rotation: 0.0d
-			width: 1.0d
 			x: 26.0d
-			y: 6.0d
-		}
-		{
-			click: "#29F04CE306ED98D4"
-			color: 1926101
-			height: 1.0d
-			hover: ["minecraft.water"]
-			image: "minecraft:block/water_still"
-			rotation: 0.0d
-			width: 1.0d
-			x: 40.0d
-			y: 10.0d
+			y: 7.0d
 		}
 		{
 			click: "#1D08429A12730A8C"
@@ -941,8 +852,8 @@
 			image: "mekanism:liquid/energy"
 			rotation: 0.0d
 			width: 1.0d
-			x: 50.5d
-			y: 6.0d
+			x: 38.0d
+			y: 3.0d
 		}
 		{
 			height: 1.1d
@@ -959,25 +870,6 @@
 			width: 1.0d
 			x: 44.5d
 			y: 19.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: -90.0d
-			width: 1.0d
-			x: 49.5d
-			y: 6.0d
-		}
-		{
-			click: "#29F04CE306ED98D4"
-			color: 1926101
-			height: 1.0d
-			hover: ["minecraft.water"]
-			image: "minecraft:block/water_still"
-			rotation: 0.0d
-			width: 1.0d
-			x: 43.5d
-			y: 13.5d
 		}
 		{
 			height: 1.0d
@@ -1170,7 +1062,7 @@
 		{
 			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["mekanism.oxygen"]
+			hover: ["gas.mekanism.oxygen"]
 			image: "kubejs:textures/questimg/mekanism/liqud_gasses/oxygen.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -1288,14 +1180,140 @@
 			x: 13.0d
 			y: 27.0d
 		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 33.0d
+			y: 9.0d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["gas.mekanism.steam"]
+			image: "mekanism:liquid/steam"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 21.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 21.0d
+			y: 7.0d
+		}
+		{
+			click: "#3BDD98F8F5C4608B"
+			height: 1.0d
+			hover: ["mekanism.fissle_fuel"]
+			image: "kubejs:textures/questimg/mekanism/liqud_gasses/fissle_fuel.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 35.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 35.0d
+			y: 9.0d
+		}
+		{
+			height: 7.0d
+			hover: ["turbine.mekanismgenerators.industrial_turbine"]
+			image: "kubejs:textures/questimg/mekanism/turbineside.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 38.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 38.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 34.0d
+			y: 2.0d
+		}
+		{
+			click: "#29F04CE306ED98D4"
+			color: 1926101
+			height: 1.0d
+			hover: ["block.minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 9.0d
+		}
+		{
+			click: "#29F04CE306ED98D4"
+			color: 1926101
+			height: 1.0d
+			hover: ["block.minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 34.0d
+			y: 9.0d
+		}
+		{
+			click: "#29F04CE306ED98D4"
+			color: 1926101
+			height: 1.0d
+			hover: ["block.minecraft.water"]
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 43.5d
+			y: 13.5d
+		}
 	]
 	order_index: 6
 	quest_links: [
 		{
 			id: "7F4AE40ADD97AE3B"
 			linked_quest: "017D7401B588065C"
-			x: 21.5d
-			y: 3.0d
+			x: 24.5d
+			y: 4.0d
 		}
 		{
 			id: "18EAC1D1ADB6E3AE"
@@ -1382,12 +1400,6 @@
 			y: 18.5d
 		}
 		{
-			id: "13E2277706B7A7B5"
-			linked_quest: "29F04CE306ED98D4"
-			x: 54.0d
-			y: 19.5d
-		}
-		{
 			id: "1B270012209B582D"
 			linked_quest: "10F302095CE22E91"
 			x: 35.0d
@@ -1399,6 +1411,36 @@
 			x: 37.0d
 			y: 19.5d
 		}
+		{
+			id: "64B2048D2C93E519"
+			linked_quest: "2B696CA62EB0083F"
+			x: 41.5d
+			y: 2.5d
+		}
+		{
+			id: "7FB4FFE8B76FBD1D"
+			linked_quest: "24CD759A561EB2C6"
+			x: 42.5d
+			y: 11.5d
+		}
+		{
+			id: "129A9FF27725AD3A"
+			linked_quest: "08E13E7BE1D8864D"
+			x: 41.5d
+			y: 9.5d
+		}
+		{
+			id: "074ECB8398E8A5A7"
+			linked_quest: "36698A00750FB0BD"
+			x: 29.0d
+			y: 18.5d
+		}
+		{
+			id: "1078300C64B03C60"
+			linked_quest: "58E4EE770BEE33EB"
+			x: 41.5d
+			y: 5.5d
+		}
 	]
 	quests: [
 		{
@@ -1406,7 +1448,7 @@
 				"07B80FF72157DDEC"
 				"6C69E2C1B5619EEB"
 			]
-			description: ["{quest.meka.135.desc}"]
+			description: ["Hydrofluoric acid is only used to create Uranium Hexafluoride"]
 			icon: "mekanism:hydrofluoric_acid_bucket"
 			id: "1D98380A445B84AC"
 			tasks: [{
@@ -1424,7 +1466,7 @@
 				"10741E4877447DBA"
 				"1D98380A445B84AC"
 			]
-			description: ["{quest.meka.136.desc}"]
+			description: ["Uranium Hexaflourite is the last ingredient needed to make Fissile Fuel."]
 			icon: "mekanism:uranium_hexafluoride_bucket"
 			id: "3290AD3CDB2834BE"
 			tasks: [{
@@ -1439,7 +1481,7 @@
 		}
 		{
 			dependencies: ["3290AD3CDB2834BE"]
-			description: ["{quest.meka.137.desc}"]
+			description: ["Passing Uranium Hexaflourite through Isotopic Centrefuge will make Fissile Fuel."]
 			icon: "create_enchantment_industry:ink_bucket"
 			id: "3BDD98F8F5C4608B"
 			rewards: [{
@@ -1462,7 +1504,7 @@
 		}
 		{
 			dependencies: ["0EB161BB955F8CB2"]
-			description: ["{quest.meka.133.desc}"]
+			description: ["Yellowcake Uranuim is an enriched Uranium fit for production of Fissile Fuel"]
 			id: "3C368757BA62EC6A"
 			subtitle: "The Cake is a lie"
 			tasks: [{
@@ -1474,34 +1516,8 @@
 			y: 26.0d
 		}
 		{
-			dependencies: [
-				"02A525C72F999957"
-				"459E6EAECACE32DF"
-				"0474D40050B5E0D2"
-				"0571351624C9E2BA"
-				"019EA2934414A56F"
-				"3ECC322BE9BFD6A0"
-				"5F266EDEA9E52684"
-				"35BF1D9F8D139459"
-				"21D2ECE01D979648"
-				"7BDF641DB273182F"
-				"78FA150F447544C8"
-			]
-			description: ["{quest.meka.111.desc}"]
-			icon: "mekanismgenerators:turbine_blade"
-			id: "6C6DB3009BA6DEE6"
-			tasks: [{
-				elapsedTime: 1L
-				id: "60763D2567C42E54"
-				type: "questsadditions:time"
-			}]
-			title: "{quest.meka.111.title}"
-			x: 41.5d
-			y: 6.0d
-		}
-		{
 			dependencies: ["4882C29ACF76E6CD"]
-			description: ["{quest.meka.103.desc}"]
+			description: ["Fission Reactor Casings are the base block for building the Fission Reactor being the blocks that comprise the skeleton of the multiblock"]
 			hide_details_until_startable: false
 			hide_until_deps_visible: true
 			id: "2E75442BDB40A728"
@@ -1515,7 +1531,11 @@
 		}
 		{
 			dependencies: ["510AE13EEA10D57A"]
-			description: ["{quest.meka.101.desc}"]
+			description: [
+				"A Fission Fuel Assembly is a block used in the multiblock Fission Reactor. "
+				""
+				"Fission Fuel Assembly provides maximum burn rate capacity to a Fission Reactor."
+			]
 			hide_until_deps_visible: true
 			id: "49C5EF3A52F1578C"
 			tasks: [{
@@ -1531,7 +1551,15 @@
 				"2E75442BDB40A728"
 				"0A12FEEA09B6D99B"
 			]
-			description: ["{quest.meka.104.desc}"]
+			description: [
+				"Fission Reactor Ports are used by a Fission Reactor for Input/Output. "
+				""
+				"Any reactor will need no less than 4 for: "
+				"&bCoolant&r Input"
+				"&0Fissile Fuel&r Input"
+				"&6Nuclear Waste&r Output"
+				"&7Steam&r Output"
+			]
 			id: "4AB946FD927013AD"
 			shape: "circle"
 			subtitle: "In-N-Out"
@@ -1545,35 +1573,45 @@
 		}
 		{
 			dependencies: ["2E75442BDB40A728"]
-			description: ["{quest.meka.105.desc}"]
+			description: [
+				"A Fission Reactor Logic Adapter is a block used to remotely control a Fission Reactor. "
+				""
+				"With one installed, the user can use various events or conditions to control the reactor automatically with no manual input. This is useful for prevention of meltdowns. "
+				""
+				"&8Also has intigration with CC: Tweaked&r"
+			]
 			id: "699D4CEBDED9D90B"
-			shape: "rsquare"
+			shape: "circle"
 			subtitle: "Only Logical Solution"
 			tasks: [{
 				id: "2B29DB28B983E687"
 				item: "mekanismgenerators:fission_reactor_logic_adapter"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 1.0d
+			x: 20.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["16FAA83B048985DD"]
-			description: ["{quest.meka.100.desc}"]
+			description: ["Reactor Glass can be used to provide a view into the Fission Reactor. It can be used in place of Reactor Frame when building the Reactor, but cannot be placed on edges."]
 			hide_until_deps_visible: true
 			id: "7776B4E09E926234"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				id: "3F0E26249DC6997C"
 				item: "mekanismgenerators:reactor_glass"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 2.0d
+			x: 18.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0A12FEEA09B6D99B"]
-			description: ["{quest.meka.102.desc}"]
+			description: [
+				"A Control Rod Assembly is a component for the Fission Reactor, they are placed on top of Fission Fuel Assemblies."
+				""
+				"&8Control rods should not touch each other. Optimal control rod density can be achieved by placing them in a checkerboard pattern. Cooling is penaltized if control rods touch each other.&r"
+			]
 			hide_until_deps_visible: true
 			id: "15438CE8A83216DF"
 			subtitle: "Controlling the Fission"
@@ -1587,7 +1625,12 @@
 		}
 		{
 			dependencies: ["0FA29031A0EA42BA"]
-			description: ["{quest.meka.107.desc}"]
+			description: [
+				"Smallest possible Mekanism Fission Reactor. Although its max burn rate is only 1mb/t this is good option for new players, as the smaller burn rate means more room for errors and more time to fix them. "
+				""
+				"To build it follow the image to the left of the quest. "
+				"At first all ports will be &aGreen&r (Input) but can be changed with shift + right click while holding a Configurator to &bBlue&r (Steam output, connect to Turbine) and &eYellow&r (waste output, connect to waste management)."
+			]
 			hide_dependent_lines: true
 			icon: "createdeco:decal_warning"
 			id: "44A44400940480E0"
@@ -1600,27 +1643,66 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["14E68D38AA35147C"]
+			dependencies: [
+				"459E6EAECACE32DF"
+				"0474D40050B5E0D2"
+				"0571351624C9E2BA"
+				"019EA2934414A56F"
+				"3ECC322BE9BFD6A0"
+				"78FA150F447544C8"
+				"35BF1D9F8D139459"
+				"21D2ECE01D979648"
+				"7BDF641DB273182F"
+			]
 			description: [
-				"{quest.meka.110.desc}"
+				"The Industrial Turbine multiblock structure is used to produce power from steam. "
 				""
-				"{quest.meka.110.1.desc}"
+				"The steam is generated by a fission reactor directly, or by heating up water in the Thermoelectric Boiler with superheated sodium produced by a fission reactor."
+				""
+				"&lConstruction Notes&r:"
+				""
+				"- Orientation can only be vertical."
+				"- &9Length&r and &cWidth&r (x,z) must be equal (the base must be a square)."
+				"- Minimal turbine size is &b5x5&r base with 5 blocks high."
+				"- Maximum turbine size is &a17x17&r base with 18 blocks high."
+				"- &eRotor Height&r = (&cWIDTH&r * 2) - 5 The width of the base of the turbine only limits its rotor height "
+				"- &dFlow rate&r is determined by tank volume times dispersers or by vents - whichever is less. Each vent adds 32,000mB/t of flow rate, and each disperser can disperse 1,280mB/t of flow per block of interior volume."
+				"- Energy production = &dFLOW&rx&eROTOR_HEIGHT&rx50RF/7"
+				"- 1 coil will support 4 blades. You'll never need more than 7 coils."
+				"- Interior may ONLY be pressure dispersers, coils, shaft, blades, rotational complex, saturating condensers or air."
+				"{@pagebreak}"
+				"&lConstruction steps&r:"
+				""
+				"- Build the base out of turbine casings and optional structural glass. (must be square) [the perimeter must be casings not glass]"
+				"- Place rotor shafts in the center, from the base to desired height."
+				"- Add turbine blades to the rotor. (two for each rotor shaft)"
+				"- Place a rotational complex on top of the rotor."
+				"- Completely fill the interior layer around the rotational complex with pressure dispersers."
+				"- Place electromagnetic coils above the dispersers. They must touch the rotational complex and each other."
+				"- Build the wireframe (the perimeters of the walls) out of turbine casings (you may have more empty layers above the coils to make room for more vents and condensers)."
+				"- Fill the walls, up to the height of the rotor, with turbine casings and/or structural glass and at least 2 turbine valves."
+				"- Put in saturating condensers anywhere above the rotational complex, except in the walls or the ceiling."
+				"- Fill the remaining walls and ceiling with turbine casings and/or turbine vents."
+				"{@pagebreak}"
+				"&lWater Cycle&r"
+				""
+				"By fitting the structure with saturating condensers, part of the steam will be refunded as water. "
+				"This is highly helpful to maintain a net positive of water in a fission reactor system. Note that the water will be outputted from turbine vents instead of valves, and that the water is not accumulated: if nothing is connected, the condensed water simply disappears."
 			]
 			hide_until_deps_visible: true
 			icon: "mekanismgenerators:turbine_blade"
 			id: "02A525C72F999957"
-			subtitle: "No i dont know why format error is here"
 			tasks: [{
 				id: "324AF67086865477"
 				type: "checkmark"
 			}]
 			title: "Turbine"
-			x: 36.0d
-			y: 6.0d
+			x: 45.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["45632A6888E7C456"]
-			description: ["{quest.meka.143.desc}"]
+			description: ["Solid Plutonium Pellet, used to recover Fissile Fuel and to craft Supercritial Phase Shifter"]
 			hide_until_deps_visible: true
 			id: "3B9C52A58DF3D1DA"
 			tasks: [{
@@ -1633,7 +1715,7 @@
 		}
 		{
 			dependencies: ["492994AA46EA170D"]
-			description: ["{quest.meka.150.desc}"]
+			description: ["Solid Polonium Pellet used to create QIO, MekaSuit, modules for it and Fusion Reactor"]
 			hide_until_deps_visible: true
 			id: "70926C93EDAFCF7A"
 			rewards: [{
@@ -1653,7 +1735,7 @@
 		}
 		{
 			dependencies: ["3B9C52A58DF3D1DA"]
-			description: ["{quest.meka.144.desc}"]
+			description: ["You can add Hydrogen Chloride to Plutonium to reclaim (80%) of Fissle Fuel used."]
 			id: "4A90D76598166235"
 			subtitle: "Fuel Recovery"
 			tasks: [{
@@ -1665,21 +1747,8 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["6C6DB3009BA6DEE6"]
-			description: ["{quest.meka.121.desc}"]
-			id: "1659DE275C71BC86"
-			tasks: [{
-				id: "66F44D2539CA7CD2"
-				type: "checkmark"
-			}]
-			title: "How to: Mekanism turbine"
-			x: 44.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["02A525C72F999957"]
-			description: ["{quest.meka.116.desc}"]
-			hide_dependency_lines: true
+			dependencies: ["24CD759A561EB2C6"]
+			description: ["[ \"Turbine Rotor is one of the block responsible for generating electricity, \", { \"text\": \"Rotor Blades\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21D2ECE01D979648\" } }, \" attach onto Rotor (2 per) and are actual block that\" ] responsible for generating power."]
 			hide_until_deps_visible: true
 			id: "7BDF641DB273182F"
 			subtitle: "Spin me right round"
@@ -1689,12 +1758,11 @@
 				type: "item"
 			}]
 			x: 43.5d
-			y: 5.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["02A525C72F999957"]
-			description: ["{quest.meka.115.desc}"]
-			hide_dependency_lines: true
+			dependencies: ["24CD759A561EB2C6"]
+			description: ["A Turbine Blade is an essential part of the Industrial Turbine. The blades are fitted into the turbine rotor, and if you right click any block that is part of the rotor shaft, it will automatically place above the lowest blade, or on the lowest level if there is no blade already on the lowest level. You can fit 2 blades per rotor block."]
 			hide_until_deps_visible: true
 			id: "21D2ECE01D979648"
 			tasks: [{
@@ -1702,13 +1770,15 @@
 				item: "mekanismgenerators:turbine_blade"
 				type: "item"
 			}]
-			x: 42.5d
-			y: 4.0d
+			x: 44.5d
+			y: 10.5d
 		}
 		{
-			dependencies: ["02A525C72F999957"]
-			description: ["{quest.meka.114.desc}"]
-			hide_dependency_lines: true
+			dependencies: [
+				"6DCDEAA1333F7DEE"
+				"24CD759A561EB2C6"
+			]
+			description: ["The Rotational Complex is a block used in the Industrial Turbine. It does nothing except as an element to assemble the Industrial Turbine. It should be placed horizontally centered in the structure, above the rotor with blades."]
 			hide_until_deps_visible: true
 			id: "35BF1D9F8D139459"
 			subtitle: "Rotational Complex? I find it quite simple actually."
@@ -1717,13 +1787,18 @@
 				item: "mekanismgenerators:rotational_complex"
 				type: "item"
 			}]
-			x: 41.5d
-			y: 4.0d
+			x: 42.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["02A525C72F999957"]
-			description: ["{quest.meka.112.desc}"]
-			hide_dependency_lines: true
+			dependencies: [
+				"14E68D38AA35147C"
+				"2B696CA62EB0083F"
+			]
+			description: [
+				"Turbine Casing is a pressure-resistant casing that is used in the creation of the Industrial Turbine multiblock structure. "
+				"This block is the base building block in creating the Industrial Turbine."
+			]
 			hide_until_deps_visible: true
 			id: "459E6EAECACE32DF"
 			subtitle: "Case it up"
@@ -1732,13 +1807,12 @@
 				item: "mekanismgenerators:turbine_casing"
 				type: "item"
 			}]
-			x: 39.5d
-			y: 5.0d
+			x: 44.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["02A525C72F999957"]
-			description: ["{quest.meka.117.desc}"]
-			hide_dependency_lines: true
+			dependencies: ["459E6EAECACE32DF"]
+			description: ["A Turbine Valve is a block used in the multiblock Industrial Turbine. Turbine Valves provide Input/Output access to Turbine for Steam, Water and Energy."]
 			hide_until_deps_visible: true
 			id: "019EA2934414A56F"
 			tasks: [{
@@ -1746,13 +1820,18 @@
 				item: "mekanismgenerators:turbine_valve"
 				type: "item"
 			}]
-			x: 39.5d
-			y: 7.0d
+			x: 45.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["02A525C72F999957"]
-			description: ["{quest.meka.118.desc}"]
-			hide_dependency_lines: true
+			dependencies: [
+				"2B696CA62EB0083F"
+				"79E5B71B36FB83DC"
+			]
+			description: [
+				"A Saturating Condenser is part of the Industrial Turbine. "
+				"[ \"It allows for some steam to revert back into the water, which can be pumped from any \", { \"text\": \"Turbine Vent\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0474D40050B5E0D2\" } }, \" (usually back into the Fission Reactor which\" ] the turbine is connected to). Saturating Condensers can be placed at or above the level of the rotational complex."
+			]
 			hide_until_deps_visible: true
 			id: "0571351624C9E2BA"
 			tasks: [{
@@ -1760,13 +1839,12 @@
 				item: "mekanismgenerators:saturating_condenser"
 				type: "item"
 			}]
-			x: 40.5d
-			y: 8.0d
+			x: 42.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["02A525C72F999957"]
-			description: ["{quest.meka.120.desc}"]
-			hide_dependency_lines: true
+			dependencies: ["459E6EAECACE32DF"]
+			description: ["Turbine Vent is the block responsible for recovery of the water after it condensed from steam. To do this connect a pipe (or port if you are doing port to port connection) and water will flow out of it if Turbine set to recover water mode."]
 			hide_until_deps_visible: true
 			id: "0474D40050B5E0D2"
 			tasks: [{
@@ -1774,27 +1852,16 @@
 				item: "mekanismgenerators:turbine_vent"
 				type: "item"
 			}]
-			x: 42.5d
-			y: 8.0d
+			x: 43.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["02A525C72F999957"]
-			description: ["{quest.meka.119.desc}"]
-			hide_dependency_lines: true
-			hide_until_deps_visible: true
-			id: "5F266EDEA9E52684"
-			tasks: [{
-				id: "5D0C4C4121E3F96B"
-				item: "mekanism:structural_glass"
-				type: "item"
-			}]
-			x: 41.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["02A525C72F999957"]
-			description: ["{quest.meka.113.desc}"]
-			hide_dependency_lines: true
+			dependencies: ["08E13E7BE1D8864D"]
+			description: [
+				"Electromagnetic Coil is necessary block for making the turbine, it should be placed above the rotational complex."
+				""
+				"&81 Electromagnetic Coil supports up to 4 Turbine Blades.&r"
+			]
 			hide_until_deps_visible: true
 			id: "3ECC322BE9BFD6A0"
 			subtitle: "Coiled Up"
@@ -1803,47 +1870,53 @@
 				item: "mekanismgenerators:electromagnetic_coil"
 				type: "item"
 			}]
-			x: 40.5d
-			y: 4.0d
+			x: 41.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["02A525C72F999957"]
 			description: [
-				"{quest.meka.turbinesize.desc}"
+				"Water based cooling is sufficient for small setups. The actual limit is for reactors with about 75 Fission Fuel Assembly. It might be possible to go higher since larger reactors run cooler than smaller ones, but the temperature of such a reactor will be above 850K, well into the &cwarning zone&r. Water cooling is ideal for players who want to start with a small-ish setup to get their feet wet with nuclear fission, or those who just don't want to bother with sodium based cooling."
 				""
-				"{quest.meka.turbinesize.1.desc}"
+				"A water cooled reactor has a heating rate of 20,000 mB of water for 1 mB of Fissile Fuel burnt. For your reactor to run smoothly, the turbine's max steam flow and max water output must be greater than the reactor's heating rate. The maximum steam flow can be seen on a turbine's main GUI, and the maximum water flow in the stats tab of the GUI."
 				""
-				"{quest.meka.turbinesize.2.desc}"
+				"{@pagebreak}"
+				"The math is pretty tedious, so just keep the following in mind:"
 				""
-				"{quest.meka.turbinesize.3.desc}"
+				"- The actual power generated per mB of Fissile Fuel depends on the number of rotor blades in the turbine. Nothing else. The actual value is about 2856 FE per blade for 1 mB of fissile fuel. For best results, do not hesitate to build a huge turbine and power it with a tiny reactor."
+				""
+				"- The width of the base of the turbine only limits its rotor height (rotor height = (width * 2) - 5)"
+				""
+				"- The limiting factor for the fissile fuel burn rate will be the minimum value between the turbine's steam flow rate (which depends on turbine size and number of turbine vents) and water flow rate (which depends on the number of condensers fitted). If need be, additional layers of condensers can be added on top of the Electromagnetic Coils layer."
 			]
-			icon: "tfmg:turbine_blade"
+			icon: "botania:cosmetic_questgiver_mark"
+			icon_scale: 1.5d
 			id: "201183C17A6A37B5"
-			subtitle: "{quest.meka.turbinesize.subtitle}"
+			shape: "rsquare"
 			tasks: [{
 				id: "40A16E9E0590B6B9"
 				title: "{quest.checkmark.ok}"
 				type: "checkmark"
 			}]
-			title: "{quest.meka.turbinesize.title}"
-			x: 36.0d
-			y: 4.0d
+			title: "Turbine Size Guide"
+			x: 41.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["02A525C72F999957"]
-			hide_dependency_lines: true
+			dependencies: ["24CD759A561EB2C6"]
+			description: ["[ \"Preassure dispersers are used in Turbine, place them on one layer with \", { \"text\": \"Rotational Complex\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35BF1D9F8D139459\" } }, \".\" ]"]
 			id: "78FA150F447544C8"
 			tasks: [{
 				id: "200EDAF5F6664836"
 				item: "mekanism:pressure_disperser"
 				type: "item"
 			}]
-			x: 43.5d
-			y: 7.0d
+			x: 45.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["3C368757BA62EC6A"]
-			description: [""]
+			description: ["Uranium Oxide is only used to create Uranium Hexafluoride"]
 			icon: "mekanism:uranium_oxide_bucket"
 			id: "10741E4877447DBA"
 			tasks: [{
@@ -1940,13 +2013,13 @@
 				item: "mekanism:sps_port"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.0d
 			y: 20.5d
 		}
 		{
 			dependencies: [
 				"70926C93EDAFCF7A"
-				"5C67B180ADE04E14"
+				"36698A00750FB0BD"
 			]
 			id: "774950A79BBA0C54"
 			tasks: [{
@@ -1956,17 +2029,6 @@
 			}]
 			x: 28.0d
 			y: 19.5d
-		}
-		{
-			dependencies: ["08E13E7BE1D8864D"]
-			id: "5C67B180ADE04E14"
-			tasks: [{
-				id: "73ECCA7DC64B9803"
-				item: "mekanism:laser"
-				type: "item"
-			}]
-			x: 29.0d
-			y: 18.5d
 		}
 		{
 			dependencies: [
@@ -2267,13 +2329,10 @@
 			}]
 			title: "Tritium"
 			x: 49.0d
-			y: 13.5d
+			y: 12.5d
 		}
 		{
-			dependencies: [
-				"1DABC7B3C0706F1F"
-				"29F04CE306ED98D4"
-			]
+			dependencies: ["1DABC7B3C0706F1F"]
 			description: ["10 mB of Heavy Water can be extracted from a water source block via an electric pump with a filter upgrade installed."]
 			icon: "mekanism:heavy_water_bucket"
 			id: "30BBFC85B25DC92F"
@@ -2344,8 +2403,77 @@
 				"15438CE8A83216DF"
 				"4AB946FD927013AD"
 			]
+			description: [
+				"&lConstruction&r"
+				""
+				"- The structure must be a cuboid of minimum outside size 3x4x3 (along X, Y and Z), up to 18x18x18."
+				""
+				"- The edges of the outer shell must be made of Fission Reactor Casing"
+				""
+				"- The faces of the outer shell can be either Fission Reactor Casing, Reactor Glass, Fission Reactor Port or Fission Reactor Logic Adapter"
+				""
+				"- The interior of the cube can be either air or fission control rods"
+				""
+				"   - A control rod is formed by a 1x1 column made of 1 to 15 Fission Fuel Assembly and a single Control Rod Assembly at the top. "
+				""
+				"   - Optimal control rod density can be achieved by placing them in a checkerboard pattern. Cooling is penaltized if control rods touch each other"
+				""
+				"A fission reactor requires at least 4 Fission Reactor Ports:"
+				"&bCoolant&r Input"
+				"&0Fissile Fuel&r Input"
+				"&6Nuclear Waste&r Output"
+				"&7Steam&r Output"
+				"{@pagebreak}"
+				"&lStatus&r"
+				""
+				"To activate the reactor, either click the green activation button, or send asignal to a Fission Reactor Logic Adapter configured in activation mode."
+				""
+				"The reactor stops when a player clicks the red &cSCRAM&r button or if a signal is sent to logic adapter."
+				""
+				"&lHeating Rate&r"
+				""
+				"The heating rate represents how much coolant is heated up per tick. The actual value depends on the burn rate. For a burn rate of one 1 mB/t, the heating rate is:"
+				""
+				"20,000 mB/t for a water cooled reactor"
+				"200,000 mB/t for a sodium cooled reactor"
+				""
+				"&lTemperature&r"
+				""
+				"The core's temperature:"
+				"&agreen&r (< 600K)"
+				"&eyellow&r (>600K <1000K)"
+				"&6orange&r (>1000K <1200K)"
+				"&cred&r (>1200K): the reactor will take structural damage beyond this point."
+				""
+				"&lDamage&r"
+				""
+				"This indicates the actual structural damage of the reactor. When a reactor reaches critical temperature, it will start taking damage and this value will go up. The damage value of a reactor that has overheated but been stopped on time to prevent a meltdown will slowly go down on its own, no player intervention is needed."
+				"{@pagebreak}"
+				"&lStats tab&r"
+				""
+				"The burn rate is the rate at which the reactor will burn Fissile Fuel. For a newly formed reactor, it is automatically set to 0.1 mB/t. It can be changed in the reactor's statistics tab. &8The maximum burn rate is 1 mB/t per Fission Fuel Assembly in the reactor&r"
+				""
+				"&lCooling and power production&r"
+				""
+				"Cooling a fission reactor and converting the generated heat into power can be done in two ways: water cooling and sodium based cooling. Regardless of the cooling solution, an Industrial Turbine will be the actual power generator."
+				""
+				"&lNuclear Waste handling&r"
+				""
+				"As a byproduct of burning Fissile Fuel, fission reactors produce Nuclear Waste which can be converted in Polonium Pellets, Plutonium Pellets or Antimatter Pellets. The first two produce Spent Nuclear Waste as a byproduct (at a ratio of 1:10), while Antimatter production is a completely clean process (i.e. no radioactive byproducts)."
+				""
+				"Nuclear Waste can also be made into reprocessed fuel fragments, which allows for 80% of used fuel to be recovered"
+				""
+				"{@pagebreak}"
+				""
+				"&lMeltdown&r"
+				""
+				"&n&o&l&4AVOID&r&r&r&r"
+			]
 			icon: "mekanismgenerators:fission_fuel_assembly"
 			id: "0FA29031A0EA42BA"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Nuclear Reactor Manual"
 			tasks: [{
 				elapsedTime: 1L
 				id: "0A2FF4E17A31883F"
@@ -2528,6 +2656,18 @@
 			title: "Modules"
 			x: 35.0d
 			y: 19.5d
+		}
+		{
+			dependencies: ["14E68D38AA35147C"]
+			description: ["this  is WIP but theres a immersive like industrial turbine if u want u can use it or someting"]
+			id: "059E7FC72529953B"
+			tasks: [{
+				id: "7DA7A7FABC4C17BA"
+				title: "turbine"
+				type: "checkmark"
+			}]
+			x: 34.0d
+			y: 1.0d
 		}
 	]
 	title: "Uranium Age"
