@@ -292,6 +292,12 @@
 				"4B09A7791718993F"
 			]
 			id: "62E36E0488B38500"
+			rewards: [{
+				count: 4
+				id: "316CC9F3E1BE8725"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7EEC342BC4FE97AA"
 				item: "create:polished_rose_quartz"
@@ -523,6 +529,12 @@
 				"3A7557AC37DD96D9"
 			]
 			id: "3B464C781BE9B0AD"
+			rewards: [{
+				count: 4
+				id: "1CE324C0D51D1F20"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DD85200FFD56B6A"
 				item: "create:sturdy_sheet"
