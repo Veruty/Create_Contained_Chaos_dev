@@ -52,12 +52,6 @@
 			y: -4.0d
 		}
 		{
-			id: "2216260D6EB2C493"
-			linked_quest: "0E26D8711F2FDDE4"
-			x: -6.0d
-			y: -1.0d
-		}
-		{
 			id: "2BE9A5A6249AF44B"
 			linked_quest: "70BB713A10F8868C"
 			x: 16.5d
@@ -68,6 +62,12 @@
 			linked_quest: "3AD3293C7E0AFE5E"
 			x: -1.5d
 			y: 3.5d
+		}
+		{
+			id: "3F74230ADCCF3B45"
+			linked_quest: "47977E9BC4B3F5F3"
+			x: -6.0d
+			y: -1.0d
 		}
 	]
 	quests: [
@@ -701,7 +701,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0E26D8711F2FDDE4"]
+			dependencies: ["47977E9BC4B3F5F3"]
 			hide_until_deps_complete: true
 			icon: "minecraft:andesite"
 			id: "42AA25C1E9AF0537"

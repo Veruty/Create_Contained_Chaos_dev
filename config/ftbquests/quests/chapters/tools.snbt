@@ -393,9 +393,9 @@
 				id: "751C5D7190C5A12A"
 				item: {
 					Count: 1
-					id: "ftbfiltersystem:smart_filter"
+					id: "itemfilters:tag"
 					tag: {
-						"ftbfiltersystem:filter": "or(item_tag(create:sandpaper))"
+						value: "create:sandpaper"
 					}
 				}
 				title: "Any #create:sandpaper"

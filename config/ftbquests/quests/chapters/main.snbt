@@ -16,12 +16,6 @@
 	order_index: 3
 	quest_links: [
 		{
-			id: "3774B770F9EED5DA"
-			linked_quest: "0E26D8711F2FDDE4"
-			x: -6.5d
-			y: -0.5d
-		}
-		{
 			id: "2385235F97CBC144"
 			linked_quest: "1A54443AF5949C4B"
 			x: 3.5d
@@ -171,10 +165,16 @@
 			x: 32.0d
 			y: 0.5d
 		}
+		{
+			id: "12C721B34EFE14D5"
+			linked_quest: "47977E9BC4B3F5F3"
+			x: -6.5d
+			y: -0.5d
+		}
 	]
 	quests: [
 		{
-			dependencies: ["0E26D8711F2FDDE4"]
+			dependencies: ["47977E9BC4B3F5F3"]
 			hide_until_deps_complete: true
 			id: "560CEE76D704AD3F"
 			tasks: [{
@@ -256,7 +256,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0E26D8711F2FDDE4"]
+			dependencies: ["47977E9BC4B3F5F3"]
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "12CC1F7C26B181D4"

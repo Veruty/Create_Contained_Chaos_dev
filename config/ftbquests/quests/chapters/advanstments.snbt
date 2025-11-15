@@ -202,16 +202,6 @@
 			y: 0.5d
 		}
 		{
-			id: "43A400F2042ECF91"
-			tasks: [{
-				id: "502589787AC8C160"
-				title: "what"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 0.5d
-		}
-		{
 			dependencies: ["0E26D8711F2FDDE4"]
 			hide_until_deps_complete: true
 			id: "2B1936D93DBECB8F"

@@ -13,10 +13,15 @@
 		y: 3.25d
 	}]
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "7D217565DA874F7C"
+		linked_quest: "47977E9BC4B3F5F3"
+		x: 0.5d
+		y: -6.0d
+	}]
 	quests: [
 		{
-			dependencies: ["0E26D8711F2FDDE4"]
+			dependencies: ["47977E9BC4B3F5F3"]
 			hide_until_deps_complete: true
 			id: "799063E3A36FD472"
 			tasks: [{

@@ -7,14 +7,14 @@
 	id: "1866028A07209555"
 	order_index: 1
 	quest_links: [{
-		id: "7382D31BA0CBD8B2"
-		linked_quest: "0E26D8711F2FDDE4"
-		x: -2.0d
+		id: "79D5709F513E1561"
+		linked_quest: "47977E9BC4B3F5F3"
+		x: 0.0d
 		y: 1.5d
 	}]
 	quests: [
 		{
-			dependencies: ["0E26D8711F2FDDE4"]
+			dependencies: ["47977E9BC4B3F5F3"]
 			description: ["To get started in Biomancy, you must collect various meat types, rotten flesh, and an ender pearl to create Primordial Cores."]
 			id: "021D775B26534B09"
 			rewards: [{

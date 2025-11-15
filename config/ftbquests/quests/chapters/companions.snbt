@@ -6,14 +6,14 @@
 	id: "124D5C6D7704A5F4"
 	order_index: 2
 	quest_links: [{
-		id: "079692E4A2E7FE2F"
-		linked_quest: "0E26D8711F2FDDE4"
+		id: "656D1987C601432F"
+		linked_quest: "47977E9BC4B3F5F3"
 		x: -1.5d
 		y: -1.5d
 	}]
 	quests: [
 		{
-			dependencies: ["0E26D8711F2FDDE4"]
+			dependencies: ["47977E9BC4B3F5F3"]
 			description: ["Begin your legendary adventure to pet and make friends with all frien shaped entities :3"]
 			hide_until_deps_complete: true
 			id: "2B39F7FCAA1EC5E9"

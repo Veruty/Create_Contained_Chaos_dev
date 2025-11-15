@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "overworld"
 	group: "4BCA08601609B5F5"
+	hide_quest_until_deps_complete: true
 	icon: "minecraft:grass_block"
 	id: "4C168ABDC3A90CA4"
 	order_index: 0
@@ -33,21 +34,21 @@
 			y: -5.0d
 		}
 		{
-			id: "426B453A375BBF04"
-			linked_quest: "0E26D8711F2FDDE4"
-			x: -7.5d
-			y: -3.0d
-		}
-		{
 			id: "69C1D199064A8FEB"
 			linked_quest: "7F8F6CB4674626C1"
 			x: -4.5d
 			y: -2.0d
 		}
+		{
+			id: "4E0A66D6AB3E474B"
+			linked_quest: "47977E9BC4B3F5F3"
+			x: -5.5d
+			y: -3.0d
+		}
 	]
 	quests: [
 		{
-			dependencies: ["2914EB6824015651"]
+			dependencies: ["47977E9BC4B3F5F3"]
 			icon: "minecraft:oak_log"
 			id: "2B89F0F9A63C590A"
 			tasks: [{
@@ -69,19 +70,6 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0E26D8711F2FDDE4"]
-			hide_until_deps_complete: true
-			id: "2914EB6824015651"
-			subtitle: "might be buggy, close quests and open again"
-			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "07E30949E80929CA"
-				type: "dimension"
-			}]
-			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -162,7 +150,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2914EB6824015651"]
+			dependencies: ["47977E9BC4B3F5F3"]
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
 			id: "526A77EEB8CB20F6"
@@ -177,7 +165,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2914EB6824015651"]
+			dependencies: ["47977E9BC4B3F5F3"]
 			icon: "minecraft:budding_amethyst"
 			id: "715945E33F35CF4C"
 			tasks: [{
