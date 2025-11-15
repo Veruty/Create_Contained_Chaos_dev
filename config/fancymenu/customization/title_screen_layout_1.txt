@@ -9,11 +9,12 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:40f5773c-10e5-4e95-8f11-4d4302abc119-1748602568755] = [groups:][instances:]
+  [loading_requirement_container_meta:c0edd289-66cb-42de-ac11-5b96bc380794-1763079487845] = [groups:][instances:]
 }
 
 menu_background {
   slideshow_name = title_slideshow
+  instance_identifier = 5a8ed71a-f857-4343-b203-1857747eea80-1763079487845
   background_type = slideshow
 }
 
