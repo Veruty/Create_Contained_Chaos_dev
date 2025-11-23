@@ -32,3 +32,5 @@ usercache.json
 usernamecache.json
 estrogenconfig.zip
 config/oculus.properties
+config/framedblocks-client.toml
+config/oculus.properties
