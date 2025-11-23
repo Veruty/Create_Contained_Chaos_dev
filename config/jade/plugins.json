@@ -1,4 +1,7 @@
 {
+  "framedblocks": {
+    "framed_item_frame": true
+  },
   "enderchests": {
     "hud": true
   },
@@ -131,9 +134,6 @@
     "hud.rgb16": true,
     "hud": true,
     "hud.redstone": true
-  },
-  "appliedcooking": {
-    "kitchen_station": true
   },
   "delightful": {
     "crop_progress": true,

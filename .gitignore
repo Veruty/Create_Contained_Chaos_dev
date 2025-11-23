@@ -31,6 +31,10 @@ user-prefs.json
 usercache.json
 usernamecache.json
 estrogenconfig.zip
-config/oculus.properties
 config/framedblocks-client.toml
 config/oculus.properties
+config/embeddium-options.json
+config/sound_physics_remastered/allowed_sounds.properties
+.gitignore
+config/voicechat
+
