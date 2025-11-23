@@ -8,10 +8,6 @@ ServerEvents.tags('item', e => {
 	e.add('create_new_age:nuclear/hazmat_suit', 'mekanism:mekasuit_bodyarmor')
 	e.add('create_new_age:nuclear/hazmat_suit', 'mekanism:mekasuit_pants')
 	e.add('create_new_age:nuclear/hazmat_suit', 'mekanism:mekasuit_boots')
-	e.add('create_new_age:nuclear/hazmat_suit', 'destroy:gas_mask')
-	e.add('create_new_age:nuclear/hazmat_suit', 'destroy:hazmat_suit')
-	e.add('create_new_age:nuclear/hazmat_suit', 'destroy:hazmat_leggings')
-	e.add('create_new_age:nuclear/hazmat_suit', 'destroy:wellington_boots')
 })
 
 ServerEvents.tags('block', e => {
