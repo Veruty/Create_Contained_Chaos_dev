@@ -25,7 +25,7 @@ ServerEvents.recipes(e => {
 e.custom(
     {"type":"mekanism:nucleosynthesizing"
         ,"duration":1000
-        ,"gasInput":{"amount":25,"gas":"mekanism:antimatter"}
+        ,"gasInput":{"amount":1,"gas":"mekanism:antimatter"}
         ,"itemInput":{"ingredient":{"item":"minecraft:netherite_scrap"}}
         ,"output":{"item":"minecraft:netherite_ingot"}}
     )
