@@ -109,21 +109,6 @@ event.shaped(
     }
 )
 
-event.shaped(
-    Item.of('extendedcrafting:ultimate_auto_table'),
-    [
-        'ABA',
-        'CDC',
-        'AEA'
-    ],
-    {
-        A: 'extendedcrafting:crystaltine_catalyst',
-        D: 'extendedcrafting:ultimate_table',
-        C: 'ae2:energy_cell',
-        E: 'ae2:energy_acceptor',
-        B: 'create:precision_mechanism'
-    }
-)
 //basic table 
 event.shapeless('kubejs:sturdy_iron_composite', ['createdeco:industrial_iron_sheet','create:sturdy_sheet','createdeco:industrial_iron_sheet'])
 event.recipes.createPressing('extendedcrafting:black_iron_slate', 'kubejs:sturdy_iron_composite').id('kjscreate:pressing/black_iron_slate_from_sturdy_iron_composite')
