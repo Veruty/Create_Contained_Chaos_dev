@@ -1,22 +1,17 @@
 ServerEvents.recipes(event => {
-
- 
-	
-	event.remove({ output: 'create:spout' })
 	event.shaped(
-    Item.of('create:spout'),
+    Item.of('create:spout', 2),
     [
         ' A ',
         ' B ',
         '   '
     ],
     {
-        B: '#kubejs:create_kelp_rubber',
+        B: 'thermal:cured_rubber',
         A: 'create:copper_casing'
     })
-	event.remove({ output: 'create:andesite_funnel' })
 	event.shaped(
-    Item.of('create:andesite_funnel', 2),
+    Item.of('create:andesite_funnel', 4),
     [
         ' A ',
         ' B ',
@@ -24,11 +19,10 @@ ServerEvents.recipes(event => {
     ],
     {
         A: 'create:andesite_alloy',
-        B: '#kubejs:create_kelp_rubber'
+        B: 'thermal:cured_rubber'
     })
-	event.remove({ output: 'create:andesite_tunnel' })
 	event.shaped(
-    Item.of('create:andesite_tunnel', 2),
+    Item.of('create:andesite_tunnel', 4),
     [
         'AA ',
         'BB ',
@@ -36,11 +30,10 @@ ServerEvents.recipes(event => {
     ],
     {
         A: 'create:andesite_alloy',
-        B: '#kubejs:create_kelp_rubber'
+        B: 'thermal:cured_rubber'
     })
-	event.remove({ output: 'create:brass_funnel' })
 	event.shaped(
-    Item.of('create:brass_funnel', 2),
+    Item.of('create:brass_funnel', 4),
     [
         ' A ',
         ' B ',
@@ -49,11 +42,10 @@ ServerEvents.recipes(event => {
     {
         B: 'create:brass_ingot',
         A: 'create:electron_tube',
-        C: '#kubejs:create_kelp_rubber'
+        C: 'thermal:cured_rubber'
     })
-	event.remove({ output: 'create:brass_tunnel' })
 	event.shaped(
-    Item.of('create:brass_tunnel', 2),
+    Item.of('create:brass_tunnel', 4),
     [
         'A  ',
         'BB ',
@@ -62,18 +54,17 @@ ServerEvents.recipes(event => {
     {
         B: 'create:brass_ingot',
         A: 'create:electron_tube',
-        C: '#kubejs:create_kelp_rubber'
+        C: 'thermal:cured_rubber'
     })
-	event.remove({ output: 'create:belt_connector' })
 	event.shaped(
-    Item.of('create:belt_connector'),
+    Item.of('create:belt_connector', 6),
     [
         '   ',
         'AAA',
         'AAA'
     ],
     {
-        A: '#kubejs:create_kelp_rubber'
+        A: 'thermal:cured_rubber'
     })
 	event.remove({ id: 'thermal:rubber_3' })
 	event.custom(
