@@ -9,16 +9,7 @@ ServerEvents.recipes(e => {
 	//e.remove({ id: 'createsifter:advanced_brass_mesh' })
 	//e.remove({ id: 'createsifter:sifting/sand_string_mesh' })
 	
-	//pig iron - steel fix
-	
-	e.remove({ id: 'blocksyouneed_luna:pig_iron' })
-	e.shapeless(
-		Item.of('blocksyouneed_luna:pig_iron_ingot', 8),
-		[
-		'8x minecraft:iron_ingot',
-		'minecraft:coal'
-		]
-	)
+
 	e.remove({ id: 'createdieselgenerators:crafting/oil_barrel' })
 	e.shaped('createdieselgenerators:oil_barrel', [
 		'I  ',

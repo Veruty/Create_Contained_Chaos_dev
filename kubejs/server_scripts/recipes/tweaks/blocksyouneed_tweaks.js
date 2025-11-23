@@ -13,4 +13,12 @@ ServerEvents.recipes(e => {
         A: '#forge:ingots/steel'
     }
 )
+	e.remove({ id: 'blocksyouneed_luna:pig_iron' })
+	e.shapeless(
+		Item.of('blocksyouneed_luna:pig_iron_ingot', 8),
+		[
+		'8x minecraft:iron_ingot',
+		'minecraft:coal'
+		]
+	)
 })
