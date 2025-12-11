@@ -37,4 +37,5 @@ config/embeddium-options.json
 config/sound_physics_remastered/allowed_sounds.properties
 .gitignore
 config/voicechat
-
+config/ponder-client.toml
+config/embeddium-options.json
