@@ -514,3 +514,11 @@ config/visualworkbench-client.toml
 config/voicechat-client.toml
 config/waystones-common.toml
 config/zeta-common.toml
+config/soulsweapons/soulsweapons_chungus_tonic_whitelist.json
+config/soulsweapons/soulsweapons_client.json
+config/soulsweapons/soulsweapons.json
+config/corpsecurioscompat-common.toml
+config/transition.json
+config/trender.json
+config/Mekanism/client.toml
+config/Mekanism/common.toml
