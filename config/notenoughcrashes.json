@@ -1,7 +1,0 @@
-{
-  "disableReturnToMainMenu": false,
-  "catchInitializationCrashes": true,
-  "debugModIdentification": true,
-  "crashLimit": 20,
-  "catchGameloop": true
-}
