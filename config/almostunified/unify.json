@@ -29,7 +29,8 @@
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}"
+    "forge:storage_blocks/raw_{material}",
+    "forge:dusts/wood"
   ],
   "materials": [
     "aeternium",
@@ -78,6 +79,7 @@
     "tin",
     "tungsten",
     "uranium",
+    "quartz",
     "zinc"
   ],
   "priorityOverrides": {},

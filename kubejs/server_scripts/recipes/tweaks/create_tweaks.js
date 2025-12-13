@@ -67,21 +67,5 @@ ServerEvents.recipes(event => {
         A: 'thermal:cured_rubber'
     })
 	event.remove({ id: 'thermal:rubber_3' })
-	event.custom(
-	{
-  "type": "thermal:refinery",
-  "ingredient": {
-    "fluid": "thermal:latex",
-    "amount": 1000
-  },
-  "result": [
-    {
-      "item": "thermal:rubber",
-	  "amount": 4
-    }
-  ],
-  "energy": 4000,
-  "experience": 0.2
-}
-	)
+
 })

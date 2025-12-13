@@ -9,7 +9,6 @@ ServerEvents.recipes(e => {
         S: 'create:cogwheel',
         C: 'create:andesite_casing'
     })
-    e.custom({"type":"mekanism:crushing","input":{"ingredient":{"tag":"forge:gems/sulfur"}},"output":{"item":"thermal:sulfur_dust"}})
 	e.remove({ id: 'thermal:device_tree_extractor' })
 	e.shaped('thermal:device_tree_extractor', [
         'PMP',
@@ -225,7 +224,7 @@ e.custom({
       "item": "thermal:obsidian_glass"
     },
     "C": {
-      "item": "thermal:invar_gear"
+      "item": "thermal:bronze_gear"
     }
   },
   "result": {
@@ -233,4 +232,21 @@ e.custom({
   }
 })
 	e.recipes.create.mixing('4x thermal:bronze_ingot', ['#forge:ingots/tin','3x #forge:ingots/copper']).heated()
+    	e.custom(
+	{
+  "type": "thermal:refinery",
+  "ingredient": {
+    "fluid": "thermal:latex",
+    "amount": 1000
+  },
+  "result": [
+    {
+      "item": "thermal:rubber",
+	  "amount": 4
+    }
+  ],
+  "energy": 4000,
+  "experience": 0.2
+}
+	)
 })
