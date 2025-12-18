@@ -138,7 +138,7 @@ event.shaped(
     ],
     {
         A: 'thermal:invar_gear',
-        B: 'immersiveengineering:component_iron',
+        B: 'immersiveengineering:component_steel',
         C: 'extendedcrafting:black_iron_slate'
     }
 )
