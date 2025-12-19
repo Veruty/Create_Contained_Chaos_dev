@@ -1,8 +1,8 @@
 ServerEvents.recipes(e => {
 	
-    e.remove({ id: 'estrogen:sequenced_assembly/estrogen_patch' })
-    e.remove({ id: 'estrogen:centrifuge' })
-    e.remove({ id: 'estrogen:filling/estrogen_pill' })
+    e.remove({ id: 'createestrogen:sequenced_assembly/estrogen_patch' })
+    e.remove({ id: 'createestrogen:centrifuge' })
+    e.remove({ id: 'createestrogen:filling/estrogen_pill' })
 	e.recipes.create.mixing('estrogen:dream_bottle', [Fluid.of('estrogen:liquid_estrogen', 250), '2x minecraft:ender_pearl', 'minecraft:glass_bottle']).heated()
 	e.recipes.create.compacting('estrogen:estrogen_pill', [Fluid.of('estrogen:liquid_estrogen', 250)])
     e.recipes.create.mechanical_crafting('estrogen:estrogen_patches', [
@@ -12,7 +12,7 @@ ServerEvents.recipes(e => {
         P: 'minecraft:paper',
         S: 'minecraft:slime_ball'
     })
-    e.shaped('estrogen:centrifuge', [
+    e.shaped('createestrogen:centrifuge', [
         'BPB',
         'STS',
         'BPB'
