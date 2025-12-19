@@ -9,13 +9,13 @@
 		{
 			id: "614A529F17D2592E"
 			linked_quest: "2CE4BA59C410B6D0"
-			x: -4.0d
-			y: -1.0d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			id: "519B71DD14ADE441"
 			linked_quest: "296FA8F8EC272B9D"
-			x: -0.5d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -27,19 +27,19 @@
 		{
 			id: "5B87C4FB8EE1161E"
 			linked_quest: "13CB61FC5BFC4E2D"
-			x: -4.0d
-			y: -4.5d
+			x: -5.0d
+			y: -6.0d
 		}
 		{
 			id: "175147EF7527B6CF"
 			linked_quest: "2BFC92DFA01B92FD"
-			x: 0.5d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
 			id: "56FB71B554711A75"
 			linked_quest: "708B40933E0040FD"
-			x: -2.0d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -69,14 +69,14 @@
 		{
 			id: "65B969CC180FEDC3"
 			linked_quest: "5F412B939501E126"
-			x: 1.5d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
 			id: "5E8CAD710D6A1E2F"
 			linked_quest: "6D59BFAA88A72943"
-			x: -4.0d
-			y: -6.5d
+			x: -7.0d
+			y: -6.0d
 		}
 		{
 			id: "49F9B9C11FB0F93F"
@@ -87,7 +87,7 @@
 		{
 			id: "3BBE627D93614F13"
 			linked_quest: "7083FA0AF9A0304C"
-			x: 3.5d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -99,7 +99,7 @@
 		{
 			id: "7B65942CC29068EE"
 			linked_quest: "50D71D45609DA8CF"
-			x: 2.5d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -136,6 +136,7 @@
 			description: ["Does exactly as it says, its a cog with crank wheel attached to it"]
 			icon: "create_connected:crank_wheel"
 			id: "7AE75BB65C7D9E4E"
+			min_required_tasks: 1
 			tasks: [
 				{
 					id: "1FB57F9BD24E27A3"
@@ -148,8 +149,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -3.0d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["296FA8F8EC272B9D"]
@@ -159,7 +160,7 @@
 				item: "create_connected:inverted_clutch"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.5d
 			y: -3.0d
 		}
 		{
@@ -181,7 +182,7 @@
 				item: "create_connected:inverted_gearshift"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -208,7 +209,7 @@
 				type: "item"
 			}]
 			title: "Parallel Gearbox"
-			x: -1.5d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
@@ -235,7 +236,7 @@
 				type: "item"
 			}]
 			title: "6-way Gearbox"
-			x: -2.5d
+			x: -4.5d
 			y: -3.0d
 		}
 		{
@@ -312,7 +313,7 @@
 				item: "create_connected:brake"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
@@ -326,7 +327,7 @@
 				item: "create_connected:shear_pin"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -7.0d
 			y: -8.0d
 		}
 		{
@@ -348,7 +349,7 @@
 				item: "create_connected:fluid_vessel"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -381,7 +382,7 @@
 				item: "create_connected:linked_transmitter"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.5d
 			y: -3.0d
 		}
 		{

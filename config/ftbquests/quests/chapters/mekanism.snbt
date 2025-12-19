@@ -1521,7 +1521,7 @@
 			y: 8.5d
 		}
 	]
-	order_index: 5
+	order_index: 3
 	quest_links: [
 		{
 			id: "03011F2C97537CE8"

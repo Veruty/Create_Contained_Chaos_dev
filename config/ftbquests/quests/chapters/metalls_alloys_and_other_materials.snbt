@@ -9,8 +9,8 @@
 		{
 			id: "1E31F0AF196F9617"
 			linked_quest: "7B196B74898CA9AD"
-			x: 0.5d
-			y: -4.5d
+			x: -7.5d
+			y: -2.5d
 		}
 		{
 			id: "5B4C77838E1831FF"
@@ -93,7 +93,7 @@
 		{
 			id: "139FB5DB8463DB56"
 			linked_quest: "76B2BB9B75D05F17"
-			x: -7.5d
+			x: 2.5d
 			y: -2.5d
 		}
 		{
@@ -117,8 +117,8 @@
 		{
 			id: "12FFEC0C207A3F38"
 			linked_quest: "2063D6C58019E165"
-			x: -8.5d
-			y: -3.5d
+			x: -9.5d
+			y: -4.5d
 		}
 		{
 			id: "2509DF9665B62E2F"
@@ -876,8 +876,8 @@
 				type: "item"
 			}]
 			title: "Sulfur"
-			x: 2.5d
-			y: -2.5d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -902,7 +902,7 @@
 			}]
 			title: "Sulfur Dust"
 			x: 1.5d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -940,7 +940,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -1012,7 +1012,7 @@
 				type: "item"
 			}]
 			title: "Uranium Ingot"
-			x: 1.5d
+			x: -8.5d
 			y: -3.5d
 		}
 		{
@@ -1572,6 +1572,36 @@
 			}]
 			x: 0.5d
 			y: -2.5d
+		}
+		{
+			dependencies: [
+				"38EF70B69144C26D"
+				"6ECF805F53CBBEF2"
+				"76B2BB9B75D05F17"
+			]
+			id: "423C0A0C288EFD8C"
+			tasks: [{
+				id: "5A706AEB5A6C1654"
+				item: {
+					Count: 1
+					id: "thermal:xp_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11993546792DCF90"]
+			id: "38EF70B69144C26D"
+			tasks: [{
+				id: "0210959D82C8EBA8"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
 		}
 	]
 	title: "Metalls, Alloys and Other Stuff"

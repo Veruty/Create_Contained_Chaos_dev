@@ -389,6 +389,7 @@
 		{
 			dependencies: ["42AA25C1E9AF0537"]
 			id: "3C000001D46F4ADA"
+			shape: "hexagon"
 			tasks: [{
 				id: "751C5D7190C5A12A"
 				item: {
@@ -650,10 +651,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"3AD3293C7E0AFE5E"
-				"2933765446705F2D"
-			]
+			dependencies: ["3AD3293C7E0AFE5E"]
 			id: "5BC4166217EE3746"
 			tasks: [{
 				id: "78FB43549F90BCEE"
@@ -683,10 +681,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"3AD3293C7E0AFE5E"
-				"2933765446705F2D"
-			]
+			dependencies: ["3AD3293C7E0AFE5E"]
 			id: "45924C04AA899369"
 			tasks: [{
 				id: "53CC9AA8011F9EC1"
@@ -718,7 +713,6 @@
 		{
 			dependencies: [
 				"3410A7C9AAFDDF9D"
-				"2BB0C5E6BF2353AD"
 				"34716F03D4E67B4E"
 			]
 			id: "7626338EC1AE3DC4"

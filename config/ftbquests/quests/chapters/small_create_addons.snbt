@@ -14,12 +14,6 @@
 			y: -0.5d
 		}
 		{
-			id: "5293044C90CD608E"
-			linked_quest: "7A0BDC9A8F3E23A6"
-			x: -7.0d
-			y: -0.5d
-		}
-		{
 			id: "202410A8A2F12883"
 			linked_quest: "3C000001D46F4ADA"
 			x: -6.0d
@@ -64,10 +58,7 @@
 	]
 	quests: [
 		{
-			dependencies: [
-				"7A0BDC9A8F3E23A6"
-				"3C000001D46F4ADA"
-			]
+			dependencies: ["3C000001D46F4ADA"]
 			id: "1C897FB72A14682E"
 			tasks: [{
 				id: "7AC93DE506386F92"
@@ -80,7 +71,7 @@
 		{
 			dependencies: [
 				"74837414C3A22899"
-				"7A0BDC9A8F3E23A6"
+				"66E0DE92D75D0873"
 			]
 			description: [
 				"Printer is used to duplicate books (even enchanted ones)."

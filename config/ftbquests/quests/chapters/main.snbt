@@ -22,12 +22,6 @@
 			y: -3.0d
 		}
 		{
-			id: "458AA5C8C07C4EF0"
-			linked_quest: "4B42E4188B81507A"
-			x: 12.5d
-			y: 2.0d
-		}
-		{
 			id: "6756239C78DB5B91"
 			linked_quest: "53327BB505D158D7"
 			x: 9.5d
@@ -171,6 +165,12 @@
 			x: -6.5d
 			y: -0.5d
 		}
+		{
+			id: "480E4EAB1E811E56"
+			linked_quest: "5F984322D0752EE2"
+			x: 12.5d
+			y: 2.0d
+		}
 	]
 	quests: [
 		{
@@ -237,8 +237,8 @@
 			dependencies: ["74837414C3A22899"]
 			id: "201B07117D78B0C6"
 			tasks: [{
-				id: "7DF240F9307961FD"
-				item: "immersiveengineering:component_iron"
+				id: "4EFBF98E6AD4E411"
+				item: "immersiveengineering:component_steel"
 				type: "item"
 			}]
 			x: 3.5d
@@ -294,9 +294,9 @@
 		}
 		{
 			dependencies: [
-				"4B42E4188B81507A"
 				"3A0FC8A2B89BD5AC"
 				"4AECF6CD33D2D13D"
+				"5F984322D0752EE2"
 			]
 			id: "715C04F6C77E73EB"
 			size: 1.5d

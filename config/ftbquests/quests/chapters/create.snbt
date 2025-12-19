@@ -30,24 +30,25 @@
 		{
 			id: "36D99D66D703569B"
 			linked_quest: "62675A010097C976"
-			x: 20.5d
-			y: -8.0d
+			x: 19.5d
+			y: -7.0d
 		}
 		{
 			id: "03C7E3F34F3AA52C"
 			linked_quest: "015431AF0A5996BD"
-			x: 18.5d
-			y: -8.0d
+			x: 17.5d
+			y: -7.0d
 		}
 		{
 			id: "3D57151D31F1CD4D"
 			linked_quest: "105461943A1C44CE"
-			x: 8.5d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
 			id: "7781B84DBA5796DF"
 			linked_quest: "7AE75BB65C7D9E4E"
+			shape: "hexagon"
 			x: -0.5d
 			y: -4.0d
 		}
@@ -58,16 +59,28 @@
 			y: 1.0d
 		}
 		{
-			id: "3F346A5E0B5D62C6"
-			linked_quest: "3AD3293C7E0AFE5E"
-			x: -1.5d
-			y: 3.5d
-		}
-		{
 			id: "3F74230ADCCF3B45"
 			linked_quest: "47977E9BC4B3F5F3"
 			x: -6.0d
 			y: -1.0d
+		}
+		{
+			id: "4EC23EDBF79B9BF2"
+			linked_quest: "064FDEF8EF3D31EB"
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			id: "1F018880FD600ACC"
+			linked_quest: "5B2F0ADC98DFCBF5"
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			id: "408ED42FF69ACCCD"
+			linked_quest: "423C0A0C288EFD8C"
+			x: 4.5d
+			y: -9.0d
 		}
 	]
 	quests: [
@@ -191,29 +204,23 @@
 				"When receiving input from any input side (sides with a shaft shape), the Gearbox will output/relay rotational power in opposite spin for all of the remaining sides. In another word, when the input is clockwise, the output on the other 3 sides will be anti-clockwise, and vice-versa."
 			]
 			id: "708B40933E0040FD"
-			tasks: [{
-				id: "3D33D35FB1167A41"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "create:vertical_gearbox"
-							}
-							{
-								Count: 1b
-								id: "create:gearbox"
-							}
-						]
-					}
+			min_required_tasks: 1
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "11DFB9ACB95A29FA"
+					item: "create:gearbox"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "39F8DF43CF65004D"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
 			title: "Gearbox"
-			x: 4.5d
-			y: 1.0d
+			x: 9.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7DBC7E2955637282"]
@@ -236,7 +243,7 @@
 				item: "create:gearshift"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -252,7 +259,7 @@
 				item: "create:encased_chain_drive"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -290,8 +297,8 @@
 				item: "create:cuckoo_clock"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7DBC7E2955637282"]
@@ -306,8 +313,8 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.0d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7DBC7E2955637282"]
@@ -347,8 +354,8 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7DBC7E2955637282"]
@@ -377,15 +384,15 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: -2.0d
+			x: 8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7DBC7E2955637282"]
 			description: [
 				"The Mechanical Piston is a piston that can push Contraptions when powered with Rotational Power."
 				""
-				"To extend, the Piston must have Piston Extension Poles at the end as well as Rotational power. The maximum extension pole length is 64 blocks, and this can be changed in the Config."
+				"To extend, the Piston must have Piston Extension Poles at the end as well as Rotational power. The maximum extension pole length is 64 blocks."
 				""
 				"When the rotation is reversed, the piston will retract. The end must be made sticky with a Slimeball to bring the pushed blocks back with it."
 				""
@@ -455,8 +462,8 @@
 				type: "item"
 			}]
 			title: "We do a little trolling"
-			x: 9.5d
-			y: -4.0d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7B196B74898CA9AD"]
@@ -480,7 +487,7 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -514,7 +521,6 @@
 			]
 			id: "31ED22752767F572"
 			tasks: [{
-				count: 2L
 				id: "001B595F3CA69037"
 				item: "create:andesite_funnel"
 				type: "item"
@@ -538,7 +544,6 @@
 			]
 			id: "770BCA67195C96C3"
 			tasks: [{
-				count: 2L
 				id: "7320A2966B9D66CF"
 				item: "create:andesite_tunnel"
 				type: "item"
@@ -598,20 +603,6 @@
 		{
 			dependencies: ["42AA25C1E9AF0537"]
 			hide_dependency_lines: true
-			id: "020C916765400198"
-			tasks: [{
-				id: "48248A3745AA7BE6"
-				item: "minecraft:kelp"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"020C916765400198"
-				"3AD3293C7E0AFE5E"
-			]
 			id: "092216D2A1FCF195"
 			min_required_tasks: 1
 			shape: "hexagon"
@@ -628,7 +619,7 @@
 				}
 			]
 			x: 0.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["092216D2A1FCF195"]
@@ -649,7 +640,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -842,8 +833,8 @@
 				item: "create:mechanical_drill"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["74837414C3A22899"]
@@ -904,8 +895,8 @@
 				item: "create:chute"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -4.0d
+			x: 16.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["74837414C3A22899"]
@@ -925,7 +916,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["74837414C3A22899"]
@@ -1034,7 +1025,7 @@
 				item: "create:mechanical_plough"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 21.5d
 			y: 0.0d
 		}
 		{
@@ -1067,7 +1058,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3DD064405C55BF12"]
@@ -1090,10 +1081,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"3DD064405C55BF12"
-				"4557E86F1F23C768"
-			]
+			dependencies: ["4557E86F1F23C768"]
 			description: [
 				"The Stock Link is used to connect Packagers to Logistics Networks."
 				""
@@ -1126,7 +1114,7 @@
 				type: "item"
 			}]
 			x: 21.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0DB6B4A64ABE831A"]
@@ -1166,6 +1154,7 @@
 			]
 			icon: "create:water_wheel"
 			id: "6217A88DB7994CD6"
+			min_required_tasks: 1
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1255,6 +1244,7 @@
 			]
 			id: "67B38F75568A3EA1"
 			min_required_tasks: 1
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "333D682F91104DC5"
@@ -1287,8 +1277,8 @@
 				item: "create:redstone_requester"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 4.0d
+			x: 8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CC3F21F326F4047"]
@@ -1305,8 +1295,8 @@
 				item: "create:stock_ticker"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.0d
+			x: 12.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["74837414C3A22899"]
@@ -1403,7 +1393,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["02018B311BB8EE74"]
@@ -1431,7 +1421,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["02018B311BB8EE74"]
@@ -1459,7 +1449,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["02018B311BB8EE74"]
@@ -1487,7 +1477,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["02018B311BB8EE74"]
@@ -1515,7 +1505,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["02018B311BB8EE74"]
@@ -1534,7 +1524,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -10.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["02018B311BB8EE74"]
@@ -1562,7 +1552,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -13.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["75867133DC826B4C"]
@@ -1575,7 +1565,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -10.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["75867133DC826B4C"]
@@ -1587,7 +1577,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["75867133DC826B4C"]
@@ -1599,7 +1589,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["02018B311BB8EE74"]
@@ -1630,7 +1620,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -12.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["02018B311BB8EE74"]
@@ -1658,10 +1648,13 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -12.0d
+			y: -10.0d
 		}
 		{
-			dependencies: ["02018B311BB8EE74"]
+			dependencies: [
+				"02018B311BB8EE74"
+				"423C0A0C288EFD8C"
+			]
 			description: [
 				"{info.thermal.device_xp_condenser.0}"
 				""
@@ -1688,7 +1681,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7CD7A649C0AD6C9C"]
@@ -1700,7 +1693,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["7CD7A649C0AD6C9C"]
@@ -1712,18 +1705,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["540B8F2F48D9A41C"]
-			id: "2064ABD3F0A682D4"
-			tasks: [{
-				id: "6D31F30E674E85BE"
-				item: "thermal:area_radius_augment"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -12.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7B196B74898CA9AD"]
@@ -1734,22 +1716,21 @@
 			]
 			id: "0623BCE92F179F21"
 			min_required_tasks: 1
+			shape: "hexagon"
 			tasks: [
 				{
-					count: 3L
 					id: "04279E8A71FEED2B"
 					item: "create:linear_chassis"
 					type: "item"
 				}
 				{
-					count: 3L
 					id: "0779A18D778724A6"
 					item: "create:radial_chassis"
 					type: "item"
 				}
 			]
 			title: "Chassis"
-			x: 1.5d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -1785,6 +1766,182 @@
 			}]
 			x: 24.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["7083FA0AF9A0304C"]
+			id: "35BACE818EA06318"
+			tasks: [{
+				id: "4875262BCBC8E02A"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7083FA0AF9A0304C"]
+			id: "4F8BC723069B57B1"
+			min_required_tasks: 1
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "34D88A8C3CC1E9E1"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "1AC1B93A4A546C67"
+					item: "create_connected:fluid_vessel"
+					type: "item"
+				}
+			]
+			title: "Fluid Tank"
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E6F52C321CD84BD"]
+			id: "66E0DE92D75D0873"
+			tasks: [{
+				id: "778BD5D79A585F66"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66E0DE92D75D0873"]
+			description: [
+				"The Portable Fluid Interface is the fluid version of the Portable Storage Interface. It is used to insert or extract from the fluid inventory of a Contraption."
+				""
+				"The Interfaces must be placed facing each other at 1-2 blocks apart, one on a Contraption with Fluid Tanks and one stationary. A Fluid Pump is required to insert or extract liquid from the Contraption. To pump liquids to another tank, simply connect the stationary interface and the fluid tank with fluid pipes, although pumps are required to move the liquids."
+			]
+			id: "3174717639AB8C15"
+			tasks: [{
+				id: "5FBC42FD20479E67"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35BACE818EA06318"]
+			id: "79376EA1DDFFFD39"
+			tasks: [{
+				id: "2AB09CF5275198E0"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74837414C3A22899"
+				"35BACE818EA06318"
+			]
+			hide_dependency_lines: false
+			id: "526DAD5166DA270D"
+			tasks: [{
+				id: "37BF15878BE10976"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66E0DE92D75D0873"]
+			id: "02167DF438CAA9CF"
+			tasks: [{
+				id: "42ECF150FC1946FB"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66E0DE92D75D0873"]
+			id: "09875CED1F353DB0"
+			tasks: [{
+				id: "3D5E8CE61327332D"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6ED2850F351B1E86"
+				"6E6F52C321CD84BD"
+			]
+			id: "1349E5071D05771D"
+			tasks: [{
+				id: "68775468CB5EDA0E"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6ED2850F351B1E86"
+				"6E6F52C321CD84BD"
+			]
+			id: "0AAF85B01949F60B"
+			tasks: [{
+				id: "318E7AF0732AD308"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6ED2850F351B1E86"]
+			id: "528EC184C3E1FEB2"
+			shape: "hexagon"
+			tasks: [{
+				id: "6C00249A191A13DB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:toolboxes"
+					}
+				}
+				title: "Any #create:toolboxes"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7083FA0AF9A0304C"]
+			id: "788C6D3A4279C099"
+			tasks: [{
+				id: "2DEAFE5426CA0DD2"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35BACE818EA06318"]
+			id: "3A86AF38F3B209B9"
+			tasks: [{
+				id: "6039E844937BE9E9"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
 		}
 	]
 	title: "Andesite Age"
