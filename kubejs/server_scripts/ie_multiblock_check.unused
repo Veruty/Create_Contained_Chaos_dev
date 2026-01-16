@@ -1,0 +1,6 @@
+const immersiveengineering = Java.loadClass("blusunrize.immersiveengineering.api.multiblocks.MultiblockHandler"); 
+
+BlockEvents.rightClicked( event => {
+ let some = immersiveengineering.MultiblockFormEvent(blusunrize.immersiveengineering.api.multiblocks.postMultiblockFormationEvent)
+ console.log(some)
+})
