@@ -33,8 +33,8 @@
 		{
 			id: "1DA74E0DD49C0C1A"
 			linked_quest: "06EAB6D86F2CE214"
-			x: -4.5d
-			y: 8.5d
+			x: -5.5d
+			y: 7.5d
 		}
 		{
 			id: "50EFFABAB8F8DF09"
@@ -51,8 +51,8 @@
 		{
 			id: "276EDE68EE914734"
 			linked_quest: "62E36E0488B38500"
-			x: -5.5d
-			y: 5.5d
+			x: -4.5d
+			y: 4.5d
 		}
 		{
 			id: "568E5E21E008B80C"
@@ -129,14 +129,14 @@
 		{
 			id: "1DFC7B86BF848F2D"
 			linked_quest: "5099494C667223FB"
-			x: -6.5d
-			y: 8.5d
+			x: -7.5d
+			y: 7.5d
 		}
 		{
 			id: "3D8A285B830E744E"
 			linked_quest: "7DC0D577FE02F5E0"
-			x: -8.5d
-			y: 8.5d
+			x: -9.5d
+			y: 7.5d
 		}
 		{
 			id: "072CB5A3BB4D092F"
@@ -226,8 +226,8 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -343,8 +343,8 @@
 				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.5d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -365,8 +365,8 @@
 				item: "create:rose_quartz"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: -3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -440,7 +440,7 @@
 				type: "item"
 			}]
 			title: "Nickel Ingot"
-			x: 0.5d
+			x: -1.5d
 			y: 3.5d
 		}
 		{
@@ -482,6 +482,7 @@
 				"0F2000A3828DD2A0"
 				"2B46651C03FEEBF0"
 				"3B56434268E39A91"
+				"1F015069E9EBA587"
 			]
 			dependency_requirement: "one_completed"
 			id: "2B696CA62EB0083F"
@@ -525,8 +526,8 @@
 				item: "mekanism:ingot_osmium"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -674,7 +675,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1157,8 +1158,8 @@
 				type: "item"
 			}]
 			title: "Unstable Alloy"
-			x: -9.5d
-			y: 7.5d
+			x: -8.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1BF2B00BBDA7C6C3"]
@@ -1230,67 +1231,6 @@
 			}]
 			x: -5.5d
 			y: -0.5d
-		}
-		{
-			dependencies: [
-				"11993546792DCF90"
-				"1582AF37FFA4377D"
-			]
-			dependency_requirement: "one_completed"
-			id: "3123D52AC1B8CF3A"
-			rewards: [{
-				count: 16
-				id: "35D3C554D62357B2"
-				item: "projectred_core:electrotine_dust"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6A586E9246A9025B"
-				item: "projectred_core:electrotine_dust"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"1582AF37FFA4377D"
-				"0F2000A3828DD2A0"
-			]
-			id: "7BE888D10B42AAB1"
-			rewards: [{
-				count: 4
-				id: "6466E2B22945B495"
-				item: "projectred_core:red_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2E5EE5C756FA75D9"
-				item: "projectred_core:red_ingot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: [
-				"3123D52AC1B8CF3A"
-				"0F2000A3828DD2A0"
-			]
-			id: "1DA29DFD625C6707"
-			rewards: [{
-				count: 4
-				id: "5372B9DEA6A47E69"
-				item: "projectred_core:electrotine_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5CBECEDE7871B469"
-				item: "projectred_core:electrotine_ingot"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -1380,8 +1320,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.5d
+			x: -6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["38C8AFE8CD2C4A1E"]
@@ -1396,8 +1336,8 @@
 				item: "create:refined_radiance"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.5d
+			x: -7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["38C8AFE8CD2C4A1E"]
@@ -1412,8 +1352,8 @@
 				item: "create:shadow_steel"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 7.5d
+			x: -6.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1AD413372CC6676D"]
@@ -1454,10 +1394,8 @@
 				"7B196B74898CA9AD"
 				"2A6F014969A34A39"
 				"49FBA3E87E3985CE"
-				"1DA29DFD625C6707"
 				"2D32F8A06B3EB8C9"
 				"45A995501A9FD040"
-				"7BE888D10B42AAB1"
 				"06EAB6D86F2CE214"
 				"13DB6781627E18E8"
 				"6359276B4243403D"
@@ -1549,8 +1487,8 @@
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.5d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [

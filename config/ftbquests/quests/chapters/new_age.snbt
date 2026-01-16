@@ -771,7 +771,7 @@
 		}
 		{
 			dependencies: ["74837414C3A22899"]
-			description: ["Although nuclear reactor can run without any casing, it will irradiate everything near it, so to prevent it create Reactor Casing out of bricks and iron plates."]
+			description: ["Although nuclear reactor can run without any casing, it will irradiate everything near it. To prevent this create Reactor Casing out of bricks and iron plates."]
 			id: "093AC2384829FB11"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -873,7 +873,7 @@
 				"58A0BD7E2D932964"
 				"093AC2384829FB11"
 			]
-			description: ["{quest.na.41.desc}"]
+			description: ["Used to extract heat from running Nuclear Reactor."]
 			id: "425FC18CD62C5B95"
 			rewards: [{
 				exclude_from_claim_all: true

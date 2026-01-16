@@ -662,8 +662,10 @@
 				"7F1FC387AB804DD8"
 				"0F2000A3828DD2A0"
 			]
+			dependency_requirement: "one_completed"
 			description: ["The Iron Sheet is a crafting component used in multiple crafting recipes."]
 			id: "74837414C3A22899"
+			min_required_dependencies: 1
 			rewards: [{
 				count: 6
 				id: "149A909D8A1FED8E"

@@ -312,6 +312,28 @@
 			x: -2.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["47977E9BC4B3F5F3"]
+			id: "171FDF2B8C722A82"
+			tasks: [{
+				id: "286F061ECA793327"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["526A77EEB8CB20F6"]
+			id: "01DE21B47940CFA4"
+			tasks: [{
+				id: "2DAD70A5027022B4"
+				item: "minecraft:sandstone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
 	]
 	title: "Overworld"
 }
