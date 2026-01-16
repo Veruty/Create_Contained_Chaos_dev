@@ -1,0 +1,33 @@
+{
+    "parent": "immersiveengineering:main/craft_hammer",
+    "criteria": {
+        "form_multiblock": {
+            "conditions": {
+                "item": {
+                    "items": [
+                        "immersiveengineering:hammer"
+                    ]
+                },
+                "multiblock": "immersiveengineering:multiblocks/alloy_smelter"
+            },
+            "trigger": "immersiveengineering:multiblock_formed"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": { "text": "Form the Alloy Klin Multiblock" },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "immersiveengineering:alloy_smelter"
+        },
+        "show_toast": true,
+        "title": { "text": "Smeltin' like its 3500 BC"}
+    },
+    "requirements": [
+        [
+            "form_multiblock"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

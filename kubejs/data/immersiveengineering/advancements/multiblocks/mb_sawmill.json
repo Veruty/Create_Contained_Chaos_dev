@@ -1,0 +1,37 @@
+{
+    "parent": "immersiveengineering:multiblocks/multiblocks_root",
+    "criteria": {
+        "form_multiblock": {
+            "conditions": {
+                "item": {
+                    "items": [
+                        "immersiveengineering:hammer"
+                    ]
+                },
+                "multiblock": "immersiveengineering:multiblocks/sawmill"
+            },
+            "trigger": "immersiveengineering:multiblock_formed"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Form the Sawmill Multiblock"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "immersiveengineering:sawmill"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "You saw that coming, didn't you?"
+        }
+    },
+    "requirements": [
+        [
+            "form_multiblock"
+        ]
+    ],
+    "sends_telemetry_event": false
+}
