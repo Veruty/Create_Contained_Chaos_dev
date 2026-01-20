@@ -1,0 +1,43 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "connections": [
+    {
+        "type": "is_same_block"
+    },
+    {
+      "type": "match_block",
+      "block": "mekanism:basic_induction_provider"
+    },
+    {
+      "type": "match_block",
+      "block": "mekanism:advanced_induction_provider"
+    },
+    {
+      "type": "match_block",
+      "block": "mekanism:elite_induction_provider"
+    },
+    {
+      "type": "match_block",
+      "block": "mekanism:basic_induction_cell"
+    },
+    {
+      "type": "match_block",
+      "block": "mekanism:advanced_induction_cell"
+    },
+    {
+      "type": "match_block",
+      "block": "mekanism:elite_induction_cell"
+    },
+    {
+      "type": "match_block",
+      "block": "mekanism:ultimate_induction_cell"
+    }
+  ],
+  "parent": "mekanism:block/template/cube_all_led_glow",
+  "textures": {
+    "all": "mekanism:block/fct/ultimate_induction_provider",
+    "led": "mekanism:block/ultimate_induction_provider_led",
+    "glow": "mekanism:block/ultimate_induction_provider_glow"
+  }
+}

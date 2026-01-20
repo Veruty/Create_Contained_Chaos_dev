@@ -1,0 +1,40 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "particle": "#particle",
+        "down": "#down",
+        "up": "#up",
+		"up_led": "#up_led",
+        "north": "#h_side",
+        "east": "#h_side",
+        "south": "#h_side",
+        "west": "#h_side"
+    },
+    "elements": [
+        {
+			"name":"machine",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#down", "cullface": "down" },
+                "up":    { "texture": "#up", "cullface": "up" },
+                "north": { "texture": "#north", "cullface": "north" },
+                "south": { "texture": "#south", "cullface": "south" },
+                "west":  { "texture": "#west", "cullface": "west" },
+                "east":  { "texture": "#east", "cullface": "east" }
+            }
+        },
+		{
+			"name":"led",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16.02, 16 ],
+            "faces": {
+                "up":    { "texture": "#up_led", "cullface": "up" }
+            },
+			"forge_data": {
+                "block_light": 15,
+                "sky_light": 15
+           }
+        }
+    ]
+}

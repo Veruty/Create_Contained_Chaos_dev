@@ -12,5 +12,6 @@ Create quest Descriptions | took some text from https://createmod.wiki/ and http
 \kubejs\assets\kubejs\textures\questimg\IE | Screenshots of things from Immersive Engineering mod by BluSunrize(and a lot more ppl) https://www.curseforge.com/minecraft/mc-mods/immersive-engineering
 \kubejs\assets\kubejs\textures\questimg\mechanism, some things in \questimg\ | Screenshots of (a lot of) things from Mekanism mod by bradyaidanc(and a lot more ppl) https://www.curseforge.com/minecraft/mc-mods/mekanism
 \kubejs\assets\kubejs\textures\questimg\new_age, some things on \questimg\ | Screenshots of things from Create:New Age mod by nullBlade, talstoj
+\kubejs\assets\mekanism and \kubejs\assets\mekanismgenerators | things from Mekanism mod by bradyaidanc(and a lot more ppl), adapted to work with fusion by Phobos043 https://www.curseforge.com/minecraft/texture-packs/mekanism-ctm-w-fusion
 
  Giant Thanks to KJS discord for being patient with me and carrying me though my stupidity - Veruty

@@ -1,0 +1,29 @@
+{
+	"loader": "fusion:model",
+   "type": "connecting",
+   "connections": [
+        {
+         "type": "is_same_block"
+        },
+		{
+			"type": "match_block",
+            "block": "mekanismgenerators:fusion_reactor_frame"
+		},
+		{
+			"type": "match_block",
+            "block": "mekanismgenerators:fusion_reactor_port"
+		},
+		{
+			"type": "match_block",
+            "block": "mekanismgenerators:fusion_reactor_logic_adapter"
+		}
+    ],
+  "parent": "mekanism:block/format/machine",
+  "textures": {
+       "particle":"mekanismgenerators:block/fct/reactor_frame",
+        "h_side":"mekanismgenerators:block/fct/reactor_frame",
+	    "up":"mekanismgenerators:block/fct/reactor_controller",
+		"down":"mekanismgenerators:block/fct/reactor_frame",
+	    "front":"mekanismgenerators:block/fct/reactor_frame"
+    }
+}

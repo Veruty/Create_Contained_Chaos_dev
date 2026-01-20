@@ -1,0 +1,26 @@
+{
+	"loader": "fusion:model",
+   "type": "connecting",
+   "connections": [
+        {
+         "type": "is_same_block"
+        },
+		{
+			"type": "match_block",
+            "block": "mekanism:thermal_evaporation_block"
+		},
+		{
+			"type": "match_block",
+            "block": "mekanism:thermal_evaporation_valve"
+		}
+    ],
+  "parent": "mekanism:block/format/machine_led_2",
+  "textures": {
+      "particle":"mekanism:block/fct/thermal_evaporation_block",
+      "h_side":"mekanism:block/fct/thermal_evaporation_block",
+	    "up":"mekanism:block/fct/thermal_evaporation_block_top",
+		  "down":"mekanism:block/fct/thermal_evaporation_block_top",
+		  "front":"mekanism:block/fct/thermal_evaporation_controller",
+		  "front_led":"mekanism:block/thermal_evaporation_controller_on_led"
+    }
+}

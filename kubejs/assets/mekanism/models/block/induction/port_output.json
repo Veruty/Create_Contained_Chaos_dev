@@ -1,0 +1,19 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "connections": [
+    {
+        "type": "is_same_block"
+    },
+	{
+		"type": "match_block",
+		"block": "mekanism:induction_casing"
+		
+	}
+  ],
+  "parent": "mekanism:block/template/cube_all_led",
+  "textures": {
+    "all": "mekanism:block/fct/induction_port_output",
+	"led":"mekanism:block/induction_port_output_led"
+  }
+}

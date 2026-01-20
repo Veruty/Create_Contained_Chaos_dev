@@ -1,0 +1,18 @@
+{
+	"loader": "fusion:model",
+   "type": "connecting",
+   "connections": [
+        {
+         "type": "is_same_block"
+        },
+		{
+			"type": "match_block",
+            "block": "mekanism:teleporter_frame"
+		}
+    ],
+  "parent": "mekanism:block/template/cube_all_led",
+  "textures": {
+       "all": "mekanism:block/fct/teleporter",
+	   "led": "mekanism:block/fct/glow/teleporter_led"
+    }
+}

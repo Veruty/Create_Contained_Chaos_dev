@@ -1,0 +1,18 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "connections": [
+    {
+      "type": "is_same_block"
+    },
+	{
+	    "type": "match_block",
+        "block": "mekanismgenerators:reactor_glass"
+	}
+  ],
+  "render_type": "translucent",
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mekanismgenerators:block/fct/laser_focus_matrix"
+  }
+}

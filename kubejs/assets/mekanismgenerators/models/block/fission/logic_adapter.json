@@ -1,0 +1,21 @@
+{
+	"loader": "fusion:model",
+   "type": "connecting",
+   "connections": [
+        {
+            "type": "is_same_block"
+        },
+		{
+			"type": "match_block",
+            "block": "mekanismgenerators:fission_reactor_casing"
+		},
+		{
+			"type": "match_block",
+            "block": "mekanismgenerators:fission_reactor_port"
+		}
+    ],
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+       "all": "mekanismgenerators:block/fct/fission_reactor_logic_adapter"
+    }
+}

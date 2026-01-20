@@ -1,0 +1,21 @@
+{
+	"loader": "fusion:model",
+   "type": "connecting",
+   "connections": [
+        {
+         "type": "is_same_block"
+        },
+		{
+			"type": "match_block",
+            "block": "mekanism:thermal_evaporation_block"
+		},
+		{
+			"type": "match_block",
+            "block": "mekanism:thermal_evaporation_controller"
+		}
+    ],
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+       "all":"mekanism:block/fct/thermal_evaporation_valve"
+    }
+}

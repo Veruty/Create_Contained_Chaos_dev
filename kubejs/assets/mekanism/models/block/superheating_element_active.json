@@ -1,0 +1,14 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "connections": [
+    {
+      "type": "is_same_block"
+    }
+  ],
+  "parent": "mekanism:block/template/cube_all_led",
+  "textures": {
+    "all": "mekanism:block/fct/superheating_element_on",
+	"led": "mekanism:block/fct/glow/superheating_element_on_led"
+  }
+}

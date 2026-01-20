@@ -1,0 +1,21 @@
+{
+	"loader": "fusion:model",
+   "type": "connecting",
+   "connections": [
+        {
+            "type": "is_same_block"
+        },
+		{
+			"type": "match_block",
+            "block": "mekanismgenerators:turbine_casing"
+		},
+		{
+			"type": "match_block",
+            "block": "mekanismgenerators:turbine_valve"
+		}
+    ],
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+       "all": "mekanismgenerators:block/fct/turbine_vent"
+    }
+}

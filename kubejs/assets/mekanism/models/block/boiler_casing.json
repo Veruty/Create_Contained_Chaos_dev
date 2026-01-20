@@ -1,0 +1,18 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "connections": [
+    {
+        "type": "is_same_block"
+    },
+	{
+		"type": "match_block",
+		"block": "mekanism:boiler_valve"
+		
+	}
+  ],
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mekanism:block/fct/boiler_casing"
+  }
+}

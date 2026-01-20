@@ -1,0 +1,26 @@
+{
+	"loader": "fusion:model",
+   "type": "connecting",
+   "connections": [
+        {
+         "type": "is_same_block"
+        },
+		{
+			"type": "match_block",
+            "block": "mekanismgenerators:fusion_reactor_frame"
+		},
+		{
+			"type": "match_block",
+            "block": "mekanismgenerators:fusion_reactor_logic_adapter"
+		},
+		{
+			"type": "match_block",
+            "block": "mekanismgenerators:fusion_reactor_controller"
+		}
+    ],
+  "parent": "mekanism:block/template/cube_all_led",
+  "textures": {
+       "all": "mekanismgenerators:block/fct/reactor_port_output",
+	   "led": "mekanismgenerators:block/fusion_reactor_port_output_led"
+    }
+}
