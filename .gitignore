@@ -40,7 +40,6 @@ config/voicechat
 config/ponder-client.toml
 config/embeddium-options.json
 config/apotheosis/adventure.cfg
-config/apotheosis/apotheosis.cfg
 config/apotheosis/ench.cfg
 config/apotheosis/enchantments.cfg
 config/apotheosis/garden.cfg
@@ -299,3 +298,4 @@ config/createestrogen/server.toml
 config/estrogen/client.toml
 config/kittyconfig.json5
 moddata/cynosure/README.txt
+patchouli_data.json
