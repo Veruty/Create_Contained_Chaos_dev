@@ -226,7 +226,6 @@ config/pointblank-items.toml
 config/polymorph-integrations.toml
 config/projectile_damage.json
 config/ProjectRed.cfg
-config/quark-common.toml
 config/questsadditions-client.toml
 config/quickquark-common.toml
 config/railways-client.toml
