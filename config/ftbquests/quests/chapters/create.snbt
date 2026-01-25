@@ -46,19 +46,6 @@
 			y: 3.0d
 		}
 		{
-			id: "7781B84DBA5796DF"
-			linked_quest: "7AE75BB65C7D9E4E"
-			shape: "hexagon"
-			x: -0.5d
-			y: -4.0d
-		}
-		{
-			id: "2BE9A5A6249AF44B"
-			linked_quest: "70BB713A10F8868C"
-			x: 16.5d
-			y: 1.0d
-		}
-		{
 			id: "4EC23EDBF79B9BF2"
 			linked_quest: "064FDEF8EF3D31EB"
 			x: 8.5d
@@ -2023,6 +2010,25 @@
 			}]
 			x: 13.5d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"74837414C3A22899"
+				"66E0DE92D75D0873"
+			]
+			description: [
+				"Printer is used to duplicate books (even enchanted ones)."
+				""
+				"It uses Ink or Liquid Experience to duplicate books. To operate place above depot and pump fluid inside."
+			]
+			id: "5684DB50A05F2B78"
+			tasks: [{
+				id: "626533B25F84E5DD"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.5d
 		}
 	]
 	title: "Andesite Age"
