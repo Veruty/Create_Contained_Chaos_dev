@@ -151,6 +151,7 @@
 		}
 		{
 			dependencies: ["47977E9BC4B3F5F3"]
+			disable_toast: true
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
 			id: "526A77EEB8CB20F6"
