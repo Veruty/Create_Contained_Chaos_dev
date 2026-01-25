@@ -59,12 +59,6 @@
 			y: 1.0d
 		}
 		{
-			id: "3F74230ADCCF3B45"
-			linked_quest: "47977E9BC4B3F5F3"
-			x: -6.0d
-			y: -1.0d
-		}
-		{
 			id: "4EC23EDBF79B9BF2"
 			linked_quest: "064FDEF8EF3D31EB"
 			x: 8.5d
@@ -602,6 +596,11 @@
 		}
 		{
 			dependencies: ["42AA25C1E9AF0537"]
+			description: [
+				"Dried Kelp can be used to create Belts, Tunnels, Funnels, etc."
+				""
+				"Rubber can be used as a more efficient replacement for Dried Kelp for some recipies."
+			]
 			hide_dependency_lines: true
 			id: "092216D2A1FCF195"
 			min_required_tasks: 1
@@ -695,6 +694,7 @@
 		}
 		{
 			dependencies: ["47977E9BC4B3F5F3"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			icon: "minecraft:andesite"
 			id: "42AA25C1E9AF0537"
@@ -702,8 +702,10 @@
 			tasks: [{
 				disable_toast: true
 				elapsedTime: 1L
+				icon: "supplementaries:sign_post_oak"
 				id: "15CF8137B1067FED"
 				secret: true
+				title: "Autocomplete"
 				type: "questsadditions:time"
 			}]
 			title: "Andesite Age"
@@ -1771,6 +1773,15 @@
 		}
 		{
 			dependencies: ["7083FA0AF9A0304C"]
+			description: [
+				"Fluid Pipes are blocks used to transport and deal with fluids. "
+				""
+				"Normal pipes laid parallel to each other will automatically connect. Fluid Pipes can be adjacent without connecting if they have been made transparent with a Wrench."
+				""
+				"Fluid Pipes can only move one liquid at a time; if different liquids intersect, the pipe will clog."
+				""
+				"When outputting a fluid into air, the pipe will leak, spraying the fluid out in front of it. If possible, a fluid source block will be placed in the world after the pipe outputs 1000mB of fluid."
+			]
 			id: "35BACE818EA06318"
 			tasks: [{
 				id: "4875262BCBC8E02A"
@@ -1782,6 +1793,13 @@
 		}
 		{
 			dependencies: ["7083FA0AF9A0304C"]
+			description: [
+				"Can be used to store fluids. Single Fluid Tank holds up to 8 buckets of fluid"
+				""
+				"Can be joined in 2x2 or 3x3 groups, can also be stacked vertically allowing to store 2160 Buckets of fluid."
+				""
+				"Fluid Vessel is same as Fluid Tank but expands horizontally."
+			]
 			id: "4F8BC723069B57B1"
 			min_required_tasks: 1
 			shape: "hexagon"
@@ -1803,6 +1821,13 @@
 		}
 		{
 			dependencies: ["6E6F52C321CD84BD"]
+			description: [
+				"Copper Casings are blocks used throughout many crafting recipes in Create, as well as for decoration and aesthetic purposes."
+				""
+				"Casings can only be crafted through physically applying a valid alloy or ingot to any Stripped variant of Log or Wood (this later can be automated with use of Deployer). The logs will convert themselves into the casing, where the player can either mine it with their preferred tool or use a Wrench to place the casing in their inventory."
+				""
+				"Copper casings can be used on Fluid Pipes to encase them."
+			]
 			id: "66E0DE92D75D0873"
 			tasks: [{
 				id: "778BD5D79A585F66"
@@ -1830,6 +1855,13 @@
 		}
 		{
 			dependencies: ["35BACE818EA06318"]
+			description: [
+				"The Mechanical Pump is a necessary component for moving fluids with Create's fluid logistics system. It functions similarly to a Fluid Pipe and functions to push and pull fluids through connected pipes."
+				""
+				"A Mechanical Pump contains a cogwheel and can receive and relay rotation to and from other cogwheels. When this cogwheel is powered, the pump will move fluids through connected pipes, to a distance of up to fifteen blocks. If moving fluids a further distance is necessary, multiple pumps will need to be used."
+				""
+				"The direction the fluids will be moved can be reversed by right-clicking the pump with a wrench. This direction will be indicated by an arrow on the side of the pump."
+			]
 			id: "79376EA1DDFFFD39"
 			tasks: [{
 				id: "2AB09CF5275198E0"
@@ -1844,6 +1876,7 @@
 				"74837414C3A22899"
 				"35BACE818EA06318"
 			]
+			description: ["Fluid valves can be used to close or open the flow in a pipe. Fluid Valves can be switched between open and closed by providing Rotational Force to the side. This is often done with a Valve Handle or Gearshift."]
 			hide_dependency_lines: false
 			id: "526DAD5166DA270D"
 			tasks: [{
@@ -1856,6 +1889,17 @@
 		}
 		{
 			dependencies: ["66E0DE92D75D0873"]
+			description: [
+				"The Hose Pulley lets down a hose that can drain bodies of liquids. "
+				""
+				"When Rotational Force is given to the Hose Pully, it can extend the hose infinitely on the side with a Shaft sticking through. Reversing the Rotational Force will retract the hose back to the block. The hose of the Hose Pully must be extended by at least one block before it can function. "
+				""
+				"If a fluid is pumped out, it will drain a body of liquid down to the level of the hose. If multiple hose pulleys draw from the same source, it will effectively expedite the drainage process, provided that the pipe's capacity is maintained."
+				""
+				"If a fluid is pumped in, it will flood a room of any size, with the hose marking the highest point of flooding."
+				""
+				"If a liquid source is at least 10,000 blocks the Hose Pulley considers it to be infinite. (works only for some liquids)"
+			]
 			id: "02167DF438CAA9CF"
 			tasks: [{
 				id: "42ECF150FC1946FB"
@@ -1867,6 +1911,11 @@
 		}
 		{
 			dependencies: ["66E0DE92D75D0873"]
+			description: [
+				"The Spout is a block used for filling liquid containers such as bottles or buckets, or crafting with liquids. "
+				""
+				"The Spout can be filled with up to 1 bucket of any one liquid via Fluid Pipes, and it will empty some of its fluid onto compatible items that pass under it via a Conveyor Belt or Depot. The spout takes 1 second to process an item regardless of the amount of fluid used."
+			]
 			id: "09875CED1F353DB0"
 			tasks: [{
 				id: "3D5E8CE61327332D"
@@ -1880,6 +1929,11 @@
 			dependencies: [
 				"6ED2850F351B1E86"
 				"6E6F52C321CD84BD"
+			]
+			description: [
+				"The Steam Engine is a block that provides Rotational Force. It outputs the highest Stress Unit (SU) capacity of all the survival-mode power-generating blocks. "
+				""
+				"It converts the pressure caused by heating Water in a Fluid Tank into Rotational Force, allowing for large scale item production and multiple contraptions to be powered. "
 			]
 			id: "1349E5071D05771D"
 			tasks: [{
@@ -1895,6 +1949,13 @@
 				"6ED2850F351B1E86"
 				"6E6F52C321CD84BD"
 			]
+			description: [
+				"The Steam Whistle can be placed on Fluid Tanks. "
+				""
+				"The Tank must have a heat source beneath it for the Whistle to function. It can be activated by Redstone. "
+				""
+				"Right click with a Whistle in hand to extend it. The Whistle can be extended up to 12 times, playing up to 13 notes per octave. Use a Wrench to change the octave; 3 octaves are available. Engineer's Goggles can be used to view the current note. "
+			]
 			id: "0AAF85B01949F60B"
 			tasks: [{
 				id: "318E7AF0732AD308"
@@ -1906,6 +1967,13 @@
 		}
 		{
 			dependencies: ["6ED2850F351B1E86"]
+			description: [
+				"The Toolbox can hold up to 256 items per slot and has 8 slots. "
+				""
+				"The inventory is retained when picked up. Players can press the toolbox keybind (Alt by default) to access the toolbox inventory from up to 10 blocks away."
+				""
+				"Retrieving an item in this manner causes a gold border with a red indicator on the top and bottom to appear. This red indicator becomes dark red when the toolbox is out of range. "
+			]
 			id: "528EC184C3E1FEB2"
 			shape: "hexagon"
 			tasks: [{
@@ -1920,11 +1988,17 @@
 				title: "Any #create:toolboxes"
 				type: "item"
 			}]
+			title: "Toolbox"
 			x: 10.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["7083FA0AF9A0304C"]
+			description: [
+				"The Valve Handle functions much like the Hand Crank, but the amount and direction it rotates with one use can be adjusted in its Value Settings Screen. The direction of rotation can also be inverted from the Valve's settings by sneak using the Valve Handle instead of using it."
+				""
+				"The valve handle can be dyed all 16 vanilla colors by right clicking it with the respective Dye. "
+			]
 			id: "788C6D3A4279C099"
 			tasks: [{
 				id: "2DEAFE5426CA0DD2"
@@ -1936,6 +2010,11 @@
 		}
 		{
 			dependencies: ["35BACE818EA06318"]
+			description: [
+				"Sprinkles Fluids below itself."
+				""
+				"If used with water farmland below it will become hydrated. Can be used with Liquid Fertilizer to boost the growth of plants below it."
+			]
 			id: "3A86AF38F3B209B9"
 			tasks: [{
 				id: "6039E844937BE9E9"
