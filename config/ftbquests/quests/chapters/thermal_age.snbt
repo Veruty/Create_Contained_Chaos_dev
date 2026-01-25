@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "tech_3_thermal_age"
+	filename: "thermal_age"
 	group: "3C9C2CEF96DB5B0C"
 	icon: "thermal:invar_ingot"
 	id: "60B15F2FA809940C"
@@ -1296,6 +1296,7 @@
 		}
 		{
 			dependencies: ["5C25565C4D87EBA5"]
+			description: ["Increases the duration of an applied potion."]
 			id: "064FDEF8EF3D31EB"
 			tasks: [{
 				id: "705D8B67C4B3CF93"
@@ -1330,6 +1331,7 @@
 		}
 		{
 			dependencies: ["34BA955F2643EC1F"]
+			description: ["Increases the strength of an applied potion."]
 			hide_dependency_lines: true
 			id: "5B2F0ADC98DFCBF5"
 			tasks: [{

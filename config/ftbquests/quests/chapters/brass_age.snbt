@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "the_brass_age"
+	filename: "brass_age"
 	group: "3C9C2CEF96DB5B0C"
 	icon: "create:brass_ingot"
 	id: "5DC2A461D38C628B"
@@ -52,48 +52,6 @@
 			linked_quest: "074E60C5E08AC196"
 			x: 3.5d
 			y: -4.0d
-		}
-		{
-			id: "2906507B1B3F90DC"
-			linked_quest: "0119FD05D079A9C6"
-			x: -5.5d
-			y: 1.0d
-		}
-		{
-			id: "57922FA7C9501E10"
-			linked_quest: "33CD74E3EBB1CDA2"
-			x: -4.5d
-			y: 0.0d
-		}
-		{
-			id: "4DC5A85C179EC3D4"
-			linked_quest: "7A4BC7F04F299C6F"
-			x: -6.5d
-			y: 0.0d
-		}
-		{
-			id: "6520356DD83EBDF3"
-			linked_quest: "339F9F69D4B55CAE"
-			x: -6.5d
-			y: 2.0d
-		}
-		{
-			id: "6D52F579FF0ED982"
-			linked_quest: "47336215995690E2"
-			x: -4.5d
-			y: 2.0d
-		}
-		{
-			id: "07BA15A437C5629B"
-			linked_quest: "0649B9130B8D68CF"
-			x: -4.5d
-			y: 4.0d
-		}
-		{
-			id: "2466607109898503"
-			linked_quest: "74E7CE1E07DB4CD1"
-			x: -6.5d
-			y: 4.0d
 		}
 		{
 			id: "6883D933CC7BBCA3"
