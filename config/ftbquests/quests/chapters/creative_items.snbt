@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "creative_items"
-	group: ""
+	group: "71836C70060BBCB5"
 	icon: "kubejs:unstable_alloy"
 	id: "3CA63232B2291719"
-	order_index: 4
+	order_index: 1
 	quest_links: [
 		{
 			id: "1E63CA8A123348EF"

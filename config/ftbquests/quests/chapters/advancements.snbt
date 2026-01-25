@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "advancements"
-	group: ""
+	group: "572629132E60C79E"
 	icon: "minecraft:gold_block"
 	id: "36E6ACDDA0E7FD79"
 	order_index: 1

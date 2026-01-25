@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "main"
-	group: ""
+	group: "71836C70060BBCB5"
 	icon: "kubejs:sturdy_iron_composite"
 	id: "0A414D5450CE1842"
 	images: [{
@@ -13,7 +13,7 @@
 		x: 28.0d
 		y: 1.0d
 	}]
-	order_index: 3
+	order_index: 0
 	quest_links: [
 		{
 			id: "2385235F97CBC144"
@@ -180,18 +180,6 @@
 	]
 	quests: [
 		{
-			dependencies: ["47977E9BC4B3F5F3"]
-			hide_until_deps_complete: true
-			id: "560CEE76D704AD3F"
-			tasks: [{
-				elapsedTime: 1L
-				id: "0BCA2F4344B84456"
-				type: "questsadditions:time"
-			}]
-			x: -4.5d
-			y: -0.5d
-		}
-		{
 			dependencies: [
 				"2A6F014969A34A39"
 				"2B696CA62EB0083F"
@@ -263,6 +251,7 @@
 		}
 		{
 			dependencies: ["47977E9BC4B3F5F3"]
+			disable_toast: true
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "12CC1F7C26B181D4"
@@ -448,7 +437,6 @@
 		}
 		{
 			dependencies: [
-				"560CEE76D704AD3F"
 				"3B464C781BE9B0AD"
 				"45A995501A9FD040"
 			]
@@ -527,6 +515,22 @@
 			}]
 			x: 33.0d
 			y: -0.5d
+		}
+		{
+			id: "4A0D50A363959296"
+			tasks: [{
+				id: "2C925B337DD4DE43"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: { }
+				}
+				title: "Singularity"
+				type: "item"
+			}]
+			title: "Singularity"
+			x: 35.5d
+			y: 0.5d
 		}
 	]
 	title: "Main"

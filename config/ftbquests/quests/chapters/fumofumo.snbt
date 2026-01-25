@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "fumofumo"
-	group: ""
+	group: "572629132E60C79E"
 	id: "46DDF21FCF46A752"
 	images: [{
 		height: 3.0d
@@ -12,7 +12,7 @@
 		x: 7.25d
 		y: 3.25d
 	}]
-	order_index: 2
+	order_index: 0
 	quest_links: [{
 		id: "7D217565DA874F7C"
 		linked_quest: "47977E9BC4B3F5F3"
