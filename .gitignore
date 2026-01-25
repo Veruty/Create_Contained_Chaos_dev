@@ -299,3 +299,4 @@ config/estrogen/client.toml
 config/kittyconfig.json5
 moddata/cynosure/README.txt
 patchouli_data.json
+servers.dat_old
