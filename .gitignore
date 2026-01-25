@@ -235,7 +235,6 @@ config/refurbished_furniture.server.toml
 config/relics.yaml
 config/resourceful-config-web.json
 config/sebastrnlib-client.toml
-config/securitycraft-client.toml
 config/shetiphiancore-client.toml
 config/shetiphiancore.toml
 config/shimmer-client.toml
