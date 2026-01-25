@@ -10,14 +10,15 @@
 	quests: [
 		{
 			description: [
-				"Welcome to Contained Chaos, my \"fun little modpack\" that was centered (mostly) around Create (untill some idiot turned it into boneless gregtech)(nevermind)."
+				"Welcome to Contained Chaos, my \"fun little modpack\" that was centered (mostly) around Create."
 				""
-				"This quest line will guide you through everything you need to know to get started, and you can follow other quest lines to guide you through other parts of this modpack. It is recommended not to skip the questline as a lot of modded stuff is changed."
+				"This quest line will guide you through everything you need to know to get started, and you can follow other quest lines to guide you through other parts of this modpack. It is recommended not to skip the questline as some of modded stuff is changed."
 				""
 				"If you're ready to start the quest line, click the check mark! You'll also recieve some honeyed apples for some food to help you get started. :)"
 				""
 				"Note: The quest lines won't cover &oevery&r mod/feature in the modpack, and you will most likely have to figure out some things on your own."
 			]
+			disable_toast: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_complete: false
@@ -57,6 +58,7 @@
 			dependencies: ["0E26D8711F2FDDE4"]
 			description: ["this is stopgap quest, cuz ftb quest is not good"]
 			disable_toast: true
+			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:grass_block"
