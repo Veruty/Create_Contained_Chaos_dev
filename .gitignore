@@ -93,11 +93,9 @@ config/ae2ct-client.toml
 config/akashictome-common.toml
 config/alexscaves-client.toml
 config/alexscaves-general.toml
-config/alexsmobs.toml
 config/appleskin-client.toml
 config/ars_creo-common.toml
 config/ars_nouveau-client.toml
-config/ars_nouveau-common.toml
 config/ars_nouveau-server.toml
 config/attributefix.json
 config/attributeslib.cfg
@@ -299,3 +297,5 @@ config/kittyconfig.json5
 moddata/cynosure/README.txt
 patchouli_data.json
 servers.dat_old
+config/hexcasting-common.toml
+config/hexcasting-client.toml
