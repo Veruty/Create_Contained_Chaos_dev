@@ -81,47 +81,53 @@ e.recipes.create.sequenced_assembly(
 e.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "ABBCBBA",
-    "BDCECDB",
-    "BCFGFCB",
-    "CEGHGEC",
-    "BCFGFCB",
-    "BDCECDB",
-    "ABBCBBA"
+    "ABCDCBA",
+    "BEDFDEB",
+    "CDGHGDC",
+    "DFIJIFD",
+    "CDGHGDC",
+    "BEDFDEB",
+    "ABCDCBA"
   ],
   "key": {
     "A": {
-      "item": "create:copper_casing"
+      "item": "thermal:fluid_filter_augment"
     },
     "B": {
-      "item": "immersiveengineering:sheetmetal_copper"
+      "item": "thermal:cured_rubber"
     },
     "C": {
-      "item": "kubejs:incomplete_fluid_godly_alloy"
+      "item": "botania:rune_water"
     },
     "D": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:copper\"}"
+      "item": "kubejs:incomplete_fluid_godly_alloy"
     },
     "E": {
       "type": "forge:nbt",
       "item": "extendedcrafting:singularity",
       "count": 1,
-      "nbt": "{Id:\"extendedcrafting:bronze\"}"
+      "nbt": "{Id:\"extendedcrafting:copper\"}"
     },
     "F": {
       "type": "forge:nbt",
       "item": "extendedcrafting:singularity",
       "count": 1,
-      "nbt": "{Id:\"extendedcrafting:lapis_lazuli\"}"
+      "nbt": "{Id:\"extendedcrafting:bronze\"}"
     },
     "G": {
-      "item": "minecraft:bucket"
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "count": 1,
+      "nbt": "{Id:\"extendedcrafting:lapis_lazuli\"}"
     },
     "H": {
-      "item": "cookingforblockheads:sink"
+      "item": "minecraft:bucket"
+    },
+    "I": {
+      "item": "immersiveengineering:jerrycan"
+    },
+    "J": {
+      "item": "botania:open_bucket"
     }
   },
   "result": {
@@ -243,17 +249,17 @@ e.recipes.create.sequenced_assembly(
 e.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "AAABAAA",
-    "ACBDBCA",
+    "ZYABAYZ",
+    "YCBDBCY",
     "ABEFEBA",
     "BDFGFDB",
     "ABEFEBA",
-    "ACBDBCA",
-    "AAABAAA"
+    "YCBDBCA",
+    "ZYABAYZ"
   ],
   "key": {
     "A": {
-      "item": "mekanism:ultimate_induction_cell"
+      "item": "mekanism:pellet_polonium"
     },
     "B": {
       "item": "kubejs:incomplete_energy_godly_alloy"
@@ -271,7 +277,7 @@ e.custom({
       "nbt": "{Id:\"extendedcrafting:electrum\"}"
     },
     "E": {
-      "item": "ae2:dense_energy_cell"
+      "item": "ae2:spatial_cell_component_128"
     },
     "F": {
       "type": "forge:nbt",
@@ -281,6 +287,12 @@ e.custom({
     },
     "G": {
       "item": "thermal:cured_rubber"
+    },
+    "Y": {
+      "item": "mekanism:ultimate_tier_installer"
+    },
+    "Z": {
+      "item": "thermal:upgrade_augment_3"
     }
   },
   "result": {
@@ -294,72 +306,62 @@ e.recipes.create.item_application('immersiveengineering:capacitor_creative', ['i
 e.recipes.createDeploying(Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}],componentConfig:{config0:{side0:4,side1:4,side2:4,side3:4,side4:4,side5:4}}}}'), ['mekanism:ultimate_energy_cube', 'kubejs:energy_godly_alloy'])
 
 //kinetic things
-
 e.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "AAABAAA",
-    "CDBEBDC",
-    "FBGHGBF",
-    "BIJKLIB",
-    "MBNONBM",
-    "PDBQBDP",
-    "AAABAAA"
+    "ABCDCBA",
+    "BEFGFEB",
+    "CFHIHFC",
+    "JGKLMGJ",
+    "CFHNHFC",
+    "BEFGFEB",
+    "ABCDCBA"
   ],
   "key": {
     "A": {
-      "item": "createaddition:biomass_pellet_block"
+      "item": "create_enchantment_industry:hyper_experience_bottle"
     },
     "B": {
-      "item": "create:precision_mechanism"
+      "item": "create:shadow_steel"
     },
     "C": {
-      "item": "createbigcannons:nethersteel_block"
+      "item": "create:refined_radiance"
     },
     "D": {
+      "item": "createaddition:chocolate_cake"
+    },
+    "E": {
       "type": "forge:nbt",
       "item": "extendedcrafting:singularity",
       "count": 1,
       "nbt": "{Id:\"extendedcrafting:brass\"}"
     },
-    "E": {
-      "item": "create:haunted_bell"
-    },
     "F": {
-      "item": "create:refined_radiance"
+      "item": "create:precision_mechanism"
     },
     "G": {
-      "item": "create_new_age:nuclear_fuel"
+      "item": "create_new_age:overcharged_diamond"
     },
     "H": {
-      "item": "create:industrial_iron_block"
-    },
-    "I": {
-      "item": "create:crafter_slot_cover"
-    },
-    "J": {
-      "item": "createoreexcavation:raw_diamond"
-    },
-    "K": {
-      "item": "create:shaft"
-    },
-    "L": {
-      "item": "createoreexcavation:raw_redstone"
-    },
-    "M": {
-      "item": "create:shadow_steel"
-    },
-    "N": {
-      "item": "createdieselgenerators:huge_diesel_engine"
-    },
-    "O": {
-      "item": "createoreexcavation:raw_emerald"
-    },
-    "P": {
       "item": "create_confectionery:gingerbread_man"
     },
-    "Q": {
-      "item": "create_new_age:netherite_magnet"
+    "I": {
+      "item": "create_sa:steam_engine"
+    },
+    "J": {
+      "item": "createaddition:honey_cake"
+    },
+    "K": {
+      "item": "createoreexcavation:raw_diamond"
+    },
+    "L": {
+      "item": "create:andesite_alloy"
+    },
+    "M": {
+      "item": "createoreexcavation:raw_redstone"
+    },
+    "N": {
+      "item": "createoreexcavation:raw_emerald"
     }
   },
   "result": {

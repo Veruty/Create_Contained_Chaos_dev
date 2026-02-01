@@ -11,7 +11,7 @@
 		rotation: 0.0d
 		width: 1.7d
 		x: 3.5d
-		y: 5.5d
+		y: 6.5d
 	}]
 	order_index: 2
 	quest_links: [
@@ -27,7 +27,7 @@
 			linked_quest: "3C000001D46F4ADA"
 			shape: "hexagon"
 			x: 4.5d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			id: "497461186F64E53F"
@@ -56,14 +56,14 @@
 		{
 			id: "6883D933CC7BBCA3"
 			linked_quest: "5F412B939501E126"
-			x: 1.5d
+			x: -0.5d
 			y: 10.0d
 		}
 		{
 			id: "6AA48B6ED2F77711"
 			linked_quest: "2125E96C8BF3DC0C"
-			x: -7.5d
-			y: 1.0d
+			x: -6.5d
+			y: 0.0d
 		}
 		{
 			id: "448781300996154C"
@@ -74,14 +74,8 @@
 		{
 			id: "0AD12CED992427DB"
 			linked_quest: "4B09A7791718993F"
-			x: 3.5d
-			y: 0.0d
-		}
-		{
-			id: "6977E58B667D59B1"
-			linked_quest: "40111A64FF3CE372"
-			x: -0.5d
-			y: 3.5d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			id: "7F6DE2985392EE4F"
@@ -100,6 +94,12 @@
 			linked_quest: "65DE15594598930C"
 			x: 2.5d
 			y: 3.5d
+		}
+		{
+			id: "544C929E158E0914"
+			linked_quest: "51B69CE0DACBFCAE"
+			x: 3.0d
+			y: 5.0d
 		}
 	]
 	quests: [
@@ -252,29 +252,21 @@
 				"1D1FE294A7E4C824"
 				"092216D2A1FCF195"
 			]
-			id: "321E0F44F377A44A"
-			tasks: [{
-				id: "3FA45DAB847992CC"
-				item: "create:brass_funnel"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"2A6F014969A34A39"
-				"1D1FE294A7E4C824"
-				"092216D2A1FCF195"
-			]
 			id: "3D9191B0FBD9A981"
-			tasks: [{
-				id: "5010592B7A76D2FC"
-				item: "create:brass_tunnel"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -3.0d
+			tasks: [
+				{
+					id: "5010592B7A76D2FC"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					id: "02CA022CC5AEF2E5"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -591,8 +583,8 @@
 				item: "create:experience_nugget"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.0d
+			x: -1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4BCDA1E23D59D3DA"]
@@ -638,7 +630,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1D1FE294A7E4C824"]
@@ -679,6 +671,173 @@
 			}]
 			x: 1.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["4A1FAA8AFF2B1DC1"]
+			id: "3B4BAA265A3A616D"
+			tasks: [{
+				id: "072454994B6FDF83"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C6D76A468D7D0A3"]
+			id: "30E973D773403625"
+			tasks: [{
+				id: "0846AE31BE080BDC"
+				item: "create_connected:fan_smoking_catalyst"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C6D76A468D7D0A3"]
+			id: "3B4DCAE095FBA254"
+			tasks: [{
+				id: "38B9A6848CBA6AAB"
+				item: "create_connected:fan_blasting_catalyst"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C6D76A468D7D0A3"]
+			id: "40678860E16D4FA9"
+			tasks: [{
+				id: "5EBFA8E82B5AB711"
+				item: "create_connected:fan_splashing_catalyst"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C6D76A468D7D0A3"]
+			id: "0696331615BB2706"
+			tasks: [{
+				id: "2BD884BD611ED52A"
+				item: "create_connected:fan_haunting_catalyst"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A6F014969A34A39"]
+			hide_dependent_lines: true
+			id: "2C6D76A468D7D0A3"
+			tasks: [{
+				id: "56EBC0467BF37752"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3B4BAA265A3A616D"
+				"0939986F6B65AA69"
+			]
+			description: ["[ \"Made with \", { \"text\": \"Energy Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0939986F6B65AA69\" } } ]"]
+			hide_until_deps_complete: true
+			icon_scale: 0.8d
+			id: "4368C6FA43EC4EE0"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "608C1BDA8575868D"
+				item: "createaddition:creative_energy"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0F6604EA16142E25"
+				"4613272CCECC2011"
+			]
+			description: ["[ \"Made with \", { \"text\": \"Unstable Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4613272CCECC2011\" } } ]"]
+			hide_until_deps_complete: true
+			icon_scale: 0.8d
+			id: "279B5DA25E515638"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "243841333C9DEC26"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"51B69CE0DACBFCAE"
+				"7EF8903FCA281F93"
+			]
+			description: ["[ \"Made with \", { \"text\": \"Godly Kinetic Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7EF8903FCA281F93\" } } ]"]
+			hide_until_deps_complete: true
+			icon_scale: 0.8d
+			id: "6560EBF0A0DBC0A5"
+			shape: "octagon"
+			size: 1.6d
+			tasks: [{
+				id: "49520C3126A1E14F"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["259D1602E7F5F3FF"]
+			id: "1093E21876E94273"
+			tasks: [{
+				id: "013D8E66BE9FBA35"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E1AD70420CEC1FB"]
+			id: "20F4256988942B79"
+			tasks: [
+				{
+					id: "42F8897939FACD79"
+					item: "create_confectionery:gingerbread_man"
+					type: "item"
+				}
+				{
+					id: "347CE01985AE62F0"
+					item: "create_confectionery:gingerdough"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5B073DB6C4609529"
+				"558178D79A181CAD"
+			]
+			id: "2D178E9438B16484"
+			tasks: [{
+				id: "042C606370EDE1B4"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
 		}
 	]
 	title: "Brass Age"

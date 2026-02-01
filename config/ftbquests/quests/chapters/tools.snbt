@@ -4,18 +4,18 @@
 	filename: "tools"
 	group: "53B219EDA5E606F4"
 	id: "3ACDE05DA650E838"
-	order_index: 0
+	order_index: 1
 	quest_links: [
 		{
 			id: "547BF02A61F82CB2"
 			linked_quest: "16DC5CDD7C89F395"
-			x: 1.5d
-			y: 2.0d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			id: "2C1FBDE6BECB334C"
 			linked_quest: "5FB7F9FD671703FF"
-			x: 7.5d
+			x: 6.0d
 			y: 3.5d
 		}
 		{
@@ -33,8 +33,8 @@
 		{
 			id: "621C6162928A67F9"
 			linked_quest: "7DBC7E2955637282"
-			x: 0.0d
-			y: 2.0d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			id: "62664FB538267916"
@@ -45,26 +45,26 @@
 		{
 			id: "5475D687B29AEF06"
 			linked_quest: "74837414C3A22899"
-			x: 1.5d
-			y: 0.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			id: "2187AA9A5BCC92CA"
 			linked_quest: "2A6F014969A34A39"
 			x: 9.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			id: "3BABDBDEAB319548"
 			linked_quest: "5E791AEF5A169DBF"
-			x: 7.5d
-			y: 0.5d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
 			id: "28CC9968E4275C72"
 			linked_quest: "4A38E8A0FF183640"
-			x: 3.0d
-			y: 0.5d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			id: "25FE6B1247F1B3DC"
@@ -76,7 +76,7 @@
 			id: "59301553ECC09F29"
 			linked_quest: "259D1602E7F5F3FF"
 			x: 9.0d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			id: "022F781C3490CE27"
@@ -87,26 +87,26 @@
 		{
 			id: "34BA34AAB977247D"
 			linked_quest: "3DD8F79E6FCD8697"
-			x: 9.0d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
 			id: "02535C11216A7840"
 			linked_quest: "3AD3293C7E0AFE5E"
-			x: 0.0d
-			y: -1.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			id: "6EAF891EA05CF541"
 			linked_quest: "37B06FC941C75A60"
-			x: -4.5d
-			y: -7.0d
+			x: 0.0d
+			y: -8.5d
 		}
 		{
 			id: "618CE09945CD2745"
 			linked_quest: "6DCDEAA1333F7DEE"
-			x: -3.0d
-			y: -8.5d
+			x: -1.5d
+			y: -10.0d
 		}
 		{
 			id: "7518A8E221525E07"
@@ -117,14 +117,14 @@
 		{
 			id: "057E011A52137399"
 			linked_quest: "000099F56EB2D52B"
-			x: -1.5d
-			y: -2.5d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			id: "4E2D521FDFFB6472"
 			linked_quest: "34716F03D4E67B4E"
-			x: -6.0d
-			y: -2.5d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			id: "27D171E5F9A6BCD7"
@@ -135,26 +135,44 @@
 		{
 			id: "51132579810069D4"
 			linked_quest: "2B696CA62EB0083F"
-			x: -4.5d
-			y: -2.5d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			id: "05A4D54C431406B3"
 			linked_quest: "128647FAFC8D7F71"
-			x: 0.0d
-			y: -8.5d
+			x: 4.5d
+			y: -5.5d
 		}
 		{
 			id: "576BFFFE3FE3D69A"
 			linked_quest: "2FC88C6AD3272AEF"
-			x: 1.5d
-			y: -8.5d
+			x: 4.5d
+			y: -7.0d
 		}
 		{
 			id: "6FB95AE20BC2025C"
 			linked_quest: "2D2776326FEDAEB3"
 			x: 3.0d
-			y: -8.5d
+			y: -5.5d
+		}
+		{
+			id: "3239F3C36B8A8E67"
+			linked_quest: "1093E21876E94273"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "0BD271F6332B1DDD"
+			linked_quest: "0F2000A3828DD2A0"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "15BB24A90AFE3341"
+			linked_quest: "70926C93EDAFCF7A"
+			x: 3.0d
+			y: -7.0d
 		}
 	]
 	quests: [
@@ -173,7 +191,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7B196B74898CA9AD"]
@@ -373,7 +391,7 @@
 				}
 			]
 			x: 6.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5FB7F9FD671703FF"]
@@ -383,8 +401,8 @@
 				item: "create:cardboard_sword"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["42AA25C1E9AF0537"]
@@ -424,8 +442,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -450,8 +468,8 @@
 				item: "create:placard"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.5d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -579,8 +597,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1582AF37FFA4377D"]
@@ -591,8 +609,8 @@
 				item: "thermal:redprint"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.5d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["000099F56EB2D52B"]
@@ -606,8 +624,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
@@ -622,7 +640,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
@@ -636,8 +654,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["000099F56EB2D52B"]
@@ -647,8 +665,8 @@
 				item: "mekanism:cardboard_box"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.0d
+			x: -6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3AD3293C7E0AFE5E"]
@@ -662,8 +680,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3AD3293C7E0AFE5E"]
@@ -677,8 +695,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3AD3293C7E0AFE5E"]
@@ -692,8 +710,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3AD3293C7E0AFE5E"]
@@ -707,7 +725,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -725,8 +743,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -743,8 +761,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
@@ -763,8 +781,8 @@
 				item: "mekanism:configurator"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["37B06FC941C75A60"]
@@ -781,8 +799,8 @@
 				item: "mekanism:configuration_card"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.5d
+			x: 0.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["34716F03D4E67B4E"]
@@ -817,8 +835,8 @@
 				}
 			]
 			title: "Hazmat Suit"
-			x: -6.0d
-			y: -4.0d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -924,7 +942,7 @@
 				item: "mekanism:advanced_fluid_tank"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -3.0d
 			y: -5.5d
 		}
 		{
@@ -938,7 +956,7 @@
 				item: "mekanism:elite_fluid_tank"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -4.5d
 			y: -5.5d
 		}
 		{
@@ -952,7 +970,7 @@
 				item: "mekanism:ultimate_fluid_tank"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -6.0d
 			y: -5.5d
 		}
 		{
@@ -978,7 +996,7 @@
 				item: "mekanism:advanced_chemical_tank"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -3.0d
 			y: -7.0d
 		}
 		{
@@ -992,7 +1010,7 @@
 				item: "mekanism:elite_chemical_tank"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -4.5d
 			y: -7.0d
 		}
 		{
@@ -1006,7 +1024,7 @@
 				item: "mekanism:ultimate_chemical_tank"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -6.0d
 			y: -7.0d
 		}
 		{
@@ -1027,8 +1045,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -7.0d
+			x: -1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -1041,8 +1059,8 @@
 				item: "mekanism:jetpack"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: 0.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["69E4829A677E5CAD"]
@@ -1052,8 +1070,8 @@
 				item: "mekanism:jetpack_armored"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -5.5d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1066,7 +1084,7 @@
 				item: "mekanism:flamethrower"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: -8.5d
 		}
 		{
@@ -1077,8 +1095,8 @@
 				item: "mekanism:geiger_counter"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -4.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["34716F03D4E67B4E"]
@@ -1088,8 +1106,8 @@
 				item: "mekanism:dosimeter"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
@@ -1099,8 +1117,8 @@
 				item: "mekanism:free_runners"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.5d
+			x: 7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["21990EF09673C683"]
@@ -1110,7 +1128,7 @@
 				item: "mekanism:free_runners_armored"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: -7.0d
 		}
 		{
@@ -1132,8 +1150,8 @@
 				item: "mekanism:network_reader"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -7.0d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
@@ -1162,8 +1180,8 @@
 				item: "mekanism:radioactive_waste_barrel"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -2.5d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["37B06FC941C75A60"]
@@ -1173,7 +1191,7 @@
 				item: "mekanism:basic_bin"
 				type: "item"
 			}]
-			x: -4.5d
+			x: 1.5d
 			y: -8.5d
 		}
 		{
@@ -1184,7 +1202,7 @@
 				item: "mekanism:advanced_bin"
 				type: "item"
 			}]
-			x: -6.0d
+			x: 3.0d
 			y: -8.5d
 		}
 		{
@@ -1195,7 +1213,7 @@
 				item: "mekanism:elite_bin"
 				type: "item"
 			}]
-			x: -7.5d
+			x: 4.5d
 			y: -8.5d
 		}
 		{
@@ -1206,8 +1224,67 @@
 				item: "mekanism:ultimate_bin"
 				type: "item"
 			}]
-			x: -9.0d
+			x: 6.0d
 			y: -8.5d
+		}
+		{
+			dependencies: [
+				"1093E21876E94273"
+				"5B073DB6C4609529"
+			]
+			id: "72225F8D2A95775E"
+			tasks: [{
+				id: "518DB717FF147549"
+				item: {
+					Count: 1
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1093E21876E94273"]
+			id: "0FF9A6E3397EC1BC"
+			tasks: [{
+				id: "3F017819613AB577"
+				item: {
+					Count: 1
+					id: "create_sa:portable_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F2000A3828DD2A0"]
+			id: "50FCED613F26E315"
+			subtitle: "Dear god!"
+			tasks: [{
+				id: "1973CBC680F10438"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"74837414C3A22899"
+				"50FCED613F26E315"
+			]
+			id: "0F95C3295DDF8393"
+			tasks: [{
+				id: "477D7EC6A81789A2"
+				item: "immersiveengineering:jerrycan"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
 		}
 	]
 	title: "Utilities"

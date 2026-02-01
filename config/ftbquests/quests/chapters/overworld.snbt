@@ -30,7 +30,7 @@
 		{
 			id: "6BD7ECFAEAEE9E4C"
 			linked_quest: "55A1237E4E373FCA"
-			x: -3.5d
+			x: -1.5d
 			y: -5.0d
 		}
 		{
@@ -38,12 +38,6 @@
 			linked_quest: "7F8F6CB4674626C1"
 			x: -4.5d
 			y: -2.0d
-		}
-		{
-			id: "4E0A66D6AB3E474B"
-			linked_quest: "47977E9BC4B3F5F3"
-			x: -5.5d
-			y: -3.0d
 		}
 	]
 	quests: [
@@ -63,6 +57,8 @@
 		}
 		{
 			dependencies: ["2B89F0F9A63C590A"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			id: "01B5EFFCB94E0FE3"
 			tasks: [{
 				id: "0C59BCE386BD9D46"
@@ -78,6 +74,7 @@
 				"0F2000A3828DD2A0"
 			]
 			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
 			id: "7735AE558F4AD354"
 			tasks: [{
 				id: "1B1617440C0B72FD"
@@ -125,6 +122,9 @@
 		}
 		{
 			dependencies: ["7735AE558F4AD354"]
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			id: "79F384A447C70803"
 			tasks: [{
 				id: "6BB69E272C86BFD1"
@@ -140,6 +140,9 @@
 				"5F412B939501E126"
 			]
 			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			id: "015431AF0A5996BD"
 			tasks: [{
 				dimension: "minecraft:the_nether"
@@ -153,7 +156,6 @@
 			dependencies: ["47977E9BC4B3F5F3"]
 			disable_toast: true
 			hide_dependent_lines: true
-			hide_until_deps_visible: true
 			id: "526A77EEB8CB20F6"
 			tasks: [{
 				elapsedTime: 1L
@@ -176,7 +178,7 @@
 				to_observe: "minecraft:budding_amethyst"
 				type: "observation"
 			}]
-			x: -5.5d
+			x: -3.5d
 			y: -5.0d
 		}
 		{
@@ -321,8 +323,8 @@
 				structure: "#minecraft:village"
 				type: "structure"
 			}]
-			x: -6.5d
-			y: -2.0d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["526A77EEB8CB20F6"]

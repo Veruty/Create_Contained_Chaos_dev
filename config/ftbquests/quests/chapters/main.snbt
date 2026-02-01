@@ -177,6 +177,12 @@
 			x: 15.0d
 			y: 2.0d
 		}
+		{
+			id: "2EFB79581224D516"
+			linked_quest: "51338E6A7F983F7E"
+			x: 3.5d
+			y: 2.0d
+		}
 	]
 	quests: [
 		{
@@ -197,9 +203,9 @@
 		}
 		{
 			dependencies: [
-				"201B07117D78B0C6"
 				"509C080E55211372"
 				"1A54443AF5949C4B"
+				"51338E6A7F983F7E"
 			]
 			id: "73CCE04FCA9F4AD4"
 			size: 1.5d
@@ -228,17 +234,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["74837414C3A22899"]
-			id: "201B07117D78B0C6"
-			tasks: [{
-				id: "4EFBF98E6AD4E411"
-				item: "immersiveengineering:component_steel"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 2.0d
-		}
-		{
 			dependencies: ["12CC1F7C26B181D4"]
 			id: "2008D0737B9A95B8"
 			tasks: [{
@@ -260,6 +255,7 @@
 				id: "5F3E5AFC788ACF1B"
 				type: "questsadditions:time"
 			}]
+			title: "placeholder"
 			x: -5.5d
 			y: -1.5d
 		}
@@ -506,7 +502,6 @@
 				"1CD80D729DC65867"
 				"2C67FD839D662205"
 			]
-			hide_dependent_lines: true
 			id: "3809DA076973B41F"
 			tasks: [{
 				id: "15E3786F1B9C7E1B"
@@ -517,7 +512,14 @@
 			y: -0.5d
 		}
 		{
+			dependencies: [
+				"06CA706779E390FE"
+				"3809DA076973B41F"
+			]
 			id: "4A0D50A363959296"
+			shape: "square"
+			size: 1.5d
+			subtitle: "use any singurity to complete this quest"
 			tasks: [{
 				id: "2C925B337DD4DE43"
 				item: {
@@ -529,8 +531,8 @@
 				type: "item"
 			}]
 			title: "Singularity"
-			x: 35.5d
-			y: 0.5d
+			x: 35.25d
+			y: 0.75d
 		}
 	]
 	title: "Main"

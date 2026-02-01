@@ -363,8 +363,6 @@ event.custom({
     {"item": "thermal:signalum_ingot"},
     {"item": "thermal:lumium_ingot"},
     {"item": "thermal:enderium_ingot"},
-    {"item": "projectred_core:red_ingot"},
-    {"item": "projectred_core:electrotine_ingot"},
     {"item": "mekanism:ingot_refined_obsidian"},
     {"item": "mekanism:ingot_refined_glowstone"},
     {"item": "mekanism:ingot_osmium"},
@@ -381,6 +379,8 @@ event.custom({
     {"item": "mekanism:alloy_reinforced"},
     {"item": "mekanism:alloy_atomic"},
     {"item": "minecraft:netherite_scrap"},
+    {"item": "create_new_age:radioactive_thorium"},
+    {"item": "create_new_age:overcharged_diamond"},
     {"item": "create_new_age:overcharged_gold"},
     {"item": "create_new_age:overcharged_iron"}
   ],
