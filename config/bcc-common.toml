@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "Contained Chaos"
 	#The version of the modpack
-	modpackVersion = "1.9.0 PB4"
+	modpackVersion = "1.9.0 PB5"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
