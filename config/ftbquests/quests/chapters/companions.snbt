@@ -35,8 +35,8 @@
 				item: "knightlib:homunculus"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -8.0d
+			x: 1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2B39F7FCAA1EC5E9"]
@@ -49,7 +49,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5A038373FC1BB8A7"]
@@ -61,8 +61,8 @@
 				item: "knightlib:filled_grail"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0E25D61F508C4FAC"]
@@ -74,8 +74,8 @@
 				item: "companions:empty_puppet_block"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -10.0d
+			x: 1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["0E25D61F508C4FAC"]
@@ -87,8 +87,8 @@
 				item: "companions:big_bread"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -9.0d
+			x: -0.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5A038373FC1BB8A7"]
@@ -100,8 +100,8 @@
 				item: "companions:soul_furnace_block"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6B9F6D6BCDAC7DB7"]
@@ -113,8 +113,8 @@
 				item: "companions:crystallized_blood"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -8.0d
+			x: -4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6B9F6D6BCDAC7DB7"]
@@ -126,12 +126,13 @@
 				item: "companions:soul_gem"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -8.0d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6AE23440548427CA"]
 			description: ["Enter a swamp and discover Избушка на курьих ножках, inside of which you can find the pupeteer"]
+			icon: "create:cuckoo_clock"
 			id: "5C73F72CBD4BF9FD"
 			subtitle: "The house with the legs of an animal"
 			tasks: [{
@@ -140,8 +141,8 @@
 				title: "Handyman"
 				type: "structure"
 			}]
-			x: 2.0d
-			y: -12.0d
+			x: 1.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -156,8 +157,8 @@
 				item: "companions:croissant_egg_block"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -8.0d
+			x: -2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2B39F7FCAA1EC5E9"]
@@ -175,6 +176,7 @@
 		{
 			dependencies: ["20C096CA8BC9A299"]
 			description: ["Discover the teddy tower, which contains a broken teddy bear... if only you had something to fix it"]
+			icon: "alexsmobs:spawn_egg_grizzly_bear"
 			id: "49D0E73FB37581D0"
 			subtitle: "What wonders could be inside?"
 			tasks: [{
@@ -191,6 +193,7 @@
 			description: ["Obtain coins, if only you could extort someone for cheap labour..."]
 			id: "54731DBA660E2691"
 			min_required_tasks: 1
+			shape: "hexagon"
 			subtitle: "Moneyyy"
 			tasks: [
 				{
@@ -215,6 +218,7 @@
 		{
 			dependencies: ["54731DBA660E2691"]
 			description: ["Find cornelieous, the sick bastard, and befriend him by killing a poor innocent bee in front of him, then give him money, and he will extort the other frogs for cheap labour. he is truly, the capitalist of all time"]
+			icon: "minecraft:verdant_froglight"
 			id: "46E660862FBC791F"
 			subtitle: "hey, you look like you hate bees!"
 			tasks: [{
@@ -242,7 +246,7 @@
 				type: "advancement"
 			}]
 			x: -0.5d
-			y: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["54731DBA660E2691"]
@@ -262,7 +266,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2B39F7FCAA1EC5E9"]
+			dependencies: ["255D61047383C801"]
 			description: ["Obtain a mage staff, which you can use on a golden allay along with a mage cloak and hat, to befriend it! it can be given magic books which will allow it to cast the spells"]
 			id: "7D176DF39FE2BF68"
 			subtitle: "I cast, Bullet!"
@@ -271,12 +275,13 @@
 				item: "companions:mage_staff"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7D176DF39FE2BF68"]
 			description: ["Summon a living candle by smelting a candle in a soul furnace, giving your golden allay friend an extra life if it is killed"]
+			icon: "minecraft:candle"
 			id: "4B5B586BF9280FA1"
 			subtitle: "Extra life"
 			tasks: [{
@@ -287,8 +292,8 @@
 				to_observe: "companions:living_candle"
 				type: "observation"
 			}]
-			x: -4.5d
-			y: 3.5d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["049E8B8DC4F4B577"]
@@ -300,8 +305,8 @@
 				item: "companions:shade_sword_altar"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -10.0d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["049E8B8DC4F4B577"]
@@ -313,8 +318,8 @@
 				item: "companions:shadow_bell"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -10.0d
+			x: -6.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["049E8B8DC4F4B577"]
@@ -326,8 +331,8 @@
 				item: "companions:shade_maw_altar"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -10.0d
+			x: -6.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2B39F7FCAA1EC5E9"]
@@ -346,7 +351,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["4D34BD4DF7821125"]
+			dependencies: [
+				"4D34BD4DF7821125"
+				"255D61047383C801"
+			]
 			description: ["Obtain a special totem, which when powered by an hourglass, will respawn a fallen companion up to 4 times, before needing to be refueled. "]
 			hide_until_deps_complete: true
 			id: "450B7A8800C11C8B"
@@ -365,29 +373,33 @@
 			id: "62770693B4AF012A"
 			subtitle: "Obtain the ancient friend, the monke"
 			tasks: [{
+				icon: "alexsmobs:spawn_egg_gelada_monkey"
 				id: "0726BD38ED569670"
 				observe_type: 5
 				timer: 0L
-				title: "Monke"
+				title: "Observe Mankh"
 				to_observe: "companions:mankh"
 				type: "observation"
 			}]
-			x: -4.5d
-			y: -2.5d
+			title: "monke"
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["450B7A8800C11C8B"]
 			description: ["Use the cloth from the pontiff on the totem, turning it into a magical monke which buffs you, and attacks enemies"]
+			icon: "alexsmobs:spawn_egg_capuchin_monkey"
 			id: "6D334204B6A6F99B"
 			subtitle: "why he spooky tho"
 			tasks: [{
 				id: "2C44864E02BD9173"
 				observe_type: 5
 				timer: 0L
-				title: "spooky monke"
+				title: "Observe Cloak"
 				to_observe: "companions:cloak"
 				type: "observation"
 			}]
+			title: "spooky monke"
 			x: -4.5d
 			y: 1.5d
 		}
