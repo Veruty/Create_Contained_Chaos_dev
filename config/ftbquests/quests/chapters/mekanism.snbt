@@ -1562,7 +1562,7 @@
 		{
 			id: "5E1F7420AD762806"
 			linked_quest: "1074858BE75A3D4E"
-			x: 3.0d
+			x: 5.0d
 			y: -12.5d
 		}
 		{
@@ -1672,6 +1672,12 @@
 			linked_quest: "1C22D0986140449F"
 			x: 6.0d
 			y: 5.5d
+		}
+		{
+			id: "45237F7A8CAF501B"
+			linked_quest: "089D565A6023BBAF"
+			x: 3.0d
+			y: -8.5d
 		}
 	]
 	quests: [
@@ -2942,7 +2948,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -10.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["1A529EAEBFC7B6FB"]
@@ -3670,8 +3676,8 @@
 				item: "mekanism:dimensional_stabilizer"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -9.5d
+			x: 3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["08E13E7BE1D8864D"]
@@ -3715,7 +3721,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3859C9C6168B9502"]
@@ -3751,7 +3757,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6A546B3E93E58AC8"]
@@ -3913,6 +3919,63 @@
 			}]
 			x: 12.0d
 			y: 7.5d
+		}
+		{
+			dependencies: [
+				"46DA59DC1925C374"
+				"0939986F6B65AA69"
+			]
+			description: ["[ \"Made with \", { \"text\": \"Energy Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0939986F6B65AA69\" } } ]"]
+			icon_scale: 0.8d
+			id: "6C5EAFB05C72BCBD"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "5EA9136F2D2546A1"
+				item: {
+					Count: 1
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+							componentConfig: {
+								config0: {
+									side0: 4
+									side1: 4
+									side2: 4
+									side3: 4
+									side4: 4
+									side5: 4
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"089D565A6023BBAF"
+				"554A46120F1F0FD6"
+			]
+			description: ["[ \"Made with \", { \"text\": \"Fluid Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"554A46120F1F0FD6\" } } ]"]
+			hide_until_deps_complete: true
+			id: "30446A8802550D59"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2430FAF42A7C0AE3"
+				item: "mekanism:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
 		}
 	]
 	title: "Osmium Age"

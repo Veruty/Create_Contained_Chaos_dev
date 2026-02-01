@@ -77,7 +77,7 @@
 			image: "immersiveengineering:block/fluid/resin_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: -27.0d
+			x: -33.0d
 			y: 5.5d
 		}
 		{
@@ -88,7 +88,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -33.0d
-			y: 5.5d
+			y: 0.5d
 		}
 		{
 			click: "<ftbq-image>"
@@ -97,31 +97,15 @@
 			image: "kubejs:textures/questimg/ie/bottler.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -30.0d
-			y: 5.0d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: -32.0d
-			y: 5.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: -28.0d
-			y: 5.5d
+			x: -33.0d
+			y: 3.0d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 180.0d
 			width: 1.0d
-			x: -27.0d
+			x: -33.0d
 			y: 6.5d
 		}
 		{
@@ -131,7 +115,7 @@
 			image: "immersiveengineering:block/fluid/creosote_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: -31.0d
+			x: -37.0d
 			y: 9.0d
 		}
 		{
@@ -139,7 +123,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: -90.0d
 			width: 1.0d
-			x: -30.0d
+			x: -36.0d
 			y: 9.0d
 		}
 		{
@@ -147,7 +131,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: -24.0d
+			x: -30.0d
 			y: 9.0d
 		}
 		{
@@ -157,7 +141,7 @@
 			image: "immersiveengineering:block/fluid/acetaldehyde_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: -23.0d
+			x: -29.0d
 			y: 9.0d
 		}
 		{
@@ -167,7 +151,15 @@
 			image: "immersiveengineering:block/fluid/ethanol_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: -15.0d
+			x: -21.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -28.0d
 			y: 9.0d
 		}
 		{
@@ -179,37 +171,21 @@
 			y: 9.0d
 		}
 		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 90.0d
-			width: 1.0d
-			x: -16.0d
-			y: 9.0d
-		}
-		{
 			click: "#1CCBF9D3755E6CE9"
 			height: 3.0d
 			hover: ["block.immersiveengineering.fermenter"]
 			image: "kubejs:textures/questimg/ie/fermenter.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -14.5d
-			y: 12.0d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 180.0d
-			width: 1.0d
-			x: -15.0d
-			y: 10.0d
+			x: -18.0d
+			y: 8.5d
 		}
 		{
 			height: 1.0d
 			image: "thermal:item/silver_plate_0"
 			rotation: 0.0d
 			width: 1.0d
-			x: -19.0d
+			x: -25.0d
 			y: 5.5d
 		}
 		{
@@ -217,7 +193,7 @@
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
-			x: -19.0d
+			x: -25.0d
 			y: 6.5d
 		}
 		{
@@ -227,7 +203,7 @@
 			image: "kubejs:textures/questimg/ie/refinery.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -27.0d
+			x: -33.0d
 			y: 8.5d
 		}
 		{
@@ -237,8 +213,146 @@
 			image: "kubejs:textures/questimg/ie/refinery.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -19.0d
+			x: -25.0d
 			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -20.0d
+			y: 9.0d
+		}
+		{
+			click: "#48A2235EFA3E5A53"
+			height: 3.0d
+			hover: ["block.immersiveengineering.refinery"]
+			image: "kubejs:textures/questimg/ie/refinery.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -21.0d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -21.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -24.0d
+			y: 12.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["fluid_type.immersiveengineering.plantoil"]
+			image: "immersiveengineering:block/fluid/plantoil_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -25.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -18.0d
+			y: 12.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["fluid_type.immersiveengineering.biodiesel"]
+			image: "immersiveengineering:block/fluid/biodiesel_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -26.0d
+			y: 12.5d
+		}
+		{
+			click: "#47102EA807047D1E"
+			height: 3.0d
+			hover: ["block.immersiveengineering.squeezer"]
+			image: "kubejs:textures/questimg/ie/squeezer.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -28.0d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -30.0d
+			y: 12.5d
+		}
+		{
+			click: "<ftbq-image>"
+			height: 1.0d
+			hover: ["Seeds"]
+			image: "minecraft:item/wheat_seeds"
+			rotation: 0.0d
+			width: 1.0d
+			x: -31.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -33.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -33.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/questimg/ie/lv_border.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -0.5658163265306086d
+			y: 8.05d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/questimg/ie/mv_border.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -0.5658163265306086d
+			y: 4.0d
+		}
+		{
+			height: 1.9d
+			image: "kubejs:textures/questimg/ie/hv_border.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 1.0d
+			y: 0.0d
 		}
 	]
 	order_index: 1
@@ -316,6 +430,12 @@
 			linked_quest: "6359276B4243403D"
 			x: -0.5d
 			y: 10.0d
+		}
+		{
+			id: "5E806FD9CCC8DC1A"
+			linked_quest: "0F95C3295DDF8393"
+			x: -27.0d
+			y: -9.5d
 		}
 	]
 	quests: [
@@ -408,6 +528,7 @@
 			y: -12.0d
 		}
 		{
+			dependencies: ["47977E9BC4B3F5F3"]
 			id: "65CBBCEBE77B7B5F"
 			tasks: [{
 				id: "76F744387B52C2DB"
@@ -538,7 +659,7 @@
 				item: "immersiveengineering:transformer"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 2.5d
 			y: 6.0d
 		}
 		{
@@ -553,7 +674,7 @@
 				item: "immersiveengineering:transformer_hv"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -1031,6 +1152,7 @@
 						blueprint: "specialBullet"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.0d
@@ -1048,6 +1170,7 @@
 						blueprint: "bullet"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -7.0d
@@ -1110,6 +1233,7 @@
 						blueprint: "molds"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -25.5d
@@ -1132,6 +1256,7 @@
 						blueprint: "components"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -10.5d
@@ -1366,6 +1491,7 @@
 			dependencies: ["7E7174479D56BC0E"]
 			id: "005248AF0DF63894"
 			shape: "rsquare"
+			size: 2.0d
 			subtitle: "DEATH AT 200,000,000 VOLTS"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_lightning_rod"
@@ -1381,12 +1507,14 @@
 			dependencies: ["148A4C7225585628"]
 			id: "63FC0955B7336ECC"
 			shape: "rsquare"
+			subtitle: "Hazardous Machinery"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_crusher"
 				criterion: ""
 				id: "5D72744C89CC0ED5"
 				type: "advancement"
 			}]
+			title: "Crusher"
 			x: -27.0d
 			y: -0.5d
 		}
@@ -1403,12 +1531,14 @@
 			id: "20F288B4F17AD580"
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Diggy Diggy Hole"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_excavator"
 				criterion: ""
 				id: "3026C12C71EDA3EF"
 				type: "advancement"
 			}]
+			title: "Excavator"
 			x: -16.5d
 			y: 4.0d
 		}
@@ -1420,12 +1550,14 @@
 			]
 			id: "67C595A66DBCDF9F"
 			shape: "rsquare"
+			subtitle: "You saw that one coming, didn't you?"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_sawmill"
 				criterion: ""
 				id: "27A34581F358E228"
 				type: "advancement"
 			}]
+			title: "Sawmill"
 			x: -23.5d
 			y: -1.5d
 		}
@@ -1436,12 +1568,14 @@
 			]
 			id: "2A6ADF5AE0CFBE40"
 			shape: "rsquare"
+			subtitle: "Pressing matters"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_metalpress"
 				criterion: ""
 				id: "4DFA6C48B7D89EB1"
 				type: "advancement"
 			}]
+			title: "Metal Press"
 			x: -23.5d
 			y: -3.5d
 		}
@@ -1479,12 +1613,21 @@
 			id: "1F015069E9EBA587"
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [{
-				advancement: "immersiveengineering:main/mb_blastfurnace"
-				criterion: ""
-				id: "3FB1E9D44C85F675"
-				type: "advancement"
-			}]
+			subtitle: "Really Hot Topic"
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_blastfurnace"
+					criterion: ""
+					id: "3FB1E9D44C85F675"
+					type: "advancement"
+				}
+				{
+					id: "4F157F8E448F1910"
+					item: "immersiveengineering:blastbrick"
+					type: "item"
+				}
+			]
+			title: "Blast Furnace"
 			x: -19.5d
 			y: -11.0d
 		}
@@ -1492,12 +1635,21 @@
 			dependencies: ["2B696CA62EB0083F"]
 			id: "1EEC1E316B485237"
 			shape: "rsquare"
-			tasks: [{
-				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
-				criterion: ""
-				id: "558CFFD2B347CFB6"
-				type: "advancement"
-			}]
+			subtitle: "Next Level Blasting"
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
+					criterion: ""
+					id: "558CFFD2B347CFB6"
+					type: "advancement"
+				}
+				{
+					id: "182D0C44C9D1BEE0"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+			]
+			title: "Improved Blast Furnace"
 			x: -21.0d
 			y: -7.0d
 		}
@@ -1509,12 +1661,21 @@
 			id: "3E97BDDC2A04C725"
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [{
-				advancement: "immersiveengineering:main/mb_cokeoven"
-				criterion: ""
-				id: "40B3A9F2F875F2CE"
-				type: "advancement"
-			}]
+			subtitle: "Concentrated Carbon"
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "40B3A9F2F875F2CE"
+					type: "advancement"
+				}
+				{
+					id: "053672648DC93E25"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+			]
+			title: "Coke Oven"
 			x: -17.5d
 			y: -11.0d
 		}
@@ -1526,12 +1687,21 @@
 			id: "604FAD4704BAEAF7"
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [{
-				advancement: "immersiveengineering:main/mb_alloy_smelter"
-				criterion: ""
-				id: "062A2673500FB6F2"
-				type: "advancement"
-			}]
+			subtitle: "Smeltin' like its 3500 BC"
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_alloy_smelter"
+					criterion: ""
+					id: "062A2673500FB6F2"
+					type: "advancement"
+				}
+				{
+					id: "698FC71C45F5E188"
+					item: "immersiveengineering:alloybrick"
+					type: "item"
+				}
+			]
+			title: "Alloy Kiln"
 			x: -15.5d
 			y: -11.0d
 		}
@@ -1543,24 +1713,29 @@
 			]
 			id: "1263E86F13841004"
 			shape: "rsquare"
+			subtitle: "Auto-Tinkerer 3000"
 			tasks: [{
 				advancement: "immersiveengineering:main/mb_auto_workbench"
 				criterion: ""
 				id: "4E327464F801CE02"
 				type: "advancement"
 			}]
+			title: "Automated Engineer's Workbench"
 			x: -23.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["00EB0CCAE2174751"]
 			id: "37A2811061866669"
+			shape: "rsquare"
+			subtitle: "Is that Filling or Rinsing Machine?"
 			tasks: [{
 				advancement: "immersiveengineering:main/mb_bottling_machine"
 				criterion: ""
 				id: "25F9E6996C590420"
 				type: "advancement"
 			}]
+			title: "Botting Machine"
 			x: -28.0d
 			y: -10.5d
 		}
@@ -1577,12 +1752,14 @@
 			id: "6214BE62213881D3"
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "The Hottest Topic"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
 				criterion: ""
 				id: "1CD5EC1D6D1CB246"
 				type: "advancement"
 			}]
+			title: "Arc Furnace"
 			x: -23.5d
 			y: 4.0d
 		}
@@ -1590,12 +1767,14 @@
 			dependencies: ["148A4C7225585628"]
 			id: "47102EA807047D1E"
 			shape: "rsquare"
+			subtitle: "Can it make nutmilk?"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_squeezer"
 				criterion: ""
 				id: "33B396B30964BB49"
 				type: "advancement"
 			}]
+			title: "Industrial Squeezer "
 			x: -27.0d
 			y: -2.5d
 		}
@@ -1606,12 +1785,14 @@
 			]
 			id: "1CCBF9D3755E6CE9"
 			shape: "rsquare"
+			subtitle: "Moonshine!"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_fermenter"
 				criterion: ""
 				id: "7CF1311CEC4DAC2A"
 				type: "advancement"
 			}]
+			title: "Industrial Fermenter"
 			x: -23.5d
 			y: -0.5d
 		}
@@ -1622,12 +1803,14 @@
 			]
 			id: "5DC1E18EF6862D39"
 			shape: "rsquare"
+			subtitle: "Bad for the Environment"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
 				criterion: ""
 				id: "1FA8F90A7AEB7520"
 				type: "advancement"
 			}]
+			title: "Diesel Generator"
 			x: -32.0d
 			y: -1.5d
 		}
@@ -1638,12 +1821,14 @@
 			]
 			id: "056E2CC2ABED9616"
 			shape: "rsquare"
+			subtitle: "Industrial Potionmaking"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_mixer"
 				criterion: ""
 				id: "732DFB09BCB355B9"
 				type: "advancement"
 			}]
+			title: "Mixer"
 			x: -23.5d
 			y: 0.5d
 		}
@@ -1710,6 +1895,8 @@
 			y: -9.5d
 		}
 		{
+			dependencies: ["47977E9BC4B3F5F3"]
+			hide_dependency_lines: true
 			id: "19E8A59784A97345"
 			tasks: [{
 				id: "3251E967D6E64710"
@@ -1953,6 +2140,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["47977E9BC4B3F5F3"]
 			id: "00CE9C00345F4F6E"
 			tasks: [{
 				id: "4FB8F51E91B85F72"
@@ -1969,12 +2157,14 @@
 			]
 			id: "48A2235EFA3E5A53"
 			shape: "rsquare"
+			subtitle: "Chemical Processing"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_refinery"
 				criterion: ""
 				id: "3B4ABD6F050E11E4"
 				type: "advancement"
 			}]
+			title: "Refinery"
 			x: -23.5d
 			y: 1.5d
 		}
@@ -1988,6 +2178,25 @@
 			}]
 			x: -25.5d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7E7174479D56BC0E"
+				"0939986F6B65AA69"
+			]
+			description: ["[ \"Made with \", { \"text\": \"Energy Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0939986F6B65AA69\" } } ]"]
+			hide_until_deps_complete: true
+			icon_scale: 0.8d
+			id: "6B3437DCDA677560"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "444BD9223BAC8905"
+				item: "immersiveengineering:capacitor_creative"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
 		}
 	]
 	title: "Steel Age"

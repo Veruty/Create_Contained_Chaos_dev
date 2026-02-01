@@ -108,8 +108,8 @@
 		{
 			id: "1CD8E4ECD0D59D89"
 			linked_quest: "4B411BCE6B93026F"
-			x: -0.5d
-			y: -8.0d
+			x: 0.5d
+			y: -9.0d
 		}
 		{
 			id: "1CDB881A5F5D2BBC"
@@ -830,8 +830,8 @@
 				item: "thermal:fluid_tank_augment"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -9.0d
+			x: -0.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3AD3293C7E0AFE5E"]
@@ -945,8 +945,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -13.0d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["082B7E91B6D788BD"]
@@ -1550,6 +1550,41 @@
 			}]
 			x: 1.0d
 			y: 0.5d
+		}
+		{
+			dependencies: [
+				"57BB29C747C3000C"
+				"0939986F6B65AA69"
+			]
+			description: ["[ \"Made with \", { \"text\": \"Energy Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0939986F6B65AA69\" } } ]"]
+			hide_until_deps_complete: true
+			icon_scale: 0.8d
+			id: "6A50B0A58B1E2802"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "1B20093F63CCA7E5"
+				item: "thermal:rf_coil_creative_augment"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["100D48898F058F9B"]
+			description: ["[ \"Made with \", { \"text\": \"Fluid Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"554A46120F1F0FD6\" } } ]"]
+			hide_until_deps_complete: true
+			icon_scale: 0.8d
+			id: "017F02F4FE5800ED"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "34172A7349A7ED7E"
+				item: "thermal:fluid_tank_creative_augment"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
 		}
 	]
 	title: "Thermal Age"

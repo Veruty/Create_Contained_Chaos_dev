@@ -126,8 +126,8 @@
 			}]
 			subtitle: "Unlimited power!"
 			tasks: [{
-				id: "1C2675860EA43AAA"
-				item: "create_new_age:energiser_t1"
+				id: "0B86C0801A2B8139"
+				item: "create_new_age:basic_energiser"
 				type: "item"
 			}]
 			x: -2.0d
@@ -187,8 +187,8 @@
 			}]
 			subtitle: "Faster Charging"
 			tasks: [{
-				id: "2EBE3F90DE8CF1BE"
-				item: "create_new_age:energiser_t2"
+				id: "10311B33C72AEC6C"
+				item: "create_new_age:advanced_energiser"
 				type: "item"
 			}]
 			x: 0.0d
@@ -269,8 +269,8 @@
 			}]
 			subtitle: "Fastest Charging"
 			tasks: [{
-				id: "75D749F5D4A5A022"
-				item: "create_new_age:energiser_t3"
+				id: "18A4B31F398F18A9"
+				item: "create_new_age:reinforced_energiser"
 				type: "item"
 			}]
 			x: 2.0d

@@ -59,11 +59,8 @@
 			description: ["this is stopgap quest, cuz ftb quest is not good"]
 			disable_toast: true
 			hide_dependent_lines: true
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
 			icon: "minecraft:grass_block"
 			id: "47977E9BC4B3F5F3"
-			invisible: true
 			subtitle: "The beginning of everything."
 			tasks: [{
 				elapsedTime: 1L

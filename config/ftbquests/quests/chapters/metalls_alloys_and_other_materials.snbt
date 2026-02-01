@@ -4,7 +4,15 @@
 	filename: "metalls_alloys_and_other_materials"
 	group: "53B219EDA5E606F4"
 	id: "7A4C8DC687DCC9F6"
-	order_index: 1
+	images: [{
+		height: 1.0d
+		image: "supplementaries:block/cannon_arrow"
+		rotation: 0.0d
+		width: 1.0d
+		x: 2.5d
+		y: 0.5d
+	}]
+	order_index: 0
 	quest_links: [
 		{
 			id: "1E31F0AF196F9617"
@@ -99,14 +107,14 @@
 		{
 			id: "2B0192907F89703A"
 			linked_quest: "32E30F160E1AC5A9"
-			x: 2.5d
-			y: 5.5d
+			x: -6.5d
+			y: 8.5d
 		}
 		{
 			id: "0AA24F9655D461AE"
 			linked_quest: "51FF206E29E83EBA"
-			x: 2.5d
-			y: 3.5d
+			x: -8.5d
+			y: 8.5d
 		}
 		{
 			id: "5801AF11A1C24BE3"
@@ -155,6 +163,12 @@
 			linked_quest: "47977E9BC4B3F5F3"
 			x: -3.5d
 			y: -8.5d
+		}
+		{
+			id: "151CBBB9D8FC1C90"
+			linked_quest: "6B67ACFC62C25945"
+			x: 2.5d
+			y: 3.5d
 		}
 	]
 	quests: [
@@ -209,8 +223,8 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -285,8 +299,8 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -327,11 +341,13 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.5d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["015431AF0A5996BD"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			id: "69AFBCB81781D8C4"
 			rewards: [{
 				count: 12
@@ -527,8 +543,8 @@
 				item: "mekanism:ingot_osmium"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: -4.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -688,8 +704,8 @@
 			id: "3706B46EC74FA568"
 			rewards: [{
 				count: 4
-				id: "7533E2ECF1D9377A"
-				item: "blocksyouneed_luna:bronze_ingot"
+				id: "08A148052E9D5DEB"
+				item: "thermal:bronze_ingot"
 				type: "item"
 			}]
 			tasks: [{
@@ -986,8 +1002,8 @@
 				type: "item"
 			}]
 			title: "Coal Coke"
-			x: 1.5d
-			y: 0.5d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -1033,8 +1049,8 @@
 				item: "mekanism:fluorite_gem"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.5d
+			x: -5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1153,9 +1169,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 2L
 				id: "0D2BA9B33F804838"
-				item: { Count: 2, id: "kubejs:unstable_alloy" }
+				item: "kubejs:unstable_alloy"
 				type: "item"
 			}]
 			title: "Unstable Alloy"
@@ -1230,8 +1245,8 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -0.5d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["11993546792DCF90"]
@@ -1255,8 +1270,8 @@
 				type: "item"
 			}]
 			title: "Aluminum Ingot"
-			x: 1.5d
-			y: 4.5d
+			x: -0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0F2000A3828DD2A0"]
@@ -1423,6 +1438,8 @@
 				"2063D6C58019E165"
 				"24CD759A561EB2C6"
 				"674C7884CF2783B3"
+				"61D7232C6BFA68E1"
+				"7DC0D577FE02F5E0"
 			]
 			description: ["the recipe is shapeless (stuff can be placed in any order)"]
 			hide_dependency_lines: true
@@ -1510,7 +1527,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1541,6 +1558,20 @@
 			}]
 			x: 2.5d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6ECF805F53CBBEF2"
+				"6B67ACFC62C25945"
+			]
+			id: "2A343C3DFC93D89B"
+			tasks: [{
+				id: "09B705395BA4A77F"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
 		}
 	]
 	title: "Metalls, Alloys and Other Stuff"
