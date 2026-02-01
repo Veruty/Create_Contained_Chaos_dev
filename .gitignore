@@ -299,3 +299,5 @@ patchouli_data.json
 servers.dat_old
 config/hexcasting-common.toml
 config/hexcasting-client.toml
+.mixin.out/class/net/minecraft/client/particle/ParticleEngine.class
+.mixin.out/class/net/minecraft/client/particle/SingleQuadParticle.class
