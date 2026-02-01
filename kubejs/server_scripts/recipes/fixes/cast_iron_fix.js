@@ -6,4 +6,10 @@ event.replaceInput(
   'createbigcannons:cast_iron_ingot'
 )
 event.remove({ output: 'createdeco:industrial_iron_ingot' })
+event.shapeless(
+    Item.of('createbigcannons:cast_iron_ingot', 9),
+    [
+        'create:industrial_iron_block'
+    ]
+)
 })
