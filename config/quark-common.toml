@@ -137,7 +137,7 @@
 	"Variant Bookshelves" = true
 	"Variant Chests" = false
 	"Variant Furnaces" = false
-	"Variant Ladders" = true
+	"Variant Ladders" = false
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
@@ -1824,7 +1824,7 @@
 	Backpack = true
 	Crate = true
 	Magnets = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Pipes = true
 	"Tiny Potato" = true
 	"Totem Of Holding" = true
