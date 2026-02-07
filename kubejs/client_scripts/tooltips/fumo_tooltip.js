@@ -319,11 +319,11 @@ ItemEvents.tooltip(event => {
       text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
     }
   })
-     event.addAdvanced('kubejs:juwny_fumo', (item, advanced, text) => {
+     event.addAdvanced('kubejs:junycat_fumo', (item, advanced, text) => {
     if (!event.shift) {
       text.add(1, [Text.of('[Shift]').gray()])
     } else {
-      text.add(1, Text.gray('Original: juwny'))
+      text.add(1, Text.gray('Original: junycat'))
       text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
     }
   })
@@ -335,11 +335,11 @@ ItemEvents.tooltip(event => {
       text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
     }
   })
-     event.addAdvanced('kubejs:not_vi789_fumo', (item, advanced, text) => {
+     event.addAdvanced('kubejs:lavender_bunnies_fumo', (item, advanced, text) => {
     if (!event.shift) {
       text.add(1, [Text.of('[Shift]').gray()])
     } else {
-      text.add(1, Text.gray('Original: Not_Vi789'))
+      text.add(1, Text.gray('Original: Lavender Bunnies'))
       text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
     }
   })
