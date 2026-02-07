@@ -1687,12 +1687,6 @@
 			x: 3.0d
 			y: -8.5d
 		}
-		{
-			id: "71FCA77CCCDEC3A7"
-			linked_quest: "158426E64B0F7B64"
-			x: 17.0d
-			y: -2.5d
-		}
 	]
 	quests: [
 		{
