@@ -523,34 +523,6 @@
 			rotation: 180.0d
 			width: 1.0d
 			x: 34.0d
-			y: 4.0d
-		}
-		{
-			click: "#6E97368920DAE881"
-			height: 1.0d
-			hover: ["mekanism.rotary_condensentrator"]
-			image: "kubejs:textures/questimg/mekanism/rotary_condensentrator.png"
-			rotation: 0.0d
-			width: 0.9949238578680203d
-			x: 34.0d
-			y: 5.0d
-		}
-		{
-			click: "<ftbq-image>"
-			height: 1.0d
-			hover: ["block.mekanism.steam"]
-			image: "mekanism:liquid/steam"
-			rotation: 0.0d
-			width: 1.0d
-			x: 34.0d
-			y: 3.0d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 180.0d
-			width: 1.0d
-			x: 34.0d
 			y: 6.0d
 		}
 		{
@@ -1264,14 +1236,6 @@
 			width: 1.0d
 			x: 38.0d
 			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 180.0d
-			width: 1.0d
-			x: 34.0d
-			y: 2.0d
 		}
 		{
 			click: "#29F04CE306ED98D4"
@@ -2656,18 +2620,6 @@
 			title: "Modules"
 			x: 35.0d
 			y: 19.5d
-		}
-		{
-			dependencies: ["14E68D38AA35147C"]
-			description: ["this  is WIP but theres a immersive like industrial turbine if u want u can use it or someting"]
-			id: "059E7FC72529953B"
-			tasks: [{
-				id: "7DA7A7FABC4C17BA"
-				title: "turbine"
-				type: "checkmark"
-			}]
-			x: 34.0d
-			y: 1.0d
 		}
 	]
 	title: "Nuclear Age"
