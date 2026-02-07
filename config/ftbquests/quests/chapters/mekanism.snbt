@@ -1520,6 +1520,14 @@
 			x: 30.0d
 			y: 8.5d
 		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 15.0d
+			y: 0.5d
+		}
 	]
 	order_index: 4
 	quest_links: [
@@ -1678,6 +1686,12 @@
 			linked_quest: "089D565A6023BBAF"
 			x: 3.0d
 			y: -8.5d
+		}
+		{
+			id: "71FCA77CCCDEC3A7"
+			linked_quest: "158426E64B0F7B64"
+			x: 17.0d
+			y: -2.5d
 		}
 	]
 	quests: [
@@ -2226,8 +2240,13 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["27C740059DA71649"]
+			dependencies: [
+				"27C740059DA71649"
+				"14E68D38AA35147C"
+			]
+			dependency_requirement: "one_completed"
 			description: [""]
+			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "4C7918259EDF52EB"
 			tasks: [{
@@ -2247,7 +2266,11 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["27C740059DA71649"]
+			dependencies: [
+				"27C740059DA71649"
+				"7DEC2438E0FDB776"
+			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			hide_until_deps_visible: true
 			id: "1CA3C59D0ED5EFDC"
@@ -2593,7 +2616,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["27C740059DA71649"]
+			dependencies: [
+				"27C740059DA71649"
+				"0F2000A3828DD2A0"
+			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			hide_until_deps_visible: true
 			id: "2355C781C841F7A0"
@@ -3171,7 +3198,11 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["27C740059DA71649"]
+			dependencies: [
+				"27C740059DA71649"
+				"79E5B71B36FB83DC"
+			]
+			dependency_requirement: "one_completed"
 			id: "7244ACCE7B1EA609"
 			tasks: [{
 				id: "35A6E105EC6F713A"
@@ -3211,7 +3242,11 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["27C740059DA71649"]
+			dependencies: [
+				"27C740059DA71649"
+				"158426E64B0F7B64"
+			]
+			dependency_requirement: "one_completed"
 			id: "006E193B744CDEA2"
 			tasks: [{
 				id: "1A60BEC6F08ABE3B"
@@ -3228,17 +3263,6 @@
 			title: "Diamond Dust"
 			x: 16.0d
 			y: -3.5d
-		}
-		{
-			dependencies: ["2355C781C841F7A0"]
-			id: "3F4DA53AFD010A03"
-			tasks: [{
-				id: "2824C2A6CECCF397"
-				item: "mekanism:upgrade_gas"
-				type: "item"
-			}]
-			x: 16.0d
-			y: 3.5d
 		}
 		{
 			dependencies: ["7244ACCE7B1EA609"]
