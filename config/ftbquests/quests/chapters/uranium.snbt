@@ -518,14 +518,6 @@
 			y: 9.0d
 		}
 		{
-			height: 1.0d
-			image: "supplementaries:block/cannon_arrow"
-			rotation: 180.0d
-			width: 1.0d
-			x: 34.0d
-			y: 6.0d
-		}
-		{
 			click: "#304F6368898F0222"
 			height: 1.0d
 			hover: ["block.mekanism.radioactive_waste_barrel"]
@@ -1310,12 +1302,6 @@
 			y: 2.0d
 		}
 		{
-			id: "0F3E73ADFB202F54"
-			linked_quest: "4882C29ACF76E6CD"
-			x: 18.5d
-			y: 0.0d
-		}
-		{
 			id: "1D08429A12730A8C"
 			linked_quest: "6C69E2C1B5619EEB"
 			x: 15.0d
@@ -1376,12 +1362,6 @@
 			y: 19.5d
 		}
 		{
-			id: "64B2048D2C93E519"
-			linked_quest: "2B696CA62EB0083F"
-			x: 41.5d
-			y: 2.5d
-		}
-		{
 			id: "7FB4FFE8B76FBD1D"
 			linked_quest: "24CD759A561EB2C6"
 			x: 42.5d
@@ -1404,6 +1384,12 @@
 			linked_quest: "58E4EE770BEE33EB"
 			x: 41.5d
 			y: 5.5d
+		}
+		{
+			id: "18100817A28E96B3"
+			linked_quest: "0A77B10F89F05E40"
+			x: 18.5d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -1480,7 +1466,7 @@
 			y: 26.0d
 		}
 		{
-			dependencies: ["4882C29ACF76E6CD"]
+			dependencies: ["0A77B10F89F05E40"]
 			description: ["Fission Reactor Casings are the base block for building the Fission Reactor being the blocks that comprise the skeleton of the multiblock"]
 			hide_details_until_startable: false
 			hide_until_deps_visible: true

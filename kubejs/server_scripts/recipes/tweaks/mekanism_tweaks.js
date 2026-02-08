@@ -78,6 +78,34 @@ ServerEvents.recipes(event => {
     "item": 'mekanism:steel_casing'
   }
 })
+event.remove({output:'mekanismgenerators:fission_reactor_casing'})
+event.remove({output:'mekanism:superheating_element'})
+event.shaped(
+    Item.of('mekanismgenerators:fission_reactor_casing', 4),
+    [
+        ' A ',
+        'ABA',
+        ' A '
+    ],
+    {
+        A: '#forge:plates/lead',
+        B: 'immersiveengineering:steel_scaffolding_standard'
+    }
+)
+
+event.shaped(
+    Item.of('mekanism:superheating_element'),
+    [
+        'ABA',
+        'BCB',
+        'ABA'
+    ],
+    {
+        A: 'minecraft:redstone',
+        C: 'immersiveengineering:steel_scaffolding_standard',
+        B: 'minecraft:copper_ingot'
+    }
+)
 
 /*const tier = ["basic", "advanced", "elite", "ultimate"]
 const type = ["smelting", "enriching", "crushing", "compressing", "combining", "purifying", "injecting", "infusing", "sawing"]
