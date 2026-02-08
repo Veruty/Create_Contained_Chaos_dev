@@ -105,4 +105,10 @@ event.custom({"type": "thermal:press",
 	"result": [{ "item": 'create_new_age:overcharged_iron_sheet' }]
 	})
 
+event.custom({"type": "thermal:press",
+	"ingredient":[ { "item": 'minecraft:copper_ingot'},
+	{"item": 'immersiveengineering:mold_bullet_casing'}],
+	"result": [{ "item": 'immersiveengineering:empty_casing', "count": 2 }]
+	})
+
 })
