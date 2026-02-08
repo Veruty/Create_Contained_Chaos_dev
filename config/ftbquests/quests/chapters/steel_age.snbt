@@ -354,6 +354,14 @@
 			x: 1.0d
 			y: 0.0d
 		}
+		{
+			height: 1.7d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.7d
+			x: -20.0d
+			y: 4.0d
+		}
 	]
 	order_index: 1
 	quest_links: [
@@ -436,6 +444,14 @@
 			linked_quest: "0F95C3295DDF8393"
 			x: -27.0d
 			y: -9.5d
+		}
+		{
+			id: "4C65C06632202587"
+			linked_quest: "14E68D38AA35147C"
+			shape: "square"
+			size: 1.5d
+			x: -20.0d
+			y: 4.0d
 		}
 	]
 	quests: [

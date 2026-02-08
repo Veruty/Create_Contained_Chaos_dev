@@ -255,6 +255,14 @@
 			x: 1.0d
 			y: -7.5d
 		}
+		{
+			id: "536FB45BF748D62A"
+			linked_quest: "14E68D38AA35147C"
+			shape: "square"
+			size: 1.5d
+			x: 15.0d
+			y: -7.5d
+		}
 	]
 	quests: [
 		{
@@ -1130,27 +1138,6 @@
 			}]
 			x: 5.0d
 			y: 0.5d
-		}
-		{
-			dependencies: ["7008601BDEF473A3"]
-			dependency_requirement: "one_completed"
-			icon: "mekanism:ingot_osmium"
-			id: "2BC20F7F011015D2"
-			rewards: [{
-				count: 4
-				id: "6A6A21294E7EE6D4"
-				item: "mekanism:ingot_osmium"
-				type: "item"
-			}]
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "364363D7DFB8F262"
-				item: "mekanism:ingot_osmium"
-				type: "item"
-			}]
-			x: 15.0d
-			y: -7.5d
 		}
 		{
 			dependencies: ["2D7428D54474BD78"]
