@@ -111,4 +111,19 @@ event.custom({"type": "thermal:press",
 	"result": [{ "item": 'immersiveengineering:empty_casing', "count": 2 }]
 	})
 
+event.custom({"type": "createdieselgenerators:hammering",
+	"ingredients": [{"item": 'createbigcannons:cast_iron_ingot'}],
+        "results": [{"item": 'createdeco:industrial_iron_sheet'}]})
+event.shapeless('createdeco:industrial_iron_sheet', ['createbigcannons:cast_iron_ingot','immersiveengineering:hammer'])
+		.damageIngredient('immersiveengineering:hammer', 1)
+event.custom({"type": "immersiveengineering:metal_press",
+		"energy": 2400,
+		"input": {"item": 'createbigcannons:cast_iron_ingot'},
+  		"mold": "immersiveengineering:mold_plate",
+  		"result": {"item": 'createdeco:industrial_iron_sheet'}})
+event.custom({"type": "thermal:press",
+	"ingredient": { "item": 'createbigcannons:cast_iron_ingot'},
+	"result": [{ "item": 'createdeco:industrial_iron_sheet' }]
+	})
+
 })
