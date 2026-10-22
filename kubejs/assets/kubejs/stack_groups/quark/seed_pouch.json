@@ -1,0 +1,7 @@
+{
+  "id": "quark:seed_pouch",
+  "type": "remi:group",
+  "contents": [
+    "quark:seed_pouch"
+  ]
+}

@@ -8,9 +8,9 @@ ServerEvents.recipes(event => {
         'CCC'
     ],
     {
-        C: '#forge:gravel',
+        C: '#c:gravel',
         A: '#minecraft:sand',
-        B: ['thermal:tar', 'createdieselgenerators:crude_oil_bucket']
+        B: ['createdieselgenerators:crude_oil_bucket']
     }
 )
 

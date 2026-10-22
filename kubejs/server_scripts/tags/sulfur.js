@@ -1,3 +1,3 @@
-ServerEvents.tags('item', e => {
-    e.add('forge:gems/sulfur', 'scguns:sulfur_chunk')
-})
+//ServerEvents.tags('item', e => {
+//    e.add('c:gems/sulfur', 'scguns:sulfur_chunk')
+//})

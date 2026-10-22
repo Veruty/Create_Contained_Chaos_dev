@@ -6,10 +6,10 @@ e.recipes.create.sequenced_assembly(
     ['kubejs:incomplete_unstable_godly_alloy'],
     'kubejs:unstable_alloy',
     [
-        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('thermal:refined_fuel', 1000)]),
-        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', {fluidTag: "forge:diesel", amount: 1000}]),
-        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', {fluidTag: "forge:gasoline", amount: 1000}]),
-        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', {fluidTag: "forge:biodiesel", amount: 1000}]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('minecraft:water', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.sizedIngredientOf('#c:diesel', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.sizedIngredientOf('#c:gasoline', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.sizedIngredientOf('#c:biodiesel', 1000)]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('mekanismgenerators:fusion_fuel', 1000)])
     ]
 ).transitionalItem('kubejs:unstable_alloy').loops(25)
@@ -33,29 +33,29 @@ e.custom({
       "item": "ars_nouveau:fire_essence"
     },
     "C": {
-      "item": "thermal:rosin"
+      "item": "minecraft:bedrock"
     },
     "D": {
       "item": "kubejs:incomplete_unstable_godly_alloy"
     },
     "E": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:coal\"}"
+      "type": "neoforge:components",
+      "items": "extendedcrafting:singularity",
+      "components": {
+      "extendedcrafting:singularity_id": "extendedcrafting:coal"}
     },
     "F": {
-      "item": "thermal:bitumen"
+      "item": "minecraft:bedrock"
     },
     "G": {
-      "item": "thermal:tar"
+      "item": "minecraft:bedrock"
     },
     "H": {
-      "tag": "forge:coal_coke"
+      "tag": "c:coal_coke"
     }
   },
   "result": {
-    "item": 'kubejs:unstable_godly_alloy'
+    "id": 'kubejs:unstable_godly_alloy'
   }
 })
 
@@ -71,8 +71,8 @@ e.recipes.create.sequenced_assembly(
      [
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('minecraft:lava', 1000)]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('bloodmagic:life_essence_fluid', 1000)]),
-        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('create_enchantment_industry:hyper_experience', 1000)]),
-        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('thermal:ender', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('create_enchantment_industry:experience', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('minecraft:water', 1000)]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('createbigcannons:molten_nethersteel', 1000)]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('immersiveengineering:acetaldehyde', 1000)])
     ]
@@ -91,10 +91,10 @@ e.custom({
   ],
   "key": {
     "A": {
-      "item": "thermal:fluid_filter_augment"
+      "item": "minecraft:bedrock"
     },
     "B": {
-      "item": "thermal:cured_rubber"
+      "item": "minecraft:bedrock"
     },
     "C": {
       "item": "botania:rune_water"
@@ -103,22 +103,22 @@ e.custom({
       "item": "kubejs:incomplete_fluid_godly_alloy"
     },
     "E": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:copper\"}"
+      "type": "neoforge:components",
+      "items": "extendedcrafting:singularity",
+      "components": {
+      "extendedcrafting:singularity_id": "extendedcrafting:copper"}
     },
     "F": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:bronze\"}"
+      "type": "neoforge:components",
+      "items": "extendedcrafting:singularity",
+      "components": {
+      "extendedcrafting:singularity_id": "extendedcrafting:bronze"}
     },
     "G": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:lapis_lazuli\"}"
+      "type": "neoforge:components",
+      "items": "extendedcrafting:singularity",
+      "components": {
+      "extendedcrafting:singularity_id": "extendedcrafting:lapis_lazuli"}
     },
     "H": {
       "item": "minecraft:bucket"
@@ -131,7 +131,7 @@ e.custom({
     }
   },
   "result": {
-    "item": 'kubejs:fluid_godly_alloy'
+    "id": 'kubejs:fluid_godly_alloy'
   }
 })
 
@@ -160,7 +160,7 @@ e.shapeless(
     ]
 )
 
-e.recipes.createDeploying('thermal:fluid_tank_creative_augment',['thermal:fluid_tank_augment', 'kubejs:fluid_godly_alloy'])
+//e.recipes.createDeploying('thermal:fluid_tank_creative_augment',['thermal:fluid_tank_augment', 'kubejs:fluid_godly_alloy'])
 
 //botanic things
 
@@ -183,19 +183,18 @@ e.custom({
       "item": "botania:gaia_ingot"
     },
     "C": {
-      "type": "forge:nbt",
-      "item": "botania:laputa_shard",
-      "count": 1,
-      "nbt": "{level:19}"
+      "type": "neoforge:components",
+      "items": "botania:laputa_shard",
+      "components": {"botania:shard_level":19}
     },
     "D": {
       "item": "botania:rune_sloth"
     },
     "E": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:manasteel\"}"
+      "type": "neoforge:components",
+      "items": "extendedcrafting:singularity",
+      "components": {
+      "extendedcrafting:singularity_id": "extendedcrafting:manasteel"}
     },
     "F": {
       "item": "botania:rune_wrath"
@@ -210,10 +209,9 @@ e.custom({
       "item": "minecraft:goat_horn"
     },
     "J": {
-      "type": "forge:nbt",
-      "item": "botania:terra_pick",
-      "count": 1,
-      "nbt": "{Damage:0,mana:2147483646}"
+      "type": "neoforge:components",
+      "items": "botania:terra_pick",
+      "components": {"botania:mana":2147483646}
     },
     "K": {
       "item": "botania:rune_gluttony"
@@ -229,11 +227,11 @@ e.custom({
     }
   },
   "result": {
-    "item": 'kubejs:botanic_godly_alloy'
+    "id": 'kubejs:botanic_godly_alloy'
   }
 })
 
-e.recipes.create.item_application('botania:creative_pool', ['botania:fabulous_pool', 'kubejs:botanic_godly_alloy'])
+e.recipes.create.item_application('botania:creative_mana_pool', ['botania:fabulous_mana_pool', 'kubejs:botanic_godly_alloy'])
 //energy things
 
 e.recipes.create.sequenced_assembly(
@@ -265,45 +263,86 @@ e.custom({
       "item": "kubejs:incomplete_energy_godly_alloy"
     },
     "C": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:steel\"}"
+      "type": "neoforge:components",
+      "items": "extendedcrafting:singularity",
+      "components": {
+      "extendedcrafting:singularity_id": "extendedcrafting:steel"}
     },
     "D": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:electrum\"}"
+      "type": "neoforge:components",
+      "items": "extendedcrafting:singularity",
+      "components": {
+      "extendedcrafting:singularity_id": "extendedcrafting:electrum"}
     },
     "E": {
       "item": "ae2:spatial_cell_component_128"
     },
     "F": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:redstone\"}"
+      "type": "neoforge:components",
+      "items": "extendedcrafting:singularity",
+      "components": {
+      "extendedcrafting:singularity_id": "extendedcrafting:redstone"}
     },
     "G": {
-      "item": "thermal:cured_rubber"
+      "item": "minecraft:bedrock"
     },
     "Y": {
       "item": "mekanism:ultimate_tier_installer"
     },
     "Z": {
-      "item": "thermal:upgrade_augment_3"
+      "item": "minecraft:bedrock"
     }
   },
   "result": {
-    "item": 'kubejs:energy_godly_alloy'
+    "id": 'kubejs:energy_godly_alloy'
   }
 })
 
-e.recipes.createDeploying('thermal:rf_coil_creative_augment',['thermal:rf_coil_augment', 'kubejs:energy_godly_alloy'])
+e.recipes.createDeploying('minecraft:bedrock',['minecraft:bedrock', 'minecraft:bedrock'])
 e.recipes.create.item_application('createaddition:creative_energy', ['createaddition:modular_accumulator', 'kubejs:energy_godly_alloy'])
 e.recipes.create.item_application('immersiveengineering:capacitor_creative', ['immersiveengineering:capacitor_hv', 'kubejs:energy_godly_alloy'])
-e.recipes.createDeploying(Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}],componentConfig:{config0:{side0:4,side1:4,side2:4,side3:4,side4:4,side5:4}}}}'), ['mekanism:ultimate_energy_cube', 'kubejs:energy_godly_alloy'])
+e.custom(
+  {
+    "type": "create:item_application",
+    "ingredients": [
+      {"item":"mekanism:ultimate_energy_cube"},
+      {"item":"kubejs:energy_godly_alloy"}
+    ],
+    "results": [
+      {
+        "id": "mekanism:creative_energy_cube",
+        "components": {
+          "mekanism:side_config": {
+            "config": {
+              "energy": {
+                "side": {
+                  "front": "output",
+                  "left": "output",
+                  "right": "output",
+                  "back": "output",
+                  "top": "output",
+                  "bottom": "output"
+                },
+                "eject": true
+              },
+              "items": {
+                "side": {
+                  "front": "output",
+                  "left": "input",
+                  "right": "input",
+                  "back": "input",
+                  "top": "input",
+                  "bottom": "input"
+                }
+              }
+            }
+          },
+          "mekanism:energy": {"energy_containers":[9223372036854775807]}
+        }
+      }
+    ]
+  }
+)
 
 //kinetic things
 e.custom({
@@ -319,7 +358,7 @@ e.custom({
   ],
   "key": {
     "A": {
-      "item": "create_enchantment_industry:hyper_experience_bottle"
+      "item": "create_enchantment_industry:experience_cake"
     },
     "B": {
       "item": "create:shadow_steel"
@@ -331,10 +370,10 @@ e.custom({
       "item": "createaddition:chocolate_cake"
     },
     "E": {
-      "type": "forge:nbt",
-      "item": "extendedcrafting:singularity",
-      "count": 1,
-      "nbt": "{Id:\"extendedcrafting:brass\"}"
+      "type": "neoforge:components",
+      "items": "extendedcrafting:singularity",
+      "components": {
+      "extendedcrafting:singularity_id": "extendedcrafting:brass"}
     },
     "F": {
       "item": "create:precision_mechanism"
@@ -343,7 +382,7 @@ e.custom({
       "item": "create_new_age:overcharged_diamond"
     },
     "H": {
-      "item": "create_confectionery:gingerbread_man"
+      "item": "minecraft:bedrock"
     },
     "I": {
       "item": "create_sa:steam_engine"
@@ -365,7 +404,7 @@ e.custom({
     }
   },
   "result": {
-    "item": 'kubejs:kinetic_godly_alloy'
+    "id": 'kubejs:kinetic_godly_alloy'
   }
 })
 

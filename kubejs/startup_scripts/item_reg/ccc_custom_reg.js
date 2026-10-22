@@ -22,7 +22,7 @@ StartupEvents.registry('item', e => {
     e.create('bifrost_sword', 'sword').displayName('Bifrost Sword').rarity('EPIC').tier('bifrost')
     e.create('chicken_nuggies').food(food => {
         food
-            .hunger(4)
+            .nutrition(4)
             .saturation(3)
     }).displayName('Chicken Nuggies')
     e.create('redstone_alloy').displayName('Redstone Alloy').rarity('UNCOMMON')

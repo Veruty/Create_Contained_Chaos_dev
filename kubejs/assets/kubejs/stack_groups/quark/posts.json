@@ -1,0 +1,7 @@
+{
+  "id": "quark:posts",
+  "type": "remi:group",
+  "contents": [
+    "#quark:posts"
+  ]
+}

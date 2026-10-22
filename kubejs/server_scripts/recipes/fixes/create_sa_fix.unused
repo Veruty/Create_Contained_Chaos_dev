@@ -1,0 +1,176 @@
+//erverEvents.recipes(event =>{
+//vent.recipes.create.mechanical_crafting('create_sa:andesite_exoskeleton_chestplate', [
+//   "01210",
+//   "00300",
+//   "54045"
+//   ], {
+//       0: 'create:andesite_alloy',
+//       1: 'create:shaft',
+//       2: 'create:belt_connector',
+//       3: 'create_sa:heat_engine',
+//       4: '#c:ingots/zinc',
+//       5: '#c:stone',
+//   })
+//event.custom({
+//  "type": "create:sequenced_assembly",
+//  "ingredient": {
+//    "tag": "c:plates/copper"
+//  },
+//  "transitionalItem": {
+//    "id": "create_sa:incomplete_hydraulic_engine"
+//  },
+//  "sequence": [
+//     {
+//      "type": "create:filling",
+//      "ingredients": [
+//        {
+//          "item": "create_sa:incomplete_hydraulic_engine"
+//        },
+//        {
+//          "type": "neoforge:single",
+//          "fluid": "minecraft:water",
+//          "nbt": {},
+//          "amount": 250
+//        }
+//      ],
+//      "results": [
+//        {
+//          "id": "create_sa:incomplete_hydraulic_engine"
+//        }
+//      ]
+//    },
+//    {
+//      "type": "create:pressing",
+//      "ingredients": [
+//        {
+//          "item": "create_sa:incomplete_hydraulic_engine"
+//        }
+//      ],
+//      "results": [
+//        {
+//          "id": "create_sa:incomplete_hydraulic_engine"
+//        }
+//      ]
+//    },
+//    {
+//      "type": "create:pressing",
+//      "ingredients": [
+//        {
+//          "item": "create_sa:incomplete_hydraulic_engine"
+//        }
+//      ],
+//      "results": [
+//        {
+//          "id": "create_sa:incomplete_hydraulic_engine"
+//        }
+//      ]
+//    }
+//  ],
+//  "results": [
+//    {
+//      "id": "create_sa:hydraulic_engine",
+//      "chance": 120.0
+//    },
+//    {
+//      "id": "create:copper_sheet",
+//      "chance": 8.0
+//    },
+//    {
+//      "id": "create:andesite_alloy",
+//      "chance": 4.0
+//    }
+//  ],
+//  "loops": 3
+//})
+//event.custom({
+//  "type": "create:sequenced_assembly",
+//  "ingredient": {
+//    "tag": "c:plates/brass"
+//  },
+//  "transitionalItem": {
+//    "id": "create_sa:incomplete_steam_engine"
+//  },
+//  "sequence": [
+//    {
+//      "type": "create:deploying",
+//      "ingredients": [
+//        {
+//          "item": "create_sa:incomplete_steam_engine"
+//        },
+//        {
+//          "item": "create:cogwheel"
+//        }
+//      ],
+//      "results": [
+//        {
+//          "id": "create_sa:incomplete_steam_engine"
+//        }
+//      ]
+//    },
+//    {
+//      "type": "create:deploying",
+//      "ingredients": [
+//        {
+//          "item": "create_sa:incomplete_steam_engine"
+//        },
+//        {
+//          "item": "create:large_cogwheel"
+//        }
+//      ],
+//      "results": [
+//        {
+//          "id": "create_sa:incomplete_steam_engine"
+//        }
+//      ]
+//    },
+//    {
+//      "type": "create:deploying",
+//      "ingredients": [
+//        {
+//          "item": "create_sa:incomplete_steam_engine"
+//        },
+//        {
+//          "item": "create:propeller"
+//        }
+//      ],
+//      "results": [
+//        {
+//          "id": "create_sa:incomplete_steam_engine"
+//        }
+//      ]
+//    },
+//    {
+//      "type": "create:deploying",
+//      "ingredients": [
+//        {
+//          "item": "create_sa:incomplete_steam_engine"
+//        },
+//        {
+//          "item": "create:andesite_alloy"
+//        }
+//      ],
+//      "results": [
+//        {
+//          "id": "create_sa:incomplete_steam_engine"
+//        }
+//      ]
+//    }
+//  ],
+//  "results": [
+//    {
+//      "id": "create_sa:steam_engine",
+//      "chance": 120.0
+//    },
+//    {
+//      "id": "create:brass_sheet",
+//      "chance": 8.0
+//    },
+//    {
+//      "id": "create:andesite_alloy",
+//      "chance": 4.0
+//    }
+//  ],
+//  "loops": 3
+//})
+//})
+

@@ -1,0 +1,7 @@
+{
+  "id": "quark:waxed_corundum",
+  "type": "remi:group",
+  "regexes": [
+    "quark:waxed_.*_corundum"
+  ]
+}

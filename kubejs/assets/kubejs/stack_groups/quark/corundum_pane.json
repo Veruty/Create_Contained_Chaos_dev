@@ -1,0 +1,7 @@
+{
+  "id": "quark:corundum_pane",
+  "type": "remi:group",
+  "regexes": [
+    "quark:.*_corundum_pane"
+  ]
+}

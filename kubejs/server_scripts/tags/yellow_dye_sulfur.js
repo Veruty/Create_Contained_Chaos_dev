@@ -1,3 +1,3 @@
 ServerEvents.tags('item', event => {
-	event.add('forge:dyes/yellow', '#forge:dusts/sulfur')
+	event.add('c:dyes/yellow', '#c:dusts/sulfur')
 })

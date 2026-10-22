@@ -3,7 +3,7 @@ ServerEvents.recipes(e => {
 	e.recipes.create.deploying('mekanism:atomic_disassembler', ['kubejs:almost_complete_atomic_disassembler', 'mekanism:energy_tablet'])
 	e.recipes.create.sequenced_assembly([
         'kubejs:almost_complete_atomic_disassembler'
-    ], 'thermal:netherite_gear', [
+    ], 'minecraft:netherite_ingot', [
         e.recipes.createDeploying('kubejs:incomplete_atomic_disassembler',['kubejs:incomplete_atomic_disassembler', 'mekanism:alloy_atomic']),
         e.recipes.createDeploying('kubejs:incomplete_atomic_disassembler',['kubejs:incomplete_atomic_disassembler', 'mekanism:ingot_refined_obsidian']),
         e.recipes.createDeploying('kubejs:incomplete_atomic_disassembler',['kubejs:incomplete_atomic_disassembler', 'mekanism:hdpe_stick']),

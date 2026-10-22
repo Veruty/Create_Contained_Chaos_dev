@@ -1,0 +1,7 @@
+{
+  "id": "quark:crystal_lamp",
+  "type": "remi:group",
+  "regexes": [
+    "quark:.*_crystal_lamp"
+  ]
+}

@@ -1,386 +1,99 @@
-ItemEvents.tooltip(event => {
-  event.addAdvanced('kubejs:alice_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:blackreimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:bluereimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:brownreimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:chen_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:cirno_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:cyanreimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:debug_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: BlockBench'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:eiki_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:flandre_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:grayreimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:greenreimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:koishi_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:lightbluereimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:limereimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:magentareimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:marisa_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:marisahat_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:meiling_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:nazrin_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:newreimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:nitori_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:offcolorreimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:orangereimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:patchouli_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:pinkreimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:purplereimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:reimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:sunnymilk_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:tancirno_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:tewi_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:whitereimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:yellowreimu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:youmu_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-  event.addAdvanced('kubejs:yuyuko_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Touhou Project'))
-      text.add(2, Text.gray('Model: KosherKomeiji'))
-    }
-  })
-    event.addAdvanced('kubejs:zalkat_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: ZalkaT'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
-    }
-  })
-     event.addAdvanced('kubejs:thesauce_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: THESAUCE'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
-    }
-  })
-     event.addAdvanced('kubejs:veruty_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Veruty'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
-    }
-  })
-     event.addAdvanced('kubejs:blockypanda83_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Blockypanda83'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
-    }
-  })
-     event.addAdvanced('kubejs:chaoscorporation_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: ChaosCorporation'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
-    }
-  })
-     event.addAdvanced('kubejs:junycat_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: junycat'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
-    }
-  })
-     event.addAdvanced('kubejs:m3chanicb_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: M3chanicB'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
-    }
-  })
-     event.addAdvanced('kubejs:lavender_bunnies_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Lavender Bunnies'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
-    }
-  })
-     event.addAdvanced('kubejs:sirheadcrab1_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Sirheadcrab1'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
-    }
-  })
-     event.addAdvanced('kubejs:spar117maschief_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: spar117maschief'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
-    }
-  })
-      event.addAdvanced('kubejs:lordshadowlight_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: LordShadowLight'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty'))
-    }
-  })
-      event.addAdvanced('kubejs:lucasskittles_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: Lucasskittles'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty, THESUACE'))
-    }
-  }) 
-        event.addAdvanced('kubejs:leevee123_fumo', (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [Text.of('[Shift]').gray()])
-    } else {
-      text.add(1, Text.gray('Original: leevee123'))
-      text.add(2, Text.gray('Model: KosherKomeiji, Veruty, THESUACE'))
-    }
-  }) 
+ItemEvents.modifyTooltips(event => {
+  const touhoufumos = [
+    'kubejs:alice_fumo',
+    'kubejs:blackreimu_fumo',
+    'kubejs:bluereimu_fumo',
+    'kubejs:brownreimu_fumo',
+    'kubejs:chen_fumo',
+    'kubejs:cirno_fumo',
+    'kubejs:cyanreimu_fumo',
+    'kubejs:eiki_fumo',
+    'kubejs:flandre_fumo',
+    'kubejs:grayreimu_fumo',
+    'kubejs:greenreimu_fumo',
+    'kubejs:koishi_fumo',
+    'kubejs:lightbluereimu_fumo',
+    'kubejs:limereimu_fumo',
+    'kubejs:magentareimu_fumo',
+    'kubejs:marisa_fumo',
+    'kubejs:marisahat_fumo',
+    'kubejs:meiling_fumo',
+    'kubejs:nazrin_fumo',
+    'kubejs:newreimu_fumo',
+    'kubejs:nitori_fumo',
+    'kubejs:offcolorreimu_fumo',
+    'kubejs:orangereimu_fumo',
+    'kubejs:patchouli_fumo',
+    'kubejs:pinkreimu_fumo',
+    'kubejs:purplereimu_fumo',
+    'kubejs:reimu_fumo',
+    'kubejs:sunnymilk_fumo',
+    'kubejs:tancirno_fumo',
+    'kubejs:tewi_fumo',
+    'kubejs:whitereimu_fumo',
+    'kubejs:yellowreimu_fumo',
+    'kubejs:youmu_fumo',
+    'kubejs:yuyuko_fumo',
+  ]
+  touhoufumos.forEach(element => {
+    event.add(element, {shift: false}, Text.gray('[Shift]'))
+    event.add(element, {shift: true}, Text.gray('Original: Touhou Project'))
+    event.add(element, {shift: true}, Text.gray('Model: KosherKomeiji'))
+  });
+    event.add('kubejs:debug_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:debug_fumo', {shift: true}, Text.gray('Original: BlockBench'))
+    event.add('kubejs:debug_fumo', {shift: true}, Text.gray('Model: KosherKomeiji'))
+
+    event.add('kubejs:zalkat_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:zalkat_fumo', {shift: true}, Text.gray('Original: ZalkaT'))
+    event.add('kubejs:zalkat_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:thesauce_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:thesauce_fumo', {shift: true}, Text.gray('Original: THESAUCE'))
+    event.add('kubejs:thesauce_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:veruty_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:veruty_fumo', {shift: true}, Text.gray('Original: Veruty'))
+    event.add('kubejs:veruty_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:blockypanda83_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:blockypanda83_fumo', {shift: true}, Text.gray('Original: Blockypanda83'))
+    event.add('kubejs:blockypanda83_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:chaoscorporation_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:chaoscorporation_fumo', {shift: true}, Text.gray('Original: ChaosCorporation'))
+    event.add('kubejs:chaoscorporation_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:junycat_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:junycat_fumo', {shift: true}, Text.gray('Original: junycat'))
+    event.add('kubejs:junycat_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:m3chanicb_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:m3chanicb_fumo', {shift: true}, Text.gray('Original: M3chanicB'))
+    event.add('kubejs:m3chanicb_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:lavender_bunnies_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:lavender_bunnies_fumo', {shift: true}, Text.gray('Original: Lavender Bunnies'))
+    event.add('kubejs:lavender_bunnies_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:sirheadcrab1_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:sirheadcrab1_fumo', {shift: true}, Text.gray('Original: Sirheadcrab1'))
+    event.add('kubejs:sirheadcrab1_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:spar117maschief_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:spar117maschief_fumo', {shift: true}, Text.gray('Original: spar117maschief'))
+    event.add('kubejs:spar117maschief_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:lordshadowlight_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:lordshadowlight_fumo', {shift: true}, Text.gray('Original: LordShadowLight'))
+    event.add('kubejs:lordshadowlight_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:lucasskittles_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:lucasskittles_fumo', {shift: true}, Text.gray('Original: Lucasskittles'))
+    event.add('kubejs:lucasskittles_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+
+    event.add('kubejs:leevee123_fumo', {shift: false}, Text.gray('[Shift]'))
+    event.add('kubejs:leevee123_fumo', {shift: true}, Text.gray('Original: leevee123'))
+    event.add('kubejs:leevee123_fumo', {shift: true}, Text.gray('Model: KosherKomeiji, Veruty'))
+ 
 })

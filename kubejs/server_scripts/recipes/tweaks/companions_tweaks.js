@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
         '   '
     ],
     {
-        B: 'thermal:enderium_dust',
+        B: '#c:dusts/ender_pearl',
         A: 'minecraft:netherite_ingot'
     })
 })

@@ -5,8 +5,8 @@ ServerEvents.recipes(e => {
 		'WCW',
 		'WBW'
 	], {
-		W: 'blahaj:white_yarn',
-		B: 'blahaj:black_yarn',
+		W: 'minecraft:white_wool',
+		B: 'minecraft:black_wool',
 		C: 'minecraft:white_wool'
 	})
 	e.shaped('kubejs:thesauce_fumo', [
@@ -14,10 +14,10 @@ ServerEvents.recipes(e => {
 		'OCO',
 		'LGL'
 	], {
-		O: 'blahaj:orange_yarn',
-		B: 'blahaj:brown_yarn',
-		G: 'blahaj:gray_yarn',
-		L: 'blahaj:blue_yarn',
+		O: 'minecraft:orange_wool',
+		B: 'minecraft:brown_wool',
+		G: 'minecraft:gray_wool',
+		L: 'minecraft:blue_wool',
 		C: 'minecraft:white_wool'
 	})
 	e.shaped('kubejs:veruty_fumo', [
@@ -25,11 +25,11 @@ ServerEvents.recipes(e => {
 		'GCG',
 		'WWW'
 	], {
-		W: 'blahaj:white_yarn',
-		B: 'blahaj:blue_yarn',
-		R: 'blahaj:red_yarn',
-		G: 'blahaj:gray_yarn',
-		L: 'blahaj:lime_yarn',
+		W: 'minecraft:white_wool',
+		B: 'minecraft:blue_wool',
+		R: 'minecraft:red_wool',
+		G: 'minecraft:gray_wool',
+		L: 'minecraft:lime_wool',
 		C: 'minecraft:white_wool'
 	})
 	e.shaped('kubejs:blockypanda83_fumo', [
@@ -37,9 +37,9 @@ ServerEvents.recipes(e => {
 		'PCP',
 		'WWW'
 	], {
-		W: 'blahaj:white_yarn',
-		P: 'blahaj:pink_yarn',
-		L: 'blahaj:light_blue_yarn',
+		W: 'minecraft:white_wool',
+		P: 'minecraft:pink_wool',
+		L: 'minecraft:light_blue_wool',
 		C: 'minecraft:white_wool'
 	})
 	e.shaped('kubejs:chaoscorporation_fumo'	, [
@@ -47,11 +47,11 @@ ServerEvents.recipes(e => {
 		'LCP',
 		'BWA'
 	], {
-		W: 'blahaj:white_yarn',
-		B: 'blahaj:blue_yarn',
-		A: 'blahaj:black_yarn',
-		P: 'blahaj:purple_yarn',
-		L: 'blahaj:light_blue_yarn',
+		W: 'minecraft:white_wool',
+		B: 'minecraft:blue_wool',
+		A: 'minecraft:black_wool',
+		P: 'minecraft:purple_wool',
+		L: 'minecraft:light_blue_wool',
 		C: 'minecraft:white_wool'
 	})
 	e.shaped('kubejs:junycat_fumo', [
@@ -59,10 +59,10 @@ ServerEvents.recipes(e => {
 		'GCG',
 		'WMG'
 	], {
-		W: 'blahaj:white_yarn',
-		P: 'blahaj:pink_yarn',
-		M: 'blahaj:magenta_yarn',
-		G: 'blahaj:light_gray_yarn',
+		W: 'minecraft:white_wool',
+		P: 'minecraft:pink_wool',
+		M: 'minecraft:magenta_wool',
+		G: 'minecraft:light_gray_wool',
 		C: 'minecraft:white_wool'
 	})
 	e.shaped('kubejs:m3chanicb_fumo', [
@@ -70,10 +70,10 @@ ServerEvents.recipes(e => {
 		'GCG',
 		'PWP'
 	], {
-		W: 'blahaj:white_yarn',
-		P: 'blahaj:pink_yarn',
-		L: 'blahaj:light_gray_yarn',
-		G: 'blahaj:gray_yarn',
+		W: 'minecraft:white_wool',
+		P: 'minecraft:pink_wool',
+		L: 'minecraft:light_gray_wool',
+		G: 'minecraft:gray_wool',
 		C: 'minecraft:white_wool'
 	})
 	e.shaped('kubejs:lavender_bunnies_fumo', [
@@ -81,10 +81,10 @@ ServerEvents.recipes(e => {
 		'GCG',
 		'MGM'
 	], {
-		B: 'blahaj:light_blue_yarn',
-		M: 'blahaj:magenta_yarn',
-		L: 'blahaj:lime_yarn',
-		G: 'blahaj:gray_yarn',
+		B: 'minecraft:light_blue_wool',
+		M: 'minecraft:magenta_wool',
+		L: 'minecraft:lime_wool',
+		G: 'minecraft:gray_wool',
 		C: 'minecraft:white_wool'
 	})
 	e.shaped('kubejs:sirheadcrab1_fumo', [
@@ -92,10 +92,10 @@ ServerEvents.recipes(e => {
 		'PCP',
 		'BBB'
 	], {
-		Y: 'blahaj:yellow_yarn',
-		M: 'blahaj:magenta_yarn',
-		P: 'blahaj:purple_yarn',
-		B: 'blahaj:brown_yarn',
+		Y: 'minecraft:yellow_wool',
+		M: 'minecraft:magenta_wool',
+		P: 'minecraft:purple_wool',
+		B: 'minecraft:brown_wool',
 		C: 'minecraft:white_wool'
 	})
 	e.shaped('kubejs:spar117maschief_fumo', [
@@ -103,9 +103,9 @@ ServerEvents.recipes(e => {
 		'WCW',
 		'WPW'
 	], {
-		W: 'blahaj:white_yarn',
-		L: 'blahaj:light_gray_yarn',
-		P: 'blahaj:pink_yarn',
+		W: 'minecraft:white_wool',
+		L: 'minecraft:light_gray_wool',
+		P: 'minecraft:pink_wool',
 		C: 'minecraft:white_wool'
 	})
 	e.shaped(
@@ -116,15 +116,15 @@ ServerEvents.recipes(e => {
         'GHI'
     ],
     {
-        G: 'blahaj:light_blue_yarn',
-        D: 'blahaj:lime_yarn',
-        A: 'blahaj:yellow_yarn',
-        F: 'blahaj:black_yarn',
-        C: 'blahaj:red_yarn',
-        B: 'blahaj:orange_yarn',
-        I: 'blahaj:purple_yarn',
+        G: 'minecraft:light_blue_wool',
+        D: 'minecraft:lime_wool',
+        A: 'minecraft:yellow_wool',
+        F: 'minecraft:black_wool',
+        C: 'minecraft:red_wool',
+        B: 'minecraft:orange_wool',
+        I: 'minecraft:purple_wool',
         E: 'minecraft:black_wool',
-        H: 'blahaj:magenta_yarn'
+        H: 'minecraft:magenta_wool'
     })
 	e.shaped(
     Item.of('kubejs:lucasskittles_fumo'),
@@ -134,15 +134,15 @@ ServerEvents.recipes(e => {
         'GHI'
     ],
     {
-        G: 'blahaj:orange_yarn',
-        D: 'blahaj:gray_yarn',
-        A: 'blahaj:yellow_yarn',
-        F: 'blahaj:gray_yarn',
-        C: 'blahaj:yellow_yarn',
-        B: 'blahaj:yellow_yarn',
-        I: 'blahaj:orange_yarn',
+        G: 'minecraft:orange_wool',
+        D: 'minecraft:gray_wool',
+        A: 'minecraft:yellow_wool',
+        F: 'minecraft:gray_wool',
+        C: 'minecraft:yellow_wool',
+        B: 'minecraft:yellow_wool',
+        I: 'minecraft:orange_wool',
         E: 'minecraft:yellow_wool',
-        H: 'blahaj:yellow_yarn'
+        H: 'minecraft:yellow_wool'
     })
 		e.shaped(
     Item.of('kubejs:leevee123_fumo'),
@@ -152,14 +152,14 @@ ServerEvents.recipes(e => {
         'GHI'
     ],
     {
-        G: 'blahaj:yellow_yarn',
-        D: 'blahaj:white_yarn',
-        A: 'blahaj:black_yarn',
-        F: 'blahaj:white_yarn',
-        C: 'blahaj:black_yarn',
-        B: 'blahaj:black_yarn',
-        I: 'blahaj:yellow_yarn',
+        G: 'minecraft:yellow_wool',
+        D: 'minecraft:white_wool',
+        A: 'minecraft:black_wool',
+        F: 'minecraft:white_wool',
+        C: 'minecraft:black_wool',
+        B: 'minecraft:black_wool',
+        I: 'minecraft:yellow_wool',
         E: 'minecraft:gray_wool',
-        H: 'blahaj:gray_yarn'
+        H: 'minecraft:gray_wool'
     })
 })

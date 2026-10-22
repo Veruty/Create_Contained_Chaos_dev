@@ -1,0 +1,7 @@
+{
+  "id": "quark:corundum_cluster",
+  "type": "remi:group",
+  "regexes": [
+    "quark:.*_corundum_cluster"
+  ]
+}

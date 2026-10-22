@@ -22,28 +22,28 @@ ServerEvents.recipes(event => {
             ' D '
         ],
         {
-            B: '#forge:ingots/steel',
+            B: '#c:ingots/steel',
             A: 'minecraft:lapis_lazuli',
             D: 'minecraft:stick',
-            C: 'thermal:rf_coil'
+            C: 'minecraft:bedrock'
         }
     )
-    event.custom({"type": "thermal:smelter",
-		"ingredients": [
-			{"value": [{"tag": "forge:raw_materials/osmium"}, {"item": "create:crushed_raw_osmium"}, {"tag": "forge:dusts/osmium"}, {"tag": "forge:ores/osmium"}],"count": 1},
-		],
-		"result": [{"item": "mekanism:ingot_osmium", "count": 1}],
-		"energy": 27000
-	})
-	event.custom({"type":"immersiveengineering:arc_furnace","additives":[],"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/osmium"}},{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"create:crushed_raw_materials"}}],"energy":102400,"input":{"item": "create:crushed_raw_osmium"},"results":[{"base_ingredient":{"tag":"forge:ingots/osmium"},"count":2}],"slag":{"tag":"forge:slag"},"time":200})
-	event.remove({ id: 'mekanism:rotary/steam'})
-	event.custom({"type": "mekanism:rotary",
-  "fluidInput": {"amount": 1,"fluid": "mekanism:steam"},
-  "fluidOutput": {"amount": 1,"fluid": "mekanism:steam"},
-  "gasInput": {"amount": 1000,"gas": "mekanism:steam"},
-  "gasOutput": {"amount": 1000  ,"gas": "mekanism:steam"
-}
-  })
+  //  event.custom({"type": "thermal:smelter",
+	//	"ingredients": [
+	//		{"value": [{"tag": "c:raw_materials/osmium"}, {"item": "create:crushed_raw_osmium"}, {"tag": "c:dusts/osmium"}, {"tag": "c:ores/osmium"}],"count": 1},
+	//	],
+	//	"result": [{"item": "mekanism:ingot_osmium", "count": 1}],
+	//	"energy": 27000
+	//})
+	event.custom({"type":"immersiveengineering:arc_furnace","additives":[],"conditions":[{"type":"neoforge:not","value":{"type":"neoforge:tag_empty","tag":"c:ingots/osmium"}},{"type":"neoforge:not","value":{"type":"neoforge:tag_empty","tag":"create:crushed_raw_materials"}}],"energy":102400,"input":{"item": "create:crushed_raw_osmium"},"results":[{"tag":"c:ingots/osmium","count":2}],"slag":{"tag":"c:slag"},"time":200})
+ //event.remove({ id: 'mekanism:rotary/steam'})
+ //event.custom({"type": "mekanism:rotary",
+ //"fluidInput": {"amount": 1,"fluid": "mekanism:steam"},
+ //"fluidOutput": {"amount": 1,"fluid": "mekanism:steam"},
+ //"gasInput": {"amount": 1000,"gas": "mekanism:steam"},
+ //"gasOutput": {"amount": 1000  ,"gas": "mekanism:steam"
+ //}
+ //})
   event.remove({ id: 'mekanism:steel_casing' })
   event.custom({
   "type": "extendedcrafting:shaped_table",
@@ -56,26 +56,26 @@ ServerEvents.recipes(event => {
   ],
   "key": {
     "A": {
-      "item": "thermal:obsidian_glass"
+      "item": "minecraft:tinted_glass"
     },
     "B": {
-      "tag": "forge:ingots/steel"
+      "tag": "c:ingots/steel"
     },
     "C": {
       "item": "immersiveengineering:wirecoil_electrum"
     },
 	    "E": {
-      "tag": "forge:ingots/osmium"
+      "tag": "c:ingots/osmium"
     },
 	    "F": {
-      "tag": "forge:ingots/signalum"
+      "tag": "c:ingots/signalum"
     },
     "D": {
       "item": "immersiveengineering:blastbrick_reinforced"
     }
   },
   "result": {
-    "item": 'mekanism:steel_casing'
+    "id": 'mekanism:steel_casing'
   }
 })
 event.remove({output:'mekanismgenerators:fission_reactor_casing'})
@@ -88,7 +88,7 @@ event.shaped(
         ' A '
     ],
     {
-        A: '#forge:plates/lead',
+        A: '#c:plates/lead',
         B: 'immersiveengineering:steel_scaffolding_standard'
     }
 )

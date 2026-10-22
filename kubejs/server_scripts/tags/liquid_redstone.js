@@ -1,4 +1,4 @@
 ServerEvents.tags('fluid', e => {
-    e.add('forge:redstone', 'kubejs:liquid_redstone')
+    e.add('c:redstone', 'kubejs:liquid_redstone')
 
 })
