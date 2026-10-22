@@ -1,0 +1,21 @@
+{
+    "type": "forge:nbt",
+    "item": "extendedcrafting:singularity",
+    "count": 1,
+    "nbt": "{Id:\"extendedcrafting:coal\"}"
+}
+to
+{
+    "type": "neoforge:components",
+    "items": "extendedcrafting:singularity",
+    "components": {
+    "extendedcrafting:singularity_id": "extendedcrafting:coal"}
+}
+
+
+output fields in most recipes now need "id" instead of "item" or something else (tags are still supported where they were supported before)
+
+
+{"fluidTag": 'forge:redstone', "amount": 100}
+to
+{"type":"neoforge:tag","amount":100,"tag":"c:redstone"}
