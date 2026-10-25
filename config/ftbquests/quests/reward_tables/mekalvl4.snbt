@@ -1,0 +1,34 @@
+{
+	id: "3FE27EC9C6D5580E"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 16
+			id: "17A5A1A4347964B8"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+			random_bonus: 48
+		}
+		{
+			count: 4
+			id: "5B01A64A4873E177"
+			item: {
+				count: 1
+				id: "mekanism:alloy_atomic"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "0F0BF8159B2CEFBA"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_control_circuit"
+			}
+			random_bonus: 4
+		}
+	]
+}
