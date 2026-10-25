@@ -1,0 +1,43 @@
+{
+	id: "3950574BB2D5328C"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 2
+			id: "53482759006202EE"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+			random_bonus: 6
+		}
+		{
+			count: 2
+			id: "71DA41C4ADA8396F"
+			item: {
+				count: 1
+				id: "mekanism:alloy_infused"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 4
+			id: "459EF3AC0629C86E"
+			item: {
+				count: 1
+				id: "mekanism:ingot_steel"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 2
+			id: "0DFD793B69065B96"
+			item: {
+				count: 1
+				id: "mekanism:basic_control_circuit"
+			}
+			random_bonus: 2
+		}
+	]
+}

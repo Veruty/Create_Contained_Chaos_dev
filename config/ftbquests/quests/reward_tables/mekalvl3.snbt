@@ -1,0 +1,41 @@
+{
+	id: "348EF6C93336B3EC"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 8
+			id: "007B76A962E556CF"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+			random_bonus: 24
+		}
+		{
+			id: "067C275501DFD3C9"
+			item: {
+				count: 1
+				id: "mekanism:alloy_atomic"
+			}
+			random_bonus: 1
+		}
+		{
+			id: "6DEEDFA8DDD12905"
+			item: {
+				count: 1
+				id: "mekanism:elite_control_circuit"
+			}
+			random_bonus: 1
+		}
+		{
+			count: 16
+			id: "638204DD3C5FCD75"
+			item: {
+				count: 1
+				id: "mekanism:fluorite_ore"
+			}
+			random_bonus: 16
+		}
+	]
+}

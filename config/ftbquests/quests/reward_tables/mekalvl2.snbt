@@ -1,0 +1,43 @@
+{
+	id: "341CCD48947970BE"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 4
+			id: "58C79DF023030F70"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 2
+			id: "50EFBE5EE54F4CE6"
+			item: {
+				count: 1
+				id: "mekanism:alloy_reinforced"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "16E7FC8014BE0353"
+			item: {
+				count: 1
+				id: "mekanism:advanced_control_circuit"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "29DD0E001A88C237"
+			item: {
+				count: 1
+				id: "mekanism:ingot_refined_obsidian"
+			}
+			random_bonus: 2
+		}
+	]
+}
