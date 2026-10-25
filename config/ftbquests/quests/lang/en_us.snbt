@@ -627,6 +627,8 @@
 	]
 	quest.0453C7D5AA35CAAA.title: "Lithium"
 	quest.0474D40050B5E0D2.quest_desc: ["Turbine Vent is the block responsible for recovery of the water after it condensed from steam. To do this connect a pipe (or port if you are doing port to port connection) and water will flow out of it if Turbine set to recover water mode."]
+	quest.049E8B8DC4F4B577.quest_desc: ["Smelt Flesh in the soul furnace to obtain the peak of demonic ritual offerings"]
+	quest.049E8B8DC4F4B577.quest_subtitle: "Charred flesh"
 	quest.04B93DA8ACE24C42.quest_desc: [
 		"The Centrifuge works a bit differently than most Create blocks. It has no inventory, so instead it requires fluid tanks on the top and bottom of it."
 		""
@@ -806,6 +808,7 @@
 	quest.0D7CBB8055C64D65.quest_desc: ["Yea ive got no clue how this thing works, but its really good"]
 	quest.0D7CBB8055C64D65.quest_subtitle: "Weird Science"
 	quest.0DB6B4A64ABE831A.quest_desc: ["Whisk is an item which function solely as ingredient in crafting recipes."]
+	quest.0E25D61F508C4FAC.quest_subtitle: "Lil flesh guy"
 	quest.0E26D8711F2FDDE4.quest_desc: [
 		"Welcome to Contained Chaos, my \"fun little modpack\" that was centered (mostly) around Create."
 		""
@@ -958,6 +961,8 @@
 	quest.10ECFC8F1B51F92B.quest_subtitle: "No boom?"
 	quest.1138BF5F7A563260.quest_desc: ["Will launch the player who uses it into the air, great for using with elytra!"]
 	quest.1138BF5F7A563260.quest_subtitle: "Weeeee!"
+	quest.1174DCE191D07775.quest_desc: ["obtain an altar which can be used alongside a special bell, to summon a special monster for a limited time, the only thing you must do is provide a sacrifice"]
+	quest.1174DCE191D07775.quest_subtitle: "by the pricking of my thumbs,"
 	quest.1182BD2031E81300.quest_desc: [
 		"Made by putting a piece of coal in the Enrichment Chamber."
 		"Highly recommended as it increases the yield of a single piece to 80mB, compared to normal coal's 10mB, and charcoal's 20mB."
@@ -1197,6 +1202,8 @@
 	]
 	quest.2094BC9F7A6385C3.quest_desc: ["Allows you to pick up spawners, which allows you to place them wherever you want"]
 	quest.2094BC9F7A6385C3.quest_subtitle: "Yoink!"
+	quest.20C096CA8BC9A299.quest_desc: ["Obtain a mysterious needle... i wonder what i could create with it"]
+	quest.20C096CA8BC9A299.quest_subtitle: "Sewing the seeds of chaos"
 	quest.20F288B4F17AD580.quest_subtitle: "Diggy Diggy Hole"
 	quest.20F288B4F17AD580.title: "Excavator"
 	quest.20F3368C6AAEA8A6.quest_desc: ["Create an elven core, which can be used to perform a special ritual to commune with other realms"]
@@ -1211,6 +1218,8 @@
 	]
 	quest.2156FF005A98CD92.quest_subtitle: "cat_cronch_crunch.gif"
 	quest.2156FF005A98CD92.title: "Crystal"
+	quest.218F086777D7E1E1.quest_desc: ["Obtain the croissant egg, which hatches into the croissant dragon. you must then feed it 3 milk buckets to evolve it to its final form"]
+	quest.218F086777D7E1E1.quest_subtitle: "haha egg"
 	quest.21C93E07E329C722.quest_desc: ["{info.thermal.dynamo_compression.0}"]
 	quest.21D2ECE01D979648.quest_desc: ["A Turbine Blade is an essential part of the Industrial Turbine. The blades are fitted into the turbine rotor, and if you right click any block that is part of the rotor shaft, it will automatically place above the lowest blade, or on the lowest level if there is no blade already on the lowest level. You can fit 2 blades per rotor block."]
 	quest.21FAE2E0B3BA132D.quest_desc: ["Gold wire can transfer up to 4096 FE/t"]
@@ -1241,6 +1250,8 @@
 		""
 		"Besides showing the in-game time, the Cuckoo Clock also chimes twice daily, once at noon, and once dusk (as soon as players can sleep). At noon a small pig pops in and out of the clock 3 times and makes an oinking sounds, at dusk a small creeper pops in and out of the clock 3 times and makes hissing sounds."
 	]
+	quest.24818C02DAF6FB81.quest_desc: ["The summoning bell, best have a sacrifice ready... or else"]
+	quest.24818C02DAF6FB81.quest_subtitle: "It calls to me..."
 	quest.24A371935B68036D.quest_desc: [
 		"Elite Induction Provider can transport up to 6.5 MFE"
 		""
@@ -1251,6 +1262,10 @@
 	quest.24CD759A561EB2C6.quest_subtitle: "Redstone-infused iron"
 	quest.2546F7B4A81E1555.quest_desc: ["When launched, will create a thick bunch of vines, which you can climb!"]
 	quest.2546F7B4A81E1555.quest_subtitle: "Ballin'"
+	quest.255D61047383C801.quest_desc: ["Infuse a pure gem with souls in the furnace, allowing for the creation of magical things"]
+	quest.255D61047383C801.quest_subtitle: "24k souls"
+	quest.25985E6946E0A23C.quest_desc: ["Find an imp, you could try paying him off and have him join you... only issue is he may not always take too kindly to your bribes. if hes purple, pay him. if hes red, run."]
+	quest.25985E6946E0A23C.quest_subtitle: "sell your soul for a coin?"
 	quest.259D1602E7F5F3FF.quest_desc: ["The Brass Sheet is a crafting component used in multiple crafting recipes."]
 	quest.25DC4A8FAB183E2A.title: "Brine"
 	quest.25DEBD7139CEB509.quest_desc: [
@@ -2805,6 +2820,8 @@
 	quest.2FFCC04506C08E87.quest_subtitle: "Wireless everything!"
 	quest.30446A8802550D59.quest_desc: ["[ \"Made with \", { \"text\": \"Fluid Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"554A46120F1F0FD6\" } } ]"]
 	quest.305487E15BCDC6F1.quest_desc: ["Overcharged iron is created via energizing iron ingot and is used in creation of motors and some heat elements."]
+	quest.305FB03E5D3F996A.quest_desc: ["Defeat a raid, and find a broken robot. if only you could repair it somehow, perhaps you could harness its energy..."]
+	quest.305FB03E5D3F996A.quest_subtitle: "Robotics club going crazy "
 	quest.308398792BEA3444.quest_desc: ["To make Circuit deploy copper wire onto Blank Circuit."]
 	quest.30861B4B1386D151.quest_desc: ["Create a Thorny Chakram, which you can throw at people, no doubt leaving a few thorns left behind"]
 	quest.30861B4B1386D151.quest_subtitle: "Youch!"
@@ -3061,6 +3078,8 @@
 	quest.44CF8BAB5EF033FE.quest_subtitle: "Woah cool! XRAY!!!"
 	quest.450670D28AC5433D.quest_desc: ["Increases the range of your reach. makes you super stretchy :3"]
 	quest.450670D28AC5433D.quest_subtitle: "Long Long man"
+	quest.450B7A8800C11C8B.quest_desc: ["Obtain a special totem, which when powered by an hourglass, will respawn a fallen companion up to 4 times, before needing to be refueled. "]
+	quest.450B7A8800C11C8B.quest_subtitle: "Second life"
 	quest.453AF22EDC7B77EF.quest_desc: [
 		"Schematic And Quill is used for saving a structure as an .nbt file."
 		""
@@ -3109,6 +3128,8 @@
 	]
 	quest.46DA59DC1925C374.quest_desc: ["Ultimate Energy Cube can hold 102.4 MFE"]
 	quest.46DA59DC1925C374.quest_subtitle: "Best Powerbank"
+	quest.46E660862FBC791F.quest_desc: ["Find cornelieous, the sick bastard, and befriend him by killing a poor innocent bee in front of him, then give him money, and he will extort the other frogs for cheap labour. he is truly, the capitalist of all time"]
+	quest.46E660862FBC791F.quest_subtitle: "hey, you look like you hate bees!"
 	quest.47102EA807047D1E.quest_subtitle: "Can it make nutmilk?"
 	quest.47102EA807047D1E.title: "Industrial Squeezer "
 	quest.47272468310BF7CD.quest_desc: [
@@ -3138,6 +3159,8 @@
 		"{info.thermal.machine_crystallizer.1}"
 	]
 	quest.48E1F78DB0189A8F.quest_subtitle: "{info.thermal.machine_crystallizer.2}"
+	quest.48EE3B00853865F0.quest_desc: ["obtain an altar which can be used alongside a special bell, to summon a special monster for a limited time, the only thing you must do is provide a sacrifice"]
+	quest.48EE3B00853865F0.quest_subtitle: "something wicked, this way comes"
 	quest.492994AA46EA170D.title: "Polonium"
 	quest.494FEDEFAACD1C1D.quest_desc: [
 		"Redstone Contacts allow Contraptions to convey redstone signals or activate Redstone Circuits."
@@ -3151,6 +3174,10 @@
 		""
 		"Fission Fuel Assembly provides maximum burn rate capacity to a Fission Reactor."
 	]
+	quest.49D0E73FB37581D0.quest_desc: ["Discover the teddy tower, which contains a broken teddy bear... if only you had something to fix it"]
+	quest.49D0E73FB37581D0.quest_subtitle: "What wonders could be inside?"
+	quest.49E1F8C00CA857FD.quest_desc: ["Summon fucking naginatas from heaven to strike your foes down, can be given to the golden allay to let it cast the rods from god."]
+	quest.49E1F8C00CA857FD.quest_subtitle: "Rods from god"
 	quest.4A0D50A363959296.quest_subtitle: "use any singurity to complete this quest"
 	quest.4A0D50A363959296.title: "Singularity"
 	quest.4A38E8A0FF183640.quest_desc: ["Propeller is an item which function solely as ingredient in crafting recipes."]
@@ -3187,6 +3214,8 @@
 	quest.4AFCB1AE203AD281.quest_subtitle: "{info.thermal.dynamo_magmatic.1}"
 	quest.4B58EE20772EBC39.quest_desc: ["Core of the reactor itself, this part is responsible for turning fuel into heat."]
 	quest.4B58EE20772EBC39.quest_subtitle: "Fuel stick"
+	quest.4B5B586BF9280FA1.quest_desc: ["Summon a living candle by smelting a candle in a soul furnace, giving your golden allay friend an extra life if it is killed"]
+	quest.4B5B586BF9280FA1.quest_subtitle: "Extra life"
 	quest.4BCDA1E23D59D3DA.quest_subtitle: "The Rolling Stones"
 	quest.4BCDA1E23D59D3DA.title: "Crushing Wheel"
 	quest.4BD0470055EFB7C0.quest_desc: [
@@ -3207,6 +3236,8 @@
 	]
 	quest.4CCDC24B680782FF.title: "Nickel Ingot"
 	quest.4CF7E4566BD3B30A.quest_desc: ["Defeat the Gaia Guardian and create a Gaiasteel Ingot. use this to unleash your potential through the final trial."]
+	quest.4D34BD4DF7821125.quest_desc: ["Kill the sacred pontiff, obtaining the strongest of materials. "]
+	quest.4D34BD4DF7821125.quest_subtitle: "The King has fallen"
 	quest.4DBEBE514C5D068E.quest_desc: ["Basic component of solar panels"]
 	quest.4DBEBE514C5D068E.quest_subtitle: "Energy of the sun"
 	quest.4DC8771F98726863.quest_subtitle: "another me..?"
@@ -3345,6 +3376,8 @@
 	quest.54596BF1C9F516E4.quest_desc: ["Obtain a Sin Runes, which can be used for the best of the best."]
 	quest.54596BF1C9F516E4.quest_subtitle: "Gotta catch 'em all!"
 	quest.54596BF1C9F516E4.title: "Sin Runes"
+	quest.54731DBA660E2691.quest_desc: ["Obtain coins, if only you could extort someone for cheap labour..."]
+	quest.54731DBA660E2691.quest_subtitle: "Moneyyy"
 	quest.54F8F0C353755CF4.quest_desc: [
 		"If you have a lot of nutrient paste, you can turn it into nutrient bars! They are a very good source of food for bio-machines and for yourself. "
 		"&8Not sure if it's really that tasty though...&r"
@@ -3412,6 +3445,8 @@
 	]
 	quest.59EAC4E455B15BAA.quest_desc: ["Obtain an Assembly Halo &mwhich is useless lmfao&r"]
 	quest.59EAC4E455B15BAA.quest_subtitle: "Now we're crafting!"
+	quest.5A038373FC1BB8A7.quest_desc: ["Obtain a great chalice, which can be filled with souls to create life essence."]
+	quest.5A038373FC1BB8A7.quest_subtitle: "The holy stanley cup"
 	quest.5A4CFE4FD8D50B72.quest_desc: ["The Fluidic Plenisher is the exact opposite of the Electric Pump. Instead of pumping fluids out of an area, the Fluidic Plenisher \"floods\" an area below it until all available open blocks are filled, or until it runs out of liquid to place."]
 	quest.5A4F459C190B85D8.quest_desc: ["Will generate mana for you and will store it in your mana tablet!"]
 	quest.5A4F459C190B85D8.quest_subtitle: "Passive income"
@@ -3436,6 +3471,8 @@
 	]
 	quest.5C186460408D65A9.quest_subtitle: "Unlimited power!"
 	quest.5C3102E69C6A0E4D.quest_desc: ["{item.thermal.aquachow.desc}"]
+	quest.5C73F72CBD4BF9FD.quest_desc: ["Enter a swamp and discover Избушка на курьих ножках, inside of which you can find the pupeteer"]
+	quest.5C73F72CBD4BF9FD.quest_subtitle: "The house with the legs of an animal"
 	quest.5CA942F751BD97B0.quest_desc: [
 		"Have a spout filled with water nearby, and use a List Filter in a mixer to filter out the liquid to something you can use."
 		""
@@ -3538,6 +3575,9 @@
 		"Find a Nether Fortress and bring an empty blaze burner with you so you can capture a blaze inside it and bring it back to the Overworld."
 	]
 	quest.62675A010097C976.title: "Finding a Fortress"
+	quest.62770693B4AF012A.quest_desc: ["Use the relic gold on the totem to transform it into a mankh, a fucking laser monkey"]
+	quest.62770693B4AF012A.quest_subtitle: "Obtain the ancient friend, the monke"
+	quest.62770693B4AF012A.title: "monke"
 	quest.62CB0E4BDC7AF5DC.quest_desc: ["Will consume Leaves off of nearby trees and turn it into mana. has a cooldown between 1-5 minutes between munchs"]
 	quest.62CB0E4BDC7AF5DC.quest_subtitle: "\"what should i eat?\" \"Probly a tree :3\""
 	quest.62EB68FA87F80CED.quest_desc: [
@@ -3654,6 +3694,8 @@
 		""
 		"&8Filter Upgrade can be installed into the pump, it allows the pump to collect heavy water from water.&r"
 	]
+	quest.6AE23440548427CA.quest_desc: ["Obtain a lifeless puppet, if only there was like a hand which could puppeteer it.... oh well"]
+	quest.6AE23440548427CA.quest_subtitle: "If only there was someone to puppet it"
 	quest.6AF98F262B812D21.quest_desc: ["Allows you to wear your mana tablet, making it extra fashionable"]
 	quest.6AF98F262B812D21.quest_subtitle: "Allows you to wear your mana tablet, making it extra fashionable"
 	quest.6B3437DCDA677560.quest_desc: ["[ \"Made with \", { \"text\": \"Energy Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0939986F6B65AA69\" } } ]"]
@@ -3663,6 +3705,8 @@
 		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
 	]
 	quest.6B7489F4D2DE7ABE.quest_subtitle: "Bigger Battery Cell"
+	quest.6B9F6D6BCDAC7DB7.quest_desc: ["Obtain a soul furnace, which, when a chalice is placed on top of, will accept souls and use them to fuel the oven"]
+	quest.6B9F6D6BCDAC7DB7.quest_subtitle: "Mmm i love baking with the souls of the damned"
 	quest.6BD8ADA2F4C73784.quest_desc: ["Refined Obsidian Ingot used to craft the Atomic Disassembler, and couple high-tier machines."]
 	quest.6BD8ADA2F4C73784.quest_subtitle: "Strong ingot"
 	quest.6C280482C2FB5B4F.quest_desc: ["Create an Endoflame, a flower which consumes fuel and turns it into mana"]
@@ -3680,9 +3724,14 @@
 		"{ \"text\": \"Post (Clickable)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.reddit.com/r/botania/comments/5by0jl/optimal_100round_dandelifeon_setup\" } }"
 	]
 	quest.6D020F7A92EAFF4C.quest_subtitle: "OH GOD NOT MATH!!"
+	quest.6D334204B6A6F99B.quest_desc: ["Use the cloth from the pontiff on the totem, turning it into a magical monke which buffs you, and attacks enemies"]
+	quest.6D334204B6A6F99B.quest_subtitle: "why he spooky tho"
+	quest.6D334204B6A6F99B.title: "spooky monke"
 	quest.6D59BFAA88A72943.quest_desc: ["The shaft is a basic mechanical component in Create. It connects two mechanical components, allowing the rotation of one to transfer to the other."]
 	quest.6DCDEAA1333F7DEE.quest_desc: ["Advanced Control Circuit is used to upgrade machines and in constuction of some multiblocks."]
 	quest.6DCDEAA1333F7DEE.quest_subtitle: "Smart Rock"
+	quest.6E54E914C1397410.quest_desc: ["Obtain Big bread, which can be used to create a croisant, all you need is a way to bake it..."]
+	quest.6E54E914C1397410.quest_subtitle: "Its like bread, but big"
 	quest.6E5E117D2040AC61.quest_desc: [
 		"{info.thermal.machine_press.0}"
 		""
@@ -3865,6 +3914,8 @@
 	quest.7BC2ECAB8B22CBFF.title: "Sulfur Trioxide"
 	quest.7BDF641DB273182F.quest_desc: ["[ \"Turbine Rotor is one of the block responsible for generating electricity, \", { \"text\": \"Rotor Blades\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21D2ECE01D979648\" } }, \" attach onto Rotor (2 per) and are actual block that\" ] responsible for generating power."]
 	quest.7BDF641DB273182F.quest_subtitle: "Spin me right round"
+	quest.7BE8C6FB5A2BB437.quest_desc: ["Fill up a grail from the greater chalice, allowing you to create life forms, just dont drink it"]
+	quest.7BE8C6FB5A2BB437.quest_subtitle: "Something Something king arthur"
 	quest.7C12BF79C830C59D.quest_desc: ["Will bounce around in the jar when you're in a slime chunk, great for making  slime farm for unlimited mana!"]
 	quest.7C12BF79C830C59D.quest_subtitle: "Boing!"
 	quest.7C5B918C67AE83A3.title: "Liquid Lithium"
@@ -3874,6 +3925,8 @@
 		"{info.thermal.device_tree_extractor.1}"
 	]
 	quest.7CD7A649C0AD6C9C.quest_subtitle: "{info.thermal.device_tree_extractor.2}"
+	quest.7D176DF39FE2BF68.quest_desc: ["Obtain a mage staff, which you can use on a golden allay along with a mage cloak and hat, to befriend it! it can be given magic books which will allow it to cast the spells"]
+	quest.7D176DF39FE2BF68.quest_subtitle: "I cast, Bullet!"
 	quest.7D8B1239CB87EA05.quest_desc: ["Will deal the same damage you take from a hit to all mobs around you. The cloak will go on cooldown after this."]
 	quest.7D8B1239CB87EA05.quest_subtitle: "Ill take you down with me!"
 	quest.7DBC7E2955637282.quest_desc: [
@@ -3921,6 +3974,7 @@
 	task.01334D1458EA53B2.title: "{quest.checkmark.ok}"
 	task.040A29662464CD85.title: "Right-click any block while Suilfur Trioxide is inside"
 	task.048BEDB820F2D6DC.title: "Right-click any block while Suilfuric Acid is inside"
+	task.0726BD38ED569670.title: "Observe Mankh"
 	task.081A57CAB9D4382E.title: "Right-click any block while Liquid Lithium is inside"
 	task.093570D31C881837.title: "Right-click any block while any Clean Slurry is inside"
 	task.0A2FF4E17A31883F.title: "Unknown type: questsadditions:time"
@@ -3940,10 +3994,13 @@
 	task.1F0169D382BC275A.title: "Any #forge:dusts/wood"
 	task.23BE81369EF53E11.title: "Any #forge:dusts/osmium"
 	task.29BA02E24209C7E3.title: "Any #mekanism:crystals"
+	task.2A7ECCE4A2BEE393.title: "Strange robot"
 	task.2B5F9974046E722C.title: "a123"
 	task.2BC0E42E26595DBB.title: "Right-click any block while Deuterium is inside"
+	task.2C44864E02BD9173.title: "Observe Cloak"
 	task.2C925B337DD4DE43.title: "Singularity"
 	task.2CD87EB9BEAB2AB6.title: "Any #create:crushed_raw_materials"
+	task.2E7FBE24ADE3680A.title: "Frog man"
 	task.2FDA096C5B14429E.title: "Right-click any block while D-T Fuel is inside"
 	task.30E95956DE61B8D1.title: "Any #mekanism:dirty_dusts"
 	task.35A6E105EC6F713A.title: "Any #forge:dusts/tin"
@@ -3951,10 +4008,14 @@
 	task.3A29218DFC902641.title: "Right-click any block while Polonium is inside"
 	task.3CE86EEABE1AEDAD.title: "Right-click any block while Nuclear Waste is inside"
 	task.40A16E9E0590B6B9.title: "{quest.checkmark.ok}"
+	task.4263CBEDBF4A6514.title: "Build a bear"
+	task.4345B7F7C0AF55DF.title: "Beauty and the candle"
+	task.49D0C78BB2770845.title: "Deal with the devil"
 	task.49FBE9A6ADA5A631.title: "Right-click any block while Antimatter is inside"
 	task.4A9D1DC701EA89D0.title: "Right-click any block while Chlorine is inside"
 	task.4AAB88C5C67E3518.title: "i have read and accepted the terms and conditions"
 	task.4BCEAEF10AB90FCA.title: "Fumos on head"
+	task.4CF272D2F6B02B66.title: "Kill the king"
 	task.4F8B66B4C2F9C7EA.title: "Working hard, or hardly working?"
 	task.4F94EE490B4CC267.title: "I'm Ready"
 	task.5042389DF6578656.title: "Right-click any block while Sodium is inside"
@@ -3974,4 +4035,5 @@
 	task.79418560931D832A.title: "Any #forge:dusts/gold"
 	task.7A69667E4DB84182.title: "Right-click any block while Hydrogen Chloride is inside"
 	task.7D24622CE53F1738.title: "Any #mekanism:shards"
+	task.7DF5B0B63DE81A51.title: "Handyman"
 }
