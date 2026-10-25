@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "botania"
 	group: "1B9B9B5F76BED733"
+	icon: {
+		components: {
+			"botania:wand_color1": "white"
+			"botania:wand_color2": "pink"
+		}
+		id: "botania:twig_wand"
+	}
 	id: "4C1A87EFA64816EA"
 	images: [
 		{
@@ -2108,18 +2115,11 @@
 			id: "09692C307F65AFA7"
 			shape: "octagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "2C60F4DD390FF241"
-					item: { components: { "ftbquests:missing_item": "botania:creative_pool" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4D7B45B057F4A942"
-					item: { count: 1, id: "botania:creative_mana_pool" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4D7B45B057F4A942"
+				item: { count: 1, id: "botania:creative_mana_pool" }
+				type: "item"
+			}]
 			x: 19.5d
 			y: 11.0d
 		}
