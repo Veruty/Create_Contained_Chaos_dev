@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "4BCA08601609B5F5"
+	id: "4C168ABDC3A90CA4"
+	images: [ ]
+	order_index: 2
+	quest_links: [
+		{
+			id: "2257DA0D233EAEFD"
+			linked_quest: "6E6F52C321CD84BD"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "40B0B4154B514A94"
+			linked_quest: "0F2000A3828DD2A0"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "6A5A4B913BE23C0E"
+			linked_quest: "158426E64B0F7B64"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "6BD7ECFAEAEE9E4C"
+			linked_quest: "55A1237E4E373FCA"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "69C1D199064A8FEB"
+			linked_quest: "7F8F6CB4674626C1"
+			x: -4.5d
+			y: -2.0d
+		}
+	]
+	quests: [
+		{
+			id: "2B89F0F9A63C590A"
+			tasks: [{
+				id: "6D2A0392F739589E"
+				observation_type: "block_tag"
+				observe_type: 1
+				timer: 0L
+				to_observe: "minecraft:logs"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B89F0F9A63C590A"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "01B5EFFCB94E0FE3"
+			tasks: [{
+				id: "0C59BCE386BD9D46"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"526A77EEB8CB20F6"
+				"0F2000A3828DD2A0"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			id: "7735AE558F4AD354"
+			tasks: [{
+				id: "1B1617440C0B72FD"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"526A77EEB8CB20F6"
+				"158426E64B0F7B64"
+			]
+			dependency_requirement: "one_completed"
+			id: "7BD4BA94CED71F8C"
+			tasks: [{
+				id: "77BA41E26C3E7A38"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7BD4BA94CED71F8C"
+				"526A77EEB8CB20F6"
+			]
+			dependency_requirement: "one_completed"
+			id: "5F412B939501E126"
+			tasks: [{
+				id: "7DBA25A73D64CDB7"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7735AE558F4AD354"]
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "79F384A447C70803"
+			tasks: [{
+				id: "6BB69E272C86BFD1"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"79F384A447C70803"
+				"5F412B939501E126"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "015431AF0A5996BD"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5E346B83102F5247"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "526A77EEB8CB20F6"
+			tasks: [{
+				id: "48588DA34C563ED0"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "715945E33F35CF4C"
+			tasks: [{
+				id: "620043BD0EEDF4E7"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:budding_amethyst"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"526A77EEB8CB20F6"
+				"0F2000A3828DD2A0"
+			]
+			dependency_requirement: "one_completed"
+			id: "2EA31EC8685CA619"
+			tasks: [{
+				id: "686A54EA5F5A2129"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"01B5EFFCB94E0FE3"
+				"526A77EEB8CB20F6"
+			]
+			dependency_requirement: "one_completed"
+			id: "10129FAB40012EB9"
+			tasks: [{
+				id: "5D547072C09FFF2D"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"526A77EEB8CB20F6"
+				"01B5EFFCB94E0FE3"
+			]
+			dependency_requirement: "one_completed"
+			id: "63546C2E81516C9E"
+			tasks: [{
+				id: "29E234DE8CC9280C"
+				item: { count: 1, id: "minecraft:book" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["526A77EEB8CB20F6"]
+			id: "6B67ACFC62C25945"
+			tasks: [{
+				id: "76FB73F8A27DCD08"
+				item: { count: 1, id: "minecraft:glow_ink_sac" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["526A77EEB8CB20F6"]
+			id: "65753C8821AF0D34"
+			tasks: [{
+				id: "1D26047A8E805894"
+				item: { count: 1, id: "minecraft:heart_of_the_sea" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["526A77EEB8CB20F6"]
+			id: "5985B343460C7920"
+			rewards: [{
+				count: 16
+				id: "33BD0E0A882CB04C"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C0FA891F37C64C4"
+				item: { count: 1, id: "minecraft:clay_ball" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5985B343460C7920"
+				"526A77EEB8CB20F6"
+			]
+			dependency_requirement: "one_completed"
+			id: "0947037624BF6250"
+			rewards: [{
+				count: 16
+				id: "1076AF24833A204D"
+				item: {
+					count: 1
+					id: "minecraft:brick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21ACE1B2C8E63D9C"
+				item: { count: 1, id: "minecraft:brick" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["526A77EEB8CB20F6"]
+			id: "76B2BB9B75D05F17"
+			rewards: [{
+				count: 8
+				id: "4030BDC9F82A2B3B"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "162CE7045E514D87"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "171FDF2B8C722A82"
+			tasks: [{
+				id: "286F061ECA793327"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["526A77EEB8CB20F6"]
+			id: "01DE21B47940CFA4"
+			tasks: [{
+				id: "2DAD70A5027022B4"
+				item: { count: 1, id: "minecraft:sandstone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+}
