@@ -523,7 +523,6 @@
 	quest.00BC5EB6BAE2E88A.quest_desc: ["Create one of the 5 Simple Runes, which can be used for evil nefarious mana generating reaons"]
 	quest.00BC5EB6BAE2E88A.quest_subtitle: "You runed it!"
 	quest.00BC5EB6BAE2E88A.title: "Elemental Runes"
-	quest.012AD10BE4996DC6.title: "Yarn"
 	quest.0146CA78FF8DB897.quest_desc: [
 		"The Rope Pulley creates Contraptions much like a Mechanical Piston, but in only one direction and without the need for Piston Extension Poles."
 		""
@@ -1130,6 +1129,7 @@
 	quest.1B1685D5DC2495F5.quest_subtitle: "Speed it up!"
 	quest.1B9E3CBF19DEB4CE.quest_desc: ["The cloak of virue will negate all damage from a single hit, then it will go on cooldown."]
 	quest.1B9E3CBF19DEB4CE.quest_subtitle: "Virtue Signaling"
+	quest.1BF01E3DD0D0175F.quest_desc: ["i m too lazy to add pride ones, they dont have tag to add any filter"]
 	quest.1BF01E3DD0D0175F.title: "Blahaj"
 	quest.1C40BF964284321F.title: "Elementum Tools"
 	quest.1C89DED7139FF7AE.quest_desc: ["The Bio-Lab is a bio machine used for making serums. Serums are like potions, but instead of drinking them, you inject them. There are a lot of different serums with different effects, so some quests have been made to show you how they are made and what they do."]
@@ -3989,7 +3989,6 @@
 	task.19259BB863FE62A2.title: "Done"
 	task.196C5E0A9724C7E6.title: "Right-click any block while Fissile Fuel is inside"
 	task.1A60BEC6F08ABE3B.title: "Any #forge:dusts/diamond"
-	task.1B5BE744BE5F0BA6.title: "Unknown type: questsadditions:time"
 	task.1C3052F166BBD633.title: "Fumos!"
 	task.1F0169D382BC275A.title: "Any #forge:dusts/wood"
 	task.23BE81369EF53E11.title: "Any #forge:dusts/osmium"
@@ -4021,7 +4020,6 @@
 	task.5042389DF6578656.title: "Right-click any block while Sodium is inside"
 	task.507370457C85E239.title: "Right-click any block while Suilfur Dioxide is inside"
 	task.53501A8E6EFE8143.title: "Right-click any block while Heavy Water is inside"
-	task.565C27C614DC98A1.title: "Unknown type: questsadditions:time"
 	task.58C470BBC8D8F88D.title: "Unknown type: questsadditions:time"
 	task.5D69C5F497E9E41A.title: "Done"
 	task.5EF3562178B81DA3.title: "Right-click any block while Uranium Oxide is inside"
@@ -4029,7 +4027,6 @@
 	task.5F3E5AFC788ACF1B.title: "Unknown type: questsadditions:time"
 	task.60B84AC38A589D09.title: "Any #mekanism:clumps"
 	task.61C80229A6088D66.title: "Right-click any block while any Dirty Slurry is inside"
-	task.6A57C10231A54024.title: "Unknown type: questsadditions:time"
 	task.72558BED5CBBED84.title: "Right-click any block while Tritium is inside"
 	task.767C18BCF8FAA95D.title: "Any #mekanism:personal_storage"
 	task.79418560931D832A.title: "Any #forge:dusts/gold"

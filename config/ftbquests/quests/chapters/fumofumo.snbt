@@ -1,0 +1,549 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fumofumo"
+	group: "572629132E60C79E"
+	id: "46DDF21FCF46A752"
+	images: [{
+		height: 3.0d
+		id: "40B04AEC89115D31"
+		image: "kubejs:textures/questimg/icons/fumos.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: 7.25d
+		y: 3.25d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			id: "799063E3A36FD472"
+			tasks: [{
+				id: "1C3052F166BBD633"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["799063E3A36FD472"]
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "22ADD8C25369833D"
+			tasks: [{
+				id: "7EB564998D373B12"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["799063E3A36FD472"]
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "6193117CB7A3D8F7"
+			tasks: [{
+				id: "4A541739E8527F60"
+				type: "checkmark"
+			}]
+			x: 7.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "7F68760B62EE8756"
+			tasks: [{
+				id: "1AF47DAD3B073D85"
+				item: { count: 1, id: "kubejs:alice_fumo" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "344F160F7EC232C5"
+			tasks: [{
+				id: "79403917107B69DC"
+				item: { count: 1, id: "kubejs:chen_fumo" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "51B58F846CC44426"
+			tasks: [{
+				id: "5CC19279E4EDC915"
+				item: { count: 1, id: "kubejs:cirno_fumo" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "118EFBA7B0F17315"
+			tasks: [{
+				id: "65D24FC7256D51F5"
+				item: { count: 1, id: "kubejs:eiki_fumo" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "2B8E5ED1B8206D09"
+			tasks: [{
+				id: "24643FBF7B87629C"
+				item: { count: 1, id: "kubejs:flandre_fumo" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "5FAB94BC1A325617"
+			tasks: [{
+				id: "21C05EA87FAA42C6"
+				item: { count: 1, id: "kubejs:koishi_fumo" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "55F63C3EDA87272A"
+			tasks: [{
+				id: "7D6BBA0E55B59927"
+				item: { count: 1, id: "kubejs:marisahat_fumo" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F63C3EDA87272A"]
+			id: "4127750EAF56BEA2"
+			tasks: [{
+				id: "68077D686CBDC14D"
+				item: { count: 1, id: "kubejs:marisa_fumo" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51B58F846CC44426"]
+			id: "3E4C784FE7CA3944"
+			tasks: [{
+				id: "18641E8518B4236A"
+				item: { count: 1, id: "kubejs:tancirno_fumo" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "2364219ABEB283F7"
+			tasks: [{
+				id: "30F80B6F3B5D0B13"
+				item: { count: 1, id: "kubejs:meiling_fumo" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "7EDB8421CD95CF21"
+			tasks: [{
+				id: "36518FD11AEFBA71"
+				item: { count: 1, id: "kubejs:nazrin_fumo" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "4391B880145709AA"
+			tasks: [{
+				id: "607480C8FCDC43B4"
+				item: { count: 1, id: "kubejs:nitori_fumo" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "68150B37A7BE0CD7"
+			tasks: [{
+				id: "51E1DFE2523FD9CE"
+				item: { count: 1, id: "kubejs:patchouli_fumo" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "77D3717EE010F622"
+			tasks: [{
+				id: "3DA6A97D4B73CAAA"
+				item: { count: 1, id: "kubejs:sunnymilk_fumo" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "011ADF2CE3277E9C"
+			tasks: [{
+				id: "3CA5CE1BE6AD7AD8"
+				item: { count: 1, id: "kubejs:tewi_fumo" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "24BC51833009C6E6"
+			tasks: [{
+				id: "0117B14277A5882E"
+				item: { count: 1, id: "kubejs:youmu_fumo" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "799566267F38E764"
+			tasks: [{
+				id: "5011EE7C8BAE14BE"
+				item: { count: 1, id: "kubejs:yuyuko_fumo" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22ADD8C25369833D"]
+			id: "63399C06233E6223"
+			tasks: [{
+				id: "0885C513CE16459C"
+				item: { count: 1, id: "kubejs:newreimu_fumo" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63399C06233E6223"]
+			id: "171584325F9685EC"
+			tasks: [
+				{
+					id: "2B90F8D4141B956B"
+					item: { count: 1, id: "kubejs:magentareimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "7404DDC4EEE39A0F"
+					item: { count: 1, id: "kubejs:limereimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "49784F6C953F235D"
+					item: { count: 1, id: "kubejs:lightbluereimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "10FFE3136EA7FAC8"
+					item: { count: 1, id: "kubejs:greenreimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "5C86780E54E48DAF"
+					item: { count: 1, id: "kubejs:grayreimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "1A506BC096738D8D"
+					item: { count: 1, id: "kubejs:cyanreimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "23E4990FFC2F4F2F"
+					item: { count: 1, id: "kubejs:brownreimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "1A1F0F6038D41327"
+					item: { count: 1, id: "kubejs:bluereimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "7F416E0F72C82F62"
+					item: { count: 1, id: "kubejs:blackreimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "45009517D6F1B80D"
+					item: { count: 1, id: "kubejs:offcolorreimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "3C05D6D7136F3A8B"
+					item: { count: 1, id: "kubejs:orangereimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "6CA83D38FCAEBFE3"
+					item: { count: 1, id: "kubejs:pinkreimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "14238EDFE98E9B8D"
+					item: { count: 1, id: "kubejs:purplereimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "2DE39223560CF054"
+					item: { count: 1, id: "kubejs:reimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "10BB2094F355AD93"
+					item: { count: 1, id: "kubejs:whitereimu_fumo" }
+					type: "item"
+				}
+				{
+					id: "7D77C978C5CECE23"
+					item: { count: 1, id: "kubejs:yellowreimu_fumo" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["799063E3A36FD472"]
+			id: "21010D39AAC7773E"
+			tasks: [{
+				id: "4BCEAEF10AB90FCA"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["799063E3A36FD472"]
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "1BF01E3DD0D0175F"
+			tasks: [{
+				id: "4D614E3BE69A663B"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1BF01E3DD0D0175F"]
+			id: "1701E3AF4A0574C6"
+			tasks: [{
+				id: "61FEA8BE4C05BD30"
+				item: { count: 1, id: "blahaj:blue_shark" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1BF01E3DD0D0175F"]
+			id: "13148F10D3D7BD56"
+			tasks: [{
+				id: "7029E150EF0845D8"
+				item: { count: 1, id: "blahaj:gray_shark" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1BF01E3DD0D0175F"]
+			id: "1AC2C8B6411DC192"
+			tasks: [{
+				id: "0B9E401AD478CCB3"
+				item: { count: 1, id: "blahaj:blue_whale" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1BF01E3DD0D0175F"]
+			id: "28F481394FF48E58"
+			tasks: [{
+				id: "0C50F3349139D520"
+				item: { count: 1, id: "blahaj:bread" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "394EC47A0ADF8492"
+			tasks: [{
+				id: "5F90772D9CF54C7E"
+				item: { count: 1, id: "kubejs:zalkat_fumo" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "04D4775349F5C9D9"
+			tasks: [{
+				id: "113D5ACE69E4B74D"
+				item: { count: 1, id: "kubejs:thesauce_fumo" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "42B0F5F8A50671C5"
+			tasks: [{
+				id: "4C935060BC970463"
+				item: { count: 1, id: "kubejs:veruty_fumo" }
+				type: "item"
+			}]
+			x: 7.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "67605E8181187CFC"
+			tasks: [{
+				id: "7DAE7F8C95386F64"
+				item: { count: 1, id: "kubejs:blockypanda83_fumo" }
+				type: "item"
+			}]
+			x: 10.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "31E1FFA4C426D813"
+			tasks: [{
+				id: "11406168C97B251C"
+				item: { count: 1, id: "kubejs:chaoscorporation_fumo" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "237B6AD095A9FB6E"
+			tasks: [{
+				id: "427B167621F943A6"
+				item: { count: 1, id: "kubejs:junycat_fumo" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "7B531AC7D9189E79"
+			tasks: [{
+				id: "34A8ED73A87F332E"
+				item: { count: 1, id: "kubejs:lavender_bunnies_fumo" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "6350157357D2488B"
+			tasks: [{
+				id: "25D5BB081B5ABD28"
+				item: { count: 1, id: "kubejs:lordshadowlight_fumo" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "6C3FEE20C74AE75E"
+			tasks: [{
+				id: "3B9326F4CAF54599"
+				item: { count: 1, id: "kubejs:spar117maschief_fumo" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "3E2B7A87851BD453"
+			tasks: [{
+				id: "4944CBFC49AF84B5"
+				item: { count: 1, id: "kubejs:m3chanicb_fumo" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "51F0CFDA433971FB"
+			tasks: [{
+				id: "776582F380A2192A"
+				item: { count: 1, id: "kubejs:sirheadcrab1_fumo" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "0FF5719AE49B51E1"
+			tasks: [{
+				id: "6F822ADECB01DF24"
+				item: { count: 1, id: "kubejs:lucasskittles_fumo" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6193117CB7A3D8F7"]
+			id: "6D77CA6C4DCEBCE1"
+			tasks: [{
+				id: "6F6F8EAF1A3168C9"
+				item: { count: 1, id: "kubejs:leevee123_fumo" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+}
