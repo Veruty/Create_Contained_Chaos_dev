@@ -1,0 +1,43 @@
+{
+	id: "6976E1F886FCDF85"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			count: 2
+			id: "4EA41CD4CEDB7DCE"
+			item: {
+				count: 1
+				id: "biomancy:exotic_compound"
+			}
+			random_bonus: 3
+		}
+		{
+			count: 3
+			id: "02BF3CDD2912DF81"
+			item: {
+				count: 1
+				id: "biomancy:living_flesh"
+			}
+			random_bonus: 5
+		}
+		{
+			count: 10
+			id: "678286DBE66D125F"
+			item: {
+				count: 1
+				id: "biomancy:nutrient_paste"
+			}
+			random_bonus: 15
+		}
+		{
+			count: 5
+			id: "5C957F9505BDD234"
+			item: {
+				count: 1
+				id: "biomancy:creator_mix"
+			}
+			random_bonus: 5
+		}
+	]
+}

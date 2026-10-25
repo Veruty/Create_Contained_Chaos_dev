@@ -1,0 +1,51 @@
+{
+	id: "78723F0D406C7E00"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			id: "38C52C2C450690E6"
+			item: {
+				count: 1
+				id: "biomancy:creator_mix"
+			}
+			random_bonus: 3
+		}
+		{
+			count: 2
+			id: "01781612B7DDAF5F"
+			item: {
+				count: 1
+				id: "biomancy:exotic_dust"
+			}
+			random_bonus: 3
+		}
+		{
+			count: 2
+			id: "64D54482DB503E5D"
+			item: {
+				count: 1
+				id: "biomancy:genetic_compound"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 5
+			id: "4581F5D9818DD640"
+			item: {
+				count: 1
+				id: "biomancy:mob_sinew"
+			}
+			random_bonus: 10
+		}
+		{
+			count: 2
+			id: "420E498CBDAC0A29"
+			item: {
+				count: 1
+				id: "biomancy:living_flesh"
+			}
+			random_bonus: 3
+		}
+	]
+}

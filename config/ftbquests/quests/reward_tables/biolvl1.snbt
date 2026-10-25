@@ -1,0 +1,42 @@
+{
+	id: "15B274619EB82873"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 3
+			id: "5F316DFDE0AB6DB3"
+			item: {
+				count: 1
+				id: "biomancy:flesh_bits"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 4
+			id: "70D83362850C81CD"
+			item: {
+				count: 1
+				id: "biomancy:elastic_fibers"
+			}
+			random_bonus: 3
+		}
+		{
+			count: 2
+			id: "45F468DBE97A8592"
+			item: {
+				count: 1
+				id: "biomancy:mineral_fragment"
+			}
+			random_bonus: 1
+		}
+		{
+			id: "299922ECCA17E13E"
+			item: {
+				count: 1
+				id: "biomancy:tough_fibers"
+			}
+			random_bonus: 2
+		}
+	]
+}
