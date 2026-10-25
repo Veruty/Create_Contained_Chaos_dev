@@ -6,7 +6,7 @@
 	id: "21C97588FE9F5FD5"
 	images: [ ]
 	order_index: 1
-quest_links: [
+	quest_links: [
 		{
 			id: "510FB404DB3DB51D"
 			linked_quest: "015431AF0A5996BD"
@@ -59,19 +59,12 @@ quest_links: [
 	quests: [
 		{
 			dependencies: ["015431AF0A5996BD"]
-			description: [
-				"Getting to the brass age means you need to make brass. But to make brass, you need a way to supply heat to a mixer. To do that, you need a Blaze Burner."
-				""
-				"Find a Nether Fortress and bring an empty blaze burner with you so you can capture a blaze inside it and bring it back to the Overworld."
-			]
-			icon: "minecraft:nether_bricks"
 			id: "62675A010097C976"
 			tasks: [{
 				id: "605C83102E4C6D3E"
 				structure: "betterfortresses:fortress"
 				type: "structure"
 			}]
-			title: "Finding a Fortress"
 			x: -1.0d
 			y: -1.5d
 		}
@@ -80,7 +73,7 @@ quest_links: [
 			id: "054F32CED3753E1A"
 			tasks: [{
 				id: "55518ECF931B5E50"
-				item: "minecraft:respawn_anchor"
+				item: { count: 1, id: "minecraft:respawn_anchor" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -91,7 +84,7 @@ quest_links: [
 			id: "546F9AB121D5A0DC"
 			tasks: [{
 				id: "23A6560EE2361B77"
-				item: "minecraft:blaze_rod"
+				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -105,7 +98,7 @@ quest_links: [
 			id: "1DDD21264D9FFB87"
 			tasks: [{
 				id: "5EDDC790BE5AD3FD"
-				item: "minecraft:ender_eye"
+				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -113,14 +106,12 @@ quest_links: [
 		}
 		{
 			dependencies: ["015431AF0A5996BD"]
-			icon: "minecraft:gilded_blackstone"
 			id: "41FA83084ED4D781"
 			tasks: [{
 				id: "6D1FDA2CF7DBDB77"
 				structure: "#minecraft:bastion_remnant"
 				type: "structure"
 			}]
-			title: "Finding a Bastion"
 			x: -4.0d
 			y: -2.5d
 		}
@@ -129,7 +120,7 @@ quest_links: [
 			id: "0EEC996551B84B4C"
 			tasks: [{
 				id: "425701C9231ECD83"
-				item: "minecraft:netherite_upgrade_smithing_template"
+				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -144,63 +135,36 @@ quest_links: [
 			tasks: [
 				{
 					id: "0EB5772215A078CB"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { count: 1, id: "minecraft:netherite_helmet" }
 					type: "item"
 				}
 				{
 					id: "0A7FBB2703B4E1E4"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { count: 1, id: "minecraft:netherite_chestplate" }
 					type: "item"
 				}
 				{
 					id: "1CB987678D4FC28D"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { count: 1, id: "minecraft:netherite_leggings" }
 					type: "item"
 				}
 				{
 					id: "5B97432E151DC2EB"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_boots"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { count: 1, id: "minecraft:netherite_boots" }
 					type: "item"
 				}
 			]
-			title: "Netherite Armor"
 			x: -3.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["1DDD21264D9FFB87"]
-			icon: "minecraft:mossy_stone_bricks"
 			id: "71317828170D43B3"
 			tasks: [{
 				id: "0882C60F9D9E2C06"
 				structure: "#betterstrongholds:better_strongholds"
 				type: "structure"
 			}]
-			title: "Finding a Stronghold"
 			x: 5.0d
 			y: -1.5d
 		}
@@ -220,7 +184,7 @@ quest_links: [
 			id: "1AD413372CC6676D"
 			tasks: [{
 				id: "43950E3678643331"
-				item: "minecraft:netherrack"
+				item: { count: 1, id: "minecraft:netherrack" }
 				type: "item"
 			}]
 			x: -2.0d

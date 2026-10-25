@@ -15,10 +15,10 @@
 	quests: [
 		{
 			dependencies: ["5400A2A76BA7C157"]
-			icon: "minecraft:dragon_head"
 			id: "3C86F48AE184D51A"
 			tasks: [{
 				id: "01D3E3817D63C055"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "minecraft:ender_dragon"
@@ -29,7 +29,6 @@
 		}
 		{
 			dependencies: ["5400A2A76BA7C157"]
-			icon: "minecraft:end_stone"
 			id: "3093A84FC6694B28"
 			tasks: [{
 				biome: "#minecraft:has_structure/end_city"
@@ -44,7 +43,7 @@
 			id: "4FDAF59647D074EC"
 			tasks: [{
 				id: "0F34B0847862AF61"
-				item: "minecraft:dragon_breath"
+				item: { count: 1, id: "minecraft:dragon_breath" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -55,7 +54,7 @@
 			id: "5A6CEC7028BDD091"
 			tasks: [{
 				id: "77058DD69E2C442F"
-				item: "minecraft:dragon_egg"
+				item: { count: 1, id: "minecraft:dragon_egg" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -63,7 +62,6 @@
 		}
 		{
 			dependencies: ["3093A84FC6694B28"]
-			icon: "minecraft:purpur_block"
 			id: "0A5481DA7464A28D"
 			tasks: [{
 				id: "2EF376499FDF2D58"
@@ -79,13 +77,7 @@
 			id: "3D34425A97C15842"
 			tasks: [{
 				id: "1464169F0B48C466"
-				item: {
-					Count: 1
-					id: "minecraft:elytra"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "minecraft:elytra" }
 				type: "item"
 			}]
 			x: -3.0d
