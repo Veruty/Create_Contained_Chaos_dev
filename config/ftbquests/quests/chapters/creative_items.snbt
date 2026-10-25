@@ -7,6 +7,7 @@
 	images: [
 		{
 			height: 8.6d
+			id: "7BAA2AF30F8FF62C"
 			image: "kubejs:textures/questimg/ex3_crafting.png"
 			order: -255
 			rotation: 0.0d
@@ -15,9 +16,9 @@
 			y: 7.999999999999993d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "53051DC034262C4A"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -26,9 +27,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "613C41DC164DC2C3"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -37,9 +38,9 @@
 			y: 6.0d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "73937E995FCC842A"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -48,9 +49,9 @@
 			y: 6.0d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "58FEA5FD78434C6D"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -59,9 +60,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "5D1C1F1C9403751E"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -70,9 +71,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "7F139F93AC780C8A"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -81,9 +82,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "2C741C99A6C06DED"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -92,9 +93,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "7533E144602454C9"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -103,9 +104,9 @@
 			y: 10.0d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "18E34D866F83B8DF"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -114,9 +115,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "7E642494B982C2CB"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -125,9 +126,9 @@
 			y: 10.0d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "78B16626D33EC805"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -136,9 +137,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#72A451784BD6E22F"
+			click_action: "open_quest:72A451784BD6E22F"
 			height: 1.0d
-			hover: ["Incomplete Energy Godly Alloy"]
+			id: "06F8215AEF5DE9E1"
 			image: "kubejs:item/incomplete_energy_godly_alloy"
 			order: 1
 			rotation: 0.0d
@@ -147,9 +148,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#3AD3293C7E0AFE5E"
+			click_action: "open_quest:3AD3293C7E0AFE5E"
 			height: 1.0d
-			hover: ["Rubber"]
+			id: "7D7500A9BC1E4979"
 			image: "thermal:item/cured_rubber"
 			rotation: 0.0d
 			width: 1.0d
@@ -157,9 +158,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 12342320
 			height: 1.0d
+			id: "2D6D50504D206352"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -167,10 +169,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16422780
 			height: 1.0d
-			hover: ["Copper Singularity"]
+			id: "2A81FE94A2963205"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -179,10 +181,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 10390846
 			height: 1.0d
-			hover: ["Electrum Singularity"]
+			id: "23A4575F97256D76"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -190,10 +192,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 10390846
 			height: 1.0d
-			hover: ["Electrum Singularity"]
+			id: "164865DD2B3F60D1"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -201,10 +203,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 10390846
 			height: 1.0d
-			hover: ["Electrum Singularity"]
+			id: "2415DBF555D952E8"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -212,10 +214,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 10390846
 			height: 1.0d
-			hover: ["Electrum Singularity"]
+			id: "256AD39CD370D010"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -223,9 +225,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16118158
 			height: 1.0d
+			id: "29516650E81FF0E1"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -234,9 +237,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16118158
 			height: 1.0d
+			id: "6E751BFE3AF12524"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -245,9 +249,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16118158
 			height: 1.0d
+			id: "5EAB0CAE6A2BA011"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -256,9 +261,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16118158
 			height: 1.0d
+			id: "04B085DA3E00C962"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -267,10 +273,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2302755
 			height: 1.0d
-			hover: ["Steel Singularity"]
+			id: "4C5153B649645BC8"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -278,9 +284,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 5658198
 			height: 1.0d
+			id: "608BA07B4DDA588C"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -289,10 +296,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2302755
 			height: 1.0d
-			hover: ["Steel Singularity"]
+			id: "58EA38DE01C1172D"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -300,10 +307,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2302755
 			height: 1.0d
-			hover: ["Steel Singularity"]
+			id: "65A29EB3A331E939"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -311,10 +318,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2302755
 			height: 1.0d
-			hover: ["Steel Singularity"]
+			id: "69189E1DFFC0E7D7"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -322,9 +329,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 5658198
 			height: 1.0d
+			id: "03C3BF79DE8F8D6E"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -333,9 +341,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 5658198
 			height: 1.0d
+			id: "3426879C0F554F0B"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -344,9 +353,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 5658198
 			height: 1.0d
+			id: "6EDDE5D71AFFA122"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -355,10 +365,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 9046273
 			height: 1.0d
-			hover: ["Redstone Singularity"]
+			id: "0D32A359FC5FE9D8"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -366,9 +376,10 @@
 			y: 9.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16711680
 			height: 1.0d
+			id: "10DD1F01C3397525"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -377,10 +388,10 @@
 			y: 7.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 9046273
 			height: 1.0d
-			hover: ["Redstone Singularity"]
+			id: "1C7CA325366DF4D6"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -388,10 +399,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 9046273
 			height: 1.0d
-			hover: ["Redstone Singularity"]
+			id: "588A203B41C65018"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -399,10 +410,10 @@
 			y: 7.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 9046273
 			height: 1.0d
-			hover: ["Redstone Singularity"]
+			id: "78F4FE3CBB094949"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -410,9 +421,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16711680
 			height: 1.0d
+			id: "2D6C93BD67DCF4E2"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -421,9 +433,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16711680
 			height: 1.0d
+			id: "06B9538F7646D43A"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -432,9 +445,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16711680
 			height: 1.0d
+			id: "7FEFEFC05494585E"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -443,9 +457,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#7772E5BC5E558726"
+			click_action: "open_quest:7772E5BC5E558726"
 			height: 1.0d
-			hover: ["Ultimate Tier Installer"]
+			id: "1DBF5CDD8C095D23"
 			image: "mekanism:item/ultimate_tier_installer"
 			rotation: 0.0d
 			width: 1.0d
@@ -453,9 +467,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#7772E5BC5E558726"
+			click_action: "open_quest:7772E5BC5E558726"
 			height: 1.0d
-			hover: ["Ultimate Tier Installer"]
+			id: "77D22E858849B3D9"
 			image: "mekanism:item/ultimate_tier_installer"
 			rotation: 0.0d
 			width: 1.0d
@@ -463,9 +477,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#7772E5BC5E558726"
+			click_action: "open_quest:7772E5BC5E558726"
 			height: 1.0d
-			hover: ["Ultimate Tier Installer"]
+			id: "114A2949EAD63D62"
 			image: "mekanism:item/ultimate_tier_installer"
 			rotation: 0.0d
 			width: 1.0d
@@ -473,9 +487,9 @@
 			y: 6.0d
 		}
 		{
-			click: "#7772E5BC5E558726"
+			click_action: "open_quest:7772E5BC5E558726"
 			height: 1.0d
-			hover: ["Ultimate Tier Installer"]
+			id: "2CD59A2768D8E791"
 			image: "mekanism:item/ultimate_tier_installer"
 			rotation: 0.0d
 			width: 1.0d
@@ -483,9 +497,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#7772E5BC5E558726"
+			click_action: "open_quest:7772E5BC5E558726"
 			height: 1.0d
-			hover: ["Ultimate Tier Installer"]
+			id: "6165F39B39E6C505"
 			image: "mekanism:item/ultimate_tier_installer"
 			rotation: 0.0d
 			width: 1.0d
@@ -493,9 +507,9 @@
 			y: 10.0d
 		}
 		{
-			click: "#7772E5BC5E558726"
+			click_action: "open_quest:7772E5BC5E558726"
 			height: 1.0d
-			hover: ["Ultimate Tier Installer"]
+			id: "41555454A09D74B3"
 			image: "mekanism:item/ultimate_tier_installer"
 			rotation: 0.0d
 			width: 1.0d
@@ -503,9 +517,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#7772E5BC5E558726"
+			click_action: "open_quest:7772E5BC5E558726"
 			height: 1.0d
-			hover: ["Ultimate Tier Installer"]
+			id: "73B3F2E46C54992D"
 			image: "mekanism:item/ultimate_tier_installer"
 			rotation: 0.0d
 			width: 1.0d
@@ -513,9 +527,9 @@
 			y: 10.0d
 		}
 		{
-			click: "#7772E5BC5E558726"
+			click_action: "open_quest:7772E5BC5E558726"
 			height: 1.0d
-			hover: ["Ultimate Tier Installer"]
+			id: "00E0C5046B5A1C7F"
 			image: "mekanism:item/ultimate_tier_installer"
 			rotation: 0.0d
 			width: 1.0d
@@ -523,8 +537,9 @@
 			y: 6.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
+			id: "7D95891857C43FC3"
 			image: "thermal:item/augments/upgrade_augment_3"
 			rotation: 0.0d
 			width: 1.0d
@@ -532,9 +547,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
-			hover: ["Resonant Integral Components"]
+			id: "2B59E5E4755159FF"
 			image: "thermal:item/augments/upgrade_augment_3_lights"
 			rotation: 0.0d
 			width: 1.0d
@@ -542,8 +557,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
+			id: "1CE514D7CDFACA30"
 			image: "thermal:item/augments/upgrade_augment_anim"
 			rotation: 0.0d
 			width: 1.0d
@@ -551,8 +567,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
+			id: "1BA79F673278F967"
 			image: "thermal:item/augments/upgrade_augment_3"
 			rotation: 0.0d
 			width: 1.0d
@@ -560,8 +577,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
+			id: "1483D16FED56220D"
 			image: "thermal:item/augments/upgrade_augment_3"
 			rotation: 0.0d
 			width: 1.0d
@@ -569,8 +587,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
+			id: "42686B9DF4C6F243"
 			image: "thermal:item/augments/upgrade_augment_3"
 			rotation: 0.0d
 			width: 1.0d
@@ -578,8 +597,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
+			id: "03102E6BF6BF8AEC"
 			image: "thermal:item/augments/upgrade_augment_anim"
 			rotation: 0.0d
 			width: 1.0d
@@ -587,8 +607,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
+			id: "6D0DA254B9D36096"
 			image: "thermal:item/augments/upgrade_augment_anim"
 			rotation: 0.0d
 			width: 1.0d
@@ -596,8 +617,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
+			id: "22FC153A61B86162"
 			image: "thermal:item/augments/upgrade_augment_anim"
 			rotation: 0.0d
 			width: 1.0d
@@ -605,9 +627,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
-			hover: ["Resonant Integral Components"]
+			id: "78E6F37E7778EFA6"
 			image: "thermal:item/augments/upgrade_augment_3_lights"
 			rotation: 0.0d
 			width: 1.0d
@@ -615,9 +637,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
-			hover: ["Resonant Integral Components"]
+			id: "49120BD28CA4EC76"
 			image: "thermal:item/augments/upgrade_augment_3_lights"
 			rotation: 0.0d
 			width: 1.0d
@@ -625,9 +647,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#7658EA5CD44B595C"
+			click_action: "open_quest:7658EA5CD44B595C"
 			height: 1.0d
-			hover: ["Resonant Integral Components"]
+			id: "20395CA8E777C61D"
 			image: "thermal:item/augments/upgrade_augment_3_lights"
 			rotation: 0.0d
 			width: 1.0d
@@ -635,9 +657,8 @@
 			y: 11.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["128³ Spatial Component"]
+			id: "4BC93AF749429E75"
 			image: "ae2:item/spatial_cell_component_128"
 			rotation: 0.0d
 			width: 1.0d
@@ -645,9 +666,8 @@
 			y: 9.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["128³ Spatial Component"]
+			id: "3CBE6544F306967F"
 			image: "ae2:item/spatial_cell_component_128"
 			rotation: 0.0d
 			width: 1.0d
@@ -655,9 +675,8 @@
 			y: 7.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["128³ Spatial Component"]
+			id: "5AFB01C0F80DCA93"
 			image: "ae2:item/spatial_cell_component_128"
 			rotation: 0.0d
 			width: 1.0d
@@ -665,9 +684,8 @@
 			y: 7.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["128³ Spatial Component"]
+			id: "46D3CB5D732239FD"
 			image: "ae2:item/spatial_cell_component_128"
 			rotation: 0.0d
 			width: 1.0d
@@ -675,9 +693,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#70926C93EDAFCF7A"
+			click_action: "open_quest:70926C93EDAFCF7A"
 			height: 1.0d
-			hover: ["item.mekanism.pellet_polonium"]
+			id: "39400313ACC70DE3"
 			image: "mekanism:item/pellet_polonium"
 			rotation: 0.0d
 			width: 1.0d
@@ -685,9 +703,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#70926C93EDAFCF7A"
+			click_action: "open_quest:70926C93EDAFCF7A"
 			height: 1.0d
-			hover: ["item.mekanism.pellet_polonium"]
+			id: "02E387D2F837A626"
 			image: "mekanism:item/pellet_polonium"
 			rotation: 0.0d
 			width: 1.0d
@@ -695,9 +713,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#70926C93EDAFCF7A"
+			click_action: "open_quest:70926C93EDAFCF7A"
 			height: 1.0d
-			hover: ["item.mekanism.pellet_polonium"]
+			id: "594EE7CD140D1D5C"
 			image: "mekanism:item/pellet_polonium"
 			rotation: 0.0d
 			width: 1.0d
@@ -705,9 +723,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#70926C93EDAFCF7A"
+			click_action: "open_quest:70926C93EDAFCF7A"
 			height: 1.0d
-			hover: ["item.mekanism.pellet_polonium"]
+			id: "55B4885E02D3B4F5"
 			image: "mekanism:item/pellet_polonium"
 			rotation: 0.0d
 			width: 1.0d
@@ -715,9 +733,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#70926C93EDAFCF7A"
+			click_action: "open_quest:70926C93EDAFCF7A"
 			height: 1.0d
-			hover: ["item.mekanism.pellet_polonium"]
+			id: "7B5AF7ECCD9D7BF9"
 			image: "mekanism:item/pellet_polonium"
 			rotation: 0.0d
 			width: 1.0d
@@ -725,9 +743,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#70926C93EDAFCF7A"
+			click_action: "open_quest:70926C93EDAFCF7A"
 			height: 1.0d
-			hover: ["item.mekanism.pellet_polonium"]
+			id: "006D300C60EF92E1"
 			image: "mekanism:item/pellet_polonium"
 			rotation: 0.0d
 			width: 1.0d
@@ -735,9 +753,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#70926C93EDAFCF7A"
+			click_action: "open_quest:70926C93EDAFCF7A"
 			height: 1.0d
-			hover: ["item.mekanism.pellet_polonium"]
+			id: "2631C2A9F2294225"
 			image: "mekanism:item/pellet_polonium"
 			rotation: 0.0d
 			width: 1.0d
@@ -745,9 +763,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#70926C93EDAFCF7A"
+			click_action: "open_quest:70926C93EDAFCF7A"
 			height: 1.0d
-			hover: ["item.mekanism.pellet_polonium"]
+			id: "2D8206A07DDC6025"
 			image: "mekanism:item/pellet_polonium"
 			rotation: 0.0d
 			width: 1.0d
@@ -756,6 +774,7 @@
 		}
 		{
 			height: 8.6d
+			id: "696F8C6C42FEA132"
 			image: "kubejs:textures/questimg/ex3_crafting.png"
 			order: -255
 			rotation: 0.0d
@@ -764,9 +783,9 @@
 			y: 0.4999999999999929d
 		}
 		{
-			click: "#3987C6B6C2DC89A9"
+			click_action: "open_quest:3987C6B6C2DC89A9"
 			height: 1.0d
-			hover: ["Dice of Fate"]
+			id: "573B3C984722E78E"
 			image: "botania:item/dice"
 			rotation: 0.0d
 			width: 1.0d
@@ -774,9 +793,9 @@
 			y: -2.5d
 		}
 		{
-			click: "#3987C6B6C2DC89A9"
+			click_action: "open_quest:3987C6B6C2DC89A9"
 			height: 1.0d
-			hover: ["Dice of Fate"]
+			id: "28C4DE118B46B7F3"
 			image: "botania:item/dice"
 			rotation: 0.0d
 			width: 1.0d
@@ -784,9 +803,9 @@
 			y: 3.5d
 		}
 		{
-			click: "#3987C6B6C2DC89A9"
+			click_action: "open_quest:3987C6B6C2DC89A9"
 			height: 1.0d
-			hover: ["Dice of Fate"]
+			id: "3F6952B2A64F83F3"
 			image: "botania:item/dice"
 			rotation: 0.0d
 			width: 1.0d
@@ -794,9 +813,9 @@
 			y: -2.5d
 		}
 		{
-			click: "#3987C6B6C2DC89A9"
+			click_action: "open_quest:3987C6B6C2DC89A9"
 			height: 1.0d
-			hover: ["Dice of Fate"]
+			id: "7AA9FC9BFC9D816D"
 			image: "botania:item/dice"
 			rotation: 0.0d
 			width: 1.0d
@@ -804,10 +823,10 @@
 			y: 3.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "6ACC30517F60D66B"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -815,10 +834,10 @@
 			y: -2.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "7FBF8D99435915DE"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -826,10 +845,10 @@
 			y: -2.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "18FF4EC314BE2C69"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -837,10 +856,10 @@
 			y: -2.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "74FC545A48BE0110"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -848,10 +867,10 @@
 			y: -2.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "6858C1D38BF80600"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -859,10 +878,10 @@
 			y: -1.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "62A53F32A4001B2C"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -870,10 +889,10 @@
 			y: -0.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "4A605598233577D9"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -881,10 +900,10 @@
 			y: -1.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "59AD9F8B84ADC4AC"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -892,10 +911,10 @@
 			y: 2.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "7E5B6383D7FF1B91"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -903,10 +922,10 @@
 			y: 3.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "7FB4C016E6EA2F14"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -914,10 +933,10 @@
 			y: 3.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "309A1455D368D9C9"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -925,10 +944,10 @@
 			y: 1.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "0C546DD9E1DF30C2"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -936,10 +955,10 @@
 			y: 3.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "663C70C72CF9682A"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -947,10 +966,10 @@
 			y: 3.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "3453613FE43DEB44"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -958,10 +977,10 @@
 			y: 2.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "68B77B4405B973D5"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -969,10 +988,10 @@
 			y: 1.5d
 		}
 		{
-			click: "#3A79F1EE9B098258"
+			click_action: "open_quest:3A79F1EE9B098258"
 			color: 16745436
 			height: 1.0d
-			hover: ["Gaia Ingot"]
+			id: "76C9281C0479070A"
 			image: "botania:item/gaia_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -980,9 +999,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#54596BF1C9F516E4"
+			click_action: "open_quest:54596BF1C9F516E4"
 			height: 1.0d
-			hover: ["Rune of Sloth"]
+			id: "0F040B28B0B9B987"
 			image: "botania:item/rune_sloth"
 			rotation: 0.0d
 			width: 1.0d
@@ -990,9 +1009,9 @@
 			y: -1.5d
 		}
 		{
-			click: "#54596BF1C9F516E4"
+			click_action: "open_quest:54596BF1C9F516E4"
 			height: 1.0d
-			hover: ["Rune of Wrath"]
+			id: "25082BEDDFBA765C"
 			image: "botania:item/rune_wrath"
 			rotation: 0.0d
 			width: 1.0d
@@ -1000,9 +1019,9 @@
 			y: -1.5d
 		}
 		{
-			click: "#54596BF1C9F516E4"
+			click_action: "open_quest:54596BF1C9F516E4"
 			height: 1.0d
-			hover: ["Rune of Envy"]
+			id: "1D7F9B5915D68F22"
 			image: "botania:item/rune_envy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1010,9 +1029,9 @@
 			y: 2.5d
 		}
 		{
-			click: "#54596BF1C9F516E4"
+			click_action: "open_quest:54596BF1C9F516E4"
 			height: 1.0d
-			hover: ["Rune of Pride"]
+			id: "0ED4A79C76820C73"
 			image: "botania:item/rune_pride"
 			rotation: 0.0d
 			width: 1.0d
@@ -1020,9 +1039,9 @@
 			y: 2.5d
 		}
 		{
-			click: "#54596BF1C9F516E4"
+			click_action: "open_quest:54596BF1C9F516E4"
 			height: 1.0d
-			hover: ["Rune of Greed"]
+			id: "532374F10C3479F8"
 			image: "botania:item/rune_greed"
 			rotation: 0.0d
 			width: 1.0d
@@ -1030,9 +1049,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#54596BF1C9F516E4"
+			click_action: "open_quest:54596BF1C9F516E4"
 			height: 1.0d
-			hover: ["Rune of Lust"]
+			id: "0F06D9DE5967518F"
 			image: "botania:item/rune_lust"
 			rotation: 0.0d
 			width: 1.0d
@@ -1040,9 +1059,9 @@
 			y: 1.5d
 		}
 		{
-			click: "#54596BF1C9F516E4"
+			click_action: "open_quest:54596BF1C9F516E4"
 			height: 1.0d
-			hover: ["Rune of Gluttony"]
+			id: "243EE2718A2A5CD4"
 			image: "botania:item/rune_gluttony"
 			rotation: 0.0d
 			width: 1.0d
@@ -1050,9 +1069,8 @@
 			y: 1.5d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["Goat Horn"]
+			id: "05A60DC4CE09DD0B"
 			image: "minecraft:item/goat_horn"
 			rotation: 0.0d
 			width: 1.0d
@@ -1060,9 +1078,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#66136119F1CB9705"
+			click_action: "open_quest:66136119F1CB9705"
 			height: 1.0d
-			hover: ["Unstable Ingot"]
+			id: "695EF4013B351915"
 			image: "kubejs:item/unstable_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1070,9 +1088,9 @@
 			y: 0.5d
 		}
 		{
-			click: "#66136119F1CB9705"
+			click_action: "open_quest:66136119F1CB9705"
 			height: 1.0d
-			hover: ["Unstable Ingot"]
+			id: "76E358DB1888DC75"
 			image: "kubejs:item/unstable_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1080,9 +1098,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#66136119F1CB9705"
+			click_action: "open_quest:66136119F1CB9705"
 			height: 1.0d
-			hover: ["Unstable Ingot"]
+			id: "516C1C04B8E5B94C"
 			image: "kubejs:item/unstable_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1090,9 +1108,9 @@
 			y: 0.5d
 		}
 		{
-			click: "#66136119F1CB9705"
+			click_action: "open_quest:66136119F1CB9705"
 			height: 1.0d
-			hover: ["Unstable Ingot"]
+			id: "70EE07261A0CF88A"
 			image: "kubejs:item/unstable_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1100,9 +1118,9 @@
 			y: 1.5d
 		}
 		{
-			click: "#25BC887C16393DB0"
+			click_action: "open_quest:25BC887C16393DB0"
 			height: 1.0d
-			hover: ["Terra Shatterer"]
+			id: "5160DC15714D7C96"
 			image: "botania:item/terra_pick"
 			rotation: 0.0d
 			width: 1.0d
@@ -1110,9 +1128,9 @@
 			y: 0.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "386F43FF33251DDA"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1120,9 +1138,9 @@
 			y: 0.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "160068C33EF14A21"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1130,9 +1148,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "05F167C00882F98B"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1140,9 +1158,9 @@
 			y: -1.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "370DC122750A49EF"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1150,9 +1168,9 @@
 			y: -2.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "3FCA9C05AA0F0DB5"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1160,9 +1178,9 @@
 			y: -1.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "3612C87FFA60A974"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1170,9 +1188,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "3A647516BE877FE2"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1180,9 +1198,9 @@
 			y: 0.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "599AA6323DDF5673"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1190,9 +1208,9 @@
 			y: 1.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "1B6FD2B90692B4E6"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1200,9 +1218,9 @@
 			y: 2.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "2DD192B71F6A0406"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1210,9 +1228,9 @@
 			y: 3.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "513D907AE31D41B3"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1220,9 +1238,9 @@
 			y: 2.5d
 		}
 		{
-			click: "#02326CC0B5B332A2"
+			click_action: "open_quest:02326CC0B5B332A2"
 			height: 1.0d
-			hover: ["Shard of Laputa"]
+			id: "29BE8B7476A17B86"
 			image: "botania:item/laputa_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -1230,10 +1248,10 @@
 			y: 1.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 27647
 			height: 1.0d
-			hover: ["Manasteel Singularity"]
+			id: "0CED991B0258FB30"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1242,9 +1260,10 @@
 			y: 2.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 4708095
 			height: 1.0d
+			id: "1F8A66199B1C6985"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1252,9 +1271,10 @@
 			y: 2.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 4708095
 			height: 1.0d
+			id: "62D7E4CD174BEC8A"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1262,9 +1282,10 @@
 			y: 0.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 4708095
 			height: 1.0d
+			id: "3A6AD58A396F633B"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1272,9 +1293,10 @@
 			y: -1.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 4708095
 			height: 1.0d
+			id: "6A670F63C388BABE"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1282,10 +1304,10 @@
 			y: 0.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 27647
 			height: 1.0d
-			hover: ["Manasteel Singularity"]
+			id: "2DFACAABA74B4425"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1294,10 +1316,10 @@
 			y: 0.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 27647
 			height: 1.0d
-			hover: ["Manasteel Singularity"]
+			id: "2A8F2BCD9D140AD6"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1306,10 +1328,10 @@
 			y: -1.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 27647
 			height: 1.0d
-			hover: ["Manasteel Singularity"]
+			id: "730DC1918A6E3764"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1319,6 +1341,7 @@
 		}
 		{
 			height: 8.6d
+			id: "5875E12AECEDF190"
 			image: "kubejs:textures/questimg/ex3_crafting.png"
 			order: -255
 			rotation: 0.0d
@@ -1327,9 +1350,9 @@
 			y: 7.999999999999993d
 		}
 		{
-			click: "#546F9AB121D5A0DC"
+			click_action: "open_quest:546F9AB121D5A0DC"
 			height: 1.0d
-			hover: ["Blaze Rod"]
+			id: "12F2AE3A786C9BBD"
 			image: "minecraft:item/blaze_rod"
 			rotation: 0.0d
 			width: 1.0d
@@ -1337,9 +1360,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#546F9AB121D5A0DC"
+			click_action: "open_quest:546F9AB121D5A0DC"
 			height: 1.0d
-			hover: ["Blaze Rod"]
+			id: "4F5A0E78D3AF93E9"
 			image: "minecraft:item/blaze_rod"
 			rotation: 0.0d
 			width: 1.0d
@@ -1347,9 +1370,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#546F9AB121D5A0DC"
+			click_action: "open_quest:546F9AB121D5A0DC"
 			height: 1.0d
-			hover: ["Blaze Rod"]
+			id: "02647E9D81F543DB"
 			image: "minecraft:item/blaze_rod"
 			rotation: 0.0d
 			width: 1.0d
@@ -1357,9 +1380,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#546F9AB121D5A0DC"
+			click_action: "open_quest:546F9AB121D5A0DC"
 			height: 1.0d
-			hover: ["Blaze Rod"]
+			id: "07D48716764CEC2F"
 			image: "minecraft:item/blaze_rod"
 			rotation: 0.0d
 			width: 1.0d
@@ -1367,9 +1390,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#322DB199F4A45032"
+			click_action: "open_quest:322DB199F4A45032"
 			height: 1.0d
-			hover: ["Rosin"]
+			id: "1F10FC745D332C82"
 			image: "thermal:item/rosin"
 			rotation: 0.0d
 			width: 1.0d
@@ -1377,9 +1400,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#322DB199F4A45032"
+			click_action: "open_quest:322DB199F4A45032"
 			height: 1.0d
-			hover: ["Rosin"]
+			id: "1CACE593F67C0D98"
 			image: "thermal:item/rosin"
 			rotation: 0.0d
 			width: 1.0d
@@ -1387,9 +1410,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#322DB199F4A45032"
+			click_action: "open_quest:322DB199F4A45032"
 			height: 1.0d
-			hover: ["Rosin"]
+			id: "3D5B60256EAF7405"
 			image: "thermal:item/rosin"
 			rotation: 0.0d
 			width: 1.0d
@@ -1397,9 +1420,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#322DB199F4A45032"
+			click_action: "open_quest:322DB199F4A45032"
 			height: 1.0d
-			hover: ["Rosin"]
+			id: "09FDFB40263785AC"
 			image: "thermal:item/rosin"
 			rotation: 0.0d
 			width: 1.0d
@@ -1407,9 +1430,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#322DB199F4A45032"
+			click_action: "open_quest:322DB199F4A45032"
 			height: 1.0d
-			hover: ["Rosin"]
+			id: "5CD233706771B56F"
 			image: "thermal:item/rosin"
 			rotation: 0.0d
 			width: 1.0d
@@ -1417,9 +1440,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#322DB199F4A45032"
+			click_action: "open_quest:322DB199F4A45032"
 			height: 1.0d
-			hover: ["Rosin"]
+			id: "6D36B9532DC98916"
 			image: "thermal:item/rosin"
 			rotation: 0.0d
 			width: 1.0d
@@ -1427,9 +1450,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#322DB199F4A45032"
+			click_action: "open_quest:322DB199F4A45032"
 			height: 1.0d
-			hover: ["Rosin"]
+			id: "357CD82F6DF6AE80"
 			image: "thermal:item/rosin"
 			rotation: 0.0d
 			width: 1.0d
@@ -1437,9 +1460,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#322DB199F4A45032"
+			click_action: "open_quest:322DB199F4A45032"
 			height: 1.0d
-			hover: ["Rosin"]
+			id: "03A13AA77409CEC2"
 			image: "thermal:item/rosin"
 			rotation: 0.0d
 			width: 1.0d
@@ -1447,9 +1470,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#2B46651C03FEEBF0"
+			click_action: "open_quest:2B46651C03FEEBF0"
 			height: 1.0d
-			hover: ["Coal Coke"]
+			id: "63E7FB8479B6E616"
 			image: "thermal:item/coal_coke"
 			rotation: 0.0d
 			width: 1.0d
@@ -1457,9 +1480,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "16A13A70D72AACAB"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1467,9 +1490,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "0000386F10650A7E"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1477,9 +1500,9 @@
 			y: 6.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "4B1BBD5C574DD469"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1487,9 +1510,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "7F1FF3F21F0A1B62"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1497,9 +1520,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "4FBDBE839DA64BAC"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1507,9 +1530,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "6ED84B3E6D373E97"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1517,9 +1540,9 @@
 			y: 10.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "3B640EAD549260C4"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1527,9 +1550,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "63575A83C7A2B6AE"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1537,9 +1560,9 @@
 			y: 10.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "5FD794B940DB2414"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1547,9 +1570,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "3DED9CD307D5091F"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1557,9 +1580,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "3DE876DD806386A7"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1567,9 +1590,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#0E6B0926E278275A"
+			click_action: "open_quest:0E6B0926E278275A"
 			height: 1.0d
-			hover: ["Incomplete Unstable Godly Alloy"]
+			id: "238A55E47C34B9C1"
 			image: "kubejs:item/incomplete_unstable_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1577,9 +1600,8 @@
 			y: 6.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["Fire Essence"]
+			id: "03938EF0A9AD7806"
 			image: "ars_nouveau:item/fire_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -1587,9 +1609,8 @@
 			y: 5.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["Fire Essence"]
+			id: "4FFB830BB4FC44CD"
 			image: "ars_nouveau:item/fire_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -1597,9 +1618,8 @@
 			y: 5.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["Fire Essence"]
+			id: "54A23B7FA471C93E"
 			image: "ars_nouveau:item/fire_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -1607,9 +1627,8 @@
 			y: 6.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["Fire Essence"]
+			id: "43B4A23B0149B6C9"
 			image: "ars_nouveau:item/fire_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -1617,9 +1636,8 @@
 			y: 10.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["Fire Essence"]
+			id: "0D9DB3B48D112CE6"
 			image: "ars_nouveau:item/fire_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -1627,9 +1645,8 @@
 			y: 11.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["Fire Essence"]
+			id: "4F01524BBE698829"
 			image: "ars_nouveau:item/fire_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -1637,9 +1654,8 @@
 			y: 11.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["Fire Essence"]
+			id: "634D4BB7A884B970"
 			image: "ars_nouveau:item/fire_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -1647,9 +1663,8 @@
 			y: 10.0d
 		}
 		{
-			click: "<ftbq-image>"
 			height: 1.0d
-			hover: ["Fire Essence"]
+			id: "1111BE7B940C34EA"
 			image: "ars_nouveau:item/fire_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -1657,9 +1672,9 @@
 			y: 6.0d
 		}
 		{
-			click: "#642C2815F184984F"
+			click_action: "open_quest:642C2815F184984F"
 			height: 1.0d
-			hover: ["Bitumen"]
+			id: "2FF95CBEC55D88C0"
 			image: "thermal:item/bitumen"
 			rotation: 0.0d
 			width: 1.0d
@@ -1667,9 +1682,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#642C2815F184984F"
+			click_action: "open_quest:642C2815F184984F"
 			height: 1.0d
-			hover: ["Bitumen"]
+			id: "219F82E63B1B68F1"
 			image: "thermal:item/bitumen"
 			rotation: 0.0d
 			width: 1.0d
@@ -1677,9 +1692,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#642C2815F184984F"
+			click_action: "open_quest:642C2815F184984F"
 			height: 1.0d
-			hover: ["Bitumen"]
+			id: "77F442CA05B8F805"
 			image: "thermal:item/bitumen"
 			rotation: 0.0d
 			width: 1.0d
@@ -1687,9 +1702,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#642C2815F184984F"
+			click_action: "open_quest:642C2815F184984F"
 			height: 1.0d
-			hover: ["Bitumen"]
+			id: "2658E1E933FF4155"
 			image: "thermal:item/bitumen"
 			rotation: 0.0d
 			width: 1.0d
@@ -1697,9 +1712,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#642C2815F184984F"
+			click_action: "open_quest:642C2815F184984F"
 			height: 1.0d
-			hover: ["Tar"]
+			id: "76315A41964EF115"
 			image: "thermal:item/tar"
 			rotation: 0.0d
 			width: 1.0d
@@ -1707,9 +1722,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#642C2815F184984F"
+			click_action: "open_quest:642C2815F184984F"
 			height: 1.0d
-			hover: ["Tar"]
+			id: "6F0CB49E4BF1392E"
 			image: "thermal:item/tar"
 			rotation: 0.0d
 			width: 1.0d
@@ -1717,9 +1732,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#642C2815F184984F"
+			click_action: "open_quest:642C2815F184984F"
 			height: 1.0d
-			hover: ["Tar"]
+			id: "2F8206C4179F4A38"
 			image: "thermal:item/tar"
 			rotation: 0.0d
 			width: 1.0d
@@ -1727,9 +1742,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#642C2815F184984F"
+			click_action: "open_quest:642C2815F184984F"
 			height: 1.0d
-			hover: ["Tar"]
+			id: "4669DB6130BD6504"
 			image: "thermal:item/tar"
 			rotation: 0.0d
 			width: 1.0d
@@ -1738,6 +1753,7 @@
 		}
 		{
 			height: 8.6d
+			id: "475F14234ECED0CD"
 			image: "kubejs:textures/questimg/ex3_crafting.png"
 			order: -255
 			rotation: 0.0d
@@ -1747,6 +1763,7 @@
 		}
 		{
 			height: 8.6d
+			id: "4F9066D7EEAB9F76"
 			image: "kubejs:textures/questimg/ex3_crafting.png"
 			order: -255
 			rotation: 0.0d
@@ -1755,10 +1772,10 @@
 			y: 0.4999999999999929d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 3553081
 			height: 1.0d
-			hover: ["Coal Singularity"]
+			id: "74B3C3A6DA6CA588"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1767,9 +1784,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2498084
 			height: 1.0d
+			id: "408BD348EA5F3D57"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1777,9 +1795,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2498084
 			height: 1.0d
+			id: "4D21AACAAD8F314C"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1787,9 +1806,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2498084
 			height: 1.0d
+			id: "751E0555E7586005"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1797,9 +1817,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2498084
 			height: 1.0d
+			id: "59C8344F1B99733C"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1807,9 +1828,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2498084
 			height: 1.0d
+			id: "458123249A39FD0E"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1817,9 +1839,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2498084
 			height: 1.0d
+			id: "45F540EA3806B27C"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1827,9 +1850,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2498084
 			height: 1.0d
+			id: "752356C69F8B0E54"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1837,9 +1861,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 2498084
 			height: 1.0d
+			id: "0DBADD976C139CD2"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -1847,10 +1872,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 3553081
 			height: 1.0d
-			hover: ["Coal Singularity"]
+			id: "1E5770BE61126890"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1859,10 +1884,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 3553081
 			height: 1.0d
-			hover: ["Coal Singularity"]
+			id: "0975BA95B5BB70BD"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1871,10 +1896,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 3553081
 			height: 1.0d
-			hover: ["Coal Singularity"]
+			id: "59BD2A70546B3264"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1883,10 +1908,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 3553081
 			height: 1.0d
-			hover: ["Coal Singularity"]
+			id: "5FC84C5E27904147"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1895,10 +1920,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 3553081
 			height: 1.0d
-			hover: ["Coal Singularity"]
+			id: "7BF33F47BBF2E62A"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1907,10 +1932,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 3553081
 			height: 1.0d
-			hover: ["Coal Singularity"]
+			id: "23572DB0728A0F8C"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1919,10 +1944,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 3553081
 			height: 1.0d
-			hover: ["Coal Singularity"]
+			id: "4F68018BA6C89020"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -1931,9 +1956,9 @@
 			y: 6.0d
 		}
 		{
-			click: "#2A343C3DFC93D89B"
+			click_action: "open_quest:2A343C3DFC93D89B"
 			height: 1.0d
-			hover: ["Bottle O' Hyper Enchanting"]
+			id: "66CD3F2BFE411506"
 			image: "create_enchantment_industry:item/hyper_experience_bottle"
 			rotation: 0.0d
 			width: 1.0d
@@ -1941,9 +1966,9 @@
 			y: -2.5d
 		}
 		{
-			click: "#57922522EFFF155B"
+			click_action: "open_quest:57922522EFFF155B"
 			height: 1.0d
-			hover: ["Shadow Steel"]
+			id: "63D43F2736DC6CD8"
 			image: "create:item/shadow_steel"
 			rotation: 0.0d
 			width: 1.0d
@@ -1951,9 +1976,9 @@
 			y: 2.5d
 		}
 		{
-			click: "#7D29F4606C564494"
+			click_action: "open_quest:7D29F4606C564494"
 			height: 1.0d
-			hover: ["Refined Radiance"]
+			id: "7166302AE8B036EB"
 			image: "create:item/refined_radiance"
 			rotation: 0.0d
 			width: 1.0d
@@ -1961,9 +1986,9 @@
 			y: 1.5d
 		}
 		{
-			click: "#7D29F4606C564494"
+			click_action: "open_quest:7D29F4606C564494"
 			height: 1.0d
-			hover: ["Refined Radiance"]
+			id: "244C7F4F0834CFA1"
 			image: "create:item/refined_radiance"
 			rotation: 0.0d
 			width: 1.0d
@@ -1971,9 +1996,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#7D29F4606C564494"
+			click_action: "open_quest:7D29F4606C564494"
 			height: 1.0d
-			hover: ["Refined Radiance"]
+			id: "416BD5D5B03A8B3B"
 			image: "create:item/refined_radiance"
 			rotation: 0.0d
 			width: 1.0d
@@ -1981,9 +2006,9 @@
 			y: -2.5d
 		}
 		{
-			click: "#7D29F4606C564494"
+			click_action: "open_quest:7D29F4606C564494"
 			height: 1.0d
-			hover: ["Refined Radiance"]
+			id: "7D696978EFD13C6D"
 			image: "create:item/refined_radiance"
 			rotation: 0.0d
 			width: 1.0d
@@ -1991,9 +2016,9 @@
 			y: -2.5d
 		}
 		{
-			click: "#7D29F4606C564494"
+			click_action: "open_quest:7D29F4606C564494"
 			height: 1.0d
-			hover: ["Refined Radiance"]
+			id: "5647684AC0579AC8"
 			image: "create:item/refined_radiance"
 			rotation: 0.0d
 			width: 1.0d
@@ -2001,9 +2026,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#7D29F4606C564494"
+			click_action: "open_quest:7D29F4606C564494"
 			height: 1.0d
-			hover: ["Refined Radiance"]
+			id: "5E0388A3705246D5"
 			image: "create:item/refined_radiance"
 			rotation: 0.0d
 			width: 1.0d
@@ -2011,9 +2036,9 @@
 			y: 1.5d
 		}
 		{
-			click: "#7D29F4606C564494"
+			click_action: "open_quest:7D29F4606C564494"
 			height: 1.0d
-			hover: ["Refined Radiance"]
+			id: "77E409FDDB577FB5"
 			image: "create:item/refined_radiance"
 			rotation: 0.0d
 			width: 1.0d
@@ -2021,9 +2046,9 @@
 			y: 3.5d
 		}
 		{
-			click: "#7D29F4606C564494"
+			click_action: "open_quest:7D29F4606C564494"
 			height: 1.0d
-			hover: ["Refined Radiance"]
+			id: "583C10F0F2BF9D73"
 			image: "create:item/refined_radiance"
 			rotation: 0.0d
 			width: 1.0d
@@ -2031,9 +2056,9 @@
 			y: 3.5d
 		}
 		{
-			click: "#57922522EFFF155B"
+			click_action: "open_quest:57922522EFFF155B"
 			height: 1.0d
-			hover: ["Shadow Steel"]
+			id: "593F5B7AB7A3E5BA"
 			image: "create:item/shadow_steel"
 			rotation: 0.0d
 			width: 1.0d
@@ -2041,9 +2066,9 @@
 			y: -1.5d
 		}
 		{
-			click: "#57922522EFFF155B"
+			click_action: "open_quest:57922522EFFF155B"
 			height: 1.0d
-			hover: ["Shadow Steel"]
+			id: "3731D1ADB4B963D0"
 			image: "create:item/shadow_steel"
 			rotation: 0.0d
 			width: 1.0d
@@ -2051,9 +2076,9 @@
 			y: -2.5d
 		}
 		{
-			click: "#57922522EFFF155B"
+			click_action: "open_quest:57922522EFFF155B"
 			height: 1.0d
-			hover: ["Shadow Steel"]
+			id: "5056E4A78CE7BEE0"
 			image: "create:item/shadow_steel"
 			rotation: 0.0d
 			width: 1.0d
@@ -2061,9 +2086,9 @@
 			y: -2.5d
 		}
 		{
-			click: "#57922522EFFF155B"
+			click_action: "open_quest:57922522EFFF155B"
 			height: 1.0d
-			hover: ["Shadow Steel"]
+			id: "294E6F9848DD58CD"
 			image: "create:item/shadow_steel"
 			rotation: 0.0d
 			width: 1.0d
@@ -2071,9 +2096,9 @@
 			y: -1.5d
 		}
 		{
-			click: "#57922522EFFF155B"
+			click_action: "open_quest:57922522EFFF155B"
 			height: 1.0d
-			hover: ["Shadow Steel"]
+			id: "15053F7DE9A5365F"
 			image: "create:item/shadow_steel"
 			rotation: 0.0d
 			width: 1.0d
@@ -2081,9 +2106,9 @@
 			y: 2.5d
 		}
 		{
-			click: "#57922522EFFF155B"
+			click_action: "open_quest:57922522EFFF155B"
 			height: 1.0d
-			hover: ["Shadow Steel"]
+			id: "36A438C0DCAE4A0A"
 			image: "create:item/shadow_steel"
 			rotation: 0.0d
 			width: 1.0d
@@ -2091,9 +2116,9 @@
 			y: 3.5d
 		}
 		{
-			click: "#57922522EFFF155B"
+			click_action: "open_quest:57922522EFFF155B"
 			height: 1.0d
-			hover: ["Shadow Steel"]
+			id: "2BDD5CBDFF7BACEA"
 			image: "create:item/shadow_steel"
 			rotation: 0.0d
 			width: 1.0d
@@ -2101,9 +2126,9 @@
 			y: 3.5d
 		}
 		{
-			click: "#61D7232C6BFA68E1"
+			click_action: "open_quest:61D7232C6BFA68E1"
 			height: 1.0d
-			hover: ["Overcharged Diamond"]
+			id: "7F2E324BBB55A464"
 			image: "create_new_age:item/overcharged_diamond"
 			rotation: 0.0d
 			width: 1.0d
@@ -2111,9 +2136,9 @@
 			y: 0.5d
 		}
 		{
-			click: "#61D7232C6BFA68E1"
+			click_action: "open_quest:61D7232C6BFA68E1"
 			height: 1.0d
-			hover: ["Overcharged Diamond"]
+			id: "6C0EAE332A9EA99B"
 			image: "create_new_age:item/overcharged_diamond"
 			rotation: 0.0d
 			width: 1.0d
@@ -2121,9 +2146,9 @@
 			y: -1.5d
 		}
 		{
-			click: "#61D7232C6BFA68E1"
+			click_action: "open_quest:61D7232C6BFA68E1"
 			height: 1.0d
-			hover: ["Overcharged Diamond"]
+			id: "132FB797516FFF42"
 			image: "create_new_age:item/overcharged_diamond"
 			rotation: 0.0d
 			width: 1.0d
@@ -2131,9 +2156,9 @@
 			y: 0.5d
 		}
 		{
-			click: "#61D7232C6BFA68E1"
+			click_action: "open_quest:61D7232C6BFA68E1"
 			height: 1.0d
-			hover: ["Overcharged Diamond"]
+			id: "27E4C16F37CF8E7D"
 			image: "create_new_age:item/overcharged_diamond"
 			rotation: 0.0d
 			width: 1.0d
@@ -2141,9 +2166,9 @@
 			y: 2.5d
 		}
 		{
-			click: "#636A6FD369950846"
+			click_action: "open_quest:636A6FD369950846"
 			height: 1.0d
-			hover: ["Chocolate Cake"]
+			id: "6C26B10738115F1B"
 			image: "createaddition:item/chocolate_cake"
 			rotation: 0.0d
 			width: 1.0d
@@ -2151,9 +2176,9 @@
 			y: 3.5d
 		}
 		{
-			click: "#558178D79A181CAD"
+			click_action: "open_quest:558178D79A181CAD"
 			height: 1.0d
-			hover: ["Precision Mechanism"]
+			id: "1ADC23DC2525C34C"
 			image: "create:item/precision_mechanism"
 			rotation: 0.0d
 			width: 1.0d
@@ -2161,9 +2186,9 @@
 			y: 1.5d
 		}
 		{
-			click: "#558178D79A181CAD"
+			click_action: "open_quest:558178D79A181CAD"
 			height: 1.0d
-			hover: ["Precision Mechanism"]
+			id: "003B079F566D1D0E"
 			image: "create:item/precision_mechanism"
 			rotation: 0.0d
 			width: 1.0d
@@ -2171,9 +2196,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#558178D79A181CAD"
+			click_action: "open_quest:558178D79A181CAD"
 			height: 1.0d
-			hover: ["Precision Mechanism"]
+			id: "55E47BABE466F6E6"
 			image: "create:item/precision_mechanism"
 			rotation: 0.0d
 			width: 1.0d
@@ -2181,9 +2206,9 @@
 			y: -1.5d
 		}
 		{
-			click: "#558178D79A181CAD"
+			click_action: "open_quest:558178D79A181CAD"
 			height: 1.0d
-			hover: ["Precision Mechanism"]
+			id: "57FEA6D945AD4D93"
 			image: "create:item/precision_mechanism"
 			rotation: 0.0d
 			width: 1.0d
@@ -2191,9 +2216,9 @@
 			y: -1.5d
 		}
 		{
-			click: "#558178D79A181CAD"
+			click_action: "open_quest:558178D79A181CAD"
 			height: 1.0d
-			hover: ["Precision Mechanism"]
+			id: "2B37F7D73427D91A"
 			image: "create:item/precision_mechanism"
 			rotation: 0.0d
 			width: 1.0d
@@ -2201,9 +2226,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#558178D79A181CAD"
+			click_action: "open_quest:558178D79A181CAD"
 			height: 1.0d
-			hover: ["Precision Mechanism"]
+			id: "53CAE0FDC44492CD"
 			image: "create:item/precision_mechanism"
 			rotation: 0.0d
 			width: 1.0d
@@ -2211,9 +2236,9 @@
 			y: 1.5d
 		}
 		{
-			click: "#558178D79A181CAD"
+			click_action: "open_quest:558178D79A181CAD"
 			height: 1.0d
-			hover: ["Precision Mechanism"]
+			id: "33F1E9A615B2D0A6"
 			image: "create:item/precision_mechanism"
 			rotation: 0.0d
 			width: 1.0d
@@ -2221,9 +2246,9 @@
 			y: 2.5d
 		}
 		{
-			click: "#558178D79A181CAD"
+			click_action: "open_quest:558178D79A181CAD"
 			height: 1.0d
-			hover: ["Precision Mechanism"]
+			id: "13EF197901150200"
 			image: "create:item/precision_mechanism"
 			rotation: 0.0d
 			width: 1.0d
@@ -2231,9 +2256,9 @@
 			y: 2.5d
 		}
 		{
-			click: "#1093E21876E94273"
+			click_action: "open_quest:1093E21876E94273"
 			height: 1.0d
-			hover: ["Steam Engine"]
+			id: "4659B0AAC1529492"
 			image: "create_sa:item/steam_engine"
 			rotation: 0.0d
 			width: 1.0d
@@ -2241,9 +2266,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#20F4256988942B79"
+			click_action: "open_quest:20F4256988942B79"
 			height: 1.0d
-			hover: ["Gingerbread Man"]
+			id: "3673E6B5B2ADF78B"
 			image: "create_confectionery:item/gingerbread_man"
 			rotation: 0.0d
 			width: 1.0d
@@ -2251,9 +2276,9 @@
 			y: 1.5d
 		}
 		{
-			click: "#20F4256988942B79"
+			click_action: "open_quest:20F4256988942B79"
 			height: 1.0d
-			hover: ["Gingerbread Man"]
+			id: "2020FD1F183A8AB2"
 			image: "create_confectionery:item/gingerbread_man"
 			rotation: 0.0d
 			width: 1.0d
@@ -2261,9 +2286,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#20F4256988942B79"
+			click_action: "open_quest:20F4256988942B79"
 			height: 1.0d
-			hover: ["Gingerbread Man"]
+			id: "357195302734AF12"
 			image: "create_confectionery:item/gingerbread_man"
 			rotation: 0.0d
 			width: 1.0d
@@ -2271,9 +2296,9 @@
 			y: -0.5d
 		}
 		{
-			click: "#20F4256988942B79"
+			click_action: "open_quest:20F4256988942B79"
 			height: 1.0d
-			hover: ["Gingerbread Man"]
+			id: "1EDD3CAACA289607"
 			image: "create_confectionery:item/gingerbread_man"
 			rotation: 0.0d
 			width: 1.0d
@@ -2281,9 +2306,9 @@
 			y: 1.5d
 		}
 		{
-			click: "#317504A69C93FA57"
+			click_action: "open_quest:317504A69C93FA57"
 			height: 1.0d
-			hover: ["Honey Cake"]
+			id: "11FD59DB4471AC7E"
 			image: "createaddition:item/honey_cake"
 			rotation: 0.0d
 			width: 1.0d
@@ -2291,9 +2316,9 @@
 			y: 0.5d
 		}
 		{
-			click: "#7B196B74898CA9AD"
+			click_action: "open_quest:7B196B74898CA9AD"
 			height: 1.0d
-			hover: ["Andesite Alloy"]
+			id: "0AC329C3C7EA6431"
 			image: "create:item/andesite_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2301,9 +2326,9 @@
 			y: 0.5d
 		}
 		{
-			click: "#2D178E9438B16484"
+			click_action: "open_quest:2D178E9438B16484"
 			height: 1.0d
-			hover: ["Raw Redstone"]
+			id: "26D685A82144B100"
 			image: "createoreexcavation:item/raw_redstone"
 			rotation: 0.0d
 			width: 1.0d
@@ -2311,9 +2336,9 @@
 			y: 0.5d
 		}
 		{
-			click: "#2D178E9438B16484"
+			click_action: "open_quest:2D178E9438B16484"
 			height: 1.0d
-			hover: ["Raw Diamond"]
+			id: "6BCA226AA9C43370"
 			image: "createoreexcavation:item/raw_diamond"
 			rotation: 0.0d
 			width: 1.0d
@@ -2321,9 +2346,9 @@
 			y: 0.5d
 		}
 		{
-			click: "#2D178E9438B16484"
+			click_action: "open_quest:2D178E9438B16484"
 			height: 1.0d
-			hover: ["Raw Emerald"]
+			id: "42540685294C9994"
 			image: "createoreexcavation:item/raw_emerald"
 			rotation: 0.0d
 			width: 1.0d
@@ -2331,9 +2356,9 @@
 			y: 1.5d
 		}
 		{
-			click: "#2A343C3DFC93D89B"
+			click_action: "open_quest:2A343C3DFC93D89B"
 			height: 1.0d
-			hover: ["Bottle O' Hyper Enchanting"]
+			id: "4D38BB2D7CB8EE1B"
 			image: "create_enchantment_industry:item/hyper_experience_bottle"
 			rotation: 0.0d
 			width: 1.0d
@@ -2341,9 +2366,9 @@
 			y: 3.5d
 		}
 		{
-			click: "#2A343C3DFC93D89B"
+			click_action: "open_quest:2A343C3DFC93D89B"
 			height: 1.0d
-			hover: ["Bottle O' Hyper Enchanting"]
+			id: "6CAA3FD81C1E6895"
 			image: "create_enchantment_industry:item/hyper_experience_bottle"
 			rotation: 0.0d
 			width: 1.0d
@@ -2351,9 +2376,9 @@
 			y: 3.5d
 		}
 		{
-			click: "#2A343C3DFC93D89B"
+			click_action: "open_quest:2A343C3DFC93D89B"
 			height: 1.0d
-			hover: ["Bottle O' Hyper Enchanting"]
+			id: "5EE787D79CD45718"
 			image: "create_enchantment_industry:item/hyper_experience_bottle"
 			rotation: 0.0d
 			width: 1.0d
@@ -2361,9 +2386,10 @@
 			y: -2.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 9918780
 			height: 1.0d
+			id: "7803D79389542F2C"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2371,10 +2397,10 @@
 			y: 2.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16304743
 			height: 1.0d
-			hover: ["Brass Singularity"]
+			id: "3BCFE42C080D0B0D"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2383,9 +2409,10 @@
 			y: 2.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 9918780
 			height: 1.0d
+			id: "7E42F42C6E3B1E78"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2393,9 +2420,10 @@
 			y: -1.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 9918780
 			height: 1.0d
+			id: "3B95E6FD2CC608E0"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2403,9 +2431,10 @@
 			y: -1.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 9918780
 			height: 1.0d
+			id: "7219B54AC930EDFD"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2413,10 +2442,10 @@
 			y: 2.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16304743
 			height: 1.0d
-			hover: ["Brass Singularity"]
+			id: "076843ADA94DAFA9"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2425,10 +2454,10 @@
 			y: -1.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16304743
 			height: 1.0d
-			hover: ["Brass Singularity"]
+			id: "5AABEC4C17DEC3FB"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2437,10 +2466,10 @@
 			y: -1.5d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16304743
 			height: 1.0d
-			hover: ["Brass Singularity"]
+			id: "194D7606EA430581"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2449,9 +2478,9 @@
 			y: 2.5d
 		}
 		{
-			click: "#3AD3293C7E0AFE5E"
+			click_action: "open_quest:3AD3293C7E0AFE5E"
 			height: 1.0d
-			hover: ["Rubber"]
+			id: "5A739EF0E9DA5CF7"
 			image: "thermal:item/cured_rubber"
 			rotation: 0.0d
 			width: 1.0d
@@ -2459,9 +2488,9 @@
 			y: 6.0d
 		}
 		{
-			click: "#3AD3293C7E0AFE5E"
+			click_action: "open_quest:3AD3293C7E0AFE5E"
 			height: 1.0d
-			hover: ["Rubber"]
+			id: "493EEE1D644FCE01"
 			image: "thermal:item/cured_rubber"
 			rotation: 0.0d
 			width: 1.0d
@@ -2469,9 +2498,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#3AD3293C7E0AFE5E"
+			click_action: "open_quest:3AD3293C7E0AFE5E"
 			height: 1.0d
-			hover: ["Rubber"]
+			id: "5C1529F2DE130A05"
 			image: "thermal:item/cured_rubber"
 			rotation: 0.0d
 			width: 1.0d
@@ -2479,9 +2508,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#3AD3293C7E0AFE5E"
+			click_action: "open_quest:3AD3293C7E0AFE5E"
 			height: 1.0d
-			hover: ["Rubber"]
+			id: "2ED4391A2E1C4CDD"
 			image: "thermal:item/cured_rubber"
 			rotation: 0.0d
 			width: 1.0d
@@ -2489,9 +2518,9 @@
 			y: 6.0d
 		}
 		{
-			click: "#3AD3293C7E0AFE5E"
+			click_action: "open_quest:3AD3293C7E0AFE5E"
 			height: 1.0d
-			hover: ["Rubber"]
+			id: "34BF4F07B2AF3A57"
 			image: "thermal:item/cured_rubber"
 			rotation: 0.0d
 			width: 1.0d
@@ -2499,9 +2528,9 @@
 			y: 10.0d
 		}
 		{
-			click: "#3AD3293C7E0AFE5E"
+			click_action: "open_quest:3AD3293C7E0AFE5E"
 			height: 1.0d
-			hover: ["Rubber"]
+			id: "669748379E6116AA"
 			image: "thermal:item/cured_rubber"
 			rotation: 0.0d
 			width: 1.0d
@@ -2509,9 +2538,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#3AD3293C7E0AFE5E"
+			click_action: "open_quest:3AD3293C7E0AFE5E"
 			height: 1.0d
-			hover: ["Rubber"]
+			id: "60F1A8832FDC12FB"
 			image: "thermal:item/cured_rubber"
 			rotation: 0.0d
 			width: 1.0d
@@ -2519,9 +2548,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#3AD3293C7E0AFE5E"
+			click_action: "open_quest:3AD3293C7E0AFE5E"
 			height: 1.0d
-			hover: ["Rubber"]
+			id: "3F3E624088291AD7"
 			image: "thermal:item/cured_rubber"
 			rotation: 0.0d
 			width: 1.0d
@@ -2529,9 +2558,9 @@
 			y: 10.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "2052B96C0D93C323"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2539,9 +2568,9 @@
 			y: 10.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "29F1F32A587129AF"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2549,9 +2578,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "1DD2B01FDA8DAF7D"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2559,9 +2588,9 @@
 			y: 10.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "77E0143ECAD29CDF"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2569,9 +2598,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "03E5D28695ABB10A"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2579,9 +2608,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "64690E21B4F7D328"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2589,9 +2618,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "2B1E5817B6DA8636"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2599,9 +2628,9 @@
 			y: 6.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "739BA6F1C8A9DCD0"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2609,9 +2638,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "1F7DAE0C3B1527C7"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2619,9 +2648,9 @@
 			y: 6.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "3E66CE3CD5317E6D"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2629,9 +2658,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "7BFDF79F3E065DEF"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2639,9 +2668,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#4D7685255B6F655F"
+			click_action: "open_quest:4D7685255B6F655F"
 			height: 1.0d
-			hover: ["Incomplete Fluid Godly Alloy"]
+			id: "73EC26A0ABC3DC09"
 			image: "kubejs:item/incomplete_fluid_godly_alloy"
 			rotation: 0.0d
 			width: 1.0d
@@ -2649,9 +2678,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#50FCED613F26E315"
+			click_action: "open_quest:50FCED613F26E315"
 			height: 1.0d
-			hover: ["Bucket"]
+			id: "5B6A67E0C8E24914"
 			image: "minecraft:item/bucket"
 			rotation: 0.0d
 			width: 1.0d
@@ -2659,9 +2688,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#50FCED613F26E315"
+			click_action: "open_quest:50FCED613F26E315"
 			height: 1.0d
-			hover: ["Bucket"]
+			id: "4AB7217B8A615213"
 			image: "minecraft:item/bucket"
 			rotation: 0.0d
 			width: 1.0d
@@ -2669,9 +2698,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#6FEAD8D0F1009743"
+			click_action: "open_quest:6FEAD8D0F1009743"
 			height: 1.0d
-			hover: ["Extrapolated Bucket"]
+			id: "3BA83172AA47272D"
 			image: "botania:item/open_bucket"
 			rotation: 0.0d
 			width: 1.0d
@@ -2679,9 +2708,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#0F95C3295DDF8393"
+			click_action: "open_quest:0F95C3295DDF8393"
 			height: 1.0d
-			hover: ["Jerrycan"]
+			id: "0B74091837F68BEF"
 			image: "immersiveengineering:item/jerrycan"
 			rotation: 0.0d
 			width: 1.0d
@@ -2689,9 +2718,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#0F95C3295DDF8393"
+			click_action: "open_quest:0F95C3295DDF8393"
 			height: 1.0d
-			hover: ["Jerrycan"]
+			id: "6176269117DB1681"
 			image: "immersiveengineering:item/jerrycan"
 			rotation: 0.0d
 			width: 1.0d
@@ -2699,9 +2728,9 @@
 			y: 8.0d
 		}
 		{
-			click: "#4E96457341D2062A"
+			click_action: "open_quest:4E96457341D2062A"
 			height: 1.0d
-			hover: ["Fluid Filter"]
+			id: "52A7F4EFB634DE81"
 			image: "thermal:item/augments/fluid_filter_augment"
 			rotation: 0.0d
 			width: 1.0d
@@ -2709,9 +2738,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#4E96457341D2062A"
+			click_action: "open_quest:4E96457341D2062A"
 			height: 1.0d
-			hover: ["Fluid Filter"]
+			id: "7B2B742987F9F00A"
 			image: "thermal:item/augments/fluid_filter_augment"
 			rotation: 0.0d
 			width: 1.0d
@@ -2719,9 +2748,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#4E96457341D2062A"
+			click_action: "open_quest:4E96457341D2062A"
 			height: 1.0d
-			hover: ["Fluid Filter"]
+			id: "54D368E093A0E991"
 			image: "thermal:item/augments/fluid_filter_augment"
 			rotation: 0.0d
 			width: 1.0d
@@ -2729,9 +2758,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#4E96457341D2062A"
+			click_action: "open_quest:4E96457341D2062A"
 			height: 1.0d
-			hover: ["Fluid Filter"]
+			id: "0189B4383F1DE80E"
 			image: "thermal:item/augments/fluid_filter_augment"
 			rotation: 0.0d
 			width: 1.0d
@@ -2739,9 +2768,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#00BC5EB6BAE2E88A"
+			click_action: "open_quest:00BC5EB6BAE2E88A"
 			height: 1.0d
-			hover: ["Water Rune"]
+			id: "428D89CB3E5DC77B"
 			image: "botania:item/rune_water"
 			rotation: 0.0d
 			width: 1.0d
@@ -2749,9 +2778,9 @@
 			y: 11.0d
 		}
 		{
-			click: "#00BC5EB6BAE2E88A"
+			click_action: "open_quest:00BC5EB6BAE2E88A"
 			height: 1.0d
-			hover: ["Water Rune"]
+			id: "26C46AF49D09FB23"
 			image: "botania:item/rune_water"
 			rotation: 0.0d
 			width: 1.0d
@@ -2759,9 +2788,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#00BC5EB6BAE2E88A"
+			click_action: "open_quest:00BC5EB6BAE2E88A"
 			height: 1.0d
-			hover: ["Water Rune"]
+			id: "3EB5E8883946CE3E"
 			image: "botania:item/rune_water"
 			rotation: 0.0d
 			width: 1.0d
@@ -2769,9 +2798,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#00BC5EB6BAE2E88A"
+			click_action: "open_quest:00BC5EB6BAE2E88A"
 			height: 1.0d
-			hover: ["Water Rune"]
+			id: "65A234DB2FD7521E"
 			image: "botania:item/rune_water"
 			rotation: 0.0d
 			width: 1.0d
@@ -2779,9 +2808,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#00BC5EB6BAE2E88A"
+			click_action: "open_quest:00BC5EB6BAE2E88A"
 			height: 1.0d
-			hover: ["Water Rune"]
+			id: "030E5BFC03492890"
 			image: "botania:item/rune_water"
 			rotation: 0.0d
 			width: 1.0d
@@ -2789,9 +2818,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#00BC5EB6BAE2E88A"
+			click_action: "open_quest:00BC5EB6BAE2E88A"
 			height: 1.0d
-			hover: ["Water Rune"]
+			id: "3840BDD5BFF8C2F4"
 			image: "botania:item/rune_water"
 			rotation: 0.0d
 			width: 1.0d
@@ -2799,9 +2828,9 @@
 			y: 7.0d
 		}
 		{
-			click: "#00BC5EB6BAE2E88A"
+			click_action: "open_quest:00BC5EB6BAE2E88A"
 			height: 1.0d
-			hover: ["Water Rune"]
+			id: "3DC712630B4FDDEE"
 			image: "botania:item/rune_water"
 			rotation: 0.0d
 			width: 1.0d
@@ -2809,9 +2838,9 @@
 			y: 9.0d
 		}
 		{
-			click: "#00BC5EB6BAE2E88A"
+			click_action: "open_quest:00BC5EB6BAE2E88A"
 			height: 1.0d
-			hover: ["Water Rune"]
+			id: "12D18B3E2A738D12"
 			image: "botania:item/rune_water"
 			rotation: 0.0d
 			width: 1.0d
@@ -2819,10 +2848,10 @@
 			y: 11.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 14262083
 			height: 1.0d
-			hover: ["Bronze Singularity"]
+			id: "67098A34866D82C5"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2831,9 +2860,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 12282683
 			height: 1.0d
+			id: "087E907FCDD2CEE9"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2841,9 +2871,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 12282683
 			height: 1.0d
+			id: "68C4851A74385244"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2851,9 +2882,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 12282683
 			height: 1.0d
+			id: "34FBDAF4EC2A1553"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2861,9 +2893,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 12282683
 			height: 1.0d
+			id: "1DE9159268C188ED"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2871,10 +2904,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 14262083
 			height: 1.0d
-			hover: ["Bronze Singularity"]
+			id: "3FD0BF930EDF6CF4"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2883,10 +2916,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 14262083
 			height: 1.0d
-			hover: ["Bronze Singularity"]
+			id: "366D055434ED1AE1"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2895,10 +2928,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 14262083
 			height: 1.0d
-			hover: ["Bronze Singularity"]
+			id: "04D57581D2BDCD22"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2907,9 +2940,10 @@
 			y: 8.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 1790887
 			height: 1.0d
+			id: "12452E6373ED50E6"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2917,9 +2951,10 @@
 			y: 7.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 1790887
 			height: 1.0d
+			id: "0D5A04631B9344FA"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2927,9 +2962,10 @@
 			y: 9.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 1790887
 			height: 1.0d
+			id: "34372B3C73E099D1"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2937,10 +2973,10 @@
 			y: 9.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 6786538
 			height: 1.0d
-			hover: ["Lapis Lazuli Singularity"]
+			id: "2B42727CBA54F288"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2949,10 +2985,10 @@
 			y: 7.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 6786538
 			height: 1.0d
-			hover: ["Lapis Lazuli Singularity"]
+			id: "60C818111CC0609F"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2961,10 +2997,10 @@
 			y: 9.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 6786538
 			height: 1.0d
-			hover: ["Lapis Lazuli Singularity"]
+			id: "40EB182B1B5AEB21"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2973,9 +3009,10 @@
 			y: 9.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 1790887
 			height: 1.0d
+			id: "584F1B683DAB7D9D"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -2983,10 +3020,10 @@
 			y: 7.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 6786538
 			height: 1.0d
-			hover: ["Lapis Lazuli Singularity"]
+			id: "5341AC159D5E820D"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -2995,9 +3032,10 @@
 			y: 7.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 12342320
 			height: 1.0d
+			id: "0188BE3CE80B2613"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -3005,9 +3043,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 12342320
 			height: 1.0d
+			id: "762B5F2F858E9915"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -3015,9 +3054,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 12342320
 			height: 1.0d
+			id: "253137038F5A7501"
 			image: "extendedcrafting:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
@@ -3025,10 +3065,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16422780
 			height: 1.0d
-			hover: ["Copper Singularity"]
+			id: "55765EE2CB74D50F"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -3037,10 +3077,10 @@
 			y: 6.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16422780
 			height: 1.0d
-			hover: ["Copper Singularity"]
+			id: "1A361F12A3EEB4F5"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -3049,10 +3089,10 @@
 			y: 10.0d
 		}
 		{
-			click: "#4A0D50A363959296"
+			click_action: "open_quest:4A0D50A363959296"
 			color: 16422780
 			height: 1.0d
-			hover: ["Copper Singularity"]
+			id: "38558B5D8F91B4D7"
 			image: "extendedcrafting:item/singularity_overlay"
 			order: 10
 			rotation: 0.0d
@@ -3063,7 +3103,7 @@
 	]
 	order_index: 0
 	quest_links: [
-	{
+		{
 			id: "1E63CA8A123348EF"
 			linked_quest: "5457F1584CFED690"
 			x: -7.229574829931941d
@@ -3087,8 +3127,8 @@
 			size: 1.5d
 			x: -5.729574829931941d
 			y: -2.5345238095238116d
-		} 
-		]
+		}
+	]
 	quests: [
 		{
 			dependencies: [
@@ -3101,7 +3141,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "35FB523CA0B6ECE8"
-				item: "kubejs:incomplete_energy_godly_alloy"
+				item: { count: 1, id: "kubejs:incomplete_energy_godly_alloy" }
 				type: "item"
 			}]
 			x: -5.729574829931941d
@@ -3113,7 +3153,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "4D830BFA8DFC1D9B"
-				item: "kubejs:incomplete_fluid_godly_alloy"
+				item: { count: 1, id: "kubejs:incomplete_fluid_godly_alloy" }
 				type: "item"
 			}]
 			x: -3.4795748299319413d
@@ -3121,24 +3161,13 @@
 		}
 		{
 			dependencies: ["4A0D50A363959296"]
-			description: [
-				"todo write cool text"
-				""
-				"Can Make:"
-				""
-				"[\"\", { \"text\": \"Creative Fluid Tank/Vessel\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F8633317C73E60B\" } }, \" from Create\" ]"
-				""
-				"[\"\",  { \"text\": \"Creative Tank Construction\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"017F02F4FE5800ED\" } }, \" from Thermal\" ]"
-				""
-				"[\"\", { \"text\": \"Creative Fluid Tank\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"30446A8802550D59\" } }, \" from Mekanism\" ]"
-			]
 			hide_lock_icon: true
 			id: "554A46120F1F0FD6"
 			shape: "none"
 			size: 1.6d
 			tasks: [{
 				id: "1ADC48F451B0583C"
-				item: "kubejs:fluid_godly_alloy"
+				item: { count: 1, id: "kubejs:fluid_godly_alloy" }
 				type: "item"
 			}]
 			x: 9.5870918367347d
@@ -3150,7 +3179,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "3EAA2FE1AB9EB191"
-				item: "kubejs:incomplete_unstable_godly_alloy"
+				item: { count: 1, id: "kubejs:incomplete_unstable_godly_alloy" }
 				type: "item"
 			}]
 			x: -7.979574829931941d
@@ -3158,15 +3187,6 @@
 		}
 		{
 			dependencies: ["4A0D50A363959296"]
-			description: [
-				"todo write cool text"
-				""
-				"Can Make:"
-				""
-				"[ \"\", { \"text\": \"Creative Blaze Cake\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"279B5DA25E515638\" } }, \" from Create\" ]"
-				""
-				"Creative Autocannon Ammo Container from Create: Big Cannons"
-			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_lock_icon: true
@@ -3175,7 +3195,7 @@
 			size: 1.6d
 			tasks: [{
 				id: "5A960C867801241B"
-				item: "kubejs:unstable_godly_alloy"
+				item: { count: 1, id: "kubejs:unstable_godly_alloy" }
 				type: "item"
 			}]
 			x: -1.3843537414965965d
@@ -3183,20 +3203,13 @@
 		}
 		{
 			dependencies: ["4A0D50A363959296"]
-			description: [
-				"todo write cool text"
-				""
-				"Can make:"
-				""
-				"[ \"\", { \"text\": \"The Everlasting Guilty Pool\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"09692C307F65AFA7\" } } ]"
-			]
 			hide_lock_icon: true
 			id: "3E342EC10340F08F"
 			shape: "none"
 			size: 1.6d
 			tasks: [{
 				id: "653E912C2BB2F110"
-				item: "kubejs:botanic_godly_alloy"
+				item: { count: 1, id: "kubejs:botanic_godly_alloy" }
 				type: "item"
 			}]
 			x: -12.398622448979594d
@@ -3204,20 +3217,13 @@
 		}
 		{
 			dependencies: ["4A0D50A363959296"]
-			description: [
-				"todo write cool text"
-				""
-				"Can Make:"
-				""
-				"[ \"\", { \"text\": \"Creative Motor\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6560EBF0A0DBC0A5\" } }, \" from Create\" ]"
-			]
 			hide_lock_icon: true
 			id: "7EF8903FCA281F93"
 			shape: "none"
 			size: 1.6d
 			tasks: [{
 				id: "7E95D0D453B92624"
-				item: "kubejs:kinetic_godly_alloy"
+				item: { count: 1, id: "kubejs:kinetic_godly_alloy" }
 				type: "item"
 			}]
 			x: 9.601377551020406d
@@ -3225,26 +3231,13 @@
 		}
 		{
 			dependencies: ["4A0D50A363959296"]
-			description: [
-				"todo write cool text"
-				""
-				"Can Make:"
-				""
-				"[ \"\", { \"text\": \"Creative Accumulator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B3437DCDA677560\" } }, \" from Immersive Engineering\" ]"
-				""
-				"[ \"\", { \"text\": \"Creative Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4368C6FA43EC4EE0\" } }, \" from Create: Crafts & Additions\" ]"
-				""
-				"[ \"\", { \"text\": \"Creative RF Coil\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A50B0A58B1E2802\" } }, \" from Thermal\" ]"
-				""
-				"[ \"\", { \"text\": \"Creative Energy Cube\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C5EAFB05C72BCBD\" } }, \" from Mekanism\" ] "
-			]
 			hide_lock_icon: true
 			id: "0939986F6B65AA69"
 			shape: "none"
 			size: 1.6d
 			tasks: [{
 				id: "478712856B459A38"
-				item: "kubejs:energy_godly_alloy"
+				item: { count: 1, id: "kubejs:energy_godly_alloy" }
 				type: "item"
 			}]
 			x: -12.379251700680278d
@@ -3258,7 +3251,7 @@
 			shape: "none"
 			tasks: [{
 				id: "48716C3791FD7FC3"
-				item: "createaddition:chocolate_cake"
+				item: { count: 1, id: "createaddition:chocolate_cake" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -3272,7 +3265,7 @@
 			shape: "none"
 			tasks: [{
 				id: "52E8C2B0B445D946"
-				item: "createaddition:honey_cake"
+				item: { count: 1, id: "createaddition:honey_cake" }
 				type: "item"
 			}]
 			x: 0.5d
