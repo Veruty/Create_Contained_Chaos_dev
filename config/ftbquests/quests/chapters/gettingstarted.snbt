@@ -1,0 +1,20 @@
+{
+	autofocus_id: "0E26D8711F2FDDE4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gettingstarted"
+	group: ""
+	id: "35D8A406CCEDC5DE"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "0E26D8711F2FDDE4"
+		tasks: [{
+			id: "4F94EE490B4CC267"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}
