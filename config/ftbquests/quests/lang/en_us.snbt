@@ -2666,7 +2666,7 @@
 		"I had virtually no rehearsal for that."
 	]
 	quest.27959B34BD2B19B4.quest_subtitle: "open it)"
-	quest.27959B34BD2B19B4.title: "script"
+	quest.27959B34BD2B19B4.title: "the script"
 	quest.279B5DA25E515638.quest_desc: ["[ \"Made with \", { \"text\": \"Unstable Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4613272CCECC2011\" } } ]"]
 	quest.27AABC81A5C06E68.title: "Manaweave Robe"
 	quest.27C740059DA71649.quest_desc: ["The Crusher is used to crush, among other things, clumps into Dirty Dusts, Ingots into dusts and Biomatter into Bio Fuel."]
@@ -4023,7 +4023,6 @@
 	task.58C470BBC8D8F88D.title: "Unknown type: questsadditions:time"
 	task.5D69C5F497E9E41A.title: "Done"
 	task.5EF3562178B81DA3.title: "Right-click any block while Uranium Oxide is inside"
-	task.5EFFCC69BD581D83.title: "Unknown type: questsadditions:time"
 	task.5F3E5AFC788ACF1B.title: "Unknown type: questsadditions:time"
 	task.60B84AC38A589D09.title: "Any #mekanism:clumps"
 	task.61C80229A6088D66.title: "Right-click any block while any Dirty Slurry is inside"
