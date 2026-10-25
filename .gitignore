@@ -5,6 +5,7 @@ command_history.txt
 /config/*
 !/config/extendedcrafting
 !/config/fancymenu
+!/config/ftbquests
 /crash-reports
 /debug
 /defaultconfigs
@@ -28,3 +29,4 @@ ponders_watched_azimuth.json
 usercache.json
 usernamecache.json
 config/fancymenu/customization/debuginfo.txt
+/screenshots
