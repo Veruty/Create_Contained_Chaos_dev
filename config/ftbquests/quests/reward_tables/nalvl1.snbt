@@ -1,0 +1,34 @@
+{
+	id: "05CD81352B5673DF"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 4
+			id: "6024F8A9140E2498"
+			item: {
+				count: 1
+				id: "create_new_age:thorium"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 4
+			id: "457D659BC6AE2A06"
+			item: {
+				count: 1
+				id: "create_new_age:overcharged_iron"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 3
+			id: "5E2AE0FB992A38B8"
+			item: {
+				count: 1
+				id: "create_new_age:magnetite_block"
+			}
+			random_bonus: 3
+		}
+	]
+}
