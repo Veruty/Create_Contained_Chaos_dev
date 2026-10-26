@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "mekanism"
 	group: "3C9C2CEF96DB5B0C"
+	icon: {
+		id: "mekanism:ingot_osmium"
+	}
 	id: "60BE6236A0E7840B"
 	images: [
 		{
@@ -1355,10 +1358,10 @@
 			y: -10.5d
 		}
 		{
-			click_action: "open_quest:70D24C5DEB766FD4"
+			click_action: "none:70D24C5DEB766FD4"
 			height: 1.0d
 			id: "57B565AB2692B591"
-			image: "thermal:item/netherite_gear"
+			image: "minecraft:item/netherite_ingot"
 			rotation: 0.0d
 			width: 1.0d
 			x: 28.0d
@@ -1601,7 +1604,7 @@
 			y: 0.5d
 		}
 	]
-	order_index: 3
+	order_index: 5
 	quest_links: [
 		{
 			id: "03011F2C97537CE8"
@@ -1724,16 +1727,13 @@
 			y: -1.5d
 		}
 		{
+			icon: {
+				id: "mekanism:hydrofluoric_acid_bucket"
+			}
 			id: "66768B5CF1D11AB4"
 			linked_quest: "1D98380A445B84AC"
 			x: 31.0d
 			y: 14.5d
-		}
-		{
-			id: "1DA4B2DE88B24E77"
-			linked_quest: "7008601BDEF473A3"
-			x: 3.0d
-			y: 0.0d
 		}
 		{
 			id: "22E3BBB728765E5A"
@@ -1758,6 +1758,12 @@
 			linked_quest: "089D565A6023BBAF"
 			x: 3.0d
 			y: -8.5d
+		}
+		{
+			id: "519F219FD021F998"
+			linked_quest: "6214BE62213881D3"
+			x: 3.0d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -2126,8 +2132,8 @@
 			}]
 			shape: "diamond"
 			tasks: [{
-				id: "43D5887DD42C8498"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "6587C749E55D123F"
+				item: { count: 1, id: "create:powdered_obsidian" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -2227,8 +2233,8 @@
 			hide_until_deps_visible: true
 			id: "4C7918259EDF52EB"
 			tasks: [{
-				id: "23BE81369EF53E11"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "23196D94C235F6A1"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/osmium))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -2243,8 +2249,8 @@
 			hide_until_deps_visible: true
 			id: "1CA3C59D0ED5EFDC"
 			tasks: [{
-				id: "79418560931D832A"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "747BF4E9A64C1E05"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/gold))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -2493,8 +2499,8 @@
 			hide_until_deps_visible: true
 			id: "2355C781C841F7A0"
 			tasks: [{
-				id: "1563DC0BE33A9978"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "09291749AC5C89A7"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/iron))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -2543,8 +2549,8 @@
 			dependencies: ["37B06FC941C75A60"]
 			id: "13FBC17283BA0E53"
 			tasks: [{
-				id: "767C18BCF8FAA95D"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "47E96D8F9B0E90A8"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(mekanism:personal_storage))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -2617,9 +2623,9 @@
 			hide_until_deps_visible: true
 			icon: {
 				components: {
-					"ftbquests:missing_item": "projectred_expansion:battery"
+					"ftbquests:icon": "sophisticatedcore:item/empty_battery_input_slot"
 				}
-				id: "ftbquests:missing_item"
+				id: "ftbquests:custom_icon"
 			}
 			id: "2ADB4087CB1B55B7"
 			tasks: [{
@@ -2869,8 +2875,14 @@
 		}
 		{
 			dependencies: ["3410A7C9AAFDDF9D"]
+			icon: {
+				id: "mekanism:sulfur_dioxide_bucket"
+			}
 			id: "52795A656E90F398"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "507370457C85E239"
 				type: "custom"
 			}]
@@ -2879,8 +2891,14 @@
 		}
 		{
 			dependencies: ["52795A656E90F398"]
+			icon: {
+				id: "mekanism:sulfur_trioxide_bucket"
+			}
 			id: "7BC2ECAB8B22CBFF"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "040A29662464CD85"
 				type: "custom"
 			}]
@@ -2889,9 +2907,15 @@
 		}
 		{
 			dependencies: ["7BC2ECAB8B22CBFF"]
+			icon: {
+				id: "mekanism:sulfuric_acid_bucket"
+			}
 			id: "07B80FF72157DDEC"
 			shape: "square"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "048BEDB820F2D6DC"
 				type: "custom"
 			}]
@@ -2906,8 +2930,8 @@
 			dependency_requirement: "one_completed"
 			id: "7244ACCE7B1EA609"
 			tasks: [{
-				id: "35A6E105EC6F713A"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "78A5180F4E9F4A24"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/tin))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -2920,8 +2944,8 @@
 			]
 			id: "61714F3150978ED8"
 			tasks: [{
-				id: "11994A026EC356BE"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "322A9836EFF06E18"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/steel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 14.0d
@@ -2935,8 +2959,8 @@
 			dependency_requirement: "one_completed"
 			id: "006E193B744CDEA2"
 			tasks: [{
-				id: "1A60BEC6F08ABE3B"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "50D64EA126ACDC64"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/diamond))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -3006,8 +3030,8 @@
 			hide_dependency_lines: true
 			id: "53E66405375D45E9"
 			tasks: [{
-				id: "4000F010E68D1723"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "487C8F43F267740A"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(kubejs:completes_ore_processing_quests))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 35.0d
@@ -3020,6 +3044,9 @@
 			]
 			id: "1320FCEE195D9D91"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "61C80229A6088D66"
 				type: "custom"
 			}]
@@ -3043,8 +3070,8 @@
 			]
 			id: "2156FF005A98CD92"
 			tasks: [{
-				id: "29BA02E24209C7E3"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "09232F687C52D432"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(mekanism:crystals))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 33.0d
@@ -3058,8 +3085,8 @@
 			dependency_requirement: "one_completed"
 			id: "2AE328444D00892F"
 			tasks: [{
-				id: "7D24622CE53F1738"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "6B469FACA20544AA"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(mekanism:shards))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 33.0d
@@ -3073,8 +3100,8 @@
 			dependency_requirement: "one_completed"
 			id: "36B6C44B34DF66AC"
 			tasks: [{
-				id: "60B84AC38A589D09"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1AABEDEE4D7EEED3"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(mekanism:clumps))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 33.0d
@@ -3084,8 +3111,8 @@
 			dependencies: ["36B6C44B34DF66AC"]
 			id: "1CCCAC787EE36BCE"
 			tasks: [{
-				id: "30E95956DE61B8D1"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "4DCCCAD5B1817CBD"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(mekanism:dirty_dusts))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 33.0d
@@ -3099,8 +3126,8 @@
 			dependency_requirement: "one_completed"
 			id: "66FD815724870C36"
 			tasks: [{
-				id: "3F57801F2FB2F503"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				id: "7C33B3351D801D15"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/gold)item_tag(c:dusts/iron)item_tag(c:dusts/copper)item_tag(c:dusts/osmium)item_tag(c:dusts/tin)item_tag(c:dusts/lead)item_tag(c:dusts/uranium))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 33.0d
@@ -3108,8 +3135,14 @@
 		}
 		{
 			dependencies: ["1A332CC6CFD92F79"]
+			icon: {
+				id: "mekanism:brine_bucket"
+			}
 			id: "25DC4A8FAB183E2A"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "3990489D29FD69B6"
 				type: "custom"
 			}]
@@ -3118,8 +3151,14 @@
 		}
 		{
 			dependencies: ["25DC4A8FAB183E2A"]
+			icon: {
+				id: "mekanism:chlorine_bucket"
+			}
 			id: "51C57A02C2F76A57"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "4A9D1DC701EA89D0"
 				type: "custom"
 			}]
@@ -3128,8 +3167,14 @@
 		}
 		{
 			dependencies: ["25DC4A8FAB183E2A"]
+			icon: {
+				id: "mekanism:sodium_bucket"
+			}
 			id: "60CA950C9ACBAFB4"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "5042389DF6578656"
 				type: "custom"
 			}]
@@ -3138,8 +3183,14 @@
 		}
 		{
 			dependencies: ["25DC4A8FAB183E2A"]
+			icon: {
+				id: "mekanism:lithium_bucket"
+			}
 			id: "7C5B918C67AE83A3"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "081A57CAB9D4382E"
 				type: "custom"
 			}]
@@ -3148,8 +3199,14 @@
 		}
 		{
 			dependencies: ["7C5B918C67AE83A3"]
+			icon: {
+				id: "mekanism:lithium_bucket"
+			}
 			id: "0453C7D5AA35CAAA"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "111F08EC986B989D"
 				type: "custom"
 			}]
@@ -3162,8 +3219,14 @@
 				"15A1D3E46BE50A42"
 			]
 			dependency_requirement: "one_completed"
+			icon: {
+				id: "mekanism:hydrogen_chloride_bucket"
+			}
 			id: "02AFE459E338D665"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "7A69667E4DB84182"
 				type: "custom"
 			}]
