@@ -3,9 +3,12 @@
 	default_quest_shape: ""
 	filename: "end"
 	group: "4BCA08601609B5F5"
+	icon: {
+		id: "minecraft:end_stone"
+	}
 	id: "6BA39FE78542AF6E"
 	images: [ ]
-	order_index: 0
+	order_index: 2
 	quest_links: [{
 		id: "569E869ED7CFF61E"
 		linked_quest: "5400A2A76BA7C157"

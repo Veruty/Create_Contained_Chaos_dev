@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "nether"
 	group: "4BCA08601609B5F5"
+	icon: {
+		id: "minecraft:netherrack"
+	}
 	id: "21C97588FE9F5FD5"
 	images: [ ]
 	order_index: 1
