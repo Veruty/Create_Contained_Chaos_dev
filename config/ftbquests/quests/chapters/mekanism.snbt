@@ -3042,6 +3042,9 @@
 				"07B80FF72157DDEC"
 				"53E66405375D45E9"
 			]
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+			}
 			id: "1320FCEE195D9D91"
 			tasks: [{
 				icon: {
@@ -3055,8 +3058,14 @@
 		}
 		{
 			dependencies: ["1320FCEE195D9D91"]
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+			}
 			id: "4A6AF19B37DBD45C"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "093570D31C881837"
 				type: "custom"
 			}]
