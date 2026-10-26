@@ -49,21 +49,15 @@
 			y: 3.0d
 		}
 		{
-			id: "4EC23EDBF79B9BF2"
-			linked_quest: "064FDEF8EF3D31EB"
-			x: 8.5d
-			y: -11.0d
-		}
-		{
-			id: "1F018880FD600ACC"
-			linked_quest: "5B2F0ADC98DFCBF5"
-			x: 8.5d
-			y: -9.0d
+			id: "686025A74C1B3354"
+			linked_quest: "0E26D8711F2FDDE4"
+			x: -4.0d
+			y: -1.0d
 		}
 	]
 	quests: [
 		{
-			dependencies: ["42AA25C1E9AF0537"]
+			dependencies: ["0E26D8711F2FDDE4"]
 			id: "7B196B74898CA9AD"
 			rewards: [{
 				count: 32
@@ -508,6 +502,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["0E26D8711F2FDDE4"]
 			disable_toast: true
 			hide_until_deps_complete: true
 			id: "42AA25C1E9AF0537"
@@ -515,8 +510,8 @@
 				id: "5DED7B95138B20FA"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7083FA0AF9A0304C"]
@@ -819,7 +814,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["42AA25C1E9AF0537"]
+			dependencies: ["0E26D8711F2FDDE4"]
 			id: "453AF22EDC7B77EF"
 			tasks: [
 				{
@@ -982,58 +977,14 @@
 		{
 			dependencies: ["7DBC7E2955637282"]
 			id: "02018B311BB8EE74"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "53400C3FE64AE501"
 				item: { count: 1, id: "kubejs:simple_mechanism" }
 				type: "item"
 			}]
 			x: 6.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["02018B311BB8EE74"]
-			id: "75867133DC826B4C"
-			tasks: [{
-				id: "2939CA990EA39D83"
-				item: { components: { "ftbquests:missing_item": "thermal:device_fisher" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["02018B311BB8EE74"]
-			id: "7CD7A649C0AD6C9C"
-			tasks: [{
-				id: "25B79B4116D2D620"
-				item: { components: { "ftbquests:missing_item": "thermal:device_tree_extractor" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 8.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["02018B311BB8EE74"]
-			id: "0BE993496F410491"
-			tasks: [{
-				id: "5317E34260D89103"
-				item: { components: { "ftbquests:missing_item": "thermal:device_composter" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["02018B311BB8EE74"]
-			id: "36094A03D5B53B9E"
-			tasks: [{
-				id: "370E38B57D426934"
-				item: { components: { "ftbquests:missing_item": "thermal:device_water_gen" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["02018B311BB8EE74"]
@@ -1043,118 +994,8 @@
 				item: { count: 1, id: "create_mechanical_extruder:mechanical_extruder" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["02018B311BB8EE74"]
-			id: "199F8E4B15091347"
-			tasks: [{
-				id: "1A7EB88372FA33DA"
-				item: { components: { "ftbquests:missing_item": "thermal:device_collector" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: -11.0d
-		}
-		{
-			dependencies: ["75867133DC826B4C"]
-			id: "0C4965E5B5C71F99"
-			tasks: [{
-				id: "5E350C5BE2D0D27B"
-				item: { components: { "ftbquests:missing_item": "thermal:junk_net" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["75867133DC826B4C"]
-			id: "5C3102E69C6A0E4D"
-			tasks: [{
-				id: "47D2C90331BA29B2"
-				item: { components: { "ftbquests:missing_item": "thermal:aquachow" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["75867133DC826B4C"]
-			id: "1D918C4986CB63F1"
-			tasks: [{
-				id: "7117DD0AEC470604"
-				item: { components: { "ftbquests:missing_item": "thermal:deep_aquachow" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["02018B311BB8EE74"]
-			id: "2D660F4C6F249DD3"
-			tasks: [{
-				id: "24356591124BBBC4"
-				item: { components: { "ftbquests:missing_item": "thermal:device_nullifier" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["02018B311BB8EE74"]
-			id: "540B8F2F48D9A41C"
-			tasks: [{
-				id: "6EB23CA37C424055"
-				item: { components: { "ftbquests:missing_item": "thermal:device_potion_diffuser" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["02018B311BB8EE74"]
-			id: "1F48A468C2253200"
-			tasks: [{
-				id: "2AC6187EDBDF2DF4"
-				item: { components: { "ftbquests:missing_item": "thermal:device_xp_condenser" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["7CD7A649C0AD6C9C"]
-			id: "735E77C68EB1ECDE"
-			tasks: [{
-				id: "2BF90DDC9399E1B1"
-				item: { components: { "ftbquests:missing_item": "thermal:latex_bucket" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 9.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["7CD7A649C0AD6C9C"]
-			id: "785EDF40D817A352"
-			tasks: [{
-				id: "348E26C43353C1F9"
-				item: { components: { "ftbquests:missing_item": "thermal:sap_bucket" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 10.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["7CD7A649C0AD6C9C"]
-			id: "16A3041FDF552B6B"
-			tasks: [{
-				id: "6A3519396553EC8B"
-				item: { components: { "ftbquests:missing_item": "thermal:resin_bucket" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 9.5d
-			y: -8.0d
+			x: 8.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7B196B74898CA9AD"]
@@ -1194,26 +1035,6 @@
 			}]
 			x: 24.0d
 			y: -2.5d
-		}
-		{
-			dependencies: ["3FB70B2734FF2281"]
-			id: "51FF206E29E83EBA"
-			rewards: [{
-				count: 2
-				id: "07795EB920AB0E4D"
-				item: {
-					count: 1
-					id: "minecraft:cocoa_beans"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "4EF50682DB370A6C"
-				item: { components: { "ftbquests:missing_item": "create_confectionery:bar_of_black_chocolate" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 23.0d
-			y: -3.5d
 		}
 		{
 			dependencies: ["7083FA0AF9A0304C"]

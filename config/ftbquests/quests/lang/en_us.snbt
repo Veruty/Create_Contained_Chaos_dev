@@ -553,7 +553,7 @@
 	quest.01B61DFAA5FF2EB5.quest_subtitle: "Smol-ification"
 	quest.01D3CA4CAC690A49.quest_desc: ["With the Teleporter frame together with the Teleporter you can create a Teleporter Portal."]
 	quest.01EE2E62AEAF714A.title: "Aluminum Ingot"
-	quest.02018B311BB8EE74.quest_desc: ["The Simple Mechanism is a crafting component used to craft thermal devices."]
+	quest.02018B311BB8EE74.quest_desc: ["The Simple Mechanism is a crafting component used to craft some devices."]
 	quest.02167DF438CAA9CF.quest_desc: [
 		"The Hose Pulley lets down a hose that can drain bodies of liquids. "
 		""
@@ -638,7 +638,7 @@
 	quest.04D905FB58030CA9.quest_subtitle: "Too many to chose from!"
 	quest.04DB82D9A305C6E5.quest_desc: ["Obtain a mana spreader, used to transfer mana from generators to storage pools"]
 	quest.04DB82D9A305C6E5.quest_subtitle: "Lag Machine lmfao"
-	quest.0500D34B7CA9AB85.quest_desc: ["&mDoes exactly as it craft suggests.&r"]
+	quest.0500D34B7CA9AB85.quest_desc: ["&8Does exactly as its craft suggests.&r"]
 	quest.0500D34B7CA9AB85.title: "We do a little trolling"
 	quest.05033E45C56608CD.quest_desc: [
 		"Engineer's Goggles are a wearable item that allow the user to see more details about placed machines."
@@ -683,13 +683,7 @@
 	quest.064FDEF8EF3D31EB.quest_desc: ["Increases the duration of an applied potion."]
 	quest.06EAB6D86F2CE214.quest_desc: ["Refined Glowstone Ingot is used to make teleporter frames"]
 	quest.06EAB6D86F2CE214.quest_subtitle: "Not so strong ingot"
-	quest.070841C70F538AD2.quest_desc: [
-		"{info.thermal.device_rock_gen.0}"
-		""
-		"{info.thermal.device_rock_gen.1}"
-		""
-		"{info.thermal.device_rock_gen.2}"
-	]
+	quest.070841C70F538AD2.quest_desc: [""]
 	quest.070841C70F538AD2.quest_subtitle: "Replaces Thermal Expansions Igneous Extruder"
 	quest.074E60C5E08AC196.quest_desc: [
 		"Encased chain drives may be placed side by side either vertically or horizontally to form a chain passing rotational power among all the blocks. The blocks must touch on their sides (not axis to side) and be in a single straight line to form a chain."
@@ -714,11 +708,7 @@
 		"Also, please give your fleshkin chest a cute name, it will be happier that way :3"
 	]
 	quest.09130E1FF6A014BE.quest_subtitle: "Don't worry, he doesnt bite..."
-	quest.092216D2A1FCF195.quest_desc: [
-		"Dried Kelp can be used to create Belts, Tunnels, Funnels, etc."
-		""
-		"Rubber can be used as a more efficient replacement for Dried Kelp for some recipies."
-	]
+	quest.092216D2A1FCF195.quest_desc: ["Dried Kelp can be used to create Belts, Tunnels, Funnels, etc."]
 	quest.0939986F6B65AA69.quest_desc: [
 		"todo write cool text"
 		""
@@ -767,14 +757,6 @@
 	]
 	quest.0BA85B6203AD8EE9.title: "What's this?"
 	quest.0BDBE6F814EE2704.quest_desc: ["Used only only in creation of Gold Wires."]
-	quest.0BE993496F410491.quest_desc: [
-		"{info.thermal.device_composter.0}"
-		""
-		"{info.thermal.device_composter.1}"
-	]
-	quest.0BE993496F410491.quest_subtitle: "{info.thermal.device_composter.2}"
-	quest.0C4965E5B5C71F99.quest_desc: ["{item.thermal.junk_net.desc}"]
-	quest.0C4965E5B5C71F99.quest_subtitle: "a bit busted"
 	quest.0C65E2BEAABDA84F.quest_desc: [
 		"The Wrench is a tool used to rotate, dismantle and configure components"
 		""
@@ -1039,7 +1021,6 @@
 	quest.15438CE8A83216DF.quest_subtitle: "Controlling the Fission"
 	quest.168998763F13F317.quest_desc: ["Genetic Compound is a basic compound for making serums. The serums that this compound makes will most likely be used more often than exotic ones."]
 	quest.168998763F13F317.quest_subtitle: "Basic fleshy potion stuff"
-	quest.16A3041FDF552B6B.quest_desc: ["[ \"Bucket of highly viscous liquid which can be converted into \", { \"text\": \"Rosin\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"322DB199F4A45032\" } }, \" and Tree Oil.\" ]"]
 	quest.16DC5CDD7C89F395.quest_desc: [
 		"The Speedometer measures the speed of Rotational Force."
 		""
@@ -1082,12 +1063,6 @@
 	quest.197F2D1A0B4C7341.quest_desc: ["Exotic Compounds are used for making some of the more mysterious serums."]
 	quest.197F2D1A0B4C7341.quest_subtitle: "Not available at your local drugstore"
 	quest.199632AF99031363.quest_desc: ["Elite Tier Installers can be used on Advanced Factories to turn them into Elite Factories."]
-	quest.199F8E4B15091347.quest_desc: [
-		"{info.thermal.device_collector.0}"
-		""
-		"{info.thermal.device_collector.1}"
-	]
-	quest.199F8E4B15091347.quest_subtitle: "{info.thermal.device_collector.2}"
 	quest.19BF6BCFC7E63352.quest_desc: ["HDPE Sheets are created by enriching the 3 HDPE Pellets, used in creation of several high-tech devices."]
 	quest.19CB5B23D36990C6.quest_desc: ["Acts like the sojourner belt, but even faster, higher, and better!"]
 	quest.19CB5B23D36990C6.quest_subtitle: "SUPER NYOOOOOM"
@@ -1151,7 +1126,6 @@
 		"You can feed certain items to your new decomposer for materials that will be more useful for fleshy crafts. Make sure you stock up on some of these materials, they are very important for crafting all kinds of items in Biomancy."
 	]
 	quest.1D86A07D3FDC56D7.quest_subtitle: "Chomp Chomp!"
-	quest.1D918C4986CB63F1.quest_desc: ["{item.thermal.deep_aquachow.desc}"]
 	quest.1D98380A445B84AC.quest_desc: ["Hydrofluoric acid is only used to create Uranium Hexafluoride"]
 	quest.1D98380A445B84AC.title: "Hydrofluoric Acid"
 	quest.1EBA4DF9A0D7282E.quest_desc: ["Blank Circuit are made by pressing Copper Plate, redstone, and Gold Wires inside heated basin."]
@@ -1159,12 +1133,6 @@
 	quest.1EEC1E316B485237.title: "Improved Blast Furnace"
 	quest.1F015069E9EBA587.quest_subtitle: "Really Hot Topic"
 	quest.1F015069E9EBA587.title: "Blast Furnace"
-	quest.1F48A468C2253200.quest_desc: [
-		"{info.thermal.device_xp_condenser.0}"
-		""
-		"{info.thermal.device_xp_condenser.1}"
-	]
-	quest.1F48A468C2253200.quest_subtitle: "{info.thermal.device_xp_condenser.2}"
 	quest.1F7CCAD2DA11DD00.quest_desc: [
 		"The Postbox will move Cardboard Packages to and from Trains with an inventory that stop at its linked Train Station. It will take packages with a matching address or deposit packages that don’t match its address."
 		""
@@ -2781,15 +2749,6 @@
 	quest.2D4E8DAE7D7E45F5.quest_subtitle: "Real Redstone Flux"
 	quest.2D5D2C8C156FC60E.quest_desc: ["Make the wearer run faster, jump higher, and sets step height to 1 block, allowing you to run up mountains."]
 	quest.2D5D2C8C156FC60E.quest_subtitle: "Nyoooom!"
-	quest.2D660F4C6F249DD3.quest_desc: [
-		"{info.thermal.device_nullifier.0}"
-		""
-		"{info.thermal.device_nullifier.1}"
-		""
-		"{info.thermal.device_nullifier.2}"
-		""
-		"{info.thermal.device_nullifier.3}"
-	]
 	quest.2D7428D54474BD78.title: "Lumium Ingot"
 	quest.2DF13CAC3F425280.quest_desc: ["Refined Obsidian Dust can be used to make Atomic Alloy or Refined Obsidian Ingot."]
 	quest.2E4D4CBE9614A412.quest_desc: [
@@ -2814,7 +2773,7 @@
 		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
 	]
 	quest.2EFE7E0B6A4606D7.quest_subtitle: "Big Battery I/O "
-	quest.2F8633317C73E60B.quest_desc: ["[ \"Made with \", { \"text\": \"Fluid Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"554A46120F1F0FD6\" } } ]"]
+	quest.2F8633317C73E60B.quest_desc: ["[ \"Made with \", { \"text\": \"Fluid Godly Alloy\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"554A46120F1F0FD6\" } } ]"]
 	quest.2FE74109A0EBDE43.quest_desc: ["Advanced Tier Installers can be used on Basic Factories to turn them into Advanced Factories."]
 	quest.2FFCC04506C08E87.quest_desc: ["The Quantum Entangloporter from Mekanism is a machine that allows liquids/items/energy/gas/heat to be sent from one Quantum Entangloporter to another through a channel."]
 	quest.2FFCC04506C08E87.quest_subtitle: "Wireless everything!"
@@ -2883,12 +2842,6 @@
 	quest.35BF1D9F8D139459.quest_subtitle: "Rotational Complex? I find it quite simple actually."
 	quest.35D001AF7577BAF0.quest_desc: ["This serum reverses aging in mobs and animals, turning them back into a child! I'm not entirely sure why you would need to use this though..."]
 	quest.35D001AF7577BAF0.quest_subtitle: "Anti-Aging"
-	quest.36094A03D5B53B9E.quest_desc: [
-		"{info.thermal.device_water_gen.0}"
-		""
-		"{info.thermal.device_water_gen.1)"
-	]
-	quest.36094A03D5B53B9E.quest_subtitle: "{info.thermal.device_water_gen.2}"
 	quest.361AE6668AD6875D.quest_desc: ["A condensed, coiled resistor capable of converting electrical energy directly into heat energy."]
 	quest.361AE6668AD6875D.quest_subtitle: "100% Energy conversion efficiency"
 	quest.365292C847532455.quest_subtitle: "Godlike cunning"
@@ -3049,7 +3002,7 @@
 	quest.424EB364362EEE26.quest_subtitle: "Afk farm?"
 	quest.425FC18CD62C5B95.quest_desc: ["Used to extract heat from running Nuclear Reactor."]
 	quest.42AA25C1E9AF0537.quest_subtitle: "look at ponders god damn it"
-	quest.42AA25C1E9AF0537.title: "Andesite Age"
+	quest.42AA25C1E9AF0537.title: "Ponders"
 	quest.42C1B71BEEEE9517.quest_desc: ["[ \"Carbon Brushes is the actual block that collects energy from \", { \"text\": \"Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \".\" ]"]
 	quest.42C1B71BEEEE9517.quest_subtitle: "Brush it off"
 	quest.43422AE94BEB2B49.quest_desc: ["Heat Pump is used to direct heat to where it needs to go."]
@@ -3361,12 +3314,6 @@
 	quest.5319D9DD1A371E27.quest_subtitle: "PEW PEW!"
 	quest.53327BB505D158D7.quest_desc: ["Machine Frame is used to create different Thermal machines (duh)"]
 	quest.53E66405375D45E9.title: "Ores for multiplication"
-	quest.540B8F2F48D9A41C.quest_desc: [
-		"{info.thermal.device_potion_diffuser.0}"
-		""
-		"{info.thermal.device_potion_diffuser.1}"
-	]
-	quest.540B8F2F48D9A41C.quest_subtitle: "{info.thermal.device_potion_diffuser.2}"
 	quest.5457F1584CFED690.quest_desc: [
 		"Ultimate Induction Provider can transport up to 52.4 MFE"
 		""
@@ -3470,7 +3417,6 @@
 		"&8Ponder is available for this block&r"
 	]
 	quest.5C186460408D65A9.quest_subtitle: "Unlimited power!"
-	quest.5C3102E69C6A0E4D.quest_desc: ["{item.thermal.aquachow.desc}"]
 	quest.5C73F72CBD4BF9FD.quest_desc: ["Enter a swamp and discover Избушка на курьих ножках, inside of which you can find the pupeteer"]
 	quest.5C73F72CBD4BF9FD.quest_subtitle: "The house with the legs of an animal"
 	quest.5CA942F751BD97B0.quest_desc: [
@@ -3820,8 +3766,6 @@
 	quest.72C605D5F08E942D.quest_subtitle: "Mmm, nutrients"
 	quest.72EE99B1831D7BD4.quest_desc: ["Use every rune that you've gotten to this point, to create a plate which turnes mana infused items into Terrasteel, with the cost of a ton of mana of course :p"]
 	quest.72EE99B1831D7BD4.quest_subtitle: "The avatar"
-	quest.735E77C68EB1ECDE.quest_desc: ["[ \"Bucket of sticky white fluid which can be converted into \", { \"text\": \"Rubber\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B648F1A48BF2800\" } }, \".\" ]"]
-	quest.735E77C68EB1ECDE.quest_subtitle: "\"sticky white fluid\""
 	quest.738B273CFAD8F3A1.quest_desc: [
 		"{info.thermal.machine_sawmill.0}"
 		""
@@ -3831,12 +3775,6 @@
 	quest.74837414C3A22899.quest_desc: ["The Iron Sheet is a crafting component used in multiple crafting recipes."]
 	quest.757822F72F3FE14F.quest_desc: ["If heat pipe reaches &410000T&r it will turn to &clava&r, and unlike other blocks heat pipes can be destroyed by flowing lava, so 1 overheated spot can cause &cchain reaction&r if left unnoticed."]
 	quest.757822F72F3FE14F.title: "Risk of Melting"
-	quest.75867133DC826B4C.quest_desc: [
-		"{info.thermal.device_fisher.0}"
-		""
-		"{info.thermal.device_fisher.1}"
-	]
-	quest.75867133DC826B4C.quest_subtitle: "{info.thermal.device_fisher.2}"
 	quest.759171FDCBE90927.title: "D-T Fuel"
 	quest.75BA8DAE253D5BAF.quest_desc: ["The Digital Miner is the scale mining machine of Mekanism. However, this machine just teleports mined blocks to its inventory."]
 	quest.7631B69595DE7DA6.quest_desc: ["{info.thermal.dynamo_numismatic.0}"]
@@ -3856,7 +3794,6 @@
 	quest.7772E5BC5E558726.quest_desc: ["Ultimate Tier Installers can be used on Elite Factories to turn them into Ultimate Factories"]
 	quest.7776B4E09E926234.quest_desc: ["Reactor Glass can be used to provide a view into the Fission Reactor. It can be used in place of Reactor Frame when building the Reactor, but cannot be placed on edges."]
 	quest.77E41E8DAB050A8D.quest_desc: [""]
-	quest.785EDF40D817A352.quest_desc: ["[ \"Bucket of sticky liquid, used to may \", { \"text\": \"Syrup\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EAB51A2297C9B12\" } }, \".\" ]"]
 	quest.788C6D3A4279C099.quest_desc: [
 		"The Valve Handle functions much like the Hand Crank, but the amount and direction it rotates with one use can be adjusted in its Value Settings Screen. The direction of rotation can also be inverted from the Valve's settings by sneak using the Valve Handle instead of using it."
 		""
@@ -3919,12 +3856,6 @@
 	quest.7C12BF79C830C59D.quest_desc: ["Will bounce around in the jar when you're in a slime chunk, great for making  slime farm for unlimited mana!"]
 	quest.7C12BF79C830C59D.quest_subtitle: "Boing!"
 	quest.7C5B918C67AE83A3.title: "Liquid Lithium"
-	quest.7CD7A649C0AD6C9C.quest_desc: [
-		"{info.thermal.device_tree_extractor.0}"
-		""
-		"{info.thermal.device_tree_extractor.1}"
-	]
-	quest.7CD7A649C0AD6C9C.quest_subtitle: "{info.thermal.device_tree_extractor.2}"
 	quest.7D176DF39FE2BF68.quest_desc: ["Obtain a mage staff, which you can use on a golden allay along with a mage cloak and hat, to befriend it! it can be given magic books which will allow it to cast the spells"]
 	quest.7D176DF39FE2BF68.quest_subtitle: "I cast, Bullet!"
 	quest.7D8B1239CB87EA05.quest_desc: ["Will deal the same damage you take from a hit to all mobs around you. The cloak will go on cooldown after this."]
