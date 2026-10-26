@@ -1,8 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "uranium"
+	filename: "mekanism_pt2"
 	group: "3C9C2CEF96DB5B0C"
+	icon: {
+		id: "mekanism:ingot_uranium"
+	}
 	id: "6641EA21798CBBE0"
 	images: [
 		{
@@ -1323,7 +1326,7 @@
 			y: 13.5d
 		}
 	]
-	order_index: 5
+	order_index: 6
 	quest_links: [
 		{
 			id: "7F4AE40ADD97AE3B"
@@ -1458,8 +1461,14 @@
 				"07B80FF72157DDEC"
 				"6C69E2C1B5619EEB"
 			]
+			icon: {
+				id: "mekanism:hydrofluoric_acid_bucket"
+			}
 			id: "1D98380A445B84AC"
 			tasks: [{
+				icon: {
+					id: "create:brass_hand"
+				}
 				id: "18DB029DCC58EAFD"
 				type: "custom"
 			}]
@@ -2227,168 +2236,11 @@
 				"10F302095CE22E91"
 			]
 			id: "3F2D26C94514A093"
-			tasks: [
-				{
-					id: "1A262E7DAB7FD35F"
-					item: { count: 1, id: "mekanism:module_energy_unit" }
-					type: "item"
-				}
-				{
-					id: "72548C9F76C0B233"
-					item: { count: 1, id: "mekanism:module_color_modulation_unit" }
-					type: "item"
-				}
-				{
-					id: "0AF00088388293C2"
-					item: { count: 1, id: "mekanism:module_laser_dissipation_unit" }
-					type: "item"
-				}
-				{
-					id: "317EA66473D8D95A"
-					item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }
-					type: "item"
-				}
-				{
-					id: "68F6A4DAA2F640AC"
-					item: { count: 1, id: "mekanism:module_excavation_escalation_unit" }
-					type: "item"
-				}
-				{
-					id: "58E432A9607658F6"
-					item: { count: 1, id: "mekanism:module_attack_amplification_unit" }
-					type: "item"
-				}
-				{
-					id: "2977738F03B476D2"
-					item: { count: 1, id: "mekanism:module_farming_unit" }
-					type: "item"
-				}
-				{
-					id: "557AC707D9A39274"
-					item: { count: 1, id: "mekanism:module_shearing_unit" }
-					type: "item"
-				}
-				{
-					id: "793974270923514B"
-					item: { count: 1, id: "mekanism:module_silk_touch_unit" }
-					type: "item"
-				}
-				{
-					id: "0F2B62D7A9DF4AF2"
-					item: { count: 1, id: "mekanism:module_fortune_unit" }
-					type: "item"
-				}
-				{
-					id: "75ABE575B6B555CB"
-					item: { count: 1, id: "mekanism:module_blasting_unit" }
-					type: "item"
-				}
-				{
-					id: "475EB36E059095D8"
-					item: { count: 1, id: "mekanism:module_vein_mining_unit" }
-					type: "item"
-				}
-				{
-					id: "64F37F2CED8621B7"
-					item: { count: 1, id: "mekanism:module_electrolytic_breathing_unit" }
-					type: "item"
-				}
-				{
-					id: "34F6BD82FCAF7C8A"
-					item: { count: 1, id: "mekanism:module_teleportation_unit" }
-					type: "item"
-				}
-				{
-					id: "3270EC78E84DD52C"
-					item: { count: 1, id: "mekanism:module_inhalation_purification_unit" }
-					type: "item"
-				}
-				{
-					id: "286E20898206710B"
-					item: { count: 1, id: "mekanism:module_vision_enhancement_unit" }
-					type: "item"
-				}
-				{
-					id: "7B4501AE889EBB04"
-					item: { count: 1, id: "mekanism:module_nutritional_injection_unit" }
-					type: "item"
-				}
-				{
-					id: "0926F71E17AA55C2"
-					item: { count: 1, id: "mekanism:module_dosimeter_unit" }
-					type: "item"
-				}
-				{
-					id: "45F3490D28973F4D"
-					item: { count: 1, id: "mekanism:module_geiger_unit" }
-					type: "item"
-				}
-				{
-					id: "71B426F21B412565"
-					item: { count: 1, id: "mekanism:module_jetpack_unit" }
-					type: "item"
-				}
-				{
-					id: "01A1148F83FF9314"
-					item: { count: 1, id: "mekanism:module_charge_distribution_unit" }
-					type: "item"
-				}
-				{
-					id: "74F2E2D6A96A14DB"
-					item: { count: 1, id: "mekanism:module_gravitational_modulating_unit" }
-					type: "item"
-				}
-				{
-					id: "1ABAC81CC5EA6F83"
-					item: { count: 1, id: "mekanism:module_elytra_unit" }
-					type: "item"
-				}
-				{
-					id: "058838E5426647A4"
-					item: { count: 1, id: "mekanism:module_gyroscopic_stabilization_unit" }
-					type: "item"
-				}
-				{
-					id: "2CC6B6D4747425F9"
-					item: { count: 1, id: "mekanism:module_hydrostatic_repulsor_unit" }
-					type: "item"
-				}
-				{
-					id: "171BFD75F4D3D6B9"
-					item: { count: 1, id: "mekanism:module_locomotive_boosting_unit" }
-					type: "item"
-				}
-				{
-					id: "6E4565DCC249BD70"
-					item: { count: 1, id: "mekanism:module_motorized_servo_unit" }
-					type: "item"
-				}
-				{
-					id: "41CC6745B0774EB3"
-					item: { count: 1, id: "mekanism:module_hydraulic_propulsion_unit" }
-					type: "item"
-				}
-				{
-					id: "5D2ADB1EEC27B890"
-					item: { count: 1, id: "mekanism:module_magnetic_attraction_unit" }
-					type: "item"
-				}
-				{
-					id: "041D648C6C163B44"
-					item: { count: 1, id: "mekanism:module_frost_walker_unit" }
-					type: "item"
-				}
-				{
-					id: "6F1187437D8DAE7A"
-					item: { count: 1, id: "mekanismgenerators:module_solar_recharging_unit" }
-					type: "item"
-				}
-				{
-					id: "3AFD568F46BE75B6"
-					item: { count: 1, id: "mekanismgenerators:module_geothermal_generator_unit" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6765DC0257426F31"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(mekanism:unit))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 35.0d
 			y: 19.5d
 		}

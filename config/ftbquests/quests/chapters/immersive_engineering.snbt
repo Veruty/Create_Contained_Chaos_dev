@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "steel_age"
+	filename: "immersive_engineering"
 	group: "3C9C2CEF96DB5B0C"
 	icon: {
 		id: "createbigcannons:steel_ingot"
@@ -192,9 +192,10 @@
 			y: 8.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "4173F55EB7500FF7"
-			image: "thermal:item/silver_plate_0"
+			image: "immersiveengineering:item/metal_plate_silver"
 			rotation: 0.0d
 			width: 1.0d
 			x: -25.0d
@@ -385,7 +386,7 @@
 			y: 4.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [
 		{
 			id: "74F66169AE91FA83"
@@ -982,38 +983,38 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "56B2DCA71178FCF4"
-					item: { components: { "ftbquests:missing_item": "immersiveengineering:he" }, count: 1, id: "ftbquests:missing_item" }
+					id: "59F2F891A46141B4"
+					item: { count: 1, id: "immersiveengineering:bullet_he" }
 					type: "item"
 				}
 				{
-					id: "3DCBBBC76AF29131"
-					item: { components: { "ftbquests:missing_item": "immersiveengineering:dragons_breath" }, count: 1, id: "ftbquests:missing_item" }
+					id: "1EA012DA1453D2DC"
+					item: { count: 1, id: "immersiveengineering:bullet_dragons_breath" }
 					type: "item"
 				}
 				{
-					id: "56F7C96669BBDC85"
-					item: { components: { "ftbquests:missing_item": "immersiveengineering:potion" }, count: 1, id: "ftbquests:missing_item" }
+					id: "7C8492EB69009030"
+					item: { count: 1, id: "immersiveengineering:bullet_potion" }
 					type: "item"
 				}
 				{
-					id: "5BE19A41D799DCCE"
-					item: { components: { "ftbquests:missing_item": "immersiveengineering:flare" }, count: 1, id: "ftbquests:missing_item" }
+					id: "57AA4404F817D554"
+					item: { count: 1, id: "immersiveengineering:bullet_flare" }
 					type: "item"
 				}
 				{
-					id: "2152195364998BB8"
-					item: { components: { "ftbquests:missing_item": "immersiveengineering:firework" }, count: 1, id: "ftbquests:missing_item" }
+					id: "02FFD014D54E045F"
+					item: { count: 1, id: "immersiveengineering:bullet_firework" }
 					type: "item"
 				}
 				{
-					id: "7B187182CCB5C152"
-					item: { components: { "ftbquests:missing_item": "immersiveengineering:homing" }, count: 1, id: "ftbquests:missing_item" }
+					id: "05BDB8F15BEB26C2"
+					item: { count: 1, id: "immersiveengineering:bullet_homing" }
 					type: "item"
 				}
 				{
-					id: "03D36D853CDE12AF"
-					item: { components: { "ftbquests:missing_item": "immersiveengineering:wolfpack" }, count: 1, id: "ftbquests:missing_item" }
+					id: "35AB7361336690BC"
+					item: { count: 1, id: "immersiveengineering:bullet_wolfpack" }
 					type: "item"
 				}
 			]
@@ -1095,23 +1096,23 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "139F30FB0A055AA6"
-					item: { components: { "ftbquests:missing_item": "immersiveengineering:casull" }, count: 1, id: "ftbquests:missing_item" }
+					id: "67A2670913CCBD33"
+					item: { count: 1, id: "immersiveengineering:bullet_casull" }
 					type: "item"
 				}
 				{
-					id: "0302EBE0BBF59E53"
-					item: { components: { "ftbquests:missing_item": "immersiveengineering:armor_piercing" }, count: 1, id: "ftbquests:missing_item" }
+					id: "67BCFF69438E8DF1"
+					item: { count: 1, id: "immersiveengineering:bullet_armor_piercing" }
 					type: "item"
 				}
 				{
-					id: "40DAAB3A7C86B345"
-					item: { components: { "ftbquests:missing_item": "immersiveengineering:buckshot" }, count: 1, id: "ftbquests:missing_item" }
+					id: "7E3AA92861F061A3"
+					item: { count: 1, id: "immersiveengineering:bullet_buckshot" }
 					type: "item"
 				}
 				{
-					id: "58B47D71EFECB745"
-					item: { components: { "ftbquests:missing_item": "immersiveengineering:silver" }, count: 1, id: "ftbquests:missing_item" }
+					id: "49A87CC6F66F7EE0"
+					item: { count: 1, id: "immersiveengineering:bullet_silver" }
 					type: "item"
 				}
 			]
