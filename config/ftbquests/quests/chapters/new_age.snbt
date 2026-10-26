@@ -2,7 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "new_age"
-	group: "53B219EDA5E606F4"
+	group: "3C9C2CEF96DB5B0C"
+	icon: {
+		id: "create_new_age:thorium"
+	}
 	id: "7ECD7D4690D3AF6B"
 	images: [
 		{
@@ -61,7 +64,7 @@
 			y: 3.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "0D0020035189F8B9"
