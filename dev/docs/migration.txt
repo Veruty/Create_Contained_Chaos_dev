@@ -1,19 +1,19 @@
 {
     "type": "forge:nbt",
-    "item": "extendedcrafting:singularity",
-    "count": 1,
+    "item": "extendedcrafting:singularity_coal",
     "nbt": "{Id:\"extendedcrafting:coal\"}"
 }
 to
 {
     "type": "neoforge:components",
     "items": "extendedcrafting:singularity",
-    "components": {
-    "extendedcrafting:singularity_id": "extendedcrafting:coal"}
+    "components": {"extendedcrafting:singularity_id": "extendedcrafting:coal"}
 }
 
 
 output fields in most recipes now need "id" instead of "item" or something else (tags are still supported where they were supported before)
+
+Depluralization of data folders: (advancements -> advancement, recipes -> recipe, etc)  
 
 
 {"fluidTag": 'forge:redstone', "amount": 100}
