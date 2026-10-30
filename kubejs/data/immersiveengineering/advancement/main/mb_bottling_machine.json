@@ -1,14 +1,14 @@
 {
-    "parent": "immersiveengineering:main/connect_wire",
+    "parent": "immersiveengineering:main/craft_pump",
     "criteria": {
         "form_multiblock": {
             "conditions": {
-                "item": {
+                "hammer": {
                     "items": [
                         "immersiveengineering:hammer"
                     ]
                 },
-                "multiblock": "immersiveengineering:multiblocks/lightning_rod"
+                "multiblock": "immersiveengineering:multiblocks/bottling_machine"
             },
             "trigger": "immersiveengineering:multiblock_formed"
         }
@@ -16,16 +16,17 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Form the Lightning Rod Multiblock"
+            "text": "Form the Bottling Machine Multiblock"
         },
-        "frame": "challenge",
+        "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "immersiveengineering:lightning_rod"
+            "count": 1,
+            "id": "immersiveengineering:bottling_machine"
         },
         "show_toast": true,
         "title": {
-            "text":"DEATH AT 200,000,000 VOLTS"
+           "text": "Is that Filling or Rinsing Machine"
         }
     },
     "requirements": [

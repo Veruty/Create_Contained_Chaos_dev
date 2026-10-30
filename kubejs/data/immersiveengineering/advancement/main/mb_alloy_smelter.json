@@ -1,32 +1,29 @@
 {
-    "parent": "immersiveengineering:main/craft_pump",
+    "parent": "immersiveengineering:main/craft_hammer",
     "criteria": {
         "form_multiblock": {
             "conditions": {
-                "item": {
+                "hammer": {
                     "items": [
                         "immersiveengineering:hammer"
                     ]
                 },
-                "multiblock": "immersiveengineering:multiblocks/bottling_machine"
+                "multiblock": "immersiveengineering:multiblocks/alloy_smelter"
             },
             "trigger": "immersiveengineering:multiblock_formed"
         }
     },
     "display": {
         "announce_to_chat": true,
-        "description": {
-            "text": "Form the Bottling Machine Multiblock"
-        },
+        "description": { "text": "Form the Alloy Klin Multiblock" },
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "immersiveengineering:bottling_machine"
+            "count": 1,
+            "id": "immersiveengineering:alloy_smelter"
         },
         "show_toast": true,
-        "title": {
-           "text": "Is that Filling or Rinsing Machine"
-        }
+        "title": { "text": "Smeltin' like its 3500 BC"}
     },
     "requirements": [
         [

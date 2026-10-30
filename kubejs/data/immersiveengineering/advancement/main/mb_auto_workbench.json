@@ -3,7 +3,7 @@
     "criteria": {
         "form_multiblock": {
             "conditions": {
-                "item": {
+                "hammer": {
                     "items": [
                         "immersiveengineering:hammer"
                     ]
@@ -21,7 +21,8 @@
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "immersiveengineering:auto_workbench"
+            "count": 1,
+            "id": "immersiveengineering:auto_workbench"
         },
         "show_toast": true,
         "title": {

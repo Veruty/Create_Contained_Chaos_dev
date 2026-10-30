@@ -1,28 +1,33 @@
 {
-    "parent": "immersiveengineering:main/craft_hammer",
+    "parent": "immersiveengineering:main/connect_wire",
     "criteria": {
         "form_multiblock": {
             "conditions": {
-                "item": {
+                "hammer": {
                     "items": [
                         "immersiveengineering:hammer"
                     ]
                 },
-                "multiblock": "immersiveengineering:multiblocks/alloy_smelter"
+                "multiblock": "immersiveengineering:multiblocks/lightning_rod"
             },
             "trigger": "immersiveengineering:multiblock_formed"
         }
     },
     "display": {
         "announce_to_chat": true,
-        "description": { "text": "Form the Alloy Klin Multiblock" },
-        "frame": "task",
+        "description": {
+            "text": "Form the Lightning Rod Multiblock"
+        },
+        "frame": "challenge",
         "hidden": false,
         "icon": {
-            "item": "immersiveengineering:alloy_smelter"
+            "count": 1,
+            "id": "immersiveengineering:lightning_rod"
         },
         "show_toast": true,
-        "title": { "text": "Smeltin' like its 3500 BC"}
+        "title": {
+            "text":"DEATH AT 200,000,000 VOLTS"
+        }
     },
     "requirements": [
         [
