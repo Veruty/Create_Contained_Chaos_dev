@@ -49,8 +49,8 @@ e.recipes.create.mixing('4x kubejs:chicken_nuggies', [Fluid.water(500), 'minecra
 
 //redstone things
 
-	e.recipes.create.mixing(Fluid.of('kubejs:liquid_redstone', 100), ['minecraft:redstone']).heated()
-	e.recipes.create.mixing('kubejs:redstone_alloy', ['kubejs:redstone_crystal', 'create:brass_nugget']).superheated()
+//	e.recipes.create.mixing(Fluid.of('kubejs:liquid_redstone', 100), ['minecraft:redstone']).heated()
+//	e.recipes.create.mixing('kubejs:redstone_alloy', ['kubejs:redstone_crystal', 'create:brass_nugget']).superheated()
 	//e.custom({"type": "thermal:crystallizer",
 	//"ingredients": [{"fluid": "minecraft:water","amount": 2000}, {"item": "minecraft:redstone"}],
 	//"result": [{"item": "kubejs:redstone_crystal"}]})
@@ -58,9 +58,9 @@ e.recipes.create.mixing('4x kubejs:chicken_nuggies', [Fluid.water(500), 'minecra
 	//"ingredients": [{"item": "kubejs:redstone_crystal", "count": 1},{"tag": "c:nuggets/brass", "count": 1},],
 	//"result": [{"item": "kubejs:redstone_alloy", "count": 1}],
 	//"energy": 10000})
-	e.custom({"type": "create:filling",
-		"ingredients": [{"item": "minecraft:iron_nugget"},{"type":"neoforge:tag","amount":100,"tag":"c:redstone"}],
-		"results": [{"id": "kubejs:redstone_crystal"}]})
+//	e.custom({"type": "create:filling",
+//		"ingredients": [{"item": "minecraft:iron_nugget"},{"type":"neoforge:tag","amount":100,"tag":"c:redstone"}],
+//		"results": [{"id": "kubejs:redstone_crystal"}]})
 	//e.custom({"type": "thermal:bottler",
 	//	"ingredients":[{"item": "minecraft:iron_nugget"},{"fluid_tag": "c:redstone", "amount": 100}],
 	//	"result": [{"item": "kubejs:redstone_crystal"}]})
@@ -120,6 +120,26 @@ e.custom(
     "transitional_item": {"id":"kubejs:incomplete_simple_mechanism"}
   }
 )
+	e.shaped('kubejs:simple_mechanism', [
+        'ALA',
+        'SCS',
+        'ALA'
+    ], {
+        A: 'create:andesite_alloy',
+        L: 'create:large_cogwheel',
+        S: 'create:cogwheel',
+        C: 'create:andesite_casing'
+    })
 
-	
+    e.remove({ output: 'create_mechanical_extruder:mechanical_extruder' })
+	e.shaped('create_mechanical_extruder:mechanical_extruder', [
+        ' S ',
+        ' M ',
+        'GCG'
+    ], {
+        S: 'create:shaft',
+        M: 'kubejs:simple_mechanism',
+        G: '#c:glass',
+         C: 'create:andesite_casing'
+    })
 })

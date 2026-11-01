@@ -137,7 +137,7 @@ event.shaped(
         ' A '
     ],
     {
-        A: 'minecraft:bedrock',
+        A: 'enderio:energetic_alloy_ingot',
         B: 'immersiveengineering:component_steel',
         C: 'extendedcrafting:black_iron_slate'
     }
@@ -152,9 +152,9 @@ event.shaped(
     ],
     {
         B: 'extendedcrafting:basic_component',
-        A: 'minecraft:amethyst_shard',
+        A: 'kubejs:amethyst_alloy',
         C: 'bloodmagic:blankslate',
-        D: 'minecraft:bedrock'
+        D: 'powah:energized_steel_block'
     }
 )
 
@@ -164,7 +164,7 @@ event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "ABA",
-    "BCB",
+    "DCD",
     "ABA"
   ],
   "key": {
@@ -172,10 +172,13 @@ event.custom({
       "item": "bloodmagic:infusedslate"
     },
     "B": {
-      "item": "minecraft:bedrock"
+      "item": 'dynamiducts:signalum_ingot'
     },
     "C": {
       "item": "extendedcrafting:basic_component"
+    },  
+    "D": {
+      "item": 'enderio:vibrant_alloy_ingot'
     }
   },
   "result": {
@@ -195,7 +198,7 @@ event.custom({
       "item": "extendedcrafting:advanced_component"
     },
     "B": {
-      "item": "irons_spellbooks:arcane_ingot"
+      "item": 'powah:spirited_crystal_block'
     },
     "C": {
       "tag": "c:plates/plastic"
@@ -265,7 +268,7 @@ event.custom({
       "item": "extendedcrafting:elite_component"
     },
     "D": {
-      "item": "minecraft:bedrock"
+      "item": 'dynamiducts:enderium_ingot'
     },
     "E": {
       "item": 'minecraft:heart_of_the_sea'
@@ -351,28 +354,28 @@ event.custom({
     {"item": "create:zinc_ingot"},
     {"item": "create:brass_ingot"},
     {"tag": "c:ingots/steel"},
-    {"item": "minecraft:bedrock"},
+    {"item": 'enderio:conductive_alloy_ingot'},
+    {"item": 'enderio:energetic_alloy_ingot'},
+    {"item": 'enderio:vibrant_alloy_ingot'},
     {"tag": "c:ingots/tin"},
     {"tag": "c:ingots/lead"},
     {"tag": "c:ingots/silver"},
     {"tag": "c:ingots/nickel"},
     {"tag": "c:ingots/bronze"},
-    {"tag": "c:ingots/electrum"},
-    {"tag": "c:ingots/invar"},
     {"tag": "c:ingots/constantan"},
-    {"item": "minecraft:bedrock"},
-    {"item": "minecraft:bedrock"},
-    {"item": "minecraft:bedrock"},
+    {"item": 'dynamiducts:invar_ingot'},
+    {"item": 'immersiveengineering:ingot_electrum'},
+    {"item": 'dynamiducts:signalum_ingot'},
+    {"item": 'dynamiducts:enderium_ingot'},
     {"item": "mekanism:ingot_refined_obsidian"},
     {"item": "mekanism:ingot_refined_glowstone"},
     {"item": "mekanism:ingot_osmium"},
     {"item": 'ae2:fluix_crystal'},
     {"item": 'ars_nouveau:source_gem'},
-    {"item": 'minecraft:bedrock'},
     {"tag": "c:ingots/aluminum"},
     {"tag": "c:ingots/uranium"},
-    {"item": "minecraft:bedrock"},
-    {"item": "create:bar_of_chocolate"},
+    {"item": 'enderio:dark_steel_ingot'},
+    {"item": 'enderio:end_steel_ingot'},
     {"item": "create:shadow_steel"},
     {"item": "create:refined_radiance"},
     {"item": "mekanism:alloy_infused"},

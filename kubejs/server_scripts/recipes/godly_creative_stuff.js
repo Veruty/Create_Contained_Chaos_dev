@@ -6,7 +6,7 @@ e.recipes.create.sequenced_assembly(
     ['kubejs:incomplete_unstable_godly_alloy'],
     'kubejs:unstable_alloy',
     [
-        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('minecraft:water', 1000)]),
+        e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.of('enderio:fluid_rocket_fuel_still', 1000)]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.sizedIngredientOf('#c:diesel', 1000)]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.sizedIngredientOf('#c:gasoline', 1000)]),
         e.recipes.createFilling('kubejs:unstable_alloy',['kubejs:unstable_alloy', Fluid.sizedIngredientOf('#c:biodiesel', 1000)]),
@@ -33,7 +33,7 @@ e.custom({
       "item": "ars_nouveau:fire_essence"
     },
     "C": {
-      "item": "minecraft:bedrock"
+      "item": 'create_new_age:nuclear_fuel'
     },
     "D": {
       "item": "kubejs:incomplete_unstable_godly_alloy"
@@ -45,10 +45,10 @@ e.custom({
       "extendedcrafting:singularity_id": "extendedcrafting:coal"}
     },
     "F": {
-      "item": "minecraft:bedrock"
+      "item": 'powah:uraninite'
     },
     "G": {
-      "item": "minecraft:bedrock"
+      "item": 'createaddition:biomass_pellet'
     },
     "H": {
       "tag": "c:coal_coke"
@@ -91,10 +91,10 @@ e.custom({
   ],
   "key": {
     "A": {
-      "item": "minecraft:bedrock"
+      "item": 'dynamiducts:retriever_resonant'
     },
     "B": {
-      "item": "minecraft:bedrock"
+      "item": 'enderio:conduit_binder'
     },
     "C": {
       "item": "botania:rune_water"
@@ -284,13 +284,13 @@ e.custom({
       "extendedcrafting:singularity_id": "extendedcrafting:redstone"}
     },
     "G": {
-      "item": "minecraft:bedrock"
+      "item": 'powah:capacitor_nitro'
     },
     "Y": {
       "item": "mekanism:ultimate_tier_installer"
     },
     "Z": {
-      "item": "minecraft:bedrock"
+      "item": 'enderio:frank_n_zombie'
     }
   },
   "result": {
@@ -382,7 +382,7 @@ e.custom({
       "item": "create_new_age:overcharged_diamond"
     },
     "H": {
-      "item": "minecraft:bedrock"
+      "item": 'createbigcannons:nethersteel_ingot'
     },
     "I": {
       "item": "create_sa:steam_engine"
