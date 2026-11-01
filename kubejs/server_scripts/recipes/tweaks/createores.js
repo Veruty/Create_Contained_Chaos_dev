@@ -3,18 +3,17 @@ event.remove({ id: 'createoreexcavation:extractor/water'})
 event.remove({ id: 'createoreexcavation:ore_vein_type/water'})
 
 
-
-
 event.custom({
   "type": "createoreexcavation:vein",
-  "amountMax": 40.0,
-  "amountMin": 10.0,
+  "amountMultiplierMax": 2.0,
+  "amountMultiplierMin": 0.5,
   "biomeWhitelist": "minecraft:is_overworld",
+  "finite": "default",
   "icon": {
-    "item": "mekanism:raw_osmium"
+    "count": 1,
+    "id": "mekanism:raw_osmium"
   },
-  "name": "Raw Osmium",
-  //change later to translate key
+  "name": "{\"translate\":\"item.mekanism.raw_osmium\"}",
   "placement": {
     "salt": 1485901891,
     "separation": 8,
@@ -22,40 +21,41 @@ event.custom({
   },
   "priority": 0
 }).id("kubejs:raw_osmium_ore")
-
 event.custom({
   "type": "createoreexcavation:drilling",
   "drill": {
-    "item": 'createoreexcavation:netherite_drill'
+    "id": 'createoreexcavation:netherite_drill'
   },
   "output": [
     {
-      "item": "mekanism:raw_osmium"
+      "id": "mekanism:raw_osmium"
     }
   ],
   "priority": 0,
   "stress": 256,
   "ticks": 600,
-  "vein_id": "kubejs:raw_osmium_ore"
+  "veinId": "kubejs:raw_osmium_ore"
 })
 
 event.custom({
   "type": "createoreexcavation:vein",
-  "amountMax": 40.0,
-  "amountMin": 10.0,
+  "amountMultiplierMax": 2.0,
+  "amountMultiplierMin": 0.5,
   "biomeWhitelist": "createdieselgenerators:oil_biomes",
+  "finite": "default",
   "icon": {
-    "item": 'createdieselgenerators:crude_oil_bucket'
+    "count": 1,
+    "id": "createdieselgenerators:crude_oil_bucket"
   },
-  "name": "Crude Oil",
-  //change later to translate key
+  "name": "{\"translate\":\"block.createdieselgenerators.crude_oil\"}",
   "placement": {
-    "salt": 1485901891,
+    "salt": 1485839891,
     "separation": 8,
     "spacing": 256
   },
   "priority": 0
 }).id("kubejs:crude_oil")
+
 
 event.custom({
   "type": "createoreexcavation:extracting",
@@ -64,11 +64,11 @@ event.custom({
   },
   "output": {
     "amount": 1000,
-    "fluid": "createdieselgenerators:crude_oil"
+    "id": "createdieselgenerators:crude_oil"
   },
   "priority": 0,
   "stress": 256,
   "ticks": 20,
-  "vein_id": "kubejs:crude_oil"
+  "veinId": "kubejs:crude_oil"
 })
 })
