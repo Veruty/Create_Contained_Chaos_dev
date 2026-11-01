@@ -22,6 +22,10 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'dynamiducts:lumium_ingot_craft' })
     e.remove({ id: 'dynamiducts:lumium_ingot_from_nuggets' })
     e.remove({ id: 'dynamiducts:lumium_nugget_from_ingot' })
+    e.remove({ id: 'dynamiducts:bronze_ingot_from_copper' })
+    e.remove({ id: 'dynamiducts:tin_ingot_from_iron' })
+    e.remove({ id: 'dynamiducts:lead_ingot_from_iron' })
+    e.remove({ id: 'dynamiducts:recipe/silver_ingot_from_iron' })
 
     e.custom(
         {
