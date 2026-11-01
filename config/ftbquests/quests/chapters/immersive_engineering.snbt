@@ -4,7 +4,7 @@
 	filename: "immersive_engineering"
 	group: "3C9C2CEF96DB5B0C"
 	icon: {
-		id: "createbigcannons:steel_ingot"
+		id: "immersiveengineering:wirecoil_copper"
 	}
 	id: "26F3C831CA480DCD"
 	images: [
@@ -81,6 +81,7 @@
 			y: -12.0d
 		}
 		{
+			click_action: "custom_event:"
 			height: 1.0d
 			id: "4D07FE41592886D7"
 			image: "immersiveengineering:block/fluid/resin_still"
@@ -118,7 +119,7 @@
 			y: 6.5d
 		}
 		{
-			click_action: "open_quest:281ADDD8FF4BF99F"
+			click_action: "custom_event:281ADDD8FF4BF99F"
 			height: 1.0d
 			id: "02C1303EFBD388DF"
 			image: "immersiveengineering:block/fluid/creosote_still"
@@ -146,6 +147,7 @@
 			y: 9.0d
 		}
 		{
+			click_action: "custom_event:"
 			height: 1.0d
 			id: "40E61C182700FA36"
 			image: "immersiveengineering:block/fluid/acetaldehyde_still"
@@ -155,6 +157,7 @@
 			y: 9.0d
 		}
 		{
+			click_action: "custom_event:"
 			height: 1.0d
 			id: "4FCCF50E37088F30"
 			image: "immersiveengineering:block/fluid/ethanol_still"
@@ -268,6 +271,7 @@
 			y: 12.5d
 		}
 		{
+			click_action: "custom_event:"
 			height: 1.0d
 			id: "2D8D7B1F2C782A6F"
 			image: "immersiveengineering:block/fluid/plantoil_still"
@@ -286,6 +290,7 @@
 			y: 12.5d
 		}
 		{
+			click_action: "custom_event:"
 			height: 1.0d
 			id: "758265CABE47737B"
 			image: "immersiveengineering:block/fluid/biodiesel_still"
@@ -323,6 +328,7 @@
 			y: 12.5d
 		}
 		{
+			click_action: "custom_event:"
 			height: 1.0d
 			id: "7542B7FC7E3C5490"
 			image: "minecraft:item/wheat_seeds"
@@ -464,6 +470,18 @@
 			x: -20.0d
 			y: 4.0d
 		}
+		{
+			id: "40B3A1DC789DE05A"
+			linked_quest: "01DE21B47940CFA4"
+			x: -16.5d
+			y: -13.5d
+		}
+		{
+			id: "1EAE07FB422B9ECD"
+			linked_quest: "171FDF2B8C722A82"
+			x: -7.0d
+			y: -4.0d
+		}
 	]
 	quests: [
 		{
@@ -555,6 +573,8 @@
 			y: -12.0d
 		}
 		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			hide_until_deps_complete: true
 			id: "65CBBCEBE77B7B5F"
 			tasks: [{
 				id: "76F744387B52C2DB"
@@ -854,6 +874,7 @@
 				"6606739D91D40149"
 				"1530D1B099A97663"
 				"7E7174479D56BC0E"
+				"3F5B4C29F342DDF7"
 			]
 			hide_dependency_lines: true
 			id: "3FBC8844369ED7E1"
@@ -1067,10 +1088,11 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["171FDF2B8C722A82"]
 			id: "0DF37D35A3F852DB"
 			tasks: [{
-				id: "7D772A55DFC38DA3"
-				item: { count: 1, id: "immersiveengineering:blueprint" }
+				id: "05A7EE1E4665A390"
+				item: { components: { "immersiveengineering:blueprint": "specialBullet" }, count: 1, id: "immersiveengineering:blueprint" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -1080,8 +1102,8 @@
 			dependencies: ["655963AF50731CAA"]
 			id: "4A969AA5AC3FB6E3"
 			tasks: [{
-				id: "1C142F8959295C93"
-				item: { count: 1, id: "immersiveengineering:blueprint" }
+				id: "4C401D6B4310A253"
+				item: { components: { "immersiveengineering:blueprint": "bullet" }, count: 1, id: "immersiveengineering:blueprint" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -1135,11 +1157,11 @@
 			hide_dependency_lines: false
 			id: "207EE2B3803F0B2C"
 			tasks: [{
-				id: "7783A8F6BCD671DB"
-				item: { count: 1, id: "immersiveengineering:blueprint" }
+				id: "47ED6364A1457B5F"
+				item: { components: { "immersiveengineering:blueprint": "molds" }, count: 1, id: "immersiveengineering:blueprint" }
 				type: "item"
 			}]
-			x: -25.5d
+			x: -25.0d
 			y: -4.5d
 		}
 		{
@@ -1151,8 +1173,8 @@
 			hide_dependency_lines: true
 			id: "09111F20904EF69E"
 			tasks: [{
-				id: "5E552918A4B31B74"
-				item: { count: 1, id: "immersiveengineering:blueprint" }
+				id: "3300EFE284838A94"
+				item: { components: { "immersiveengineering:blueprint": "components" }, count: 1, id: "immersiveengineering:blueprint" }
 				type: "item"
 			}]
 			x: -10.5d
@@ -1510,7 +1532,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["00CE9C00345F4F6E"]
+			dependencies: ["01DE21B47940CFA4"]
 			id: "3E97BDDC2A04C725"
 			shape: "rsquare"
 			size: 1.0d
@@ -1531,7 +1553,7 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["00CE9C00345F4F6E"]
+			dependencies: ["01DE21B47940CFA4"]
 			id: "604FAD4704BAEAF7"
 			shape: "rsquare"
 			size: 1.0d
@@ -1725,6 +1747,7 @@
 			y: -9.5d
 		}
 		{
+			dependencies: ["0F2000A3828DD2A0"]
 			hide_dependency_lines: true
 			id: "19E8A59784A97345"
 			tasks: [{
@@ -1732,7 +1755,7 @@
 				item: { count: 1, id: "immersiveengineering:conveyor_basic" }
 				type: "item"
 			}]
-			x: -21.0d
+			x: -25.5d
 			y: -3.5d
 		}
 		{
@@ -1967,16 +1990,6 @@
 			}]
 			x: -28.0d
 			y: 0.5d
-		}
-		{
-			id: "00CE9C00345F4F6E"
-			tasks: [{
-				id: "4FB8F51E91B85F72"
-				item: { count: 1, id: "minecraft:sandstone" }
-				type: "item"
-			}]
-			x: -15.5d
-			y: -13.5d
 		}
 		{
 			dependencies: [

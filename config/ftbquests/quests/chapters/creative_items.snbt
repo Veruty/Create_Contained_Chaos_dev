@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "creative_items"
 	group: "71836C70060BBCB5"
+	icon: {
+		id: "kubejs:unstable_alloy"
+	}
 	id: "3CA63232B2291719"
 	images: [
 		{
@@ -145,16 +148,6 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -15.5d
-			y: 8.0d
-		}
-		{
-			click_action: "open_quest:3AD3293C7E0AFE5E"
-			height: 1.0d
-			id: "7D7500A9BC1E4979"
-			image: "thermal:item/cured_rubber"
-			rotation: 0.0d
-			width: 1.0d
-			x: -18.5d
 			y: 8.0d
 		}
 		{
@@ -535,126 +528,6 @@
 			width: 1.0d
 			x: -21.5d
 			y: 6.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "7D95891857C43FC3"
-			image: "thermal:item/augments/upgrade_augment_3"
-			rotation: 0.0d
-			width: 1.0d
-			x: -21.5d
-			y: 5.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "2B59E5E4755159FF"
-			image: "thermal:item/augments/upgrade_augment_3_lights"
-			rotation: 0.0d
-			width: 1.0d
-			x: -21.5d
-			y: 11.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "1CE514D7CDFACA30"
-			image: "thermal:item/augments/upgrade_augment_anim"
-			rotation: 0.0d
-			width: 1.0d
-			x: -21.5d
-			y: 5.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "1BA79F673278F967"
-			image: "thermal:item/augments/upgrade_augment_3"
-			rotation: 0.0d
-			width: 1.0d
-			x: -15.5d
-			y: 5.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "1483D16FED56220D"
-			image: "thermal:item/augments/upgrade_augment_3"
-			rotation: 0.0d
-			width: 1.0d
-			x: -15.5d
-			y: 11.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "42686B9DF4C6F243"
-			image: "thermal:item/augments/upgrade_augment_3"
-			rotation: 0.0d
-			width: 1.0d
-			x: -21.5d
-			y: 11.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "03102E6BF6BF8AEC"
-			image: "thermal:item/augments/upgrade_augment_anim"
-			rotation: 0.0d
-			width: 1.0d
-			x: -15.5d
-			y: 5.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "6D0DA254B9D36096"
-			image: "thermal:item/augments/upgrade_augment_anim"
-			rotation: 0.0d
-			width: 1.0d
-			x: -15.5d
-			y: 11.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "22FC153A61B86162"
-			image: "thermal:item/augments/upgrade_augment_anim"
-			rotation: 0.0d
-			width: 1.0d
-			x: -21.5d
-			y: 11.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "78E6F37E7778EFA6"
-			image: "thermal:item/augments/upgrade_augment_3_lights"
-			rotation: 0.0d
-			width: 1.0d
-			x: -21.5d
-			y: 5.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "49120BD28CA4EC76"
-			image: "thermal:item/augments/upgrade_augment_3_lights"
-			rotation: 0.0d
-			width: 1.0d
-			x: -15.5d
-			y: 5.0d
-		}
-		{
-			click_action: "open_quest:7658EA5CD44B595C"
-			height: 1.0d
-			id: "20395CA8E777C61D"
-			image: "thermal:item/augments/upgrade_augment_3_lights"
-			rotation: 0.0d
-			width: 1.0d
-			x: -15.5d
-			y: 11.0d
 		}
 		{
 			height: 1.0d
@@ -1390,90 +1263,10 @@
 			y: 11.0d
 		}
 		{
-			click_action: "open_quest:322DB199F4A45032"
-			height: 1.0d
-			id: "1F10FC745D332C82"
-			image: "thermal:item/rosin"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: 7.0d
-		}
-		{
-			click_action: "open_quest:322DB199F4A45032"
-			height: 1.0d
-			id: "1CACE593F67C0D98"
-			image: "thermal:item/rosin"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.5d
-			y: 5.0d
-		}
-		{
-			click_action: "open_quest:322DB199F4A45032"
-			height: 1.0d
-			id: "3D5B60256EAF7405"
-			image: "thermal:item/rosin"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 5.0d
-		}
-		{
-			click_action: "open_quest:322DB199F4A45032"
-			height: 1.0d
-			id: "09FDFB40263785AC"
-			image: "thermal:item/rosin"
-			rotation: 0.0d
-			width: 1.0d
-			x: -10.5d
-			y: 7.0d
-		}
-		{
-			click_action: "open_quest:322DB199F4A45032"
-			height: 1.0d
-			id: "5CD233706771B56F"
-			image: "thermal:item/rosin"
-			rotation: 0.0d
-			width: 1.0d
-			x: -10.5d
-			y: 9.0d
-		}
-		{
-			click_action: "open_quest:322DB199F4A45032"
-			height: 1.0d
-			id: "6D36B9532DC98916"
-			image: "thermal:item/rosin"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 11.0d
-		}
-		{
-			click_action: "open_quest:322DB199F4A45032"
-			height: 1.0d
-			id: "357CD82F6DF6AE80"
-			image: "thermal:item/rosin"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.5d
-			y: 11.0d
-		}
-		{
-			click_action: "open_quest:322DB199F4A45032"
-			height: 1.0d
-			id: "03A13AA77409CEC2"
-			image: "thermal:item/rosin"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: 9.0d
-		}
-		{
 			click_action: "open_quest:2B46651C03FEEBF0"
 			height: 1.0d
 			id: "63E7FB8479B6E616"
-			image: "thermal:item/coal_coke"
+			image: "immersiveengineering:item/material_coal_coke"
 			rotation: 0.0d
 			width: 1.0d
 			x: -7.5d
@@ -1670,86 +1463,6 @@
 			width: 1.0d
 			x: -10.5d
 			y: 6.0d
-		}
-		{
-			click_action: "open_quest:642C2815F184984F"
-			height: 1.0d
-			id: "2FF95CBEC55D88C0"
-			image: "thermal:item/bitumen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.5d
-			y: 9.0d
-		}
-		{
-			click_action: "open_quest:642C2815F184984F"
-			height: 1.0d
-			id: "219F82E63B1B68F1"
-			image: "thermal:item/bitumen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.5d
-			y: 7.0d
-		}
-		{
-			click_action: "open_quest:642C2815F184984F"
-			height: 1.0d
-			id: "77F442CA05B8F805"
-			image: "thermal:item/bitumen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 7.0d
-		}
-		{
-			click_action: "open_quest:642C2815F184984F"
-			height: 1.0d
-			id: "2658E1E933FF4155"
-			image: "thermal:item/bitumen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 9.0d
-		}
-		{
-			click_action: "open_quest:642C2815F184984F"
-			height: 1.0d
-			id: "76315A41964EF115"
-			image: "thermal:item/tar"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.5d
-			y: 8.0d
-		}
-		{
-			click_action: "open_quest:642C2815F184984F"
-			height: 1.0d
-			id: "6F0CB49E4BF1392E"
-			image: "thermal:item/tar"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 7.0d
-		}
-		{
-			click_action: "open_quest:642C2815F184984F"
-			height: 1.0d
-			id: "2F8206C4179F4A38"
-			image: "thermal:item/tar"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 8.0d
-		}
-		{
-			click_action: "open_quest:642C2815F184984F"
-			height: 1.0d
-			id: "4669DB6130BD6504"
-			image: "thermal:item/tar"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 9.0d
 		}
 		{
 			height: 8.6d
@@ -1954,16 +1667,6 @@
 			width: 1.0d
 			x: -9.5d
 			y: 6.0d
-		}
-		{
-			click_action: "open_quest:2A343C3DFC93D89B"
-			height: 1.0d
-			id: "66CD3F2BFE411506"
-			image: "create_enchantment_industry:item/hyper_experience_bottle"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: -2.5d
 		}
 		{
 			click_action: "open_quest:57922522EFFF155B"
@@ -2266,46 +1969,6 @@
 			y: -0.5d
 		}
 		{
-			click_action: "open_quest:20F4256988942B79"
-			height: 1.0d
-			id: "3673E6B5B2ADF78B"
-			image: "create_confectionery:item/gingerbread_man"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.5d
-			y: 1.5d
-		}
-		{
-			click_action: "open_quest:20F4256988942B79"
-			height: 1.0d
-			id: "2020FD1F183A8AB2"
-			image: "create_confectionery:item/gingerbread_man"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			click_action: "open_quest:20F4256988942B79"
-			height: 1.0d
-			id: "357195302734AF12"
-			image: "create_confectionery:item/gingerbread_man"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.5d
-			y: -0.5d
-		}
-		{
-			click_action: "open_quest:20F4256988942B79"
-			height: 1.0d
-			id: "1EDD3CAACA289607"
-			image: "create_confectionery:item/gingerbread_man"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.5d
-			y: 1.5d
-		}
-		{
 			click_action: "open_quest:317504A69C93FA57"
 			height: 1.0d
 			id: "11FD59DB4471AC7E"
@@ -2354,36 +2017,6 @@
 			width: 1.0d
 			x: 3.5d
 			y: 1.5d
-		}
-		{
-			click_action: "open_quest:2A343C3DFC93D89B"
-			height: 1.0d
-			id: "4D38BB2D7CB8EE1B"
-			image: "create_enchantment_industry:item/hyper_experience_bottle"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: 3.5d
-		}
-		{
-			click_action: "open_quest:2A343C3DFC93D89B"
-			height: 1.0d
-			id: "6CAA3FD81C1E6895"
-			image: "create_enchantment_industry:item/hyper_experience_bottle"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.5d
-			y: 3.5d
-		}
-		{
-			click_action: "open_quest:2A343C3DFC93D89B"
-			height: 1.0d
-			id: "5EE787D79CD45718"
-			image: "create_enchantment_industry:item/hyper_experience_bottle"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.5d
-			y: -2.5d
 		}
 		{
 			click_action: "open_quest:4A0D50A363959296"
@@ -2476,86 +2109,6 @@
 			width: 1.0d
 			x: 5.5d
 			y: 2.5d
-		}
-		{
-			click_action: "open_quest:3AD3293C7E0AFE5E"
-			height: 1.0d
-			id: "5A739EF0E9DA5CF7"
-			image: "thermal:item/cured_rubber"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: 6.0d
-		}
-		{
-			click_action: "open_quest:3AD3293C7E0AFE5E"
-			height: 1.0d
-			id: "493EEE1D644FCE01"
-			image: "thermal:item/cured_rubber"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.5d
-			y: 5.0d
-		}
-		{
-			click_action: "open_quest:3AD3293C7E0AFE5E"
-			height: 1.0d
-			id: "5C1529F2DE130A05"
-			image: "thermal:item/cured_rubber"
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.5d
-			y: 5.0d
-		}
-		{
-			click_action: "open_quest:3AD3293C7E0AFE5E"
-			height: 1.0d
-			id: "2ED4391A2E1C4CDD"
-			image: "thermal:item/cured_rubber"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.5d
-			y: 6.0d
-		}
-		{
-			click_action: "open_quest:3AD3293C7E0AFE5E"
-			height: 1.0d
-			id: "34BF4F07B2AF3A57"
-			image: "thermal:item/cured_rubber"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.5d
-			y: 10.0d
-		}
-		{
-			click_action: "open_quest:3AD3293C7E0AFE5E"
-			height: 1.0d
-			id: "669748379E6116AA"
-			image: "thermal:item/cured_rubber"
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.5d
-			y: 11.0d
-		}
-		{
-			click_action: "open_quest:3AD3293C7E0AFE5E"
-			height: 1.0d
-			id: "60F1A8832FDC12FB"
-			image: "thermal:item/cured_rubber"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.5d
-			y: 11.0d
-		}
-		{
-			click_action: "open_quest:3AD3293C7E0AFE5E"
-			height: 1.0d
-			id: "3F3E624088291AD7"
-			image: "thermal:item/cured_rubber"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: 10.0d
 		}
 		{
 			click_action: "open_quest:4D7685255B6F655F"
@@ -2726,46 +2279,6 @@
 			width: 1.0d
 			x: 4.5d
 			y: 8.0d
-		}
-		{
-			click_action: "open_quest:4E96457341D2062A"
-			height: 1.0d
-			id: "52A7F4EFB634DE81"
-			image: "thermal:item/augments/fluid_filter_augment"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.5d
-			y: 11.0d
-		}
-		{
-			click_action: "open_quest:4E96457341D2062A"
-			height: 1.0d
-			id: "7B2B742987F9F00A"
-			image: "thermal:item/augments/fluid_filter_augment"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: 11.0d
-		}
-		{
-			click_action: "open_quest:4E96457341D2062A"
-			height: 1.0d
-			id: "54D368E093A0E991"
-			image: "thermal:item/augments/fluid_filter_augment"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: 5.0d
-		}
-		{
-			click_action: "open_quest:4E96457341D2062A"
-			height: 1.0d
-			id: "0189B4383F1DE80E"
-			image: "thermal:item/augments/fluid_filter_augment"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.5d
-			y: 5.0d
 		}
 		{
 			click_action: "open_quest:00BC5EB6BAE2E88A"
@@ -3099,6 +2612,420 @@
 			width: 1.0d
 			x: 5.5d
 			y: 10.0d
+		}
+		{
+			click_action: "open_quest:0175B77B26B8836F"
+			color: 16238335
+			height: 1.0d
+			id: "570AA1904E836371"
+			image: "enderio:item/z_logic_controller"
+			rotation: 0.0d
+			width: 1.0d
+			x: -21.5d
+			y: 11.0d
+		}
+		{
+			click_action: "open_quest:0175B77B26B8836F"
+			color: 16238335
+			height: 1.0d
+			id: "37E3F1E19AD78B58"
+			image: "enderio:item/z_logic_controller"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.5d
+			y: 11.0d
+		}
+		{
+			click_action: "open_quest:0175B77B26B8836F"
+			color: 16238335
+			height: 1.0d
+			id: "02188804D04378EB"
+			image: "enderio:item/z_logic_controller"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.5d
+			y: 5.0d
+		}
+		{
+			click_action: "open_quest:0175B77B26B8836F"
+			color: 16238335
+			height: 1.0d
+			id: "50B2362334A13CCF"
+			image: "enderio:item/z_logic_controller"
+			rotation: 0.0d
+			width: 1.0d
+			x: -21.5d
+			y: 5.0d
+		}
+		{
+			click_action: "open_quest:0CCCCDF3CC92D9A0"
+			height: 1.0d
+			id: "5DAA3C1842143BE0"
+			image: "powah:item/capacitor_nitro"
+			rotation: 0.0d
+			width: 1.0d
+			x: -18.5d
+			y: 8.0d
+		}
+		{
+			click_action: "open_quest:2C67FD839D662205"
+			height: 1.0d
+			id: "3B5F99BB352BC98F"
+			image: "create_new_age:item/nuclear_fuel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			click_action: "open_quest:2C67FD839D662205"
+			height: 1.0d
+			id: "1A23C0C31A1826CA"
+			image: "create_new_age:item/nuclear_fuel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			click_action: "open_quest:2C67FD839D662205"
+			height: 1.0d
+			id: "3599FB2B44B005B6"
+			image: "create_new_age:item/nuclear_fuel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			click_action: "open_quest:2C67FD839D662205"
+			height: 1.0d
+			id: "16BAE0D19F88E988"
+			image: "create_new_age:item/nuclear_fuel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			click_action: "open_quest:2C67FD839D662205"
+			height: 1.0d
+			id: "4F09D4EDCA508637"
+			image: "create_new_age:item/nuclear_fuel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			click_action: "open_quest:2C67FD839D662205"
+			height: 1.0d
+			id: "1B90353004F1D047"
+			image: "create_new_age:item/nuclear_fuel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 11.0d
+		}
+		{
+			click_action: "open_quest:2C67FD839D662205"
+			height: 1.0d
+			id: "1ADAF291E2B76FC5"
+			image: "create_new_age:item/nuclear_fuel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 11.0d
+		}
+		{
+			click_action: "open_quest:2C67FD839D662205"
+			height: 1.0d
+			id: "49A197EB7694C870"
+			image: "create_new_age:item/nuclear_fuel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			click_action: "show_recipe:createaddition:biomass_pellet"
+			height: 1.0d
+			id: "604DA0827D0F006A"
+			image: "createaddition:item/biomass_pellet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			click_action: "show_recipe:createaddition:biomass_pellet"
+			height: 1.0d
+			id: "31A7C05DA43519A0"
+			image: "createaddition:item/biomass_pellet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			click_action: "show_recipe:createaddition:biomass_pellet"
+			height: 1.0d
+			id: "284EF33EB2B36E51"
+			image: "createaddition:item/biomass_pellet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			click_action: "show_recipe:createaddition:biomass_pellet"
+			height: 1.0d
+			id: "6C9D2D54CFA41D6E"
+			image: "createaddition:item/biomass_pellet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			click_action: "open_quest:4B483E13F6C36A62"
+			height: 1.0d
+			id: "131141E786A9284A"
+			image: "powah:item/uraninite_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			click_action: "open_quest:4B483E13F6C36A62"
+			height: 1.0d
+			id: "650A03F04F473F49"
+			image: "powah:item/uraninite_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			click_action: "open_quest:4B483E13F6C36A62"
+			height: 1.0d
+			id: "586136287050CAF2"
+			image: "powah:item/uraninite_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			click_action: "open_quest:4B483E13F6C36A62"
+			height: 1.0d
+			id: "620F1CC78C6CB52F"
+			image: "powah:item/uraninite_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			click_action: "open_quest:697A660C83D32B2F"
+			height: 1.0d
+			id: "24D36D33CD97F3CC"
+			image: "enderio:item/conduit_binder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			click_action: "open_quest:697A660C83D32B2F"
+			height: 1.0d
+			id: "4A826405B2BFF719"
+			image: "enderio:item/conduit_binder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			click_action: "open_quest:697A660C83D32B2F"
+			height: 1.0d
+			id: "00DD05BDFB95A481"
+			image: "enderio:item/conduit_binder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			click_action: "open_quest:697A660C83D32B2F"
+			height: 1.0d
+			id: "4B2DD04E50B0E167"
+			image: "enderio:item/conduit_binder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			click_action: "open_quest:697A660C83D32B2F"
+			height: 1.0d
+			id: "246A658E367754C1"
+			image: "enderio:item/conduit_binder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			click_action: "open_quest:697A660C83D32B2F"
+			height: 1.0d
+			id: "638BABE0BE1474AA"
+			image: "enderio:item/conduit_binder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			click_action: "open_quest:697A660C83D32B2F"
+			height: 1.0d
+			id: "23C45EA03290BD25"
+			image: "enderio:item/conduit_binder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			click_action: "open_quest:697A660C83D32B2F"
+			height: 1.0d
+			id: "7F1391E8E04D0C58"
+			image: "enderio:item/conduit_binder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			click_action: "show_recipe:dynamiducts:retriever_resonant"
+			height: 1.0d
+			id: "1F10FCB65751D1A5"
+			image: "dynamiducts:item/retriever_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			click_action: "show_recipe:dynamiducts:retriever_resonant"
+			height: 1.0d
+			id: "05CD083BB3B5449C"
+			image: "dynamiducts:item/retriever_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			click_action: "show_recipe:dynamiducts:retriever_resonant"
+			height: 1.0d
+			id: "2D253D012E4B951E"
+			image: "dynamiducts:item/retriever_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			click_action: "show_recipe:dynamiducts:retriever_resonant"
+			height: 1.0d
+			id: "03104F5E73CBC546"
+			image: "dynamiducts:item/retriever_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			click_action: "show_recipe:createbigcannons:nethersteel_ingot"
+			height: 1.0d
+			id: "686F4580EFE40A37"
+			image: "createbigcannons:item/nethersteel_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			click_action: "show_recipe:createbigcannons:nethersteel_ingot"
+			height: 1.0d
+			id: "5996D22C453962ED"
+			image: "createbigcannons:item/nethersteel_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			click_action: "show_recipe:createbigcannons:nethersteel_ingot"
+			height: 1.0d
+			id: "1E1D47C48173DBF5"
+			image: "createbigcannons:item/nethersteel_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			click_action: "show_recipe:createbigcannons:nethersteel_ingot"
+			height: 1.0d
+			id: "4BB1BB2DB54FD5E6"
+			image: "createbigcannons:item/nethersteel_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			click_action: "show_recipe:create_enchantment_industry:experience_cake"
+			height: 1.0d
+			id: "1165337324EFC49A"
+			image: "create_enchantment_industry:item/experience_cake"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			click_action: "show_recipe:create_enchantment_industry:experience_cake"
+			height: 1.0d
+			id: "71F7E53B1827761B"
+			image: "create_enchantment_industry:item/experience_cake"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			click_action: "show_recipe:create_enchantment_industry:experience_cake"
+			height: 1.0d
+			id: "19DF80D784F1A2C6"
+			image: "create_enchantment_industry:item/experience_cake"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			click_action: "show_recipe:create_enchantment_industry:experience_cake"
+			height: 1.0d
+			id: "589554E59B503F07"
+			image: "create_enchantment_industry:item/experience_cake"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 3.5d
 		}
 	]
 	order_index: 0

@@ -11,12 +11,6 @@
 	order_index: 1
 	quest_links: [
 		{
-			id: "510FB404DB3DB51D"
-			linked_quest: "015431AF0A5996BD"
-			x: -3.0d
-			y: -1.5d
-		}
-		{
 			id: "613FFA815B7D2D78"
 			linked_quest: "69AFBCB81781D8C4"
 			x: -2.0d
@@ -31,8 +25,8 @@
 		{
 			id: "1AADAA5835C4075E"
 			linked_quest: "061CA8B8F6F9B574"
-			x: -4.0d
-			y: -0.5d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			id: "734A20C2B80680A3"
@@ -58,10 +52,16 @@
 			x: 0.0d
 			y: -2.5d
 		}
+		{
+			id: "367F06EE5DB6C74F"
+			linked_quest: "1287705CAC5DDE2C"
+			x: -4.0d
+			y: -0.5d
+		}
 	]
 	quests: [
 		{
-			dependencies: ["015431AF0A5996BD"]
+			dependencies: ["29283E71DB8E8AE3"]
 			id: "62675A010097C976"
 			tasks: [{
 				id: "605C83102E4C6D3E"
@@ -79,8 +79,8 @@
 				item: { count: 1, id: "minecraft:respawn_anchor" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["62675A010097C976"]
@@ -108,7 +108,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["015431AF0A5996BD"]
+			dependencies: ["29283E71DB8E8AE3"]
 			id: "41FA83084ED4D781"
 			tasks: [{
 				id: "6D1FDA2CF7DBDB77"
@@ -183,7 +183,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["015431AF0A5996BD"]
+			dependencies: ["29283E71DB8E8AE3"]
 			id: "1AD413372CC6676D"
 			tasks: [{
 				id: "43950E3678643331"
@@ -192,6 +192,40 @@
 			}]
 			x: -2.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			hide_until_deps_complete: true
+			id: "29283E71DB8E8AE3"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6910AD5D999637C2"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29283E71DB8E8AE3"]
+			id: "47DDC900766E0637"
+			tasks: [{
+				id: "4624DC002038CF4A"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47DDC900766E0637"]
+			id: "6712885617FEAAAA"
+			tasks: [{
+				id: "61CE3840A7525F26"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
 		}
 	]
 }

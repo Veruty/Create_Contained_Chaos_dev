@@ -12,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3F49997856B212E8"]
 			id: "021D775B26534B09"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -764,6 +765,23 @@
 			]
 			x: 6.0d
 			y: 2.3000000000000003d
+		}
+		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "biomancy:flesh_bits"
+			}
+			id: "3F49997856B212E8"
+			tasks: [{
+				id: "58D6AEBC26C4582F"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: -0.5d
+			y: 1.5d
 		}
 	]
 }

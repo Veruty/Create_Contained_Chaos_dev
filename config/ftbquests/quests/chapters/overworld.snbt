@@ -43,6 +43,7 @@
 	]
 	quests: [
 		{
+			dependencies: ["526A77EEB8CB20F6"]
 			id: "2B89F0F9A63C590A"
 			tasks: [{
 				id: "6D2A0392F739589E"
@@ -147,17 +148,22 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["0E26D8711F2FDDE4"]
 			disable_toast: true
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			id: "526A77EEB8CB20F6"
 			tasks: [{
-				id: "48588DA34C563ED0"
-				type: "checkmark"
+				id: "5A1B1C326587486B"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
 			}]
 			x: -5.5d
 			y: -1.0d
 		}
 		{
+			dependencies: ["526A77EEB8CB20F6"]
 			id: "715945E33F35CF4C"
 			tasks: [{
 				id: "620043BD0EEDF4E7"
@@ -302,6 +308,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["526A77EEB8CB20F6"]
 			id: "171FDF2B8C722A82"
 			tasks: [{
 				id: "286F061ECA793327"

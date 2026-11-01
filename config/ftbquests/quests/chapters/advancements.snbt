@@ -205,8 +205,10 @@
 			hide_until_deps_complete: true
 			id: "2B1936D93DBECB8F"
 			tasks: [{
-				id: "5C10E70B068C56EB"
-				type: "checkmark"
+				id: "27AC969D6495DA1F"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
 			}]
 			x: -8.5d
 			y: 5.0d

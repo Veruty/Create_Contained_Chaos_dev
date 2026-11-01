@@ -17,11 +17,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			id: "799063E3A36FD472"
 			tasks: [{
-				id: "1C3052F166BBD633"
-				type: "checkmark"
+				id: "051C8A63EAB85015"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
 			}]
 			x: 1.5d
 			y: -5.0d

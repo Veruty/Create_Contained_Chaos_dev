@@ -10,14 +10,14 @@
 	images: [ ]
 	order_index: 2
 	quest_links: [{
-		id: "569E869ED7CFF61E"
-		linked_quest: "5400A2A76BA7C157"
-		x: -3.0d
-		y: 0.5d
+		id: "3E0192B7250B4C25"
+		linked_quest: "4E82814AA38A4BE5"
+		x: -2.0d
+		y: -0.5d
 	}]
 	quests: [
 		{
-			dependencies: ["5400A2A76BA7C157"]
+			dependencies: ["6CDDFAC76B0DDAB2"]
 			id: "3C86F48AE184D51A"
 			tasks: [{
 				id: "01D3E3817D63C055"
@@ -31,7 +31,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["5400A2A76BA7C157"]
+			dependencies: ["6CDDFAC76B0DDAB2"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
 			id: "3093A84FC6694B28"
 			tasks: [{
 				biome: "#minecraft:has_structure/end_city"
@@ -65,6 +68,9 @@
 		}
 		{
 			dependencies: ["3093A84FC6694B28"]
+			icon: {
+				id: "minecraft:purpur_block"
+			}
 			id: "0A5481DA7464A28D"
 			tasks: [{
 				id: "2EF376499FDF2D58"
@@ -85,6 +91,18 @@
 			}]
 			x: -3.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			hide_until_deps_complete: true
+			id: "6CDDFAC76B0DDAB2"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "12539A994456BF77"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 0.5d
 		}
 	]
 }

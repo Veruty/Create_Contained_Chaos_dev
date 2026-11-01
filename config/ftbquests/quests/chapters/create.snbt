@@ -37,27 +37,21 @@
 			y: -7.0d
 		}
 		{
-			id: "03C7E3F34F3AA52C"
-			linked_quest: "015431AF0A5996BD"
-			x: 17.5d
-			y: -7.0d
-		}
-		{
 			id: "3D57151D31F1CD4D"
 			linked_quest: "105461943A1C44CE"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
-			id: "686025A74C1B3354"
-			linked_quest: "0E26D8711F2FDDE4"
-			x: -4.0d
-			y: -1.0d
+			id: "3958A2B4F8D7379B"
+			linked_quest: "29283E71DB8E8AE3"
+			x: 17.5d
+			y: -7.0d
 		}
 	]
 	quests: [
 		{
-			dependencies: ["0E26D8711F2FDDE4"]
+			dependencies: ["43CE23BDAB8F6431"]
 			id: "7B196B74898CA9AD"
 			rewards: [{
 				count: 32
@@ -502,7 +496,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0E26D8711F2FDDE4"]
+			dependencies: ["43CE23BDAB8F6431"]
 			disable_toast: true
 			hide_until_deps_complete: true
 			id: "42AA25C1E9AF0537"
@@ -510,8 +504,8 @@
 				id: "5DED7B95138B20FA"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7083FA0AF9A0304C"]
@@ -814,7 +808,8 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0E26D8711F2FDDE4"]
+			dependencies: ["43CE23BDAB8F6431"]
+			hide_until_deps_complete: true
 			id: "453AF22EDC7B77EF"
 			tasks: [
 				{
@@ -1224,6 +1219,23 @@
 			]
 			x: 13.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "create:large_cogwheel"
+			}
+			id: "43CE23BDAB8F6431"
+			tasks: [{
+				id: "32C39A6B2D7EF14C"
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 1
+			}]
+			x: -4.0d
+			y: -1.0d
 		}
 	]
 }

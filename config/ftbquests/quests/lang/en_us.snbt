@@ -3,9 +3,11 @@
 	chapter.0A414D5450CE1842.title: "Main"
 	chapter.124D5C6D7704A5F4.title: "Companions"
 	chapter.1866028A07209555.title: "Biomancy"
+	chapter.1BAEBEDEF1A9145D.title: "Powah"
 	chapter.21C97588FE9F5FD5.title: "Nether"
 	chapter.26F3C831CA480DCD.title: "Immersive Engineering"
 	chapter.3417C9D6F7C7F7C7.title: "Andesite Age"
+	chapter.34E54F234B470CB5.title: "Ender IO"
 	chapter.35D8A406CCEDC5DE.title: "Getting Started"
 	chapter.36E6ACDDA0E7FD79.title: "Advancements"
 	chapter.3ACDE05DA650E838.title: "Utilities"
@@ -14,7 +16,6 @@
 	chapter.4C168ABDC3A90CA4.title: "Overworld"
 	chapter.4C1A87EFA64816EA.title: "Botania"
 	chapter.5DC2A461D38C628B.title: "Brass Age"
-	chapter.60B15F2FA809940C.title: "Thermal Age"
 	chapter.60BE6236A0E7840B.title: "Mekanism"
 	chapter.6641EA21798CBBE0.title: "Mekanism pt2"
 	chapter.6BA39FE78542AF6E.title: "End"
@@ -30,29 +31,40 @@
 	image.0000386F10650A7E.title: "Incomplete Unstable Godly Alloy"
 	image.00240D4A31615FE0.title: "Chemical Infuser"
 	image.003B079F566D1D0E.title: "Precision Mechanism"
+	image.005574184A913376.title: "Starter Tier"
 	image.006D300C60EF92E1.title: "Polonium Pellet"
 	image.0073A75C9AEC9A6C.title: "Click to see FTB wiki"
+	image.00DD05BDFB95A481.title: "Conduit Binder"
 	image.00E0C5046B5A1C7F.title: "Ultimate Tier Installer"
+	image.00E221E1CEDB889A.title: "Light Deepslate on fire"
 	image.011849D8208881EF.title: "Heavy Water"
 	image.012E19E428F6DD73.title: "Water"
-	image.0189B4383F1DE80E.title: "Fluid Filter"
 	image.018E7B1DFC96E1AF.title: "Chemical Oxidizer"
 	image.020795C5E97CD2FD.title: "Lithium"
+	image.02188804D04378EB.title: "Frank'N'Zombie"
 	image.02647E9D81F543DB.title: "Blaze Rod"
+	image.02722B0CB8FF0315.title: "Molten Cast Iron"
+	image.0287593231951A9D.title: "Nitro Tier"
 	image.02C1303EFBD388DF.title: "Creosote Oil"
 	image.02CB0D0A401CA581.title: "Livingrock"
+	image.02DE7203BA1FF3AE.title: "Water"
 	image.02E387D2F837A626.title: "Polonium Pellet"
+	image.02FBB8F9636D5FB9.title: "Hardened Tier"
 	image.030E5BFC03492890.title: "Water Rune"
+	image.03104F5E73CBC546.title: "Resonant Retriver"
 	image.03938EF0A9AD7806.title: "Fire Essence"
-	image.03A13AA77409CEC2.title: "Rosin"
 	image.03CFA9C32D0196E1.title: "Dust Lithium"
 	image.03E5D28695ABB10A.title: "Incomplete Fluid Godly Alloy"
 	image.043441E40ACFEF71.title: "Click to see Mekanism wiki"
 	image.04368562ABF414BB.title: "Electrolytic Separator"
 	image.047413A4A4FFBCF0.title: "Oak Log"
 	image.04A72DED14C4C27C.title: "Chemical Dissolution Chamber"
+	image.04C7204CED34D6EA.title: "Explosives"
 	image.04D57581D2BDCD22.title: "Bronze Singularity"
+	image.058EDF37E78775B8.title: "Prismarine Shard"
 	image.05A60DC4CE09DD0B.title: "Goat Horn"
+	image.05C6780EA1D3E0C8.title: "Powdered Obsidian"
+	image.05CD083BB3B5449C.title: "Resonant Retriver"
 	image.05F167C00882F98B.title: "Shard of Laputa"
 	image.06615901E2BC17C4.title: "Spent Nuclear Waste"
 	image.0680F8F0F7D489FE.title: "Livingwood Log"
@@ -61,49 +73,69 @@
 	image.06FE9280CA87F883.title: "Rotary Condensentrator"
 	image.076843ADA94DAFA9.title: "Brass Singularity"
 	image.07D48716764CEC2F.title: "Blaze Rod"
+	image.086FA427F70FD782.title: "VAT"
 	image.08966ED37A212751.title: "Stone"
 	image.091C2B40566B0A2A.title: "Fluorite"
 	image.0975BA95B5BB70BD.title: "Coal Singularity"
+	image.098577FEC0146C35.title: "Niotic Tier"
 	image.09B0B7E954705CDA.title: "Sodium"
 	image.09F451ADD3514FF6.title: "Water"
-	image.09FDFB40263785AC.title: "Rosin"
+	image.0A94B2F70209F6D4.title: "Soul Engine"
 	image.0AC329C3C7EA6431.title: "Andesite Alloy"
+	image.0B2BA7D1806BA39E.title: "Uranite"
 	image.0B66572FEA1FC5CA.title: "Electrolytic Separator"
 	image.0B74091837F68BEF.title: "Jerrycan"
+	image.0C1816B3E3D44976.title: "Basin Compacting"
 	image.0C424FC94929B1F9.title: "Substrate"
 	image.0C546DD9E1DF30C2.title: "Gaia Ingot"
+	image.0C7B16F78F75C418.title: "Basic Tier"
+	image.0C866E59157C9686.title: "Redstone"
 	image.0CABFA04CB5B8ED7.title: "Stone"
 	image.0CD8920DA178DBB9.title: "Stone"
 	image.0CED991B0258FB30.title: "Manasteel Singularity"
 	image.0D27F2B70C21749B.title: "Steam"
 	image.0D32A359FC5FE9D8.title: "Redstone Singularity"
+	image.0D5F1C7163F03D58.title: "Sunflower"
 	image.0D89CB8A40EC00C7.title: "Livingwood Log"
+	image.0D8CC9A9C2A7002F.title: "VAT"
 	image.0D9DB3B48D112CE6.title: "Fire Essence"
 	image.0DA844D69ACF49D8.title: "Radioactive Waste Barrel"
 	image.0DD2E734AA867D19.title: "Click to see Mekanism wiki"
 	image.0DE39AA4CFF3598D.title: "Energy"
+	image.0E4397ED1E8B0FBA.title: "Blazing Tier"
 	image.0ED4A79C76820C73.title: "Rune of Pride"
 	image.0F040B28B0B9B987.title: "Rune of Sloth"
 	image.0F06D9DE5967518F.title: "Rune of Lust"
 	image.0F0C4AC7AA32D3F0.title: "Shard"
 	image.0F37F232D242393B.title: "Pressurized Reaction Chamber"
 	image.0F5BE37EA99B5A9A.title: "Livingrock"
+	image.0FB667D285E6A31D.title: "Water"
 	image.0FE25ED57AE2691F.title: "Oak Log"
 	image.1111BE7B940C34EA.title: "Fire Essence"
 	image.114A2949EAD63D62.title: "Ultimate Tier Installer"
+	image.1165337324EFC49A.title: "Experience Cake"
+	image.118737343EB22868.title: "36x Reactor Blocks"
 	image.11FD59DB4471AC7E.title: "Honey Cake"
 	image.12329109C64186D0.title: "Sulfur Dioxide"
 	image.12D18B3E2A738D12.title: "Water Rune"
 	image.12F2AE3A786C9BBD.title: "Blaze Rod"
+	image.131141E786A9284A.title: "Uranite"
 	image.132FB797516FFF42.title: "Overcharged Diamond"
 	image.134C73C5C211DB7D.title: "Almost Complete Atomic Disassembler"
 	image.13B72098391EC5AA.title: "Crusher"
+	image.13E17CD2FD58578A.title: "Weather Obelisk"
 	image.13EF197901150200.title: "Precision Mechanism"
 	image.146467E8020D378F.title: "Oak Log"
+	image.14AC80F80F719EFE.title: "Spirited Tier"
 	image.15053F7DE9A5365F.title: "Shadow Steel"
 	image.160068C33EF14A21.title: "Shard of Laputa"
 	image.164865DD2B3F60D1.title: "Electrum Singularity"
+	image.1692EF376AA79D2B.title: "Crops"
 	image.16A13A70D72AACAB.title: "Incomplete Unstable Godly Alloy"
+	image.16BAE0D19F88E988.title: "Nuclear Fuel"
+	image.178AF97C6ADB556C.title: "Cools Down Reactor"
+	image.18030AB08B46CFCA.title: "Meat"
+	image.180F9AA0F7385E17.title: "Iron"
 	image.184E32C86780ED46.title: "Clump"
 	image.187361741E241B7D.title: "Chemical Crystallizer"
 	image.18A3D77BEBD8D999.title: "Livingwood Log"
@@ -112,101 +144,127 @@
 	image.18FF4EC314BE2C69.title: "Gaia Ingot"
 	image.194D7606EA430581.title: "Brass Singularity"
 	image.196E2A4A604722BA.title: "Fissile Fuel"
+	image.19DF80D784F1A2C6.title: "Experience Cake"
+	image.1A23C0C31A1826CA.title: "Nuclear Fuel"
 	image.1A361F12A3EEB4F5.title: "Copper Singularity"
+	image.1ADAF291E2B76FC5.title: "Nuclear Fuel"
 	image.1ADC23DC2525C34C.title: "Precision Mechanism"
+	image.1B3404B4447121B3.title: "Liquid Darkness"
 	image.1B6FD2B90692B4E6.title: "Shard of Laputa"
+	image.1B90353004F1D047.title: "Nuclear Fuel"
+	image.1BEA84F428AA9B7F.title: "Carbon"
 	image.1C7CA325366DF4D6.title: "Redstone Singularity"
-	image.1CACE593F67C0D98.title: "Rosin"
+	image.1CFA8AC9C7F2D5B0.title: "Cloud Seed"
+	image.1D5AAA6E7EAE806D.title: "Nitro Tier"
 	image.1D7F9B5915D68F22.title: "Rune of Envy"
 	image.1DBF5CDD8C095D23.title: "Ultimate Tier Installer"
 	image.1DD2B01FDA8DAF7D.title: "Incomplete Fluid Godly Alloy"
+	image.1E034F1E11532D5C.title: "Thunder"
+	image.1E1D47C48173DBF5.title: "Nethersteel Ingot"
 	image.1E5770BE61126890.title: "Coal Singularity"
-	image.1EDD3CAACA289607.title: "Gingerbread Man"
+	image.1EE489E607759EF2.title: "Soul Engine"
 	image.1EEBADC9F2417F5B.title: "Stone"
-	image.1F10FC745D332C82.title: "Rosin"
+	image.1F0BADCB7F22D1D1.title: "Crops"
+	image.1F10FCB65751D1A5.title: "Resonant Retriver"
 	image.1F3B2FF43CA7CF6C.title: "Livingrock"
+	image.1F7D57AE2950BACD.title: "Spirited Tier"
 	image.1F7DAE0C3B1527C7.title: "Incomplete Fluid Godly Alloy"
 	image.1FA8C8B382083BDC.title: "D-T Fuel"
-	image.2020FD1F183A8AB2.title: "Gingerbread Man"
-	image.20395CA8E777C61D.title: "Resonant Integral Components"
 	image.2052B96C0D93C323.title: "Incomplete Fluid Godly Alloy"
 	image.2083D6E7D77E185A.title: "Pure Daisy"
+	image.209866556009A8A7.title: "Blazing Tier"
 	image.217112EF0AA2C44A.title: "Pure Daisy"
-	image.219F82E63B1B68F1.title: "Bitumen"
 	image.21FDE9390E177483.title: "Click to see Mekanism wiki"
 	image.22AD7A8E4A5A0B3F.title: "Oxygen"
 	image.2348CFFDB291961B.title: "Chemical Oxidizer"
 	image.23572DB0728A0F8C.title: "Coal Singularity"
 	image.238A55E47C34B9C1.title: "Incomplete Unstable Godly Alloy"
 	image.23A4575F97256D76.title: "Electrum Singularity"
+	image.23C45EA03290BD25.title: "Conduit Binder"
+	image.23EB573463EFDDB6.title: "Heats Up Reactor"
 	image.2415DBF555D952E8.title: "Electrum Singularity"
 	image.2417647ED74085F6.title: "Clean Slurry"
 	image.243EE2718A2A5CD4.title: "Rune of Gluttony"
 	image.244C7F4F0834CFA1.title: "Refined Radiance"
 	image.24601C22D60DD750.title: "OR"
+	image.246A658E367754C1.title: "Conduit Binder"
+	image.24AA219079BEFCBD.title: "Redstone"
+	image.24D36D33CD97F3CC.title: "Conduit Binder"
+	image.24F4BE50D668A275.title: "Turns to Cobblestone"
 	image.25082BEDDFBA765C.title: "Rune of Wrath"
 	image.25210B412461771B.title: "Energy"
 	image.256AD39CD370D010.title: "Electrum Singularity"
+	image.2578C9D9BE34C40F.title: "Fire Water"
 	image.257C869817022679.title: "Livingwood Log"
 	image.2631C2A9F2294225.title: "Polonium Pellet"
-	image.2658E1E933FF4155.title: "Bitumen"
+	image.263277138E35F005.title: "Seeds"
+	image.26803FB1A38AE144.title: "Nitro Tier"
 	image.26C46AF49D09FB23.title: "Water Rune"
 	image.26D685A82144B100.title: "Raw Redstone"
 	image.272A09E6CF032B87.title: "Hydrogen"
 	image.27E4C16F37CF8E7D.title: "Overcharged Diamond"
 	image.27EAE6651B68CAC3.title: "Stone"
 	image.281BB56C408F0F23.title: "Duroplast Sheet"
+	image.284EF33EB2B36E51.title: "Biomass Pellet"
+	image.287822D84BF3C3CC.title: "#enderio:cloud_cold"
+	image.28A3E2D4C7B8F585.title: "Fire Water"
 	image.28C4DE118B46B7F3.title: "Dice of Fate"
 	image.28D430D7C30AEE98.title: "Deuterium"
 	image.293E497EC81FE220.title: "Click to see Mekanism wiki"
 	image.294E6F9848DD58CD.title: "Shadow Steel"
 	image.29BE8B7476A17B86.title: "Shard of Laputa"
 	image.29F1F32A587129AF.title: "Incomplete Fluid Godly Alloy"
+	image.2A435A6DBB32C7FE.title: "Light Bedrock on fire"
 	image.2A66E755403D9C8D.title: "Tritium"
 	image.2A81FE94A2963205.title: "Copper Singularity"
 	image.2A8F2BCD9D140AD6.title: "Manasteel Singularity"
+	image.2AE088213028131D.title: "Coolant"
 	image.2B1E5817B6DA8636.title: "Incomplete Fluid Godly Alloy"
 	image.2B37F7D73427D91A.title: "Precision Mechanism"
 	image.2B42727CBA54F288.title: "Lapis Lazuli Singularity"
-	image.2B59E5E4755159FF.title: "Resonant Integral Components"
 	image.2B7F768732474E0F.title: "Chemical Infuser"
 	image.2B9CA0B059D2527B.title: "Oak Log"
 	image.2BDD5CBDFF7BACEA.title: "Shadow Steel"
+	image.2C28012296F55E5A.title: "Energy"
 	image.2C741C99A6C06DED.title: "Incomplete Energy Godly Alloy"
 	image.2CD59A2768D8E791.title: "Ultimate Tier Installer"
+	image.2D253D012E4B951E.title: "Resonant Retriver"
 	image.2D283B4593F43E12.title: "Click to see Mekanism wiki"
 	image.2D43C913BC16468F.title: "Sulfuric Acid"
 	image.2D7C10CE94EC2432.title: "Rotary Condensentrator"
 	image.2D8206A07DDC6025.title: "Polonium Pellet"
+	image.2D83CD5404247E42.title: "VAT"
 	image.2D8D7B1F2C782A6F.title: "Plant Oil"
 	image.2DD192B71F6A0406.title: "Shard of Laputa"
 	image.2DFACAABA74B4425.title: "Manasteel Singularity"
+	image.2DFB22E6FB9B1A4F.title: "Weather Obelisk"
+	image.2E63A6DE23E35708.title: "Reactor"
 	image.2EB633C13123D6A5.title: "Stone"
 	image.2ECF8E7B716359CA.title: "Solar Neutron Activator"
-	image.2ED4391A2E1C4CDD.title: "Rubber"
-	image.2F8206C4179F4A38.title: "Tar"
 	image.2F830283ECB801ED.title: "Refinery"
+	image.2F8665C3F0F2D5EC.title: "3x4x3 Structure"
 	image.2F90A0DA17013874.title: "Livingwood Log"
 	image.2FF6CEA75D4DC0D5.title: "Dust_fluorite"
-	image.2FF95CBEC55D88C0.title: "Bitumen"
 	image.303A39E81A727442.title: "60 Seconds"
+	image.308AA34AA1936EA2.title: "Basic Tier"
 	image.309A1455D368D9C9.title: "Gaia Ingot"
 	image.311F5781E39BAFF2.title: "Oak Log"
+	image.31A7C05DA43519A0.title: "Biomass Pellet"
 	image.31BAC12EF5B9E3C2.title: "Livingrock"
 	image.321C04B3408BE612.title: "Oxygen"
+	image.32C2B0A659733903.title: "Increases Fuel Efficiency"
 	image.32DB2539F67AF4A9.title: "Livingwood Log"
 	image.3306F1D80B012074.title: "Livingrock"
 	image.3342A11988A149EB.title: "Water"
+	image.336D434E3282D603.title: "Rocket Fuel"
 	image.33F1E9A615B2D0A6.title: "Precision Mechanism"
 	image.343820D8D53FF745.title: "Enrichment Chamber"
 	image.3453613FE43DEB44.title: "Gaia Ingot"
-	image.34BF4F07B2AF3A57.title: "Rubber"
-	image.357195302734AF12.title: "Gingerbread Man"
-	image.357CD82F6DF6AE80.title: "Rosin"
+	image.35485AC4BD6A723C.title: "Niotic Tier"
+	image.3599FB2B44B005B6.title: "Nuclear Fuel"
 	image.3612C87FFA60A974.title: "Shard of Laputa"
 	image.362005FF6C9784A8.title: "Oak Log"
 	image.366D055434ED1AE1.title: "Bronze Singularity"
-	image.3673E6B5B2ADF78B.title: "Gingerbread Man"
 	image.368BF20CC472E556.title: "Hydrogen Chloride"
 	image.36A438C0DCAE4A0A.title: "Shadow Steel"
 	image.370594C17502FBEC.title: "Polonium Pellet"
@@ -214,17 +272,23 @@
 	image.3731D1ADB4B963D0.title: "Shadow Steel"
 	image.37724BBF0EA435BA.title: "Click to see Mekanism wiki"
 	image.377735E8E5184080.title: "Livingwood Log"
+	image.377ACBD99959647E.title: "OR"
 	image.37BB4A5F078573E9.title: "Pure Daisy"
 	image.37D519DED80BD95E.title: "Spent Nuclear Waste"
+	image.37E3F1E19AD78B58.title: "Frank'N'Zombie"
 	image.3840BDD5BFF8C2F4.title: "Water Rune"
 	image.38558B5D8F91B4D7.title: "Copper Singularity"
 	image.386F43FF33251DDA.title: "Shard of Laputa"
+	image.387670D5A65F3827.title: "Blaze Burner"
 	image.39400313ACC70DE3.title: "Polonium Pellet"
+	image.39737095B6DE41E4.title: "Clear Weather"
 	image.39AD28F3AC2862CC.title: "Stone"
+	image.3A39A5A94D78BF86.title: "Amethyst"
 	image.3A647516BE877FE2.title: "Shard of Laputa"
 	image.3ADA3F57E6D61A31.title: "Radioactive Waste Barrel"
 	image.3AE54B72CA508C00.title: "Oak Log"
 	image.3B1143E9103A75D9.title: "Thermal Evaporation Plant"
+	image.3B5F99BB352BC98F.title: "Nuclear Fuel"
 	image.3B640EAD549260C4.title: "Incomplete Unstable Godly Alloy"
 	image.3B65AB7D62489D42.title: "Oxygen"
 	image.3B7859FB46130DD0.title: "Livingwood Log"
@@ -236,8 +300,9 @@
 	image.3CAC4C13EDF70880.title: "Livingrock"
 	image.3CBE6544F306967F.title: "128³ Spatial Component"
 	image.3CE3C7A24B0F8C04.title: "Click to see Mekanism wiki"
-	image.3D5B60256EAF7405.title: "Rosin"
+	image.3D36188A514F42BB.title: "Lava"
 	image.3DC712630B4FDDEE.title: "Water Rune"
+	image.3DDE01767B7EDFD2.title: "Fire Water"
 	image.3DE566F25266F7FC.title: "Hydrogen_chloride"
 	image.3DE876DD806386A7.title: "Incomplete Unstable Godly Alloy"
 	image.3DED9CD307D5091F.title: "Incomplete Unstable Godly Alloy"
@@ -246,11 +311,13 @@
 	image.3E66CE3CD5317E6D.title: "Incomplete Fluid Godly Alloy"
 	image.3EB5E8883946CE3E.title: "Water Rune"
 	image.3F06995A8DCF9883.title: "Pure Daisy"
-	image.3F3E624088291AD7.title: "Rubber"
 	image.3F44AE5A56FD21F0.title: "Oak Log"
 	image.3F6952B2A64F83F3.title: "Dice of Fate"
+	image.3FC8AF024B18FB4F.title: "Fuel"
 	image.3FCA9C05AA0F0DB5.title: "Shard of Laputa"
 	image.3FD0BF930EDF6CF4.title: "Bronze Singularity"
+	image.3FDDC3A09928BDB1.title: "VAT"
+	image.3FE4B344CCEC2EB9.title: "Light Bedrock on fire"
 	image.4012D48602F56785.title: "Water"
 	image.401956B18FAA2062.title: "Oak Log"
 	image.407B50C792D59500.title: "Chemical Dissolution Chamber"
@@ -258,6 +325,7 @@
 	image.40E61C182700FA36.title: "Acetaldehyde"
 	image.40EB182B1B5AEB21.title: "Lapis Lazuli Singularity"
 	image.40F73B609E1F3B46.title: "Fission Reactor"
+	image.41170DAE8313D2E8.title: "Nutrient Distillation"
 	image.41555454A09D74B3.title: "Ultimate Tier Installer"
 	image.416BD5D5B03A8B3B.title: "Refined Radiance"
 	image.41CB2E5D9C410050.title: "Dust_fluorite"
@@ -266,44 +334,53 @@
 	image.428D89CB3E5DC77B.title: "Water Rune"
 	image.435229E8055D3439.title: "Stone"
 	image.43B4A23B0149B6C9.title: "Fire Essence"
+	image.446C2A8B7143774C.title: "Concentrated Cloud Seed"
 	image.454131F1B961867B.title: "Isotopic Centrefuge"
 	image.45A6093C89565136.title: "Click to see the Mekanism Wiki "
+	image.45B0132F176B7423.title: "VAT"
 	image.4659B0AAC1529492.title: "Steam Engine"
 	image.4666BBC7307ECDC7.title: "Atomic Disassembler"
 	image.4669B6894BAD4F93.title: "Stone"
-	image.4669DB6130BD6504.title: "Tar"
 	image.46D3CB5D732239FD.title: "128³ Spatial Component"
 	image.46DE2A07C3A17F61.title: "Pressurized Reaction Chamber"
 	image.472BEA45A9A70139.title: "Hydrogen"
 	image.47448D6CC1DB5466.title: "Click to see Mekanism wiki"
 	image.47FA42CFCAC24B82.title: "Oak Log"
 	image.47FBDDD3D76387C1.title: "Enrichment Chamber"
-	image.49120BD28CA4EC76.title: "Resonant Integral Components"
 	image.491923263A6453B1.title: "Livingrock"
-	image.493EEE1D644FCE01.title: "Rubber"
+	image.4987D61EFC880334.title: "Fire"
+	image.49A197EB7694C870.title: "Nuclear Fuel"
 	image.49D7507ADEBA4ECC.title: "Stone"
 	image.49F0F257E27ADD52.title: "Livingwood Log"
 	image.4A235AB160680A5C.title: "Dust Sulfur"
 	image.4A605598233577D9.title: "Gaia Ingot"
 	image.4A7FE690D9707FB1.title: "Oak Log"
 	image.4A80D1AD02DD9619.title: "HDPE Sheet"
+	image.4A826405B2BFF719.title: "Conduit Binder"
 	image.4AAA4708584B2924.title: "Oak Log"
 	image.4AB7217B8A615213.title: "Bucket"
 	image.4AC6B0D66D84AA51.title: "Bottling Machine"
 	image.4B1BBD5C574DD469.title: "Incomplete Unstable Godly Alloy"
+	image.4B2DD04E50B0E167.title: "Conduit Binder"
+	image.4B81C8F6C931E61B.title: "#enderio:natural_lights"
+	image.4BB1BB2DB54FD5E6.title: "Nethersteel Ingot"
+	image.4BBAFBBE59A7F5C9.title: "Soul Engine"
 	image.4BC93AF749429E75.title: "128³ Spatial Component"
+	image.4C06F49A1990209F.title: "Hardened Tier"
+	image.4C076A8C6C2F5FF3.title: "OR"
 	image.4C5153B649645BC8.title: "Steel Singularity"
 	image.4CA2F998A71F9EB2.title: "Pressurized Reaction Chamber"
 	image.4CF6BD3D69306428.title: "Livingrock"
 	image.4D07FE41592886D7.title: "Phenolic Resin"
-	image.4D38BB2D7CB8EE1B.title: "Bottle O' Hyper Enchanting"
 	image.4D6D2290C66C6281.title: "Refinery"
 	image.4DC52EFFBC518C6C.title: "Industrial Turbine"
 	image.4DCE7C86D4D195CB.title: "Purification Chamber"
 	image.4E81AD683A387DC5.title: "Livingwood Log"
 	image.4E85C460A6F8AE11.title: "Industrial Fermenter"
 	image.4E9C8487FE9F3A3E.title: "Industrial Squeezer"
+	image.4EF15A119F4E1AC9.title: "Wind Charge"
 	image.4F01524BBE698829.title: "Fire Essence"
+	image.4F09D4EDCA508637.title: "Nuclear Fuel"
 	image.4F115D6FBB02AEDB.title: "Bio Fuel"
 	image.4F5A0E78D3AF93E9.title: "Blaze Rod"
 	image.4F68018BA6C89020.title: "Coal Singularity"
@@ -314,21 +391,23 @@
 	image.5010F64C67007A1F.title: "Livingwood Log"
 	image.5056E4A78CE7BEE0.title: "Shadow Steel"
 	image.506F129A9FDEF981.title: "Steam"
+	image.50B2362334A13CCF.title: "Frank'N'Zombie"
 	image.50D36450307AB1D8.title: "Pure Daisy"
 	image.513A51C68C8FD6D6.title: "Water"
 	image.513D907AE31D41B3.title: "Shard of Laputa"
 	image.5160DC15714D7C96.title: "Terra Shatterer"
 	image.516C1C04B8E5B94C.title: "Unstable Ingot"
+	image.527D68A0AED38543.title: "Weather Obelisk"
 	image.52886EA71349AE56.title: "Lithium"
-	image.52A7F4EFB634DE81.title: "Fluid Filter"
 	image.53051DC034262C4A.title: "Incomplete Energy Godly Alloy"
 	image.532374F10C3479F8.title: "Rune of Greed"
 	image.5341AC159D5E820D.title: "Lapis Lazuli Singularity"
+	image.537C41DAB9A20431.title: "Spirited Tier"
 	image.53CAE0FDC44492CD.title: "Precision Mechanism"
 	image.54676D73539BB32D.title: "Refinery"
 	image.54A23B7FA471C93E.title: "Fire Essence"
+	image.54AA3E07DE7738E1.title: "its supposed to be animated but i dont know why it isnt"
 	image.54CA585D491B775D.title: "Reprocessed Fissile Fragment"
-	image.54D368E093A0E991.title: "Fluid Filter"
 	image.552E8F3CD7C726E0.title: "Water"
 	image.55765EE2CB74D50F.title: "Copper Singularity"
 	image.55866CE9F4D7174E.title: "Fission Reactor"
@@ -337,6 +416,7 @@
 	image.55E47BABE466F6E6.title: "Precision Mechanism"
 	image.5637CB4C4D34661D.title: "60 Seconds"
 	image.5647684AC0579AC8.title: "Refined Radiance"
+	image.570AA1904E836371.title: "Frank'N'Zombie"
 	image.573B3C984722E78E.title: "Dice of Fate"
 	image.575A6DB4DF2DA653.title: "Energy"
 	image.579FE8583ACFA791.title: "i hate ftbquests"
@@ -345,7 +425,9 @@
 	image.57FA92AB41FB79A9.title: "Stone"
 	image.57FEA6D945AD4D93.title: "Precision Mechanism"
 	image.583C10F0F2BF9D73.title: "Refined Radiance"
+	image.586136287050CAF2.title: "Uranite"
 	image.588A203B41C65018.title: "Redstone Singularity"
+	image.589554E59B503F07.title: "Experience Cake"
 	image.58A0418EC4147F3B.title: "Sulfuric Acid"
 	image.58D1853D58E3C9E2.title: "Uranium Ingot"
 	image.58EA38DE01C1172D.title: "Steel Singularity"
@@ -357,25 +439,26 @@
 	image.596E955F993A3350.title: "Chlorine"
 	image.598D1D07EBCC0A8E.title: "Isotopic Centrefuge"
 	image.598F191FF21D139B.title: "Chemical Infuser"
+	image.5996D22C453962ED.title: "Nethersteel Ingot"
 	image.599AA6323DDF5673.title: "Shard of Laputa"
 	image.59AD9F8B84ADC4AC.title: "Gaia Ingot"
 	image.59BD2A70546B3264.title: "Coal Singularity"
 	image.5A18E30AC89BEEB9.title: "Atomic Alloy"
-	image.5A739EF0E9DA5CF7.title: "Rubber"
 	image.5AABEC4C17DEC3FB.title: "Brass Singularity"
 	image.5ACEC96E5FFE2282.title: "Supercritical Phase Shifter"
 	image.5AFB01C0F80DCA93.title: "128³ Spatial Component"
 	image.5B1F106338B905F9.title: "Stone"
+	image.5B6293D14F3B9B11.title: "VAT"
 	image.5B6A67E0C8E24914.title: "Bucket"
 	image.5B7F83BD95813DC8.title: "Fissle Fuel"
-	image.5C1529F2DE130A05.title: "Rubber"
-	image.5CD233706771B56F.title: "Rosin"
+	image.5BFFE58B4EA07275.title: "Basin Melting"
+	image.5C9339A97DCB3158.title: "Starter Tier"
 	image.5CFF011637216698.title: "Sulfur Trioxide"
 	image.5D1C1F1C9403751E.title: "Incomplete Energy Godly Alloy"
+	image.5DAA3C1842143BE0.title: "Nitro Capacitor"
 	image.5DE9F4FDFD023698.title: "Pure Daisy"
 	image.5E0388A3705246D5.title: "Refined Radiance"
 	image.5E8DC146B4893886.title: "Click to see Mekanism wiki"
-	image.5EE787D79CD45718.title: "Bottle O' Hyper Enchanting"
 	image.5F4E5665B8A9B5EB.title: "Chemical Crystallizer"
 	image.5FBB5B90527C4B96.title: "Crystal"
 	image.5FC84C5E27904147.title: "Coal Singularity"
@@ -383,14 +466,16 @@
 	image.5FE4B2E3B838FB5A.title: "Electrolytic Separator"
 	image.602EB7B325F6F16C.title: "Refined Obsidian Ingot"
 	image.602FF4F921B12157.title: "Livingrock"
+	image.604DA0827D0F006A.title: "Biomass Pellet"
 	image.6061746DD05EAE19.title: "Dust"
 	image.60C818111CC0609F.title: "Lapis Lazuli Singularity"
 	image.60F0E1A159CF81C9.title: "Water"
-	image.60F1A8832FDC12FB.title: "Rubber"
 	image.613C41DC164DC2C3.title: "Incomplete Energy Godly Alloy"
+	image.61647739017F8843.title: "Basic Tier"
 	image.6165F39B39E6C505.title: "Ultimate Tier Installer"
 	image.6176269117DB1681.title: "Jerrycan"
 	image.61A82084835946D2.title: "Crusher"
+	image.620F1CC78C6CB52F.title: "Uranite"
 	image.62260B72F78299BF.title: "Superheated Sodium"
 	image.62463043AE3373D2.title: "Water Vapor"
 	image.6279CFB04C2456C8.title: "Uranium Hexafluoride"
@@ -399,52 +484,64 @@
 	image.63483BE066BC5E55.title: "Stone"
 	image.634D4BB7A884B970.title: "Fire Essence"
 	image.63575A83C7A2B6AE.title: "Incomplete Unstable Godly Alloy"
+	image.638BABE0BE1474AA.title: "Conduit Binder"
 	image.63D43F2736DC6CD8.title: "Shadow Steel"
 	image.63E7FB8479B6E616.title: "Coal Coke"
 	image.64455C2C750DECED.title: "Sodium"
 	image.64690E21B4F7D328.title: "Incomplete Fluid Godly Alloy"
+	image.64F41CBAE0476CA6.title: "Weather Obelisk"
+	image.650A03F04F473F49.title: "Uranite"
+	image.6561054521EA735E.title: "Starter Tier"
 	image.6570F7358127995A.title: "Chemical Oxidizer"
 	image.65A234DB2FD7521E.title: "Water Rune"
 	image.65A29EB3A331E939.title: "Steel Singularity"
 	image.661E62FF8DA39E96.title: "Electrolytic Separator"
 	image.663C70C72CF9682A.title: "Gaia Ingot"
 	image.669341D11CEC5F9D.title: "Pure Daisy"
-	image.669748379E6116AA.title: "Rubber"
 	image.66B5F612D847AED6.title: "Stone"
-	image.66CD3F2BFE411506.title: "Bottle O' Hyper Enchanting"
 	image.66E1B46F72B64726.title: "Salt"
 	image.67098A34866D82C5.title: "Bronze Singularity"
 	image.674FE7FAE60022B2.title: "Chemical Injection Chamber"
 	image.6858C1D38BF80600.title: "Gaia Ingot"
 	image.686D80EDD755C102.title: "Plutonium"
+	image.686F4580EFE40A37.title: "Nethersteel Ingot"
 	image.689B8B557FF6046D.title: "Polonium"
 	image.68B77B4405B973D5.title: "Gaia Ingot"
 	image.69189E1DFFC0E7D7.title: "Steel Singularity"
 	image.695EF4013B351915.title: "Unstable Ingot"
+	image.69D170F2457D5DE0.title: "Rain"
 	image.69EF1EA2A1758116.title: "Liquid Lithium"
 	image.6A95C5B9E4ECC003.title: "Dirty Dust"
 	image.6ACC30517F60D66B.title: "Gaia Ingot"
+	image.6B20D545DB96E2B1.title: "Weather Obelisk"
 	image.6B7E6DD420D8B1CF.title: "Chemical Crystallizer"
 	image.6B9C819F00818770.title: "Fluorite"
 	image.6BCA226AA9C43370.title: "Raw Diamond"
 	image.6C0EAE332A9EA99B.title: "Overcharged Diamond"
 	image.6C26B10738115F1B.title: "Chocolate Cake"
+	image.6C45D125E1D1BF21.title: "OR"
+	image.6C9D2D54CFA41D6E.title: "Biomass Pellet"
 	image.6C9EF75B5E065883.title: "HDPE Pellet"
-	image.6CAA3FD81C1E6895.title: "Bottle O' Hyper Enchanting"
 	image.6CCAB35F6C6D16F4.title: "Plutonium Pellet"
-	image.6D36B9532DC98916.title: "Rosin"
+	image.6DCD5BB7C4C44FEE.title: "Hardened Tier"
 	image.6E08C4CC8FC36EAA.title: "Polonium"
 	image.6E17911F96A7DFF6.title: "Livingrock"
+	image.6E7156B118851524.title: "Niotic Tier"
+	image.6E76039B9F37C7BE.title: "VAT"
 	image.6E87A94C45395564.title: "Rotary Condensentrator"
 	image.6E8C861645E27E16.title: "Energy"
+	image.6E8F4F76AFA2C8BF.title: "Blaze Powder"
 	image.6EBEDA35FA805F69.title: "Livingrock"
 	image.6EC1EFD0BBB105BB.title: "Dirty Slurry"
 	image.6ED84B3E6D373E97.title: "Incomplete Unstable Godly Alloy"
-	image.6F0CB49E4BF1392E.title: "Tar"
+	image.6FB67A508C6FE03A.title: "Weather Obelisk"
 	image.70273C43B68742F1.title: "Livingwood Log"
 	image.70EE07261A0CF88A.title: "Unstable Ingot"
+	image.70FC1DCEB35B6F9D.title: "Lightning Rod"
 	image.71321A020CE46B88.title: "click for funny"
+	image.7157325491BF9D0A.title: "Liquid Sunshine"
 	image.7166302AE8B036EB.title: "Refined Radiance"
+	image.71F7E53B1827761B.title: "Experience Cake"
 	image.723AE571CD4F5452.title: "60 Seconds"
 	image.72AE76B1C96B7010.title: "Deuterium"
 	image.72BBAA56097612EE.title: "Stone"
@@ -468,7 +565,6 @@
 	image.7542B7FC7E3C5490.title: "Seeds"
 	image.758265CABE47737B.title: "Biodiesel"
 	image.760C4794EA92EE74.title: "Enrichment Chamber"
-	image.76315A41964EF115.title: "Tar"
 	image.76C9281C0479070A.title: "Gaia Ingot"
 	image.76CB2147AD3F944F.title: "PlaStick"
 	image.76E358DB1888DC75.title: "Unstable Ingot"
@@ -477,40 +573,41 @@
 	image.77D22E858849B3D9.title: "Ultimate Tier Installer"
 	image.77E0143ECAD29CDF.title: "Incomplete Fluid Godly Alloy"
 	image.77E409FDDB577FB5.title: "Refined Radiance"
-	image.77F442CA05B8F805.title: "Bitumen"
+	image.78231F7D17F43F55.title: "Blazing Tier"
 	image.7834F6A1FD101001.title: "Antimatter Pellet"
 	image.788A8857D897D63C.title: "Nuclear Waste"
+	image.789647D3E86E98FC.title: "Hootch"
 	image.78B16626D33EC805.title: "Incomplete Energy Godly Alloy"
-	image.78E6F37E7778EFA6.title: "Resonant Integral Components"
 	image.78F4FE3CBB094949.title: "Redstone Singularity"
 	image.78F96A73EF7EAC12.title: "Oak Log"
 	image.7989C86363FFC8BE.title: "Livingwood Log"
 	image.7AA9FC9BFC9D816D.title: "Dice of Fate"
 	image.7AF7A39C1B92132A.title: "Antimatter"
 	image.7B0DCE4E703B0BEE.title: "Livingrock"
-	image.7B2B742987F9F00A.title: "Fluid Filter"
 	image.7B5AF7ECCD9D7BF9.title: "Polonium Pellet"
+	image.7B5CD85B964E9266.title: "Basin Foundry Lid"
 	image.7BE5783BD581F7F7.title: "Liquid Ethylene"
 	image.7BEB7C1601977A5D.title: "Steam"
 	image.7BF33F47BBF2E62A.title: "Coal Singularity"
 	image.7BFDF79F3E065DEF.title: "Incomplete Fluid Godly Alloy"
+	image.7C3B0C8FD673172C.title: "VAT"
 	image.7C5833252C7FA2A3.title: "Oak Log"
 	image.7D137434F7781672.title: "Livingrock"
 	image.7D231964D7516574.title: "60 Seconds"
 	image.7D2B6F7A854EB408.title: "HDPE Rod"
 	image.7D696978EFD13C6D.title: "Refined Radiance"
-	image.7D7500A9BC1E4979.title: "Rubber"
 	image.7D826A193AE3913D.title: "Thermoelectric Boiler"
+	image.7E0D42361690742A.title: "OR"
 	image.7E5B6383D7FF1B91.title: "Gaia Ingot"
 	image.7E642494B982C2CB.title: "Incomplete Energy Godly Alloy"
 	image.7E813EB8D9C66A60.title: "Chemical Washer"
+	image.7F1391E8E04D0C58.title: "Conduit Binder"
 	image.7F139F93AC780C8A.title: "Incomplete Energy Godly Alloy"
 	image.7F1FF3F21F0A1B62.title: "Incomplete Unstable Godly Alloy"
 	image.7F2E324BBB55A464.title: "Overcharged Diamond"
 	image.7FB4C016E6EA2F14.title: "Gaia Ingot"
 	image.7FBF8D99435915DE.title: "Gaia Ingot"
 	image.7FCCC7AFC1075E3A.title: "Chemical Infuser"
-	quest.000099F56EB2D52B.title: "Sawdust"
 	quest.005248AF0DF63894.quest_subtitle: "DEATH AT 200,000,000 VOLTS"
 	quest.005248AF0DF63894.title: "Lightning Rod"
 	quest.006E193B744CDEA2.title: "Diamond Dust"
@@ -530,7 +627,7 @@
 	]
 	quest.014BDD8F6888A384.quest_subtitle: "Everlasting Vigor"
 	quest.017AC018B98522AF.quest_desc: [
-		"[ \"The Chemical Dissolution Chamber is used in creation of \", { \"text\": \"Dirty Slurries\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1320FCEE195D9D91\" } }, \" and \", { \"text\": \"Hydrofluoric Acid\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"66768B5CF1D11AB4\" } } ]"
+		"[ \"The Chemical Dissolution Chamber is used in creation of \", { \"text\": \"Dirty Slurries\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1320FCEE195D9D91\" } }, \" and \", { \"text\": \"Hydrofluoric Acid\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"66768B5CF1D11AB4\" } } ]"
 		""
 		"&8The machine uses 100 mB of sulfuric acid for every block ore dissolved and outputs 1000 mb of slurry. 100 mb acid and 3 Raw Ore for 2000 mB slurry &r"
 	]
@@ -541,13 +638,6 @@
 	]
 	quest.017D7401B588065C.quest_subtitle: "Nuclear safety 101"
 	quest.017D7401B588065C.title: "Hazmat Suit"
-	quest.017F02F4FE5800ED.quest_desc: ["[ \"Made with \", { \"text\": \"Fluid Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"554A46120F1F0FD6\" } } ]"]
-	quest.01956B8E7A2E9355.quest_desc: [
-		"{info.thermal.machine_pyrolyzer.0}"
-		""
-		"{info.thermal.machine_pyrolyzer.1}"
-	]
-	quest.01956B8E7A2E9355.quest_subtitle: "{info.thermal.machine_pyrolyzer.2}"
 	quest.019EA2934414A56F.quest_desc: ["A Turbine Valve is a block used in the multiblock Industrial Turbine. Turbine Valves provide Input/Output access to Turbine for Steam, Water and Energy."]
 	quest.01B61DFAA5FF2EB5.quest_desc: ["This is a serum that turns slimes and flesh blobs smaller. After all, smaller means cuter! :3"]
 	quest.01B61DFAA5FF2EB5.quest_subtitle: "Smol-ification"
@@ -608,6 +698,8 @@
 	]
 	quest.02A525C72F999957.title: "Turbine"
 	quest.02AFE459E338D665.title: "Hydrogen Chloride"
+	quest.031D1027F80A3905.quest_subtitle: "Welcome to Botania!"
+	quest.031D1027F80A3905.title: "Botania"
 	quest.03524C8291BA941F.quest_desc: ["Atomic Alloy is the best in Mekanism, used in upgrading machines, creating teleportation-related devicies and thermonuclear tech."]
 	quest.03524C8291BA941F.quest_subtitle: "Obsidian-infused diamond-infused redstone-infused iron"
 	quest.03B67D04AEA31C6D.quest_desc: ["Can be used to launch vine balls very far!"]
@@ -656,18 +748,18 @@
 	quest.056E2CC2ABED9616.title: "Mixer"
 	quest.0571351624C9E2BA.quest_desc: [
 		"A Saturating Condenser is part of the Industrial Turbine. "
-		"[ \"It allows for some steam to revert back into the water, which can be pumped from any \", { \"text\": \"Turbine Vent\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0474D40050B5E0D2\" } }, \" (usually back into the Fission Reactor which\" ] the turbine is connected to). Saturating Condensers can be placed at or above the level of the rotational complex."
+		"[ \"It allows for some steam to revert back into the water, which can be pumped from any \", { \"text\": \"Turbine Vent\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0474D40050B5E0D2\" } }, \" (usually back into the Fission Reactor which\" ] the turbine is connected to). Saturating Condensers can be placed at or above the level of the rotational complex."
 	]
 	quest.057B264D01290588.quest_desc: [
 		"Mechanical Pipe is the fluid pipe for Mekanism logistics."
 		""
-		"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
+		"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
 		"&6Normal&r — passive"
 		"&aPush&r — actively inserts items"
 		"&ePull&r — actively extracts items"
 		"None — disables connection"
 		""
-		"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
+		"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
 		""
 		"&8Can be upgraded with Alloys by either combining 8 pipes and 1 alloy, or by right-clicking the pipe while Alloy is in hand.&r"
 	]
@@ -680,11 +772,11 @@
 		"Unlike Linear Chassis, the Radial Chassis connects to a radius of blocks around it rather than a straight line of blocks. This can be unwieldy if there are blocks nearby one would rather not connect to the Contraption. You can right click on the sides of the chassis while holding a Slimeball or Super Glue to make them sticky."
 	]
 	quest.0623BCE92F179F21.title: "Chassis"
-	quest.064FDEF8EF3D31EB.quest_desc: ["Increases the duration of an applied potion."]
 	quest.06EAB6D86F2CE214.quest_desc: ["Refined Glowstone Ingot is used to make teleporter frames"]
 	quest.06EAB6D86F2CE214.quest_subtitle: "Not so strong ingot"
 	quest.070841C70F538AD2.quest_desc: [""]
 	quest.070841C70F538AD2.quest_subtitle: "Replaces Thermal Expansions Igneous Extruder"
+	quest.071C1B11DA7A08AD.quest_desc: ["very weird filter"]
 	quest.074E60C5E08AC196.quest_desc: [
 		"Encased chain drives may be placed side by side either vertically or horizontally to form a chain passing rotational power among all the blocks. The blocks must touch on their sides (not axis to side) and be in a single straight line to form a chain."
 		""
@@ -694,7 +786,7 @@
 	quest.076FD8FF5C884BEF.title: "Deployers"
 	quest.07B80FF72157DDEC.quest_desc: ["[ \"Can be used to turn \",   { \"text\": \"Ores into Slurry\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1320FCEE195D9D91\" } } ,\" and as an ingrdient for \", { \"text\": \"Hydrofluoric Acid\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D98380A445B84AC\" } } ]"]
 	quest.07B80FF72157DDEC.title: "Sulfuric Acid"
-	quest.07B9EE65C72C31C5.quest_desc: ["[ \"Isotopic Centrefuge in only used for 2 recipes, 1st to make \", { \"text\": \"Fissile Fuel\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BDD98F8F5C4608B\" } }, \" out of Uranium Hexaflourite and 2nd to make \", { \"text\": \"Plutonium\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"45632A6888E7C456\" } } ,\" out of spent Nuclear Waste.\" ] "]
+	quest.07B9EE65C72C31C5.quest_desc: ["[ \"Isotopic Centrefuge in only used for 2 recipes, 1st to make \", { \"text\": \"Fissile Fuel\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BDD98F8F5C4608B\" } }, \" out of Uranium Hexaflourite and 2nd to make \", { \"text\": \"Plutonium\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"45632A6888E7C456\" } } ,\" out of spent Nuclear Waste.\" ] "]
 	quest.07DAA645426326F1.quest_desc: ["Will grow grass when clicked on a dirtlike block!"]
 	quest.07DAA645426326F1.quest_subtitle: "Outstanding in its field"
 	quest.080C2EA64F093785.quest_desc: ["Will outline a circle/sphere, great for building the forbidden shapes!"]
@@ -714,17 +806,15 @@
 		""
 		"Can Make:"
 		""
-		"[ \"\", { \"text\": \"Creative Accumulator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B3437DCDA677560\" } }, \" from Immersive Engineering\" ]"
+		"[ \"\", { \"text\": \"Creative Accumulator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B3437DCDA677560\" } }, \" from Immersive Engineering\" ]"
 		""
-		"[ \"\", { \"text\": \"Creative Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4368C6FA43EC4EE0\" } }, \" from Create: Crafts & Additions\" ]"
+		"[ \"\", { \"text\": \"Creative Generator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4368C6FA43EC4EE0\" } }, \" from Create: Crafts & Additions\" ]"
 		""
-		"[ \"\", { \"text\": \"Creative RF Coil\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A50B0A58B1E2802\" } }, \" from Thermal\" ]"
-		""
-		"[ \"\", { \"text\": \"Creative Energy Cube\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C5EAFB05C72BCBD\" } }, \" from Mekanism\" ] "
+		"[ \"\", { \"text\": \"Creative Energy Cube\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C5EAFB05C72BCBD\" } }, \" from Mekanism\" ] "
 	]
 	quest.093AC2384829FB11.quest_desc: ["Although nuclear reactor can run without any casing, it will irradiate everything near it. To prevent this create Reactor Casing out of bricks and iron plates."]
 	quest.093AC2384829FB11.quest_subtitle: "Radiation Shield"
-	quest.09692C307F65AFA7.quest_desc: ["[ \"Made with \", { \"text\": \"Botanic Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E342EC10340F08F\" } } ]"]
+	quest.09692C307F65AFA7.quest_desc: ["[ \"Made with \", { \"text\": \"Botanic Godly Alloy\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E342EC10340F08F\" } } ]"]
 	quest.09875CED1F353DB0.quest_desc: [
 		"The Spout is a block used for filling liquid containers such as bottles or buckets, or crafting with liquids. "
 		""
@@ -949,6 +1039,7 @@
 		"Highly recommended as it increases the yield of a single piece to 80mB, compared to normal coal's 10mB, and charcoal's 20mB."
 	]
 	quest.1182BD2031E81300.quest_subtitle: "Better Coal"
+	quest.11993546792DCF90.title: "autocomplete"
 	quest.11A2CEC81F265FE9.quest_desc: ["Obtain Livingwood by placing logs around a pure daisy"]
 	quest.11A2CEC81F265FE9.quest_subtitle: "Its.. alive?"
 	quest.121317D40B896327.quest_desc: [
@@ -967,8 +1058,9 @@
 	quest.12A42A5F44B3BC36.quest_desc: [
 		"The Precision Sawmill is used for reclaiming wood from wooden items and turn logs into planks with a 50% better yield (6 instead of 4)."
 		""
-		"[ \"Also makes sawdust for use in making \", { \"text\": \"Cardboard Box\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"348B8187567F1B60\" } }, \".\" ]"
+		"[ \"Also makes sawdust for use in making \", { \"text\": \"Cardboard Box\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"348B8187567F1B60\" } }, \".\" ]"
 	]
+	quest.12CC1F7C26B181D4.quest_subtitle: "i think i remember somebody promised to make bloodmagic questline but i cant remember who"
 	quest.12CC1F7C26B181D4.title: "placeholder"
 	quest.1320FCEE195D9D91.title: "Dirty Slurry"
 	quest.132987997D8EA3CE.title: "I mean irl"
@@ -1090,14 +1182,14 @@
 		""
 		"Can also be used in the Pressurized Reaction Chamber to create Ethylene and Substrate which is needed to create plastic."
 	]
-	quest.1A9A034E7281FB6D.quest_desc: ["[ \"Generator Coil is used to build \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \".\" ]"]
+	quest.1A9A034E7281FB6D.quest_desc: ["[ \"Generator Coil is used to build \", { \"text\": \"New Age Generator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \".\" ]"]
 	quest.1A9A034E7281FB6D.quest_subtitle: "Rotor"
 	quest.1B1685D5DC2495F5.quest_desc: [
 		"A Mekanism machine upgrade to make them process items faster, you can install 8 of these in each Mekanism machine."
 		""
 		"The power consumption to speed growth ratio is non-linear. So at 8 speed upgrades the speed will be 10x but energy costs will be 100x."
 		""
-		"[ \"It is strongly advised to also install \", { \"text\": \"Energy Upgrades\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3713AAB7A3F2E9A7\" } }, \" to balance out the energy cost.\" ]"
+		"[ \"It is strongly advised to also install \", { \"text\": \"Energy Upgrades\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3713AAB7A3F2E9A7\" } }, \" to balance out the energy cost.\" ]"
 		""
 		"&8Several machines do not follow this rule: Chemical Washer, Rotatory Condenser, Chemical Infuser, Isotopic Centrifuge, Electrolytic Separator, Pigment Mixer. For these machines every speed upgrade instead multiplies their speed by 2x, for a total of 256x speed. They still consume up to 100x the power per tick as usual.&r"
 	]
@@ -1188,7 +1280,6 @@
 	quest.2156FF005A98CD92.title: "Crystal"
 	quest.218F086777D7E1E1.quest_desc: ["Obtain the croissant egg, which hatches into the croissant dragon. you must then feed it 3 milk buckets to evolve it to its final form"]
 	quest.218F086777D7E1E1.quest_subtitle: "haha egg"
-	quest.21C93E07E329C722.quest_desc: ["{info.thermal.dynamo_compression.0}"]
 	quest.21D2ECE01D979648.quest_desc: ["A Turbine Blade is an essential part of the Industrial Turbine. The blades are fitted into the turbine rotor, and if you right click any block that is part of the rotor shaft, it will automatically place above the lowest blade, or on the lowest level if there is no blade already on the lowest level. You can fit 2 blades per rotor block."]
 	quest.21FAE2E0B3BA132D.quest_desc: ["Gold wire can transfer up to 4096 FE/t"]
 	quest.21FAE2E0B3BA132D.quest_subtitle: "Gold FE Path"
@@ -1223,7 +1314,7 @@
 	quest.24A371935B68036D.quest_desc: [
 		"Elite Induction Provider can transport up to 6.5 MFE"
 		""
-		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
 	]
 	quest.24A371935B68036D.quest_subtitle: "Even bigger Battery I/O "
 	quest.24CD759A561EB2C6.quest_desc: ["Infused Alloy is the backbone of Mekanism. Its an ingredient in creation of more advanced alloys and generally useful material."]
@@ -1256,7 +1347,7 @@
 	quest.26D579BACDB8DD90.quest_desc: [
 		"The Logistical Sorter is the brains of Mekanism Logistics. Attached to the side of an inventory/chest this block will route items to where they should go. "
 		""
-		"[ \"Logistical Sorter works in tandem with \", { \"text\": \"Logistical Transporters\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F090DF94C778B3A\" } }, \".\" ]"
+		"[ \"Logistical Sorter works in tandem with \", { \"text\": \"Logistical Transporters\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F090DF94C778B3A\" } }, \".\" ]"
 		""
 		"Can be configured using filters in the gui."
 	]
@@ -2635,16 +2726,10 @@
 	]
 	quest.27959B34BD2B19B4.quest_subtitle: "open it)"
 	quest.27959B34BD2B19B4.title: "the script"
-	quest.279B5DA25E515638.quest_desc: ["[ \"Made with \", { \"text\": \"Unstable Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4613272CCECC2011\" } } ]"]
+	quest.279B5DA25E515638.quest_desc: ["[ \"Made with \", { \"text\": \"Unstable Godly Alloy\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4613272CCECC2011\" } } ]"]
 	quest.27AABC81A5C06E68.title: "Manaweave Robe"
 	quest.27C740059DA71649.quest_desc: ["The Crusher is used to crush, among other things, clumps into Dirty Dusts, Ingots into dusts and Biomatter into Bio Fuel."]
 	quest.27C740059DA71649.quest_subtitle: "CRUSH!"
-	quest.27F668767628FC8A.quest_desc: [
-		"{info.thermal.machine_centrifuge.0}"
-		""
-		"{info.thermal.machine_centrifuge.1}"
-	]
-	quest.27F668767628FC8A.quest_subtitle: "{info.thermal.machine_centrifuge.2}"
 	quest.2826F6AFA770D820.quest_desc: ["To get started on this quest line, you need to find a horse. One horse is good enough, but more than 1 is recommended."]
 	quest.2826F6AFA770D820.title: "Find a Horse"
 	quest.286D095D71CB0153.quest_desc: [
@@ -2661,7 +2746,7 @@
 	]
 	quest.29B14A4F06B0ADC1.quest_desc: ["At the cost of mana, will shoot lasers at mobs around you from the sky."]
 	quest.29B14A4F06B0ADC1.quest_subtitle: "ORBITAL LAZER???"
-	quest.29F04CE306ED98D4.quest_desc: ["[ \"There is many ways to get water in this modpack, but since you are in a Mekanism questline you can use \", { \"text\": \"Electrical Pump\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A546B3E93E58AC8\" } }, \" (It requires only one liquid source and doesn't deplete it if its water.\" ] "]
+	quest.29F04CE306ED98D4.quest_desc: ["[ \"There is many ways to get water in this modpack, but since you are in a Mekanism questline you can use \", { \"text\": \"Electrical Pump\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A546B3E93E58AC8\" } }, \" (It requires only one liquid source and doesn't deplete it if its water.\" ] "]
 	quest.29F04CE306ED98D4.quest_subtitle: "Stay Hydrated"
 	quest.29F04CE306ED98D4.title: "How to get water"
 	quest.29F44E9995CA5B56.title: "Tritium"
@@ -2703,13 +2788,13 @@
 	quest.2B2DA9C17AD1456B.quest_desc: [
 		"Thermodynamic Conductor is the heat pipe for Mekanism logistics."
 		""
-		"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
+		"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
 		"&6Normal&r — passive"
 		"&aPush&r — actively inserts items"
 		"&ePull&r — actively extracts items"
 		"None — disables connection"
 		""
-		"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
+		"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
 		""
 		"&8Can be upgraded with Alloys by either combining 8 pipes and 1 alloy, or by right-clicking the pipe while Alloy is in hand.&r"
 	]
@@ -2742,20 +2827,14 @@
 	quest.2D2776326FEDAEB3.title: "MekaSuit"
 	quest.2D32F8A06B3EB8C9.title: "Electrum Ingot"
 	quest.2D4E8DAE7D7E45F5.quest_desc: [
-		"[ \"Cheap to craft can be used in \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } } ]"
+		"[ \"Cheap to craft can be used in \", { \"text\": \"New Age Generator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } } ]"
 		""
 		"&8Provides 2 Magnetic Force&r"
 	]
 	quest.2D4E8DAE7D7E45F5.quest_subtitle: "Real Redstone Flux"
 	quest.2D5D2C8C156FC60E.quest_desc: ["Make the wearer run faster, jump higher, and sets step height to 1 block, allowing you to run up mountains."]
 	quest.2D5D2C8C156FC60E.quest_subtitle: "Nyoooom!"
-	quest.2D7428D54474BD78.title: "Lumium Ingot"
 	quest.2DF13CAC3F425280.quest_desc: ["Refined Obsidian Dust can be used to make Atomic Alloy or Refined Obsidian Ingot."]
-	quest.2E4D4CBE9614A412.quest_desc: [
-		"{info.thermal.dynamo_stirling.0}"
-		""
-		"{info.thermal.dynamo_stirling.1}"
-	]
 	quest.2E5025697AF514D2.quest_desc: [
 		"The Configurator is Mekanism's configuration tool for its machines"
 		""
@@ -2770,22 +2849,21 @@
 	quest.2EFE7E0B6A4606D7.quest_desc: [
 		"Basic Induction Provider can transport up to 102.4 kFE"
 		""
-		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
 	]
 	quest.2EFE7E0B6A4606D7.quest_subtitle: "Big Battery I/O "
 	quest.2F8633317C73E60B.quest_desc: ["[ \"Made with \", { \"text\": \"Fluid Godly Alloy\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"554A46120F1F0FD6\" } } ]"]
 	quest.2FE74109A0EBDE43.quest_desc: ["Advanced Tier Installers can be used on Basic Factories to turn them into Advanced Factories."]
 	quest.2FFCC04506C08E87.quest_desc: ["The Quantum Entangloporter from Mekanism is a machine that allows liquids/items/energy/gas/heat to be sent from one Quantum Entangloporter to another through a channel."]
 	quest.2FFCC04506C08E87.quest_subtitle: "Wireless everything!"
-	quest.30446A8802550D59.quest_desc: ["[ \"Made with \", { \"text\": \"Fluid Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"554A46120F1F0FD6\" } } ]"]
+	quest.30446A8802550D59.quest_desc: ["[ \"Made with \", { \"text\": \"Fluid Godly Alloy\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"554A46120F1F0FD6\" } } ]"]
 	quest.305487E15BCDC6F1.quest_desc: ["Overcharged iron is created via energizing iron ingot and is used in creation of motors and some heat elements."]
 	quest.305FB03E5D3F996A.quest_desc: ["Defeat a raid, and find a broken robot. if only you could repair it somehow, perhaps you could harness its energy..."]
 	quest.305FB03E5D3F996A.quest_subtitle: "Robotics club going crazy "
 	quest.308398792BEA3444.quest_desc: ["To make Circuit deploy copper wire onto Blank Circuit."]
 	quest.30861B4B1386D151.quest_desc: ["Create a Thorny Chakram, which you can throw at people, no doubt leaving a few thorns left behind"]
 	quest.30861B4B1386D151.quest_subtitle: "Youch!"
-	quest.308E5EF682031C4F.quest_desc: ["{info.thermal.dynamo_gourmand.0}"]
-	quest.308E5EF682031C4F.quest_subtitle: "{info.thermal.dynamo_gourmand.1}"
+	quest.3093A84FC6694B28.title: "Outer end islands"
 	quest.30B2ED7B517A8A67.quest_desc: [
 		"The Windmill Bearing is a block used for power generation."
 		""
@@ -2807,7 +2885,6 @@
 		"Using a Wrench on the funnel switches it between input and output mode. Redstone can be applied to stop the funnel from inputting or outputting. Right-clicking a funnel on a Mechanical Belt causes it to extend one block forward."
 	]
 	quest.31ED22752767F572.title: "Andesite Funnel"
-	quest.322DB199F4A45032.quest_desc: ["[ \"Can be used as a fuel or made into \", { \"text\": \"Florb\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"569E99CF30853B2E\" } }, \".\" ]"]
 	quest.3290AD3CDB2834BE.quest_desc: ["Uranium Hexaflourite is the last ingredient needed to make Fissile Fuel."]
 	quest.3290AD3CDB2834BE.title: "Uranium Hexafluoride"
 	quest.334A8100C0B84CD1.quest_subtitle: "The keys to the kingdom of heaven"
@@ -2871,7 +2948,7 @@
 	quest.3957EF823549E9AA.quest_desc: ["Breeding stimulant has the same effects as feeding 2 animals nearby some food. However, it does a bit more than just allowing them to breed once... Watch out for mutations in the children."]
 	quest.3957EF823549E9AA.quest_subtitle: "The birds and the bees..."
 	quest.3975DDEBA5825FEC.quest_desc: [
-		"[ \"Crafted out of Overcharged iron and gold, used in \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } } ]"
+		"[ \"Crafted out of Overcharged iron and gold, used in \", { \"text\": \"New Age Generator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } } ]"
 		""
 		"&8Provides 4 Magnetic Power&r"
 	]
@@ -2895,20 +2972,19 @@
 	quest.3B76FBF7D6E731C4.quest_desc: [
 		"Universal Cables are Mekanism's way to transfer power. "
 		""
-		"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
+		"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
 		"&6Normal&r — passive"
 		"&aPush&r — actively inserts items"
 		"&ePull&r — actively extracts items"
 		"None — disables connection"
 		""
-		"[ \"Right-clicking with \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \" allows to set Redstone Control Mode. This can be used to control cable with redstone.\" ]"
+		"[ \"Right-clicking with \", { \"text\": \"Configurator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \" allows to set Redstone Control Mode. This can be used to control cable with redstone.\" ]"
 		""
 		"&8Can be upgraded with Alloys by either combining 8 pipes and 1 alloy, or by right-clicking the pipe while Alloy is in hand.&r"
 	]
 	quest.3B76FBF7D6E731C4.quest_subtitle: "Most used cable"
 	quest.3B9C52A58DF3D1DA.quest_desc: ["Solid Plutonium Pellet, used to recover Fissile Fuel and to craft Supercritial Phase Shifter"]
 	quest.3BDD98F8F5C4608B.quest_desc: ["Passing Uranium Hexaflourite through Isotopic Centrefuge will make Fissile Fuel."]
-	quest.3BDD98F8F5C4608B.quest_subtitle: "Jet Fuel"
 	quest.3BDD98F8F5C4608B.title: "Fissile Fuel"
 	quest.3C000001D46F4ADA.title: "Sandpaper"
 	quest.3C13751C2045C375.quest_desc: ["Aquire ender air, which can be used to craft silly little trinkets"]
@@ -2936,7 +3012,7 @@
 		""
 		"Can make:"
 		""
-		"[ \"\", { \"text\": \"The Everlasting Guilty Pool\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"09692C307F65AFA7\" } } ]"
+		"[ \"\", { \"text\": \"The Everlasting Guilty Pool\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"09692C307F65AFA7\" } } ]"
 	]
 	quest.3E5ECACA3ADA026A.quest_desc: [
 		"Electrical Motors generate rotation from FE, input FE from any side, and output rotation from front. You can change RPM by holding wrench, right-clicking and draging RPM slider on the side of the motor. "
@@ -2958,6 +3034,8 @@
 	quest.3F2D26C94514A093.title: "Modules"
 	quest.3F39DF7EED3DBAED.quest_desc: ["Obtain a Gaia Spreader, a mana spreader which can import mana almost instantly"]
 	quest.3F39DF7EED3DBAED.quest_subtitle: "Godlike Transfer Rates"
+	quest.3F49997856B212E8.quest_subtitle: "Welcome to Biomancy"
+	quest.3F49997856B212E8.title: "Biomancy"
 	quest.3FB70B2734FF2281.quest_desc: [
 		"The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."
 		""
@@ -2979,7 +3057,7 @@
 		"When rotational force is connected to any shaft of a belt, the belt conveys identical force to every other shaft it is connected to. As such, if two shafts are connected to external sources of rotational force, a belt cannot be placed connecting them unless the force is in the same direction and at the same speed."
 	]
 	quest.414874164A8292BE.quest_desc: [
-		"[ \"The Chemical Washer turns \", { \"text\": \"Dirty Slurry\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1320FCEE195D9D91\" } }, \" into \", { \"text\": \"Clean Slurry\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A6AF19B37DBD45C\" } }, \" using Water. \" ]"
+		"[ \"The Chemical Washer turns \", { \"text\": \"Dirty Slurry\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1320FCEE195D9D91\" } }, \" into \", { \"text\": \"Clean Slurry\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A6AF19B37DBD45C\" } }, \" using Water. \" ]"
 		""
 		"The clean slurry then needs to be further refined by pumping it into a Chemical Crystallizer."
 	]
@@ -2995,7 +3073,7 @@
 	quest.4222372C36422598.quest_desc: [
 		"Elite Induction Cell can hold up to 204.8 GFE"
 		""
-		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
 	]
 	quest.4222372C36422598.quest_subtitle: "Even Bigger Battery Cell"
 	quest.424EB364362EEE26.quest_desc: ["Will act as a player for mob spawners, allowing you to farm mobs without being nearby"]
@@ -3003,13 +3081,15 @@
 	quest.425FC18CD62C5B95.quest_desc: ["Used to extract heat from running Nuclear Reactor."]
 	quest.42AA25C1E9AF0537.quest_subtitle: "look at ponders god damn it"
 	quest.42AA25C1E9AF0537.title: "Ponders"
-	quest.42C1B71BEEEE9517.quest_desc: ["[ \"Carbon Brushes is the actual block that collects energy from \", { \"text\": \"Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \".\" ]"]
+	quest.42C1B71BEEEE9517.quest_desc: ["[ \"Carbon Brushes is the actual block that collects energy from \", { \"text\": \"Generator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \".\" ]"]
 	quest.42C1B71BEEEE9517.quest_subtitle: "Brush it off"
 	quest.43422AE94BEB2B49.quest_desc: ["Heat Pump is used to direct heat to where it needs to go."]
 	quest.43422AE94BEB2B49.quest_subtitle: "Heat Diode"
 	quest.4353168D029DB18E.quest_desc: ["Will summon lightning when swung"]
 	quest.4353168D029DB18E.quest_subtitle: "Lightning Rod"
-	quest.4368C6FA43EC4EE0.quest_desc: ["[ \"Made with \", { \"text\": \"Energy Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0939986F6B65AA69\" } } ]"]
+	quest.4368C6FA43EC4EE0.quest_desc: ["[ \"Made with \", { \"text\": \"Energy Godly Alloy\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0939986F6B65AA69\" } } ]"]
+	quest.43CE23BDAB8F6431.quest_subtitle: "Welcome to Create!"
+	quest.43CE23BDAB8F6431.title: "Create"
 	quest.43D055AF7566DB9D.quest_desc: [
 		"Heater can be used for everything that Blaze Burner can be used for. "
 		""
@@ -3068,7 +3148,7 @@
 		""
 		"Can Make:"
 		""
-		"[ \"\", { \"text\": \"Creative Blaze Cake\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"279B5DA25E515638\" } }, \" from Create\" ]"
+		"[ \"\", { \"text\": \"Creative Blaze Cake\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"279B5DA25E515638\" } }, \" from Create\" ]"
 		""
 		"Creative Autocannon Ammo Container from Create: Big Cannons"
 	]
@@ -3086,7 +3166,7 @@
 	quest.47102EA807047D1E.quest_subtitle: "Can it make nutmilk?"
 	quest.47102EA807047D1E.title: "Industrial Squeezer "
 	quest.47272468310BF7CD.quest_desc: [
-		"[ \"Basic Magnetite block, used in \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \" and in a couple of crafts.\" ]"
+		"[ \"Basic Magnetite block, used in \", { \"text\": \"New Age Generator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \" and in a couple of crafts.\" ]"
 		""
 		"&8Provides 1 Magnetic Force&r"
 	]
@@ -3106,12 +3186,6 @@
 	quest.48A2235EFA3E5A53.quest_subtitle: "Chemical Processing"
 	quest.48A2235EFA3E5A53.title: "Refinery"
 	quest.48AD0A5A43B6B8B6.quest_desc: ["Cheap way to generate SU from heat. Has 2 heating temperatures: 50T generates 512 SU and consumes 50T/s, 100T generates 1024 SU and consumes 100T/s."]
-	quest.48E1F78DB0189A8F.quest_desc: [
-		"{info.thermal.machine_crystallizer.0}"
-		""
-		"{info.thermal.machine_crystallizer.1}"
-	]
-	quest.48E1F78DB0189A8F.quest_subtitle: "{info.thermal.machine_crystallizer.2}"
 	quest.48EE3B00853865F0.quest_desc: ["obtain an altar which can be used alongside a special bell, to summon a special monster for a limited time, the only thing you must do is provide a sacrifice"]
 	quest.48EE3B00853865F0.quest_subtitle: "something wicked, this way comes"
 	quest.492994AA46EA170D.title: "Polonium"
@@ -3131,6 +3205,7 @@
 	quest.49D0E73FB37581D0.quest_subtitle: "What wonders could be inside?"
 	quest.49E1F8C00CA857FD.quest_desc: ["Summon fucking naginatas from heaven to strike your foes down, can be given to the golden allay to let it cast the rods from god."]
 	quest.49E1F8C00CA857FD.quest_subtitle: "Rods from god"
+	quest.49FBA3E87E3985CE.title: "Signalum Ingot"
 	quest.4A0D50A363959296.quest_subtitle: "use any singurity to complete this quest"
 	quest.4A0D50A363959296.title: "Singularity"
 	quest.4A38E8A0FF183640.quest_desc: ["Propeller is an item which function solely as ingredient in crafting recipes."]
@@ -3163,8 +3238,6 @@
 		"Output power depends on Magnetic Force of the Magnets and RPM of Generator Coils."
 	]
 	quest.4AC56FA9013CD02E.title: "How to: New Age Generator"
-	quest.4AFCB1AE203AD281.quest_desc: ["{info.thermal.dynamo_magmatic.0}"]
-	quest.4AFCB1AE203AD281.quest_subtitle: "{info.thermal.dynamo_magmatic.1}"
 	quest.4B58EE20772EBC39.quest_desc: ["Core of the reactor itself, this part is responsible for turning fuel into heat."]
 	quest.4B58EE20772EBC39.quest_subtitle: "Fuel stick"
 	quest.4B5B586BF9280FA1.quest_desc: ["Summon a living candle by smelting a candle in a soul furnace, giving your golden allay friend an extra life if it is killed"]
@@ -3204,37 +3277,23 @@
 	]
 	quest.4E117CF81AF1B7CD.quest_subtitle: "Burning Gases"
 	quest.4E533129EE76170B.quest_desc: [
-		"[ \"Upgrade for \", { \"text\": \"Mining Drill\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59D6C114E1EB8818\" } }, \".\" ]"
+		"[ \"Upgrade for \", { \"text\": \"Mining Drill\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59D6C114E1EB8818\" } }, \".\" ]"
 		""
 		"Allows the Mining Drill to operate under water."
 		""
-		"[ \"Can be applied to tool in \", { \"text\": \"Engineer's Workbench\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69D0022DDE12283D\" } }, \".\" ]"
+		"[ \"Can be applied to tool in \", { \"text\": \"Engineer's Workbench\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69D0022DDE12283D\" } }, \".\" ]"
 	]
 	quest.4E58979834FDC050.quest_desc: ["I hope you placed your cradle in a good spot. If you have, then get ready to watch it spread around its area! Once the flesh veins have settled in, they will start to form various flesh blocks and build a flesh mound structure. You can do whatever you want with the blocks, but there are a few blocks that may be of interest."]
 	quest.4E58979834FDC050.title: "Let It Grow!"
-	quest.4E77408AA078A860.quest_desc: [
-		"{info.thermal.machine_chiller.0}"
-		""
-		"{info.thermal.machine_chiller.1}"
-	]
-	quest.4E77408AA078A860.quest_subtitle: "{info.thermal.machine_chiller.2}"
 	quest.4E779E380FD2DE3C.quest_desc: ["Maw Hoppers and Tongues are useful for fleshy automation. Some people might find it a little gross, but thats just how it is when working with flesh! And who needs a conveyor belt anyway, when you have intestines! :3"]
 	quest.4E779E380FD2DE3C.quest_subtitle: "Fleshy Pipes"
-	quest.4E96457341D2062A.title: "Filters"
-	quest.4EAB51A2297C9B12.quest_desc: ["Can be drank."]
 	quest.4EBEFF40F3EDAEB2.title: "QIO I/O"
-	quest.4EDA4F38E404D678.quest_desc: [
-		"{info.thermal.machine_furnace.0}"
-		""
-		"{info.thermal.machine_furnace.1}"
-	]
-	quest.4EDA4F38E404D678.quest_subtitle: "{info.thermal.machine_furnace.2}"
 	quest.4EF88C2A1B845264.quest_desc: ["Created in a Pressurized Reaction Chamber (PRC) from Substrate, Liquid Ethylene (Ethylene condensed in Rotary Condensentrator) and Oxygen."]
 	quest.4EF88C2A1B845264.quest_subtitle: "almostplastic"
 	quest.4EF88C2A1B845264.title: "HDPE Pellet"
 	quest.4F309ED84C0A89D7.quest_desc: [
 		"Entropiniums generate mana by consuming explosions... just like, be careful with this ok? "
-		"{ \"text\": \"This might be useful\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10ECFC8F1B51F92B\" } }"
+		"{ \"text\": \"This might be useful\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10ECFC8F1B51F92B\" } }"
 	]
 	quest.4F309ED84C0A89D7.quest_subtitle: "Kaboomer"
 	quest.4F38DA1E7F090A2D.quest_desc: ["Highlights mobs around you, even through walls, at the cost of mana!"]
@@ -3283,7 +3342,7 @@
 	quest.52080EC8F3699E91.quest_desc: [
 		"To build New Age Nuclear Reactor:"
 		""
-		"[ \"Make some sort of base out of \", { \"text\": \"radiation resistant blocks\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"152341867F6CA47C\" } }, \", place Reactor Rods, connect Reactor Heat Vent and Reactor Fuel Inserter, encase rods in  radiation resistant blocks.\" ]"
+		"[ \"Make some sort of base out of \", { \"text\": \"radiation resistant blocks\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"152341867F6CA47C\" } }, \", place Reactor Rods, connect Reactor Heat Vent and Reactor Fuel Inserter, encase rods in  radiation resistant blocks.\" ]"
 	]
 	quest.52080EC8F3699E91.title: "How to: Basic Reactor"
 	quest.5210BFF097EA8975.quest_desc: [
@@ -3312,12 +3371,11 @@
 	quest.528EC184C3E1FEB2.title: "Toolbox"
 	quest.5319D9DD1A371E27.quest_desc: ["The caustic gunblade is a great weapon! It can shoot acid projectiles for long range combat, and it can also switch into blade mode for up close fighting. It also has the ability to coat its blade in acid!"]
 	quest.5319D9DD1A371E27.quest_subtitle: "PEW PEW!"
-	quest.53327BB505D158D7.quest_desc: ["Machine Frame is used to create different Thermal machines (duh)"]
 	quest.53E66405375D45E9.title: "Ores for multiplication"
 	quest.5457F1584CFED690.quest_desc: [
 		"Ultimate Induction Provider can transport up to 52.4 MFE"
 		""
-		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
 	]
 	quest.5457F1584CFED690.quest_subtitle: "Biggest Battery I/O "
 	quest.54596BF1C9F516E4.quest_desc: ["Obtain a Sin Runes, which can be used for the best of the best."]
@@ -3342,11 +3400,9 @@
 		""
 		"Can Make:"
 		""
-		"[\"\", { \"text\": \"Creative Fluid Tank/Vessel\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F8633317C73E60B\" } }, \" from Create\" ]"
+		"[\"\", { \"text\": \"Creative Fluid Tank/Vessel\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F8633317C73E60B\" } }, \" from Create\" ]"
 		""
-		"[\"\",  { \"text\": \"Creative Tank Construction\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"017F02F4FE5800ED\" } }, \" from Thermal\" ]"
-		""
-		"[\"\", { \"text\": \"Creative Fluid Tank\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"30446A8802550D59\" } }, \" from Mekanism\" ]"
+		"[\"\", { \"text\": \"Creative Fluid Tank\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"30446A8802550D59\" } }, \" from Mekanism\" ]"
 	]
 	quest.555E7BB5EE979B53.quest_desc: ["Fastest Energizer, energizes items at the rate of 64 FE/t per 10 RPM and stores 1M FE"]
 	quest.555E7BB5EE979B53.quest_subtitle: "Fastest Charging"
@@ -3362,29 +3418,18 @@
 	]
 	quest.579550C26DFF8DF2.quest_desc: ["A bit harder to craft then basic Solar Heating Plate it generatates 60/s during the day."]
 	quest.579550C26DFF8DF2.quest_subtitle: "Better Solar Power"
-	quest.57C18E34B65D3992.quest_desc: [
-		"{info.thermal.machine_pulverizer.0}"
-		""
-		"{info.thermal.machine_pulverizer.1}"
-	]
 	quest.584DB7B88C0B55CE.quest_desc: ["A Desk Bell plays a sound and emits a redstone signal when right-clicked."]
-	quest.58A0BD7E2D932964.quest_desc: ["[ \"Heat Pipes are used to transfer heat between machines, without any \", { \"text\": \"Heat Pumps\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"43422AE94BEB2B49\" } }, \" heat will try to even out between all heat pipes and machines. \" ]"]
+	quest.58A0BD7E2D932964.quest_desc: ["[ \"Heat Pipes are used to transfer heat between machines, without any \", { \"text\": \"Heat Pumps\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"43422AE94BEB2B49\" } }, \" heat will try to even out between all heat pipes and machines. \" ]"]
 	quest.58A0BD7E2D932964.quest_subtitle: "Transferring Heat"
 	quest.58AD6764A194D8DB.quest_desc: [
 		"Advanced Induction Provider can transport up to 819.2 kFE"
 		""
-		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
 	]
 	quest.58AD6764A194D8DB.quest_subtitle: "Bigger Battery I/O "
 	quest.58E4EE770BEE33EB.quest_desc: ["Structural glass is not necessary for any multiblock, but it can be used instead of some walls in multiblocks to see inside of it"]
 	quest.59895C25DDFF91BD.quest_desc: ["You might find these special light sources around your flesh mound. If you want more light in a certain area, you can break one of these and move it to a spot you like!"]
 	quest.59895C25DDFF91BD.quest_subtitle: "Oooh, glowy"
-	quest.599B3B0F363D984B.quest_desc: [
-		"{info.thermal.machine_bottler.0}"
-		""
-		"{info.thermal.machine_bottler.1}"
-	]
-	quest.599B3B0F363D984B.quest_subtitle: "{info.thermal.machine_bottler.2}"
 	quest.59EA4D9F875D7D03.quest_desc: [
 		"The Chemical Infuser combines two gases to create another gas. "
 		""
@@ -3402,9 +3447,8 @@
 	quest.5A8D403663663939.quest_subtitle: "Begone Flame!"
 	quest.5B073DB6C4609529.quest_desc: ["Mechanical Crafters are Brass Age blocks that can be placed next to each other to form a crafting grid. Some items require a larger crafting grid and can only be made with Mechanical Crafters, like a Crushing Wheel for example."]
 	quest.5B073DB6C4609529.title: "Mechanical Crafters"
-	quest.5B2F0ADC98DFCBF5.quest_desc: ["Increases the strength of an applied potion."]
 	quest.5B665389F249F86E.quest_desc: [
-		"[ \"Best block for \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \". Created out of Overcharged Diamonds and Netherite Scrap.\" ]"
+		"[ \"Best block for \", { \"text\": \"New Age Generator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }, \". Created out of Overcharged Diamonds and Netherite Scrap.\" ]"
 		""
 		"&8Provides 24 Magnetic Power&r"
 	]
@@ -3487,7 +3531,7 @@
 	quest.613236E638C66692.quest_subtitle: "It Spreads"
 	quest.613236E638C66692.title: "Primal Bloom"
 	quest.61380F4AE14D6D21.quest_desc: [
-		"[ \"Upgraded Magnetite block created from regular Magnetite. It is 2nd best Magnet for \", { \"text\": \"New Age Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }]"
+		"[ \"Upgraded Magnetite block created from regular Magnetite. It is 2nd best Magnet for \", { \"text\": \"New Age Generator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AC56FA9013CD02E\" } }]"
 		""
 		"&8Provides 8 Magnetic Power&r"
 	]
@@ -3529,7 +3573,7 @@
 	quest.62EB68FA87F80CED.quest_desc: [
 		"Basic Induction Cell can hold up to 3.2 GFE"
 		""
-		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
 	]
 	quest.62EB68FA87F80CED.quest_subtitle: "Big Battery Cell"
 	quest.6359276B4243403D.title: "Constantan Ingot"
@@ -3545,12 +3589,6 @@
 	quest.63F29667796878B6.quest_subtitle: "Fleshy..."
 	quest.63FC0955B7336ECC.quest_subtitle: "Hazardous Machinery"
 	quest.63FC0955B7336ECC.title: "Crusher"
-	quest.642C2815F184984F.quest_desc: [
-		"{info.thermal.machine_refinery.0}"
-		""
-		"{info.thermal.machine_refinery.1}"
-	]
-	quest.642C2815F184984F.quest_subtitle: "{info.thermal.machine_refinery.2}"
 	quest.64561D6FFC9D8D8D.quest_desc: ["Create a natura pylon, which is needed for the communion ritual"]
 	quest.64561D6FFC9D8D8D.quest_subtitle: "JESSE! WE HAVE COOKED!"
 	quest.6478FFE989ACDE0E.quest_desc: ["Will turn hostile mobs that hit you into allies for a short time"]
@@ -3561,7 +3599,7 @@
 	quest.6517693766FB9201.quest_subtitle: "Portable Magic!"
 	quest.651BB3AF9ED9E341.quest_desc: ["its like a Thorny Chakram, but its well.. flaming :p"]
 	quest.651BB3AF9ED9E341.quest_subtitle: "Baconator"
-	quest.6560EBF0A0DBC0A5.quest_desc: ["[ \"Made with \", { \"text\": \"Godly Kinetic Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7EF8903FCA281F93\" } } ]"]
+	quest.6560EBF0A0DBC0A5.quest_desc: ["[ \"Made with \", { \"text\": \"Godly Kinetic Alloy\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7EF8903FCA281F93\" } } ]"]
 	quest.66136119F1CB9705.title: "Unstable Alloy"
 	quest.66E0DE92D75D0873.quest_desc: [
 		"Copper Casings are blocks used throughout many crafting recipes in Create, as well as for decoration and aesthetic purposes."
@@ -3599,13 +3637,13 @@
 	quest.68D9DEF49C85661C.quest_desc: [
 		"Pressurized Tubes are used to transport Gases. "
 		""
-		"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
+		"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
 		"&6Normal&r — passive"
 		"&aPush&r — actively inserts items"
 		"&ePull&r — actively extracts items"
 		"None — disables connection"
 		""
-		"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
+		"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
 		""
 		"&8Can be upgraded with Alloys by either combining 8 pipes and 1 alloy, or by right-clicking the pipe while Alloy is in hand.&r"
 	]
@@ -3632,7 +3670,6 @@
 	quest.69A7FB4817F3010F.quest_desc: ["Obtain a Terra Tools, which is much stronger than regular tools, some with hidden abilities!"]
 	quest.69A7FB4817F3010F.quest_subtitle: "Magic Sticks"
 	quest.69A7FB4817F3010F.title: "Terra Tools"
-	quest.6A50B0A58B1E2802.quest_desc: ["[ \"Made with \", { \"text\": \"Energy Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0939986F6B65AA69\" } } ]"]
 	quest.6A546B3E93E58AC8.quest_desc: [
 		"The Electric Pump is a device with an internal buffer of 10000mB worth of fluid. It can pump any fluid that is covered in the forge fluid dictionary and can be placed on a shoreline and will pump the fluid under it.  "
 		""
@@ -3640,7 +3677,6 @@
 		""
 		"&8Filter Upgrade can be installed into the pump, it allows the pump to collect heavy water from water.&r"
 	]
-	quest.6AB75B74B5710505.quest_desc: ["Ethanol"]
 	quest.6AE23440548427CA.quest_desc: ["Obtain a lifeless puppet, if only there was like a hand which could puppeteer it.... oh well"]
 	quest.6AE23440548427CA.quest_subtitle: "If only there was someone to puppet it"
 	quest.6AF98F262B812D21.quest_desc: ["Allows you to wear your mana tablet, making it extra fashionable"]
@@ -3649,7 +3685,7 @@
 	quest.6B7489F4D2DE7ABE.quest_desc: [
 		"Advanced Induction Cell can hold up to 25.6 GFE"
 		""
-		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
 	]
 	quest.6B7489F4D2DE7ABE.quest_subtitle: "Bigger Battery Cell"
 	quest.6B9F6D6BCDAC7DB7.quest_desc: ["Obtain a soul furnace, which, when a chalice is placed on top of, will accept souls and use them to fuel the oven"]
@@ -3660,15 +3696,15 @@
 	quest.6C280482C2FB5B4F.quest_subtitle: "Magical Furnace"
 	quest.6C2D4638CB313EEA.quest_desc: ["Now that you have the Centrifuge set up, you can fill up the bottom tank with the filtrated liquid and watch it spin!"]
 	quest.6C2D4638CB313EEA.title: "Fill it Up"
-	quest.6C5EAFB05C72BCBD.quest_desc: ["[ \"Made with \", { \"text\": \"Energy Godly Alloy\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0939986F6B65AA69\" } } ]"]
+	quest.6C5EAFB05C72BCBD.quest_desc: ["[ \"Made with \", { \"text\": \"Energy Godly Alloy\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0939986F6B65AA69\" } } ]"]
 	quest.6C69E2C1B5619EEB.quest_desc: [""]
 	quest.6C8535A4ED77BEC9.title: "Silver Ingot"
 	quest.6CBCDEA7B0E96A9E.title: "XP"
 	quest.6D020F7A92EAFF4C.quest_desc: [
 		"This flower is a bit of an odd one, but it follows conway's game of life, and is a bit confusing, however i would suggest watching this"
-		"{ \"text\": \"Video (Clickable)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.youtube.com/watch?v=6-beEDNEI48\" } }"
+		"{ \"text\": \"Video (Clickable)\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.youtube.com/watch?v=6-beEDNEI48\" } }"
 		"or look at this "
-		"{ \"text\": \"Post (Clickable)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.reddit.com/r/botania/comments/5by0jl/optimal_100round_dandelifeon_setup\" } }"
+		"{ \"text\": \"Post (Clickable)\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.reddit.com/r/botania/comments/5by0jl/optimal_100round_dandelifeon_setup\" } }"
 	]
 	quest.6D020F7A92EAFF4C.quest_subtitle: "OH GOD NOT MATH!!"
 	quest.6D334204B6A6F99B.quest_desc: ["Use the cloth from the pontiff on the totem, turning it into a magical monke which buffs you, and attacks enemies"]
@@ -3679,12 +3715,6 @@
 	quest.6DCDEAA1333F7DEE.quest_subtitle: "Smart Rock"
 	quest.6E54E914C1397410.quest_desc: ["Obtain Big bread, which can be used to create a croisant, all you need is a way to bake it..."]
 	quest.6E54E914C1397410.quest_subtitle: "Its like bread, but big"
-	quest.6E5E117D2040AC61.quest_desc: [
-		"{info.thermal.machine_press.0}"
-		""
-		"{info.thermal.machine_press.1}"
-	]
-	quest.6E5E117D2040AC61.quest_subtitle: "{info.thermal.machine_press.2}"
 	quest.6E7FE8EC82D8194B.quest_desc: ["This flower acts like a kekimurus, in that it will eat other flowers placed around it... yummers :p"]
 	quest.6E7FE8EC82D8194B.quest_subtitle: "CANABALISM?!?!?!"
 	quest.6E97368920DAE881.quest_desc: [
@@ -3697,13 +3727,13 @@
 	quest.6F090DF94C778B3A.quest_desc: [
 		"The Logistical Transporter is the basic item transport pipe for Mekanism logistics."
 		""
-		"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
+		"[ \"The behavior of each of the pipe's connection can be changed by Shift + right-clicking the end of a pipe with a \", { \"text\": \"Configurator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } }, \":\" ]"
 		"&6Normal&r — passive"
 		"&aPush&r — actively inserts items"
 		"&ePull&r — actively extracts items"
 		"None — disables connection"
 		""
-		"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
+		"[ \"Can be colored to avoid confusion and stop different pipes from conecting to eachother, to do this Shift + Right-click base of the pipe with a \", { \"text\": \"Configurator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5025697AF514D2\" } } ]"
 		""
 		"&8Can be upgraded with Alloys by either combining 8 pipes and 1 alloy, or by right-clicking the pipe while Alloy is in hand.&r"
 	]
@@ -3713,24 +3743,6 @@
 	quest.6F8FA16F7D787D5C.title: "Nuclear Waste"
 	quest.6FEAD8D0F1009743.quest_desc: ["This bucket will void liquids, making it great for cleanup of liquids that you dont care about :3"]
 	quest.6FEAD8D0F1009743.quest_subtitle: "wha- *falls into the ether*"
-	quest.6FECD729F49669CA.quest_desc: [
-		"{info.thermal.machine_crucible.0}"
-		""
-		"{info.thermal.machine_crucible.1}"
-	]
-	quest.6FECD729F49669CA.quest_subtitle: "{info.thermal.machine_crucible.2}"
-	quest.7008601BDEF473A3.quest_desc: [
-		"{info.thermal.machine_smelter.0}"
-		""
-		"{info.thermal.machine_smelter.1}"
-	]
-	quest.7008601BDEF473A3.quest_subtitle: "{info.thermal.machine_smelter.2}"
-	quest.70144B7A34667B05.quest_desc: [
-		"{info.thermal.machine_brewer.0}"
-		""
-		"{info.thermal.machine_brewer.1}"
-	]
-	quest.70144B7A34667B05.quest_subtitle: "{info.thermal.machine_brewer.2}"
 	quest.702E988F57F59328.quest_desc: [
 		"In this modpack radiation from New Age goes through leather armor "
 		""
@@ -3754,11 +3766,11 @@
 	quest.7152B3E6B0F9F5EF.quest_desc: ["Frenzy serum gives you some nice effects like speed, strength, and haste. Just beware of the withdrawal effects that come after..."]
 	quest.7152B3E6B0F9F5EF.quest_subtitle: "Try not to get addicted"
 	quest.71DDA02234E80962.quest_desc: [
-		"[ \"Upgrade for \", { \"text\": \"Mining Drill\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59D6C114E1EB8818\" } }, \" and \", { \"text\": \"Buzzsaw\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A58B87B289A7118\" } }, \".\"]"
+		"[ \"Upgrade for \", { \"text\": \"Mining Drill\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59D6C114E1EB8818\" } }, \" and \", { \"text\": \"Buzzsaw\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A58B87B289A7118\" } }, \".\"]"
 		""
 		"Reduses damage to the Mining Drill head and Buzzsaw blade."
 		""
-		"[ \"Can be applied to tool in \", { \"text\": \"Engineer's Workbench\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69D0022DDE12283D\" } }, \".\" ]"
+		"[ \"Can be applied to tool in \", { \"text\": \"Engineer's Workbench\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69D0022DDE12283D\" } }, \".\" ]"
 	]
 	quest.7244ACCE7B1EA609.title: "Tin Dust"
 	quest.72B11A8B658E1BF8.quest_desc: ["Make this serum for some extra absorption hearts!"]
@@ -3767,19 +3779,11 @@
 	quest.72C605D5F08E942D.quest_subtitle: "Mmm, nutrients"
 	quest.72EE99B1831D7BD4.quest_desc: ["Use every rune that you've gotten to this point, to create a plate which turnes mana infused items into Terrasteel, with the cost of a ton of mana of course :p"]
 	quest.72EE99B1831D7BD4.quest_subtitle: "The avatar"
-	quest.738B273CFAD8F3A1.quest_desc: [
-		"{info.thermal.machine_sawmill.0}"
-		""
-		"{info.thermal.machine_sawmill.1}"
-	]
-	quest.738B273CFAD8F3A1.quest_subtitle: "{info.thermal.machine_sawmill.2}"
 	quest.74837414C3A22899.quest_desc: ["The Iron Sheet is a crafting component used in multiple crafting recipes."]
 	quest.757822F72F3FE14F.quest_desc: ["If heat pipe reaches &410000T&r it will turn to &clava&r, and unlike other blocks heat pipes can be destroyed by flowing lava, so 1 overheated spot can cause &cchain reaction&r if left unnoticed."]
 	quest.757822F72F3FE14F.title: "Risk of Melting"
 	quest.759171FDCBE90927.title: "D-T Fuel"
 	quest.75BA8DAE253D5BAF.quest_desc: ["The Digital Miner is the scale mining machine of Mekanism. However, this machine just teleports mined blocks to its inventory."]
-	quest.7631B69595DE7DA6.quest_desc: ["{info.thermal.dynamo_numismatic.0}"]
-	quest.7631B69595DE7DA6.quest_subtitle: "{info.thermal.dynamo_numismatic.2}"
 	quest.770BCA67195C96C3.quest_desc: [
 		"A Wrench can be used to give the tunnel windows."
 		""
@@ -3802,7 +3806,7 @@
 	]
 	quest.7892A00AEF474B56.quest_desc: ["Obtain a Kekimurus, which will consume cake and generate mana!"]
 	quest.7892A00AEF474B56.quest_subtitle: "mmmm cake "
-	quest.78FA150F447544C8.quest_desc: ["[ \"Preassure dispersers are used in Turbine, place them on one layer with \", { \"text\": \"Rotational Complex\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35BF1D9F8D139459\" } }, \".\" ]"]
+	quest.78FA150F447544C8.quest_desc: ["[ \"Preassure dispersers are used in Turbine, place them on one layer with \", { \"text\": \"Rotational Complex\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35BF1D9F8D139459\" } }, \".\" ]"]
 	quest.791E9151EC37770F.quest_desc: ["Can store nearly infinite amounts of items, just 1 item at a time ;3"]
 	quest.791E9151EC37770F.quest_subtitle: "Infinite storage"
 	quest.79376EA1DDFFFD39.quest_desc: [
@@ -3826,15 +3830,14 @@
 		""
 		"Unlike many create contraptions, millstones are capable of receiving rotational force from both cogs (from the side) and shafts (from the bottom)."
 	]
-	quest.79B60FE2BB5F7049.quest_desc: ["{info.thermal.machine_insolator.0}"]
-	quest.79B60FE2BB5F7049.quest_subtitle: "{info.thermal.machine_insolator.1}"
+	quest.799063E3A36FD472.title: "Fumo and blahaj"
 	quest.79E5B71B36FB83DC.title: "Tin Ingot"
 	quest.7B16E9F7C8996C69.quest_desc: [
 		"The Chemical Injection Chamber is mainly used to multiply ore. "
 		""
 		"It is the start of x4 ore processing and requires a steady supply of Hydrogen Chloride."
 		""
-		"[ \"Can also be used to \", { \"text\": \"repossess nuclear fuel\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A90D76598166235\" } }, \".\" ]"
+		"[ \"Can also be used to \", { \"text\": \"repossess nuclear fuel\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A90D76598166235\" } }, \".\" ]"
 	]
 	quest.7B196B74898CA9AD.quest_desc: [
 		"Andesite Alloy is the most basic component construction material in Create."
@@ -3850,7 +3853,7 @@
 	quest.7BC2ECAB8B22CBFF.quest_desc: ["Only use is to create Sulfuric Acid"]
 	quest.7BC2ECAB8B22CBFF.quest_subtitle: "Gas Sulfur³"
 	quest.7BC2ECAB8B22CBFF.title: "Sulfur Trioxide"
-	quest.7BDF641DB273182F.quest_desc: ["[ \"Turbine Rotor is one of the block responsible for generating electricity, \", { \"text\": \"Rotor Blades\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21D2ECE01D979648\" } }, \" attach onto Rotor (2 per) and are actual block that\" ] responsible for generating power."]
+	quest.7BDF641DB273182F.quest_desc: ["[ \"Turbine Rotor is one of the block responsible for generating electricity, \", { \"text\": \"Rotor Blades\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21D2ECE01D979648\" } }, \" attach onto Rotor (2 per) and are actual block that\" ] responsible for generating power."]
 	quest.7BDF641DB273182F.quest_subtitle: "Spin me right round"
 	quest.7BE8C6FB5A2BB437.quest_desc: ["Fill up a grail from the greater chalice, allowing you to create life forms, just dont drink it"]
 	quest.7BE8C6FB5A2BB437.quest_subtitle: "Something Something king arthur"
@@ -3884,7 +3887,7 @@
 		""
 		"Can Make:"
 		""
-		"[ \"\", { \"text\": \"Creative Motor\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6560EBF0A0DBC0A5\" } }, \" from Create\" ]"
+		"[ \"\", { \"text\": \"Creative Motor\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6560EBF0A0DBC0A5\" } }, \" from Create\" ]"
 	]
 	quest.7F1FC387AB804DD8.quest_desc: [
 		"The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it. It is an important early-game item, as it is used to press Ingots into Sheets, which are important ingredients for higher-level components."
@@ -3901,7 +3904,7 @@
 	quest.7FD99F0885299CBE.quest_desc: [
 		"Ultimate Induction Cell can hold up to 1.6 TFE"
 		""
-		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
+		"[ \"Can only be used as part of \", { \"text\": \"Induction Matrix\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ADB4087CB1B55B7\" } } ]"
 	]
 	quest.7FD99F0885299CBE.quest_subtitle: "Biggest Battery Cell"
 	task.01334D1458EA53B2.title: "{quest.checkmark.ok}"
@@ -3918,7 +3921,6 @@
 	task.18DB029DCC58EAFD.title: "Right-click any block while Hydroflouric Acid is inside"
 	task.19259BB863FE62A2.title: "Done"
 	task.196C5E0A9724C7E6.title: "Right-click any block while Fissile Fuel is inside"
-	task.1C3052F166BBD633.title: "Fumos!"
 	task.2A7ECCE4A2BEE393.title: "Strange robot"
 	task.2B5F9974046E722C.title: "a123"
 	task.2BC0E42E26595DBB.title: "Right-click any block while Deuterium is inside"
@@ -3943,7 +3945,6 @@
 	task.5042389DF6578656.title: "Right-click any block while Sodium is inside"
 	task.507370457C85E239.title: "Right-click any block while Suilfur Dioxide is inside"
 	task.53501A8E6EFE8143.title: "Right-click any block while Heavy Water is inside"
-	task.58C470BBC8D8F88D.title: "Unknown type: questsadditions:time"
 	task.5D69C5F497E9E41A.title: "Done"
 	task.5EF3562178B81DA3.title: "Right-click any block while Uranium Oxide is inside"
 	task.61C80229A6088D66.title: "Right-click any block while any Dirty Slurry is inside"

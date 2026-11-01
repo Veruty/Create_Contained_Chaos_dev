@@ -5,7 +5,7 @@
 	group: "53B219EDA5E606F4"
 	id: "3ACDE05DA650E838"
 	images: [ ]
-	order_index: 2
+	order_index: 1
 	quest_links: [
 		{
 			id: "547BF02A61F82CB2"
@@ -68,12 +68,6 @@
 			y: 0.5d
 		}
 		{
-			id: "02535C11216A7840"
-			linked_quest: "3AD3293C7E0AFE5E"
-			x: -3.0d
-			y: 0.5d
-		}
-		{
 			id: "6EAF891EA05CF541"
 			linked_quest: "37B06FC941C75A60"
 			x: 0.0d
@@ -90,12 +84,6 @@
 			linked_quest: "08E13E7BE1D8864D"
 			x: 6.0d
 			y: -5.5d
-		}
-		{
-			id: "057E011A52137399"
-			linked_quest: "000099F56EB2D52B"
-			x: -6.0d
-			y: -1.0d
 		}
 		{
 			id: "4E2D521FDFFB6472"
@@ -151,6 +139,54 @@
 			x: 3.0d
 			y: -7.0d
 		}
+		{
+			id: "1B1D4B85C22C3C96"
+			linked_quest: "5124C541C843D073"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "279C2B2C2465A74F"
+			linked_quest: "2A6F014969A34A39"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "6E9B70BA1E71BB82"
+			linked_quest: "5FB7F9FD671703FF"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "71265B1B355EE3C6"
+			linked_quest: "643E2A054BD3EFE1"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "1509638CD2BD21A1"
+			linked_quest: "7C91BF404812A3F5"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "0C5C08A255725887"
+			linked_quest: "13D6C9AB7B63ED6F"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "3CC3C934071EEDDD"
+			linked_quest: "4A4B1426488CC5D8"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "1EC4DEB210697C3F"
+			linked_quest: "4FBF9D097F1353B6"
+			x: -3.0d
+			y: -1.0d
+		}
 	]
 	quests: [
 		{
@@ -161,7 +197,7 @@
 				item: { count: 1, id: "createdieselgenerators:wire_cutters" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -261,6 +297,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["5FB7F9FD671703FF"]
 			id: "619EB510BF553A9A"
 			tasks: [
 				{
@@ -288,6 +325,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["5FB7F9FD671703FF"]
 			id: "43F359A93887B137"
 			tasks: [{
 				id: "0221C1DEBF484CA3"
@@ -310,6 +348,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["2A6F014969A34A39"]
 			id: "70E45C80F13D1DF9"
 			tasks: [{
 				id: "750872629068BABD"
@@ -424,143 +463,15 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0F2000A3828DD2A0"]
-			id: "0D54515C2F1422BC"
-			tasks: [{
-				id: "00C2202E62C93CDB"
-				item: { components: { "ftbquests:missing_item": "thermal:wrench" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["1582AF37FFA4377D"]
-			hide_dependency_lines: true
-			id: "369BF0F6F9E74C57"
-			tasks: [{
-				id: "652B5A5BA8A5F539"
-				item: { components: { "ftbquests:missing_item": "thermal:redprint" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["000099F56EB2D52B"]
-			id: "569E99CF30853B2E"
-			tasks: [{
-				id: "0C72B2CFF1F71E6B"
-				item: { components: { "ftbquests:missing_item": "thermal:florb" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["2B696CA62EB0083F"]
-			id: "50EBD65CA8334938"
-			tasks: [{
-				id: "5C7B3DC38AECA292"
-				item: { components: { "ftbquests:missing_item": "thermal:flux_drill" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["2B696CA62EB0083F"]
-			id: "10A8AADE334FF8ED"
-			tasks: [{
-				id: "22C2CC100AA758D4"
-				item: { components: { "ftbquests:missing_item": "thermal:flux_saw" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["000099F56EB2D52B"]
+			dependencies: ["5124C541C843D073"]
 			id: "348B8187567F1B60"
 			tasks: [{
 				id: "2354079E1CC9765C"
 				item: { count: 1, id: "mekanism:cardboard_box" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["3AD3293C7E0AFE5E"]
-			id: "5BC4166217EE3746"
-			tasks: [{
-				id: "78FB43549F90BCEE"
-				item: { components: { "ftbquests:missing_item": "thermal:potion_quiver" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
 			x: -4.5d
 			y: 0.5d
-		}
-		{
-			dependencies: ["3AD3293C7E0AFE5E"]
-			id: "254E4932EC0F65DE"
-			tasks: [{
-				id: "74C456AFD4D1F7B3"
-				item: { components: { "ftbquests:missing_item": "thermal:rf_potato" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3AD3293C7E0AFE5E"]
-			id: "45924C04AA899369"
-			tasks: [{
-				id: "53CC9AA8011F9EC1"
-				item: { components: { "ftbquests:missing_item": "thermal:potion_infuser" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3AD3293C7E0AFE5E"]
-			id: "4B411BCE6B93026F"
-			tasks: [{
-				id: "36C3B4FA6D07DB69"
-				item: { components: { "ftbquests:missing_item": "thermal:fluid_reservoir" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"3410A7C9AAFDDF9D"
-				"34716F03D4E67B4E"
-			]
-			id: "7626338EC1AE3DC4"
-			tasks: [{
-				id: "4C36CA6119210DDD"
-				item: { components: { "ftbquests:missing_item": "thermal:flux_capacitor" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"47272468310BF7CD"
-				"34716F03D4E67B4E"
-			]
-			id: "27E099B509BC96EA"
-			tasks: [{
-				id: "6683BF9EF125BB86"
-				item: { components: { "ftbquests:missing_item": "thermal:flux_magnet" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["2B696CA62EB0083F"]
@@ -572,7 +483,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["37B06FC941C75A60"]

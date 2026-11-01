@@ -3,30 +3,129 @@
 	default_quest_shape: ""
 	filename: "main"
 	group: "71836C70060BBCB5"
+	icon: {
+		id: "extendedcrafting:basic_table"
+	}
 	id: "0A414D5450CE1842"
-	images: [{
-		height: 1.0d
-		id: "0DC6A626008495C0"
-		image: "supplementaries:block/cannon_arrow"
-		rotation: 0.0d
-		width: 1.0d
-		x: 28.0d
-		y: 1.0d
-	}]
-	order_index: 1
-	quest_links: [
+	images: [
 		{
-			id: "2385235F97CBC144"
-			linked_quest: "1A54443AF5949C4B"
-			x: 3.5d
+			height: 1.0d
+			id: "0DC6A626008495C0"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "75A143B0A11B39C0"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
-			id: "6756239C78DB5B91"
-			linked_quest: "53327BB505D158D7"
-			x: 9.5d
-			y: 2.0d
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "02722B0CB8FF0315"
+			image: "createbigcannons:fluid/molten_cast_iron_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -3.0d
 		}
+		{
+			height: 1.0d
+			id: "3903848EB03A0030"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "54AA3E07DE7738E1"
+			image: "kubejs:textures/questimg/create/press_animated.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			id: "111DE40B219F55CB"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "0C1816B3E3D44976"
+			image: "kubejs:textures/questimg/create/basin.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "5BFFE58B4EA07275"
+			image: "kubejs:textures/questimg/create/basin.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "7B5CD85B964E9266"
+			image: "createbigcannons:block/basin_foundry_lid"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.48979591836735d
+			y: -3.8418367346938638d
+		}
+		{
+			height: 1.0d
+			id: "15EF50B002F55250"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			click_action: "open_quest:0F2000A3828DD2A0"
+			height: 1.0d
+			id: "180F9AA0F7385E17"
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			click_action: "open_quest:0D27740F8ACC92E6"
+			height: 1.0d
+			id: "387670D5A65F3827"
+			image: "kubejs:textures/questimg/create/blaze_burner.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [
 		{
 			id: "451D934A3A7EE22A"
 			linked_quest: "4882C29ACF76E6CD"
@@ -100,22 +199,10 @@
 			y: -3.0d
 		}
 		{
-			id: "4E1977979F7CF452"
-			linked_quest: "317F3BD1758CACA7"
-			x: 16.0d
-			y: 2.0d
-		}
-		{
 			id: "235C414F52669E1B"
 			linked_quest: "4AAC51163B63FAE2"
 			x: 28.0d
 			y: 2.0d
-		}
-		{
-			id: "47DC05A55B23E7A4"
-			linked_quest: "55A1237E4E373FCA"
-			x: 6.5d
-			y: -3.0d
 		}
 		{
 			id: "319E2CE286FD3D27"
@@ -160,12 +247,6 @@
 			y: 0.5d
 		}
 		{
-			id: "480E4EAB1E811E56"
-			linked_quest: "5F984322D0752EE2"
-			x: 12.5d
-			y: 2.0d
-		}
-		{
 			id: "039AAE7D5117C838"
 			linked_quest: "5395CF88D9DA6DAB"
 			x: 15.0d
@@ -175,6 +256,42 @@
 			id: "2EFB79581224D516"
 			linked_quest: "51338E6A7F983F7E"
 			x: 3.5d
+			y: -3.0d
+		}
+		{
+			id: "342318B6B70F70BC"
+			linked_quest: "057F9EB23F80137B"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "3B5124A306B978F7"
+			linked_quest: "52A27A14C80DD1D5"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "219441C3612044CE"
+			linked_quest: "33018F2BDE1BE330"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			id: "5C41103EEB270E7D"
+			linked_quest: "37D49AB4CD6EA1B0"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "33B6DD49CE50D616"
+			linked_quest: "49FBA3E87E3985CE"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			id: "1EE9504D4A35C6ED"
+			linked_quest: "50A118A49E141F3A"
+			x: 16.0d
 			y: 2.0d
 		}
 	]
@@ -198,8 +315,8 @@
 		{
 			dependencies: [
 				"509C080E55211372"
-				"1A54443AF5949C4B"
 				"51338E6A7F983F7E"
+				"52A27A14C80DD1D5"
 			]
 			id: "73CCE04FCA9F4AD4"
 			size: 1.5d
@@ -215,7 +332,8 @@
 			dependencies: [
 				"2008D0737B9A95B8"
 				"73CCE04FCA9F4AD4"
-				"55A1237E4E373FCA"
+				"057F9EB23F80137B"
+				"33018F2BDE1BE330"
 			]
 			id: "2B1A14E191C9056E"
 			size: 1.5d
@@ -235,20 +353,23 @@
 				item: { count: 1, id: "bloodmagic:blankslate" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["0E26D8711F2FDDE4"]
 			disable_toast: true
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "12CC1F7C26B181D4"
 			tasks: [{
-				id: "5F3E5AFC788ACF1B"
-				type: "custom"
+				id: "048B54CB1A993EC8"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
 			}]
 			x: -5.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2B1A14E191C9056E"]
@@ -278,7 +399,8 @@
 			dependencies: [
 				"3A0FC8A2B89BD5AC"
 				"4AECF6CD33D2D13D"
-				"5F984322D0752EE2"
+				"37D49AB4CD6EA1B0"
+				"49FBA3E87E3985CE"
 			]
 			id: "715C04F6C77E73EB"
 			size: 1.5d
@@ -294,8 +416,8 @@
 			dependencies: [
 				"1BF2B00BBDA7C6C3"
 				"715C04F6C77E73EB"
-				"317F3BD1758CACA7"
 				"5395CF88D9DA6DAB"
+				"50A118A49E141F3A"
 			]
 			id: "17A0F69A1D15F019"
 			size: 1.5d

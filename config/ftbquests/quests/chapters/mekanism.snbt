@@ -4,7 +4,7 @@
 	filename: "mekanism"
 	group: "3C9C2CEF96DB5B0C"
 	icon: {
-		id: "mekanism:ingot_osmium"
+		id: "mekanism:alloy_infused"
 	}
 	id: "60BE6236A0E7840B"
 	images: [
@@ -1604,7 +1604,7 @@
 			y: 0.5d
 		}
 	]
-	order_index: 5
+	order_index: 6
 	quest_links: [
 		{
 			id: "03011F2C97537CE8"
@@ -1701,12 +1701,6 @@
 			linked_quest: "3D34425A97C15842"
 			x: 30.0d
 			y: -7.5d
-		}
-		{
-			id: "1202AC55316F182C"
-			linked_quest: "000099F56EB2D52B"
-			x: 13.0d
-			y: 3.5d
 		}
 		{
 			id: "1B4C00595AEBBBCE"
@@ -3530,6 +3524,17 @@
 			}]
 			x: 2.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["12A42A5F44B3BC36"]
+			id: "5124C541C843D073"
+			tasks: [{
+				id: "686F0B81097BB74C"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/wood))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.5d
 		}
 	]
 }

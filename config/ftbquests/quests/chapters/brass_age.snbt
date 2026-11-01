@@ -627,19 +627,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0F6604EA16142E25"]
-			id: "1863D986D059B552"
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "5EA10BB2C6429131"
-				item: { components: { "ftbquests:missing_item": "thermal:obsidian_glass" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 6.5d
-		}
-		{
 			dependencies: ["1D1FE294A7E4C824"]
 			id: "627A46A903EEE34F"
 			tasks: [{
@@ -665,8 +652,8 @@
 			dependencies: ["4BCDA1E23D59D3DA"]
 			id: "10940CC893D6FB87"
 			tasks: [{
-				id: "2CD87EB9BEAB2AB6"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "7C099EC7D2DE8DB2"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(create:crushed_raw_materials))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -803,24 +790,6 @@
 			}]
 			x: -1.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["0E1AD70420CEC1FB"]
-			id: "20F4256988942B79"
-			tasks: [
-				{
-					id: "42F8897939FACD79"
-					item: { components: { "ftbquests:missing_item": "create_confectionery:gingerbread_man" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "347CE01985AE62F0"
-					item: { components: { "ftbquests:missing_item": "create_confectionery:gingerdough" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 10.0d
 		}
 		{
 			dependencies: [
