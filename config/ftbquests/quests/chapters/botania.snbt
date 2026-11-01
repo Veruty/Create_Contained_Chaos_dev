@@ -1551,8 +1551,8 @@
 			dependencies: ["3C13751C2045C375"]
 			id: "424EB364362EEE26"
 			tasks: [{
-				id: "3F7A5581FE80E520"
-				item: { components: { "ftbquests:missing_item": "botania:spawner_claw" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1A396F2495F4C5FB"
+				item: { count: 1, id: "botania:life_imbuer" }
 				type: "item"
 			}]
 			x: 32.0d

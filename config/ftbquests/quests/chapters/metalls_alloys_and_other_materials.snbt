@@ -431,13 +431,10 @@
 			id: "13DB6781627E18E8"
 			rewards: [{
 				count: 4
-				id: "13F7B83383A32E69"
+				id: "3B2749ED17FC2385"
 				item: {
-					components: {
-						"ftbquests:missing_item": "thermal:invar_ingot"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "dynamiducts:invar_ingot"
 				}
 				type: "item"
 			}]
@@ -477,13 +474,10 @@
 			id: "4CCDC24B680782FF"
 			rewards: [{
 				count: 8
-				id: "5396F6107F92BB0E"
+				id: "4D7B18124EE5357B"
 				item: {
-					components: {
-						"ftbquests:missing_item": "thermal:nickel_ingot"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "immersiveengineering:ingot_nickel"
 				}
 				type: "item"
 			}]
@@ -547,13 +541,10 @@
 			min_required_dependencies: 2
 			rewards: [{
 				count: 4
-				id: "7445B0703F3A1BE5"
+				id: "23E4B1C1E640A078"
 				item: {
-					components: {
-						"ftbquests:missing_item": "thermal:steel_ingot"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "immersiveengineering:ingot_steel"
 				}
 				type: "item"
 			}]
@@ -634,13 +625,10 @@
 			id: "6C8535A4ED77BEC9"
 			rewards: [{
 				count: 8
-				id: "7969BC803FDB47FE"
+				id: "43EDE2FCB64F320D"
 				item: {
-					components: {
-						"ftbquests:missing_item": "thermal:silver_ingot"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "immersiveengineering:ingot_silver"
 				}
 				type: "item"
 			}]
@@ -679,11 +667,8 @@
 				count: 8
 				id: "56F62CCD1705689C"
 				item: {
-					components: {
-						"ftbquests:missing_item": "thermal:lead_ingot"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "immersiveengineering:ingot_lead"
 				}
 				type: "item"
 			}]
@@ -702,11 +687,8 @@
 				count: 8
 				id: "26179429B5BCE6CC"
 				item: {
-					components: {
-						"ftbquests:missing_item": "thermal:tin_ingot"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mekanism:ingot_tin"
 				}
 				type: "item"
 			}]
@@ -751,11 +733,8 @@
 				count: 4
 				id: "08A148052E9D5DEB"
 				item: {
-					components: {
-						"ftbquests:missing_item": "thermal:bronze_ingot"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mekanism:ingot_bronze"
 				}
 				type: "item"
 			}]
@@ -776,13 +755,10 @@
 			id: "49FBA3E87E3985CE"
 			rewards: [{
 				count: 2
-				id: "1FDFEE3F9FBF2589"
+				id: "467400CD5AD2E47F"
 				item: {
-					components: {
-						"ftbquests:missing_item": "thermal:signalum_ingot"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "dynamiducts:signalum_ingot"
 				}
 				type: "item"
 			}]
@@ -805,11 +781,8 @@
 				count: 2
 				id: "2D87ADD36858C11E"
 				item: {
-					components: {
-						"ftbquests:missing_item": "thermal:enderium_ingot"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "dynamiducts:enderium_ingot"
 				}
 				type: "item"
 			}]
@@ -829,13 +802,10 @@
 			id: "2D32F8A06B3EB8C9"
 			rewards: [{
 				count: 4
-				id: "040B0489ED9765CB"
+				id: "064094C5E3E8095A"
 				item: {
-					components: {
-						"ftbquests:missing_item": "thermal:electrum_ingot"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "immersiveengineering:ingot_electrum"
 				}
 				type: "item"
 			}]
@@ -852,13 +822,10 @@
 			id: "3410A7C9AAFDDF9D"
 			rewards: [{
 				count: 8
-				id: "702EC0A91E618C48"
+				id: "681FCA0436513AB6"
 				item: {
-					components: {
-						"ftbquests:missing_item": "thermal:sulfur_dust"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mekanism:dust_sulfur"
 				}
 				type: "item"
 			}]
