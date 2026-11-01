@@ -8,26 +8,12 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create:splashing/mekanism/crushed_raw_osmium' })
 	event.remove({ id: 'thermal:compat/mekanism/smelter_mek_osmium_ore' })
 	event.remove({ id: 'thermal:compat/mekanism/pulverizer_mek_osmium_ore' })
-	event.remove({ id: 'mekanism:configurator' })
 	event.remove({ id: 'immersiveengineering:crafting/raw_hammercrushing_osmium' })
 	event.remove({ id: 'immersiveengineering:crafting/hammercrushing_osmium' })
 	event.remove({ id: 'immersiveengineering:crusher/ore_osmium' })
 	event.remove({ id: 'immersiveengineering:crusher/raw_ore_osmium' })
 	event.remove({ id: 'immersiveengineering:crusher/raw_block_osmium' })
-    event.shaped(
-        Item.of('mekanism:configurator'),
-        [
-            ' A ',
-            'BCB',
-            ' D '
-        ],
-        {
-            B: '#c:ingots/steel',
-            A: 'minecraft:lapis_lazuli',
-            D: 'minecraft:stick',
-            C: 'minecraft:bedrock'
-        }
-    )
+
   //  event.custom({"type": "thermal:smelter",
 	//	"ingredients": [
 	//		{"value": [{"tag": "c:raw_materials/osmium"}, {"item": "create:crushed_raw_osmium"}, {"tag": "c:dusts/osmium"}, {"tag": "c:ores/osmium"}],"count": 1},
