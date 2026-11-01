@@ -1,0 +1,1 @@
+All of the textures/models in folder assets\kubejs\textures\questimg and its subfolders belong to their original authors. 
