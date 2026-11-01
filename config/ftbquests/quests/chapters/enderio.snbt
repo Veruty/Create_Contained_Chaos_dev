@@ -1,0 +1,2053 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enderio"
+	group: "3C9C2CEF96DB5B0C"
+	icon: {
+		id: "enderio:frank_n_zombie"
+	}
+	id: "34E54F234B470CB5"
+	images: [
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "3FE4B344CCEC2EB9"
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "2A435A6DBB32C7FE"
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "377ACBD99959647E"
+			image: "fancymenu:textures/contextmenu/icons/arrow_vertical.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "4987D61EFC880334"
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "00E221E1CEDB889A"
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "0FF6617201CC5104"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "26D0B9AA3294B09E"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -15.5d
+			y: 8.5d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "24F4BE50D668A275"
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "491F3721026AB89A"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "707E4B1564214299"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			height: 1.0d
+			id: "101035BC45051ECC"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 16.5d
+		}
+		{
+			height: 1.0d
+			id: "6967FBA1FFF9A3EC"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "5D97719DB3392CAD"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 135.0d
+			width: 1.0d
+			x: -17.5d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "10424708821F6228"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: -17.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			id: "48B88350A74315FB"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -17.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "07665B7C08FAE548"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -19.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "7638A4DFE5A1C945"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -21.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "7597B13430BDCEF6"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -21.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "4B666D6CE1C8E2A7"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -19.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "10EACDD0E71619BC"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -19.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			id: "516A00BFE13A1375"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -21.5d
+			y: 6.0d
+		}
+		{
+			click_action: "open_quest:077B443276622409"
+			height: 1.0d
+			id: "1EE489E607759EF2"
+			image: "enderio:block/soul_engine_front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			click_action: "open_quest:4F6D2AC126CF3067"
+			height: 1.0d
+			id: "5B6293D14F3B9B11"
+			image: "enderio:block/vat_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "6C45D125E1D1BF21"
+			image: "fancymenu:textures/contextmenu/icons/arrow_vertical.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "7E0D42361690742A"
+			image: "fancymenu:textures/contextmenu/icons/arrow_vertical.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			click_action: "show_recipe:enderio:fluid_fire_water_still"
+			height: 1.0d
+			id: "28A3E2D4C7B8F585"
+			image: "enderio:block/fire_water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			click_action: "show_recipe:enderio:fluid_fire_water_still"
+			height: 1.0d
+			id: "2578C9D9BE34C40F"
+			image: "enderio:block/fire_water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			click_action: "show_recipe:enderio:fluid_fire_water_still"
+			height: 1.0d
+			id: "3DDE01767B7EDFD2"
+			image: "enderio:block/fire_water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			click_action: "show_recipe:enderio:fluid_hootch"
+			height: 1.0d
+			id: "789647D3E86E98FC"
+			image: "enderio:block/hootch_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			click_action: "custom_event: "
+			color: 1926101
+			height: 1.0d
+			id: "02DE7203BA1FF3AE"
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			id: "68D1C8D2A2A02839"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			id: "77141C672BDD9443"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			id: "40AB0029FC593D41"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "263277138E35F005"
+			image: "minecraft:item/wheat_seeds"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "1692EF376AA79D2B"
+			image: "minecraft:item/wheat"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			id: "585C4053ADFD7106"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "0E0D3F1DCF179AE2"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			click_action: "open_quest:4F6D2AC126CF3067"
+			height: 1.0d
+			id: "45B0132F176B7423"
+			image: "enderio:block/vat_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			click_action: "open_quest:4F6D2AC126CF3067"
+			height: 1.0d
+			id: "0D8CC9A9C2A7002F"
+			image: "enderio:block/vat_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "64A1D39D0156806E"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			id: "57F1DF982B452E52"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "24AA219079BEFCBD"
+			image: "minecraft:item/redstone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "6E8F4F76AFA2C8BF"
+			image: "minecraft:item/blaze_powder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			id: "35D4D7331C220A26"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "336D434E3282D603"
+			image: "enderio:block/rocket_fuel_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "360D824C3B604682"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "001F6A9AAF895736"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "0C866E59157C9686"
+			image: "minecraft:item/redstone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "04C7204CED34D6EA"
+			image: "minecraft:item/gunpowder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			id: "66B33C896B570DC6"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			click_action: "open_quest:4F6D2AC126CF3067"
+			height: 1.0d
+			id: "086FA427F70FD782"
+			image: "enderio:block/vat_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			id: "1CC9081424D4E352"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "1CFA8AC9C7F2D5B0"
+			image: "enderio:block/cloud_seed_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			id: "6EB92F5F5035724B"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			click_action: "open_quest:4F6D2AC126CF3067"
+			height: 1.0d
+			id: "3FDDC3A09928BDB1"
+			image: "enderio:block/vat_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			id: "283079AF1ACAFD79"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			id: "70A3C701B805C738"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "69D170F2457D5DE0"
+			image: "enderio:textures/gui/icons/weather_rain.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "446C2A8B7143774C"
+			image: "enderio:block/cloud_seed_concentrated_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			id: "3A485C5628F9615C"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "1E034F1E11532D5C"
+			image: "enderio:textures/gui/icons/weather_thunder.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			id: "76B1E465A8E8A74F"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "058EDF37E78775B8"
+			image: "minecraft:item/prismarine_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "287822D84BF3C3CC"
+			image: "minecraft:item/snowball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "4EF15A119F4E1AC9"
+			image: "minecraft:item/wind_charge"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "70FC1DCEB35B6F9D"
+			image: "kubejs:textures/questimg/lightning_rod.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			id: "2139ED00E9E854C1"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			click_action: "open_quest:4F6D2AC126CF3067"
+			height: 1.0d
+			id: "7C3B0C8FD673172C"
+			image: "enderio:block/vat_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			id: "15368741CCF9790B"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			id: "35AA15105C25054F"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			id: "0BBBBDDC17B12C91"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			click_action: "open_quest:252CDD7CACB4D0A2"
+			height: 0.5d
+			id: "6B20D545DB96E2B1"
+			image: "minecraft:item/firework_rocket"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.030272108843533d
+			y: 9.705782312925173d
+		}
+		{
+			click_action: "open_quest:252CDD7CACB4D0A2"
+			height: 0.5d
+			id: "13E17CD2FD58578A"
+			image: "enderio:block/soul_machine_top"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.030272108843533d
+			y: 10.195578231292515d
+		}
+		{
+			click_action: "open_quest:252CDD7CACB4D0A2"
+			height: 0.5d
+			id: "527D68A0AED38543"
+			image: "enderio:block/soul_machine_top"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.030272108843533d
+			y: 14.215986394557824d
+		}
+		{
+			click_action: "open_quest:252CDD7CACB4D0A2"
+			height: 0.5d
+			id: "2DFB22E6FB9B1A4F"
+			image: "minecraft:item/firework_rocket"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.030272108843533d
+			y: 13.746598639455783d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "41170DAE8313D2E8"
+			image: "enderio:block/nutrient_distillation_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			click_action: "open_quest:4F6D2AC126CF3067"
+			height: 1.0d
+			id: "2D83CD5404247E42"
+			image: "enderio:block/vat_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			id: "56E5FAB7DA1A7E1A"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			id: "265373C58C36D062"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			id: "1CCE8BEF770E2FAB"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "1F0BADCB7F22D1D1"
+			image: "minecraft:item/wheat"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "18030AB08B46CFCA"
+			image: "minecraft:item/beef"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "7157325491BF9D0A"
+			image: "enderio:block/liquid_sunshine_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			id: "6B0FC175F4E7D0B9"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			click_action: "open_quest:252CDD7CACB4D0A2"
+			height: 0.5d
+			id: "64F41CBAE0476CA6"
+			image: "enderio:block/soul_machine_top"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 8.009183673469359d
+			y: 8.13163265306121d
+		}
+		{
+			click_action: "open_quest:252CDD7CACB4D0A2"
+			height: 0.5d
+			id: "6FB67A508C6FE03A"
+			image: "minecraft:item/firework_rocket"
+			rotation: 0.0d
+			width: 0.5d
+			x: 8.009183673469366d
+			y: 7.682653061224471d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "39737095B6DE41E4"
+			image: "enderio:textures/gui/icons/weather_sun.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "0D5F1C7163F03D58"
+			image: "minecraft:block/sunflower_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "4B81C8F6C931E61B"
+			image: "minecraft:item/glowstone_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "540BF1F93376ACAE"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			click_action: "open_quest:077B443276622409"
+			height: 1.0d
+			id: "0A94B2F70209F6D4"
+			image: "enderio:block/soul_engine_front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			click_action: "open_quest:077B443276622409"
+			height: 1.0d
+			id: "4BBAFBBE59A7F5C9"
+			image: "enderio:block/soul_engine_front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			id: "78E3ED1550F30051"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "3D36188A514F42BB"
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "20B0FA12674EFB39"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			click_action: "open_quest:4F6D2AC126CF3067"
+			height: 1.0d
+			id: "6E76039B9F37C7BE"
+			image: "enderio:block/vat_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			id: "438852E6ECC9802D"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			id: "440A59401630835D"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 1.0d
+			id: "1B3404B4447121B3"
+			image: "enderio:block/liquid_darkness_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			click_action: "open_quest:15B13298D944FF22"
+			height: 1.0d
+			id: "05C6780EA1D3E0C8"
+			image: "create:item/powdered_obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			click_action: "open_quest:55A1237E4E373FCA"
+			height: 1.0d
+			id: "3A39A5A94D78BF86"
+			image: "minecraft:item/amethyst_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 4.0d
+		}
+	]
+	order_index: 5
+	quest_links: [
+		{
+			id: "69C93B01E5310BAD"
+			linked_quest: "3590F01110D04D8E"
+			x: -9.0d
+			y: 15.5d
+		}
+		{
+			id: "3ED43FF426BE6D26"
+			linked_quest: "52A27A14C80DD1D5"
+			x: -9.0d
+			y: 17.5d
+		}
+		{
+			id: "2F83C10729E7BB71"
+			linked_quest: "0F2000A3828DD2A0"
+			x: -8.0d
+			y: 14.5d
+		}
+		{
+			id: "0785193077F50FC6"
+			linked_quest: "6E6F52C321CD84BD"
+			x: -10.0d
+			y: 14.5d
+		}
+		{
+			id: "40E758A087575FE9"
+			linked_quest: "7DEC2438E0FDB776"
+			x: -10.0d
+			y: 16.5d
+		}
+		{
+			id: "68CD2ED5B1FAB955"
+			linked_quest: "1582AF37FFA4377D"
+			x: -8.0d
+			y: 16.5d
+		}
+		{
+			id: "48DF508D590047A3"
+			linked_quest: "7F8F6CB4674626C1"
+			x: -8.0d
+			y: 18.5d
+		}
+		{
+			id: "16C254AFA48CF1DB"
+			linked_quest: "061CA8B8F6F9B574"
+			x: -9.0d
+			y: 21.5d
+		}
+		{
+			id: "2072336A04A36549"
+			linked_quest: "4E7B48D5C3E9F1A3"
+			x: -12.0d
+			y: 16.5d
+		}
+		{
+			id: "27CD3200CCF250C5"
+			linked_quest: "1287705CAC5DDE2C"
+			x: -11.0d
+			y: 15.5d
+		}
+		{
+			id: "104DAD89D07DCBD3"
+			linked_quest: "5998AEE29B78D92B"
+			x: -8.0d
+			y: 20.5d
+		}
+		{
+			id: "426605A9E780F0FE"
+			linked_quest: "37D49AB4CD6EA1B0"
+			x: -9.0d
+			y: 19.5d
+		}
+		{
+			id: "2345A2E9E9F9A7B0"
+			linked_quest: "630E4F200600F00C"
+			x: -6.0d
+			y: 20.5d
+		}
+		{
+			id: "1B011DA70392A223"
+			linked_quest: "480220E10D4765DA"
+			x: -6.0d
+			y: 16.5d
+		}
+		{
+			id: "5D7A4397E088A484"
+			linked_quest: "158426E64B0F7B64"
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			id: "5FA84CC5E32DA24A"
+			linked_quest: "413B8145CF0FD78A"
+			x: -4.0d
+			y: 16.5d
+		}
+		{
+			id: "1A2CA497E6C35212"
+			linked_quest: "69AFBCB81781D8C4"
+			x: -13.0d
+			y: 15.5d
+		}
+		{
+			id: "4606C4F68869B579"
+			linked_quest: "13D6C9AB7B63ED6F"
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			id: "52DF939C8E77421C"
+			linked_quest: "2B696CA62EB0083F"
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			id: "1156E3E62FAB4A6C"
+			linked_quest: "5F412B939501E126"
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			id: "384B668AFFEAA07B"
+			linked_quest: "6D65AD940B5550EC"
+			x: -11.0d
+			y: 19.5d
+		}
+		{
+			id: "764A204DA73FE6B2"
+			linked_quest: "54383F7FAE4919C5"
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			id: "0D120526A4DA7B97"
+			linked_quest: "4E82814AA38A4BE5"
+			x: -1.0d
+			y: 15.5d
+		}
+		{
+			id: "071C9E0B3F737DB1"
+			linked_quest: "5EBAA70E81E2574D"
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			id: "3037EBCC3F6C1C58"
+			linked_quest: "63A66A7A1A39EE67"
+			x: -6.0d
+			y: 18.5d
+		}
+		{
+			id: "11A3E41306E62DB8"
+			linked_quest: "79E5B71B36FB83DC"
+			x: -4.0d
+			y: 18.5d
+		}
+		{
+			id: "28A6493545B9A649"
+			linked_quest: "24CD759A561EB2C6"
+			x: -15.5d
+			y: 1.0d
+		}
+		{
+			id: "1526204BDDF6B077"
+			linked_quest: "2063D6C58019E165"
+			x: -15.5d
+			y: -1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["11993546792DCF90"]
+			id: "07B0CF1A1D3CB5A2"
+			tasks: [{
+				id: "4DEFA7BC8BA94E83"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07B0CF1A1D3CB5A2"]
+			id: "29A0FCE89B8B0D9D"
+			tasks: [{
+				id: "358168AF6B34D52C"
+				item: { count: 1, id: "enderio:void_chassis" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"29A0FCE89B8B0D9D"
+				"2044F5A039EBB400"
+				"5F412B939501E126"
+			]
+			id: "26F5B64A9BCC2E37"
+			tasks: [{
+				id: "0709D2CABBD95FA3"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["29A0FCE89B8B0D9D"]
+			id: "0D4CD759EDA9F4EF"
+			tasks: [{
+				id: "5791E027B6DFD396"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"69AFBCB81781D8C4"
+				"4E7B48D5C3E9F1A3"
+			]
+			id: "40716046A592616E"
+			tasks: [{
+				id: "2DE52D5720B0A4FC"
+				item: { count: 1, id: "enderio:soul_chain" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["40716046A592616E"]
+			id: "1234122AA16D7DF6"
+			tasks: [{
+				id: "7BF3B3BD46B67172"
+				item: { count: 1, id: "enderio:ensouled_chassis" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"1234122AA16D7DF6"
+				"3A1014E390C2ED3D"
+			]
+			id: "5DF00E4552F55ED8"
+			tasks: [{
+				id: "75A8C191F583CEC3"
+				item: { count: 1, id: "enderio:slice_and_splice" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"5DF00E4552F55ED8"
+				"07F0CFC10A9639A1"
+			]
+			id: "48BDFF4E81B9C204"
+			tasks: [{
+				id: "37134C1CE105A037"
+				item: { count: 1, id: "enderio:ender_resonator" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["71150C2C8C780B7F"]
+			id: "07F0CFC10A9639A1"
+			tasks: [{
+				id: "5D103DF1FA25A8E5"
+				item: { count: 1, id: "enderio:enderman_head" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["48BDFF4E81B9C204"]
+			id: "286DCC02BBEC581D"
+			tasks: [{
+				id: "64C2C076AA44DE41"
+				item: { count: 1, id: "enderio:wireless_charger" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["48BDFF4E81B9C204"]
+			id: "3179A1DBB0E0C784"
+			tasks: [{
+				id: "669A1275B8EAD450"
+				item: { count: 1, id: "enderio:wireless_charger_antenna" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3384DD7FA931ABAB"]
+			id: "5AF431ED999AFE12"
+			tasks: [{
+				id: "128095FF8ACD6A08"
+				item: { count: 1, id: "enderio:wireless_charger_antenna_advanced" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"48BDFF4E81B9C204"
+				"79D226862854B010"
+			]
+			id: "3384DD7FA931ABAB"
+			tasks: [{
+				id: "0A599DC2E1A6461D"
+				item: { count: 1, id: "enderio:sentient_ender" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"1234122AA16D7DF6"
+				"7EA4A15FCE45F413"
+				"3A1014E390C2ED3D"
+			]
+			id: "79D226862854B010"
+			tasks: [{
+				id: "54BCBE97C6DEDC4B"
+				item: { count: 1, id: "enderio:soul_binder" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"5DF00E4552F55ED8"
+				"0DAEE7F3B1368EDA"
+			]
+			id: "7EA4A15FCE45F413"
+			tasks: [{
+				id: "67652F4A84E9AD20"
+				item: { count: 1, id: "enderio:z_logic_controller" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"1234122AA16D7DF6"
+				"7EA4A15FCE45F413"
+				"5998AEE29B78D92B"
+			]
+			id: "1FD61E30F157351A"
+			tasks: [{
+				id: "1E7A195E06132931"
+				item: { count: 1, id: "enderio:powered_spawner" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"1234122AA16D7DF6"
+				"413B8145CF0FD78A"
+				"3A1014E390C2ED3D"
+			]
+			id: "38B1C0F2B71D0265"
+			tasks: [{
+				id: "467FC44C42462D8D"
+				item: { count: 1, id: "enderio:farming_station" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["71150C2C8C780B7F"]
+			id: "0DAEE7F3B1368EDA"
+			tasks: [{
+				id: "4061AF1E96A549C8"
+				item: { count: 1, id: "minecraft:zombie_head" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["13D6C9AB7B63ED6F"]
+			hide_dependency_lines: true
+			id: "71150C2C8C780B7F"
+			tasks: [{
+				id: "2C0FC857E33C5D94"
+				item: { count: 1, id: "enderio:dark_steel_sword" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"79D226862854B010"
+				"7EA4A15FCE45F413"
+			]
+			id: "0175B77B26B8836F"
+			tasks: [{
+				id: "24A62D9B4216DBE7"
+				item: { count: 1, id: "enderio:frank_n_zombie" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"79D226862854B010"
+				"5998AEE29B78D92B"
+			]
+			id: "7FB4F0A559CE66F0"
+			tasks: [{
+				id: "7691568289832504"
+				item: { count: 1, id: "enderio:ender_crystal" }
+				type: "item"
+			}]
+			x: -21.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["7FB4F0A559CE66F0"]
+			id: "4FBF9D097F1353B6"
+			tasks: [{
+				id: "62E66C2D55DFDEC4"
+				item: { count: 1, id: "enderio:staff_of_travelling" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"7FB4F0A559CE66F0"
+				"5998AEE29B78D92B"
+				"413B8145CF0FD78A"
+			]
+			id: "448FB7C9A47ED724"
+			tasks: [{
+				id: "19D447E898C8BF38"
+				item: { count: 1, id: "enderio:weather_crystal" }
+				type: "item"
+			}]
+			x: -21.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["448FB7C9A47ED724"]
+			id: "252CDD7CACB4D0A2"
+			tasks: [{
+				id: "08641BCEA3AA38EF"
+				item: { count: 1, id: "enderio:weather_obelisk" }
+				type: "item"
+			}]
+			x: -21.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"4E7B48D5C3E9F1A3"
+				"37D49AB4CD6EA1B0"
+				"6D65AD940B5550EC"
+			]
+			id: "2059CC2873D295F8"
+			tasks: [{
+				id: "469E81216BC42516"
+				item: { count: 1, id: "enderio:experience_rod" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"2059CC2873D295F8"
+				"1234122AA16D7DF6"
+			]
+			id: "163E4C848D813934"
+			tasks: [{
+				id: "753877BC55A949F3"
+				item: { count: 1, id: "enderio:xp_obelisk" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			hide_until_deps_complete: true
+			id: "6D65AD940B5550EC"
+			tasks: [{
+				id: "2D0576EB2E4A9CDF"
+				item: { count: 1, id: "enderio:suspicious_seed" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"69AFBCB81781D8C4"
+				"26F5B64A9BCC2E37"
+			]
+			id: "5F466A2D700B3B8A"
+			tasks: [{
+				id: "1E1AAA355D3D5B54"
+				item: { count: 1, id: "enderio:fused_quartz" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"4E7B48D5C3E9F1A3"
+				"5F466A2D700B3B8A"
+			]
+			id: "1A9B118994E64BBD"
+			tasks: [{
+				id: "574B7F755AF85906"
+				item: { count: 1, id: "enderio:soul_vial" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"0F2000A3828DD2A0"
+				"07B0CF1A1D3CB5A2"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2044F5A039EBB400"
+			tasks: [{
+				id: "11C9185C13D8443A"
+				item: { count: 1, id: "enderio:iron_gear" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"2044F5A039EBB400"
+				"52A27A14C80DD1D5"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3A1014E390C2ED3D"
+			tasks: [{
+				id: "61E664AAD422F5BF"
+				item: { count: 1, id: "enderio:energized_gear" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"3A1014E390C2ED3D"
+				"37D49AB4CD6EA1B0"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "594CC0DE144D6E58"
+			tasks: [{
+				id: "27C66218DBA19AA3"
+				item: { count: 1, id: "enderio:vibrant_gear" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"29A0FCE89B8B0D9D"
+				"63A66A7A1A39EE67"
+				"2044F5A039EBB400"
+			]
+			id: "361B560A19CB41DD"
+			tasks: [{
+				id: "7BBAE48FAC9D6E59"
+				item: { count: 1, id: "enderio:painting_machine" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["697A660C83D32B2F"]
+			id: "553C73F4487F7F16"
+			tasks: [{
+				id: "6CDC6CFAEE125CD0"
+				item: { count: 1, id: "enderio:conduit_facade" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["553C73F4487F7F16"]
+			id: "60B545466CD07A55"
+			tasks: [{
+				id: "5DA2CF112192FAD1"
+				item: { count: 1, id: "enderio:transparent_conduit_facade" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["553C73F4487F7F16"]
+			id: "3A39128528929313"
+			tasks: [{
+				id: "7A56B24F9AA5DBCC"
+				item: { count: 1, id: "enderio:hardened_conduit_facade" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"60B545466CD07A55"
+				"3A39128528929313"
+			]
+			dependency_requirement: "one_completed"
+			id: "75779EF3081DB1CA"
+			tasks: [{
+				id: "50ABC00614F1F453"
+				item: { count: 1, id: "enderio:transparent_hardened_conduit_facade" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0E26D8711F2FDDE4"]
+			hide_until_deps_complete: true
+			id: "0EAF9DA0813E1883"
+			tasks: [{
+				id: "59ED8DD2919C4DA0"
+				item: { count: 1, id: "enderio:conduit_binder_composite" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0EAF9DA0813E1883"]
+			id: "697A660C83D32B2F"
+			tasks: [{
+				id: "2C67C02FAA94EB97"
+				item: { count: 1, id: "enderio:conduit_binder" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"697A660C83D32B2F"
+				"3590F01110D04D8E"
+			]
+			hide_dependency_lines: true
+			id: "7624F4577F294009"
+			tasks: [{
+				id: "367CBC0EBA35D6CA"
+				item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"697A660C83D32B2F"
+				"3590F01110D04D8E"
+				"5F466A2D700B3B8A"
+			]
+			hide_dependency_lines: true
+			id: "7A5022A47B0EB72A"
+			tasks: [{
+				id: "162D8A97518CDC81"
+				item: { components: { "enderio:conduit": "enderio:fluid" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"697A660C83D32B2F"
+				"480220E10D4765DA"
+				"3590F01110D04D8E"
+			]
+			hide_dependency_lines: true
+			id: "3E59B80D9ADC0819"
+			tasks: [{
+				id: "3FCBB586C9EA9DCB"
+				item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["697A660C83D32B2F"]
+			id: "5D8568B147E17F18"
+			tasks: [{
+				id: "2EE787350E9E9ACE"
+				item: { components: { "enderio:conduit": "enderio:heat" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["697A660C83D32B2F"]
+			id: "08C0E3191885DEA8"
+			tasks: [{
+				id: "54851C198F5B275A"
+				item: { components: { "enderio:conduit": "enderio:me" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["697A660C83D32B2F"]
+			id: "7CABDD187E60E5D7"
+			tasks: [{
+				id: "0923CC538438FBAD"
+				item: { components: { "enderio:conduit": "enderio:chemical" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"697A660C83D32B2F"
+				"480220E10D4765DA"
+				"52A27A14C80DD1D5"
+			]
+			hide_dependency_lines: true
+			id: "674C82D71826D21C"
+			tasks: [{
+				id: "118BAE383A0A841C"
+				item: { components: { "enderio:conduit": "enderio:enhanced_item" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"480220E10D4765DA"
+				"37D49AB4CD6EA1B0"
+			]
+			hide_dependency_lines: true
+			id: "5B18C294CDA866B9"
+			tasks: [{
+				id: "64EE576B6BC21AD3"
+				item: { components: { "enderio:conduit": "enderio:ender_item" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5F466A2D700B3B8A"
+				"697A660C83D32B2F"
+				"52A27A14C80DD1D5"
+			]
+			hide_dependency_lines: true
+			id: "7757CC0CB96746D4"
+			tasks: [{
+				id: "648B2E1A35715D22"
+				item: { components: { "enderio:conduit": "enderio:pressurized_fluid" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5F466A2D700B3B8A"
+				"697A660C83D32B2F"
+				"37D49AB4CD6EA1B0"
+			]
+			hide_dependency_lines: true
+			id: "3B248195421AEEE7"
+			tasks: [{
+				id: "182E848AE8E6D284"
+				item: { components: { "enderio:conduit": "enderio:ender_fluid" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"697A660C83D32B2F"
+				"52A27A14C80DD1D5"
+			]
+			hide_dependency_lines: true
+			id: "621E23E0ED64D9D5"
+			tasks: [{
+				id: "178E287F72A4B42E"
+				item: { components: { "enderio:conduit": "enderio:enhanced_energy" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"697A660C83D32B2F"
+				"37D49AB4CD6EA1B0"
+			]
+			hide_dependency_lines: true
+			id: "2EF3924F8E46A089"
+			tasks: [{
+				id: "33EF887C4EEEE20F"
+				item: { components: { "enderio:conduit": "enderio:ender_energy" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7CABDD187E60E5D7"
+				"24CD759A561EB2C6"
+			]
+			id: "1AD2C1E272A0666E"
+			tasks: [{
+				id: "73E0E08E0A9FAFB0"
+				item: { components: { "enderio:conduit": "enderio:pressurized_chemical" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AD2C1E272A0666E"
+				"2063D6C58019E165"
+			]
+			id: "3E64C30601B3880C"
+			tasks: [{
+				id: "717F60CD5BA21957"
+				item: { components: { "enderio:conduit": "enderio:ender_chemical" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["697A660C83D32B2F"]
+			id: "79E7E55585255179"
+			tasks: [{
+				id: "6D9E45515BABEA83"
+				item: { components: { "enderio:conduit": "enderio:dense_me" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"29A0FCE89B8B0D9D"
+				"2044F5A039EBB400"
+			]
+			id: "206F33953D66F1B0"
+			tasks: [{
+				id: "1E26AAA54100B99D"
+				item: { count: 1, id: "enderio:stirling_generator" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"29A0FCE89B8B0D9D"
+				"63A66A7A1A39EE67"
+				"2044F5A039EBB400"
+			]
+			id: "071C1B11DA7A08AD"
+			tasks: [{
+				id: "3F1F79013022F6EF"
+				item: { count: 1, id: "enderio:impulse_hopper" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0D4CD759EDA9F4EF"]
+			id: "4D9DCE5210C16F2B"
+			tasks: [{
+				id: "2BA05AA170978E3A"
+				item: { count: 1, id: "enderio:silicon" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["29A0FCE89B8B0D9D"]
+			id: "17710FB54C9D114F"
+			tasks: [{
+				id: "7D64F2D8324BBC2A"
+				item: { count: 1, id: "enderio:wired_charger" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4D9DCE5210C16F2B"
+				"29A0FCE89B8B0D9D"
+				"2044F5A039EBB400"
+			]
+			id: "74A93FD67413C5E0"
+			tasks: [{
+				id: "70A9E3E6B34E6C20"
+				item: { count: 1, id: "enderio:crafter" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["29A0FCE89B8B0D9D"]
+			id: "04BABA4CB89E8C92"
+			tasks: [{
+				id: "1AFDFAB7488E3FEC"
+				item: { count: 1, id: "enderio:drain" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"29A0FCE89B8B0D9D"
+				"13D6C9AB7B63ED6F"
+				"63A66A7A1A39EE67"
+				"2044F5A039EBB400"
+			]
+			id: "4F6D2AC126CF3067"
+			tasks: [{
+				id: "5E7D926BF6696F86"
+				item: { count: 1, id: "enderio:vat" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"0DAEE7F3B1368EDA"
+				"5DF00E4552F55ED8"
+			]
+			id: "1831320C91145F7F"
+			tasks: [{
+				id: "49076BD612CFFD07"
+				item: { count: 1, id: "enderio:zombie_electrode" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"1234122AA16D7DF6"
+				"1831320C91145F7F"
+			]
+			id: "077B443276622409"
+			tasks: [{
+				id: "0427B9190E3282E0"
+				item: { count: 1, id: "enderio:soul_engine" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["0F2000A3828DD2A0"]
+			id: "643E2A054BD3EFE1"
+			tasks: [{
+				id: "0B74D9A816CABA33"
+				item: { count: 1, id: "enderio:fluid_tank" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["13D6C9AB7B63ED6F"]
+			id: "7C91BF404812A3F5"
+			tasks: [{
+				id: "24191E951E5746D2"
+				item: { count: 1, id: "enderio:pressurized_fluid_tank" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["13D6C9AB7B63ED6F"]
+			id: "58B16E9600210AC9"
+			tasks: [{
+				id: "202F9002AE15CFEA"
+				item: { count: 1, id: "enderio:enchanter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["5998AEE29B78D92B"]
+			id: "2AE1DCE7E4676FCB"
+			tasks: [{
+				id: "321031B4102E63B0"
+				item: { count: 1, id: "enderio:prescient_crystal" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["2AE1DCE7E4676FCB"]
+			id: "4A4B1426488CC5D8"
+			tasks: [{
+				id: "38425080CAD98ECB"
+				item: { count: 1, id: "enderio:staff_of_levity" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 22.5d
+		}
+	]
+}
