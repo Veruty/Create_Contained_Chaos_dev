@@ -13,6 +13,6 @@
   "parent": "mekanism:block/template/cube_all_led",
   "textures": {
        "all": "mekanism:block/fct/teleporter",
-	   "led": "mekanism:block/fct/glow/teleporter_led"
+	   "led": "mekanism:block/fct/teleporter_led"
     }
 }

@@ -18,10 +18,10 @@
             "block": "mekanismgenerators:fusion_reactor_logic_adapter"
 		}
     ],
-  "parent": "mekanism:block/format/machine",
+  "parent": "mekanism:block/machine",
   "textures": {
-       "particle":"mekanismgenerators:block/fct/reactor_frame",
-        "h_side":"mekanismgenerators:block/fct/reactor_frame",
+        "particle":"mekanismgenerators:block/fct/reactor_frame",
+        "sides":"mekanismgenerators:block/fct/reactor_frame",
 	    "up":"mekanismgenerators:block/fct/reactor_controller",
 		"down":"mekanismgenerators:block/fct/reactor_frame",
 	    "front":"mekanismgenerators:block/fct/reactor_frame"
