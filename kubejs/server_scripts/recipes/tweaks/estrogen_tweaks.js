@@ -24,3 +24,9 @@ ServerEvents.recipes(e => {
     })
 	e.recipes.create.filling('estrogen:estrogen_chip_cookie',[Fluid.of('estrogen:liquid_estrogen', 500), 'minecraft:cookie'])
 })
+ServerEvents.generateData('after_mods', event => {
+    event.json('createestrogen:recipe/filling/crystal_estrogen_pill', {"type":"create:filling","ingredients":[{"item":"estrogen:estrogen_pill"},{"type":"neoforge:single","amount":250,"fluid":"kubejs:liquid_amethyst"}],"results":[{"id":"estrogen:crystal_estrogen_pill"}]})
+})
+ServerEvents.recipes(event => {
+    event.remove({ id: 'createestrogen:mixing/molten_amethyst' })
+})

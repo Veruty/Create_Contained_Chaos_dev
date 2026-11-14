@@ -50,5 +50,9 @@ global['deletedItems'] = [
 'extendedcrafting:singularity',
 'createaddition:alternator',
 'createaddition:electric_motor',
-'createdeco:industrial_iron_ingot'
+'createdeco:industrial_iron_ingot',
+'estrogen:molten_amethyst_bucket'
+]
+global["deletedFluids"] = [
+    "estrogen:molten_amethyst"
 ]
