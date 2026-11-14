@@ -30,3 +30,6 @@ usercache.json
 usernamecache.json
 config/fancymenu/customization/debuginfo.txt
 /screenshots
+*.marker
+user-prefs.json
+servers.dat_old
