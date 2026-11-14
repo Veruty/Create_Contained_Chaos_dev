@@ -1,6 +1,12 @@
 RecipeViewerEvents.removeEntries('item', event => {
 global.deletedItems.forEach(itemInstance => 
-  event.hide(itemInstance)
+  event.remove(itemInstance)
+)
+})
+
+RecipeViewerEvents.removeEntries('fluid', event => {
+global.deletedFluids.forEach(fluidInstance => 
+  event.remove(fluidInstance)
 )
 })
 //what

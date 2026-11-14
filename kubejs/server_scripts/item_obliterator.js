@@ -25,3 +25,23 @@ ServerEvents.compostableRecipes(event => {
     event.remove(itemInstance)
   )
 })
+
+ServerEvents.recipes(event => {
+  global.deletedFluids.forEach(itemInstance => 
+    event.remove([
+      {input: itemInstance},
+      {output: itemInstance}
+    ])
+  )
+})
+ServerEvents.tags('item', event => {
+  global.deletedFluids.forEach(itemInstance => 
+    event.removeAllTagsFrom(itemInstance)
+  )
+})
+ServerEvents.tags('block', event => {
+  global.deletedFluids.forEach(itemInstance => 
+    event.removeAllTagsFrom(itemInstance)
+  )
+})
+
