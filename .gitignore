@@ -6,6 +6,7 @@ command_history.txt
 !/config/extendedcrafting
 !/config/fancymenu
 !/config/ftbquests
+!/config/alternatingflux-server.toml
 /crash-reports
 /debug
 /defaultconfigs
