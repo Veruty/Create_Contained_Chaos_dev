@@ -68,3 +68,8 @@ ServerEvents.recipes(e => {
   })
 
 })
+
+ServerEvents.recipes(event => {
+    event.remove({ id: 'enderio:sag_milling/raw_osmium' })
+})
+
