@@ -3,6 +3,7 @@ console.info('Loaded ccc_custom')
 StartupEvents.registry('item', e => {
     e.create('incomplete_netherite_upgrade', 'create:sequenced_assembly').displayName('Incomplete Netherite Upgrade')
 	e.create('amethyst_alloy').displayName('Amethyst Alloy').rarity('UNCOMMON')
+	e.create('legal_diamond').displayName('Legal Diamond').rarity('UNCOMMON')
 	e.create('half_netherite_ingot').displayName('Netherite Half Ingot').rarity('COMMON')
 //    e.create('redstone_crystal').displayName('Redstone Crystal')
     e.create('condensed_alloy').displayName('Condensed Alloy').rarity('UNCOMMON')
