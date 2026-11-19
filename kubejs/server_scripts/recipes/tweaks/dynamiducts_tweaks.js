@@ -13,6 +13,8 @@ event.json(
 )
 })
 
+ServerEvents.tags('item', e =>{ e.add("c:tools/wrench", 'dynamiducts:wrench')})
+
 ServerEvents.recipes(e => {
 
     e.remove({ id: 'dynamiducts:invar_ingot_from_iron' })
@@ -25,7 +27,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'dynamiducts:bronze_ingot_from_copper' })
     e.remove({ id: 'dynamiducts:tin_ingot_from_iron' })
     e.remove({ id: 'dynamiducts:lead_ingot_from_iron' })
-    e.remove({ id: 'dynamiducts:recipe/silver_ingot_from_iron' })
+    e.remove({ id: 'dynamiducts:silver_ingot_from_iron' })
 
     e.custom(
         {
