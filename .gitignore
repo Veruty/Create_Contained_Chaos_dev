@@ -36,3 +36,4 @@ config/fancymenu/customization/debuginfo.txt
 *.marker
 user-prefs.json
 servers.dat_old
+/cache
