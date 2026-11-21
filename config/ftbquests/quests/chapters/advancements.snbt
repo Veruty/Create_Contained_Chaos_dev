@@ -82,8 +82,8 @@
 			id: "6BA138BD3D33FB71"
 			shape: "square"
 			tasks: [{
-				id: "66C659D84D3053FE"
-				item: { components: { "ftbquests:missing_item": "estrogen:uwu" }, count: 1, id: "ftbquests:missing_item" }
+				id: "4D74712AE29E880D"
+				item: { count: 1, id: "estrogen:colon_three" }
 				type: "item"
 			}]
 			x: -8.5d

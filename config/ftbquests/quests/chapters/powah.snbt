@@ -443,12 +443,6 @@
 			y: 13.0d
 		}
 		{
-			id: "6179B684F134B9B3"
-			linked_quest: "630E4F200600F00C"
-			x: -4.0d
-			y: 15.0d
-		}
-		{
 			id: "17E943B06E6CDE7C"
 			linked_quest: "6712885617FEAAAA"
 			x: 2.0d

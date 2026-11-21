@@ -1055,12 +1055,6 @@
 			y: 19.5d
 		}
 		{
-			id: "2345A2E9E9F9A7B0"
-			linked_quest: "630E4F200600F00C"
-			x: -6.0d
-			y: 20.5d
-		}
-		{
 			id: "1B011DA70392A223"
 			linked_quest: "480220E10D4765DA"
 			x: -6.0d
@@ -1101,12 +1095,6 @@
 			linked_quest: "5F412B939501E126"
 			x: -3.0d
 			y: 13.5d
-		}
-		{
-			id: "384B668AFFEAA07B"
-			linked_quest: "6D65AD940B5550EC"
-			x: -11.0d
-			y: 19.5d
 		}
 		{
 			id: "764A204DA73FE6B2"
@@ -1459,6 +1447,9 @@
 			y: 12.5d
 		}
 		{
+			dep_line_visibility: {
+				6D65AD940B5550EC: 0b
+			}
 			dependencies: [
 				"4E7B48D5C3E9F1A3"
 				"37D49AB4CD6EA1B0"
@@ -1671,6 +1662,7 @@
 			tasks: [{
 				id: "367CBC0EBA35D6CA"
 				item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -18.5d
@@ -1687,6 +1679,7 @@
 			tasks: [{
 				id: "162D8A97518CDC81"
 				item: { components: { "enderio:conduit": "enderio:fluid" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -18.5d
@@ -1703,6 +1696,7 @@
 			tasks: [{
 				id: "3FCBB586C9EA9DCB"
 				item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -18.5d
@@ -1714,6 +1708,7 @@
 			tasks: [{
 				id: "2EE787350E9E9ACE"
 				item: { components: { "enderio:conduit": "enderio:heat" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -15.5d
@@ -1725,6 +1720,7 @@
 			tasks: [{
 				id: "54851C198F5B275A"
 				item: { components: { "enderio:conduit": "enderio:me" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -16.5d
@@ -1736,6 +1732,7 @@
 			tasks: [{
 				id: "0923CC538438FBAD"
 				item: { components: { "enderio:conduit": "enderio:chemical" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -14.5d
@@ -1752,6 +1749,7 @@
 			tasks: [{
 				id: "118BAE383A0A841C"
 				item: { components: { "enderio:conduit": "enderio:enhanced_item" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -20.5d
@@ -1767,6 +1765,7 @@
 			tasks: [{
 				id: "64EE576B6BC21AD3"
 				item: { components: { "enderio:conduit": "enderio:ender_item" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -22.5d
@@ -1783,6 +1782,7 @@
 			tasks: [{
 				id: "648B2E1A35715D22"
 				item: { components: { "enderio:conduit": "enderio:pressurized_fluid" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -20.5d
@@ -1799,6 +1799,7 @@
 			tasks: [{
 				id: "182E848AE8E6D284"
 				item: { components: { "enderio:conduit": "enderio:ender_fluid" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -22.5d
@@ -1814,6 +1815,7 @@
 			tasks: [{
 				id: "178E287F72A4B42E"
 				item: { components: { "enderio:conduit": "enderio:enhanced_energy" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -20.5d
@@ -1829,6 +1831,7 @@
 			tasks: [{
 				id: "33EF887C4EEEE20F"
 				item: { components: { "enderio:conduit": "enderio:ender_energy" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -22.5d
@@ -1843,6 +1846,7 @@
 			tasks: [{
 				id: "73E0E08E0A9FAFB0"
 				item: { components: { "enderio:conduit": "enderio:pressurized_chemical" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -14.5d
@@ -1857,6 +1861,7 @@
 			tasks: [{
 				id: "717F60CD5BA21957"
 				item: { components: { "enderio:conduit": "enderio:ender_chemical" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -14.5d
@@ -1868,6 +1873,7 @@
 			tasks: [{
 				id: "6D9E45515BABEA83"
 				item: { components: { "enderio:conduit": "enderio:dense_me" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -16.5d

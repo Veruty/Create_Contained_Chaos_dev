@@ -3550,6 +3550,7 @@
 		"&8The oxygen can be provided externally as gas, or internally with an oxygen filled Gas Tank or flint.&r"
 	]
 	quest.61DAEBB4FA84E63D.quest_subtitle: "Pure Pure"
+	quest.6214BE62213881D3.quest_desc: ["[ \"Needs 3 \", { \"text\": \"Graphite Electrodes\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"610BA57E68209A54\" } }, \" to work\" ]"]
 	quest.6214BE62213881D3.quest_subtitle: "The Hottest Topic"
 	quest.6214BE62213881D3.title: "Arc Furnace"
 	quest.6217A88DB7994CD6.quest_desc: [

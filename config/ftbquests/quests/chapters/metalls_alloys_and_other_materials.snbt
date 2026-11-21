@@ -901,7 +901,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["26A6DE1E900CE836"]
+			dependencies: [
+				"26A6DE1E900CE836"
+				"3E97BDDC2A04C725"
+			]
 			dependency_requirement: "one_completed"
 			id: "2B46651C03FEEBF0"
 			min_required_dependencies: 1
@@ -1445,17 +1448,6 @@
 		}
 		{
 			dependencies: ["11993546792DCF90"]
-			id: "630E4F200600F00C"
-			tasks: [{
-				id: "6EAB50ADAB6D2030"
-				item: { count: 1, id: "minecraft:emerald" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["11993546792DCF90"]
 			id: "38E56074F8E8AB89"
 			tasks: [{
 				id: "55EBE80C8E4A4800"
@@ -1662,6 +1654,17 @@
 			}]
 			x: -9.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["11993546792DCF90"]
+			id: "630E4F200600F00C"
+			tasks: [{
+				id: "6EAB50ADAB6D2030"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
 		}
 	]
 }

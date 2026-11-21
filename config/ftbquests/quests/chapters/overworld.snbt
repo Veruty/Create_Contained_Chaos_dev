@@ -40,6 +40,18 @@
 			x: -4.5d
 			y: -2.0d
 		}
+		{
+			id: "3BCC7B6B33D0121D"
+			linked_quest: "630E4F200600F00C"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "688853445AD9EED3"
+			linked_quest: "50FCED613F26E315"
+			x: 0.5d
+			y: 1.0d
+		}
 	]
 	quests: [
 		{
@@ -72,22 +84,6 @@
 		{
 			dependencies: [
 				"526A77EEB8CB20F6"
-				"0F2000A3828DD2A0"
-			]
-			dependency_requirement: "one_completed"
-			hide_dependency_lines: false
-			id: "7735AE558F4AD354"
-			tasks: [{
-				id: "1B1617440C0B72FD"
-				item: { count: 1, id: "minecraft:bucket" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"526A77EEB8CB20F6"
 				"158426E64B0F7B64"
 			]
 			dependency_requirement: "one_completed"
@@ -116,7 +112,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7735AE558F4AD354"]
+			dependencies: ["50FCED613F26E315"]
 			hide_dependency_lines: false
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
@@ -286,26 +282,6 @@
 			}]
 			x: -4.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["526A77EEB8CB20F6"]
-			id: "76B2BB9B75D05F17"
-			rewards: [{
-				count: 8
-				id: "4030BDC9F82A2B3B"
-				item: {
-					count: 1
-					id: "minecraft:emerald"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "162CE7045E514D87"
-				item: { count: 1, id: "minecraft:emerald" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -2.0d
 		}
 		{
 			dependencies: ["526A77EEB8CB20F6"]
