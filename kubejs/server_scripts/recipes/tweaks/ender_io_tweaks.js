@@ -72,4 +72,42 @@ ServerEvents.recipes(e => {
 ServerEvents.recipes(event => {
     event.remove({ id: 'enderio:sag_milling/raw_osmium' })
 })
+ServerEvents.generateData('after_mods', event => {
+event.json(
+  'enderio:recipe/sag_milling/coal',
+  {
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {"item":"minecraft:coal"},
+    "outputs": [
+      {"item":{"count":1,"id":"enderio:powdered_coal"}}
+    ]
+  }
+)
+
+event.json(
+  'enderio:recipe/sag_milling/charcoal',
+  {
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {"item":"minecraft:charcoal"},
+    "outputs": [
+      {"item":{"count":1,"id":"enderio:powdered_coal"}}
+    ]
+  }
+)
+
+event.json(
+  'enderio:recipe/sag_milling/coal_coke',
+  {
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {"item":"immersiveengineering:coal_coke"},
+    "outputs": [
+      {"item":{"count":1,"id":"immersiveengineering:dust_coke"}}
+    ]
+  }
+)
+
+})
 
