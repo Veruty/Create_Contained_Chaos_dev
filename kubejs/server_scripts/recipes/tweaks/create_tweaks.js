@@ -1,3 +1,59 @@
+// kubejsstudio custom: kubejs:refined_radiance_casing_wood
+ServerEvents.generateData('after_mods', event => {
+
+    event.json(
+      'kubejs:recipe/refined_radiance_casing_logs',
+      {
+        "type": "create:item_application",
+        "ingredients": [
+          {"tag":"c:stripped_logs"},
+          {"item":"create:refined_radiance"}
+        ],
+        "results": [{"id":"create:refined_radiance_casing"}]
+      }
+    )
+    
+
+    event.json(
+      'kubejs:recipe/refined_radiance_casing_wood',
+      {
+        "type": "create:item_application",
+        "ingredients": [
+          {"tag":"c:stripped_wood"},
+          {"item":"create:refined_radiance"}
+        ],
+        "results": [{"id":"create:refined_radiance_casing"}]
+      }
+    )
+
+
+    event.json(
+      'kubejs:recipe/shadow_steel_casing_logs',
+      {
+        "type": "create:item_application",
+        "ingredients": [
+          {"tag":"c:stripped_logs"},
+          {"item":"create:shadow_steel"}
+        ],
+        "results": [{"id":"create:shadow_steel_casing"}]
+      }
+    )
+
+    event.json(
+      'kubejs:recipe/shadow_steel_casing_wood',
+      {
+        "type": "create:item_application",
+        "ingredients": [
+          {"tag":"c:stripped_wood"},
+          {"item":"create:shadow_steel"}
+        ],
+        "results": [{"id":"create:shadow_steel_casing"}]
+      }
+    )
+    
+
+})
+ServerEvents.recipes(event => {event.recipes.create.mixing('create:chromatic_compound', ['3x minecraft:glowstone_dust', '3x create:powdered_obsidian', 'create:polished_rose_quartz']).superheated()})
 //ServerEvents.recipes(event => {
 //	event.shaped(
 //    Item.of('create:spout', 2),
