@@ -54,6 +54,32 @@ ServerEvents.generateData('after_mods', event => {
 
 })
 ServerEvents.recipes(event => {event.recipes.create.mixing('create:chromatic_compound', ['3x minecraft:glowstone_dust', '3x create:powdered_obsidian', 'create:polished_rose_quartz']).superheated()})
+
+
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'createaddition:recipe/compat/immersiveengineering/constantan',
+      {
+        "type": "create:mixing",
+        "ingredients": [{"tag":"c:ingots/nickel"},{"tag":"c:ingots/copper"}],
+        "results": [{"id":"immersiveengineering:ingot_constantan","count":2}],
+        "heat_Requirement": "heated",
+        "neoforge:conditions": [
+          {
+            "type": "almostunified:conditional",
+            "conditions_met": true,
+            "original_conditions": [
+              {
+                "type": "neoforge:mod_loaded",
+                "modid": "immersiveengineering"
+              }
+            ]
+          }
+        ]
+      }
+    )
+})
+
 //ServerEvents.recipes(event => {
 //	event.shaped(
 //    Item.of('create:spout', 2),
