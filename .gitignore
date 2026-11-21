@@ -37,3 +37,11 @@ config/fancymenu/customization/debuginfo.txt
 user-prefs.json
 servers.dat_old
 /cache
+/.probe
+/.vscode
+/.github/agents
+kubejs/startup_scripts/jsconfig.json
+kubejs/server_scripts/jsconfig.json
+kubejs/config/probe-settings.json
+kubejs/package.json
+kubejs/client_scripts/jsconfig.json
