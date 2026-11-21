@@ -45,8 +45,7 @@ ServerEvents.recipes(e => {
 
 //chimken nugis
 
-e.recipes.create.mixing('4x kubejs:chicken_nuggies', [Fluid.water(500), 'minecraft:chicken', 'minecraft:egg', '2x create:wheat_flour', '2x #c:dusts/salt']).heated()
-
+e.recipes.create.mixing('4x kubejs:chicken_nuggies', [Fluid.water(500), 'minecraft:chicken', 'minecraft:egg', '2x create:wheat_flour']).heated()
 //redstone things
 
 //	e.recipes.create.mixing(Fluid.of('kubejs:liquid_redstone', 100), ['minecraft:redstone']).heated()
