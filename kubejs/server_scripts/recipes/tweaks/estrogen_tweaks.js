@@ -30,3 +30,8 @@ ServerEvents.generateData('after_mods', event => {
 ServerEvents.recipes(event => {
     event.remove({ id: 'createestrogen:mixing/molten_amethyst' })
 })
+
+ServerEvents.tags('block', event => {
+    event.add('create_new_age:magnet/force_12', 'estrogen:dream_block')
+    event.add('create_new_age:magnet', 'estrogen:dream_block')
+})
