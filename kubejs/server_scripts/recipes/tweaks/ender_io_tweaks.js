@@ -109,5 +109,50 @@ event.json(
   }
 )
 
+event.json(
+  'enderio:recipe/alloy_smelting/bronze',
+  {
+    "type": "enderio:alloy_smelting",
+    "energy": 2400,
+    "experience": 0.3,
+    "inputs": [
+      {"count":1,"tag":"c:ingots/tin"},
+      {"count":3,"tag":"c:ingots/copper"}
+
+    ],
+    "output": {"count":3,"id":"mekanism:ingot_bronze"}
+  }
+)
+
+event.json(
+  'enderio:recipe/alloy_smelting/constantan',
+  {
+    "type": "enderio:alloy_smelting",
+    "energy": 2400,
+    "experience": 0.3,
+    "inputs": [
+      {"count":1,"tag":"c:ingots/nickel"},
+      {"count":1,"tag":"c:ingots/copper"}
+
+    ],
+    "output": {"count":2,"id":'immersiveengineering:ingot_constantan'}
+  }
+)
+
+event.json(
+  'enderio:recipe/alloy_smelting/condensed',
+  {
+    "type": "enderio:alloy_smelting",
+    "energy": 2400,
+    "experience": 0.3,
+    "inputs": [
+      {"count":1,"tag":"c:ingots/manasteel"},
+      {"count":1,"item":'kubejs:amethyst_alloy'}
+
+    ],
+    "output": {"count":1,"id":'kubejs:condensed_alloy'}
+  }
+)
+
 })
 
