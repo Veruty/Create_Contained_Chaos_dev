@@ -16,7 +16,7 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Form the Automated Engineer's Workbench Multiblock"
+            "text": "Form the Automated Engineer's Workbench"
         },
         "frame": "task",
         "hidden": false,

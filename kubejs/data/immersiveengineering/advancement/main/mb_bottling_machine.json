@@ -16,7 +16,7 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Form the Bottling Machine Multiblock"
+            "text": "Form the Bottling Machine"
         },
         "frame": "task",
         "hidden": false,

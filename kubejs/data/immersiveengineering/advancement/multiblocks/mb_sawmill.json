@@ -16,7 +16,7 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Form the Sawmill Multiblock"
+            "text": "Form the Sawmill"
         },
         "frame": "task",
         "hidden": false,

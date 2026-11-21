@@ -15,7 +15,7 @@
     },
     "display": {
         "announce_to_chat": true,
-        "description": { "text": "Form the Alloy Klin Multiblock" },
+        "description": { "text": "Form the Alloy Klin" },
         "frame": "task",
         "hidden": false,
         "icon": {
