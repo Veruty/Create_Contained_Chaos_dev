@@ -9,6 +9,7 @@ command_history.txt
 !/config/alternatingflux-server.toml
 !/config/immersiveengineering-server.toml
 !/config/quark-common.toml
+!config/jei/client/recipe-category-sort-order.ini
 /crash-reports
 /debug
 /defaultconfigs
