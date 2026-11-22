@@ -1,5 +1,3 @@
-console.info('Loaded ccc_custom')
-
 StartupEvents.registry('item', e => {
     e.create('incomplete_netherite_upgrade', 'create:sequenced_assembly').displayName('Incomplete Netherite Upgrade')
 	e.create('amethyst_alloy').displayName('Amethyst Alloy').rarity('UNCOMMON')

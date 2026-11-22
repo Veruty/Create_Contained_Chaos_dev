@@ -1,5 +1,3 @@
-console.info('FUMO LOADED)')
-
 StartupEvents.registry('block', e => {
     e.create('alice_fumo','cardinal')
         .displayName('Alice Fumo')

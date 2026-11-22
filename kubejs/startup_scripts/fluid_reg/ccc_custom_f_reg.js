@@ -1,5 +1,3 @@
-console.info('Loaded ccc_custom (fluid)')
-
 StartupEvents.registry('fluid', e => {
 //   e.create('liquid_redstone', 'thick')
 //       .tint(0xC90000)

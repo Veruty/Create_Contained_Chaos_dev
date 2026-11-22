@@ -1,5 +1,3 @@
-console.info('Hello, World! (Loaded client scripts)')
-
 ItemEvents.modifyTooltips(event => {
   event.add('kubejs:godly_shard_abyssal', {shift: false}, Text.gray('[Shift]'))
   event.add('kubejs:godly_shard_abyssal', {shift: true}, Text.gray('Obtained by killing Leviathan (Cataclysm)'))

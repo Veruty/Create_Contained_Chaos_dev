@@ -1,6 +1,4 @@
 ServerEvents.recipes(e => {
-	console.log('randomshitfixes.js has loaded (probably idk)')
-	
 	//sifter ban
 	
 	//e.remove({ id: 'createsifter:andesite_mesh' })

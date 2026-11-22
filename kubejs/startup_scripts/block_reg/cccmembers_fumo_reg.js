@@ -1,5 +1,3 @@
-console.info('FUMO LOADED)')
-
 StartupEvents.registry('block', e => {
 	e.create('zalkat_fumo','cardinal')
         .displayName('ZalkaT Fumo')

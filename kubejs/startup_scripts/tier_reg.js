@@ -1,5 +1,3 @@
-console.info('Loaded tooltier')
-
 ItemEvents.toolTierRegistry(e => {
     e.add('unstable_alloy', tier => {
         tier.uses = 3062

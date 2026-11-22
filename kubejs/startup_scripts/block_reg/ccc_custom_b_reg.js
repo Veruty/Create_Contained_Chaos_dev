@@ -1,5 +1,3 @@
-console.info('Loaded ccc_custom (blocks)')
-
 StartupEvents.registry('block', e => {
     e.create('condensed_casing')
         .displayName('Condensed Casing')
