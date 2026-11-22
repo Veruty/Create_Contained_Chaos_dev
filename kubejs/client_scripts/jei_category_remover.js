@@ -1,0 +1,10 @@
+RecipeViewerEvents.removeCategories(e => {
+    e.remove('estrogen:liquid_estrogen_cauldron')
+    e.remove('minecraft:tag_recipes/worldgen/biome')
+    e.remove('petrolpark:flags')
+    e.remove('petrolpark:fluid_intrinsic_flags')
+    e.remove('petrolpark:item_intrinsic_flags')
+    e.remove('minecraft:tag_recipes/block')
+    e.remove('minecraft:tag_recipes/fluid')
+    e.remove('minecraft:tag_recipes/item')
+})
