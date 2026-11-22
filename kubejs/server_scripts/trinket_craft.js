@@ -6,7 +6,7 @@ event.shaped(
 ).id('kubejs:shrinking_trinket')
 
 event.shaped(
-  'kubejs:shrinking_trinket',
+  'kubejs:growing_trinket',
   [' # ', '#A#', ' # '],
   { '#': 'minecraft:iron_ingot', 'A': 'kubejs:legal_diamond' }
 ).id('kubejs:growing_trinket')
