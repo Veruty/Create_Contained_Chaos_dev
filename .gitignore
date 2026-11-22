@@ -10,6 +10,7 @@ command_history.txt
 !/config/immersiveengineering-server.toml
 !/config/quark-common.toml
 !/config/jei
+!/config/botania-common.toml
 config/jei/client/default/*
 config/jei/blacklist.json
 /config/jei/server

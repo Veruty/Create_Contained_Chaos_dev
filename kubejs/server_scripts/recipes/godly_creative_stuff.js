@@ -185,7 +185,8 @@ e.custom({
     "C": {
       "type": "neoforge:components",
       "items": "botania:laputa_shard",
-      "components": {"botania:shard_level":19}
+      "components": {"minecraft:custom_data":{level: 19}}
+      //"components": {"botania:shard_level":19}
     },
     "D": {
       "item": "botania:rune_sloth"
@@ -211,7 +212,8 @@ e.custom({
     "J": {
       "type": "neoforge:components",
       "items": "botania:terra_pick",
-      "components": {"botania:mana":2147483646}
+      //"components": {"botania:mana":2147483646}
+      "components": {"minecraft:custom_data":{mana: 2147483646}}
     },
     "K": {
       "item": "botania:rune_gluttony"
@@ -230,8 +232,8 @@ e.custom({
     "id": 'kubejs:botanic_godly_alloy'
   }
 })
-
-e.recipes.create.item_application('botania:creative_mana_pool', ['botania:fabulous_mana_pool', 'kubejs:botanic_godly_alloy'])
+e.recipes.create.item_application('botania:creative_pool', ['botania:fabulous_pool', 'kubejs:botanic_godly_alloy'])
+//e.recipes.create.item_application('botania:creative_mana_pool', ['botania:fabulous_mana_pool', 'kubejs:botanic_godly_alloy'])
 //energy things
 
 e.recipes.create.sequenced_assembly(
